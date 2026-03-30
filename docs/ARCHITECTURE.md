@@ -52,7 +52,14 @@ drumline-scores/
 │       ├── use-route.ts        # Syncs RouteState ↔ window.location.hash
 │       ├── use-season-data.ts  # Loads season + show data with loading/error states
 │       ├── use-cross-season.ts # Loads final show from each season for cross-year comparison
-│       └── use-favorite.ts     # Reactive localStorage-backed favorite ensemble
+│       ├── use-favorite.ts     # Reactive localStorage-backed favorite ensemble
+│       └── use-online-status.ts # Tracks navigator.onLine reactively
+│
+├── public/
+│   ├── sw.js                   # Service worker (cache-first shell, network-first data)
+│   ├── icon-192.svg            # PWA icon 192px
+│   ├── icon-512.svg            # PWA icon 512px
+│   └── manifest.json           # PWA manifest
 │
 ├── docs/
 │   ├── ARCHITECTURE.md         # ← This file
