@@ -87,6 +87,8 @@ export function App() {
               classId={route.classId}
               shows={classShows}
               highlight={route.highlight}
+              favoriteName={favorite?.ensembleName ?? null}
+              onToggleFavorite={handleToggleFavorite}
             />
           )}
           {route.view === 'standings' && (

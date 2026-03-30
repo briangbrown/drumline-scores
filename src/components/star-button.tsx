@@ -5,7 +5,7 @@ type StarButtonProps = {
 }
 
 export function StarButton({ isFavorited, onClick, size = 'sm' }: StarButtonProps) {
-  const sizeClass = size === 'sm' ? 'text-sm' : 'text-lg'
+  const sizeClass = size === 'sm' ? 'text-base' : 'text-xl'
 
   return (
     <button

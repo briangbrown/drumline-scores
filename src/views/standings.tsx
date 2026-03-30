@@ -234,7 +234,15 @@ export function StandingsView({
                         className="border-b border-border/50 hover:bg-surface-alt/50"
                       >
                         <td className="py-2 pr-4 text-text-muted">{e.rank}</td>
-                        <td className="py-2 pr-4 truncate max-w-[180px]">{e.ensembleName}</td>
+                        <td className="py-2 pr-4">
+                          <span className="flex items-center gap-1.5">
+                            <StarButton
+                              isFavorited={e.ensembleName === favoriteName}
+                              onClick={() => onToggleFavorite(e.ensembleName)}
+                            />
+                            <span className="truncate max-w-[120px] sm:max-w-[200px] lg:max-w-none">{e.ensembleName}</span>
+                          </span>
+                        </td>
                         {captionNames.map((cap, i) => {
                           const score = e.captions.find((c) => c.captionName === cap)?.captionTotal ?? 0
                           return (
