@@ -29,7 +29,7 @@ type StandingsViewProps = {
   shows: Array<ShowWithClass>
   selectedShowId: string | null
   onShowChange: (showId: string) => void
-  favoriteName: string | null
+  favoriteNames: Set<string>
   onToggleFavorite: (ensembleName: string) => void
 }
 
@@ -37,7 +37,7 @@ export function StandingsView({
   shows,
   selectedShowId,
   onShowChange,
-  favoriteName,
+  favoriteNames,
   onToggleFavorite,
 }: StandingsViewProps) {
   const [expandedEnsemble, setExpandedEnsemble] = useState<string | null>(null)
@@ -109,7 +109,7 @@ export function StandingsView({
               <ScoreCard
                 key={e.ensembleName}
                 ensemble={e}
-                isFavorited={e.ensembleName === favoriteName}
+                isFavorited={favoriteNames.has(e.ensembleName)}
                 isExpanded={e.ensembleName === expandedEnsemble}
                 onToggleFavorite={() => onToggleFavorite(e.ensembleName)}
                 onToggleExpand={() => setExpandedEnsemble(
@@ -254,7 +254,7 @@ export function StandingsView({
                         <td className="py-2 pr-4">
                           <span className="flex items-center gap-1.5">
                             <StarButton
-                              isFavorited={e.ensembleName === favoriteName}
+                              isFavorited={favoriteNames.has(e.ensembleName)}
                               onClick={() => onToggleFavorite(e.ensembleName)}
                             />
                             <span className="truncate max-w-[120px] sm:max-w-[200px] lg:max-w-none">{e.ensembleName}</span>
