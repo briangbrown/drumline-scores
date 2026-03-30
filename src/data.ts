@@ -72,6 +72,30 @@ export async function loadEnsembleRegistry(): Promise<EnsembleRegistry> {
 }
 
 /**
+ * Load the last show (typically finals) from each available season.
+ * Used for cross-season comparison.
+ */
+export async function loadFinalShowPerSeason(): Promise<Array<ShowData>> {
+  const years = await loadAvailableYears()
+  const results: Array<ShowData> = []
+
+  for (const year of years) {
+    try {
+      const season = await loadSeasonMetadata(year)
+      if (season.shows.length === 0) continue
+      // Last show in the list is typically finals/championships
+      const lastShow = season.shows[season.shows.length - 1]
+      const showData = await loadShowData(year, lastShow.id)
+      results.push(showData)
+    } catch {
+      // Skip years that fail to load
+    }
+  }
+
+  return results
+}
+
+/**
  * Load the list of available seasons from the years manifest.
  */
 export async function loadAvailableYears(): Promise<Array<number>> {

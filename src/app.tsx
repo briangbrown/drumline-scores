@@ -5,6 +5,7 @@ import { useSeasonData } from './hooks/use-season-data'
 import { useFavorite } from './hooks/use-favorite'
 import { ProgressionView } from './views/progression'
 import { StandingsView } from './views/standings'
+import { CrossSeasonView } from './views/cross-season'
 import { MyEnsembleView } from './views/my-ensemble'
 import { Loading, ErrorMessage } from './components/loading'
 
@@ -99,6 +100,11 @@ export function App() {
               onShowChange={setShowId}
               favoriteName={favorite?.ensembleName ?? null}
               onToggleFavorite={handleToggleFavorite}
+            />
+          )}
+          {route.view === 'cross-season' && (
+            <CrossSeasonView
+              initialEnsemble={favorite?.ensembleName ?? route.highlight}
             />
           )}
         </>

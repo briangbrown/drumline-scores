@@ -38,6 +38,11 @@ describe('parseRoute', () => {
     expect(state.highlight).toBe('longmont')
   })
 
+  it('should parse cross-season view', () => {
+    const state = parseRoute('#/2025/percussion-scholastic-a/cross-season')
+    expect(state.view).toBe('cross-season')
+  })
+
   it('should handle invalid year gracefully', () => {
     const state = parseRoute('#/notayear')
     expect(state.year).toBe(2025) // default

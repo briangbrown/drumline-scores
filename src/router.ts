@@ -3,7 +3,7 @@
 // URL shape: #/<year>/<classId>/<view>?show=<showId>&highlight=<ensemble>
 // ---------------------------------------------------------------------------
 
-export type ViewType = 'progression' | 'standings'
+export type ViewType = 'progression' | 'standings' | 'cross-season'
 
 export type RouteState = {
   year: number
@@ -55,7 +55,7 @@ export function parseRoute(hash: string): RouteState {
 
   if (segments.length >= 3) {
     const view = segments[2] as ViewType
-    if (view === 'progression' || view === 'standings') {
+    if (view === 'progression' || view === 'standings' || view === 'cross-season') {
       state.view = view
     }
   }
