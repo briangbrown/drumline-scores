@@ -24,9 +24,12 @@ npm run dev            # Start Vite dev server (hot reload)
 npm run build          # tsc type-check + Vite production build
 npm run preview        # Serve the dist/ build locally
 npm test               # Run Vitest unit tests
+npx vitest run --coverage  # Run tests with coverage thresholds
 ```
 
-**Always run `npm test && npm run build` after code changes** to confirm all tests pass and the build compiles.
+**Always run `npx vitest run --coverage && npm run build` after code changes** to confirm all tests pass, coverage thresholds are met, and the build compiles. Do this **before every commit** — CI enforces coverage thresholds and will fail if they are not met.
+
+When adding new modules, check if they need to be excluded from coverage in `vitest.config.ts` (CLI scripts, browser-only code like hooks/data loaders, React components are already excluded).
 
 ---
 
