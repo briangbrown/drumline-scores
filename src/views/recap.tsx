@@ -5,7 +5,9 @@ import type { EnsembleScore, ClassResult } from '../types'
 // Caption colors matching the design system
 const CAPTION_COLORS: Record<string, string> = {
   'Effect – Music': '#cc7a5a',
+  'Effect - Music': '#cc7a5a',
   'Effect – Visual': '#6aab8e',
+  'Effect - Visual': '#6aab8e',
   'Effect': '#cc7a5a',
   'Music': '#c4985a',
   'Visual': '#8a7ab8',
