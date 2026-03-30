@@ -1,0 +1,56 @@
+{
+  "year": 2020,
+  "shows": [
+    {
+      "id": "2020-rmpa-contest-1-february-15",
+      "eventName": "RMPA Contest #1",
+      "date": "Saturday, February 15, 2020",
+      "round": ""
+    },
+    {
+      "id": "2020-rmpa-contest-2-february-22",
+      "eventName": "RMPA Contest #2",
+      "date": "Saturday, February 22, 2020",
+      "round": ""
+    },
+    {
+      "id": "2020-rmpa-contest-3-february-29",
+      "eventName": "RMPA contest #3",
+      "date": "Saturday, February 29, 2020",
+      "round": ""
+    }
+  ],
+  "classes": [
+    {
+      "id": "percussion-scholastic-concert-a",
+      "name": "Percussion Scholastic Concert A",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-a",
+      "name": "Percussion Scholastic A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-open",
+      "name": "Percussion Scholastic Concert Open",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-independent-world",
+      "name": "Percussion Independent World",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-national-a",
+      "name": "Percussion Scholastic National A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-independent-open",
+      "name": "Percussion Independent Open",
+      "classType": "marching"
+    }
+  ],
+  "incomplete": true
+}

@@ -1,0 +1,261 @@
+{
+  "metadata": {
+    "id": "2023-virtual-rmpa-show-3-march-17",
+    "eventName": "VIRTUAL - RMPA Show #3",
+    "venue": "",
+    "date": "Friday, March 17, 2023",
+    "round": "",
+    "year": 2023
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-regional-a",
+        "name": "Percussion Scholastic Concert Regional A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Arvada High School",
+          "location": "Arvada, Colorado",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Sammons",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 0
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 0
+                    }
+                  ],
+                  "total": 38.9,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 0
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 69,
+                      "rank": 0
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 35.1,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 74,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 74,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-standstill-a",
+        "name": "Percussion Scholastic Standstill A",
+        "classType": "standstill"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Heritage High School",
+          "location": "Littleton, CO",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Sammons",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 0
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 0
+                    }
+                  ],
+                  "total": 39.9,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 68,
+              "captionRank": 0
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 65,
+                      "rank": 0
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 33.1,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 73,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 73,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-regional-a",
+        "name": "Percussion Scholastic Regional A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Burlington High School",
+          "location": "Burlington, CO",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 61,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 60,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 18.15,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 65,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "E. Sabach",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 63,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 12.8,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 66,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 66,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Sammons",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 19.8,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 66,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 60,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 12.6,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Lee",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 63.35,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 63.35,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 63.35,
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}

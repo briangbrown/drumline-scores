@@ -1,0 +1,104 @@
+{
+  "year": 2023,
+  "shows": [
+    {
+      "id": "2023-rmpa-show-1-february-18",
+      "eventName": "RMPA Show #1",
+      "date": "Saturday, February 18, 2023",
+      "round": ""
+    },
+    {
+      "id": "2023-rmpa-show-2-march-4",
+      "eventName": "RMPA Show #2",
+      "date": "Saturday, March 4, 2023",
+      "round": ""
+    },
+    {
+      "id": "2023-virtual-rmpa-show-3-march-17",
+      "eventName": "VIRTUAL - RMPA Show #3",
+      "date": "Friday, March 17, 2023",
+      "round": ""
+    },
+    {
+      "id": "2023-rmpa-show-3-march-18",
+      "eventName": "RMPA Show #3",
+      "date": "Saturday, March 18, 2023",
+      "round": ""
+    },
+    {
+      "id": "2023-rmpa-show-4-april-1",
+      "eventName": "RMPA Show #4",
+      "date": "Saturday, April 1, 2023",
+      "round": ""
+    },
+    {
+      "id": "2023-rmpa-championships-april-8",
+      "eventName": "RMPA Championships",
+      "date": "Saturday, April 8, 2023",
+      "round": "Prelims"
+    },
+    {
+      "id": "2023-rmpa-championships-april-15",
+      "eventName": "RMPA Championships",
+      "date": "Saturday, April 15, 2023",
+      "round": "Finals"
+    }
+  ],
+  "classes": [
+    {
+      "id": "percussion-scholastic-concert-regional-a",
+      "name": "Percussion Scholastic Concert Regional A",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-regional-a",
+      "name": "Percussion Scholastic Regional A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-a",
+      "name": "Percussion Scholastic Concert A",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-standstill-a",
+      "name": "Percussion Scholastic Standstill A",
+      "classType": "standstill"
+    },
+    {
+      "id": "percussion-scholastic-a",
+      "name": "Percussion Scholastic A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-independent-a",
+      "name": "Percussion Independent A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-standstill-regional-a",
+      "name": "Percussion Scholastic Standstill Regional A",
+      "classType": "standstill"
+    },
+    {
+      "id": "percussion-scholastic-open",
+      "name": "Percussion Scholastic Open",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-open",
+      "name": "Percussion Scholastic Concert Open",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-independent-standstill-a",
+      "name": "Percussion Independent Standstill A",
+      "classType": "standstill"
+    },
+    {
+      "id": "percussion-independent-world",
+      "name": "Percussion Independent World",
+      "classType": "marching"
+    }
+  ]
+}

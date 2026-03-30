@@ -1,0 +1,2349 @@
+{
+  "metadata": {
+    "id": "2015-rmpa-competition-february-28-pomona-high-school",
+    "eventName": "RMPA Competition",
+    "venue": "Pomona High School",
+    "date": "Saturday, February 28, 2015 - Pomona High School",
+    "round": "",
+    "year": 2015
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "novice",
+        "name": "Novice",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Castleview High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 62,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 59,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 30.1,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 35.4,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 65.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 65.5,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Standley Lake High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 59,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 57,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 28.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 66,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 33,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 61.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 61.9,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Wheat Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 66,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 34.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 86,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 41.8,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 76,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 76,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Dakota Ridge High School \"A\"",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 69,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 34.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 82,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 39.8,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 74.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 74.5,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Douglas County High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 65,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 63,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 31.9,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 37.8,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 69.7,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 69.7,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Highlands Ranch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 65,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 32.7,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 70,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 35.6,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 68.3,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 1.15,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 1.15,
+          "penalty": -1.15,
+          "total": 67.15,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 63,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 61,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 30.9,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 75,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 36.9,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 67.8,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 2.35,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 2.35,
+          "penalty": -2.35,
+          "total": 65.45,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 79,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 32.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 75,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 71,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 29,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 83,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 16.4,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Longmont High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 78,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 76,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 30.8,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 76,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 73,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 29.65,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 80,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 15.8,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 76.25,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 0.1,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -0.1,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.1,
+          "penalty": -0.1,
+          "total": 76.15,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Doherty High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 76,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 74,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 30,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 73,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 72,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 28.95,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 75,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 73,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 14.8,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 73.75,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 73.75,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Pomona High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 70,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 68,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 27.6,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 78,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 30.3,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 67,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 65,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 13.2,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 71.1,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 71.1,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Thompson Valley High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 72,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 67,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 27.8,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 63,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 60,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 24.45,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 74,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 70,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 14.4,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 66.65,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 66.65,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Sand Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 68,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 65,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 26.6,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 68,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 66,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 26.7,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 66,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 64,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 13,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 66.3,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 66.3,
+          "rank": 6
+        },
+        {
+          "ensembleName": "Rampart High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 67,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 64,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 26.2,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 66,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 62,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 25.4,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 70,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 69,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 13.9,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 65.5,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 0.25,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -0.25,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.25,
+          "penalty": -0.25,
+          "total": 65.25,
+          "rank": 7
+        },
+        {
+          "ensembleName": "Thunder Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 65,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 63,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 25.6,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 69,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 64,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 26.35,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 64,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 62,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 12.6,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 64.55,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 0.3,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -0.3,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.3,
+          "penalty": -0.3,
+          "total": 64.25,
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Golden High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 37.3,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 86,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 42.7,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 80,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Dakota Ridge High School \"Open\"",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 37.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 84,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 41.4,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 79.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.2,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Evergreen High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 66,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 33.8,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 39.1,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 72.9,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 72.9,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Air Academy High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 72,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 36.6,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 36.1,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 72.7,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 72.7,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Alameda International High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 67,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 33.7,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 38.4,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 72.1,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 72.1,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Mesa Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 35.6,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 34.8,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 70.4,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 70.4,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-open",
+        "name": "Percussion Scholastic Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Silver Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 32.8,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 79,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 78,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 31.35,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 78,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 76,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 15.4,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 79.55,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.55,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Centaurus High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 33.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 76,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 73,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 29.65,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 79,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 77,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 15.6,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78.45,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.45,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Monarch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 78,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 75,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 30.6,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 83,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 32.2,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 70,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 68,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 13.8,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 76.6,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 76.6,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Fairview High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 76,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 72,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 29.6,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 76,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 31,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 73,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 14.4,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 75,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 75,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-world",
+        "name": "Percussion Scholastic Concert World",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Chaparral High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 40.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 88,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 44,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 84.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 84.7,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Arapahoe High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 39.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 84,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 42,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 81.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 81.5,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Bear Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 39.1,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 38.8,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 77.9,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 77.9,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Pine Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 36.5,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 38.4,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 74.9,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 74.9,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Cherry Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 36.9,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 76,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 37.4,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 74.3,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 74.3,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Blue Knights",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 33.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 85,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 33.25,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 85,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 83,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 16.8,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83.25,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.25,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Rise Percussion",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 80,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 32,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 83,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 32.2,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 79,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 77,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 15.6,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 79.8,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.8,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Altitude Percussion",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 78,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 31.2,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 77,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 31.25,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 74,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 14.6,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 77.05,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 10.5,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -10.5,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 10.5,
+          "penalty": -10.5,
+          "total": 66.55,
+          "rank": 3
+        }
+      ]
+    }
+  ]
+}

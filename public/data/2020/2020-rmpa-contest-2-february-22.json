@@ -1,0 +1,1929 @@
+{
+  "metadata": {
+    "id": "2020-rmpa-contest-2-february-22",
+    "eventName": "RMPA Contest #2",
+    "venue": "Centaurus High School",
+    "date": "Saturday, February 22, 2020",
+    "round": "",
+    "year": 2020
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Wheat Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 38.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 77,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 37.6,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 76.1,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 76.1,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Highlands Ranch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 36.6,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 75,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 36.3,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 72.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 72.9,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Mesa Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 36.3,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 34.6,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 70.9,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 70.9,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Ponderosa High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 72,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 37,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 73.5,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70.5,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 35.85,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 72.85,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 2.7,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 72.85,
+          "penalty": 2.7,
+          "total": 70.15,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Bear Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 69,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 35.3,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 67.5,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 34.65,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 69.95,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 69.95,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Eaglecrest High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 69,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 33,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 70,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 64.5,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 33.35,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 66.35,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 66.35,
+          "rank": 6
+        },
+        {
+          "ensembleName": "Englewood High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 61,
+                      "rank": 10
+                    }
+                  ],
+                  "total": 31.5,
+                  "rank": 10
+                }
+              ],
+              "captionTotal": 68.5,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 67,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 33.8,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 65.3,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 65.3,
+          "rank": 7
+        },
+        {
+          "ensembleName": "Evergreen High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 32.8,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 67,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 63,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 32.3,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 65.1,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 65.1,
+          "rank": 8
+        },
+        {
+          "ensembleName": "Gateway High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 65,
+                      "rank": 10
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 62,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 31.6,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 66,
+              "captionRank": 10
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 62,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 31.8,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 63.4,
+                  "rank": 10
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 63.4,
+          "rank": 9
+        },
+        {
+          "ensembleName": "William J Palmer High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 67,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 63,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 32.3,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 66.5,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 61,
+                      "rank": 10
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 31.6,
+                      "rank": 10
+                    }
+                  ],
+                  "total": 63.9,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 0.55,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 63.9,
+          "penalty": 0.55,
+          "total": 63.35,
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Windsor High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 65,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 20,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 73,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 22.05,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 74,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 14.5,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 72,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 14.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Duke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71.05,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0.1,
+                      "rank": null
+                    }
+                  ],
+                  "total": 70.95,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 71.05,
+          "penalty": 0.1,
+          "total": 70.95,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Rampart High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 21.3,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 69,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 21,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 63,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 62,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 12.5,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 70,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 14.1,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Duke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68.9,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 1.35,
+                      "rank": null
+                    }
+                  ],
+                  "total": 67.55,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 68.9,
+          "penalty": 1.35,
+          "total": 67.55,
+          "rank": 2
+        },
+        {
+          "ensembleName": "District 49",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 65,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 61,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 18.7,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 65,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 63,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 19.2,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 65,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 65,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 13,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 67,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 67,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 13.4,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Duke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 64.3,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0.6,
+                      "rank": null
+                    }
+                  ],
+                  "total": 63.7,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 64.3,
+          "penalty": 0.6,
+          "total": 63.7,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Standley Lake High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 67,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 63,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 19.3,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 67,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 19.95,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 70,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 67,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 13.7,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 69,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 68,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 13.7,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Duke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66.65,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 2.95,
+                      "rank": null
+                    }
+                  ],
+                  "total": 63.7,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 66.65,
+          "penalty": 2.95,
+          "total": 63.7,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Doherty High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 62,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 59,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 18,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 59,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 61,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 18,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 60,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 58,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 11.8,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 65,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 63,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 12.8,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Duke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 60.6,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 60.6,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 60.6,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-national-a",
+        "name": "Percussion Scholastic National A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Longmont High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 23,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 82.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 24.075,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 85,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 84,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 16.9,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 84,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.7,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Duke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80.675,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 80.675,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80.675,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Monarch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 23.1,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75.5,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 23.025,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 82,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 16.3,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 77,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 15.5,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Duke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77.925,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 77.925,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 77.925,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Centaurus High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74.5,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 22.7,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 77,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 22.95,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 80,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 15.8,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 75,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 15.2,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Duke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76.65,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 1.05,
+                      "rank": null
+                    }
+                  ],
+                  "total": 75.6,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 76.65,
+          "penalty": 1.05,
+          "total": 75.6,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Fairview High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78.5,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 22.65,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 74,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 22.05,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 77,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 74,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 15.1,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 73,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 14.7,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Duke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74.5,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 1.7,
+                      "rank": null
+                    }
+                  ],
+                  "total": 72.8,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 74.5,
+          "penalty": 1.7,
+          "total": 72.8,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Lakewood High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 39,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 83,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 40.3,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 79.3,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.3,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Dakota Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 38,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 76,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 38,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 76,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 76,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 37.9,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 75,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 36.9,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 74.8,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 74.8,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Rock Canyon High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 64,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 60,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 30.8,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 40.2,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 71,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 71,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Blue Knights Percussion Ensemble",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Haskell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 22.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 23.7,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 80,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 16,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 82,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.2,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Duke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78.7,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 78.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.7,
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}

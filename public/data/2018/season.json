@@ -1,0 +1,78 @@
+{
+  "year": 2018,
+  "shows": [
+    {
+      "id": "2018-contest-1-february-24",
+      "eventName": "Contest #1",
+      "date": "Saturday, February 24, 2018",
+      "round": ""
+    },
+    {
+      "id": "2018-contest-2-march-3",
+      "eventName": "Contest #2",
+      "date": "Saturday, March 3, 2018",
+      "round": ""
+    },
+    {
+      "id": "2018-contest-3-march-10",
+      "eventName": "Contest #3",
+      "date": "Saturday, March 10, 2018",
+      "round": ""
+    },
+    {
+      "id": "2018-contest-4-march-24",
+      "eventName": "Contest #4",
+      "date": "Saturday, March 24, 2018",
+      "round": ""
+    },
+    {
+      "id": "2018-contest-5-march-31",
+      "eventName": "Contest #5",
+      "date": "Saturday, March 31, 2018",
+      "round": ""
+    },
+    {
+      "id": "2018-rmpa-state-championships-april-14",
+      "eventName": "RMPA State Championships",
+      "date": "Saturday, April 14, 2018",
+      "round": "Finals"
+    }
+  ],
+  "classes": [
+    {
+      "id": "percussion-scholastic-concert-a",
+      "name": "Percussion Scholastic Concert A",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-a",
+      "name": "Percussion Scholastic A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-open",
+      "name": "Percussion Scholastic Concert Open",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-independent-open",
+      "name": "Percussion Independent Open",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-independent-world",
+      "name": "Percussion Independent World",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-national-a",
+      "name": "Percussion Scholastic National A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-independent-a",
+      "name": "Percussion Independent A",
+      "classType": "marching"
+    }
+  ]
+}

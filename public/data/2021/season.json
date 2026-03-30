@@ -1,0 +1,77 @@
+{
+  "year": 2021,
+  "shows": [
+    {
+      "id": "2021-rmpa-regular-season-show-1-march-5",
+      "eventName": "RMPA Regular Season Show #1",
+      "date": "Friday, March 5, 2021",
+      "round": ""
+    },
+    {
+      "id": "2021-rmpa-regular-season-show-2-march-13",
+      "eventName": "RMPA Regular Season Show #2",
+      "date": "Saturday, March 13, 2021",
+      "round": ""
+    },
+    {
+      "id": "2021-rmpa-regular-season-show-3-march-20",
+      "eventName": "RMPA Regular Season Show #3",
+      "date": "Saturday, March 20, 2021",
+      "round": ""
+    },
+    {
+      "id": "2021-rmpa-championships-april-2",
+      "eventName": "RMPA Championships",
+      "date": "Friday, April 2, 2021",
+      "round": "Prelims"
+    },
+    {
+      "id": "2021-rmpa-championships-april-9",
+      "eventName": "RMPA Championships",
+      "date": "Friday, April 9, 2021",
+      "round": "Finals"
+    }
+  ],
+  "classes": [
+    {
+      "id": "percussion-scholastic-concert-a",
+      "name": "Percussion Scholastic Concert A",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-standstill-a",
+      "name": "Percussion Scholastic Standstill A",
+      "classType": "standstill"
+    },
+    {
+      "id": "percussion-scholastic-a",
+      "name": "Percussion Scholastic A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-open",
+      "name": "Percussion Scholastic Concert Open",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-independent-world",
+      "name": "Percussion Independent World",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-open",
+      "name": "Percussion Scholastic Open",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-regional-a",
+      "name": "Percussion Scholastic Regional A",
+      "classType": "marching"
+    },
+    {
+      "id": "small-ensemble-percussion-independent",
+      "name": "Small Ensemble - Percussion Independent",
+      "classType": "standstill"
+    }
+  ]
+}

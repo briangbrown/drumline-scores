@@ -12,6 +12,8 @@ export default defineConfig({
         'src/**/*.tsx',
         'src/main.tsx',
         'src/import.ts',
+        'src/data.ts',
+        'src/hooks/**',
       ],
       thresholds: {
         lines: 80,

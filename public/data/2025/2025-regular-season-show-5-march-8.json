@@ -1,0 +1,2214 @@
+{
+  "metadata": {
+    "id": "2025-regular-season-show-5-march-8",
+    "eventName": "Regular Season Show #5",
+    "venue": "Longmont High School",
+    "date": "Saturday, March 8, 2025",
+    "round": "",
+    "year": 2025
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-regional-a",
+        "name": "Percussion Scholastic Concert Regional A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Arvada High School",
+          "location": "Arvada, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 75,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 72,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 36.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 70,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 65,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 33.5,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 70.1,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 70.1,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-standstill-regional-a",
+        "name": "Percussion Scholastic Standstill Regional A",
+        "classType": "standstill"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "William J Palmer High School",
+          "location": "Colorado Springs, CO",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 68,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 65,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 33.1,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 67,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 34.5,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 67.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 5.1,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 67.6,
+          "penalty": 5.1,
+          "total": 62.5,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-regional-a",
+        "name": "Percussion Scholastic Regional A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "Westminster, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 73,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 70,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 21.45,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 74,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "B. Firkus",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 72,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 14.6,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 73,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 70,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 21.3,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 68,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 67,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 13.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 70.85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 70.85,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 70.85,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Chaparral High School",
+          "location": "Aurora, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 70,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 67,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 20.55,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "B. Firkus",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 67,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 13.8,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 75,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 74,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 22.3,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 64,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 62,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 12.6,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 69.25,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 69.25,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 69.25,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Mountain Vista Winter Percussion",
+          "location": "Highlands Ranch",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 67,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 63,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 19.5,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 63,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "B. Firkus",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 63,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 12.6,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 74,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 73,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 22,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 66.5,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 68,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 13.45,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 67.55,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 67.55,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 67.55,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Columbine High School",
+          "location": "Littleton, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 66,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 65,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 19.65,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 69,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "B. Firkus",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 68,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 13.7,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 76,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 75,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 22.6,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 63,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 61.5,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 12.45,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 68.4,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 1.35,
+                      "rank": null
+                    }
+                  ],
+                  "total": 67.05,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 68.4,
+          "penalty": 1.35,
+          "total": 67.05,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Heritage Indoor Percussion",
+          "location": "Littleton, CO",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 69,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 69,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 20.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "B. Firkus",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 70,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 14.2,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 72,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 21.6,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 65,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 64,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 12.9,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 69.4,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 2.95,
+                      "rank": null
+                    }
+                  ],
+                  "total": 66.45,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 69.4,
+          "penalty": 2.95,
+          "total": 66.45,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Sand Creek Winter Percussions",
+          "location": "Colorado Springs, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 65,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 61,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 18.9,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 66,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "B. Firkus",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 65,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 13.1,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 70,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 69,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 20.8,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 62,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 61,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 12.3,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 65.1,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 65.1,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 65.1,
+          "rank": 6
+        },
+        {
+          "ensembleName": "Windsor Percussion Ensemble",
+          "location": "Windsor High School, 1100 Main St., Windsor, CO 80550",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 63,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 60,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 18.45,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 61,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "B. Firkus",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 60,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 12.1,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 71,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 67,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 20.5,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 60,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 60,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 12,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 63.05,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 63.05,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 63.05,
+          "rank": 7
+        },
+        {
+          "ensembleName": "Pueblo Central High School",
+          "location": "Pueblo, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 59,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 56,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 17.25,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 57,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "B. Firkus",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 56,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 11.3,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 58,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 58,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 17.4,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 58,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 57,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 11.5,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 57.45,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 57.45,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 57.45,
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Castle View High School Percussion Ensemble",
+          "location": "Castle Rock, CO",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 75,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 71,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 36.3,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 79,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 39.9,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 76.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 76.2,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Evergreen High School",
+          "location": "Evergreen, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 74,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 37.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 76,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 38.4,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 75.8,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 75.8,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-standstill-a",
+        "name": "Percussion Scholastic Standstill A",
+        "classType": "standstill"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Lakewood Winter Percussion",
+          "location": "Lakewood",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 82,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 76,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 39.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 84,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 41.4,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 80.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80.6,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Trojan Percussion Ensemble",
+          "location": "Fountain, CO",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 83,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 79,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 40.3,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 79,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 76,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 38.6,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 78.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.9,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Highlands Ranch Falcon Percussion Ensemble",
+          "location": "Highlands Ranch, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 79,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 77,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 38.9,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 77,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 77,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 38.5,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 77.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 77.4,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Longmont Winter Percussion",
+          "location": "Longmont, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 24.15,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 86,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "B. Firkus",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 17,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 87,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 86,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 25.9,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 85,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 17.1,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84.15,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 84.15,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 84.15,
+          "rank": 1
+        },
+        {
+          "ensembleName": "District 49 Indoor Percussion",
+          "location": "Colorado Springs, CO",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 78,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 23.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "B. Firkus",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 76,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 15.4,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 84,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 24.4,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 75,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 75,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 15,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78.5,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 78.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.5,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "Broomfield, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 81,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 40.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 86,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 42.4,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 83.1,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.1,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Bear Creek High School Percussion Ensemble",
+          "location": "Lakewood, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 77,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 75,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 37.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 79,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 78,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 39.2,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 77.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 77.1,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-open",
+        "name": "Percussion Scholastic Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Fossil Ridge High School",
+          "location": "Fort Collins, CO",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 24.45,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 77,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "B. Firkus",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 75,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 15.2,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 83,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 23.9,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 80,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 16.1,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 79.65,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 79.65,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.65,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Academy School District",
+          "location": "Colorado Springs, CO",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 76,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 23.1,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "B. Firkus",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 77,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 15.5,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 80,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 77,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 23.4,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 81,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.4,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78.4,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 78.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.4,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Loveland Indoor Percussion",
+          "location": "Loveland, CO",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 24.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "B. Firkus",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 79,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 15.9,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 82,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 24.2,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 80,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 78,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 15.8,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80.5,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 2.55,
+                      "rank": null
+                    }
+                  ],
+                  "total": 77.95,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 80.5,
+          "penalty": 2.55,
+          "total": 77.95,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-world",
+        "name": "Percussion Scholastic World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Legacy Winter Percussion",
+          "location": "Broomfield",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 22.95,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 77,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "B. Firkus",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 74,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 15.1,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 83,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 79,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 24.1,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 80,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78.15,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 78.15,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.15,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Blue Knights Percussion Ensemble",
+          "location": "Denver, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "M. Jordan",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 24.15,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "B. Firkus",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 16.3,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 84,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 24.4,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 78,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 15.7,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80.55,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 80.55,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80.55,
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "id": "2022-rmpa-championship-finals-virtual-april-15",
+    "eventName": "RMPA Championship Finals - Virtual",
+    "venue": "",
+    "date": "Friday, April 15, 2022",
+    "round": "",
+    "year": 2022
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-standstill-a",
+        "name": "Percussion Scholastic Standstill A",
+        "classType": "standstill"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Mesa Ridge Percussion Ensemble",
+          "location": "Colorado Springs, CO",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "B. Maughmer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 41.1,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "T. Sammons",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 39.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 40.45,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 35.9,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 37.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 36.75,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 36.75,
+          "penalty": 0,
+          "total": 77.2,
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}

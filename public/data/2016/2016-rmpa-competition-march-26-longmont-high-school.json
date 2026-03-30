@@ -1,0 +1,1542 @@
+{
+  "metadata": {
+    "id": "2016-rmpa-competition-march-26-longmont-high-school",
+    "eventName": "RMPA Competition",
+    "venue": "Longmont High School",
+    "date": "Saturday, March 26, 2016 - Longmont High School",
+    "round": "",
+    "year": 2016
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "novice",
+        "name": "Novice",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Standley Lake High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 0,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 0,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 0,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 0,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Tilley",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 0,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 0,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 0,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 0,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Wheat Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 40.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 84,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 42,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 82.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 82.7,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Highlands Ranch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 41.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 79,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 39.2,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 80.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0.3,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.3,
+          "penalty": -0.3,
+          "total": 80.1,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Evergreen High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 37.8,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 75,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 37.2,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 75,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 75,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Englewood High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 72,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 36.6,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 73,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 37.1,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 73.7,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0.25,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.25,
+          "penalty": -0.25,
+          "total": 73.45,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Longmont High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 25,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 23.55,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 90,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 90,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Tilley",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 18,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 83,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.7,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83.25,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 83.25,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.25,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Doherty High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 24.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 70,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 21.15,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 85,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Tilley",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 16.5,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 79,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 15.8,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77.55,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 77.55,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 77.55,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 22.1,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 74,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 21.9,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 80,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Tilley",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 16.1,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 74,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 15,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75.1,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 75.1,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 75.1,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Thunder Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 23.1,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 20.85,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 83,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 79,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Tilley",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 16.2,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 69,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 67,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 13.6,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73.75,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 73.75,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 73.75,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Pomona High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 69,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 20.9,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 68,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 69,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 20.55,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 77,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 76,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Tilley",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 15.3,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 68,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 13.8,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70.55,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 70.55,
+              "captionRank": 5
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 70.55,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Dakota Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 44.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 91,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 44.9,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 89.1,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 89.1,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Chaparral High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 40.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 86,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 42.4,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 83.3,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.3,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Silver Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 40.1,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 85,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 41.9,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 82,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 82,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 40,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 83,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83.5,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 41.65,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 81.65,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0.1,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.1,
+          "penalty": -0.1,
+          "total": 81.55,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Golden High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 38.9,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 84,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 41.1,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 80,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-open",
+        "name": "Percussion Scholastic Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Monarch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 23.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 24.15,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 83,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 82,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Tilley",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 16.5,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 79,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.1,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79.85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 79.85,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.85,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Centaurus High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 23.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 24,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 81,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 79,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Tilley",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 16,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 77,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 15.7,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79.3,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 79.3,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.3,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Blue Knights",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 22.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 82,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 24.6,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 84,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Tilley",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 16.5,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 83,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80.2,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 80.2,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80.2,
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}

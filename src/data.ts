@@ -8,6 +8,7 @@ const cache = {
   seasons: new Map<number, SeasonMetadata>(),
   shows: new Map<string, ShowData>(),
   registry: null as EnsembleRegistry | null,
+  years: null as Array<number> | null,
 }
 
 // ---------------------------------------------------------------------------
@@ -71,9 +72,15 @@ export async function loadEnsembleRegistry(): Promise<EnsembleRegistry> {
 }
 
 /**
- * Get the list of available seasons.
- * For now, returns a hardcoded list. Will be dynamic once we have a manifest.
+ * Load the list of available seasons from the years manifest.
  */
-export function getAvailableYears(): Array<number> {
-  return [2025]
+export async function loadAvailableYears(): Promise<Array<number>> {
+  if (cache.years) return cache.years
+
+  const resp = await fetch('/data/years.json')
+  if (!resp.ok) return [2025]
+
+  const data = await resp.json() as { years: Array<number> }
+  cache.years = data.years
+  return data.years
 }

@@ -1,0 +1,2468 @@
+{
+  "metadata": {
+    "id": "2018-contest-5-march-31",
+    "eventName": "Contest #5",
+    "venue": "Longmont, Colorado @ Longmont High School",
+    "date": "Saturday, March 31, 2018",
+    "round": "",
+    "year": 2018
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Wheat Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 43.3,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 90,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 45,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 88.3,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 88.3,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Ponderosa High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 40.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 88,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 43.7,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 84.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 84.4,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Douglas County High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80.5,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 40.1,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 83,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 41.8,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 81.9,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 81.9,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Arvada High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 38.5,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 82,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 41,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 79.5,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.5,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Pomona High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78.5,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 39.15,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 79,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 40.1,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 79.25,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.25,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Englewood High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 39.1,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 38.7,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 77.8,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 77.8,
+          "rank": 6
+        },
+        {
+          "ensembleName": "Golden High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 39.2,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 76,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 38,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 77.2,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 77.2,
+          "rank": 7
+        },
+        {
+          "ensembleName": "Highlands Ranch High School - A",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 35.7,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 77,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 39.4,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 75.1,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 75.1,
+          "rank": 8
+        },
+        {
+          "ensembleName": "Rangeview High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 36.5,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 74,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 37,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 73.5,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 73.5,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83.5,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 25.15,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 24.3,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 77,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 75,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 15.2,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 81,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.6,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81.25,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 1.15,
+                      "rank": null
+                    }
+                  ],
+                  "total": 80.1,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 81.25,
+          "penalty": 1.15,
+          "total": 80.1,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Chaparral High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 24.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 23.55,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 76,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 77,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 15.3,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 80,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 16.2,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79.95,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 79.95,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.95,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Pine Creek High School - A",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 24.5,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 75,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 22.5,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 73,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 70,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 14.3,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 75,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 14.8,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76.1,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0.95,
+                      "rank": null
+                    }
+                  ],
+                  "total": 75.15,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 76.1,
+          "penalty": 0.95,
+          "total": 75.15,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Doherty High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 23,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 21.45,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 76.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 15.45,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 67,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 66,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 13.3,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73.2,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0.75,
+                      "rank": null
+                    }
+                  ],
+                  "total": 72.45,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 73.2,
+          "penalty": 0.75,
+          "total": 72.45,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Thunder Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 23.3,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 70,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 20.7,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 70,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 69,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 13.9,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 68,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 13.8,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71.7,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 71.7,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 71.7,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Windsor High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 67,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 67,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 20.1,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 69,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 20.85,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 65,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 64,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 12.9,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 65,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 65,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 13,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66.85,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 2.4,
+                      "rank": null
+                    }
+                  ],
+                  "total": 64.45,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 66.85,
+          "penalty": 2.4,
+          "total": 64.45,
+          "rank": 6
+        },
+        {
+          "ensembleName": "Standley Lake High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 65.5,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 19.9,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 21.75,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 63,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 62,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 12.5,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 63,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 12.7,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66.85,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 3.55,
+                      "rank": null
+                    }
+                  ],
+                  "total": 63.3,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 66.85,
+          "penalty": 3.55,
+          "total": 63.3,
+          "rank": 7
+        },
+        {
+          "ensembleName": "Central High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 64,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 63,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 19,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 61,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 60,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 18.15,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 61,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 61,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 12.2,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 60,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 60,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 12,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 61.35,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 61.35,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 61.35,
+          "rank": 8
+        },
+        {
+          "ensembleName": "Prairie View High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 65.5,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 19.7,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 64,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 19.5,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 66,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 65,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 13.1,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 68,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 64,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 13.2,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 65.5,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 9.35,
+                      "rank": null
+                    }
+                  ],
+                  "total": 56.15,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 65.5,
+          "penalty": 9.35,
+          "total": 56.15,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-national-a",
+        "name": "Percussion Scholastic National A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Longmont High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 25.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 86,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 25.95,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 88,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 87,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 17.5,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 87,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 17.7,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86.75,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 86.75,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 86.75,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Monarch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 25,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 85,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 25.65,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 84,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 83,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 16.7,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 81,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 16.4,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83.75,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 83.75,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.75,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Centaurus High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 24.9,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 83,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 25.05,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 85,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 84,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 16.9,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 85,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 17,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83.85,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0.6,
+                      "rank": null
+                    }
+                  ],
+                  "total": 83.25,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 83.85,
+          "penalty": 0.6,
+          "total": 83.25,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Lakewood High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 45.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 84,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 42.3,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 87.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 87.7,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Arapahoe High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 44.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 85,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 43.1,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 87.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 87.2,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 43.2,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 87,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 43.2,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 86.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 86.4,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Bear Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 41.9,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 83,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 40.9,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 82.8,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0.45,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 82.8,
+          "penalty": 0.45,
+          "total": 82.35,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Highlands Ranch High School - Open",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 41.5,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 40.8,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 82.3,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 82.3,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-open",
+        "name": "Percussion Independent Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Black Diamond",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 23.3,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 23.55,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 82,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 81.5,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 16.35,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 81,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.4,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79.6,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 79.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.6,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Rise2",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 22.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 75,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 22.5,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 83,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 82,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 16.5,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 74,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 14.8,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76.7,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 76.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 76.7,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Rise Percussion",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 25,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 86,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Huffman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 25.65,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 85,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 84,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "M. Stevens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 16.9,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 82,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84.05,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 84.05,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 84.05,
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}
