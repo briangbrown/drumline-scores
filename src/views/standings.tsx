@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import {
   BarChart,
   Bar,
@@ -13,6 +13,7 @@ import { Pill } from '../components/pill'
 import { Panel } from '../components/panel'
 import { ChartTooltip } from '../components/chart-tooltip'
 import { StarButton } from '../components/star-button'
+import { RecapView } from './recap'
 import type { ShowMetadata, ClassResult, EnsembleScore } from '../types'
 
 // Caption colors from the design system
@@ -39,6 +40,7 @@ export function StandingsView({
   favoriteName,
   onToggleFavorite,
 }: StandingsViewProps) {
+  const [expandedEnsemble, setExpandedEnsemble] = useState<string | null>(null)
   const selectedShow = shows.find((s) => s.metadata.id === selectedShowId)
   const ensembles = selectedShow?.classResult?.ensembles ?? []
 
@@ -102,16 +104,31 @@ export function StandingsView({
       {selectedShow && (
         <>
           {/* Score Cards */}
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-2 gap-3 lg:grid-cols-3">
             {ensembles.map((e) => (
               <ScoreCard
                 key={e.ensembleName}
                 ensemble={e}
                 isFavorited={e.ensembleName === favoriteName}
+                isExpanded={e.ensembleName === expandedEnsemble}
                 onToggleFavorite={() => onToggleFavorite(e.ensembleName)}
+                onToggleExpand={() => setExpandedEnsemble(
+                  expandedEnsemble === e.ensembleName ? null : e.ensembleName,
+                )}
               />
             ))}
           </div>
+
+          {/* Expanded Recap */}
+          {expandedEnsemble && (() => {
+            const ensemble = ensembles.find((e) => e.ensembleName === expandedEnsemble)
+            if (!ensemble) return null
+            return (
+              <Panel title={`Recap: ${ensemble.ensembleName}`}>
+                <RecapView ensemble={ensemble} allEnsembles={ensembles} />
+              </Panel>
+            )
+          })()}
 
           {/* Score Comparison Bar Chart */}
           <Panel title="Score Comparison">
@@ -274,14 +291,27 @@ export function StandingsView({
 function ScoreCard({
   ensemble,
   isFavorited,
+  isExpanded,
   onToggleFavorite,
+  onToggleExpand,
 }: {
   ensemble: EnsembleScore
   isFavorited: boolean
+  isExpanded: boolean
   onToggleFavorite: () => void
+  onToggleExpand: () => void
 }) {
   return (
-    <div className={`rounded-lg border bg-surface p-4 ${isFavorited ? 'border-accent/50' : 'border-border'}`}>
+    <div
+      className={`rounded-lg border bg-surface p-4 cursor-pointer transition-colors ${
+        isExpanded
+          ? 'border-accent ring-1 ring-accent/30'
+          : isFavorited
+            ? 'border-accent/50'
+            : 'border-border hover:border-text-muted/30'
+      }`}
+      onClick={onToggleExpand}
+    >
       <div className="flex items-start justify-between">
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-1.5">
@@ -296,6 +326,9 @@ function ScoreCard({
         <div className="ml-3 text-right">
           <p className="text-xl font-bold text-accent tabular-nums">
             {ensemble.total.toFixed(2)}
+          </p>
+          <p className="text-xs text-text-muted mt-1">
+            {isExpanded ? 'tap to collapse' : 'tap for recap'}
           </p>
         </div>
       </div>
