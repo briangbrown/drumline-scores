@@ -3,12 +3,12 @@ import { resolve } from 'node:path'
 import { describe, it, expect } from 'vitest'
 import { parseRecapHtml, getClassAbbreviation } from './parser'
 
-function loadHtml(filename: string): string {
-  return readFileSync(resolve(__dirname, `../data/scores/${filename}`), 'utf-8')
+function loadHtml(year: number, filename: string): string {
+  return readFileSync(resolve(import.meta.dirname, `../data/scores/${year}/${filename}`), 'utf-8')
 }
 
 describe('parseRecapHtml — 2025 (Era 2, latest format)', () => {
-  const html = loadHtml('March, 29 2025 RMPA State Championships.html')
+  const html = loadHtml(2025, '2025-03-29_RMPA_State_Championships.html')
   const result = parseRecapHtml(html, 2025)
 
   it('should parse show metadata', () => {
@@ -68,7 +68,7 @@ describe('parseRecapHtml — 2025 (Era 2, latest format)', () => {
 })
 
 describe('parseRecapHtml — 2023 (Era 2, header-division-name class)', () => {
-  const html = loadHtml('April, 15 2023 RMPA Championships.html')
+  const html = loadHtml(2023, '2023-04-15_RMPA_Championships.html')
   const result = parseRecapHtml(html, 2023)
 
   it('should parse classes with header-division-name', () => {
@@ -97,7 +97,7 @@ describe('parseRecapHtml — 2023 (Era 2, header-division-name class)', () => {
 })
 
 describe('parseRecapHtml — 2021 (Virtual, IMP/AN/VAN format)', () => {
-  const html = loadHtml('April, 9 2021 RMPA Championships.html')
+  const html = loadHtml(2021, '2021-04-09_RMPA_Championships.html')
   const result = parseRecapHtml(html, 2021)
 
   it('should parse virtual show metadata', () => {
@@ -130,7 +130,7 @@ describe('parseRecapHtml — 2021 (Virtual, IMP/AN/VAN format)', () => {
 })
 
 describe('parseRecapHtml — 2015 (Era 1, text-only scores)', () => {
-  const html = loadHtml('April, 4 2015 RMPA Championships.html')
+  const html = loadHtml(2015, '2015-04-04_RMPA_Championships.html')
   const result = parseRecapHtml(html, 2015)
 
   it('should parse classes', () => {
@@ -156,7 +156,7 @@ describe('parseRecapHtml — 2015 (Era 1, text-only scores)', () => {
 })
 
 describe('parseRecapHtml — 2016 (Era 2 transition)', () => {
-  const html = loadHtml('April, 9 2016 RMPA Championships.html')
+  const html = loadHtml(2016, '2016-04-09_RMPA_Championships.html')
   const result = parseRecapHtml(html, 2016)
 
   it('should parse Era 2 with 4 captions for marching classes', () => {
@@ -171,7 +171,7 @@ describe('parseRecapHtml — 2016 (Era 2 transition)', () => {
 })
 
 describe('parseRecapHtml — 2020 (regular season contest)', () => {
-  const html = loadHtml('February, 29 2020 RMPA contest #3.html')
+  const html = loadHtml(2020, '2020-02-29_RMPA_contest_3.html')
   const result = parseRecapHtml(html, 2020)
 
   it('should parse classes', () => {
