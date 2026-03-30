@@ -239,8 +239,9 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
                   </tr>
                 </thead>
                 <tbody>
-                  {seasonData.map((d, i) => {
-                    const prev = i > 0 ? seasonData[i - 1].total : null
+                  {[...seasonData].reverse().map((d) => {
+                    const idx = seasonData.indexOf(d)
+                    const prev = idx > 0 ? seasonData[idx - 1].total : null
                     const change = prev !== null ? d.total - prev : null
 
                     return (
