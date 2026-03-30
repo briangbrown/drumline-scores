@@ -1,0 +1,60 @@
+name: Update Lessons Index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/lessons/**'
+      - '!docs/lessons/index.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+
+      - name: Regenerate lessons index
+        id: regen
+        run: |
+          output=$(node scripts/update-lessons-index.mjs)
+          echo "$output"
+          if echo "$output" | grep -q '^noop:'; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create PR with updated index
+        if: steps.regen.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          BRANCH="auto/update-lessons-index-$(date +%Y%m%d-%H%M%S)"
+          git checkout -b "$BRANCH"
+          git add docs/lessons/index.md
+          git commit -m "docs: regenerate lessons index"
+          git push -u origin "$BRANCH"
+
+          gh pr create \
+            --title "docs: regenerate lessons index" \
+            --body "Automated lessons index regeneration.
+
+          Created by the update-lessons-index workflow." \
+            --base main
+
+          gh pr merge "$BRANCH" --auto --squash --delete-branch

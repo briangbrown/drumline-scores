@@ -1,0 +1,75 @@
+name: Claude Code Bug Solver
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  solve-bug:
+    # Trigger when the issue has BOTH the 'bug' and 'autofix' labels.
+    # The concurrency group ensures only one run executes per issue, cancelling
+    # any duplicate triggered by adding the two labels in quick succession.
+    if: >
+      contains(github.event.issue.labels.*.name, 'bug') &&
+      contains(github.event.issue.labels.*.name, 'autofix')
+    concurrency:
+      group: autofix-issue-${{ github.event.issue.number }}
+      cancel-in-progress: true
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: read
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Determine Claude model
+        id: model
+        run: |
+          LABELS='${{ toJson(github.event.issue.labels.*.name) }}'
+          if echo "$LABELS" | grep -q '"model-opus"'; then
+            echo "flag=--model claude-opus-4-6" >> "$GITHUB_OUTPUT"
+          elif echo "$LABELS" | grep -q '"model-haiku"'; then
+            echo "flag=--model claude-haiku-4-5" >> "$GITHUB_OUTPUT"
+          else
+            echo "flag=--model claude-sonnet-4-6" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Fix bug with Claude Code
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          claude_args: "--dangerously-skip-permissions ${{ steps.model.outputs.flag }}"
+          prompt: "/fix-bug ${{ github.event.issue.number }}"
+
+      - name: Request review on created PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR_NUMBER=$(gh pr list \
+            --head "fix-bug-${{ github.event.issue.number }}" \
+            --json number \
+            --jq '.[0].number')
+          if [ -n "$PR_NUMBER" ]; then
+            LABELER="${{ github.event.sender.login }}"
+            # Request review from labeler if they're a collaborator, otherwise fall back to repo owner
+            if gh api "repos/${{ github.repository }}/collaborators/${LABELER}" --silent 2>/dev/null; then
+              gh pr edit "$PR_NUMBER" --add-reviewer "$LABELER"
+            else
+              gh pr edit "$PR_NUMBER" --add-reviewer "${{ github.repository_owner }}"
+            fi
+          fi
