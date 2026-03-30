@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useEffect } from 'react'
 import {
   LineChart,
   Line,
@@ -13,15 +13,8 @@ import { Panel } from '../components/panel'
 import { ChartTooltip } from '../components/chart-tooltip'
 import { useCrossSeason } from '../hooks/use-cross-season'
 import { Loading, ErrorMessage } from '../components/loading'
-import type { ShowData, EnsembleScore } from '../types'
-
-// Domain colors
-const DOMAIN_COLORS: Record<string, string> = {
-  'Total': '#f59e0b',
-  'Music': '#c4985a',
-  'Visual': '#8a7ab8',
-  'Effect': '#cc7a5a',
-}
+import { loadEnsembleRegistry } from '../data'
+import type { ShowData, EnsembleScore, EnsembleRegistry, EnsembleEntry } from '../types'
 
 type CrossSeasonViewProps = {
   initialEnsemble?: string | null
@@ -29,36 +22,75 @@ type CrossSeasonViewProps = {
 
 export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
   const { shows, isLoading, error } = useCrossSeason()
-  const [selectedEnsemble, setSelectedEnsemble] = useState<string>(initialEnsemble ?? '')
+  const [registry, setRegistry] = useState<EnsembleRegistry | null>(null)
+  const [selectedEnsembleId, setSelectedEnsembleId] = useState<string>('')
 
-  // Collect all unique ensemble names across all seasons
-  const allEnsembles = useMemo(() => {
-    const names = new Set<string>()
+  // Load ensemble registry
+  useEffect(() => {
+    loadEnsembleRegistry().then(setRegistry)
+  }, [])
+
+  // Build a lookup: any name variant → registry entry
+  const nameLookup = useMemo(() => {
+    if (!registry) return new Map<string, EnsembleEntry>()
+    const lookup = new Map<string, EnsembleEntry>()
+    for (const entry of registry.ensembles) {
+      lookup.set(entry.canonicalName, entry)
+      for (const alias of entry.aliases) {
+        lookup.set(alias, entry)
+      }
+    }
+    return lookup
+  }, [registry])
+
+  // Collect all unique ensembles (by registry ID) that appear in finals data
+  const ensembleList = useMemo(() => {
+    const seen = new Map<string, EnsembleEntry>()
     for (const show of shows) {
       for (const cls of show.classes) {
         for (const e of cls.ensembles) {
-          names.add(e.ensembleName)
+          const entry = nameLookup.get(e.ensembleName)
+          if (entry && !seen.has(entry.id)) {
+            seen.set(entry.id, entry)
+          }
         }
       }
     }
-    return Array.from(names).sort()
-  }, [shows])
+    return Array.from(seen.values()).sort((a, b) =>
+      a.canonicalName.localeCompare(b.canonicalName),
+    )
+  }, [shows, nameLookup])
 
-  // Auto-select first ensemble if none selected
-  const activeEnsemble = selectedEnsemble || allEnsembles[0] || ''
+  // Auto-select initial ensemble
+  useEffect(() => {
+    if (selectedEnsembleId || ensembleList.length === 0) return
+    if (initialEnsemble) {
+      const entry = nameLookup.get(initialEnsemble)
+      if (entry) {
+        setSelectedEnsembleId(entry.id)
+        return
+      }
+    }
+    setSelectedEnsembleId(ensembleList[0].id)
+  }, [ensembleList, initialEnsemble, nameLookup, selectedEnsembleId])
 
-  // Find the ensemble's data across all seasons
+  const selectedEntry = ensembleList.find((e) => e.id === selectedEnsembleId)
+
+  // Find the ensemble's data across all seasons (matching by registry entry)
   const seasonData = useMemo(() => {
-    if (!activeEnsemble) return []
+    if (!selectedEntry) return []
+
+    const allNames = new Set([selectedEntry.canonicalName, ...selectedEntry.aliases])
 
     return shows
       .map((show) => {
-        const result = findEnsembleInShow(show, activeEnsemble)
+        const result = findEnsembleInShow(show, allNames)
         if (!result) return null
 
         return {
           year: show.metadata.year,
           showName: show.metadata.eventName,
+          nameUsed: result.ensemble.ensembleName,
           className: result.className,
           classType: result.classType,
           total: result.ensemble.total,
@@ -70,7 +102,7 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
       })
       .filter((d): d is NonNullable<typeof d> => d !== null)
       .sort((a, b) => a.year - b.year)
-  }, [shows, activeEnsemble])
+  }, [shows, selectedEntry])
 
   // Build chart data
   const chartData = useMemo(() => {
@@ -103,7 +135,7 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
     }
   }, [seasonData])
 
-  if (isLoading) return <Loading />
+  if (isLoading || !registry) return <Loading />
   if (error) return <ErrorMessage message={error} />
 
   return (
@@ -112,19 +144,19 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
       <div>
         <label className="block text-xs text-text-muted mb-1">Select Ensemble</label>
         <select
-          value={activeEnsemble}
-          onChange={(e) => setSelectedEnsemble(e.target.value)}
+          value={selectedEnsembleId}
+          onChange={(e) => setSelectedEnsembleId(e.target.value)}
           className="w-full rounded-lg border border-border bg-surface px-3 py-2 text-sm text-text-primary focus:border-accent focus:outline-none"
         >
-          {allEnsembles.map((name) => (
-            <option key={name} value={name}>{name}</option>
+          {ensembleList.map((entry) => (
+            <option key={entry.id} value={entry.id}>{entry.canonicalName}</option>
           ))}
         </select>
       </div>
 
-      {seasonData.length === 0 && (
+      {seasonData.length === 0 && selectedEntry && (
         <div className="py-8 text-center text-text-muted">
-          No championship data found for {activeEnsemble}
+          No championship data found for {selectedEntry.canonicalName}
         </div>
       )}
 
@@ -159,9 +191,9 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
                   <Line
                     type="monotone"
                     dataKey="Total"
-                    stroke={DOMAIN_COLORS['Total']}
+                    stroke="#f59e0b"
                     strokeWidth={2.5}
-                    dot={{ r: 4, fill: DOMAIN_COLORS['Total'] }}
+                    dot={{ r: 4, fill: '#f59e0b' }}
                     connectNulls
                   />
                 </LineChart>
@@ -267,10 +299,10 @@ function SummaryCard({
 
 function findEnsembleInShow(
   show: ShowData,
-  ensembleName: string,
+  nameVariants: Set<string>,
 ): { ensemble: EnsembleScore; className: string; classType: string; classSize: number } | null {
   for (const cls of show.classes) {
-    const ensemble = cls.ensembles.find((e) => e.ensembleName === ensembleName)
+    const ensemble = cls.ensembles.find((e) => nameVariants.has(e.ensembleName))
     if (ensemble) {
       return {
         ensemble,

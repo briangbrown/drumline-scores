@@ -292,7 +292,10 @@
       "id": "fountain-fort-carson-high-school-percussion-ensemble",
       "canonicalName": "Fountain-Fort Carson High School Percussion Ensemble",
       "shortName": "Fountain-Fort Carson",
-      "aliases": [],
+      "aliases": [
+        "Trojan Percussion Ensemble",
+        "Fountain Fort Carson Trojan Percussion Ensemble"
+      ],
       "city": "Fountain",
       "state": "CO"
     },
@@ -642,16 +645,6 @@
       "shortName": "ThunderRidge",
       "aliases": [],
       "city": "Highlands Ranch",
-      "state": "CO"
-    },
-    {
-      "id": "trojan-percussion-ensemble",
-      "canonicalName": "Trojan Percussion Ensemble",
-      "shortName": "Trojan",
-      "aliases": [
-        "Fountain Fort Carson Trojan Percussion Ensemble"
-      ],
-      "city": "Fountain",
       "state": "CO"
     },
     {
