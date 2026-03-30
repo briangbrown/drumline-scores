@@ -1,0 +1,4869 @@
+{
+  "metadata": {
+    "id": "2025-rmpa-state-championships-march-29",
+    "eventName": "RMPA State Championships",
+    "venue": "Clune Arena @ US Air Force Academy, Colorado Springs",
+    "date": "Saturday, March 29, 2025",
+    "round": "Finals",
+    "year": 2025
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-regional-a",
+        "name": "Percussion Scholastic Concert Regional A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Englewood High School Percussion Ensemble",
+          "location": "Englewood , Colorado",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 81,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 40.7,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 78,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 39.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 40.15,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 82,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 41.4,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 82,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 41.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 41.6,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 81.75,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Arvada High School",
+          "location": "Arvada, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 75,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 76,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 37.8,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 74,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 78,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 38.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 38,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 81,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 80,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 40.2,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 80,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 78,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 39.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 39.8,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 77.8,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Conifer HS Lobo Percussion",
+          "location": "Conifer, CO",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 70,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 70,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 35,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 71,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 74,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 36.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 35.7,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 75,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 76,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 37.8,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 78,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 76,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 38.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 38.1,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 73.8,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-standstill-regional-a",
+        "name": "Percussion Scholastic Standstill Regional A",
+        "classType": "standstill"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "William J Palmer High School",
+          "location": "Colorado Springs, CO",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 73,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 73,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 36.5,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 75,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 76,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 37.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 37.15,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 37.7,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 74,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 72,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 36.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 37.05,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 74.2,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Prairie View High School Winter Percussion",
+          "location": "Henderson, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 68,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 70,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 34.6,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 72,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 75,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 36.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 35.75,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 70,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 71,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 35.3,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 70,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 67,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 34.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 34.7,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 70.45,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-regional-a",
+        "name": "Percussion Scholastic Regional A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "Westminster, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 91,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 26.85,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 86,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 26.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 26.775,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 87,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 16.9,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 18.3,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 17.6,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 87,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 26.3,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 86,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 25.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 25.85,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 16.7,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 16.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.6,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 86.825,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Widefield HS Winter Percussion",
+          "location": "Widefield High School",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 88,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 87,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 26.25,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 89,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 26.55,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 26.4,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 16.7,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 16.6,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 16.65,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 86,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 86,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 25.8,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 25.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 25.8,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 16.4,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 81,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 16.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 16.3,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 85.15,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Sand Creek Winter Percussions",
+          "location": "Colorado Springs, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 85,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 25.05,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 87,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 25.5,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 25.275,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 80,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 15.8,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 85,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 16.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 16.25,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 80,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 24.4,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 80,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 24.2,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 24.3,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 81,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 16,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 79,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 78,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 15.7,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 15.85,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 81.675,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Mountain Vista Winter Percussion",
+          "location": "Highlands Ranch",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 24.15,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 85,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 25.05,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 24.6,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 77,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 74,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 15.1,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 78,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 15.8,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 15.45,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 24.7,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 25,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 24.85,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 77,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 75,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 15.2,
+                  "rank": 7
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 74,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 73,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 14.7,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 14.95,
+              "captionRank": 7
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.85,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Frederick High School",
+          "location": "Frederick, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 24.6,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 80,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 24.6,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 24.6,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 15.9,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 77,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 76,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 15.3,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 15.6,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 77,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 23.4,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 23.8,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 23.6,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 78,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 15.8,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 73,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 72,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 14.5,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 15.15,
+              "captionRank": 5
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.95,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Heritage Indoor Percussion",
+          "location": "Littleton, CO",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 76,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 23.4,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 79,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 76,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 23.25,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 23.325,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 74,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 69,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 14.3,
+                  "rank": 8
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 81,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 16,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 15.15,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 75,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 74,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 22.3,
+                  "rank": 7
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 73,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 72,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 21.7,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 22,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 79,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 77,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 15.6,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 77,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 76,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 15.3,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 15.45,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 75.925,
+          "rank": 6
+        },
+        {
+          "ensembleName": "Columbine High School",
+          "location": "Littleton, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 74,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 70,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 21.6,
+                  "rank": 9
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 81,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 78,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 23.85,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 22.725,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 75,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 72,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 14.7,
+                  "rank": 7
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 77,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 15.5,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 15.1,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 77,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 76,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 22.9,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 77,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 75,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 22.7,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 22.8,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 75,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 73,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 14.8,
+                  "rank": 9
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 70,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 69,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 13.9,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 14.35,
+              "captionRank": 9
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 74.975,
+          "rank": 7
+        },
+        {
+          "ensembleName": "Chaparral High School",
+          "location": "Parker, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 76,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 72,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 22.2,
+                  "rank": 7
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 75,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 72,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 22.05,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 22.125,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 76,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 77,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 15.3,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 73,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 75,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 14.8,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 15.05,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 67,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 69,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 20.5,
+                  "rank": 9
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 72,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 70,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 21.2,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 20.85,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 76,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 15.4,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 75,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 74,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 14.9,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 15.15,
+              "captionRank": 5
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 73.175,
+          "rank": 8
+        },
+        {
+          "ensembleName": "Windsor Percussion Ensemble",
+          "location": "Windsor High School, 1100 Main St., Windsor, CO 80550",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 72,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 73,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 21.75,
+                  "rank": 8
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 77,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 73,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 22.5,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 22.125,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 71,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 70,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 14.1,
+                  "rank": 9
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 76,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 74,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 15,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 14.55,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 73,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 72,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 21.7,
+                  "rank": 8
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 74,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 73,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 22,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 21.85,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 76,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 74,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 15,
+                  "rank": 8
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 72,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 70,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 14.2,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 14.6,
+              "captionRank": 8
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 73.125,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Castle View High School Percussion Ensemble",
+          "location": "Castle Rock, CO",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 40,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 40.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 40.2,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 87,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 42.9,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 81,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 41.1,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 42,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 82.2,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Evergreen High School",
+          "location": "Evergreen, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 72,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 75,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 36.9,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 77,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 76,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 38.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 37.55,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 80,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 81,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 40.3,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 77,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 81,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 39.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 40,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 77.55,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-standstill-a",
+        "name": "Percussion Scholastic Standstill A",
+        "classType": "standstill"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Lakewood Winter Percussion",
+          "location": "Lakewood",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 44.4,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 43.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 44.05,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 91,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 89,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 44.9,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 90,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 45.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 45.15,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 89.2,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Trojan Percussion Ensemble",
+          "location": "Fountain, CO",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 85,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 83,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 41.9,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 84,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 42,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 41.95,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 88,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 90,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 44.6,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 88,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 87,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 43.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 44.15,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 86.1,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Highlands Ranch Falcon Percussion Ensemble",
+          "location": "Highlands Ranch, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 83,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 81,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 40.9,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 83,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 81,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 40.9,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 40.9,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 85,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 84,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 42.2,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 85,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 85,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 42.5,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 42.35,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.25,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Longmont Winter Percussion",
+          "location": "Longmont, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 25.35,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 90,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 27.45,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 26.4,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 89,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.9,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 18.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 18.2,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 92,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 90,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 27.2,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 90,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 27.3,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 27.25,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.6,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.1,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 17.35,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 89.2,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Centaurus Winter Percussion Ensemble",
+          "location": "Lafayette, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 24.9,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 91,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 27.3,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 26.1,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 88,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 17.1,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 86,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 89,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 17.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 17.3,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 27.7,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 90,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 27.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 27.45,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 85,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 16.8,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 16.6,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 16.7,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 87.55,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Monarch Indoor Percussion",
+          "location": "Louisville, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 76,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 23.4,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 24.15,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 23.775,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 16.5,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 16.3,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 16.4,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 88,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 87,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 26.2,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 88,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 86,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 26,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 26.1,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 16.5,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 81,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 16,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 16.25,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 82.525,
+          "rank": 3
+        },
+        {
+          "ensembleName": "District 49 Indoor Percussion",
+          "location": "Colorado Springs, CO",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 75,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 22.95,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 78,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 24,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 23.475,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 88,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 87,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 17.5,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 86,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 16.9,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 17.2,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 87,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 85,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 25.7,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 86,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 25.4,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 25.55,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 79,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 77,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 15.6,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 77,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 75,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 15.2,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 15.4,
+              "captionRank": 5
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 81.625,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Standley Lake High School",
+          "location": "Westminster, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 79,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 78,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 23.55,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 81,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 24.45,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 24,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 16.8,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 16.7,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 16.75,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 25,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 24.8,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 24.9,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 78,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 15.8,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 77,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 15.5,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 15.65,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 81.3,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "Broomfield, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 43.7,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 90,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 44.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 44.15,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 46.2,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 46.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 46.2,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 90.35,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Bear Creek High School Percussion Ensemble",
+          "location": "Lakewood, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 78,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 77,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 38.7,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 78,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 79,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 39.3,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 39,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 84,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 85,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 42.3,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 81,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 41.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 41.85,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80.85,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-open",
+        "name": "Percussion Scholastic Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Fossil Ridge High School",
+          "location": "Fort Collins, CO",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 25.65,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 87,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 25.65,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 25.65,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 91,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 90,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 18.1,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 87,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 17,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 17.55,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 27.7,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 91,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 27.3,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 27.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 16.7,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 16.9,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.8,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 87.5,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Loveland Indoor Percussion",
+          "location": "Loveland, CO",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 78,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 23.7,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 85,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 25.05,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 24.375,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 18.3,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 17.9,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 90,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 89,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 26.8,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 87,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 90,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 26.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 26.75,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 16.4,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 16.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 16.4,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 85.425,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Academy School District",
+          "location": "Colorado Springs, CO",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 25.05,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 25.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 25.275,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 89,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 88,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 17.7,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 85,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 16.9,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 17.3,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 87,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 85,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 25.7,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 88,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 87,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 26.2,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 25.95,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 80,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 16.2,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 81,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 80,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 16.1,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 16.15,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 84.675,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-world",
+        "name": "Percussion Scholastic World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Legacy Winter Percussion",
+          "location": "Broomfield",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 24.15,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 24.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 24.375,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 16.2,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.85,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 25.2,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 25.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 25.3,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 16.3,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 16.3,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.3,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 82.825,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-open",
+        "name": "Percussion Independent Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "BKO",
+          "location": "Denver, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 24.3,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 25.95,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 25.125,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.2,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 17.1,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 24.5,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 24.3,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 24.4,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 16.7,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 16.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.75,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.375,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Blue Knights Percussion Ensemble",
+          "location": "Denver, Colorado",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 27.75,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 27.45,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 27.6,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 95,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 94,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 18.9,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 18.3,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 18.6,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 87,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 25.9,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 26.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 26.05,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 91,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 18.2,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 90,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 18,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 18.1,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 90.35,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Rise Percussion",
+          "location": "Denver, CO",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "B. Cappelluti",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 91,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 89,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 27,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 90,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 87,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 26.55,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 26.775,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Zamperini",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 88,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 87,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 17.5,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "D. Pickett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 81,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 16.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 17,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 24.7,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 25,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 24.85,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "T. Goddard",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 88,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 87,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 17.5,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 87,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 86,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 17.3,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 17.4,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 86.025,
+          "rank": 2
+        }
+      ]
+    }
+  ]
+}

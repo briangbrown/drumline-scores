@@ -1,0 +1,68 @@
+{
+  "year": 2025,
+  "shows": [
+    {
+      "id": "2025-rmpa-state-championships-march-29",
+      "eventName": "RMPA State Championships",
+      "date": "Saturday, March 29, 2025",
+      "round": "Finals"
+    }
+  ],
+  "classes": [
+    {
+      "id": "percussion-scholastic-concert-regional-a",
+      "name": "Percussion Scholastic Concert Regional A",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-standstill-regional-a",
+      "name": "Percussion Scholastic Standstill Regional A",
+      "classType": "standstill"
+    },
+    {
+      "id": "percussion-scholastic-regional-a",
+      "name": "Percussion Scholastic Regional A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-a",
+      "name": "Percussion Scholastic Concert A",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-standstill-a",
+      "name": "Percussion Scholastic Standstill A",
+      "classType": "standstill"
+    },
+    {
+      "id": "percussion-scholastic-a",
+      "name": "Percussion Scholastic A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-open",
+      "name": "Percussion Scholastic Concert Open",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-open",
+      "name": "Percussion Scholastic Open",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-world",
+      "name": "Percussion Scholastic World",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-independent-open",
+      "name": "Percussion Independent Open",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-independent-world",
+      "name": "Percussion Independent World",
+      "classType": "marching"
+    }
+  ]
+}
