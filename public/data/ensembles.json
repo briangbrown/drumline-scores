@@ -632,18 +632,12 @@
       "state": ""
     },
     {
-      "id": "thunder-ridge-high-school",
-      "canonicalName": "Thunder Ridge High School",
-      "shortName": "Thunder Ridge",
-      "aliases": [],
-      "city": "",
-      "state": ""
-    },
-    {
       "id": "thunderridge-high-school",
       "canonicalName": "ThunderRidge High School",
       "shortName": "ThunderRidge",
-      "aliases": [],
+      "aliases": [
+        "Thunder Ridge High School"
+      ],
       "city": "Highlands Ranch",
       "state": "CO"
     },
