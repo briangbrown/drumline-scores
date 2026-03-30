@@ -40,8 +40,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -50,17 +50,17 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 82,
+                      "key": "Prog",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.4,
+                      "key": "Ful",
+                      "rawScore": 82,
                       "rank": 1
                     }
                   ],
-                  "total": 82.8,
+                  "total": 41.4,
                   "rank": 1
                 }
               ],
@@ -98,8 +98,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -108,17 +108,17 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79,
+                      "key": "Prog",
+                      "rawScore": 82,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.1,
+                      "key": "Ful",
+                      "rawScore": 79,
                       "rank": 2
                     }
                   ],
-                  "total": 79.1,
+                  "total": 40.1,
                   "rank": 2
                 }
               ],
@@ -156,8 +156,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -166,18 +166,18 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 70,
-                      "rank": 7
+                      "key": "Prog",
+                      "rawScore": 73,
+                      "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 35.6,
+                      "key": "Ful",
+                      "rawScore": 70,
                       "rank": 7
                     }
                   ],
-                  "total": 75,
-                  "rank": 3
+                  "total": 35.6,
+                  "rank": 7
                 }
               ],
               "captionTotal": 0,
@@ -214,8 +214,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -224,18 +224,18 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73,
+                      "key": "Prog",
+                      "rawScore": 75,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36.9,
+                      "key": "Ful",
+                      "rawScore": 73,
                       "rank": 4
                     }
                   ],
-                  "total": 75,
-                  "rank": 3
+                  "total": 36.9,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -272,8 +272,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -282,21 +282,21 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 72,
-                      "rank": 5
+                      "rank": 7
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36,
-                      "rank": 6
+                      "key": "Ful",
+                      "rawScore": 72,
+                      "rank": 5
                     }
                   ],
-                  "total": 74.9,
-                  "rank": 5
+                  "total": 36,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 0.3,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -330,8 +330,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -340,18 +340,18 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76,
+                      "key": "Prog",
+                      "rawScore": 78,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38.4,
+                      "key": "Ful",
+                      "rawScore": 76,
                       "rank": 3
                     }
                   ],
-                  "total": 73.6,
-                  "rank": 6
+                  "total": 38.4,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -388,8 +388,8 @@
                   "rank": 8
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -398,18 +398,18 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 71,
-                      "rank": 6
+                      "key": "Prog",
+                      "rawScore": 74,
+                      "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36.1,
-                      "rank": 5
+                      "key": "Ful",
+                      "rawScore": 71,
+                      "rank": 6
                     }
                   ],
-                  "total": 70.9,
-                  "rank": 7
+                  "total": 36.1,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -446,8 +446,8 @@
                   "rank": 10
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -456,17 +456,17 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 68,
+                      "key": "Prog",
+                      "rawScore": 70,
                       "rank": 8
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 34.4,
+                      "key": "Ful",
+                      "rawScore": 68,
                       "rank": 8
                     }
                   ],
-                  "total": 68.2,
+                  "total": 34.4,
                   "rank": 8
                 }
               ],
@@ -504,8 +504,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 65,
-              "captionRank": 10
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -514,17 +514,17 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 62,
+                      "key": "Prog",
+                      "rawScore": 65,
                       "rank": 10
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 31.6,
+                      "key": "Ful",
+                      "rawScore": 62,
                       "rank": 10
                     }
                   ],
-                  "total": 67.7,
+                  "total": 31.6,
                   "rank": 10
                 }
               ],
@@ -562,8 +562,8 @@
                   "rank": 9
                 }
               ],
-              "captionTotal": 68,
-              "captionRank": 9
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -572,21 +572,21 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 66,
+                      "key": "Prog",
+                      "rawScore": 68,
                       "rank": 9
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 33.4,
+                      "key": "Ful",
+                      "rawScore": 66,
                       "rank": 9
                     }
                   ],
-                  "total": 67.9,
+                  "total": 33.4,
                   "rank": 9
                 }
               ],
-              "captionTotal": 3.95,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -629,8 +629,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -639,22 +639,22 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 73,
+                      "key": "Comp",
+                      "rawScore": 75,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 29.5,
+                      "key": "Perf",
+                      "rawScore": 73,
                       "rank": 1
                     }
                   ],
-                  "total": 71,
-                  "rank": 2
+                  "total": 29.5,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -663,22 +663,22 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 14.1,
+                      "key": "Comp",
+                      "rawScore": 71,
                       "rank": 2
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 72.8,
-                      "rank": 1
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 2
                     }
                   ],
-                  "total": 0.2,
-                  "rank": null
+                  "total": 14.1,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 72.6,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 72.8,
@@ -711,8 +711,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -721,22 +721,22 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 71,
+                      "key": "Comp",
+                      "rawScore": 73,
                       "rank": 2
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 28.7,
+                      "key": "Perf",
+                      "rawScore": 71,
                       "rank": 2
                     }
                   ],
-                  "total": 66,
-                  "rank": 3
+                  "total": 28.7,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 64,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -745,22 +745,22 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 13,
+                      "key": "Comp",
+                      "rawScore": 66,
                       "rank": 3
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 69.3,
-                      "rank": 2
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 3
                     }
                   ],
-                  "total": 0.25,
-                  "rank": null
+                  "total": 13,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 69.05,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 69.3,
@@ -793,8 +793,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -803,22 +803,22 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 69,
-                      "rank": 3
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 4
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 27.75,
+                      "key": "Perf",
+                      "rawScore": 69,
                       "rank": 3
                     }
                   ],
-                  "total": 72,
-                  "rank": 1
+                  "total": 27.75,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -827,22 +827,22 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 14.5,
+                      "key": "Comp",
+                      "rawScore": 72,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 68.85,
-                      "rank": 3
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 1
                     }
                   ],
-                  "total": 0.1,
-                  "rank": null
+                  "total": 14.5,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 68.75,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 68.85,
@@ -875,8 +875,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -885,22 +885,22 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 67,
-                      "rank": 5
+                      "key": "Comp",
+                      "rawScore": 71,
+                      "rank": 3
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 27.4,
-                      "rank": 4
+                      "key": "Perf",
+                      "rawScore": 67,
+                      "rank": 5
                     }
                   ],
-                  "total": 64,
-                  "rank": 5
+                  "total": 27.4,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 62,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -909,22 +909,22 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 12.6,
+                      "key": "Comp",
+                      "rawScore": 64,
                       "rank": 5
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 65.2,
+                      "key": "Perf",
+                      "rawScore": 62,
                       "rank": 5
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 12.6,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 65.2,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -957,8 +957,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 69,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -967,22 +967,22 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 66,
-                      "rank": 6
+                      "key": "Comp",
+                      "rawScore": 69,
+                      "rank": 5
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 26.85,
+                      "key": "Perf",
+                      "rawScore": 66,
                       "rank": 6
                     }
                   ],
-                  "total": 65,
-                  "rank": 4
+                  "total": 26.85,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 63,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -991,22 +991,22 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 12.8,
+                      "key": "Comp",
+                      "rawScore": 65,
                       "rank": 4
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 65.65,
+                      "key": "Perf",
+                      "rawScore": 63,
                       "rank": 4
                     }
                   ],
-                  "total": 0.9,
-                  "rank": null
+                  "total": 12.8,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 64.75,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 65.65,
@@ -1039,8 +1039,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 68,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1049,22 +1049,22 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Mus",
+                      "key": "Comp",
                       "rawScore": 68,
-                      "rank": 4
+                      "rank": 6
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 27.2,
-                      "rank": 5
+                      "key": "Perf",
+                      "rawScore": 68,
+                      "rank": 4
                     }
                   ],
-                  "total": 61,
-                  "rank": 6
+                  "total": 27.2,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 61,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1073,22 +1073,22 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 12.2,
+                      "key": "Comp",
+                      "rawScore": 61,
                       "rank": 6
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 63.8,
+                      "key": "Perf",
+                      "rawScore": 61,
                       "rank": 6
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 12.2,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 63.8,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -1130,8 +1130,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 88,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1140,17 +1140,17 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 86,
+                      "key": "Prog",
+                      "rawScore": 88,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 43.4,
+                      "key": "Ful",
+                      "rawScore": 86,
                       "rank": 1
                     }
                   ],
-                  "total": 86.3,
+                  "total": 43.4,
                   "rank": 1
                 }
               ],
@@ -1188,8 +1188,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1198,17 +1198,17 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 82,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41,
+                      "key": "Ful",
+                      "rawScore": 82,
                       "rank": 2
                     }
                   ],
-                  "total": 82.9,
+                  "total": 41,
                   "rank": 2
                 }
               ],
@@ -1246,8 +1246,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1256,21 +1256,21 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78,
+                      "key": "Prog",
+                      "rawScore": 79,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 39.2,
+                      "key": "Ful",
+                      "rawScore": 78,
                       "rank": 3
                     }
                   ],
-                  "total": 79.8,
+                  "total": 39.2,
                   "rank": 3
                 }
               ],
-              "captionTotal": 1.35,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1304,8 +1304,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1314,18 +1314,18 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72,
+                      "key": "Prog",
+                      "rawScore": 74,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36.4,
+                      "key": "Ful",
+                      "rawScore": 72,
                       "rank": 5
                     }
                   ],
-                  "total": 78,
-                  "rank": 4
+                  "total": 36.4,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -1362,8 +1362,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1372,18 +1372,18 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 74,
+                      "key": "Prog",
+                      "rawScore": 76,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.4,
+                      "key": "Ful",
+                      "rawScore": 74,
                       "rank": 4
                     }
                   ],
-                  "total": 76,
-                  "rank": 5
+                  "total": 37.4,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -1429,8 +1429,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1439,22 +1439,22 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 75,
+                      "key": "Comp",
+                      "rawScore": 78,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 30.45,
+                      "key": "Perf",
+                      "rawScore": 75,
                       "rank": 1
                     }
                   ],
-                  "total": 70,
+                  "total": 30.45,
                   "rank": 1
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1463,22 +1463,22 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 14.1,
+                      "key": "Comp",
+                      "rawScore": 70,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 72.95,
+                      "key": "Perf",
+                      "rawScore": 71,
                       "rank": 1
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 14.1,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 72.95,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,

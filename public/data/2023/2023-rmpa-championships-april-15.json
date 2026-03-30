@@ -67,12 +67,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 80,
                       "rank": 1
                     }
@@ -84,12 +84,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 81,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 78,
                       "rank": 1
                     }
@@ -159,12 +159,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 76,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 74,
                       "rank": 2
                     }
@@ -176,12 +176,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 76,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 75,
                       "rank": 2
                     }
@@ -251,12 +251,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 72,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 72,
                       "rank": 3
                     }
@@ -268,12 +268,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 71,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 73,
                       "rank": 3
                     }
@@ -343,12 +343,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 74,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 71,
                       "rank": 4
                     }
@@ -360,12 +360,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 74,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 72,
                       "rank": 4
                     }
@@ -444,12 +444,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 78,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 75,
                       "rank": 1
                     }
@@ -461,12 +461,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 74,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 72,
                       "rank": 1
                     }
@@ -536,12 +536,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 72,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 70,
                       "rank": 2
                     }
@@ -553,12 +553,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 71,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 70,
                       "rank": 2
                     }
@@ -628,12 +628,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 67,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 66,
                       "rank": 3
                     }
@@ -645,12 +645,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 67,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 67,
                       "rank": 3
                     }
@@ -734,7 +734,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 81,
                       "rank": 1
                     }
@@ -751,7 +751,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 78,
                       "rank": 2
                     }
@@ -770,12 +770,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 80,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 81,
                       "rank": 2
                     }
@@ -787,12 +787,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 86,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 86,
                       "rank": 1
                     }
@@ -811,12 +811,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 74,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 73,
                       "rank": 3
                     }
@@ -828,12 +828,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 78,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 78,
                       "rank": 2
                     }
@@ -908,7 +908,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 80,
                       "rank": 2
                     }
@@ -925,7 +925,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 79,
                       "rank": 1
                     }
@@ -944,12 +944,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 76.5,
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 77,
                       "rank": 5
                     }
@@ -961,12 +961,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 83,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 82,
                       "rank": 5
                     }
@@ -985,12 +985,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 77,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 75,
                       "rank": 1
                     }
@@ -1002,12 +1002,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 80,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 79,
                       "rank": 1
                     }
@@ -1082,7 +1082,7 @@
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 76,
                       "rank": 3
                     }
@@ -1099,7 +1099,7 @@
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 76,
                       "rank": 3
                     }
@@ -1118,12 +1118,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 78,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 76,
                       "rank": 6
                     }
@@ -1135,12 +1135,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 85,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 85,
                       "rank": 2
                     }
@@ -1159,12 +1159,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 75,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 74,
                       "rank": 2
                     }
@@ -1176,12 +1176,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 76,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 76,
                       "rank": 3
                     }
@@ -1256,7 +1256,7 @@
                       "rank": 7
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 73,
                       "rank": 5
                     }
@@ -1273,7 +1273,7 @@
                       "rank": 8
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 69,
                       "rank": 8
                     }
@@ -1292,12 +1292,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 83,
                       "rank": 1
                     }
@@ -1309,12 +1309,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 86,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 84,
                       "rank": 3
                     }
@@ -1333,12 +1333,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 69,
                       "rank": 7
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 69,
                       "rank": 6
                     }
@@ -1350,12 +1350,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 73,
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 75,
                       "rank": 4
                     }
@@ -1430,7 +1430,7 @@
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 74,
                       "rank": 4
                     }
@@ -1447,7 +1447,7 @@
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 73,
                       "rank": 4
                     }
@@ -1466,12 +1466,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 82,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 79,
                       "rank": 3
                     }
@@ -1483,12 +1483,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 81,
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 81,
                       "rank": 6
                     }
@@ -1507,12 +1507,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 73,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 72,
                       "rank": 4
                     }
@@ -1524,12 +1524,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 75,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 74,
                       "rank": 5
                     }
@@ -1604,7 +1604,7 @@
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 72,
                       "rank": 6
                     }
@@ -1621,7 +1621,7 @@
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 72,
                       "rank": 5
                     }
@@ -1640,12 +1640,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 77,
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 78,
                       "rank": 4
                     }
@@ -1657,12 +1657,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 82,
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 83,
                       "rank": 4
                     }
@@ -1681,12 +1681,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 67,
                       "rank": 8
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 66,
                       "rank": 7
                     }
@@ -1698,12 +1698,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 70,
                       "rank": 8
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 73,
                       "rank": 6
                     }
@@ -1778,7 +1778,7 @@
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 69,
                       "rank": 8
                     }
@@ -1795,7 +1795,7 @@
                       "rank": 7
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 70,
                       "rank": 7
                     }
@@ -1814,12 +1814,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 73,
                       "rank": 8
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 70,
                       "rank": 8
                     }
@@ -1831,12 +1831,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 79,
                       "rank": 7
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 80,
                       "rank": 7
                     }
@@ -1855,12 +1855,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 65,
                       "rank": 9
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 62,
                       "rank": 9
                     }
@@ -1872,12 +1872,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 68,
                       "rank": 10
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 67,
                       "rank": 10
                     }
@@ -1952,7 +1952,7 @@
                       "rank": 8
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 70,
                       "rank": 7
                     }
@@ -1969,7 +1969,7 @@
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 71,
                       "rank": 6
                     }
@@ -1988,12 +1988,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 75,
                       "rank": 7
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 73,
                       "rank": 7
                     }
@@ -2005,12 +2005,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 72,
                       "rank": 11
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 71,
                       "rank": 11
                     }
@@ -2029,12 +2029,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 70,
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 70,
                       "rank": 5
                     }
@@ -2046,12 +2046,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 72,
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 72,
                       "rank": 7
                     }
@@ -2126,7 +2126,7 @@
                       "rank": 11
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 67,
                       "rank": 10
                     }
@@ -2143,7 +2143,7 @@
                       "rank": 10
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 65,
                       "rank": 10
                     }
@@ -2162,12 +2162,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 70,
                       "rank": 10
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 66,
                       "rank": 10
                     }
@@ -2179,12 +2179,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 77,
                       "rank": 8
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 78,
                       "rank": 8
                     }
@@ -2203,12 +2203,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 72,
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 65,
                       "rank": 8
                     }
@@ -2220,12 +2220,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 69,
                       "rank": 9
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 68,
                       "rank": 9
                     }
@@ -2300,7 +2300,7 @@
                       "rank": 9
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 68,
                       "rank": 9
                     }
@@ -2317,7 +2317,7 @@
                       "rank": 9
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 67,
                       "rank": 9
                     }
@@ -2336,12 +2336,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 71,
                       "rank": 9
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 68,
                       "rank": 9
                     }
@@ -2353,12 +2353,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 76,
                       "rank": 9
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 76,
                       "rank": 9
                     }
@@ -2377,12 +2377,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 60,
                       "rank": 11
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 60,
                       "rank": 11
                     }
@@ -2394,12 +2394,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 67,
                       "rank": 11
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 66,
                       "rank": 11
                     }
@@ -2474,7 +2474,7 @@
                       "rank": 12
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 66,
                       "rank": 11
                     }
@@ -2491,7 +2491,7 @@
                       "rank": 11
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 64,
                       "rank": 11
                     }
@@ -2510,12 +2510,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 68,
                       "rank": 11
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 65,
                       "rank": 11
                     }
@@ -2527,12 +2527,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 75,
                       "rank": 10
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 73,
                       "rank": 10
                     }
@@ -2551,12 +2551,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 62,
                       "rank": 10
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 61,
                       "rank": 10
                     }
@@ -2568,12 +2568,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 71,
                       "rank": 7
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 70,
                       "rank": 8
                     }
@@ -2648,7 +2648,7 @@
                       "rank": 10
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 65,
                       "rank": 12
                     }
@@ -2665,7 +2665,7 @@
                       "rank": 12
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 63,
                       "rank": 12
                     }
@@ -2684,12 +2684,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 65,
                       "rank": 12
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 62,
                       "rank": 12
                     }
@@ -2701,12 +2701,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 67,
                       "rank": 12
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 69,
                       "rank": 12
                     }
@@ -2725,12 +2725,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 58,
                       "rank": 12
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 55,
                       "rank": 12
                     }
@@ -2742,12 +2742,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 66,
                       "rank": 12
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 64,
                       "rank": 12
                     }
@@ -2826,12 +2826,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 86,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 84,
                       "rank": 1
                     }
@@ -2843,12 +2843,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 89,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 90,
                       "rank": 1
                     }
@@ -2918,12 +2918,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 81,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 80,
                       "rank": 3
                     }
@@ -2935,12 +2935,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 87,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 89,
                       "rank": 2
                     }
@@ -3010,12 +3010,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 83,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 81,
                       "rank": 2
                     }
@@ -3027,12 +3027,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 90,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 88,
                       "rank": 3
                     }
@@ -3102,12 +3102,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 76,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 75,
                       "rank": 5
                     }
@@ -3119,12 +3119,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 84,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 83,
                       "rank": 4
                     }
@@ -3194,12 +3194,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 78,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 76,
                       "rank": 4
                     }
@@ -3211,12 +3211,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 80,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 79,
                       "rank": 5
                     }
@@ -3286,12 +3286,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 75,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 73,
                       "rank": 6
                     }
@@ -3303,12 +3303,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 78,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 78,
                       "rank": 6
                     }
@@ -3378,12 +3378,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 70,
                       "rank": 7
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 71,
                       "rank": 7
                     }
@@ -3395,12 +3395,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 76,
                       "rank": 7
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 77,
                       "rank": 7
                     }
@@ -3479,12 +3479,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 82,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 81,
                       "rank": 2
                     }
@@ -3496,12 +3496,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 88,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 86,
                       "rank": 1
                     }
@@ -3571,12 +3571,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 85,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 84,
                       "rank": 1
                     }
@@ -3588,12 +3588,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 86,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 83,
                       "rank": 2
                     }
@@ -3663,12 +3663,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 78,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 76,
                       "rank": 3
                     }
@@ -3680,12 +3680,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 81,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 80,
                       "rank": 3
                     }
@@ -3755,12 +3755,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 74,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 72,
                       "rank": 4
                     }
@@ -3772,12 +3772,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 80,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 79,
                       "rank": 4
                     }
@@ -3861,7 +3861,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 90,
                       "rank": 1
                     }
@@ -3878,7 +3878,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 89,
                       "rank": 1
                     }
@@ -3897,12 +3897,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 90,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 89,
                       "rank": 1
                     }
@@ -3914,12 +3914,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 91,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 89,
                       "rank": 1
                     }
@@ -3938,12 +3938,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 89,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 88,
                       "rank": 1
                     }
@@ -3955,12 +3955,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 90,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 89,
                       "rank": 1
                     }
@@ -4035,7 +4035,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 87,
                       "rank": 2
                     }
@@ -4052,7 +4052,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 87,
                       "rank": 2
                     }
@@ -4071,12 +4071,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 87,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 85,
                       "rank": 3
                     }
@@ -4088,12 +4088,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 89,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 86,
                       "rank": 3
                     }
@@ -4112,12 +4112,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 81,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 82,
                       "rank": 3
                     }
@@ -4129,12 +4129,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 86,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 86,
                       "rank": 2
                     }
@@ -4209,7 +4209,7 @@
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 80,
                       "rank": 4
                     }
@@ -4226,7 +4226,7 @@
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 83,
                       "rank": 3
                     }
@@ -4245,12 +4245,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 86,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 86,
                       "rank": 2
                     }
@@ -4262,12 +4262,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 88,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 87,
                       "rank": 2
                     }
@@ -4286,12 +4286,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 79,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 78,
                       "rank": 4
                     }
@@ -4303,12 +4303,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 82,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 81,
                       "rank": 4
                     }
@@ -4383,7 +4383,7 @@
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 82,
                       "rank": 3
                     }
@@ -4400,7 +4400,7 @@
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 81,
                       "rank": 4
                     }
@@ -4419,12 +4419,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 85,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 83,
                       "rank": 4
                     }
@@ -4436,12 +4436,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 84,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 83,
                       "rank": 4
                     }
@@ -4460,12 +4460,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 83,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 83,
                       "rank": 2
                     }
@@ -4477,12 +4477,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 83,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 82,
                       "rank": 3
                     }
@@ -4561,12 +4561,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 85,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 82,
                       "rank": 2
                     }
@@ -4578,12 +4578,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 85,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 84,
                       "rank": 1
                     }
@@ -4653,12 +4653,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 87,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 84,
                       "rank": 1
                     }
@@ -4670,12 +4670,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 80,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 79,
                       "rank": 2
                     }
@@ -4759,7 +4759,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 80,
                       "rank": 1
                     }
@@ -4776,7 +4776,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 85,
                       "rank": 1
                     }
@@ -4795,12 +4795,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 89,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 88,
                       "rank": 1
                     }
@@ -4812,12 +4812,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 94,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 92,
                       "rank": 1
                     }
@@ -4836,12 +4836,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 77,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 77,
                       "rank": 1
                     }
@@ -4853,12 +4853,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 84,
                       "rank": 1
                     }
@@ -4933,7 +4933,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 74,
                       "rank": 2
                     }
@@ -4950,7 +4950,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 79,
                       "rank": 2
                     }
@@ -4969,12 +4969,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 83,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 81,
                       "rank": 2
                     }
@@ -4986,12 +4986,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 91,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 91,
                       "rank": 2
                     }
@@ -5010,12 +5010,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 72,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 75,
                       "rank": 2
                     }
@@ -5027,12 +5027,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 78,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 77,
                       "rank": 2
                     }
@@ -5116,7 +5116,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 77,
                       "rank": 1
                     }
@@ -5133,7 +5133,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 73,
                       "rank": 1
                     }
@@ -5152,12 +5152,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 77,
                       "rank": 1
                     }
@@ -5169,12 +5169,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 80,
                       "rank": 1
                     }
@@ -5193,12 +5193,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 70,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 70,
                       "rank": 1
                     }
@@ -5210,12 +5210,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 74,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 75,
                       "rank": 1
                     }
@@ -5294,12 +5294,12 @@
                   "judgeName": "B. Kuhn",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 77,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 74,
                       "rank": 1
                     }
@@ -5311,12 +5311,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 76,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 74,
                       "rank": 1
                     }
@@ -5400,7 +5400,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 88,
                       "rank": 1
                     }
@@ -5417,7 +5417,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 88,
                       "rank": 1
                     }
@@ -5436,12 +5436,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 89,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 88,
                       "rank": 1
                     }
@@ -5453,12 +5453,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 89,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 88,
                       "rank": 1
                     }
@@ -5477,12 +5477,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 85,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 85,
                       "rank": 1
                     }
@@ -5494,12 +5494,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 88,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 89,
                       "rank": 1
                     }
@@ -5574,7 +5574,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 84,
                       "rank": 2
                     }
@@ -5591,7 +5591,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 83,
                       "rank": 2
                     }
@@ -5610,12 +5610,12 @@
                   "judgeName": "P. Furnari",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 85,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 82,
                       "rank": 2
                     }
@@ -5627,12 +5627,12 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 86,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 83,
                       "rank": 2
                     }
@@ -5651,12 +5651,12 @@
                   "judgeName": "J. McArthur",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 82,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 79,
                       "rank": 2
                     }
@@ -5668,12 +5668,12 @@
                   "judgeName": "R. Hardin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 82,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 83,
                       "rank": 2
                     }

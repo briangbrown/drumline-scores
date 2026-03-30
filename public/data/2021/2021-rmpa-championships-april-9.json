@@ -106,7 +106,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "AN",
+                      "key": "VAN",
                       "rawScore": 74,
                       "rank": 1
                     }
@@ -123,7 +123,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "AN",
+                      "key": "VAN",
                       "rawScore": 72,
                       "rank": 1
                     }
@@ -1024,7 +1024,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "AN",
+                      "key": "VAN",
                       "rawScore": 88,
                       "rank": 1
                     }
@@ -1041,7 +1041,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "AN",
+                      "key": "VAN",
                       "rawScore": 90,
                       "rank": 1
                     }
@@ -1150,7 +1150,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "AN",
+                      "key": "VAN",
                       "rawScore": 74,
                       "rank": 2
                     }
@@ -1167,7 +1167,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "AN",
+                      "key": "VAN",
                       "rawScore": 70,
                       "rank": 2
                     }
@@ -1285,7 +1285,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "AN",
+                      "key": "VAN",
                       "rawScore": 83,
                       "rank": 1
                     }
@@ -1302,7 +1302,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "AN",
+                      "key": "VAN",
                       "rawScore": 82,
                       "rank": 1
                     }
@@ -1854,7 +1854,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "AN",
+                      "key": "VAN",
                       "rawScore": 83,
                       "rank": 1
                     }
@@ -1871,7 +1871,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "AN",
+                      "key": "VAN",
                       "rawScore": 88,
                       "rank": 1
                     }
@@ -1923,7 +1923,7 @@
                   "rank": null
                 }
               ],
-              "captionTotal": 3,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1957,7 +1957,7 @@
                   "rank": null
                 }
               ],
-              "captionTotal": 2.75,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],

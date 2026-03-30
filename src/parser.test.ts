@@ -67,6 +67,60 @@ describe('parseRecapHtml — 2025 (Era 2, latest format)', () => {
   })
 })
 
+describe('parseRecapHtml — 2025 PSA penalty not misread as subcaption (#16)', () => {
+  const html = loadHtml(2025, '2025-03-28_RMPA_State_Championships.html')
+  const result = parseRecapHtml(html, 2025)
+
+  it('should assign correct sub-caption keys for Visual caption', () => {
+    const psa = result.classes.find((c) => c.classDef.name === 'Percussion Scholastic A')
+    expect(psa).toBeDefined()
+    if (!psa) return
+    const longmont = psa.ensembles.find((e) => /longmont/i.test(e.ensembleName))
+    expect(longmont).toBeDefined()
+    if (!longmont) return
+
+    const visual = longmont.captions.find((c) => c.captionName === 'Visual')
+    expect(visual).toBeDefined()
+    if (!visual) return
+
+    const judge = visual.judges[0]
+    expect(judge.judgeName).toBe('T. Goddard')
+    expect(judge.subCaptions.map((s) => s.key)).toEqual(['Comp', 'Perf'])
+  })
+
+  it('should not include penalty value as a Visual subcaption score', () => {
+    const psa = result.classes.find((c) => c.classDef.name === 'Percussion Scholastic A')
+    expect(psa).toBeDefined()
+    if (!psa) return
+    const longmont = psa.ensembles.find((e) => /longmont/i.test(e.ensembleName))
+    expect(longmont).toBeDefined()
+    if (!longmont) return
+
+    const visual = longmont.captions.find((c) => c.captionName === 'Visual')
+    expect(visual).toBeDefined()
+    if (!visual) return
+
+    const judge = visual.judges[0]
+    // Comp=89, Perf=88 from the source HTML — not 87.3/0.5 (SubTotal/Penalty)
+    expect(judge.subCaptions[0].rawScore).toBe(89)
+    expect(judge.subCaptions[1].rawScore).toBe(88)
+    expect(judge.total).toBeCloseTo(17.7, 1)
+  })
+
+  it('should parse penalty correctly as 0.5', () => {
+    const psa = result.classes.find((c) => c.classDef.name === 'Percussion Scholastic A')
+    expect(psa).toBeDefined()
+    if (!psa) return
+    const longmont = psa.ensembles.find((e) => /longmont/i.test(e.ensembleName))
+    expect(longmont).toBeDefined()
+    if (!longmont) return
+
+    expect(longmont.penalty).toBeCloseTo(0.5, 1)
+    expect(longmont.subTotal).toBeCloseTo(87.3, 1)
+    expect(longmont.total).toBeCloseTo(86.8, 1)
+  })
+})
+
 describe('parseRecapHtml — 2023 (Era 2, header-division-name class)', () => {
   const html = loadHtml(2023, '2023-04-15_RMPA_Championships.html')
   const result = parseRecapHtml(html, 2023)

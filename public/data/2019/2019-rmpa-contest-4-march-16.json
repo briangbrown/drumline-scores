@@ -40,8 +40,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -50,18 +50,18 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83,
+                      "key": "Prog",
+                      "rawScore": 84,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.7,
+                      "key": "Ful",
+                      "rawScore": 83,
                       "rank": 2
                     }
                   ],
-                  "total": 86.1,
-                  "rank": 1
+                  "total": 41.7,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -98,8 +98,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 87,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -108,18 +108,18 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 86,
+                      "key": "Prog",
+                      "rawScore": 87,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 43.2,
+                      "key": "Ful",
+                      "rawScore": 86,
                       "rank": 1
                     }
                   ],
-                  "total": 84.8,
-                  "rank": 2
+                  "total": 43.2,
+                  "rank": 1
                 }
               ],
               "captionTotal": 0,
@@ -156,8 +156,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -166,17 +166,17 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
+                      "key": "Prog",
+                      "rawScore": 82,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.4,
+                      "key": "Ful",
+                      "rawScore": 80,
                       "rank": 3
                     }
                   ],
-                  "total": 83,
+                  "total": 40.4,
                   "rank": 3
                 }
               ],
@@ -214,8 +214,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -224,17 +224,17 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 77,
+                      "key": "Prog",
+                      "rawScore": 78,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38.7,
+                      "key": "Ful",
+                      "rawScore": 77,
                       "rank": 4
                     }
                   ],
-                  "total": 79.4,
+                  "total": 38.7,
                   "rank": 4
                 }
               ],
@@ -272,8 +272,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -282,18 +282,18 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 74,
+                      "key": "Prog",
+                      "rawScore": 75,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.2,
+                      "key": "Ful",
+                      "rawScore": 74,
                       "rank": 6
                     }
                   ],
-                  "total": 76.75,
-                  "rank": 5
+                  "total": 37.2,
+                  "rank": 6
                 }
               ],
               "captionTotal": 0,
@@ -330,8 +330,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -340,18 +340,18 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73,
+                      "key": "Prog",
+                      "rawScore": 74,
                       "rank": 7
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36.7,
+                      "key": "Ful",
+                      "rawScore": 73,
                       "rank": 7
                     }
                   ],
-                  "total": 76.2,
-                  "rank": 6
+                  "total": 36.7,
+                  "rank": 7
                 }
               ],
               "captionTotal": 0,
@@ -388,8 +388,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -398,18 +398,18 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 75,
+                      "key": "Prog",
+                      "rawScore": 76,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.7,
+                      "key": "Ful",
+                      "rawScore": 75,
                       "rank": 5
                     }
                   ],
-                  "total": 75.8,
-                  "rank": 7
+                  "total": 37.7,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -446,8 +446,8 @@
                   "rank": 8
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -456,17 +456,17 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72,
+                      "key": "Prog",
+                      "rawScore": 73,
                       "rank": 8
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36.2,
+                      "key": "Ful",
+                      "rawScore": 72,
                       "rank": 8
                     }
                   ],
-                  "total": 73.35,
+                  "total": 36.2,
                   "rank": 8
                 }
               ],
@@ -504,8 +504,8 @@
                   "rank": 9
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 9
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -514,17 +514,17 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 71,
+                      "key": "Prog",
+                      "rawScore": 72,
                       "rank": 9
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 35.7,
+                      "key": "Ful",
+                      "rawScore": 71,
                       "rank": 9
                     }
                   ],
-                  "total": 72.8,
+                  "total": 35.7,
                   "rank": 9
                 }
               ],
@@ -571,8 +571,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -581,22 +581,22 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 81,
-                      "rank": 2
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 24.6,
-                      "rank": 1
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 2
                     }
                   ],
-                  "total": 82,
-                  "rank": 2
+                  "total": 24.6,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -606,21 +606,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.2,
+                      "rawScore": 82,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 87,
-                      "rank": 1
+                      "rawScore": 80,
+                      "rank": 2
                     }
                   ],
-                  "total": 86,
-                  "rank": 1
+                  "total": 16.2,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 17.3,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -629,17 +629,17 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83.8,
+                      "key": "Ovr",
+                      "rawScore": 87,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 86,
+                      "rank": 1
                     }
                   ],
-                  "total": 83.8,
+                  "total": 17.3,
                   "rank": 1
                 }
               ],
@@ -677,8 +677,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -687,22 +687,22 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83,
-                      "rank": 1
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 24.45,
-                      "rank": 2
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 1
                     }
                   ],
-                  "total": 83,
-                  "rank": 1
+                  "total": 24.45,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -712,21 +712,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.5,
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 81,
-                      "rank": 4
+                      "rawScore": 82,
+                      "rank": 1
                     }
                   ],
-                  "total": 80,
-                  "rank": 4
+                  "total": 16.5,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 16.1,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -735,18 +735,18 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 82.55,
-                      "rank": 2
+                      "key": "Ovr",
+                      "rawScore": 81,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 80,
+                      "rank": 4
                     }
                   ],
-                  "total": 82.55,
-                  "rank": 2
+                  "total": 16.1,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -783,8 +783,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -793,22 +793,22 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79,
-                      "rank": 3
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 24.15,
+                      "key": "Mus",
+                      "rawScore": 79,
                       "rank": 3
                     }
                   ],
-                  "total": 78,
+                  "total": 24.15,
                   "rank": 3
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -818,21 +818,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.7,
+                      "rawScore": 78,
                       "rank": 3
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 78,
-                      "rank": 6
+                      "rawScore": 79,
+                      "rank": 3
                     }
                   ],
-                  "total": 77,
-                  "rank": 6
+                  "total": 15.7,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 15.5,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -841,18 +841,18 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79.45,
-                      "rank": 3
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 77,
+                      "rank": 6
                     }
                   ],
-                  "total": 79.45,
-                  "rank": 3
+                  "total": 15.5,
+                  "rank": 6
                 }
               ],
               "captionTotal": 0,
@@ -889,8 +889,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -899,22 +899,22 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 78,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 23.4,
+                      "key": "Mus",
+                      "rawScore": 78,
                       "rank": 4
                     }
                   ],
-                  "total": 75,
-                  "rank": 6
+                  "total": 23.4,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -924,21 +924,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 14.8,
+                      "rawScore": 75,
                       "rank": 6
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 83,
-                      "rank": 2
+                      "rawScore": 73,
+                      "rank": 6
                     }
                   ],
-                  "total": 82,
-                  "rank": 3
+                  "total": 14.8,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 16.5,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -947,18 +947,18 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79.25,
-                      "rank": 4
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0.35,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 82,
+                      "rank": 3
                     }
                   ],
-                  "total": 78.9,
-                  "rank": 4
+                  "total": 16.5,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -995,8 +995,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1005,22 +1005,22 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73,
+                      "key": "Ovr",
+                      "rawScore": 74,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 22.05,
+                      "key": "Mus",
+                      "rawScore": 73,
                       "rank": 6
                     }
                   ],
-                  "total": 77,
-                  "rank": 4
+                  "total": 22.05,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1030,21 +1030,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.5,
+                      "rawScore": 77,
                       "rank": 4
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 82,
-                      "rank": 3
+                      "rawScore": 78,
+                      "rank": 4
                     }
                   ],
-                  "total": 84,
-                  "rank": 2
+                  "total": 15.5,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 16.6,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1053,18 +1053,18 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78,
-                      "rank": 5
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 84,
+                      "rank": 2
                     }
                   ],
-                  "total": 78,
-                  "rank": 5
+                  "total": 16.6,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -1101,8 +1101,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1111,22 +1111,22 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 71,
-                      "rank": 8
+                      "key": "Ovr",
+                      "rawScore": 73,
+                      "rank": 7
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 21.6,
-                      "rank": 7
+                      "key": "Mus",
+                      "rawScore": 71,
+                      "rank": 8
                     }
                   ],
-                  "total": 76,
-                  "rank": 5
+                  "total": 21.6,
+                  "rank": 7
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1136,21 +1136,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15,
+                      "rawScore": 76,
                       "rank": 5
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 80,
+                      "rawScore": 74,
                       "rank": 5
                     }
                   ],
-                  "total": 78,
+                  "total": 15,
                   "rank": 5
                 }
               ],
-              "captionTotal": 15.8,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1159,18 +1159,18 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 75.8,
-                      "rank": 6
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 78,
+                      "rank": 5
                     }
                   ],
-                  "total": 75.8,
-                  "rank": 6
+                  "total": 15.8,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -1207,8 +1207,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1217,22 +1217,22 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 72,
-                      "rank": 7
+                      "rank": 8
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 21.6,
+                      "key": "Mus",
+                      "rawScore": 72,
                       "rank": 7
                     }
                   ],
-                  "total": 73,
+                  "total": 21.6,
                   "rank": 7
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1242,21 +1242,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 14.4,
+                      "rawScore": 73,
                       "rank": 7
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 76,
+                      "rawScore": 71,
                       "rank": 7
                     }
                   ],
-                  "total": 74,
+                  "total": 14.4,
                   "rank": 7
                 }
               ],
-              "captionTotal": 15,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1265,17 +1265,17 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 74.3,
+                      "key": "Ovr",
+                      "rawScore": 76,
                       "rank": 7
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 74,
+                      "rank": 7
                     }
                   ],
-                  "total": 74.3,
+                  "total": 15,
                   "rank": 7
                 }
               ],
@@ -1313,8 +1313,8 @@
                   "rank": 8
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1323,22 +1323,22 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 74,
+                      "key": "Ovr",
+                      "rawScore": 75,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 22.35,
+                      "key": "Mus",
+                      "rawScore": 74,
                       "rank": 5
                     }
                   ],
-                  "total": 72,
-                  "rank": 8
+                  "total": 22.35,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1348,21 +1348,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 14.2,
+                      "rawScore": 72,
                       "rank": 8
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 75,
+                      "rawScore": 70,
                       "rank": 8
                     }
                   ],
-                  "total": 73,
+                  "total": 14.2,
                   "rank": 8
                 }
               ],
-              "captionTotal": 14.8,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1371,17 +1371,17 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72.65,
+                      "key": "Ovr",
+                      "rawScore": 75,
                       "rank": 8
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 73,
+                      "rank": 8
                     }
                   ],
-                  "total": 72.65,
+                  "total": 14.8,
                   "rank": 8
                 }
               ],
@@ -1428,8 +1428,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 88,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1438,17 +1438,17 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 86,
+                      "key": "Prog",
+                      "rawScore": 88,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 43.4,
+                      "key": "Ful",
+                      "rawScore": 86,
                       "rank": 1
                     }
                   ],
-                  "total": 87.4,
+                  "total": 43.4,
                   "rank": 1
                 }
               ],
@@ -1486,8 +1486,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1496,18 +1496,18 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
+                      "key": "Prog",
+                      "rawScore": 78,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 39.6,
+                      "key": "Ful",
+                      "rawScore": 80,
                       "rank": 4
                     }
                   ],
-                  "total": 84.3,
-                  "rank": 2
+                  "total": 39.6,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -1544,8 +1544,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1554,17 +1554,17 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 82,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41,
+                      "key": "Ful",
+                      "rawScore": 82,
                       "rank": 3
                     }
                   ],
-                  "total": 84.1,
+                  "total": 41,
                   "rank": 3
                 }
               ],
@@ -1602,8 +1602,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1612,18 +1612,18 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83,
+                      "key": "Prog",
+                      "rawScore": 85,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.9,
+                      "key": "Ful",
+                      "rawScore": 83,
                       "rank": 2
                     }
                   ],
-                  "total": 82,
-                  "rank": 4
+                  "total": 41.9,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -1660,8 +1660,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1670,17 +1670,17 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 75,
+                      "key": "Prog",
+                      "rawScore": 76,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.7,
+                      "key": "Ful",
+                      "rawScore": 75,
                       "rank": 5
                     }
                   ],
-                  "total": 78.6,
+                  "total": 37.7,
                   "rank": 5
                 }
               ],
@@ -1727,8 +1727,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1737,22 +1737,22 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76,
+                      "key": "Ovr",
+                      "rawScore": 77,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 22.95,
+                      "key": "Mus",
+                      "rawScore": 76,
                       "rank": 1
                     }
                   ],
-                  "total": 82,
+                  "total": 22.95,
                   "rank": 1
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1762,21 +1762,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.2,
+                      "rawScore": 82,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 84,
+                      "rawScore": 80,
                       "rank": 1
                     }
                   ],
-                  "total": 85,
+                  "total": 16.2,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.9,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1785,17 +1785,17 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78.95,
+                      "key": "Ovr",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 85,
+                      "rank": 1
                     }
                   ],
-                  "total": 78.95,
+                  "total": 16.9,
                   "rank": 1
                 }
               ],
@@ -1842,8 +1842,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1852,22 +1852,22 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 75,
+                      "key": "Ovr",
+                      "rawScore": 78,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 22.95,
+                      "key": "Mus",
+                      "rawScore": 75,
                       "rank": 1
                     }
                   ],
-                  "total": 84,
+                  "total": 22.95,
                   "rank": 1
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1877,21 +1877,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.8,
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 82,
+                      "rawScore": 84,
                       "rank": 1
                     }
                   ],
-                  "total": 82,
+                  "total": 16.8,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.4,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1900,17 +1900,17 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79.55,
+                      "key": "Ovr",
+                      "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 82,
+                      "rank": 1
                     }
                   ],
-                  "total": 79.55,
+                  "total": 16.4,
                   "rank": 1
                 }
               ],
@@ -1957,8 +1957,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1967,22 +1967,22 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
+                      "key": "Ovr",
+                      "rawScore": 81,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 24.15,
+                      "key": "Mus",
+                      "rawScore": 80,
                       "rank": 1
                     }
                   ],
-                  "total": 82,
+                  "total": 24.15,
                   "rank": 1
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1992,21 +1992,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.3,
+                      "rawScore": 82,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 85,
+                      "rawScore": 81,
                       "rank": 1
                     }
                   ],
-                  "total": 86,
+                  "total": 16.3,
                   "rank": 1
                 }
               ],
-              "captionTotal": 17.1,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2015,17 +2015,17 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83.15,
+                      "key": "Ovr",
+                      "rawScore": 85,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 86,
+                      "rank": 1
                     }
                   ],
-                  "total": 83.15,
+                  "total": 17.1,
                   "rank": 1
                 }
               ],
@@ -2063,8 +2063,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -2073,22 +2073,22 @@
                   "judgeName": "K. Stafford",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 77,
+                      "key": "Ovr",
+                      "rawScore": 79,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 23.4,
+                      "key": "Mus",
+                      "rawScore": 77,
                       "rank": 2
                     }
                   ],
-                  "total": 79,
+                  "total": 23.4,
                   "rank": 2
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2098,21 +2098,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.6,
+                      "rawScore": 79,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 83,
+                      "rawScore": 77,
                       "rank": 2
                     }
                   ],
-                  "total": 83,
+                  "total": 15.6,
                   "rank": 2
                 }
               ],
-              "captionTotal": 16.6,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2121,17 +2121,17 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79.8,
+                      "key": "Ovr",
+                      "rawScore": 83,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 83,
+                      "rank": 2
                     }
                   ],
-                  "total": 79.8,
+                  "total": 16.6,
                   "rank": 2
                 }
               ],

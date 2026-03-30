@@ -40,8 +40,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -50,21 +50,21 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76,
-                      "rank": 4
+                      "key": "Prog",
+                      "rawScore": 79,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38.6,
+                      "key": "Ful",
+                      "rawScore": 76,
                       "rank": 4
                     }
                   ],
-                  "total": 73.7,
-                  "rank": 2
+                  "total": 38.6,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 0.2,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -98,8 +98,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -108,21 +108,21 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 84,
+                      "key": "Prog",
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.8,
+                      "key": "Ful",
+                      "rawScore": 84,
                       "rank": 1
                     }
                   ],
-                  "total": 76.4,
+                  "total": 41.8,
                   "rank": 1
                 }
               ],
-              "captionTotal": 3,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -156,8 +156,8 @@
                   "rank": 9
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -166,21 +166,21 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
+                      "key": "Prog",
+                      "rawScore": 82,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.4,
+                      "key": "Ful",
+                      "rawScore": 80,
                       "rank": 2
                     }
                   ],
-                  "total": 72,
-                  "rank": 4
+                  "total": 40.4,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 0.5,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -214,8 +214,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -224,17 +224,17 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 70,
-                      "rank": 5
+                      "key": "Prog",
+                      "rawScore": 71,
+                      "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 35.2,
+                      "key": "Ful",
+                      "rawScore": 70,
                       "rank": 5
                     }
                   ],
-                  "total": 70.8,
+                  "total": 35.2,
                   "rank": 5
                 }
               ],
@@ -272,8 +272,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -282,21 +282,21 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79,
-                      "rank": 3
+                      "key": "Prog",
+                      "rawScore": 78,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 39.3,
+                      "key": "Ful",
+                      "rawScore": 79,
                       "rank": 3
                     }
                   ],
-                  "total": 73.4,
+                  "total": 39.3,
                   "rank": 3
                 }
               ],
-              "captionTotal": 6.9,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -330,8 +330,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -340,21 +340,21 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 66,
-                      "rank": 7
+                      "key": "Prog",
+                      "rawScore": 72,
+                      "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 34.2,
+                      "key": "Ful",
+                      "rawScore": 66,
                       "rank": 7
                     }
                   ],
-                  "total": 66.8,
+                  "total": 34.2,
                   "rank": 7
                 }
               ],
-              "captionTotal": 2.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -388,8 +388,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 68,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -398,21 +398,21 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 69,
-                      "rank": 6
+                      "key": "Prog",
+                      "rawScore": 68,
+                      "rank": 7
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 34.3,
+                      "key": "Ful",
+                      "rawScore": 69,
                       "rank": 6
                     }
                   ],
-                  "total": 67.6,
+                  "total": 34.3,
                   "rank": 6
                 }
               ],
-              "captionTotal": 3.8,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -446,8 +446,8 @@
                   "rank": 10
                 }
               ],
-              "captionTotal": 57,
-              "captionRank": 10
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -456,21 +456,21 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 61,
+                      "key": "Prog",
+                      "rawScore": 57,
                       "rank": 10
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 29.7,
+                      "key": "Ful",
+                      "rawScore": 61,
                       "rank": 10
                     }
                   ],
-                  "total": 60.6,
+                  "total": 29.7,
                   "rank": 10
                 }
               ],
-              "captionTotal": 2,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -504,8 +504,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 62,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -514,21 +514,21 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 64,
+                      "key": "Prog",
+                      "rawScore": 62,
                       "rank": 8
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 31.6,
+                      "key": "Ful",
+                      "rawScore": 64,
                       "rank": 8
                     }
                   ],
-                  "total": 65,
+                  "total": 31.6,
                   "rank": 8
                 }
               ],
-              "captionTotal": 6.8,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -562,8 +562,8 @@
                   "rank": 8
                 }
               ],
-              "captionTotal": 60,
-              "captionRank": 9
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -572,21 +572,21 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 64,
-                      "rank": 8
+                      "key": "Prog",
+                      "rawScore": 60,
+                      "rank": 9
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 31.2,
-                      "rank": 9
+                      "key": "Ful",
+                      "rawScore": 64,
+                      "rank": 8
                     }
                   ],
-                  "total": 63.3,
+                  "total": 31.2,
                   "rank": 9
                 }
               ],
-              "captionTotal": 9.9,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -629,8 +629,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -639,22 +639,22 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 78,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 23.4,
+                      "key": "Mus",
+                      "rawScore": 78,
                       "rank": 1
                     }
                   ],
-                  "total": 70,
-                  "rank": 2
+                  "total": 23.4,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -664,21 +664,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 14.1,
-                      "rank": 1
+                      "rawScore": 70,
+                      "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 72,
+                      "rawScore": 71,
                       "rank": 1
                     }
                   ],
-                  "total": 71,
-                  "rank": 2
+                  "total": 14.1,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 14.3,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -687,17 +687,17 @@
                   "judgeName": "J. Nelson",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73.8,
+                      "key": "Ovr",
+                      "rawScore": 72,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 1.2,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 71,
+                      "rank": 2
                     }
                   ],
-                  "total": 72.6,
+                  "total": 14.3,
                   "rank": 1
                 }
               ],
@@ -735,8 +735,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -745,22 +745,22 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 66,
+                      "key": "Ovr",
+                      "rawScore": 70,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 20.4,
+                      "key": "Mus",
+                      "rawScore": 66,
                       "rank": 3
                     }
                   ],
-                  "total": 71,
-                  "rank": 1
+                  "total": 20.4,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 69,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -770,21 +770,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 14,
-                      "rank": 2
+                      "rawScore": 71,
+                      "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 70,
+                      "rawScore": 69,
                       "rank": 2
                     }
                   ],
-                  "total": 71,
+                  "total": 14,
                   "rank": 2
                 }
               ],
-              "captionTotal": 14.1,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -793,17 +793,17 @@
                   "judgeName": "J. Nelson",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 68.5,
-                      "rank": 3
+                      "key": "Ovr",
+                      "rawScore": 70,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 71,
+                      "rank": 2
                     }
                   ],
-                  "total": 68.5,
+                  "total": 14.1,
                   "rank": 2
                 }
               ],
@@ -841,8 +841,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -851,22 +851,22 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72,
+                      "key": "Ovr",
+                      "rawScore": 73,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 21.75,
+                      "key": "Mus",
+                      "rawScore": 72,
                       "rank": 2
                     }
                   ],
-                  "total": 67,
-                  "rank": 3
+                  "total": 21.75,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 66,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -876,21 +876,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 13.3,
+                      "rawScore": 67,
                       "rank": 3
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 65,
-                      "rank": 4
+                      "rawScore": 66,
+                      "rank": 3
                     }
                   ],
-                  "total": 66,
-                  "rank": 4
+                  "total": 13.3,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 13.1,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -899,18 +899,18 @@
                   "judgeName": "J. Nelson",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 71.05,
-                      "rank": 2
+                      "key": "Ovr",
+                      "rawScore": 65,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 2.9,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 66,
+                      "rank": 4
                     }
                   ],
-                  "total": 68.15,
-                  "rank": 3
+                  "total": 13.1,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -947,8 +947,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 60,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -957,22 +957,22 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 61,
+                      "key": "Ovr",
+                      "rawScore": 60,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 18.15,
+                      "key": "Mus",
+                      "rawScore": 61,
                       "rank": 4
                     }
                   ],
-                  "total": 64,
+                  "total": 18.15,
                   "rank": 4
                 }
               ],
-              "captionTotal": 62,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -982,21 +982,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 12.6,
+                      "rawScore": 64,
                       "rank": 4
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 69,
-                      "rank": 3
+                      "rawScore": 62,
+                      "rank": 4
                     }
                   ],
-                  "total": 72,
-                  "rank": 1
+                  "total": 12.6,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 14.1,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1005,18 +1005,18 @@
                   "judgeName": "J. Nelson",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 64.55,
-                      "rank": 4
+                      "key": "Ovr",
+                      "rawScore": 69,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 72,
+                      "rank": 1
                     }
                   ],
-                  "total": 64.55,
-                  "rank": 4
+                  "total": 14.1,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -1053,8 +1053,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 59,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1063,22 +1063,22 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 55,
+                      "key": "Ovr",
+                      "rawScore": 59,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 17.1,
+                      "key": "Mus",
+                      "rawScore": 55,
                       "rank": 5
                     }
                   ],
-                  "total": 60,
+                  "total": 17.1,
                   "rank": 5
                 }
               ],
-              "captionTotal": 60,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1088,21 +1088,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 12,
+                      "rawScore": 60,
                       "rank": 5
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 59,
+                      "rawScore": 60,
                       "rank": 5
                     }
                   ],
-                  "total": 63,
+                  "total": 12,
                   "rank": 5
                 }
               ],
-              "captionTotal": 12.2,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1111,17 +1111,17 @@
                   "judgeName": "J. Nelson",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 60.1,
+                      "key": "Ovr",
+                      "rawScore": 59,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 4.5,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 63,
+                      "rank": 5
                     }
                   ],
-                  "total": 55.6,
+                  "total": 12.2,
                   "rank": 5
                 }
               ],
@@ -1168,8 +1168,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1178,17 +1178,17 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76,
+                      "key": "Prog",
+                      "rawScore": 74,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.6,
+                      "key": "Ful",
+                      "rawScore": 76,
                       "rank": 1
                     }
                   ],
-                  "total": 74.4,
+                  "total": 37.6,
                   "rank": 1
                 }
               ],
@@ -1226,8 +1226,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1236,21 +1236,21 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 74,
+                      "key": "Prog",
+                      "rawScore": 72,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36.6,
+                      "key": "Ful",
+                      "rawScore": 74,
                       "rank": 2
                     }
                   ],
-                  "total": 73.9,
+                  "total": 36.6,
                   "rank": 2
                 }
               ],
-              "captionTotal": 3.3,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1284,8 +1284,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1294,21 +1294,21 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 70,
+                      "key": "Prog",
+                      "rawScore": 71,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 35.2,
+                      "key": "Ful",
+                      "rawScore": 70,
                       "rank": 3
                     }
                   ],
-                  "total": 71.5,
+                  "total": 35.2,
                   "rank": 3
                 }
               ],
-              "captionTotal": 2.6,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1342,8 +1342,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 64,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1352,17 +1352,17 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 63,
+                      "key": "Prog",
+                      "rawScore": 64,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 31.7,
+                      "key": "Ful",
+                      "rawScore": 63,
                       "rank": 4
                     }
                   ],
-                  "total": 68,
+                  "total": 31.7,
                   "rank": 4
                 }
               ],
@@ -1400,8 +1400,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 62,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1410,18 +1410,18 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 61,
+                      "key": "Prog",
+                      "rawScore": 62,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 30.7,
+                      "key": "Ful",
+                      "rawScore": 61,
                       "rank": 6
                     }
                   ],
-                  "total": 64.3,
-                  "rank": 7
+                  "total": 30.7,
+                  "rank": 6
                 }
               ],
               "captionTotal": 0,
@@ -1458,8 +1458,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 59,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1468,21 +1468,21 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 60,
+                      "key": "Prog",
+                      "rawScore": 59,
                       "rank": 7
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 29.8,
+                      "key": "Ful",
+                      "rawScore": 60,
                       "rank": 7
                     }
                   ],
-                  "total": 66.6,
-                  "rank": 5
+                  "total": 29.8,
+                  "rank": 7
                 }
               ],
-              "captionTotal": 3.5,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1516,8 +1516,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 63,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1526,21 +1526,21 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 62,
+                      "key": "Prog",
+                      "rawScore": 63,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 31.2,
+                      "key": "Ful",
+                      "rawScore": 62,
                       "rank": 5
                     }
                   ],
-                  "total": 65.9,
-                  "rank": 6
+                  "total": 31.2,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 3.5,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1583,8 +1583,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1593,22 +1593,22 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72,
+                      "key": "Ovr",
+                      "rawScore": 75,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 22.05,
+                      "key": "Mus",
+                      "rawScore": 72,
                       "rank": 1
                     }
                   ],
-                  "total": 74,
+                  "total": 22.05,
                   "rank": 1
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1618,21 +1618,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 14.6,
+                      "rawScore": 74,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 74,
+                      "rawScore": 72,
                       "rank": 1
                     }
                   ],
-                  "total": 71,
+                  "total": 14.6,
                   "rank": 1
                 }
               ],
-              "captionTotal": 14.5,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1641,17 +1641,17 @@
                   "judgeName": "J. Nelson",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 71.35,
+                      "key": "Ovr",
+                      "rawScore": 74,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 1.6,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 71,
+                      "rank": 1
                     }
                   ],
-                  "total": 69.75,
+                  "total": 14.5,
                   "rank": 1
                 }
               ],
@@ -1698,8 +1698,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1708,22 +1708,22 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 69,
+                      "key": "Ovr",
+                      "rawScore": 72,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 21.15,
+                      "key": "Mus",
+                      "rawScore": 69,
                       "rank": 1
                     }
                   ],
-                  "total": 70,
+                  "total": 21.15,
                   "rank": 1
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1733,21 +1733,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 14,
+                      "rawScore": 70,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 72,
+                      "rawScore": 70,
                       "rank": 1
                     }
                   ],
-                  "total": 69,
+                  "total": 14,
                   "rank": 1
                 }
               ],
-              "captionTotal": 14.1,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1756,17 +1756,17 @@
                   "judgeName": "J. Nelson",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 71.75,
+                      "key": "Ovr",
+                      "rawScore": 72,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 69,
+                      "rank": 1
                     }
                   ],
-                  "total": 71.75,
+                  "total": 14.1,
                   "rank": 1
                 }
               ],
@@ -1813,8 +1813,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1823,22 +1823,22 @@
                   "judgeName": "E. Tannert",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72,
+                      "key": "Ovr",
+                      "rawScore": 73,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 21.75,
+                      "key": "Mus",
+                      "rawScore": 72,
                       "rank": 1
                     }
                   ],
-                  "total": 79,
+                  "total": 21.75,
                   "rank": 1
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1848,21 +1848,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.6,
+                      "rawScore": 79,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 73,
+                      "rawScore": 77,
                       "rank": 1
                     }
                   ],
-                  "total": 75,
+                  "total": 15.6,
                   "rank": 1
                 }
               ],
-              "captionTotal": 14.8,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1871,17 +1871,17 @@
                   "judgeName": "J. Nelson",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 74.75,
+                      "key": "Ovr",
+                      "rawScore": 73,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 3.8,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 75,
+                      "rank": 1
                     }
                   ],
-                  "total": 70.95,
+                  "total": 14.8,
                   "rank": 1
                 }
               ],

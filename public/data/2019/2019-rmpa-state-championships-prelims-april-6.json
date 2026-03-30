@@ -67,12 +67,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 91,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 90,
                       "rank": 1
                     }
@@ -84,12 +84,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 90,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 90,
                       "rank": 1
                     }
@@ -159,12 +159,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 90,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 88,
                       "rank": 2
                     }
@@ -176,12 +176,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 92,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 89,
                       "rank": 2
                     }
@@ -251,12 +251,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 82,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 78.5,
                       "rank": 3
                     }
@@ -268,12 +268,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 85,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 83,
                       "rank": 4
                     }
@@ -343,12 +343,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 81,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 78,
                       "rank": 4
                     }
@@ -360,12 +360,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 86,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 84,
                       "rank": 3
                     }
@@ -435,12 +435,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 77,
                       "rank": 8
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 73,
                       "rank": 8
                     }
@@ -452,12 +452,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 80,
                       "rank": 7
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 77,
                       "rank": 8
                     }
@@ -527,12 +527,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 79,
                       "rank": 7
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 74,
                       "rank": 7
                     }
@@ -544,12 +544,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 82,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 79,
                       "rank": 6
                     }
@@ -619,12 +619,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 80,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 76.5,
                       "rank": 6
                     }
@@ -636,12 +636,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 79,
                       "rank": 8
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 76,
                       "rank": 9
                     }
@@ -711,12 +711,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 73,
                       "rank": 11
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 72.5,
                       "rank": 9
                     }
@@ -728,12 +728,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 81,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 81,
                       "rank": 5
                     }
@@ -803,12 +803,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 74,
                       "rank": 10
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 72,
                       "rank": 10
                     }
@@ -820,12 +820,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 78,
                       "rank": 9
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 75,
                       "rank": 10
                     }
@@ -895,12 +895,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 81,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 77.5,
                       "rank": 5
                     }
@@ -912,12 +912,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 76,
                       "rank": 11
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 78,
                       "rank": 7
                     }
@@ -987,12 +987,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 75,
                       "rank": 9
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 71.5,
                       "rank": 11
                     }
@@ -1004,12 +1004,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 77,
                       "rank": 10
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 74,
                       "rank": 11
                     }
@@ -1079,12 +1079,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 72,
                       "rank": 12
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 70,
                       "rank": 12
                     }
@@ -1096,12 +1096,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 75,
                       "rank": 12
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 72,
                       "rank": 12
                     }
@@ -1171,12 +1171,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 71,
                       "rank": 13
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 69,
                       "rank": 13
                     }
@@ -1188,12 +1188,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 70,
                       "rank": 13
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 71,
                       "rank": 13
                     }
@@ -1272,12 +1272,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 85,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 83.5,
                       "rank": 5
                     }
@@ -1289,12 +1289,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 89,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 87,
                       "rank": 3
                     }
@@ -1354,12 +1354,12 @@
                   "judgeName": "D. Giddens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 83,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 81,
                       "rank": 3
                     }
@@ -1371,12 +1371,12 @@
                   "judgeName": "G. Hamilton",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 87,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 86,
                       "rank": 2
                     }
@@ -1446,12 +1446,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 90,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 86,
                       "rank": 2
                     }
@@ -1463,12 +1463,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 91,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 87.5,
                       "rank": 2
                     }
@@ -1528,12 +1528,12 @@
                   "judgeName": "D. Giddens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 87,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 86,
                       "rank": 1
                     }
@@ -1545,12 +1545,12 @@
                   "judgeName": "G. Hamilton",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 91,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 89,
                       "rank": 1
                     }
@@ -1620,12 +1620,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 88,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 87,
                       "rank": 1
                     }
@@ -1637,12 +1637,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 87,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 85,
                       "rank": 4
                     }
@@ -1702,12 +1702,12 @@
                   "judgeName": "D. Giddens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 85,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 84,
                       "rank": 2
                     }
@@ -1719,12 +1719,12 @@
                   "judgeName": "G. Hamilton",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 83,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 81,
                       "rank": 4
                     }
@@ -1794,12 +1794,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 83.5,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 84,
                       "rank": 4
                     }
@@ -1811,12 +1811,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 90,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 88.5,
                       "rank": 1
                     }
@@ -1876,12 +1876,12 @@
                   "judgeName": "D. Giddens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 80,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 78,
                       "rank": 5
                     }
@@ -1893,12 +1893,12 @@
                   "judgeName": "G. Hamilton",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 81,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 80.5,
                       "rank": 5
                     }
@@ -1968,12 +1968,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 87.5,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 84.5,
                       "rank": 3
                     }
@@ -1985,12 +1985,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 86.5,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 84,
                       "rank": 5
                     }
@@ -2050,12 +2050,12 @@
                   "judgeName": "D. Giddens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 76,
                       "rank": 7
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 74,
                       "rank": 7
                     }
@@ -2067,12 +2067,12 @@
                   "judgeName": "G. Hamilton",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 84,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 82,
                       "rank": 3
                     }
@@ -2142,12 +2142,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 82,
                       "rank": 7
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 82,
                       "rank": 8
                     }
@@ -2159,12 +2159,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 82,
                       "rank": 7
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 81,
                       "rank": 7
                     }
@@ -2224,12 +2224,12 @@
                   "judgeName": "D. Giddens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 78,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 77,
                       "rank": 6
                     }
@@ -2241,12 +2241,12 @@
                   "judgeName": "G. Hamilton",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 76,
                       "rank": 8
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 74,
                       "rank": 8
                     }
@@ -2316,12 +2316,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 80,
                       "rank": 8
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 83,
                       "rank": 6
                     }
@@ -2333,12 +2333,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 84,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 83,
                       "rank": 6
                     }
@@ -2398,12 +2398,12 @@
                   "judgeName": "D. Giddens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 81,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 80,
                       "rank": 4
                     }
@@ -2415,12 +2415,12 @@
                   "judgeName": "G. Hamilton",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 78,
                       "rank": 7
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 75,
                       "rank": 7
                     }
@@ -2490,12 +2490,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 84,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 82.5,
                       "rank": 7
                     }
@@ -2507,12 +2507,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 78.5,
                       "rank": 8
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 77,
                       "rank": 8
                     }
@@ -2572,12 +2572,12 @@
                   "judgeName": "D. Giddens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 75,
                       "rank": 8
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 73,
                       "rank": 8
                     }
@@ -2589,12 +2589,12 @@
                   "judgeName": "G. Hamilton",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 82,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 79,
                       "rank": 6
                     }
@@ -2664,12 +2664,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 75.5,
                       "rank": 9
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 74,
                       "rank": 10
                     }
@@ -2681,12 +2681,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 78,
                       "rank": 9
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 76,
                       "rank": 9
                     }
@@ -2746,12 +2746,12 @@
                   "judgeName": "D. Giddens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 72,
                       "rank": 9
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 72,
                       "rank": 9
                     }
@@ -2763,12 +2763,12 @@
                   "judgeName": "G. Hamilton",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 73,
                       "rank": 10
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 72,
                       "rank": 10
                     }
@@ -2838,12 +2838,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 73,
                       "rank": 11
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 72,
                       "rank": 11
                     }
@@ -2855,12 +2855,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 77.5,
                       "rank": 10
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 74,
                       "rank": 10
                     }
@@ -2920,12 +2920,12 @@
                   "judgeName": "D. Giddens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 68,
                       "rank": 11
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 70,
                       "rank": 10
                     }
@@ -2937,12 +2937,12 @@
                   "judgeName": "G. Hamilton",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 74,
                       "rank": 9
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 73,
                       "rank": 9
                     }
@@ -3012,12 +3012,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 74,
                       "rank": 10
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 75,
                       "rank": 9
                     }
@@ -3029,12 +3029,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 77,
                       "rank": 11
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 0,
                       "rank": 11
                     }
@@ -3094,12 +3094,12 @@
                   "judgeName": "D. Giddens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 71,
                       "rank": 10
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 69,
                       "rank": 11
                     }
@@ -3111,12 +3111,12 @@
                   "judgeName": "G. Hamilton",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 71,
                       "rank": 11
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 70,
                       "rank": 11
                     }
@@ -3195,12 +3195,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 92,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 87,
                       "rank": 3
                     }
@@ -3212,12 +3212,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 91,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 90,
                       "rank": 2
                     }
@@ -3287,12 +3287,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 90,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 88,
                       "rank": 2
                     }
@@ -3304,12 +3304,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 89,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 90.5,
                       "rank": 1
                     }
@@ -3379,12 +3379,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 91,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 89,
                       "rank": 1
                     }
@@ -3396,12 +3396,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 90,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 88.5,
                       "rank": 3
                     }
@@ -3471,12 +3471,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 86,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 85,
                       "rank": 4
                     }
@@ -3488,12 +3488,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 86,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 84.5,
                       "rank": 4
                     }
@@ -3563,12 +3563,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 85,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 81,
                       "rank": 7
                     }
@@ -3580,12 +3580,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 84,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 82,
                       "rank": 6
                     }
@@ -3655,12 +3655,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 83,
                       "rank": 7
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 83.5,
                       "rank": 6
                     }
@@ -3672,12 +3672,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 83,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 83.5,
                       "rank": 5
                     }
@@ -3747,12 +3747,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 84,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 84,
                       "rank": 5
                     }
@@ -3764,12 +3764,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 82,
                       "rank": 7
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 80,
                       "rank": 7
                     }
@@ -3839,12 +3839,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 81,
                       "rank": 8
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 79,
                       "rank": 8
                     }
@@ -3856,12 +3856,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 79,
                       "rank": 8
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 78,
                       "rank": 8
                     }
@@ -3940,12 +3940,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 85,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 83,
                       "rank": 1
                     }
@@ -3957,12 +3957,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 87,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 85,
                       "rank": 1
                     }
@@ -4022,12 +4022,12 @@
                   "judgeName": "D. Giddens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 76,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 78,
                       "rank": 1
                     }
@@ -4039,12 +4039,12 @@
                   "judgeName": "G. Hamilton",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 81,
                       "rank": 1
                     }
@@ -4123,12 +4123,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 83,
                       "rank": 1
                     }
@@ -4140,12 +4140,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 85,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 81.5,
                       "rank": 1
                     }
@@ -4205,12 +4205,12 @@
                   "judgeName": "D. Giddens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 79,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 77,
                       "rank": 2
                     }
@@ -4222,12 +4222,12 @@
                   "judgeName": "G. Hamilton",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 85,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 83,
                       "rank": 1
                     }
@@ -4297,12 +4297,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 82,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 81,
                       "rank": 2
                     }
@@ -4314,12 +4314,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 84,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 81,
                       "rank": 2
                     }
@@ -4379,12 +4379,12 @@
                   "judgeName": "D. Giddens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 80,
                       "rank": 1
                     }
@@ -4396,12 +4396,12 @@
                   "judgeName": "G. Hamilton",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 83,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 80,
                       "rank": 2
                     }
@@ -4480,12 +4480,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 86,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 83,
                       "rank": 1
                     }
@@ -4497,12 +4497,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 84,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 82.5,
                       "rank": 2
                     }
@@ -4562,12 +4562,12 @@
                   "judgeName": "D. Giddens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 85,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 84,
                       "rank": 1
                     }
@@ -4579,12 +4579,12 @@
                   "judgeName": "G. Hamilton",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 88,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 87,
                       "rank": 1
                     }
@@ -4654,12 +4654,12 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 84,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 81.5,
                       "rank": 2
                     }
@@ -4671,12 +4671,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 85.5,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 84,
                       "rank": 1
                     }
@@ -4736,12 +4736,12 @@
                   "judgeName": "D. Giddens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 82,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 81,
                       "rank": 2
                     }
@@ -4753,12 +4753,12 @@
                   "judgeName": "G. Hamilton",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 84,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 83,
                       "rank": 2
                     }

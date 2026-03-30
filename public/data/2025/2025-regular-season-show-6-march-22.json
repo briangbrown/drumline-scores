@@ -40,8 +40,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -50,17 +50,17 @@
                   "judgeName": "C. Poole",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 79,
+                      "key": "Comp",
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 40.3,
+                      "key": "Perf",
+                      "rawScore": 79,
                       "rank": 1
                     }
                   ],
-                  "total": 80.5,
+                  "total": 40.3,
                   "rank": 1
                 }
               ],
@@ -98,8 +98,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -108,21 +108,21 @@
                   "judgeName": "C. Poole",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 75,
+                      "key": "Comp",
+                      "rawScore": 78,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 38.1,
+                      "key": "Perf",
+                      "rawScore": 75,
                       "rank": 2
                     }
                   ],
-                  "total": 72.8,
+                  "total": 38.1,
                   "rank": 2
                 }
               ],
-              "captionTotal": 0.25,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -165,8 +165,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -175,18 +175,18 @@
                   "judgeName": "C. Poole",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 74,
-                      "rank": 2
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 1
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 38,
+                      "key": "Perf",
+                      "rawScore": 74,
                       "rank": 2
                     }
                   ],
-                  "total": 74.4,
-                  "rank": 1
+                  "total": 38,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -223,8 +223,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -233,18 +233,18 @@
                   "judgeName": "C. Poole",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 76,
-                      "rank": 1
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 2
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 38.4,
+                      "key": "Perf",
+                      "rawScore": 76,
                       "rank": 1
                     }
                   ],
-                  "total": 73.6,
-                  "rank": 2
+                  "total": 38.4,
+                  "rank": 1
                 }
               ],
               "captionTotal": 0,
@@ -290,8 +290,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -305,17 +305,17 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 16,
+                      "key": "Vis",
+                      "rawScore": 80,
                       "rank": 1
                     }
                   ],
-                  "total": 85,
+                  "total": 16,
                   "rank": 1
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -324,22 +324,22 @@
                   "judgeName": "C. Poole",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 24.7,
+                      "key": "Comp",
+                      "rawScore": 85,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 84,
-                      "rank": 1
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 2
                     }
                   ],
-                  "total": 81,
-                  "rank": 2
+                  "total": 24.7,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 16.5,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -348,17 +348,17 @@
                   "judgeName": "E. Martinez",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 80.75,
+                      "key": "Comp",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 2
                     }
                   ],
-                  "total": 80.75,
+                  "total": 16.5,
                   "rank": 1
                 }
               ],
@@ -396,8 +396,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -411,17 +411,17 @@
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 15.4,
+                      "key": "Vis",
+                      "rawScore": 77,
                       "rank": 2
                     }
                   ],
-                  "total": 80,
-                  "rank": 4
+                  "total": 15.4,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -430,22 +430,22 @@
                   "judgeName": "C. Poole",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 23.6,
-                      "rank": 3
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 80,
+                      "key": "Perf",
+                      "rawScore": 78,
                       "rank": 3
                     }
                   ],
-                  "total": 82,
-                  "rank": 1
+                  "total": 23.6,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 16.2,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -454,17 +454,17 @@
                   "judgeName": "E. Martinez",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 77.7,
-                      "rank": 2
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 1
                     }
                   ],
-                  "total": 77.7,
+                  "total": 16.2,
                   "rank": 2
                 }
               ],
@@ -502,8 +502,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -513,21 +513,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 73,
+                      "rawScore": 75,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 14.8,
+                      "key": "Vis",
+                      "rawScore": 73,
                       "rank": 4
                     }
                   ],
-                  "total": 82,
-                  "rank": 2
+                  "total": 14.8,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -536,22 +536,22 @@
                   "judgeName": "C. Poole",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 24.6,
+                      "key": "Comp",
+                      "rawScore": 82,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 81,
-                      "rank": 2
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 1
                     }
                   ],
-                  "total": 76,
-                  "rank": 4
+                  "total": 24.6,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 15.7,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -560,18 +560,18 @@
                   "judgeName": "E. Martinez",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 77,
-                      "rank": 3
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 4
                     }
                   ],
-                  "total": 77,
-                  "rank": 3
+                  "total": 15.7,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -608,8 +608,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -623,17 +623,17 @@
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 15.2,
+                      "key": "Vis",
+                      "rawScore": 76,
                       "rank": 3
                     }
                   ],
-                  "total": 79,
-                  "rank": 5
+                  "total": 15.2,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -642,22 +642,22 @@
                   "judgeName": "C. Poole",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 23.1,
+                      "key": "Comp",
+                      "rawScore": 79,
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 78,
-                      "rank": 4
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 5
                     }
                   ],
-                  "total": 80,
-                  "rank": 3
+                  "total": 23.1,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 15.8,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -666,18 +666,18 @@
                   "judgeName": "E. Martinez",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 74.8,
+                      "key": "Comp",
+                      "rawScore": 78,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 3
                     }
                   ],
-                  "total": 74.8,
-                  "rank": 4
+                  "total": 15.8,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -714,8 +714,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 69,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -725,21 +725,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 68,
+                      "rawScore": 69,
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 13.7,
+                      "key": "Vis",
+                      "rawScore": 68,
                       "rank": 6
                     }
                   ],
-                  "total": 81,
-                  "rank": 3
+                  "total": 13.7,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -748,22 +748,22 @@
                   "judgeName": "C. Poole",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 23.5,
-                      "rank": 4
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 75,
-                      "rank": 5
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 4
                     }
                   ],
-                  "total": 70,
-                  "rank": 6
+                  "total": 23.5,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 14.5,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -772,18 +772,18 @@
                   "judgeName": "E. Martinez",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 74.65,
+                      "key": "Comp",
+                      "rawScore": 75,
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 6
                     }
                   ],
-                  "total": 74.65,
-                  "rank": 5
+                  "total": 14.5,
+                  "rank": 6
                 }
               ],
               "captionTotal": 0,
@@ -820,8 +820,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -831,21 +831,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 69,
+                      "rawScore": 71,
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 14,
+                      "key": "Vis",
+                      "rawScore": 69,
                       "rank": 5
                     }
                   ],
-                  "total": 75,
-                  "rank": 6
+                  "total": 14,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -854,22 +854,22 @@
                   "judgeName": "C. Poole",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 21.7,
+                      "key": "Comp",
+                      "rawScore": 75,
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 74,
+                      "key": "Perf",
+                      "rawScore": 71,
                       "rank": 6
                     }
                   ],
-                  "total": 72,
-                  "rank": 5
+                  "total": 21.7,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 14.6,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -878,18 +878,18 @@
                   "judgeName": "E. Martinez",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 71.6,
+                      "key": "Comp",
+                      "rawScore": 74,
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 72,
+                      "rank": 5
                     }
                   ],
-                  "total": 71.6,
-                  "rank": 6
+                  "total": 14.6,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -935,8 +935,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -945,17 +945,17 @@
                   "judgeName": "C. Poole",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 80,
+                      "key": "Comp",
+                      "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 40.4,
+                      "key": "Perf",
+                      "rawScore": 80,
                       "rank": 1
                     }
                   ],
-                  "total": 80.6,
+                  "total": 40.4,
                   "rank": 1
                 }
               ],
@@ -1002,8 +1002,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 90,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1012,17 +1012,17 @@
                   "judgeName": "C. Poole",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 87,
+                      "key": "Comp",
+                      "rawScore": 90,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 44.1,
+                      "key": "Perf",
+                      "rawScore": 87,
                       "rank": 1
                     }
                   ],
-                  "total": 85,
+                  "total": 44.1,
                   "rank": 1
                 }
               ],
@@ -1060,8 +1060,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 86,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1070,17 +1070,17 @@
                   "judgeName": "C. Poole",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 83,
+                      "key": "Comp",
+                      "rawScore": 86,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 42.1,
+                      "key": "Perf",
+                      "rawScore": 83,
                       "rank": 2
                     }
                   ],
-                  "total": 84.3,
+                  "total": 42.1,
                   "rank": 2
                 }
               ],
@@ -1127,8 +1127,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1138,21 +1138,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 85,
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 16.9,
+                      "key": "Vis",
+                      "rawScore": 85,
                       "rank": 1
                     }
                   ],
-                  "total": 89,
+                  "total": 16.9,
                   "rank": 1
                 }
               ],
-              "captionTotal": 87,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1161,22 +1161,22 @@
                   "judgeName": "C. Poole",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 26.3,
+                      "key": "Comp",
+                      "rawScore": 89,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 83,
+                      "key": "Perf",
+                      "rawScore": 87,
                       "rank": 1
                     }
                   ],
-                  "total": 81,
+                  "total": 26.3,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.4,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1185,17 +1185,17 @@
                   "judgeName": "E. Martinez",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 85.4,
+                      "key": "Comp",
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 1
                     }
                   ],
-                  "total": 85.4,
+                  "total": 16.4,
                   "rank": 1
                 }
               ],
@@ -1233,8 +1233,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1248,17 +1248,17 @@
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 16.4,
+                      "key": "Vis",
+                      "rawScore": 82,
                       "rank": 2
                     }
                   ],
-                  "total": 85,
+                  "total": 16.4,
                   "rank": 2
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1267,22 +1267,22 @@
                   "judgeName": "C. Poole",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 25.3,
+                      "key": "Comp",
+                      "rawScore": 85,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 78,
+                      "key": "Perf",
+                      "rawScore": 84,
                       "rank": 2
                     }
                   ],
-                  "total": 76,
+                  "total": 25.3,
                   "rank": 2
                 }
               ],
-              "captionTotal": 15.4,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1291,17 +1291,17 @@
                   "judgeName": "E. Martinez",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 81.85,
+                      "key": "Comp",
+                      "rawScore": 78,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 2
                     }
                   ],
-                  "total": 81.85,
+                  "total": 15.4,
                   "rank": 2
                 }
               ],
@@ -1348,8 +1348,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1358,17 +1358,17 @@
                   "judgeName": "C. Poole",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 83,
+                      "key": "Comp",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 41.7,
+                      "key": "Perf",
+                      "rawScore": 83,
                       "rank": 1
                     }
                   ],
-                  "total": 81.6,
+                  "total": 41.7,
                   "rank": 1
                 }
               ],
@@ -1415,8 +1415,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 86,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1430,17 +1430,17 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 17.2,
+                      "key": "Vis",
+                      "rawScore": 86,
                       "rank": 1
                     }
                   ],
-                  "total": 87,
+                  "total": 17.2,
                   "rank": 1
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1449,22 +1449,22 @@
                   "judgeName": "C. Poole",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 25.5,
+                      "key": "Comp",
+                      "rawScore": 87,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 83,
+                      "key": "Perf",
+                      "rawScore": 84,
                       "rank": 1
                     }
                   ],
-                  "total": 79,
+                  "total": 25.5,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.2,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1473,17 +1473,17 @@
                   "judgeName": "E. Martinez",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 83.65,
+                      "key": "Comp",
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0.1,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 1
                     }
                   ],
-                  "total": 83.55,
+                  "total": 16.2,
                   "rank": 1
                 }
               ],

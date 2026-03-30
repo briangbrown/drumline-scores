@@ -40,8 +40,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -50,17 +50,17 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 82,
+                      "key": "Comp",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 41.4,
+                      "key": "Perf",
+                      "rawScore": 82,
                       "rank": 1
                     }
                   ],
-                  "total": 81.4,
+                  "total": 41.4,
                   "rank": 1
                 }
               ],
@@ -98,8 +98,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -108,17 +108,17 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 79,
+                      "key": "Comp",
+                      "rawScore": 81,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 39.9,
+                      "key": "Perf",
+                      "rawScore": 79,
                       "rank": 2
                     }
                   ],
-                  "total": 78,
+                  "total": 39.9,
                   "rank": 2
                 }
               ],
@@ -156,8 +156,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -166,18 +166,18 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 70,
+                      "key": "Comp",
+                      "rawScore": 72,
                       "rank": 4
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 35.4,
+                      "key": "Perf",
+                      "rawScore": 70,
                       "rank": 4
                     }
                   ],
-                  "total": 72.5,
-                  "rank": 3
+                  "total": 35.4,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -214,8 +214,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -224,18 +224,18 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 74,
+                      "key": "Comp",
+                      "rawScore": 75,
                       "rank": 3
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 37.2,
+                      "key": "Perf",
+                      "rawScore": 74,
                       "rank": 3
                     }
                   ],
-                  "total": 72.1,
-                  "rank": 4
+                  "total": 37.2,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -281,8 +281,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -291,21 +291,21 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 69,
+                      "key": "Comp",
+                      "rawScore": 73,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 35.3,
+                      "key": "Perf",
+                      "rawScore": 69,
                       "rank": 1
                     }
                   ],
-                  "total": 71.4,
+                  "total": 35.3,
                   "rank": 1
                 }
               ],
-              "captionTotal": 5,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -339,8 +339,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -349,17 +349,17 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 68,
+                      "key": "Comp",
+                      "rawScore": 70,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 34.4,
+                      "key": "Perf",
+                      "rawScore": 68,
                       "rank": 2
                     }
                   ],
-                  "total": 65,
+                  "total": 34.4,
                   "rank": 2
                 }
               ],
@@ -406,8 +406,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -417,21 +417,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 81,
-                      "rank": 1
+                      "rawScore": 83,
+                      "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 16.4,
-                      "rank": 2
+                      "key": "Vis",
+                      "rawScore": 81,
+                      "rank": 1
                     }
                   ],
-                  "total": 86,
-                  "rank": 1
+                  "total": 16.4,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 88,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -440,22 +440,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 26.2,
+                      "key": "Comp",
+                      "rawScore": 86,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 82,
-                      "rank": 2
+                      "key": "Perf",
+                      "rawScore": 88,
+                      "rank": 1
                     }
                   ],
-                  "total": 80,
-                  "rank": 2
+                  "total": 26.2,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 16.2,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -464,18 +464,18 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 85.8,
-                      "rank": 1
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 2
                     }
                   ],
-                  "total": 85.8,
-                  "rank": 1
+                  "total": 16.2,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -512,8 +512,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -523,21 +523,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 80,
-                      "rank": 2
+                      "rawScore": 85,
+                      "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 16.5,
-                      "rank": 1
+                      "key": "Vis",
+                      "rawScore": 80,
+                      "rank": 2
                     }
                   ],
-                  "total": 82,
-                  "rank": 2
+                  "total": 16.5,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -546,22 +546,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 24.4,
+                      "key": "Comp",
+                      "rawScore": 82,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 83,
-                      "rank": 1
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 3
                     }
                   ],
-                  "total": 81,
-                  "rank": 1
+                  "total": 24.4,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 16.4,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -570,18 +570,18 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 84.15,
-                      "rank": 2
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 1
                     }
                   ],
-                  "total": 84.15,
-                  "rank": 2
+                  "total": 16.4,
+                  "rank": 1
                 }
               ],
               "captionTotal": 0,
@@ -618,8 +618,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -629,21 +629,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 78,
+                      "rawScore": 79,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 15.7,
+                      "key": "Vis",
+                      "rawScore": 78,
                       "rank": 3
                     }
                   ],
-                  "total": 79,
+                  "total": 15.7,
                   "rank": 3
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -652,22 +652,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 24.3,
+                      "key": "Comp",
+                      "rawScore": 79,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 78,
-                      "rank": 5
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 2
                     }
                   ],
-                  "total": 76,
-                  "rank": 5
+                  "total": 24.3,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 15.4,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -676,18 +676,18 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 80.6,
-                      "rank": 3
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 5
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 5
                     }
                   ],
-                  "total": 80.6,
-                  "rank": 3
+                  "total": 15.4,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -724,8 +724,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -735,21 +735,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 76,
+                      "rawScore": 78,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 15.4,
+                      "key": "Vis",
+                      "rawScore": 76,
                       "rank": 4
                     }
                   ],
-                  "total": 78,
+                  "total": 15.4,
                   "rank": 4
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -758,22 +758,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 23.4,
+                      "key": "Comp",
+                      "rawScore": 78,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 75,
-                      "rank": 7
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 4
                     }
                   ],
-                  "total": 73,
-                  "rank": 7
+                  "total": 23.4,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 14.8,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -782,18 +782,18 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 78.05,
-                      "rank": 4
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 7
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 7
                     }
                   ],
-                  "total": 78.05,
-                  "rank": 4
+                  "total": 14.8,
+                  "rank": 7
                 }
               ],
               "captionTotal": 0,
@@ -830,8 +830,8 @@
                   "rank": 8
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -841,21 +841,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 72,
-                      "rank": 8
+                      "rawScore": 76,
+                      "rank": 6
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 14.8,
-                      "rank": 7
+                      "key": "Vis",
+                      "rawScore": 72,
+                      "rank": 8
                     }
                   ],
-                  "total": 77,
-                  "rank": 5
+                  "total": 14.8,
+                  "rank": 7
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -864,22 +864,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 22.9,
+                      "key": "Comp",
+                      "rawScore": 77,
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 79,
-                      "rank": 4
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 5
                     }
                   ],
-                  "total": 77,
-                  "rank": 4
+                  "total": 22.9,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 15.6,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -888,18 +888,18 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 75.65,
-                      "rank": 5
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 4
                     }
                   ],
-                  "total": 75.65,
-                  "rank": 5
+                  "total": 15.6,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -936,8 +936,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -947,21 +947,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 73,
-                      "rank": 7
+                      "rawScore": 74,
+                      "rank": 8
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 14.7,
-                      "rank": 8
+                      "key": "Vis",
+                      "rawScore": 73,
+                      "rank": 7
                     }
                   ],
-                  "total": 73,
-                  "rank": 7
+                  "total": 14.7,
+                  "rank": 8
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -970,22 +970,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 21.3,
-                      "rank": 8
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 7
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 77,
-                      "rank": 6
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 8
                     }
                   ],
-                  "total": 75,
-                  "rank": 6
+                  "total": 21.3,
+                  "rank": 8
                 }
               ],
-              "captionTotal": 15.2,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -994,17 +994,17 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 75.05,
+                      "key": "Comp",
+                      "rawScore": 77,
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 6
                     }
                   ],
-                  "total": 75.05,
+                  "total": 15.2,
                   "rank": 6
                 }
               ],
@@ -1042,8 +1042,8 @@
                   "rank": 9
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1053,21 +1053,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 75,
+                      "rawScore": 77,
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 15.2,
+                      "key": "Vis",
+                      "rawScore": 75,
                       "rank": 5
                     }
                   ],
-                  "total": 69,
-                  "rank": 9
+                  "total": 15.2,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 68,
-              "captionRank": 9
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1076,22 +1076,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 20.5,
+                      "key": "Comp",
+                      "rawScore": 69,
                       "rank": 9
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 81,
-                      "rank": 3
+                      "key": "Perf",
+                      "rawScore": 68,
+                      "rank": 9
                     }
                   ],
-                  "total": 79,
-                  "rank": 3
+                  "total": 20.5,
+                  "rank": 9
                 }
               ],
-              "captionTotal": 16,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1100,18 +1100,18 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 73.6,
-                      "rank": 8
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 3
                     }
                   ],
-                  "total": 73.6,
-                  "rank": 7
+                  "total": 16,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -1148,8 +1148,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1159,21 +1159,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 74,
-                      "rank": 6
+                      "rawScore": 75,
+                      "rank": 7
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 14.9,
+                      "key": "Vis",
+                      "rawScore": 74,
                       "rank": 6
                     }
                   ],
-                  "total": 72,
-                  "rank": 8
+                  "total": 14.9,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1182,22 +1182,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 21.4,
-                      "rank": 7
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 8
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 73,
-                      "rank": 8
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 7
                     }
                   ],
-                  "total": 71,
-                  "rank": 8
+                  "total": 21.4,
+                  "rank": 7
                 }
               ],
-              "captionTotal": 14.4,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1206,17 +1206,17 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 74.1,
-                      "rank": 7
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 8
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0.7,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 8
                     }
                   ],
-                  "total": 73.4,
+                  "total": 14.4,
                   "rank": 8
                 }
               ],
@@ -1254,8 +1254,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 9
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1265,21 +1265,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 71,
+                      "rawScore": 73,
                       "rank": 9
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 14.4,
+                      "key": "Vis",
+                      "rawScore": 71,
                       "rank": 9
                     }
                   ],
-                  "total": 75,
-                  "rank": 6
+                  "total": 14.4,
+                  "rank": 9
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1288,22 +1288,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 22.1,
+                      "key": "Comp",
+                      "rawScore": 75,
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 72,
-                      "rank": 9
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 6
                     }
                   ],
-                  "total": 70,
-                  "rank": 9
+                  "total": 22.1,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 14.2,
-              "captionRank": 9
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1312,17 +1312,17 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 73.2,
+                      "key": "Comp",
+                      "rawScore": 72,
                       "rank": 9
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0.1,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 9
                     }
                   ],
-                  "total": 73.1,
+                  "total": 14.2,
                   "rank": 9
                 }
               ],
@@ -1369,8 +1369,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1379,17 +1379,17 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 84,
+                      "key": "Comp",
+                      "rawScore": 85,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 42.2,
+                      "key": "Perf",
+                      "rawScore": 84,
                       "rank": 1
                     }
                   ],
-                  "total": 83.9,
+                  "total": 42.2,
                   "rank": 1
                 }
               ],
@@ -1427,8 +1427,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1437,17 +1437,17 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 81,
+                      "key": "Comp",
+                      "rawScore": 80,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 40.3,
+                      "key": "Perf",
+                      "rawScore": 81,
                       "rank": 2
                     }
                   ],
-                  "total": 77.4,
+                  "total": 40.3,
                   "rank": 2
                 }
               ],
@@ -1486,7 +1486,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 3
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1495,12 +1495,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 0,
                       "rank": 3
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 0,
                       "rank": 3
                     }
@@ -1552,8 +1552,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 91,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1562,17 +1562,17 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 89,
+                      "key": "Comp",
+                      "rawScore": 91,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 44.9,
+                      "key": "Perf",
+                      "rawScore": 89,
                       "rank": 1
                     }
                   ],
-                  "total": 88.5,
+                  "total": 44.9,
                   "rank": 1
                 }
               ],
@@ -1610,8 +1610,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 90,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1620,17 +1620,17 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 86,
+                      "key": "Comp",
+                      "rawScore": 90,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 43.8,
+                      "key": "Perf",
+                      "rawScore": 86,
                       "rank": 2
                     }
                   ],
-                  "total": 84,
+                  "total": 43.8,
                   "rank": 2
                 }
               ],
@@ -1668,8 +1668,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1678,17 +1678,17 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 81,
+                      "key": "Comp",
+                      "rawScore": 85,
                       "rank": 3
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 41.3,
+                      "key": "Perf",
+                      "rawScore": 81,
                       "rank": 3
                     }
                   ],
-                  "total": 82.3,
+                  "total": 41.3,
                   "rank": 3
                 }
               ],
@@ -1735,8 +1735,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 88,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1746,21 +1746,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 89,
+                      "rawScore": 88,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 17.7,
+                      "key": "Vis",
+                      "rawScore": 89,
                       "rank": 1
                     }
                   ],
-                  "total": 90,
-                  "rank": 2
+                  "total": 17.7,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 87,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1769,22 +1769,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 26.4,
+                      "key": "Comp",
+                      "rawScore": 90,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 89,
-                      "rank": 1
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 2
                     }
                   ],
-                  "total": 88,
-                  "rank": 1
+                  "total": 26.4,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 17.7,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1793,17 +1793,17 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 87.3,
+                      "key": "Comp",
+                      "rawScore": 89,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0.5,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 88,
+                      "rank": 1
                     }
                   ],
-                  "total": 86.8,
+                  "total": 17.7,
                   "rank": 1
                 }
               ],
@@ -1841,8 +1841,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 86,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1852,21 +1852,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 85,
+                      "rawScore": 86,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 17.1,
+                      "key": "Vis",
+                      "rawScore": 85,
                       "rank": 3
                     }
                   ],
-                  "total": 92,
-                  "rank": 1
+                  "total": 17.1,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 90,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1875,22 +1875,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 27.2,
+                      "key": "Comp",
+                      "rawScore": 92,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 85,
-                      "rank": 2
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 1
                     }
                   ],
-                  "total": 84,
-                  "rank": 2
+                  "total": 27.2,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 16.9,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1899,17 +1899,17 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 85.65,
+                      "key": "Comp",
+                      "rawScore": 85,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 2
                     }
                   ],
-                  "total": 85.65,
+                  "total": 16.9,
                   "rank": 2
                 }
               ],
@@ -1947,8 +1947,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 87,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1958,21 +1958,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 88,
+                      "rawScore": 87,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 17.5,
+                      "key": "Vis",
+                      "rawScore": 88,
                       "rank": 2
                     }
                   ],
-                  "total": 85,
-                  "rank": 4
+                  "total": 17.5,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1981,22 +1981,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 25.1,
+                      "key": "Comp",
+                      "rawScore": 85,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 81,
-                      "rank": 5
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 4
                     }
                   ],
-                  "total": 79,
-                  "rank": 5
+                  "total": 25.1,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 16,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2005,18 +2005,18 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 82.45,
-                      "rank": 4
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 5
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 5
                     }
                   ],
-                  "total": 82.45,
-                  "rank": 3
+                  "total": 16,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -2053,8 +2053,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2064,21 +2064,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 84,
-                      "rank": 4
+                      "rawScore": 82,
+                      "rank": 5
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 16.6,
-                      "rank": 5
+                      "key": "Vis",
+                      "rawScore": 84,
+                      "rank": 4
                     }
                   ],
-                  "total": 86,
-                  "rank": 3
+                  "total": 16.6,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -2087,22 +2087,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 25.6,
+                      "key": "Comp",
+                      "rawScore": 86,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 84,
+                      "key": "Perf",
+                      "rawScore": 85,
                       "rank": 3
                     }
                   ],
-                  "total": 83,
+                  "total": 25.6,
                   "rank": 3
                 }
               ],
-              "captionTotal": 16.7,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2111,18 +2111,18 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 82.6,
+                      "key": "Comp",
+                      "rawScore": 84,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0.5,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 3
                     }
                   ],
-                  "total": 82.1,
-                  "rank": 4
+                  "total": 16.7,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -2159,8 +2159,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2170,21 +2170,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 83,
-                      "rank": 5
+                      "rawScore": 84,
+                      "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 16.7,
-                      "rank": 4
+                      "key": "Vis",
+                      "rawScore": 83,
+                      "rank": 5
                     }
                   ],
-                  "total": 83,
-                  "rank": 5
+                  "total": 16.7,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -2193,22 +2193,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 24.5,
+                      "key": "Comp",
+                      "rawScore": 83,
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 82,
-                      "rank": 4
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 5
                     }
                   ],
-                  "total": 81,
-                  "rank": 4
+                  "total": 24.5,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 16.3,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2217,18 +2217,18 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 80.6,
-                      "rank": 5
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 4
                     }
                   ],
-                  "total": 80.6,
-                  "rank": 5
+                  "total": 16.3,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -2274,8 +2274,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 91,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -2284,17 +2284,17 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 89,
+                      "key": "Comp",
+                      "rawScore": 91,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 44.9,
+                      "key": "Perf",
+                      "rawScore": 89,
                       "rank": 1
                     }
                   ],
-                  "total": 88.9,
+                  "total": 44.9,
                   "rank": 1
                 }
               ],
@@ -2332,8 +2332,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 86,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -2342,17 +2342,17 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 84,
+                      "key": "Comp",
+                      "rawScore": 86,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 42.4,
+                      "key": "Perf",
+                      "rawScore": 84,
                       "rank": 2
                     }
                   ],
-                  "total": 80.3,
+                  "total": 42.4,
                   "rank": 2
                 }
               ],
@@ -2399,8 +2399,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 87,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2410,21 +2410,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 84,
+                      "rawScore": 87,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 17.1,
+                      "key": "Vis",
+                      "rawScore": 84,
                       "rank": 2
                     }
                   ],
-                  "total": 88,
-                  "rank": 1
+                  "total": 17.1,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 88,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -2433,22 +2433,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 26.4,
+                      "key": "Comp",
+                      "rawScore": 88,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 84,
+                      "key": "Perf",
+                      "rawScore": 88,
                       "rank": 1
                     }
                   ],
-                  "total": 82,
+                  "total": 26.4,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.6,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2457,17 +2457,17 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 84.55,
+                      "key": "Comp",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 1
                     }
                   ],
-                  "total": 84.55,
+                  "total": 16.6,
                   "rank": 1
                 }
               ],
@@ -2505,8 +2505,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 90,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2516,21 +2516,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 89,
+                      "rawScore": 90,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 17.9,
+                      "key": "Vis",
+                      "rawScore": 89,
                       "rank": 1
                     }
                   ],
-                  "total": 87,
-                  "rank": 2
+                  "total": 17.9,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -2539,22 +2539,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 25.7,
+                      "key": "Comp",
+                      "rawScore": 87,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 81,
-                      "rank": 3
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 2
                     }
                   ],
-                  "total": 79,
-                  "rank": 3
+                  "total": 25.7,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 16,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2563,18 +2563,18 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 83.9,
-                      "rank": 2
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 3
                     }
                   ],
-                  "total": 83.9,
-                  "rank": 2
+                  "total": 16,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -2611,8 +2611,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2622,21 +2622,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 82,
+                      "rawScore": 85,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 16.7,
+                      "key": "Vis",
+                      "rawScore": 82,
                       "rank": 3
                     }
                   ],
-                  "total": 84,
+                  "total": 16.7,
                   "rank": 3
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -2645,22 +2645,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 24.6,
+                      "key": "Comp",
+                      "rawScore": 84,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 83,
-                      "rank": 2
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 3
                     }
                   ],
-                  "total": 81,
-                  "rank": 2
+                  "total": 24.6,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 16.4,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2669,18 +2669,18 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 82.9,
-                      "rank": 3
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 2
                     }
                   ],
-                  "total": 82.9,
-                  "rank": 3
+                  "total": 16.4,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -2726,8 +2726,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2737,21 +2737,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 80,
+                      "rawScore": 81,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 16.1,
+                      "key": "Vis",
+                      "rawScore": 80,
                       "rank": 1
                     }
                   ],
-                  "total": 87,
+                  "total": 16.1,
                   "rank": 1
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -2760,22 +2760,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 25.5,
+                      "key": "Comp",
+                      "rawScore": 87,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 80,
+                      "key": "Perf",
+                      "rawScore": 84,
                       "rank": 1
                     }
                   ],
-                  "total": 78,
+                  "total": 25.5,
                   "rank": 1
                 }
               ],
-              "captionTotal": 15.8,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2784,17 +2784,17 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 81.25,
+                      "key": "Comp",
+                      "rawScore": 80,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 1
                     }
                   ],
-                  "total": 81.25,
+                  "total": 15.8,
                   "rank": 1
                 }
               ],
@@ -2841,8 +2841,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 86,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2852,21 +2852,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 82,
+                      "rawScore": 86,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 16.8,
+                      "key": "Vis",
+                      "rawScore": 82,
                       "rank": 1
                     }
                   ],
-                  "total": 82,
+                  "total": 16.8,
                   "rank": 1
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -2875,22 +2875,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 24,
+                      "key": "Comp",
+                      "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 84,
+                      "key": "Perf",
+                      "rawScore": 79,
                       "rank": 1
                     }
                   ],
-                  "total": 83,
+                  "total": 24,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.7,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2899,17 +2899,17 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 83,
+                      "key": "Comp",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 1
                     }
                   ],
-                  "total": 83,
+                  "total": 16.7,
                   "rank": 1
                 }
               ],
@@ -2956,8 +2956,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 93,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2967,21 +2967,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 92,
+                      "rawScore": 93,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 18.5,
+                      "key": "Vis",
+                      "rawScore": 92,
                       "rank": 1
                     }
                   ],
-                  "total": 86,
-                  "rank": 2
+                  "total": 18.5,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 87,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -2990,22 +2990,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 26,
-                      "rank": 1
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 91,
+                      "key": "Perf",
+                      "rawScore": 87,
                       "rank": 1
                     }
                   ],
-                  "total": 90,
+                  "total": 26,
                   "rank": 1
                 }
               ],
-              "captionTotal": 18.1,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -3014,17 +3014,17 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 90.2,
+                      "key": "Comp",
+                      "rawScore": 91,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 1
                     }
                   ],
-                  "total": 90.2,
+                  "total": 18.1,
                   "rank": 1
                 }
               ],
@@ -3062,8 +3062,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -3073,21 +3073,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 84,
+                      "rawScore": 85,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 16.9,
+                      "key": "Vis",
+                      "rawScore": 84,
                       "rank": 2
                     }
                   ],
-                  "total": 87,
-                  "rank": 1
+                  "total": 16.9,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -3096,22 +3096,22 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 25.1,
-                      "rank": 2
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 87,
+                      "key": "Perf",
+                      "rawScore": 82,
                       "rank": 2
                     }
                   ],
-                  "total": 86,
+                  "total": 25.1,
                   "rank": 2
                 }
               ],
-              "captionTotal": 17.3,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -3120,17 +3120,17 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 86.15,
+                      "key": "Comp",
+                      "rawScore": 87,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 2
                     }
                   ],
-                  "total": 86.15,
+                  "total": 17.3,
                   "rank": 2
                 }
               ],

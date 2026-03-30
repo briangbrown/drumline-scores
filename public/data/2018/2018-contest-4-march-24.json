@@ -40,8 +40,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 86,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -50,17 +50,17 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 85,
+                      "key": "Prog",
+                      "rawScore": 86,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 42.7,
+                      "key": "Ful",
+                      "rawScore": 85,
                       "rank": 1
                     }
                   ],
-                  "total": 87.1,
+                  "total": 42.7,
                   "rank": 1
                 }
               ],
@@ -98,8 +98,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -108,18 +108,18 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 82,
-                      "rank": 3
+                      "key": "Prog",
+                      "rawScore": 85,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.6,
+                      "key": "Ful",
+                      "rawScore": 82,
                       "rank": 3
                     }
                   ],
-                  "total": 84.7,
-                  "rank": 2
+                  "total": 41.6,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -156,8 +156,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -166,18 +166,18 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 84,
-                      "rank": 2
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 42,
+                      "key": "Ful",
+                      "rawScore": 84,
                       "rank": 2
                     }
                   ],
-                  "total": 78.4,
-                  "rank": 3
+                  "total": 42,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -214,8 +214,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -224,17 +224,17 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
+                      "key": "Prog",
+                      "rawScore": 83,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.6,
+                      "key": "Ful",
+                      "rawScore": 80,
                       "rank": 4
                     }
                   ],
-                  "total": 76.9,
+                  "total": 40.6,
                   "rank": 4
                 }
               ],
@@ -272,8 +272,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -282,18 +282,18 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72,
-                      "rank": 7
+                      "key": "Prog",
+                      "rawScore": 77,
+                      "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37,
+                      "key": "Ful",
+                      "rawScore": 72,
                       "rank": 7
                     }
                   ],
-                  "total": 74.6,
-                  "rank": 5
+                  "total": 37,
+                  "rank": 7
                 }
               ],
               "captionTotal": 0,
@@ -330,8 +330,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -340,17 +340,17 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 77,
-                      "rank": 5
+                      "key": "Prog",
+                      "rawScore": 74,
+                      "rank": 8
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.9,
-                      "rank": 6
+                      "key": "Ful",
+                      "rawScore": 77,
+                      "rank": 5
                     }
                   ],
-                  "total": 72.9,
+                  "total": 37.9,
                   "rank": 6
                 }
               ],
@@ -388,8 +388,8 @@
                   "rank": 8
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -398,18 +398,18 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 74,
-                      "rank": 6
+                      "key": "Prog",
+                      "rawScore": 79,
+                      "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38,
-                      "rank": 5
+                      "key": "Ful",
+                      "rawScore": 74,
+                      "rank": 6
                     }
                   ],
-                  "total": 72.6,
-                  "rank": 7
+                  "total": 38,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -446,8 +446,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -456,17 +456,17 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 70,
-                      "rank": 8
+                      "key": "Prog",
+                      "rawScore": 75,
+                      "rank": 7
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36,
+                      "key": "Ful",
+                      "rawScore": 70,
                       "rank": 8
                     }
                   ],
-                  "total": 72.5,
+                  "total": 36,
                   "rank": 8
                 }
               ],
@@ -504,8 +504,8 @@
                   "rank": 9
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 9
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -514,17 +514,17 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 68,
+                      "key": "Prog",
+                      "rawScore": 71,
                       "rank": 9
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 34.6,
+                      "key": "Ful",
+                      "rawScore": 68,
                       "rank": 9
                     }
                   ],
-                  "total": 68.55,
+                  "total": 34.6,
                   "rank": 9
                 }
               ],
@@ -571,8 +571,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -581,22 +581,22 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 70,
+                      "key": "Ovr",
+                      "rawScore": 72,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 21.3,
+                      "key": "Mus",
+                      "rawScore": 70,
                       "rank": 1
                     }
                   ],
-                  "total": 73,
+                  "total": 21.3,
                   "rank": 1
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -606,21 +606,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 14.6,
+                      "rawScore": 73,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 74,
+                      "rawScore": 73,
                       "rank": 1
                     }
                   ],
-                  "total": 72,
+                  "total": 14.6,
                   "rank": 1
                 }
               ],
-              "captionTotal": 14.6,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -629,17 +629,17 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 70,
+                      "key": "Ovr",
+                      "rawScore": 74,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 72,
+                      "rank": 1
                     }
                   ],
-                  "total": 70,
+                  "total": 14.6,
                   "rank": 1
                 }
               ],
@@ -677,8 +677,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -687,22 +687,22 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 69,
+                      "key": "Ovr",
+                      "rawScore": 70,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 20.85,
+                      "key": "Mus",
+                      "rawScore": 69,
                       "rank": 2
                     }
                   ],
-                  "total": 70,
+                  "total": 20.85,
                   "rank": 2
                 }
               ],
-              "captionTotal": 68,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -712,21 +712,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 13.8,
+                      "rawScore": 70,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 67,
+                      "rawScore": 68,
                       "rank": 2
                     }
                   ],
-                  "total": 65,
+                  "total": 13.8,
                   "rank": 2
                 }
               ],
-              "captionTotal": 13.2,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -735,17 +735,17 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 68.15,
+                      "key": "Ovr",
+                      "rawScore": 67,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 65,
+                      "rank": 2
                     }
                   ],
-                  "total": 68.15,
+                  "total": 13.2,
                   "rank": 2
                 }
               ],
@@ -783,8 +783,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 68,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -793,22 +793,22 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 66,
-                      "rank": 4
+                      "key": "Ovr",
+                      "rawScore": 68,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 20.1,
-                      "rank": 3
+                      "key": "Mus",
+                      "rawScore": 66,
+                      "rank": 4
                     }
                   ],
-                  "total": 68,
+                  "total": 20.1,
                   "rank": 3
                 }
               ],
-              "captionTotal": 67,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -818,21 +818,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 13.5,
+                      "rawScore": 68,
                       "rank": 3
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 65,
+                      "rawScore": 67,
                       "rank": 3
                     }
                   ],
-                  "total": 64,
+                  "total": 13.5,
                   "rank": 3
                 }
               ],
-              "captionTotal": 12.9,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -841,17 +841,17 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 65.9,
+                      "key": "Ovr",
+                      "rawScore": 65,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 64,
+                      "rank": 3
                     }
                   ],
-                  "total": 65.9,
+                  "total": 12.9,
                   "rank": 3
                 }
               ],
@@ -889,8 +889,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 65,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -899,22 +899,22 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 67,
-                      "rank": 3
+                      "key": "Ovr",
+                      "rawScore": 65,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 19.8,
-                      "rank": 4
+                      "key": "Mus",
+                      "rawScore": 67,
+                      "rank": 3
                     }
                   ],
-                  "total": 64,
+                  "total": 19.8,
                   "rank": 4
                 }
               ],
-              "captionTotal": 64,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -924,21 +924,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 12.8,
+                      "rawScore": 64,
                       "rank": 4
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 63,
+                      "rawScore": 64,
                       "rank": 4
                     }
                   ],
-                  "total": 62,
+                  "total": 12.8,
                   "rank": 4
                 }
               ],
-              "captionTotal": 12.5,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -947,17 +947,17 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 63.8,
+                      "key": "Ovr",
+                      "rawScore": 63,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 4.15,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 62,
+                      "rank": 4
                     }
                   ],
-                  "total": 59.65,
+                  "total": 12.5,
                   "rank": 4
                 }
               ],
@@ -1004,8 +1004,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1014,22 +1014,22 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
+                      "key": "Ovr",
+                      "rawScore": 85,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 24.75,
+                      "key": "Mus",
+                      "rawScore": 80,
                       "rank": 1
                     }
                   ],
-                  "total": 80,
+                  "total": 24.75,
                   "rank": 1
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1039,21 +1039,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.3,
+                      "rawScore": 80,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 79,
+                      "rawScore": 83,
                       "rank": 1
                     }
                   ],
-                  "total": 78,
+                  "total": 16.3,
                   "rank": 1
                 }
               ],
-              "captionTotal": 15.7,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1062,17 +1062,17 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80.35,
+                      "key": "Ovr",
+                      "rawScore": 79,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0.65,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 78,
+                      "rank": 1
                     }
                   ],
-                  "total": 79.7,
+                  "total": 15.7,
                   "rank": 1
                 }
               ],
@@ -1119,8 +1119,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 88,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1129,17 +1129,17 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 82,
-                      "rank": 2
+                      "key": "Prog",
+                      "rawScore": 88,
+                      "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 42.2,
-                      "rank": 1
+                      "key": "Ful",
+                      "rawScore": 82,
+                      "rank": 2
                     }
                   ],
-                  "total": 86.3,
+                  "total": 42.2,
                   "rank": 1
                 }
               ],
@@ -1177,8 +1177,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1187,18 +1187,18 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 81,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.5,
+                      "key": "Ful",
+                      "rawScore": 81,
                       "rank": 3
                     }
                   ],
-                  "total": 83.2,
-                  "rank": 2
+                  "total": 40.5,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -1235,8 +1235,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1245,21 +1245,21 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83,
-                      "rank": 1
+                      "key": "Prog",
+                      "rawScore": 84,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.7,
-                      "rank": 2
+                      "key": "Ful",
+                      "rawScore": 83,
+                      "rank": 1
                     }
                   ],
-                  "total": 82.6,
-                  "rank": 3
+                  "total": 41.7,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 1.05,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1293,8 +1293,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1303,21 +1303,21 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78,
+                      "key": "Prog",
+                      "rawScore": 80,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 39.4,
+                      "key": "Ful",
+                      "rawScore": 78,
                       "rank": 4
                     }
                   ],
-                  "total": 80.2,
+                  "total": 39.4,
                   "rank": 4
                 }
               ],
-              "captionTotal": 1.7,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1360,8 +1360,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1370,22 +1370,22 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72,
+                      "key": "Ovr",
+                      "rawScore": 70,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 21.3,
+                      "key": "Mus",
+                      "rawScore": 72,
                       "rank": 1
                     }
                   ],
-                  "total": 78,
+                  "total": 21.3,
                   "rank": 1
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1395,21 +1395,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.2,
+                      "rawScore": 78,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 73,
+                      "rawScore": 74,
                       "rank": 1
                     }
                   ],
-                  "total": 71,
+                  "total": 15.2,
                   "rank": 1
                 }
               ],
-              "captionTotal": 14.4,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1418,17 +1418,17 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73.7,
+                      "key": "Ovr",
+                      "rawScore": 73,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 1.25,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 71,
+                      "rank": 1
                     }
                   ],
-                  "total": 72.45,
+                  "total": 14.4,
                   "rank": 1
                 }
               ],
@@ -1475,8 +1475,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 86,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1485,22 +1485,22 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 85,
+                      "key": "Ovr",
+                      "rawScore": 86,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 25.65,
+                      "key": "Mus",
+                      "rawScore": 85,
                       "rank": 1
                     }
                   ],
-                  "total": 84,
+                  "total": 25.65,
                   "rank": 1
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1510,21 +1510,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.7,
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 84,
+                      "rawScore": 83,
                       "rank": 1
                     }
                   ],
-                  "total": 82,
+                  "total": 16.7,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.6,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1533,17 +1533,17 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 84.55,
+                      "key": "Ovr",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 82,
+                      "rank": 1
                     }
                   ],
-                  "total": 84.55,
+                  "total": 16.6,
                   "rank": 1
                 }
               ],
@@ -1581,8 +1581,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1591,22 +1591,22 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
+                      "key": "Ovr",
+                      "rawScore": 84,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 24.6,
+                      "key": "Mus",
+                      "rawScore": 80,
                       "rank": 2
                     }
                   ],
-                  "total": 76,
+                  "total": 24.6,
                   "rank": 2
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1616,21 +1616,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15,
+                      "rawScore": 76,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 81,
+                      "rawScore": 74,
                       "rank": 2
                     }
                   ],
-                  "total": 80,
+                  "total": 15,
                   "rank": 2
                 }
               ],
-              "captionTotal": 16.1,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1639,17 +1639,17 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 81.1,
+                      "key": "Ovr",
+                      "rawScore": 81,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 80,
+                      "rank": 2
                     }
                   ],
-                  "total": 81.1,
+                  "total": 16.1,
                   "rank": 2
                 }
               ],

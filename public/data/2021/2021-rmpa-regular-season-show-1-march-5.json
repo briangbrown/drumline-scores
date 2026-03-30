@@ -498,7 +498,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "AN",
+                      "key": "VAN",
                       "rawScore": 74,
                       "rank": 1
                     }
@@ -507,8 +507,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 77.55,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 75,
@@ -795,7 +795,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "AN",
+                      "key": "VAN",
                       "rawScore": 69,
                       "rank": 1
                     }
@@ -804,8 +804,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 76.35,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 70.5,

@@ -40,8 +40,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -50,21 +50,21 @@
                   "judgeName": "M. McIntosh",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 84,
+                      "key": "Prog",
+                      "rawScore": 85,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 42.2,
+                      "key": "Ful",
+                      "rawScore": 84,
                       "rank": 1
                     }
                   ],
-                  "total": 77.6,
+                  "total": 42.2,
                   "rank": 1
                 }
               ],
-              "captionTotal": 0.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -98,8 +98,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -108,18 +108,18 @@
                   "judgeName": "M. McIntosh",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79,
+                      "key": "Prog",
+                      "rawScore": 80,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 39.7,
+                      "key": "Ful",
+                      "rawScore": 79,
                       "rank": 4
                     }
                   ],
-                  "total": 73.9,
-                  "rank": 3
+                  "total": 39.7,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -156,8 +156,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -166,21 +166,21 @@
                   "judgeName": "M. McIntosh",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
+                      "key": "Prog",
+                      "rawScore": 81,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.2,
+                      "key": "Ful",
+                      "rawScore": 80,
                       "rank": 3
                     }
                   ],
-                  "total": 73.6,
-                  "rank": 4
+                  "total": 40.2,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 0.3,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -214,8 +214,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -224,18 +224,18 @@
                   "judgeName": "M. McIntosh",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76,
+                      "key": "Prog",
+                      "rawScore": 78,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38.4,
+                      "key": "Ful",
+                      "rawScore": 76,
                       "rank": 6
                     }
                   ],
-                  "total": 72.3,
-                  "rank": 5
+                  "total": 38.4,
+                  "rank": 6
                 }
               ],
               "captionTotal": 0,
@@ -272,8 +272,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -282,21 +282,21 @@
                   "judgeName": "M. McIntosh",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 81,
+                      "key": "Prog",
+                      "rawScore": 83,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.9,
+                      "key": "Ful",
+                      "rawScore": 81,
                       "rank": 2
                     }
                   ],
-                  "total": 75.9,
+                  "total": 40.9,
                   "rank": 2
                 }
               ],
-              "captionTotal": 4,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -330,8 +330,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -340,18 +340,18 @@
                   "judgeName": "M. McIntosh",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78,
+                      "key": "Prog",
+                      "rawScore": 79,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 39.2,
+                      "key": "Ful",
+                      "rawScore": 78,
                       "rank": 5
                     }
                   ],
-                  "total": 71.4,
-                  "rank": 6
+                  "total": 39.2,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -397,8 +397,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -407,22 +407,22 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 72,
+                      "key": "Comp",
+                      "rawScore": 74,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 29.1,
+                      "key": "Perf",
+                      "rawScore": 72,
                       "rank": 1
                     }
                   ],
-                  "total": 68,
-                  "rank": 2
+                  "total": 29.1,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 68,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -431,21 +431,21 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 13.6,
+                      "key": "Comp",
+                      "rawScore": 68,
                       "rank": 2
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 74.7,
-                      "rank": 1
+                      "key": "Perf",
+                      "rawScore": 68,
+                      "rank": 2
                     }
                   ],
-                  "total": 1.6,
-                  "rank": null
+                  "total": 13.6,
+                  "rank": 2
                 }
               ],
-              "captionTotal": -1.6,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -479,8 +479,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 68,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -489,22 +489,22 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 66,
+                      "key": "Comp",
+                      "rawScore": 68,
                       "rank": 3
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 26.7,
+                      "key": "Perf",
+                      "rawScore": 66,
                       "rank": 3
                     }
                   ],
-                  "total": 71,
-                  "rank": 1
+                  "total": 26.7,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 69,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -513,18 +513,18 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 14,
+                      "key": "Comp",
+                      "rawScore": 71,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 72.9,
-                      "rank": 2
+                      "key": "Perf",
+                      "rawScore": 69,
+                      "rank": 1
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 14,
+                  "rank": 1
                 }
               ],
               "captionTotal": 0,
@@ -561,8 +561,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 67,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -571,22 +571,22 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 66,
-                      "rank": 3
+                      "key": "Comp",
+                      "rawScore": 67,
+                      "rank": 4
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 26.55,
-                      "rank": 4
+                      "key": "Perf",
+                      "rawScore": 66,
+                      "rank": 3
                     }
                   ],
-                  "total": 65,
-                  "rank": 3
+                  "total": 26.55,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 63,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -595,21 +595,21 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 12.8,
+                      "key": "Comp",
+                      "rawScore": 65,
                       "rank": 3
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 69.55,
+                      "key": "Perf",
+                      "rawScore": 63,
                       "rank": 3
                     }
                   ],
-                  "total": 1.2,
-                  "rank": null
+                  "total": 12.8,
+                  "rank": 3
                 }
               ],
-              "captionTotal": -1.2,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -643,8 +643,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -653,22 +653,22 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 69,
+                      "key": "Comp",
+                      "rawScore": 71,
                       "rank": 2
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 27.9,
+                      "key": "Perf",
+                      "rawScore": 69,
                       "rank": 2
                     }
                   ],
-                  "total": 64,
-                  "rank": 4
+                  "total": 27.9,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 62,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -677,21 +677,21 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 12.6,
+                      "key": "Comp",
+                      "rawScore": 64,
                       "rank": 4
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 66.7,
+                      "key": "Perf",
+                      "rawScore": 62,
                       "rank": 4
                     }
                   ],
-                  "total": 0.1,
-                  "rank": null
+                  "total": 12.6,
+                  "rank": 4
                 }
               ],
-              "captionTotal": -0.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -725,8 +725,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 60,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -735,22 +735,22 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
+                      "key": "Comp",
                       "rawScore": 60,
                       "rank": 5
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 24,
+                      "key": "Perf",
+                      "rawScore": 60,
                       "rank": 5
                     }
                   ],
-                  "total": 61,
+                  "total": 24,
                   "rank": 5
                 }
               ],
-              "captionTotal": 61,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -759,18 +759,18 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 12.2,
+                      "key": "Comp",
+                      "rawScore": 61,
                       "rank": 5
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 61.4,
+                      "key": "Perf",
+                      "rawScore": 61,
                       "rank": 5
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 12.2,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -807,8 +807,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 58,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -817,22 +817,22 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
+                      "key": "Comp",
                       "rawScore": 58,
                       "rank": 6
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 23.2,
+                      "key": "Perf",
+                      "rawScore": 58,
                       "rank": 6
                     }
                   ],
-                  "total": 56,
+                  "total": 23.2,
                   "rank": 6
                 }
               ],
-              "captionTotal": 55,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -841,21 +841,21 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 11.1,
+                      "key": "Comp",
+                      "rawScore": 56,
                       "rank": 6
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 59.1,
+                      "key": "Perf",
+                      "rawScore": 55,
                       "rank": 6
                     }
                   ],
-                  "total": 7.2,
-                  "rank": null
+                  "total": 11.1,
+                  "rank": 6
                 }
               ],
-              "captionTotal": -7.2,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -898,8 +898,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 88,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -908,17 +908,17 @@
                   "judgeName": "M. McIntosh",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 87,
+                      "key": "Prog",
+                      "rawScore": 88,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 43.7,
+                      "key": "Ful",
+                      "rawScore": 87,
                       "rank": 1
                     }
                   ],
-                  "total": 81.4,
+                  "total": 43.7,
                   "rank": 1
                 }
               ],
@@ -956,8 +956,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -966,17 +966,17 @@
                   "judgeName": "M. McIntosh",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 82,
+                      "key": "Prog",
+                      "rawScore": 85,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.6,
+                      "key": "Ful",
+                      "rawScore": 82,
                       "rank": 2
                     }
                   ],
-                  "total": 78.8,
+                  "total": 41.6,
                   "rank": 2
                 }
               ],
@@ -1014,8 +1014,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1024,21 +1024,21 @@
                   "judgeName": "M. McIntosh",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78,
+                      "key": "Prog",
+                      "rawScore": 80,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 39.4,
+                      "key": "Ful",
+                      "rawScore": 78,
                       "rank": 4
                     }
                   ],
-                  "total": 74.8,
+                  "total": 39.4,
                   "rank": 4
                 }
               ],
-              "captionTotal": 0.2,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1072,8 +1072,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1082,21 +1082,21 @@
                   "judgeName": "M. McIntosh",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
+                      "key": "Prog",
+                      "rawScore": 81,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.2,
+                      "key": "Ful",
+                      "rawScore": 80,
                       "rank": 3
                     }
                   ],
-                  "total": 75.3,
+                  "total": 40.2,
                   "rank": 3
                 }
               ],
-              "captionTotal": 1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1139,8 +1139,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1149,22 +1149,22 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 71,
+                      "key": "Comp",
+                      "rawScore": 73,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 28.7,
+                      "key": "Perf",
+                      "rawScore": 71,
                       "rank": 1
                     }
                   ],
-                  "total": 72,
+                  "total": 28.7,
                   "rank": 1
                 }
               ],
-              "captionTotal": 70.5,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1173,18 +1173,18 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 14.25,
+                      "key": "Comp",
+                      "rawScore": 72,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 73.95,
+                      "key": "Perf",
+                      "rawScore": 70.5,
                       "rank": 1
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 14.25,
+                  "rank": 1
                 }
               ],
               "captionTotal": 0,
@@ -1221,8 +1221,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1231,22 +1231,22 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 70,
+                      "key": "Comp",
+                      "rawScore": 72,
                       "rank": 2
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 28.3,
+                      "key": "Perf",
+                      "rawScore": 70,
                       "rank": 2
                     }
                   ],
-                  "total": 67,
+                  "total": 28.3,
                   "rank": 2
                 }
               ],
-              "captionTotal": 66,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1255,18 +1255,18 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 13.3,
+                      "key": "Comp",
+                      "rawScore": 67,
                       "rank": 2
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 71.4,
+                      "key": "Perf",
+                      "rawScore": 66,
                       "rank": 2
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 13.3,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -1312,8 +1312,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1322,17 +1322,17 @@
                   "judgeName": "M. McIntosh",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73,
+                      "key": "Prog",
+                      "rawScore": 75,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36.9,
+                      "key": "Ful",
+                      "rawScore": 73,
                       "rank": 1
                     }
                   ],
-                  "total": 75.8,
+                  "total": 36.9,
                   "rank": 1
                 }
               ],
@@ -1379,8 +1379,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1389,22 +1389,22 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 82,
+                      "key": "Comp",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 33.1,
+                      "key": "Perf",
+                      "rawScore": 82,
                       "rank": 1
                     }
                   ],
-                  "total": 75,
+                  "total": 33.1,
                   "rank": 1
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1413,18 +1413,18 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 14.9,
+                      "key": "Comp",
+                      "rawScore": 75,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 77.6,
+                      "key": "Perf",
+                      "rawScore": 74,
                       "rank": 1
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 14.9,
+                  "rank": 1
                 }
               ],
               "captionTotal": 0,
@@ -1461,8 +1461,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1471,22 +1471,22 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 79,
+                      "key": "Comp",
+                      "rawScore": 80,
                       "rank": 2
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 31.75,
+                      "key": "Perf",
+                      "rawScore": 79,
                       "rank": 2
                     }
                   ],
-                  "total": 67,
+                  "total": 31.75,
                   "rank": 2
                 }
               ],
-              "captionTotal": 65,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1495,21 +1495,21 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 13.2,
+                      "key": "Comp",
+                      "rawScore": 67,
                       "rank": 2
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 73.75,
+                      "key": "Perf",
+                      "rawScore": 65,
                       "rank": 2
                     }
                   ],
-                  "total": 1,
-                  "rank": null
+                  "total": 13.2,
+                  "rank": 2
                 }
               ],
-              "captionTotal": -1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1552,8 +1552,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 89,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1562,22 +1562,22 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 86,
+                      "key": "Comp",
+                      "rawScore": 89,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 34.85,
+                      "key": "Perf",
+                      "rawScore": 86,
                       "rank": 1
                     }
                   ],
-                  "total": 70,
+                  "total": 34.85,
                   "rank": 1
                 }
               ],
-              "captionTotal": 69,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1586,18 +1586,18 @@
                   "judgeName": "",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 13.9,
+                      "key": "Comp",
+                      "rawScore": 70,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 78.55,
+                      "key": "Perf",
+                      "rawScore": 69,
                       "rank": 1
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 13.9,
+                  "rank": 1
                 }
               ],
               "captionTotal": 0,

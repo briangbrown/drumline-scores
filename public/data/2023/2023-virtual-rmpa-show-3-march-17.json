@@ -40,8 +40,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 0
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -50,17 +50,17 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 69,
+                      "key": "Prog",
+                      "rawScore": 72,
                       "rank": 0
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 35.1,
-                      "rank": 1
+                      "key": "Ful",
+                      "rawScore": 69,
+                      "rank": 0
                     }
                   ],
-                  "total": 74,
+                  "total": 35.1,
                   "rank": 1
                 }
               ],
@@ -107,8 +107,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 68,
-              "captionRank": 0
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -117,17 +117,17 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 65,
+                      "key": "Prog",
+                      "rawScore": 68,
                       "rank": 0
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 33.1,
-                      "rank": 1
+                      "key": "Ful",
+                      "rawScore": 65,
+                      "rank": 0
                     }
                   ],
-                  "total": 73,
+                  "total": 33.1,
                   "rank": 1
                 }
               ],
@@ -174,8 +174,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 65,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -185,21 +185,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 63,
+                      "rawScore": 65,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 12.8,
+                      "key": "Vis",
+                      "rawScore": 63,
                       "rank": 1
                     }
                   ],
-                  "total": 66,
+                  "total": 12.8,
                   "rank": 1
                 }
               ],
-              "captionTotal": 66,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -208,22 +208,22 @@
                   "judgeName": "T. Sammons",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 19.8,
+                      "key": "Comp",
+                      "rawScore": 66,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 66,
                       "rank": 1
                     }
                   ],
-                  "total": 60,
+                  "total": 19.8,
                   "rank": 1
                 }
               ],
-              "captionTotal": 12.6,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -232,17 +232,17 @@
                   "judgeName": "R. Lee",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 63.35,
+                      "key": "Comp",
+                      "rawScore": 66,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 60,
+                      "rank": 1
                     }
                   ],
-                  "total": 63.35,
+                  "total": 12.6,
                   "rank": 1
                 }
               ],

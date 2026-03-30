@@ -381,6 +381,7 @@ function parseHeaderLayout(
       judgeIdx++
     }
 
+    colIdx += captionColsUsed
     captions.push(captionLayout)
   }
 
@@ -503,10 +504,11 @@ function buildCaptionScore(
     })
   }
 
-  // Caption total
+  // Caption total — only consume if the layout has a dedicated total column
+  // (e.g. when multiple judges share a caption and a combined total column exists)
   let captionTotal = 0
   let captionRank: number | null = null
-  if (scoreIdx < scoreValues.length) {
+  if (captionLayout.totalCol !== null && scoreIdx < scoreValues.length) {
     captionTotal = scoreValues[scoreIdx].score
     captionRank = scoreValues[scoreIdx].rank
     scoreIdx++

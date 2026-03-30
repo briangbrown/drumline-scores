@@ -40,8 +40,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -50,17 +50,17 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76,
+                      "key": "Prog",
+                      "rawScore": 79,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38.6,
+                      "key": "Ful",
+                      "rawScore": 76,
                       "rank": 1
                     }
                   ],
-                  "total": 76.6,
+                  "total": 38.6,
                   "rank": 1
                 }
               ],
@@ -98,8 +98,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -108,17 +108,17 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 75,
+                      "key": "Prog",
+                      "rawScore": 76,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.7,
+                      "key": "Ful",
+                      "rawScore": 75,
                       "rank": 2
                     }
                   ],
-                  "total": 73.7,
+                  "total": 37.7,
                   "rank": 2
                 }
               ],
@@ -156,8 +156,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -166,17 +166,17 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73,
+                      "key": "Prog",
+                      "rawScore": 75,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36.9,
+                      "key": "Ful",
+                      "rawScore": 73,
                       "rank": 3
                     }
                   ],
-                  "total": 72.7,
+                  "total": 36.9,
                   "rank": 3
                 }
               ],
@@ -214,8 +214,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -224,17 +224,17 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 69,
-                      "rank": 5
+                      "key": "Prog",
+                      "rawScore": 70,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 34.7,
-                      "rank": 4
+                      "key": "Ful",
+                      "rawScore": 69,
+                      "rank": 5
                     }
                   ],
-                  "total": 66,
+                  "total": 34.7,
                   "rank": 4
                 }
               ],
@@ -272,8 +272,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 67,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -282,21 +282,21 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 70,
-                      "rank": 4
+                      "key": "Prog",
+                      "rawScore": 67,
+                      "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 34.4,
-                      "rank": 5
+                      "key": "Ful",
+                      "rawScore": 70,
+                      "rank": 4
                     }
                   ],
-                  "total": 65.8,
+                  "total": 34.4,
                   "rank": 5
                 }
               ],
-              "captionTotal": 0.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -330,8 +330,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 66,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -340,21 +340,21 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 63,
+                      "key": "Prog",
+                      "rawScore": 66,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 32.1,
+                      "key": "Ful",
+                      "rawScore": 63,
                       "rank": 6
                     }
                   ],
-                  "total": 62.5,
+                  "total": 32.1,
                   "rank": 6
                 }
               ],
-              "captionTotal": 3.7,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -397,8 +397,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -407,22 +407,22 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 70,
+                      "key": "Ovr",
+                      "rawScore": 72,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 21.3,
+                      "key": "Mus",
+                      "rawScore": 70,
                       "rank": 1
                     }
                   ],
-                  "total": 77,
+                  "total": 21.3,
                   "rank": 1
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -432,21 +432,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 14.8,
+                      "rawScore": 77,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 75,
-                      "rank": 1
+                      "rawScore": 71,
+                      "rank": 2
                     }
                   ],
-                  "total": 75,
+                  "total": 14.8,
                   "rank": 1
                 }
               ],
-              "captionTotal": 15,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -455,17 +455,17 @@
                   "judgeName": "P. Lucero",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72.9,
+                      "key": "Ovr",
+                      "rawScore": 75,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0.95,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 75,
+                      "rank": 1
                     }
                   ],
-                  "total": 71.95,
+                  "total": 15,
                   "rank": 1
                 }
               ],
@@ -503,8 +503,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -513,22 +513,22 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 68,
+                      "key": "Ovr",
+                      "rawScore": 70,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 20.7,
+                      "key": "Mus",
+                      "rawScore": 68,
                       "rank": 2
                     }
                   ],
-                  "total": 74,
+                  "total": 20.7,
                   "rank": 2
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -538,21 +538,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 14.6,
+                      "rawScore": 74,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 69,
-                      "rank": 3
+                      "rawScore": 72,
+                      "rank": 1
                     }
                   ],
-                  "total": 69,
-                  "rank": 3
+                  "total": 14.6,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 13.8,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -561,18 +561,18 @@
                   "judgeName": "P. Lucero",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 67.9,
-                      "rank": 2
+                      "key": "Ovr",
+                      "rawScore": 69,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0.65,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 69,
+                      "rank": 3
                     }
                   ],
-                  "total": 67.25,
-                  "rank": 2
+                  "total": 13.8,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -609,8 +609,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 68,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -619,22 +619,22 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 64,
+                      "key": "Ovr",
+                      "rawScore": 68,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 19.8,
+                      "key": "Mus",
+                      "rawScore": 64,
                       "rank": 3
                     }
                   ],
-                  "total": 72,
+                  "total": 19.8,
                   "rank": 3
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -644,21 +644,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 14.2,
+                      "rawScore": 72,
                       "rank": 3
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 71,
-                      "rank": 2
+                      "rawScore": 70,
+                      "rank": 3
                     }
                   ],
-                  "total": 71,
-                  "rank": 2
+                  "total": 14.2,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 14.2,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -667,18 +667,18 @@
                   "judgeName": "P. Lucero",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 66.7,
-                      "rank": 3
+                      "key": "Ovr",
+                      "rawScore": 71,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 3.75,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 71,
+                      "rank": 2
                     }
                   ],
-                  "total": 62.95,
-                  "rank": 3
+                  "total": 14.2,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -724,8 +724,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -734,22 +734,22 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
+                      "key": "Ovr",
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 24.45,
+                      "key": "Mus",
+                      "rawScore": 80,
                       "rank": 1
                     }
                   ],
-                  "total": 85,
+                  "total": 24.45,
                   "rank": 1
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -759,21 +759,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.5,
+                      "rawScore": 85,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 84,
+                      "rawScore": 80,
                       "rank": 1
                     }
                   ],
-                  "total": 83,
+                  "total": 16.5,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.7,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -782,17 +782,17 @@
                   "judgeName": "P. Lucero",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83.75,
+                      "key": "Ovr",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 83,
+                      "rank": 1
                     }
                   ],
-                  "total": 83.75,
+                  "total": 16.7,
                   "rank": 1
                 }
               ],
@@ -830,8 +830,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -840,22 +840,22 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78,
+                      "key": "Ovr",
+                      "rawScore": 80,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 23.7,
+                      "key": "Mus",
+                      "rawScore": 78,
                       "rank": 2
                     }
                   ],
-                  "total": 82,
+                  "total": 23.7,
                   "rank": 2
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -865,21 +865,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16,
+                      "rawScore": 82,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 80,
-                      "rank": 3
+                      "rawScore": 78,
+                      "rank": 2
                     }
                   ],
-                  "total": 78.5,
-                  "rank": 4
+                  "total": 16,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 15.85,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -888,18 +888,18 @@
                   "judgeName": "P. Lucero",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79.55,
-                      "rank": 2
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 78.5,
+                      "rank": 4
                     }
                   ],
-                  "total": 79.55,
-                  "rank": 2
+                  "total": 15.85,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -936,8 +936,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 79.5,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -946,22 +946,22 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 77,
+                      "key": "Ovr",
+                      "rawScore": 79.5,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 23.475,
+                      "key": "Mus",
+                      "rawScore": 77,
                       "rank": 3
                     }
                   ],
-                  "total": 76,
-                  "rank": 5
+                  "total": 23.475,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -971,21 +971,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.2,
-                      "rank": 4
+                      "rawScore": 76,
+                      "rank": 5
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 81,
-                      "rank": 2
+                      "rawScore": 76,
+                      "rank": 3
                     }
                   ],
-                  "total": 80,
-                  "rank": 2
+                  "total": 15.2,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 16.1,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -994,18 +994,18 @@
                   "judgeName": "P. Lucero",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78.475,
-                      "rank": 3
+                      "key": "Ovr",
+                      "rawScore": 81,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 80,
+                      "rank": 2
                     }
                   ],
-                  "total": 78.475,
-                  "rank": 3
+                  "total": 16.1,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -1042,8 +1042,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1052,22 +1052,22 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76,
+                      "key": "Ovr",
+                      "rawScore": 75,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 22.65,
+                      "key": "Mus",
+                      "rawScore": 76,
                       "rank": 5
                     }
                   ],
-                  "total": 77,
-                  "rank": 4
+                  "total": 22.65,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1077,21 +1077,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15,
-                      "rank": 5
+                      "rawScore": 77,
+                      "rank": 4
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 78,
+                      "rawScore": 73,
                       "rank": 5
                     }
                   ],
-                  "total": 79.5,
-                  "rank": 3
+                  "total": 15,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 15.75,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1100,17 +1100,17 @@
                   "judgeName": "P. Lucero",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76.7,
-                      "rank": 4
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 79.5,
+                      "rank": 3
                     }
                   ],
-                  "total": 76.7,
+                  "total": 15.75,
                   "rank": 4
                 }
               ],
@@ -1148,8 +1148,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1158,22 +1158,22 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76.5,
+                      "key": "Ovr",
+                      "rawScore": 78,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 23.175,
+                      "key": "Mus",
+                      "rawScore": 76.5,
                       "rank": 4
                     }
                   ],
-                  "total": 80,
-                  "rank": 3
+                  "total": 23.175,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1183,21 +1183,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.5,
+                      "rawScore": 80,
                       "rank": 3
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 79,
+                      "rawScore": 75,
                       "rank": 4
                     }
                   ],
-                  "total": 77,
-                  "rank": 5
+                  "total": 15.5,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 15.6,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1206,17 +1206,17 @@
                   "judgeName": "P. Lucero",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76.475,
-                      "rank": 5
+                      "key": "Ovr",
+                      "rawScore": 79,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 2.4,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 77,
+                      "rank": 5
                     }
                   ],
-                  "total": 74.075,
+                  "total": 15.6,
                   "rank": 5
                 }
               ],
@@ -1263,8 +1263,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1273,17 +1273,17 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
+                      "key": "Prog",
+                      "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.4,
+                      "key": "Ful",
+                      "rawScore": 80,
                       "rank": 1
                     }
                   ],
-                  "total": 80.3,
+                  "total": 40.4,
                   "rank": 1
                 }
               ],
@@ -1321,8 +1321,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1331,17 +1331,17 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 77,
+                      "key": "Prog",
+                      "rawScore": 79,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38.9,
+                      "key": "Ful",
+                      "rawScore": 77,
                       "rank": 2
                     }
                   ],
-                  "total": 77.2,
+                  "total": 38.9,
                   "rank": 2
                 }
               ],
@@ -1388,8 +1388,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1398,22 +1398,22 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 75,
+                      "key": "Ovr",
+                      "rawScore": 73,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 22.2,
+                      "key": "Mus",
+                      "rawScore": 75,
                       "rank": 1
                     }
                   ],
-                  "total": 75,
+                  "total": 22.2,
                   "rank": 1
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1423,21 +1423,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15,
+                      "rawScore": 75,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 72,
+                      "rawScore": 75,
                       "rank": 1
                     }
                   ],
-                  "total": 76,
+                  "total": 15,
                   "rank": 1
                 }
               ],
-              "captionTotal": 14.8,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1446,17 +1446,17 @@
                   "judgeName": "P. Lucero",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 74,
+                      "key": "Ovr",
+                      "rawScore": 72,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0.2,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 76,
+                      "rank": 1
                     }
                   ],
-                  "total": 73.8,
+                  "total": 14.8,
                   "rank": 1
                 }
               ],
@@ -1503,8 +1503,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1513,22 +1513,22 @@
                   "judgeName": "J. Fant",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 77,
+                      "key": "Ovr",
+                      "rawScore": 78,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 23.25,
+                      "key": "Mus",
+                      "rawScore": 77,
                       "rank": 1
                     }
                   ],
-                  "total": 84,
+                  "total": 23.25,
                   "rank": 1
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1538,21 +1538,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.4,
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 78,
+                      "rawScore": 80,
                       "rank": 1
                     }
                   ],
-                  "total": 77,
+                  "total": 16.4,
                   "rank": 1
                 }
               ],
-              "captionTotal": 15.5,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1561,17 +1561,17 @@
                   "judgeName": "P. Lucero",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 77.25,
+                      "key": "Ovr",
+                      "rawScore": 78,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 16.65,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 77,
+                      "rank": 1
                     }
                   ],
-                  "total": 60.6,
+                  "total": 15.5,
                   "rank": 1
                 }
               ],
