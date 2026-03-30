@@ -2,6 +2,8 @@
 
 Phased implementation plan derived from [`docs/designs/DESIGN.md`](../designs/DESIGN.md).
 
+For the current system overview see [`docs/ARCHITECTURE.md`](../ARCHITECTURE.md). **Update ARCHITECTURE.md whenever a phase changes module structure, data flow, or directory layout.**
+
 Each phase is independently deployable and delivers user value. Phases build on each other but are scoped to avoid large, risky PRs.
 
 ---
@@ -69,16 +71,17 @@ Parse CompetitionSuite HTML recap files into structured `ShowData` JSON.
   - State full name → abbreviation
   - Strip addresses, fix whitespace/case, add missing commas
   - School name → city lookup
-- Registry stored as `data/ensembles.json`
+- Registry stored as `public/data/ensembles.json` (served as static asset)
 - Tests covering all known name variations from the design doc
 
 ### 1.5 Import CLI Tool
 
 **Files:** `src/import.ts` (Node CLI script, not bundled in client)
 
-- CLI command: `npx tsx src/import.ts <html-file> [--year 2025] [--output data/2025/]`
-- Reads HTML file → runs parser → matches ensembles → writes per-show JSON
+- CLI command: `npx tsx src/import.ts <html-file> [--year 2025] [--output public/data/2025/]`
+- Reads HTML from `data/scores/<year>/` → runs parser → matches ensembles → writes per-show JSON to `public/data/<year>/`
 - Generates `season.json` if it doesn't exist, or updates show list
+- Updates `public/data/ensembles.json` with any new ensembles
 - Flags unrecognized ensemble names for manual review (console output)
 - Dry-run mode for verification
 
@@ -87,8 +90,8 @@ Parse CompetitionSuite HTML recap files into structured `ShowData` JSON.
 Use the import tool to process all 2025 HTML files and generate the initial dataset.
 
 - Process all 8 shows (S1–S6, Prelims, Finals)
-- Build initial `data/ensembles.json` registry
-- Generate `data/2025/season.json` and per-show JSON files
+- Build initial `public/data/ensembles.json` registry
+- Generate `public/data/2025/season.json` and per-show JSON files
 - Validate parsed data against the prototype's embedded `RAW` object
 
 **Phase 1 deliverable:** Complete data pipeline from HTML → typed JSON. All scoring math tested. Ready for UI.
@@ -103,11 +106,12 @@ Use the import tool to process all 2025 HTML files and generate the initial data
 
 **Files:** `src/data.ts`
 
-- `loadSeasonMetadata(year: number): Promise<SeasonMetadata>` — fetch `data/<year>/season.json`
+- `loadSeasonMetadata(year: number): Promise<SeasonMetadata>` — fetch `/data/<year>/season.json` (from `public/data/`)
 - `loadShowData(year: number, showId: string): Promise<ShowData>` — fetch per-show JSON
 - `loadAllShowsForSeason(year: number): Promise<Array<ShowData>>` — parallel fetch all shows (for progression view)
-- `loadEnsembleRegistry(): Promise<EnsembleRegistry>`
+- `loadEnsembleRegistry(): Promise<EnsembleRegistry>` — fetch `/data/ensembles.json`
 - Simple fetch-based, with in-memory caching
+- **Note:** Runtime JSON lives in `public/data/` so Vite serves it as static assets. Source HTML stays in `data/scores/`.
 
 ### 2.2 URL Router
 
