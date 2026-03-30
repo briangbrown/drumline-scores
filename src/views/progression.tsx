@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import {
   LineChart,
   Line,
@@ -9,6 +9,7 @@ import {
   ResponsiveContainer,
   Legend,
 } from 'recharts'
+import { Pill } from '../components/pill'
 import { Panel } from '../components/panel'
 import { ChartTooltip } from '../components/chart-tooltip'
 import { StarButton } from '../components/star-button'
@@ -19,6 +20,8 @@ const PALETTE = [
   '#f59e0b', '#3b82f6', '#10b981', '#ef4444', '#8b5cf6', '#ec4899',
   '#14b8a6', '#f97316', '#06b6d4', '#84cc16', '#e879f9', '#facc15',
 ]
+
+const TOTAL_KEY = 'Total'
 
 type ShowWithClass = {
   metadata: ShowMetadata
@@ -34,8 +37,28 @@ type ProgressionViewProps = {
 }
 
 export function ProgressionView({ shows, highlight, favoriteName, onToggleFavorite }: ProgressionViewProps) {
+  const [selectedCaption, setSelectedCaption] = useState(TOTAL_KEY)
+
+  // Discover available caption names from the data
+  const captionNames = useMemo(() => {
+    for (const show of shows) {
+      if (!show.classResult) continue
+      for (const e of show.classResult.ensembles) {
+        if (e.captions.length > 0) {
+          return e.captions.map((c) => c.captionName)
+        }
+      }
+    }
+    return []
+  }, [shows])
+
+  const captionOptions = [TOTAL_KEY, ...captionNames]
+
+  // Reset caption selection if it doesn't exist in the current data
+  const activeCaption = captionOptions.includes(selectedCaption) ? selectedCaption : TOTAL_KEY
+
   // Build chart data: each data point is a show, with a key per ensemble
-  const { chartData, ensembleNames, colorMap } = useMemo(() => {
+  const { chartData, ensembleNames, colorMap, shortNameMap } = useMemo(() => {
     const names = new Set<string>()
 
     // Collect all ensemble names across shows
@@ -48,8 +71,10 @@ export function ProgressionView({ shows, highlight, favoriteName, onToggleFavori
 
     const sortedNames = Array.from(names).sort()
     const colors = new Map<string, string>()
+    const shorts = new Map<string, string>()
     sortedNames.forEach((name, i) => {
       colors.set(name, PALETTE[i % PALETTE.length])
+      shorts.set(name, shortenName(name))
     })
 
     const data = shows.map((show) => {
@@ -58,14 +83,19 @@ export function ProgressionView({ shows, highlight, favoriteName, onToggleFavori
       }
       if (show.classResult) {
         for (const e of show.classResult.ensembles) {
-          point[e.ensembleName] = e.total
+          if (activeCaption === TOTAL_KEY) {
+            point[e.ensembleName] = e.total
+          } else {
+            const cap = e.captions.find((c) => c.captionName === activeCaption)
+            if (cap) point[e.ensembleName] = cap.captionTotal
+          }
         }
       }
       return point
     })
 
-    return { chartData: data, ensembleNames: sortedNames, colorMap: colors }
-  }, [shows])
+    return { chartData: data, ensembleNames: sortedNames, colorMap: colors, shortNameMap: shorts }
+  }, [shows, activeCaption])
 
   // Build season summary table
   const summary = useMemo(() => {
@@ -73,7 +103,10 @@ export function ProgressionView({ shows, highlight, favoriteName, onToggleFavori
       const scores = shows
         .map((show) => {
           const e = show.classResult?.ensembles.find((en) => en.ensembleName === name)
-          return e?.total ?? null
+          if (!e) return null
+          if (activeCaption === TOTAL_KEY) return e.total
+          const cap = e.captions.find((c) => c.captionName === activeCaption)
+          return cap?.captionTotal ?? null
         })
         .filter((s): s is number => s !== null)
 
@@ -85,7 +118,25 @@ export function ProgressionView({ shows, highlight, favoriteName, onToggleFavori
 
       return { name, showCount, first, last, high, growth }
     })
-  }, [shows, ensembleNames])
+  }, [shows, ensembleNames, activeCaption])
+
+  // Build penalties data
+  const penalties = useMemo(() => {
+    const entries: Array<{ ensembleName: string; showLabel: string; penalty: number }> = []
+    for (const show of shows) {
+      if (!show.classResult) continue
+      for (const e of show.classResult.ensembles) {
+        if (e.penalty > 0) {
+          entries.push({
+            ensembleName: e.ensembleName,
+            showLabel: formatShowLabel(show.metadata),
+            penalty: e.penalty,
+          })
+        }
+      }
+    }
+    return entries
+  }, [shows])
 
   if (shows.length === 0) {
     return (
@@ -97,8 +148,22 @@ export function ProgressionView({ shows, highlight, favoriteName, onToggleFavori
 
   return (
     <div className="space-y-6">
+      {/* Caption Toggle Pills */}
+      {captionNames.length > 1 && (
+        <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
+          {captionOptions.map((cap) => (
+            <Pill
+              key={cap}
+              label={cap}
+              isActive={cap === activeCaption}
+              onClick={() => setSelectedCaption(cap)}
+            />
+          ))}
+        </div>
+      )}
+
       {/* Progression Chart */}
-      <Panel title="Score Progression">
+      <Panel title={`${activeCaption} Progression`}>
         <div className="h-[300px] sm:h-[400px]">
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={chartData} margin={{ top: 5, right: 5, bottom: 5, left: 0 }}>
@@ -116,12 +181,14 @@ export function ProgressionView({ shows, highlight, favoriteName, onToggleFavori
               <Tooltip content={<ChartTooltip />} />
               <Legend
                 wrapperStyle={{ fontSize: 10, color: 'var(--color-text-secondary)' }}
+                formatter={(value: string) => shortNameMap.get(value) ?? value}
               />
               {ensembleNames.map((name) => (
                 <Line
                   key={name}
                   type="monotone"
                   dataKey={name}
+                  name={name}
                   stroke={colorMap.get(name)}
                   strokeWidth={highlight === name ? 3 : 1.5}
                   dot={{ r: highlight === name ? 4 : 2 }}
@@ -180,6 +247,28 @@ export function ProgressionView({ shows, highlight, favoriteName, onToggleFavori
           </table>
         </div>
       </Panel>
+
+      {/* Timing Penalties */}
+      {penalties.length > 0 && (
+        <Panel title="Timing Penalties">
+          <div className="space-y-1.5">
+            {penalties.map((p, i) => (
+              <div
+                key={`${p.ensembleName}-${i}`}
+                className="flex items-center justify-between text-xs"
+              >
+                <span className="truncate max-w-[200px] sm:max-w-none">
+                  {p.ensembleName}
+                </span>
+                <span className="flex items-center gap-3 shrink-0">
+                  <span className="text-text-muted">{p.showLabel}</span>
+                  <span className="text-error font-medium">-{p.penalty.toFixed(1)}</span>
+                </span>
+              </div>
+            ))}
+          </div>
+        </Panel>
+      )}
     </div>
   )
 }
@@ -196,4 +285,11 @@ function growthColor(growth: number): string {
   if (growth >= 1) return 'text-growth-mid'
   if (growth >= 0) return 'text-growth-low'
   return 'text-growth-neg'
+}
+
+function shortenName(name: string): string {
+  return name
+    .replace(/\s+(High School|HS|Winter Percussion|Indoor Percussion|Percussion Ensemble|Percussion)\b/gi, '')
+    .replace(/\s*"[^"]*"\s*$/, '')
+    .trim()
 }
