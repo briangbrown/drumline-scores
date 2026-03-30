@@ -4,6 +4,8 @@ Agent instructions for Claude Code working in this repository.
 
 For the full design document (personas, scoring model, data architecture, parsing spec) see **[`docs/designs/DESIGN.md`](docs/designs/DESIGN.md)**.
 
+For the system overview (directory structure, data flow, module responsibilities) see **[`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)**. **Update ARCHITECTURE.md when adding modules, changing data flow, or restructuring directories.**
+
 ---
 
 ## Branch Protection
@@ -147,16 +149,22 @@ npx vitest         # Run in watch mode during development
 
 ### HTML Parsing
 
-- Score HTML files are in `data/scores/`. These are CompetitionSuite recaps.
+- Source HTML files are in `data/scores/<year>/`. These are CompetitionSuite recaps — **not served to clients**.
 - Use `data-translate-number` attributes for score extraction (2019+). Fall back to `td.score` text content for 2015–2018.
 - Use `header-division-name` class for class headers (2023+). Fall back to inline style matching for earlier years.
 - Skip non-percussion divisions (e.g., "Winds Independent A").
 
 ### Data Files
 
-- Per-show JSON files in `data/<year>/`.
-- `ensembles.json` is the global ensemble registry with name aliases.
-- Season metadata in `data/<year>/season.json`.
+There are **two data directories** — see [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) for the full layout.
+
+- `data/scores/<year>/` — source HTML recap files (input to the import tool, not served)
+- `public/data/<year>/` — runtime JSON (import tool output, served as static assets)
+  - Per-show JSON files: `public/data/<year>/<show-id>.json`
+  - Season metadata: `public/data/<year>/season.json`
+  - Ensemble registry: `public/data/ensembles.json`
+
+The import CLI (`npx tsx src/import.ts`) reads from `data/scores/` and writes to `public/data/`.
 
 ---
 

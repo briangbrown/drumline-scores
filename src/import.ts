@@ -30,7 +30,7 @@ function parseArgs(args: Array<string>): CliArgs {
   let year: number | null = null
   let outputDir: string | null = null
   let dryRun = false
-  let registryPath = 'data/ensembles.json'
+  let registryPath = 'public/data/ensembles.json'
 
   for (let i = 0; i < args.length; i++) {
     const arg = args[i]
@@ -48,7 +48,7 @@ function parseArgs(args: Array<string>): CliArgs {
   }
 
   if (positional.length === 0) {
-    console.error('Usage: npx tsx src/import.ts <html-file> [--year 2025] [--output data/2025/] [--dry-run]')
+    console.error('Usage: npx tsx src/import.ts <html-file> [--year 2025] [--output public/data/2025/] [--dry-run]')
     process.exit(1)
   }
 
@@ -61,7 +61,7 @@ function parseArgs(args: Array<string>): CliArgs {
   }
 
   if (!outputDir) {
-    outputDir = `data/${year}`
+    outputDir = `public/data/${year}`
   }
 
   return { htmlFile, year, outputDir, dryRun, registryPath }
