@@ -312,31 +312,27 @@ function ScoreCard({
       }`}
       onClick={onToggleExpand}
     >
-      <div className="flex items-start justify-between">
-        <div className="min-w-0 flex-1">
-          <div className="flex items-center gap-1.5">
-            <p className="text-xs text-accent font-medium">#{ensemble.rank}</p>
-            <StarButton isFavorited={isFavorited} onClick={onToggleFavorite} />
-          </div>
-          <p className="mt-1 text-sm font-medium truncate">{ensemble.ensembleName}</p>
-          {ensemble.location && (
-            <p className="text-xs text-text-muted truncate">{ensemble.location}</p>
-          )}
-        </div>
-        <div className="ml-3 text-right">
-          <p className="text-xl font-bold text-accent tabular-nums">
-            {ensemble.total.toFixed(2)}
-          </p>
-          <p className="text-xs text-text-muted mt-1">
-            {isExpanded ? 'tap to collapse' : 'tap for recap'}
-          </p>
-        </div>
-      </div>
-      {ensemble.penalty > 0 && (
-        <p className="mt-2 text-xs text-error">
-          Penalty: -{ensemble.penalty.toFixed(1)}
+      <div className="flex items-center gap-1.5">
+        <p className="text-xs text-accent font-medium">#{ensemble.rank}</p>
+        <StarButton isFavorited={isFavorited} onClick={onToggleFavorite} />
+        <p className="text-xl font-bold text-accent tabular-nums ml-auto">
+          {ensemble.total.toFixed(2)}
         </p>
+      </div>
+      <p className="mt-1 text-sm font-medium">{ensemble.ensembleName}</p>
+      {ensemble.location && (
+        <p className="text-xs text-text-muted">{ensemble.location}</p>
       )}
+      <div className="flex items-center justify-between mt-2">
+        {ensemble.penalty > 0 ? (
+          <p className="text-xs text-error">
+            Penalty: -{ensemble.penalty.toFixed(1)}
+          </p>
+        ) : <span />}
+        <p className="text-xs text-text-muted">
+          {isExpanded ? 'tap to collapse' : 'tap for recap'}
+        </p>
+      </div>
     </div>
   )
 }
