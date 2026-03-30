@@ -5,13 +5,14 @@ import { useSeasonData } from './hooks/use-season-data'
 import { useFavorite } from './hooks/use-favorite'
 import { ProgressionView } from './views/progression'
 import { StandingsView } from './views/standings'
+import { CrossSeasonView } from './views/cross-season'
 import { MyEnsembleView } from './views/my-ensemble'
 import { Loading, ErrorMessage } from './components/loading'
 
 export function App() {
   const { route, setClassId, setView, setShowId, updateRoute } = useRoute()
   const { years, season, shows, isLoading, error } = useSeasonData(route.year)
-  const { favorite, toggleFavorite, removeFavorite } = useFavorite()
+  const { favorite, favoriteNames, toggleFavorite, removeFavorite } = useFavorite()
 
   // When year changes, reset class and show selection
   const handleYearChange = useCallback((year: number) => {
@@ -87,7 +88,7 @@ export function App() {
               classId={route.classId}
               shows={classShows}
               highlight={route.highlight}
-              favoriteName={favorite?.ensembleName ?? null}
+              favoriteNames={favoriteNames}
               onToggleFavorite={handleToggleFavorite}
             />
           )}
@@ -97,8 +98,13 @@ export function App() {
               shows={classShows}
               selectedShowId={route.showId}
               onShowChange={setShowId}
-              favoriteName={favorite?.ensembleName ?? null}
+              favoriteNames={favoriteNames}
               onToggleFavorite={handleToggleFavorite}
+            />
+          )}
+          {route.view === 'cross-season' && (
+            <CrossSeasonView
+              initialEnsemble={favorite?.ensembleName ?? route.highlight}
             />
           )}
         </>

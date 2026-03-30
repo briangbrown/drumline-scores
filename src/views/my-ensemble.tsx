@@ -1,7 +1,8 @@
-import { useMemo } from 'react'
+import { useMemo, useState, useEffect } from 'react'
 import { Panel } from '../components/panel'
 import { StarButton } from '../components/star-button'
-import type { ShowData } from '../types'
+import { loadEnsembleRegistry } from '../data'
+import type { ShowData, EnsembleRegistry, EnsembleEntry } from '../types'
 import type { FavoriteEnsemble } from '../favorites'
 
 type MyEnsembleViewProps = {
@@ -17,20 +18,52 @@ export function MyEnsembleView({
   onRemoveFavorite,
   onViewClass,
 }: MyEnsembleViewProps) {
-  const { latestResult, seasonScores, nearbyEnsembles } = useMemo(() => {
-    // Find all appearances of this ensemble across shows
+  const [registry, setRegistry] = useState<EnsembleRegistry | null>(null)
+
+  useEffect(() => {
+    loadEnsembleRegistry().then(setRegistry)
+  }, [])
+
+  // Resolve the favorited name to a registry entry and get all name variants
+  const { entry, nameVariants } = useMemo(() => {
+    if (!registry) return { entry: null, nameVariants: new Set<string>() }
+
+    let found: EnsembleEntry | null = null
+    for (const e of registry.ensembles) {
+      if (e.canonicalName === favorite.ensembleName || e.aliases.includes(favorite.ensembleName)) {
+        found = e
+        break
+      }
+    }
+
+    const variants = new Set<string>()
+    if (found) {
+      variants.add(found.canonicalName)
+      for (const a of found.aliases) variants.add(a)
+    } else {
+      variants.add(favorite.ensembleName)
+    }
+
+    return { entry: found, nameVariants: variants }
+  }, [registry, favorite.ensembleName])
+
+  const displayName = entry?.canonicalName ?? favorite.ensembleName
+
+  const { latestResult, seasonScores, nearbyEnsembles, latestClassId } = useMemo(() => {
+    // Find all appearances of this ensemble across shows (any class)
     const appearances: Array<{
       showDate: string
       showName: string
       total: number
       rank: number
       classSize: number
+      classId: string
+      className: string
     }> = []
 
     for (const show of shows) {
       for (const cls of show.classes) {
-        if (cls.classDef.id !== favorite.classId) continue
-        const ensemble = cls.ensembles.find((e) => e.ensembleName === favorite.ensembleName)
+        const ensemble = cls.ensembles.find((e) => nameVariants.has(e.ensembleName))
         if (ensemble) {
           appearances.push({
             showDate: show.metadata.date,
@@ -38,6 +71,8 @@ export function MyEnsembleView({
             total: ensemble.total,
             rank: ensemble.rank,
             classSize: cls.ensembles.length,
+            classId: cls.classDef.id,
+            className: cls.classDef.name,
           })
         }
       }
@@ -49,10 +84,10 @@ export function MyEnsembleView({
     let nearby: Array<{ name: string; total: number; rank: number }> = []
     if (latest) {
       const latestShow = shows[shows.length - 1]
-      const cls = latestShow?.classes.find((c) => c.classDef.id === favorite.classId)
+      const cls = latestShow?.classes.find((c) => c.classDef.id === latest.classId)
       if (cls) {
         const sorted = [...cls.ensembles].sort((a, b) => a.rank - b.rank)
-        const idx = sorted.findIndex((e) => e.ensembleName === favorite.ensembleName)
+        const idx = sorted.findIndex((e) => nameVariants.has(e.ensembleName))
         if (idx >= 0) {
           const start = Math.max(0, idx - 1)
           const end = Math.min(sorted.length, idx + 2)
@@ -69,8 +104,9 @@ export function MyEnsembleView({
       latestResult: latest,
       seasonScores: appearances,
       nearbyEnsembles: nearby,
+      latestClassId: latest?.classId ?? favorite.classId,
     }
-  }, [shows, favorite])
+  }, [shows, favorite.classId, nameVariants])
 
   const growth = seasonScores.length > 1
     ? seasonScores[seasonScores.length - 1].total - seasonScores[0].total
@@ -82,12 +118,14 @@ export function MyEnsembleView({
       <div className="flex items-start justify-between">
         <div>
           <div className="flex items-center gap-2">
-            <h2 className="text-lg font-bold">{favorite.ensembleName}</h2>
+            <h2 className="text-lg font-bold">{displayName}</h2>
             <StarButton isFavorited onClick={onRemoveFavorite} size="md" />
           </div>
-          <p className="text-xs text-text-muted mt-1">
-            {favorite.classId.replace(/^percussion-/i, '').replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}
-          </p>
+          {latestResult && (
+            <p className="text-xs text-text-muted mt-1">
+              {latestResult.className.replace(/^Percussion\s+/i, '')}
+            </p>
+          )}
         </div>
       </div>
 
@@ -159,7 +197,7 @@ export function MyEnsembleView({
               <div
                 key={e.name}
                 className={`flex items-center justify-between text-sm ${
-                  e.name === favorite.ensembleName ? 'text-accent font-medium' : ''
+                  nameVariants.has(e.name) ? 'text-accent font-medium' : ''
                 }`}
               >
                 <span className="truncate max-w-[200px]">
@@ -174,7 +212,7 @@ export function MyEnsembleView({
 
       {/* Link to full class view */}
       <button
-        onClick={() => onViewClass(favorite.classId)}
+        onClick={() => onViewClass(latestClassId)}
         className="w-full rounded-lg border border-border bg-surface p-3 text-center text-sm text-text-secondary hover:text-accent hover:border-accent/50 transition-colors cursor-pointer"
       >
         View full class standings
@@ -183,7 +221,7 @@ export function MyEnsembleView({
       {/* No data state */}
       {!latestResult && (
         <div className="py-8 text-center text-text-muted">
-          <p>No scores found for {favorite.ensembleName}</p>
+          <p>No scores found for {displayName}</p>
           <p className="text-xs mt-1">This ensemble may not have competed this season</p>
         </div>
       )}

@@ -44,10 +44,15 @@ drumline-scores/
 │   │   └── loading.tsx         # Loading spinner + error message
 │   ├── views/                  # Page-level view components
 │   │   ├── progression.tsx     # Score trends across shows (line chart + summary table)
-│   │   └── standings.tsx       # Single-show rankings (cards, bar charts, caption table)
+│   │   ├── standings.tsx       # Single-show rankings (cards, bar charts, caption table)
+│   │   ├── recap.tsx           # Judge-level score breakdown (expandable from standings)
+│   │   ├── cross-season.tsx    # Multi-year ensemble trajectory comparison
+│   │   └── my-ensemble.tsx     # Personalized favorite ensemble landing page
 │   └── hooks/                  # Custom React hooks
 │       ├── use-route.ts        # Syncs RouteState ↔ window.location.hash
-│       └── use-season-data.ts  # Loads season + show data with loading/error states
+│       ├── use-season-data.ts  # Loads season + show data with loading/error states
+│       ├── use-cross-season.ts # Loads final show from each season for cross-year comparison
+│       └── use-favorite.ts     # Reactive localStorage-backed favorite ensemble
 │
 ├── docs/
 │   ├── ARCHITECTURE.md         # ← This file
@@ -103,6 +108,7 @@ The import CLI reads from `data/scores/` and writes to `public/data/`. Vite serv
 | `ensemble-registry.ts` | Ensemble name matching (exact → alias → fuzzy), location normalization ("City, ST" format) |
 | `import.ts` | CLI script — orchestrates parse → match → write JSON. Not bundled in client. |
 | `data.ts` | Client-side data loading via `fetch()` with in-memory caching |
+| `favorites.ts` | localStorage-backed favorite ensemble persistence |
 | `router.ts` | Hash-based URL routing — `parseRoute()` / `buildRoute()` / `navigate()` |
 
 ### UI Layer (React)
@@ -111,10 +117,13 @@ The import CLI reads from `data/scores/` and writes to `public/data/`. Vite serv
 |---|---|
 | `app.tsx` | Root component — connects router, data loading, and view dispatch |
 | `layout.tsx` | App shell — header, year/class/view selectors |
-| `views/progression.tsx` | Line chart (recharts) + season summary table |
-| `views/standings.tsx` | Score cards, comparison bars, caption breakdown, caption table |
-| `components/` | Reusable primitives: `Pill`, `Panel`, `ChartTooltip`, `Loading`/`ErrorMessage` |
-| `hooks/` | `useRoute` (hash ↔ state sync), `useSeasonData` (data fetching) |
+| `views/progression.tsx` | Line chart (recharts) + caption toggles + season summary table + penalties |
+| `views/standings.tsx` | Score cards, comparison bars, caption breakdown, caption table, expandable recap |
+| `views/recap.tsx` | Full judge-level score breakdown with per-caption ranks |
+| `views/cross-season.tsx` | Multi-year ensemble trajectory (line chart + year-by-year table) |
+| `views/my-ensemble.tsx` | Personalized landing for favorited ensemble |
+| `components/` | Reusable primitives: `Pill`, `Panel`, `ChartTooltip`, `StarButton`, `Loading`/`ErrorMessage` |
+| `hooks/` | `useRoute`, `useSeasonData`, `useCrossSeason`, `useFavorite` |
 
 ---
 
@@ -130,7 +139,7 @@ Hash-based routing for static-site compatibility:
 |---|---|---|
 | `year` | `2025` | Latest available year |
 | `classId` | `percussion-scholastic-a` | First class in season |
-| `view` | `progression` or `standings` | `progression` |
+| `view` | `progression`, `standings`, or `cross-season` | `progression` |
 | `show` (query) | `2025-rmpa-state-championships-march-29` | Latest show |
 | `highlight` (query) | `longmont-high-school` | None |
 

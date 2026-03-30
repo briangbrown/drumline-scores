@@ -32,11 +32,11 @@ type ProgressionViewProps = {
   classId: string
   shows: Array<ShowWithClass>
   highlight: string | null
-  favoriteName: string | null
+  favoriteNames: Set<string>
   onToggleFavorite: (ensembleName: string) => void
 }
 
-export function ProgressionView({ shows, highlight, favoriteName, onToggleFavorite }: ProgressionViewProps) {
+export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavorite }: ProgressionViewProps) {
   const [selectedCaption, setSelectedCaption] = useState(TOTAL_KEY)
 
   // Discover available caption names from the data
@@ -224,7 +224,7 @@ export function ProgressionView({ shows, highlight, favoriteName, onToggleFavori
                   <td className="py-2 pr-4">
                     <span className="flex items-center gap-2">
                       <StarButton
-                        isFavorited={row.name === favoriteName}
+                        isFavorited={favoriteNames.has(row.name)}
                         onClick={() => onToggleFavorite(row.name)}
                       />
                       <span

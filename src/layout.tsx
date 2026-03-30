@@ -89,6 +89,11 @@ export function Layout({
               isActive={view === 'standings'}
               onClick={() => onViewChange('standings')}
             />
+            <Pill
+              label="Cross-Season"
+              isActive={view === 'cross-season'}
+              onClick={() => onViewChange('cross-season')}
+            />
           </div>
         )}
 
