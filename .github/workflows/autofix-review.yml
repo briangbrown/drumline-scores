@@ -1,0 +1,80 @@
+name: Claude Code Review Responder
+
+on:
+  pull_request_review:
+    types: [submitted]
+
+jobs:
+  incorporate-feedback:
+    # Only respond to reviews on autofix branches that request changes or leave comments.
+    # Ignore approvals and ignore the bot's own reviews to prevent feedback loops.
+    if: >
+      startsWith(github.event.pull_request.head.ref, 'fix-bug-') &&
+      github.event.review.state != 'approved' &&
+      github.event.review.user.login != 'github-actions[bot]'
+    concurrency:
+      group: autofix-review-${{ github.event.pull_request.number }}
+      cancel-in-progress: true
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: read
+      id-token: write
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Determine Claude model
+        id: model
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Extract issue number from branch name (fix-bug-N)
+          ISSUE_NUM=$(echo "${{ github.event.pull_request.head.ref }}" | sed 's/fix-bug-//')
+          LABELS=$(gh issue view "$ISSUE_NUM" --json labels --jq '.labels[].name' 2>/dev/null || echo "")
+          if echo "$LABELS" | grep -q '^model-opus$'; then
+            echo "flag=--model claude-opus-4-6" >> "$GITHUB_OUTPUT"
+          elif echo "$LABELS" | grep -q '^model-haiku$'; then
+            echo "flag=--model claude-haiku-4-5" >> "$GITHUB_OUTPUT"
+          else
+            echo "flag=--model claude-sonnet-4-6" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Incorporate review feedback
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          claude_args: "--dangerously-skip-permissions ${{ steps.model.outputs.flag }}"
+          prompt: |
+            PR #${{ github.event.pull_request.number }} on branch '${{ github.event.pull_request.head.ref }}' has received a review.
+
+            Fetch the full review details — including all inline comments — by running:
+              gh api repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/reviews/${{ github.event.review.id }}/comments
+
+            And fetch the overall review summary with:
+              gh pr view ${{ github.event.pull_request.number }} --comments
+
+            Incorporate all the feedback into the code on the current branch. Follow the style guidelines and architectural conventions in CLAUDE.md. When done, run 'npm test && npm run build' to verify, then commit the changes with a message summarising the review feedback addressed, and push to '${{ github.event.pull_request.head.ref }}'.
+
+      - name: Re-request review from original reviewer
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api \
+            --method POST \
+            repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/requested_reviewers \
+            --field "reviewers[]=${{ github.event.review.user.login }}"
