@@ -1,0 +1,33 @@
+{
+  "name": "Drumline Scores Environment",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "runArgs": ["--sysctl", "net.ipv6.conf.all.disable_ipv6=1"],
+  "containerEnv": {
+    "ANTHROPIC_API_KEY": "${localEnv:ANTHROPIC_API_KEY}",
+    "GH_TOKEN": "${localEnv:GH_TOKEN}"
+  },
+  "remoteUser": "node",
+  "postCreateCommand": {
+    "ssh-setup": "mkdir -p ~/.ssh && chmod 700 ~/.ssh && ssh-keyscan github.com >> ~/.ssh/known_hosts",
+    "git-https": "if [ -z \"$CODESPACES\" ]; then git config --global url.'https://github.com/'.insteadOf 'git@github.com:'; fi",
+    "claude-code": "npm install -g @anthropic-ai/claude-code",
+    "npm-install": "npm install",
+    "git-identity": "GH_USER=$(gh api /user --jq '.login' 2>/dev/null) && gh_name=$(gh api /user --jq '.name // empty' 2>/dev/null) && git config --global user.name \"${gh_name:-$GH_USER}\" && git config --global user.email \"${GH_USER}@users.noreply.github.com\""
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "terminal.integrated.defaultProfile.linux": "zsh"
+      },
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "anthropic.claude-code"
+      ]
+    }
+  }
+}
