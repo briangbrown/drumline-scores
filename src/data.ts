@@ -96,6 +96,16 @@ export async function loadFinalShowPerSeason(): Promise<Array<ShowData>> {
 }
 
 /**
+ * Clear all in-memory caches. Call when coming back online to force refetch.
+ */
+export function clearCache(): void {
+  cache.seasons.clear()
+  cache.shows.clear()
+  cache.registry = null
+  cache.years = null
+}
+
+/**
  * Load the list of available seasons from the years manifest.
  */
 export async function loadAvailableYears(): Promise<Array<number>> {
