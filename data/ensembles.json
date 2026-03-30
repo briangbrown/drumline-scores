@@ -1,0 +1,268 @@
+{
+  "ensembles": [
+    {
+      "id": "academy-school-district",
+      "canonicalName": "Academy School District",
+      "shortName": "Academy School District",
+      "aliases": [],
+      "city": "Colorado Springs",
+      "state": "CO"
+    },
+    {
+      "id": "arvada-high-school",
+      "canonicalName": "Arvada High School",
+      "shortName": "Arvada",
+      "aliases": [],
+      "city": "Arvada",
+      "state": "CO"
+    },
+    {
+      "id": "bear-creek-high-school-percussion-ensemble",
+      "canonicalName": "Bear Creek High School Percussion Ensemble",
+      "shortName": "Bear Creek",
+      "aliases": [],
+      "city": "Lakewood",
+      "state": "CO"
+    },
+    {
+      "id": "bko",
+      "canonicalName": "BKO",
+      "shortName": "BKO",
+      "aliases": [],
+      "city": "Denver",
+      "state": "CO"
+    },
+    {
+      "id": "blue-knights-percussion-ensemble",
+      "canonicalName": "Blue Knights Percussion Ensemble",
+      "shortName": "Blue Knights",
+      "aliases": [],
+      "city": "Denver",
+      "state": "CO"
+    },
+    {
+      "id": "broomfield-high-school",
+      "canonicalName": "Broomfield High School",
+      "shortName": "Broomfield",
+      "aliases": [],
+      "city": "Broomfield",
+      "state": "CO"
+    },
+    {
+      "id": "castle-view-high-school-percussion-ensemble",
+      "canonicalName": "Castle View High School Percussion Ensemble",
+      "shortName": "Castle View",
+      "aliases": [],
+      "city": "Castle Rock",
+      "state": "CO"
+    },
+    {
+      "id": "centaurus-winter-percussion-ensemble",
+      "canonicalName": "Centaurus Winter Percussion Ensemble",
+      "shortName": "Centaurus Ensemble",
+      "aliases": [],
+      "city": "Lafayette",
+      "state": "CO"
+    },
+    {
+      "id": "chaparral-high-school",
+      "canonicalName": "Chaparral High School",
+      "shortName": "Chaparral",
+      "aliases": [],
+      "city": "Parker",
+      "state": "CO"
+    },
+    {
+      "id": "columbine-high-school",
+      "canonicalName": "Columbine High School",
+      "shortName": "Columbine",
+      "aliases": [],
+      "city": "Littleton",
+      "state": "CO"
+    },
+    {
+      "id": "conifer-hs-lobo-percussion",
+      "canonicalName": "Conifer HS Lobo Percussion",
+      "shortName": "Conifer Lobo",
+      "aliases": [],
+      "city": "Conifer",
+      "state": "CO"
+    },
+    {
+      "id": "district-49-indoor-percussion",
+      "canonicalName": "District 49 Indoor Percussion",
+      "shortName": "District 49",
+      "aliases": [],
+      "city": "Colorado Springs",
+      "state": "CO"
+    },
+    {
+      "id": "englewood-high-school-percussion-ensemble",
+      "canonicalName": "Englewood High School Percussion Ensemble",
+      "shortName": "Englewood",
+      "aliases": [],
+      "city": "Englewood",
+      "state": "CO"
+    },
+    {
+      "id": "evergreen-high-school",
+      "canonicalName": "Evergreen High School",
+      "shortName": "Evergreen",
+      "aliases": [],
+      "city": "Evergreen",
+      "state": "CO"
+    },
+    {
+      "id": "fossil-ridge-high-school",
+      "canonicalName": "Fossil Ridge High School",
+      "shortName": "Fossil Ridge",
+      "aliases": [],
+      "city": "Fort Collins",
+      "state": "CO"
+    },
+    {
+      "id": "frederick-high-school",
+      "canonicalName": "Frederick High School",
+      "shortName": "Frederick",
+      "aliases": [],
+      "city": "Frederick",
+      "state": "CO"
+    },
+    {
+      "id": "heritage-indoor-percussion",
+      "canonicalName": "Heritage Indoor Percussion",
+      "shortName": "Heritage",
+      "aliases": [],
+      "city": "Littleton",
+      "state": "CO"
+    },
+    {
+      "id": "highlands-ranch-falcon-percussion-ensemble",
+      "canonicalName": "Highlands Ranch Falcon Percussion Ensemble",
+      "shortName": "Highlands Ranch Falcon",
+      "aliases": [],
+      "city": "Highlands Ranch",
+      "state": "CO"
+    },
+    {
+      "id": "lakewood-winter-percussion",
+      "canonicalName": "Lakewood Winter Percussion",
+      "shortName": "Lakewood",
+      "aliases": [],
+      "city": "Lakewood",
+      "state": ""
+    },
+    {
+      "id": "legacy-winter-percussion",
+      "canonicalName": "Legacy Winter Percussion",
+      "shortName": "Legacy",
+      "aliases": [],
+      "city": "Broomfield",
+      "state": ""
+    },
+    {
+      "id": "longmont-winter-percussion",
+      "canonicalName": "Longmont Winter Percussion",
+      "shortName": "Longmont",
+      "aliases": [],
+      "city": "Longmont",
+      "state": "CO"
+    },
+    {
+      "id": "loveland-indoor-percussion",
+      "canonicalName": "Loveland Indoor Percussion",
+      "shortName": "Loveland",
+      "aliases": [],
+      "city": "Loveland",
+      "state": "CO"
+    },
+    {
+      "id": "monarch-indoor-percussion",
+      "canonicalName": "Monarch Indoor Percussion",
+      "shortName": "Monarch",
+      "aliases": [],
+      "city": "Louisville",
+      "state": "CO"
+    },
+    {
+      "id": "mountain-range-high-school",
+      "canonicalName": "Mountain Range High School",
+      "shortName": "Mountain Range",
+      "aliases": [],
+      "city": "Westminster",
+      "state": "CO"
+    },
+    {
+      "id": "mountain-vista-winter-percussion",
+      "canonicalName": "Mountain Vista Winter Percussion",
+      "shortName": "Mountain Vista",
+      "aliases": [],
+      "city": "Highlands Ranch",
+      "state": ""
+    },
+    {
+      "id": "prairie-view-high-school-winter-percussion",
+      "canonicalName": "Prairie View High School Winter Percussion",
+      "shortName": "Prairie View",
+      "aliases": [],
+      "city": "Henderson",
+      "state": "CO"
+    },
+    {
+      "id": "rise-percussion",
+      "canonicalName": "Rise Percussion",
+      "shortName": "Rise",
+      "aliases": [],
+      "city": "Denver",
+      "state": "CO"
+    },
+    {
+      "id": "sand-creek-winter-percussions",
+      "canonicalName": "Sand Creek Winter Percussions",
+      "shortName": "Sand Creek Winter Percussions",
+      "aliases": [],
+      "city": "Colorado Springs",
+      "state": "CO"
+    },
+    {
+      "id": "standley-lake-high-school",
+      "canonicalName": "Standley Lake High School",
+      "shortName": "Standley Lake",
+      "aliases": [],
+      "city": "Westminster",
+      "state": "CO"
+    },
+    {
+      "id": "trojan-percussion-ensemble",
+      "canonicalName": "Trojan Percussion Ensemble",
+      "shortName": "Trojan",
+      "aliases": [],
+      "city": "Fountain",
+      "state": "CO"
+    },
+    {
+      "id": "widefield-hs-winter-percussion",
+      "canonicalName": "Widefield HS Winter Percussion",
+      "shortName": "Widefield",
+      "aliases": [],
+      "city": "Widefield High School",
+      "state": ""
+    },
+    {
+      "id": "william-j-palmer-high-school",
+      "canonicalName": "William J Palmer High School",
+      "shortName": "William J Palmer",
+      "aliases": [],
+      "city": "Colorado Springs",
+      "state": "CO"
+    },
+    {
+      "id": "windsor-percussion-ensemble",
+      "canonicalName": "Windsor Percussion Ensemble",
+      "shortName": "Windsor",
+      "aliases": [],
+      "city": "Windsor",
+      "state": "CO"
+    }
+  ]
+}
