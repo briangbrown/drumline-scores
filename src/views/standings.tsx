@@ -12,6 +12,7 @@ import {
 import { Pill } from '../components/pill'
 import { Panel } from '../components/panel'
 import { ChartTooltip } from '../components/chart-tooltip'
+import { StarButton } from '../components/star-button'
 import type { ShowMetadata, ClassResult, EnsembleScore } from '../types'
 
 // Caption colors from the design system
@@ -27,12 +28,16 @@ type StandingsViewProps = {
   shows: Array<ShowWithClass>
   selectedShowId: string | null
   onShowChange: (showId: string) => void
+  favoriteName: string | null
+  onToggleFavorite: (ensembleName: string) => void
 }
 
 export function StandingsView({
   shows,
   selectedShowId,
   onShowChange,
+  favoriteName,
+  onToggleFavorite,
 }: StandingsViewProps) {
   const selectedShow = shows.find((s) => s.metadata.id === selectedShowId)
   const ensembles = selectedShow?.classResult?.ensembles ?? []
@@ -99,7 +104,12 @@ export function StandingsView({
           {/* Score Cards */}
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {ensembles.map((e) => (
-              <ScoreCard key={e.ensembleName} ensemble={e} />
+              <ScoreCard
+                key={e.ensembleName}
+                ensemble={e}
+                isFavorited={e.ensembleName === favoriteName}
+                onToggleFavorite={() => onToggleFavorite(e.ensembleName)}
+              />
             ))}
           </div>
 
@@ -253,12 +263,23 @@ export function StandingsView({
   )
 }
 
-function ScoreCard({ ensemble }: { ensemble: EnsembleScore }) {
+function ScoreCard({
+  ensemble,
+  isFavorited,
+  onToggleFavorite,
+}: {
+  ensemble: EnsembleScore
+  isFavorited: boolean
+  onToggleFavorite: () => void
+}) {
   return (
-    <div className="rounded-lg border border-border bg-surface p-4">
+    <div className={`rounded-lg border bg-surface p-4 ${isFavorited ? 'border-accent/50' : 'border-border'}`}>
       <div className="flex items-start justify-between">
         <div className="min-w-0 flex-1">
-          <p className="text-xs text-accent font-medium">#{ensemble.rank}</p>
+          <div className="flex items-center gap-1.5">
+            <p className="text-xs text-accent font-medium">#{ensemble.rank}</p>
+            <StarButton isFavorited={isFavorited} onClick={onToggleFavorite} />
+          </div>
           <p className="mt-1 text-sm font-medium truncate">{ensemble.ensembleName}</p>
           {ensemble.location && (
             <p className="text-xs text-text-muted truncate">{ensemble.location}</p>

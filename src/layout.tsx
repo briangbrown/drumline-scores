@@ -2,6 +2,7 @@ import type { ReactNode } from 'react'
 import { Pill } from './components/pill'
 import type { SeasonMetadata } from './types'
 import type { ViewType } from './router'
+import type { FavoriteEnsemble } from './favorites'
 
 type LayoutProps = {
   year: number
@@ -12,6 +13,8 @@ type LayoutProps = {
   onYearChange: (year: number) => void
   onClassChange: (classId: string) => void
   onViewChange: (view: ViewType) => void
+  favorite: FavoriteEnsemble | null
+  onShowMyEnsemble: () => void
   children: ReactNode
 }
 
@@ -24,6 +27,8 @@ export function Layout({
   onYearChange,
   onClassChange,
   onViewChange,
+  favorite,
+  onShowMyEnsemble,
   children,
 }: LayoutProps) {
   const classes = season?.classes ?? []
@@ -53,6 +58,13 @@ export function Layout({
         {/* Class selector */}
         {classes.length > 0 && (
           <div className="mt-3 flex gap-2 overflow-x-auto pb-1 scrollbar-none">
+            {favorite && (
+              <Pill
+                label={`\u2605 My Ensemble`}
+                isActive={!classId}
+                onClick={onShowMyEnsemble}
+              />
+            )}
             {classes.map((cls) => (
               <Pill
                 key={cls.id}

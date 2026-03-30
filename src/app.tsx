@@ -2,25 +2,38 @@ import { useEffect, useCallback } from 'react'
 import { Layout } from './layout'
 import { useRoute } from './hooks/use-route'
 import { useSeasonData } from './hooks/use-season-data'
+import { useFavorite } from './hooks/use-favorite'
 import { ProgressionView } from './views/progression'
 import { StandingsView } from './views/standings'
+import { MyEnsembleView } from './views/my-ensemble'
 import { Loading, ErrorMessage } from './components/loading'
 
 export function App() {
   const { route, setClassId, setView, setShowId, updateRoute } = useRoute()
   const { years, season, shows, isLoading, error } = useSeasonData(route.year)
+  const { favorite, toggleFavorite, removeFavorite } = useFavorite()
 
   // When year changes, reset class and show selection
   const handleYearChange = useCallback((year: number) => {
     updateRoute({ year, classId: '', showId: null })
   }, [updateRoute])
 
-  // Auto-select first class if none selected
+  // Auto-select first class if none selected (and no favorite to show)
   useEffect(() => {
-    if (season && !route.classId && season.classes.length > 0) {
+    if (season && !route.classId && season.classes.length > 0 && !favorite) {
       setClassId(season.classes[0].id)
     }
-  }, [season, route.classId, setClassId])
+  }, [season, route.classId, setClassId, favorite])
+
+  // Navigate to class view from My Ensemble
+  const handleViewClass = useCallback((classId: string) => {
+    updateRoute({ classId, view: 'standings' })
+  }, [updateRoute])
+
+  // Toggle favorite from standings view
+  const handleToggleFavorite = useCallback((ensembleName: string) => {
+    toggleFavorite(ensembleName, route.classId)
+  }, [toggleFavorite, route.classId])
 
   // Get shows filtered to the selected class
   const classShows = shows
@@ -37,6 +50,9 @@ export function App() {
     }
   }, [route.view, route.showId, classShows, setShowId])
 
+  // Show My Ensemble view when favorite is set and no class is selected
+  const isShowingMyEnsemble = !isLoading && !error && !route.classId && favorite !== null
+
   return (
     <Layout
       year={route.year}
@@ -47,9 +63,23 @@ export function App() {
       onYearChange={handleYearChange}
       onClassChange={setClassId}
       onViewChange={setView}
+      favorite={favorite}
+      onShowMyEnsemble={() => updateRoute({ classId: '' })}
     >
       {isLoading && <Loading />}
       {error && <ErrorMessage message={error} />}
+
+      {/* My Ensemble view */}
+      {isShowingMyEnsemble && (
+        <MyEnsembleView
+          favorite={favorite}
+          shows={shows}
+          onRemoveFavorite={removeFavorite}
+          onViewClass={handleViewClass}
+        />
+      )}
+
+      {/* Class views */}
       {!isLoading && !error && route.classId && (
         <>
           {route.view === 'progression' && (
@@ -65,13 +95,20 @@ export function App() {
               shows={classShows}
               selectedShowId={route.showId}
               onShowChange={setShowId}
+              favoriteName={favorite?.ensembleName ?? null}
+              onToggleFavorite={handleToggleFavorite}
             />
           )}
         </>
       )}
-      {!isLoading && !error && !route.classId && season && (
+
+      {/* No favorite, no class selected */}
+      {!isLoading && !error && !route.classId && !favorite && season && (
         <div className="py-12 text-center text-text-muted">
-          Select a class above to view scores
+          <p>Select a class above to view scores</p>
+          <p className="mt-2 text-xs">
+            Tip: tap &#9734; on any ensemble to set it as your default view
+          </p>
         </div>
       )}
     </Layout>
