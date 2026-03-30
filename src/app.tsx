@@ -8,6 +8,8 @@ import { StandingsView } from './views/standings'
 import { CrossSeasonView } from './views/cross-season'
 import { MyEnsembleView } from './views/my-ensemble'
 import { Loading, ErrorMessage } from './components/loading'
+import { InstallBanner } from './components/install-banner'
+import { OfflineIndicator } from './components/offline-indicator'
 
 export function App() {
   const { route, setClassId, setView, setShowId, updateRoute } = useRoute()
@@ -55,6 +57,9 @@ export function App() {
   const isShowingMyEnsemble = !isLoading && !error && !route.classId && favorite !== null
 
   return (
+    <>
+    <InstallBanner />
+    <OfflineIndicator />
     <Layout
       year={route.year}
       years={years}
@@ -120,5 +125,6 @@ export function App() {
         </div>
       )}
     </Layout>
+    </>
   )
 }

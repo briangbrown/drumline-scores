@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react'
-import { loadSeasonMetadata, loadAllShowsForSeason, loadAvailableYears } from '../data'
+import { useState, useEffect, useCallback } from 'react'
+import { loadSeasonMetadata, loadAllShowsForSeason, loadAvailableYears, clearCache } from '../data'
 import type { SeasonMetadata, ShowData } from '../types'
 
 type SeasonDataState = {
@@ -12,6 +12,7 @@ type SeasonDataState = {
 
 /**
  * Hook to load available years, season metadata, and all show data for a year.
+ * Automatically refetches when coming back online.
  */
 export function useSeasonData(year: number): SeasonDataState {
   const [state, setState] = useState<SeasonDataState>({
@@ -22,14 +23,31 @@ export function useSeasonData(year: number): SeasonDataState {
     error: null,
   })
 
-  // Load available years once
+  // Track a reload counter to force refetch
+  const [reloadKey, setReloadKey] = useState(0)
+
+  // Refetch when coming back online
   useEffect(() => {
+    const handleOnline = () => {
+      clearCache()
+      setReloadKey((k) => k + 1)
+    }
+    window.addEventListener('online', handleOnline)
+    return () => window.removeEventListener('online', handleOnline)
+  }, [])
+
+  // Load available years
+  const loadYears = useCallback(() => {
     loadAvailableYears().then((years) => {
       setState((prev) => ({ ...prev, years }))
     })
   }, [])
 
-  // Load season data when year changes
+  useEffect(() => {
+    loadYears()
+  }, [loadYears, reloadKey])
+
+  // Load season data when year or reloadKey changes
   useEffect(() => {
     let cancelled = false
 
@@ -54,7 +72,7 @@ export function useSeasonData(year: number): SeasonDataState {
     return () => {
       cancelled = true
     }
-  }, [year])
+  }, [year, reloadKey])
 
   return state
 }
