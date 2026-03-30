@@ -11,6 +11,7 @@ import {
 } from 'recharts'
 import { Panel } from '../components/panel'
 import { ChartTooltip } from '../components/chart-tooltip'
+import { StarButton } from '../components/star-button'
 import type { ShowMetadata, ClassResult } from '../types'
 
 // 12-color palette from the prototype
@@ -28,9 +29,11 @@ type ProgressionViewProps = {
   classId: string
   shows: Array<ShowWithClass>
   highlight: string | null
+  favoriteName: string | null
+  onToggleFavorite: (ensembleName: string) => void
 }
 
-export function ProgressionView({ shows, highlight }: ProgressionViewProps) {
+export function ProgressionView({ shows, highlight, favoriteName, onToggleFavorite }: ProgressionViewProps) {
   // Build chart data: each data point is a show, with a key per ensemble
   const { chartData, ensembleNames, colorMap } = useMemo(() => {
     const names = new Set<string>()
@@ -153,11 +156,15 @@ export function ProgressionView({ shows, highlight }: ProgressionViewProps) {
                 >
                   <td className="py-2 pr-4">
                     <span className="flex items-center gap-2">
+                      <StarButton
+                        isFavorited={row.name === favoriteName}
+                        onClick={() => onToggleFavorite(row.name)}
+                      />
                       <span
-                        className="inline-block h-2 w-2 rounded-full"
+                        className="inline-block h-2 w-2 shrink-0 rounded-full"
                         style={{ backgroundColor: colorMap.get(row.name) }}
                       />
-                      <span className="truncate max-w-[200px]">{row.name}</span>
+                      <span className="truncate max-w-[150px] sm:max-w-[300px] lg:max-w-none">{row.name}</span>
                     </span>
                   </td>
                   <td className="py-2 px-2 text-right text-text-secondary">{row.showCount}</td>
