@@ -1,0 +1,927 @@
+{
+  "metadata": {
+    "id": "2021-rmpa-regular-season-show-2-march-13",
+    "eventName": "RMPA Regular Season Show #2",
+    "venue": "",
+    "date": "Saturday, March 13, 2021",
+    "round": "",
+    "year": 2021
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Wheat Ridge High School",
+          "location": "Wheat Ridge, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Merritt",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 79,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 78,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 39.25,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 41,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 80.25,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 80.25,
+          "penalty": 0,
+          "total": 80.25,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Evergreen High School",
+          "location": "Evergreen, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Merritt",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 73,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 71,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 36,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 76,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 78,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 38.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 74.5,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 74.5,
+          "penalty": 0,
+          "total": 74.5,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-standstill-a",
+        "name": "Percussion Scholastic Standstill A",
+        "classType": "standstill"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Centaurus High School",
+          "location": "Lafayette, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Merritt",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 77,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 76,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 38.25,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 79,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 40.75,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 79,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 79,
+          "penalty": 0,
+          "total": 79,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "Westminster, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Merritt",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 73,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 72,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 36.25,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 77,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 76,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 38.25,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 74.5,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 74.5,
+          "penalty": 0,
+          "total": 74.5,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Thunder Ridge High School",
+          "location": "Highlands Ranch, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Merritt",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 74,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 73,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 36.75,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 76,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 75,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 37.75,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 74.5,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 74.5,
+          "penalty": 0,
+          "total": 74.5,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Mesa Ridge High School",
+          "location": "Colorado Springs, CO",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Merritt",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 69,
+                      "rank": 5
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 68,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 34.25,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 75,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 73,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 37,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 71.25,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 71.25,
+          "penalty": 0,
+          "total": 71.25,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Highlands Ranch High School",
+          "location": "Highlands Ranch, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Merritt",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 70,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 70,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 35,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 73,
+                      "rank": 6
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 68,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 35.25,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 70.25,
+              "captionRank": 5
+            }
+          ],
+          "subTotal": 70.25,
+          "penalty": 0,
+          "total": 70.25,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Columbine High School",
+          "location": "Littleton, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Merritt",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 68,
+                      "rank": 6
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 67,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 33.75,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 74,
+                      "rank": 5
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 70,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 36,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 69.75,
+              "captionRank": 6
+            }
+          ],
+          "subTotal": 69.75,
+          "penalty": 0,
+          "total": 69.75,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Longmont High School",
+          "location": "Longmont, Colorado",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Merritt",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 78,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 47.4,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 83,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 76,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 47.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 47.55,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 78,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 76,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 30.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 78.35,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 30.8,
+          "penalty": 0,
+          "total": 78.35,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Standley Lake High School",
+          "location": "Westminster, Colorado",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Merritt",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 67,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 66,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 39.9,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 74,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 69,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 42.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 41.4,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 62,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 60,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 24.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 65.8,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 24.4,
+          "penalty": 0,
+          "total": 65.8,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-open",
+        "name": "Percussion Scholastic Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Great Oak High School",
+          "location": "Temecula California",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Merritt",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 81,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 77,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 47.4,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 78,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 45.9,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 46.65,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 70,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 31,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 77.65,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 31,
+          "penalty": 0,
+          "total": 77.65,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Lakewood High School",
+          "location": "Lakewood, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Merritt",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 74,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 38.5,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 42.75,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 81.25,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 81.25,
+          "penalty": 0,
+          "total": 81.25,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Monarch High School",
+          "location": "Louisville, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Merritt",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 76,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 38.75,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 83,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 78,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 40.25,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 79,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 79,
+          "penalty": 0,
+          "total": 79,
+          "rank": 2
+        },
+        {
+          "ensembleName": "D'Evelyn High School",
+          "location": "Lakewood, CO",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Merritt",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 69,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 68,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 34.25,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 77,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 71,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 37,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 71.25,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 71.25,
+          "penalty": 0,
+          "total": 71.25,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Blue Knights Percussion Ensemble",
+          "location": "Denver, Colorado",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Merritt",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 73,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 44.7,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 81,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 49.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 47.25,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 74,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 72,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 29.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 76.45,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 29.2,
+          "penalty": 0,
+          "total": 76.45,
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}

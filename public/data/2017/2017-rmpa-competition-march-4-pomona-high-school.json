@@ -1,0 +1,1380 @@
+{
+  "metadata": {
+    "id": "2017-rmpa-competition-march-4-pomona-high-school",
+    "eventName": "RMPA Competition",
+    "venue": "Pomona High School",
+    "date": "Saturday, March 4, 2017 - Pomona High School",
+    "round": "",
+    "year": 2017
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Centaurus High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Mascari",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 32,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 75,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 30.45,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 72,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 65,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 13.7,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 76.15,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 76.15,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Longmont High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Mascari",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 78,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 31.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 66,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 27.15,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 69,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 67,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 13.6,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 71.95,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 71.95,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Mascari",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 74,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 72,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 29.2,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 65,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 27.05,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 75,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 68,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 14.3,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 70.55,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 70.55,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Doherty High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Mascari",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 68,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 67,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 27,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 63,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 61,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 24.7,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 61,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 56,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 11.7,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 63.4,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 63.4,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Prairie View High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Mascari",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 62,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 68,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 26,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 67,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 60,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 25.05,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 62,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 60,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 12.2,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 63.25,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 63.25,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Evergreen High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Mascari",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 63,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 61,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 24.8,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 64,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 62,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 25.1,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 60,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 59,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 11.9,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 61.8,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 61.8,
+          "rank": 6
+        },
+        {
+          "ensembleName": "Thunder Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Mascari",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 64,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 62,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 25.2,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 57,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 55,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 22.3,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 66,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 62,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 12.8,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 60.3,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 60.3,
+          "rank": 7
+        },
+        {
+          "ensembleName": "Sand Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Mascari",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 70,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 70,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 28,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 53,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 50,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 20.45,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 64,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 57,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 12.1,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 60.55,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 3.2,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -3.2,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 3.2,
+          "penalty": -3.2,
+          "total": 57.35,
+          "rank": 8
+        },
+        {
+          "ensembleName": "Standley Lake High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Mascari",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 58,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 58,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 23.2,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 51,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 52,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 20.65,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 58,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 55,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 11.3,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 55.15,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 5.15,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -5.15,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 5.15,
+          "penalty": -5.15,
+          "total": 50,
+          "rank": 9
+        },
+        {
+          "ensembleName": "Douglas County High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Mascari",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 55,
+                      "rank": 10
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 55,
+                      "rank": 10
+                    }
+                  ],
+                  "total": 22,
+                  "rank": 10
+                }
+              ],
+              "captionTotal": 50,
+              "captionRank": 10
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 47,
+                      "rank": 10
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 19.25,
+                      "rank": 10
+                    }
+                  ],
+                  "total": 57,
+                  "rank": 10
+                }
+              ],
+              "captionTotal": 54,
+              "captionRank": 10
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 11.1,
+                      "rank": 10
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 52.35,
+                      "rank": 10
+                    }
+                  ],
+                  "total": 6.1,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -6.1,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 6.1,
+          "penalty": -6.1,
+          "total": 46.25,
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85.5,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 43.25,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 82,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "T. Mascari",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 41.6,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 84.85,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0.1,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.1,
+          "penalty": -0.1,
+          "total": 84.75,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Pine Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 42.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "T. Mascari",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 38.4,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 80.8,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80.8,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Rampart High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 41.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "T. Mascari",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 40.3,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 81.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0.9,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.9,
+          "penalty": -0.9,
+          "total": 80.8,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Arapahoe High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81.5,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 41.05,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 76,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "T. Mascari",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 37.4,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 78.45,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.45,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Lakewood High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 40.2,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 77,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "T. Mascari",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 37.9,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 78.1,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.1,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Golden High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 40.7,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "T. Mascari",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 36,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 76.7,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 76.7,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-open",
+        "name": "Percussion Scholastic Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Monarch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Mascari",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 72,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 74,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 29.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 84,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 33.1,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 76,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 14.7,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 77,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 77,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-open",
+        "name": "Percussion Independent Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Altitude Percussion",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Mascari",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 70,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 72,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 28.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 83,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 32.45,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 82,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 16.2,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 77.05,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 0.1,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -0.1,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.1,
+          "penalty": -0.1,
+          "total": 76.95,
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}

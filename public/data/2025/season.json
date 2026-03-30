@@ -2,6 +2,48 @@
   "year": 2025,
   "shows": [
     {
+      "id": "2025-regular-season-show-1-february-8",
+      "eventName": "Regular Season Show #1",
+      "date": "Saturday, February 8, 2025",
+      "round": ""
+    },
+    {
+      "id": "2025-regular-season-show-2-february-15",
+      "eventName": "Regular Season Show #2",
+      "date": "Saturday, February 15, 2025",
+      "round": ""
+    },
+    {
+      "id": "2025-regular-season-show-3-february-22",
+      "eventName": "Regular Season Show #3",
+      "date": "Saturday, February 22, 2025",
+      "round": ""
+    },
+    {
+      "id": "2025-regular-season-show-4-march-1",
+      "eventName": "Regular Season Show #4",
+      "date": "Saturday, March 1, 2025",
+      "round": ""
+    },
+    {
+      "id": "2025-regular-season-show-5-march-8",
+      "eventName": "Regular Season Show #5",
+      "date": "Saturday, March 8, 2025",
+      "round": ""
+    },
+    {
+      "id": "2025-regular-season-show-6-march-22",
+      "eventName": "Regular Season Show #6",
+      "date": "Saturday, March 22, 2025",
+      "round": ""
+    },
+    {
+      "id": "2025-rmpa-state-championships-march-28",
+      "eventName": "RMPA State Championships",
+      "date": "Friday, March 28, 2025",
+      "round": "Prelims"
+    },
+    {
       "id": "2025-rmpa-state-championships-march-29",
       "eventName": "RMPA State Championships",
       "date": "Saturday, March 29, 2025",
@@ -40,18 +82,8 @@
       "classType": "marching"
     },
     {
-      "id": "percussion-scholastic-concert-open",
-      "name": "Percussion Scholastic Concert Open",
-      "classType": "concert"
-    },
-    {
       "id": "percussion-scholastic-open",
       "name": "Percussion Scholastic Open",
-      "classType": "marching"
-    },
-    {
-      "id": "percussion-scholastic-world",
-      "name": "Percussion Scholastic World",
       "classType": "marching"
     },
     {
@@ -63,6 +95,16 @@
       "id": "percussion-independent-world",
       "name": "Percussion Independent World",
       "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-world",
+      "name": "Percussion Scholastic World",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-open",
+      "name": "Percussion Scholastic Concert Open",
+      "classType": "concert"
     }
   ]
 }

@@ -1,0 +1,99 @@
+{
+  "year": 2024,
+  "shows": [
+    {
+      "id": "2024-rmpa-show-1-february-10",
+      "eventName": "RMPA Show #1",
+      "date": "Saturday, February 10, 2024",
+      "round": ""
+    },
+    {
+      "id": "2024-rmpa-show-2-february-17",
+      "eventName": "RMPA Show #2",
+      "date": "Saturday, February 17, 2024",
+      "round": ""
+    },
+    {
+      "id": "2024-rmpa-show-3-march-2",
+      "eventName": "RMPA Show #3",
+      "date": "Saturday, March 2, 2024",
+      "round": ""
+    },
+    {
+      "id": "2024-rmpa-show-4-march-16",
+      "eventName": "RMPA Show #4",
+      "date": "Saturday, March 16, 2024",
+      "round": ""
+    },
+    {
+      "id": "2024-rmpa-show-5-march-23",
+      "eventName": "RMPA Show #5",
+      "date": "Saturday, March 23, 2024",
+      "round": ""
+    },
+    {
+      "id": "2024-rmpa-championships-march-30",
+      "eventName": "RMPA Championships",
+      "date": "Saturday, March 30, 2024",
+      "round": "Prelims"
+    },
+    {
+      "id": "2024-rmpa-championships-april-13",
+      "eventName": "RMPA Championships",
+      "date": "Saturday, April 13, 2024",
+      "round": "Finals"
+    }
+  ],
+  "classes": [
+    {
+      "id": "percussion-scholastic-regional-a",
+      "name": "Percussion Scholastic Regional A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-a",
+      "name": "Percussion Scholastic Concert A",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-a",
+      "name": "Percussion Scholastic A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-open",
+      "name": "Percussion Scholastic Open",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-regional-a",
+      "name": "Percussion Scholastic Concert Regional A",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-standstill-regional-a",
+      "name": "Percussion Scholastic Standstill Regional A",
+      "classType": "standstill"
+    },
+    {
+      "id": "percussion-scholastic-standstill-a",
+      "name": "Percussion Scholastic Standstill A",
+      "classType": "standstill"
+    },
+    {
+      "id": "percussion-scholastic-concert-open",
+      "name": "Percussion Scholastic Concert Open",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-independent-open",
+      "name": "Percussion Independent Open",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-independent-world",
+      "name": "Percussion Independent World",
+      "classType": "marching"
+    }
+  ]
+}

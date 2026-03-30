@@ -1,0 +1,1650 @@
+{
+  "metadata": {
+    "id": "2018-contest-1-february-24",
+    "eventName": "Contest #1",
+    "venue": "Highlands Ranch, Colorado @ Highlands Ranch High School",
+    "date": "Saturday, February 24, 2018",
+    "round": "",
+    "year": 2018
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Wheat Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 37.1,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 38.5,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 75.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 75.6,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Ponderosa High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 35.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 37.8,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 73.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0.25,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 73.7,
+          "penalty": 0.25,
+          "total": 73.45,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Evergreen High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 35.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 76,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 37.1,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 72.5,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 72.5,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Highlands Ranch High School - A",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 63,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 62,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 31.2,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 75,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 36.6,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 67.8,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 67.8,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Golden High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 65,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 32.2,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 76.5,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 37.2,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 69.4,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 2.3,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 69.4,
+          "penalty": 2.3,
+          "total": 67.1,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Douglas County High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 62,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 31.8,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 75,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 36.3,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 68.1,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 2.1,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 68.1,
+          "penalty": 2.1,
+          "total": 66,
+          "rank": 6
+        },
+        {
+          "ensembleName": "Arvada High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 62,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 58,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 29.8,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 69,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 35.1,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 64.9,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 0.1,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 64.9,
+          "penalty": 0.1,
+          "total": 64.8,
+          "rank": 7
+        },
+        {
+          "ensembleName": "Columbine High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 64,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 61,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 31.1,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 73,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 35.6,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 66.7,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 1.9,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 66.7,
+          "penalty": 1.9,
+          "total": 64.8,
+          "rank": 7
+        },
+        {
+          "ensembleName": "Englewood High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 69,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 63,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 32.7,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 74,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 36.1,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 68.8,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 4.9,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 68.8,
+          "penalty": 4.9,
+          "total": 63.9,
+          "rank": 9
+        },
+        {
+          "ensembleName": "Rangeview High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 60,
+                      "rank": 10
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 57,
+                      "rank": 10
+                    }
+                  ],
+                  "total": 29.1,
+                  "rank": 10
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 10
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 10
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 34.6,
+                      "rank": 10
+                    }
+                  ],
+                  "total": 63.7,
+                  "rank": 10
+                }
+              ],
+              "captionTotal": 3.1,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 63.7,
+          "penalty": 3.1,
+          "total": 60.6,
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Longmont High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 23.1,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 23.7,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 76.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 75,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 15.15,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 72,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 71,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 14.3,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Gentry",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76.25,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 2.5,
+                      "rank": null
+                    }
+                  ],
+                  "total": 73.75,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 76.25,
+          "penalty": 2.5,
+          "total": 73.75,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 21.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 69,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 21,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 71,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 69,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 14,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 69,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 13.9,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Gentry",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70.3,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 1.2,
+                      "rank": null
+                    }
+                  ],
+                  "total": 69.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 70.3,
+          "penalty": 1.2,
+          "total": 69.1,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Pine Creek High School - A",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 67,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 20.5,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 67,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 19.95,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 65,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 63,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 12.8,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 61,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 60,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 12.1,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Gentry",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 65.35,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0.15,
+                      "rank": null
+                    }
+                  ],
+                  "total": 65.2,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 65.35,
+          "penalty": 0.15,
+          "total": 65.2,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Thunder Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 19.6,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 65,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 63,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 19.2,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 67,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 65,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 13.2,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 64,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 12.8,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Gentry",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 64.8,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 2.2,
+                      "rank": null
+                    }
+                  ],
+                  "total": 62.6,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 64.8,
+          "penalty": 2.2,
+          "total": 62.6,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Doherty High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 63,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 60,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 18.3,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 59,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 57,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 17.4,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 59,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 58,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 11.7,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 56,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 54,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 11,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Gentry",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 58.4,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 2,
+                      "rank": null
+                    }
+                  ],
+                  "total": 56.4,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 58.4,
+          "penalty": 2,
+          "total": 56.4,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Standley Lake High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 61,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 58,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 17.7,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 62,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 60,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 18.3,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 60,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 60,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 12,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 60,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 59,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 11.9,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Gentry",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 59.9,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 3.6,
+                      "rank": null
+                    }
+                  ],
+                  "total": 56.3,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 59.9,
+          "penalty": 3.6,
+          "total": 56.3,
+          "rank": 6
+        },
+        {
+          "ensembleName": "Prairie View High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 0,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 0,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 0,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 0,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 0,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 0,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Gentry",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 0,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 0,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 0,
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Lakewood High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 38.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 84,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 40.8,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 79.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.6,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Bear Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74.5,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 37.55,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 77,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 37.9,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 75.45,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 75.45,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Highlands Ranch High School - Open",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 37.3,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 76,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 38,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 75.3,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 75.3,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-open",
+        "name": "Percussion Independent Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Black Diamond",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 21.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 75,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 22.2,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 71,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 70,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 14.1,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 73,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 14.4,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Gentry",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72.2,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0.9,
+                      "rank": null
+                    }
+                  ],
+                  "total": 71.3,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 72.2,
+          "penalty": 0.9,
+          "total": 71.3,
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2082 @@
+{
+  "metadata": {
+    "id": "2019-rmpa-contest-2-february-23",
+    "eventName": "RMPA Contest #2",
+    "venue": "Centaurus High School",
+    "date": "Saturday, February 23, 2019",
+    "round": "",
+    "year": 2019
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Ponderosa High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 37.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 36.3,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 73.9,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 73.9,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Wheat Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 36.3,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 74,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 36.4,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 72.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 72.7,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Evergreen High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 37.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 69,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 34.9,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 72,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 72,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Eaglecrest High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 72,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 36,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 67,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 33.2,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 69.2,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 69.2,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Douglas County High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 68,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 34.6,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 70,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 34.4,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 69,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 69,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Rock Canyon High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 65,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 33.1,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 68,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 67,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 33.7,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 66.8,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 66.8,
+          "rank": 6
+        },
+        {
+          "ensembleName": "Arvada High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 33.2,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 65,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 64,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 32.2,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 65.4,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 2.15,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 65.4,
+          "penalty": 2.15,
+          "total": 63.25,
+          "rank": 7
+        },
+        {
+          "ensembleName": "Pomona High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 64,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 63,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 31.7,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 64,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 62,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 31.4,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 63.1,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 1.7,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 63.1,
+          "penalty": 1.7,
+          "total": 61.4,
+          "rank": 8
+        },
+        {
+          "ensembleName": "Columbine High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 0,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 0,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 0,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 0,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 0,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Thunder Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 22.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 73,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 21.6,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 73,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 73,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 14.6,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 67,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 68,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 13.5,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72.1,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 72.1,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 72.1,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Fairview High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 22.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 68.5,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 67,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 20.325,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 69,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 68,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 13.7,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 68,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 69,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 13.7,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70.525,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 70.525,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 70.525,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Centaurus High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 21.3,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 70,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 20.7,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 71,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 69,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 14,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 72,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 14.3,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70.3,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 70.3,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 70.3,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Monarch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 67,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 20.5,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 21.45,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 72,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 70,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 14.2,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 69,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 71,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 14,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70.15,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 70.15,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 70.15,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 21.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 69,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 65,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 20.1,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 67,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 65,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 13.2,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 66,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 13,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 67.7,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 67.7,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 67.7,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Windsor High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 69,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 21,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 66,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 69,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 20.25,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 70,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 69.5,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 13.95,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 62,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 63,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 12.5,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 67.7,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 1.95,
+                      "rank": null
+                    }
+                  ],
+                  "total": 65.75,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 67.7,
+          "penalty": 1.95,
+          "total": 65.75,
+          "rank": 6
+        },
+        {
+          "ensembleName": "Prairie View High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 63,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 19.2,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 60,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 60,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 18,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 65,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 64,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 12.9,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 63,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 64,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 12.7,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 62.8,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0.5,
+                      "rank": null
+                    }
+                  ],
+                  "total": 62.3,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 62.8,
+          "penalty": 0.5,
+          "total": 62.3,
+          "rank": 7
+        },
+        {
+          "ensembleName": "Standley Lake High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 19.6,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 62,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 61,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 18.45,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 64,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 62,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 12.6,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 62,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 61,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 12.3,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 62.95,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 1.15,
+                      "rank": null
+                    }
+                  ],
+                  "total": 61.8,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 62.95,
+          "penalty": 1.15,
+          "total": 61.8,
+          "rank": 8
+        },
+        {
+          "ensembleName": "Rampart High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 0,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 0,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 0,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 0,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 0,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 0,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 0,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 0,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 0,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Lakewood High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 40.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 39.6,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 79.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.8,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 39.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 77,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 38.2,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 77.3,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 77.3,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-open",
+        "name": "Percussion Scholastic Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Longmont High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 68,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 20.9,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 73,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 21.6,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 78,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 76,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 15.4,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 72,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 14.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72.4,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 2.25,
+                      "rank": null
+                    }
+                  ],
+                  "total": 70.15,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 72.4,
+          "penalty": 2.25,
+          "total": 70.15,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-open",
+        "name": "Percussion Independent Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Rise2",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 22.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 21.15,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 75,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 14.6,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 73,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 14.4,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72.35,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 72.35,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 72.35,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Blue Knights Percussion Ensemble",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 23.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 77,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 22.65,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 81,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 16.2,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 74,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 14.7,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77.25,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 77.25,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 77.25,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Rise Percussion",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 23.3,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 74,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 21.9,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 78,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 77,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 15.5,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 71,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 14.1,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74.8,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 74.8,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 74.8,
+          "rank": 2
+        }
+      ]
+    }
+  ]
+}

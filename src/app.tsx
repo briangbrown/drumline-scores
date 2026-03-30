@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useCallback } from 'react'
 import { Layout } from './layout'
 import { useRoute } from './hooks/use-route'
 import { useSeasonData } from './hooks/use-season-data'
@@ -7,8 +7,13 @@ import { StandingsView } from './views/standings'
 import { Loading, ErrorMessage } from './components/loading'
 
 export function App() {
-  const { route, setYear, setClassId, setView, setShowId } = useRoute()
-  const { season, shows, isLoading, error } = useSeasonData(route.year)
+  const { route, setClassId, setView, setShowId, updateRoute } = useRoute()
+  const { years, season, shows, isLoading, error } = useSeasonData(route.year)
+
+  // When year changes, reset class and show selection
+  const handleYearChange = useCallback((year: number) => {
+    updateRoute({ year, classId: '', showId: null })
+  }, [updateRoute])
 
   // Auto-select first class if none selected
   useEffect(() => {
@@ -35,10 +40,11 @@ export function App() {
   return (
     <Layout
       year={route.year}
+      years={years}
       season={season}
       classId={route.classId}
       view={route.view}
-      onYearChange={setYear}
+      onYearChange={handleYearChange}
       onClassChange={setClassId}
       onViewChange={setView}
     >

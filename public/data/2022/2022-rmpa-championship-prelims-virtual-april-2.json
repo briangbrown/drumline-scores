@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "id": "2022-rmpa-championship-prelims-virtual-april-2",
+    "eventName": "RMPA Championship Prelims - Virtual",
+    "venue": "",
+    "date": "Saturday, April 2, 2022",
+    "round": "",
+    "year": 2022
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-regional-a",
+        "name": "Percussion Scholastic Concert Regional A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Englewood High School",
+          "location": "Englewood , Colorado",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "P. Furnari",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 38.1,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "M. Davis",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 38.1,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 76.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 76.2,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-standstill-a",
+        "name": "Percussion Scholastic Standstill A",
+        "classType": "standstill"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Mesa Ridge Percussion Ensemble",
+          "location": "Colorado Springs, CO",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "P. Furnari",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 43.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 82,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "M. Davis",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 39.8,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 83.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.2,
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,819 @@
+{
+  "metadata": {
+    "id": "2021-rmpa-regular-season-show-1-march-5",
+    "eventName": "RMPA Regular Season Show #1",
+    "venue": "",
+    "date": "Friday, March 5, 2021",
+    "round": "",
+    "year": 2021
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Wheat Ridge High School",
+          "location": "Wheat Ridge, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "B. Maughmer",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 82,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 42,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 83,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 40.75,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 82.75,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 82.75,
+          "penalty": 0,
+          "total": 82.75,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Evergreen High School",
+          "location": "Evergreen, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "B. Maughmer",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 79,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 79,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 39.5,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 67,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 67,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 33.5,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 73,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 73,
+          "penalty": 0,
+          "total": 73,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Dakota Ridge High School",
+          "location": "Littleton, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "B. Maughmer",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 76,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 73,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 37.25,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 70,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 70,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 35,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 72.25,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 72.25,
+          "penalty": 0,
+          "total": 72.25,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Ponderosa High School",
+          "location": "Parker, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "B. Maughmer",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 81,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 76,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 39.25,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 63,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 63,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 31.5,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 70.75,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 70.75,
+          "penalty": 0,
+          "total": 70.75,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-standstill-a",
+        "name": "Percussion Scholastic Standstill A",
+        "classType": "standstill"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Centaurus High School",
+          "location": "Lafayette, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "B. Maughmer",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 42.75,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 72,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 37,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 79.75,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 79.75,
+          "penalty": 0,
+          "total": 79.75,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Mesa Ridge High School",
+          "location": "Colorado Springs, CO",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "B. Maughmer",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 77,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 76,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 38.25,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 68,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 68,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 34,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 72.25,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 72.25,
+          "penalty": 0,
+          "total": 72.25,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Thunder Ridge High School",
+          "location": "Highlands Ranch, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "B. Maughmer",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 78,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 74,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 38,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 60,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 64,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 31,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 69,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 69,
+          "penalty": 0,
+          "total": 69,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "Westminster, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "B. Maughmer",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 76,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 70,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 36.5,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 56,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 56,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 28,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 64.5,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 64.5,
+          "penalty": 0,
+          "total": 64.5,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Longmont High School",
+          "location": "Longmont, Colorado",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "B. Maughmer",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 79,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 38.5,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 83,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 40.75,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 47.55,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Duke",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 74,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 75,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 77.55,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 75,
+          "penalty": 0,
+          "total": 77.55,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Arapahoe High School",
+          "location": "Littleton, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "B. Maughmer",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 84,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 42.25,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 77,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 80,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 39.25,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 81.5,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 81.5,
+          "penalty": 0,
+          "total": 81.5,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Lakewood High School",
+          "location": "Lakewood, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "B. Maughmer",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 81,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 79,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 40,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 82,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 41,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 81,
+          "penalty": 0,
+          "total": 81,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Monarch High School",
+          "location": "Louisville, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "B. Maughmer",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 83,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 42,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 73,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 77,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 37.5,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 79.5,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 79.5,
+          "penalty": 0,
+          "total": 79.5,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "Broomfield, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "B. Maughmer",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 78,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 78,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 39,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 80,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 39.75,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 78.75,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 78.75,
+          "penalty": 0,
+          "total": 78.75,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Blue Knights Percussion Ensemble",
+          "location": "Denver, Colorado",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "B. Maughmer",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 81,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 40.25,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 40,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 48.15,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Duke",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 72,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 69,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 70.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 76.35,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 70.5,
+          "penalty": 0,
+          "total": 76.35,
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}

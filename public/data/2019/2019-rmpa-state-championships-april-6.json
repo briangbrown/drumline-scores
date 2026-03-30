@@ -1,0 +1,3176 @@
+{
+  "metadata": {
+    "id": "2019-rmpa-state-championships-april-6",
+    "eventName": "RMPA State Championships",
+    "venue": "US Air Force Academy Clune Arena",
+    "date": "Saturday, April 6, 2019",
+    "round": "Finals",
+    "year": 2019
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Ponderosa High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "K. Stafford",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 94,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 93,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 46.7,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "R. Kilgore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 45.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 46.2,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 45.7,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 91,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 91,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 45.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 45.6,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 91.8,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Wheat Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "K. Stafford",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 93,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 91,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 45.9,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "R. Kilgore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 91,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 45.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 45.55,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 91.5,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 45.3,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 46,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 45.65,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 91.2,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Evergreen High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "K. Stafford",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 89,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 44.7,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "R. Kilgore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 88,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 44.2,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 44.45,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82.5,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 40.5,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 89,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 44.1,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 42.3,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 86.75,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Douglas County High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "K. Stafford",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 42.7,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "R. Kilgore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 43.7,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 43.2,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 39.6,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 43.4,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 41.5,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 84.7,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Eaglecrest High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "K. Stafford",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 43.2,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "R. Kilgore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 42.7,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 42.95,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79.5,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 38.7,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 42,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 40.35,
+              "captionRank": 5
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.3,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Englewood High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "K. Stafford",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 40.2,
+                  "rank": 7
+                },
+                {
+                  "judgeName": "R. Kilgore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 40.4,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 40.3,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76.5,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 38.75,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 40.9,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 39.825,
+              "captionRank": 6
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80.125,
+          "rank": 6
+        },
+        {
+          "ensembleName": "Arvada High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "K. Stafford",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 40.9,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "R. Kilgore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 41.4,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 41.15,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 38.1,
+                  "rank": 7
+                },
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 38.9,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 38.5,
+              "captionRank": 7
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.65,
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Centaurus High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Chavez",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 91,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 27.5,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "K. Stafford",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 26.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 27.2,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 88,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 26.7,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 89,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 27.15,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 26.925,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 17.3,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85.5,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 17.15,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 17.225,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 17.3,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "G. Hamilton",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 17.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 17.4,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 88.75,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Monarch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Chavez",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 25.8,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "K. Stafford",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 89,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 26.8,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 26.3,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90.5,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 89.5,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 27,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 93.5,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 27.825,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 27.413,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.6,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 17.35,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 17,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "G. Hamilton",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 17.4,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 88.463,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Academy School District",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Chavez",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 91,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 91,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 27.3,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "K. Stafford",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 27.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 27.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 91,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 91.5,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 27.375,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90.5,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 27.075,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 27.225,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 16.1,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 15.9,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 16,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.5,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "G. Hamilton",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 17,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 17.25,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 87.975,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Rampart High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Chavez",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 25.6,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "K. Stafford",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 26.2,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 25.9,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86.5,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 25.725,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86.5,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 26.325,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 26.025,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 15.4,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 15.6,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 15.5,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 15.4,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "G. Hamilton",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 16,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 15.7,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.125,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Chavez",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 25.1,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "K. Stafford",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 24.9,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 25,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 25.5,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 25.35,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 25.425,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 15,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 15.3,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 15.15,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 15.3,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "G. Hamilton",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 16.1,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 15.7,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 81.275,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Fairview High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Chavez",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 26,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "K. Stafford",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 25,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 25.5,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 24.75,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 24.75,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 24.75,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 72,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 14.7,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 16.2,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 15.45,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 15.6,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "G. Hamilton",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 15.3,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 15.45,
+              "captionRank": 6
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 81.15,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Arapahoe High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Kilgore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 91.5,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 89,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 45,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "R. Chavez",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 91,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 45.7,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 45.35,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92.5,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 92.5,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 46.25,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92.5,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 45.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 46.025,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 91.375,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Kilgore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 91,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 45.2,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "R. Chavez",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 93,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 46.3,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 45.75,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 91,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 92,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 45.8,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90.5,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 45.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 45.45,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 91.2,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Lakewood High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Kilgore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 89.5,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 44.85,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "R. Chavez",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 93,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 46.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 45.675,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 91.5,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 45.85,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89.5,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 89.5,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 44.75,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 45.3,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 90.975,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Bear Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Kilgore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 42.9,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "R. Chavez",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 41.5,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 42.2,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 89,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 44.5,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87.5,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 43,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 43.75,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 85.95,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Chaparral High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Kilgore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 41.5,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "R. Chavez",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 42.7,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 42.1,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 43.5,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 41.9,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 42.7,
+              "captionRank": 5
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 84.8,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Dakota Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Kilgore",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 42.2,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "R. Chavez",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 40.4,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 41.3,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "C. Stephen",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 42.7,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 41.4,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 42.05,
+              "captionRank": 6
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.35,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-open",
+        "name": "Percussion Scholastic Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Longmont High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Chavez",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 26.3,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "K. Stafford",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 26.3,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 26.3,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 24.9,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 25.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 25.2,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 15.2,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.4,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 15.6,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "G. Hamilton",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 16.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.05,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.95,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-open",
+        "name": "Percussion Independent Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Black Diamond",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Chavez",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 26.1,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "K. Stafford",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 23.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 24.9,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 24.75,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 25.05,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 24.9,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 16.8,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 17.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 16.95,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 16.5,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "G. Hamilton",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 16.6,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 16.55,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.3,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Rise2",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Chavez",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 24.6,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "K. Stafford",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 22.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 23.55,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 25.65,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 25.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 25.725,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.4,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 17.45,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 15.8,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "G. Hamilton",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.4,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.125,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Blue Knights Percussion Ensemble",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Chavez",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 27.6,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "K. Stafford",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 26.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 27,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87.5,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84.5,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 25.8,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 25.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 25.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 91,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.9,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 18,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 17.95,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.3,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "G. Hamilton",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 17.45,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 87.9,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Rise Percussion",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Chavez",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 91,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 27.2,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "K. Stafford",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 26,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 26.6,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 25.95,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "C. Walker",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 25.05,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 25.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Tavano",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 17,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 17.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 17.25,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "D. Giddens",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 16.7,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "G. Hamilton",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 16.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 16.8,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 86.15,
+          "rank": 2
+        }
+      ]
+    }
+  ]
+}

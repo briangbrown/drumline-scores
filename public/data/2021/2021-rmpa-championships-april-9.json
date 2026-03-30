@@ -1,0 +1,1972 @@
+{
+  "metadata": {
+    "id": "2021-rmpa-championships-april-9",
+    "eventName": "RMPA Championships",
+    "venue": "",
+    "date": "Friday, April 9, 2021",
+    "round": "Finals",
+    "year": 2021
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-regional-a",
+        "name": "Percussion Scholastic Regional A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Highlands Ranch High School",
+          "location": "Highlands Ranch, Colorado",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 53.4,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 83,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 50.4,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 49.5,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 96,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 95,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 57.3,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 105.3,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Hardin",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 74,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 30,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 74,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 72,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 29.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 59.2,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 59.2,
+          "penalty": 0,
+          "total": 82.25,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Wheat Ridge High School",
+          "location": "Wheat Ridge, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 90,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 44,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 94,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 46.5,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 92,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 46,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 94,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 93,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 46.75,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 183.25,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 183.25,
+          "penalty": 0,
+          "total": 91.625,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Ponderosa High School",
+          "location": "Parker, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 85,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 44.25,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 87,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 88,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 43.75,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 88,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 45.25,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 91,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 91,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 45.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 178.75,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 178.75,
+          "penalty": 0,
+          "total": 89.375,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Evergreen High School",
+          "location": "Evergreen, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 83,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 81,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 41,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 86,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 84,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 42.5,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 88,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 81,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 42.25,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 87,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 88,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 43.75,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 169.5,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 169.5,
+          "penalty": 0,
+          "total": 84.75,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Dakota Ridge High School",
+          "location": "Littleton, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 84,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 84,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 42,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 83,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 85,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 42,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 86,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 78,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 41,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 84,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 86,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 42.5,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 167.5,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 167.5,
+          "penalty": 0,
+          "total": 83.75,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-standstill-a",
+        "name": "Percussion Scholastic Standstill A",
+        "classType": "standstill"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Centaurus High School",
+          "location": "Lafayette, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 46,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 95,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 93,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 47,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 95,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 95,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 47.5,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 97,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 96,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 48.25,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 188.75,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 188.75,
+          "penalty": 0,
+          "total": 94.375,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "Westminster, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 92,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 85,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 44.25,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 87,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 85,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 43,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 96,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 91,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 46.75,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 88,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 85,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 43.25,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 177.25,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 177.25,
+          "penalty": 0,
+          "total": 88.625,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Thunder Ridge High School",
+          "location": "Highlands Ranch, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 86,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 83,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 42.25,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 82,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 84,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 41.5,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 90,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 90,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 45,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 91,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 89,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 45,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 173.75,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 173.75,
+          "penalty": 0,
+          "total": 86.875,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Mesa Ridge High School",
+          "location": "Colorado Springs, CO",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 88,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 87,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 43.75,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 81,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 83,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 41,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 86,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 83,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 42.25,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 86,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 86,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 43,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 170,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 170,
+          "penalty": 0,
+          "total": 85,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Columbine High School",
+          "location": "Littleton, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 78,
+                      "rank": 5
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 73,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 37.75,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 77,
+                      "rank": 5
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 79,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 39,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 84,
+                      "rank": 5
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 81,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 41.25,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 84,
+                      "rank": 5
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 83,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 41.75,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 159.75,
+              "captionRank": 5
+            }
+          ],
+          "subTotal": 159.75,
+          "penalty": 0,
+          "total": 79.875,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Longmont High School",
+          "location": "Longmont, Colorado",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 96,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 94,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 57,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 54.3,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 95,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 56.1,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 90,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 54.9,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 111.15,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Hardin",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 35.4,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 94,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 90,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 36.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 72.2,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 72.2,
+          "penalty": 0,
+          "total": 91.675,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Standley Lake High School",
+          "location": "Westminster, Colorado",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 74,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 45.9,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 77,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 75,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 45.6,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 90,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 86,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 52.8,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 85,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 82,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 50.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 97.2,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Hardin",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 75,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 74,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 29.8,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 72,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 70,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 28.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 58.2,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 58.2,
+          "penalty": 0,
+          "total": 77.7,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-open",
+        "name": "Percussion Scholastic Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Great Oak High School",
+          "location": "Temecula California",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 53.1,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 55.2,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 94,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 94,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 56.4,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 55.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 109.95,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Hardin",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 33.6,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 82,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 33.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 67,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 67,
+          "penalty": 0,
+          "total": 88.475,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Monarch High School",
+          "location": "Louisville, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 89,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 45.25,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 95,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 94,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 47.25,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 94,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 88,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 45.5,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 93,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 91,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 46,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 184,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 184,
+          "penalty": 0,
+          "total": 92,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Lakewood High School",
+          "location": "Lakewood, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 91,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 85,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 44,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 93,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 92,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 46.25,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 91,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 87,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 44.5,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 94,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 96,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 47.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 182.25,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 182.25,
+          "penalty": 0,
+          "total": 91.125,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Arapahoe High School",
+          "location": "Littleton, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 88,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 86,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 43.5,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 91,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 89,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 45,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 92,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 89,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 45.25,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 95,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 94,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 47.25,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 181,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 181,
+          "penalty": 0,
+          "total": 90.5,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "Broomfield, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 87,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 88,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 43.75,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 87,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 88,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 43.75,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 90,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 86,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 44,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 90,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 93,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 45.75,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 177.25,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 177.25,
+          "penalty": 0,
+          "total": 88.625,
+          "rank": 4
+        },
+        {
+          "ensembleName": "D'Evelyn High School",
+          "location": "Lakewood, CO",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 84,
+                      "rank": 5
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 80,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 41,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 79,
+                      "rank": 5
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 81,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 40,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 85,
+                      "rank": 5
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 80,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 41.25,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 86,
+                      "rank": 5
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 84,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 42.5,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 164.75,
+              "captionRank": 5
+            }
+          ],
+          "subTotal": 164.75,
+          "penalty": 0,
+          "total": 82.375,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Blue Knights Percussion Ensemble",
+          "location": "Denver, Colorado",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Ausdemore",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 84,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 49.8,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 52.5,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 52.8,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "O. Carmenates",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 52.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 103.65,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "R. Hardin",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 33.6,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 35.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 69,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 69,
+          "penalty": 0,
+          "total": 86.325,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "small-ensemble-percussion-independent",
+        "name": "Small Ensemble - Percussion Independent",
+        "classType": "standstill"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Bobby & Ben",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "EFF",
+                      "rawScore": 3,
+                      "rank": null
+                    },
+                    {
+                      "key": "PERF",
+                      "rawScore": 3,
+                      "rank": null
+                    }
+                  ],
+                  "total": 3,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 3,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 3,
+          "penalty": 0,
+          "total": 3,
+          "rank": 0
+        },
+        {
+          "ensembleName": "Blue Knight Front Ensemble",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "M. Nevin",
+                  "subCaptions": [
+                    {
+                      "key": "EFF",
+                      "rawScore": 2.75,
+                      "rank": null
+                    },
+                    {
+                      "key": "PERF",
+                      "rawScore": 2.75,
+                      "rank": null
+                    }
+                  ],
+                  "total": 2.75,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 2.75,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 2.75,
+          "penalty": 0,
+          "total": 2.75,
+          "rank": 0
+        }
+      ]
+    }
+  ]
+}

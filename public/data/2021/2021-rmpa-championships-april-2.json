@@ -1,0 +1,1845 @@
+{
+  "metadata": {
+    "id": "2021-rmpa-championships-april-2",
+    "eventName": "RMPA Championships",
+    "venue": "",
+    "date": "Friday, April 2, 2021",
+    "round": "Prelims",
+    "year": 2021
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Wheat Ridge High School",
+          "location": "Wheat Ridge, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 42.25,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 45.25,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 45.75,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 46,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 179.25,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 179.25,
+          "penalty": 0,
+          "total": 89.625,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Ponderosa High School",
+          "location": "Parker, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 81,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 79,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 40,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 84,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 83,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 41.75,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 81,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 80,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 40.25,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 87,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 85,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 43,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 165,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 165,
+          "penalty": 0,
+          "total": 82.5,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Evergreen High School",
+          "location": "Evergreen, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 78,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 77,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 38.75,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 85,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 42.25,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 77,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 76,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 38.25,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 82,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 83,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 41.25,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 160.5,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 160.5,
+          "penalty": 0,
+          "total": 80.25,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Dakota Ridge High School",
+          "location": "Littleton, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 65,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 63,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 32,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 78,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 75,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 38.25,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 76,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 78,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 38.5,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 80,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 79,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 39.75,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 148.5,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 148.5,
+          "penalty": 0,
+          "total": 74.25,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-standstill-a",
+        "name": "Percussion Scholastic Standstill A",
+        "classType": "standstill"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Centaurus High School",
+          "location": "Lafayette, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 87,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 43.5,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 89,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 45.25,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 91,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 90,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 45.25,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 89,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 44.75,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 178.75,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 178.75,
+          "penalty": 0,
+          "total": 89.375,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Thunder Ridge High School",
+          "location": "Highlands Ranch, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 82,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 81,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 40.75,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 85,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 85,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 42.5,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 80,
+                      "rank": 5
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 80,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 40,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 87,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 86,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 43.25,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 166.5,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 166.5,
+          "penalty": 0,
+          "total": 83.25,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "Westminster, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 85,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 42.25,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 80,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 76,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 39,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 81,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 78,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 39.75,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 85,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 82,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 41.75,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 162.75,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 162.75,
+          "penalty": 0,
+          "total": 81.375,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Mesa Ridge High School",
+          "location": "Colorado Springs, CO",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 78,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 80,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 39.5,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 77,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 78,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 38.75,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 82,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 81,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 40.75,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 84.5,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 83,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 41.875,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 160.875,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 160.875,
+          "penalty": 0,
+          "total": 80.438,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Highlands Ranch High School",
+          "location": "Highlands Ranch, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 77,
+                      "rank": 5
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 73,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 37.5,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 75,
+                      "rank": 5
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 75,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 37.5,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 84,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 82,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 41.5,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 84,
+                      "rank": 5
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 81,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 41.25,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 157.75,
+              "captionRank": 5
+            }
+          ],
+          "subTotal": 157.75,
+          "penalty": 0,
+          "total": 78.875,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Columbine High School",
+          "location": "Littleton, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 70,
+                      "rank": 6
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 70,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 35,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 74,
+                      "rank": 6
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 73,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 36.75,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 76,
+                      "rank": 6
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 77,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 38.25,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 82,
+                      "rank": 6
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 80,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 40.5,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 150.5,
+              "captionRank": 6
+            }
+          ],
+          "subTotal": 150.5,
+          "penalty": 0,
+          "total": 75.25,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Longmont High School",
+          "location": "Longmont, Colorado",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 87,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 52.2,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 84,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 51.6,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 53.4,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 95,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 54.9,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 106.05,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 91,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 35.6,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Gentry",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 35.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 70.8,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 70.8,
+          "penalty": 0,
+          "total": 88.425,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Standley Lake High School",
+          "location": "Westminster, Colorado",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 62,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 63,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 37.5,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 73,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 70,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 42.9,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 72,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 72,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 43.2,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 80,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 77,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 47.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 85.35,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 69,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 69,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 27.6,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "J. Gentry",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 69,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 68,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 27.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 55,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 55,
+          "penalty": 0,
+          "total": 70.175,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-open",
+        "name": "Percussion Scholastic Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Great Oak High School",
+          "location": "Temecula California",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 87,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 51,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 82,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 50.1,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 51.3,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 55.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 103.95,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 82,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 33.2,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Gentry",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 83,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 32.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 65.8,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 65.8,
+          "penalty": 0,
+          "total": 84.875,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Lakewood High School",
+          "location": "Lakewood, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 43,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 88,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 87,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 43.75,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 87,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 85,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 43,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 88,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 45.25,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 175,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 175,
+          "penalty": 0,
+          "total": 87.5,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Arapahoe High School",
+          "location": "Littleton, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 85,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 42.25,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 85,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 85,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 42.5,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 43.5,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 91.5,
+                      "rank": 2
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 90,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 45.375,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 173.625,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 173.625,
+          "penalty": 0,
+          "total": 86.813,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Monarch High School",
+          "location": "Louisville, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 80,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 79,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 39.75,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 44.25,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 86,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 84,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 42.5,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 90,
+                      "rank": 3
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 45.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 172,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 172,
+          "penalty": 0,
+          "total": 86,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "Broomfield, Colorado",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 79,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 78,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 39.25,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 84,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 84,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 42,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 79,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 78,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 39.25,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 84,
+                      "rank": 5
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 80,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 41,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 161.5,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 161.5,
+          "penalty": 0,
+          "total": 80.75,
+          "rank": 4
+        },
+        {
+          "ensembleName": "D'Evelyn High School",
+          "location": "Lakewood, CO",
+          "captions": [
+            {
+              "captionName": "Judge",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 72,
+                      "rank": 5
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 70,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 35.5,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 78,
+                      "rank": 5
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 75,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 38.25,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 77,
+                      "rank": 5
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 76,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 38.25,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "IMP",
+                      "rawScore": 87,
+                      "rank": 4
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 85,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 43,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 155,
+              "captionRank": 5
+            }
+          ],
+          "subTotal": 155,
+          "penalty": 0,
+          "total": 77.5,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Blue Knights Percussion Ensemble",
+          "location": "Denver, Colorado",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 79,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 48.3,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Fant",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 78,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 77,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 46.5,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 84,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 51,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "B. Mason",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 54,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 99.9,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 34.8,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "J. Gentry",
+                  "subCaptions": [
+                    {
+                      "key": "Imp",
+                      "rawScore": 87,
+                      "rank": 1
+                    },
+                    {
+                      "key": "AN",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 34.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 69.6,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 69.6,
+          "penalty": 0,
+          "total": 84.75,
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}

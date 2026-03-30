@@ -1,0 +1,261 @@
+{
+  "metadata": {
+    "id": "2022-rmpa-show-4-virtual-march-19",
+    "eventName": "RMPA Show #4 - Virtual",
+    "venue": "",
+    "date": "Saturday, March 19, 2022",
+    "round": "",
+    "year": 2022
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-regional-a",
+        "name": "Percussion Scholastic Concert Regional A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Arvada High School",
+          "location": "Arvada, Colorado",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Sammons",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 63,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 60,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 30.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 65,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 33.9,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 64.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 64.5,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 33.9,
+          "penalty": 0,
+          "total": 64.5,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-standstill-a",
+        "name": "Percussion Scholastic Standstill A",
+        "classType": "standstill"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Mesa Ridge Percussion Ensemble",
+          "location": "Colorado Springs, CO",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Sammons",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 36.1,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 73,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 35.9,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 72,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 35.9,
+          "penalty": 0,
+          "total": 72,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-regional-a",
+        "name": "Percussion Scholastic Regional A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Burlington High School",
+          "location": "Burlington, CO",
+          "captions": [
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "E. Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 70,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 65,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 20.25,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 65,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "P. Lucero",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 60,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 12.5,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 56,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 58,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Sammons",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 17.2,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 60,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 60,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 12,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "P. Lucero",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 61.95,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 3.4,
+                      "rank": null
+                    }
+                  ],
+                  "total": 58.55,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 61.95,
+          "penalty": 3.4,
+          "total": 58.55,
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}

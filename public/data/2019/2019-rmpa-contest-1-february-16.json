@@ -1,0 +1,1900 @@
+{
+  "metadata": {
+    "id": "2019-rmpa-contest-1-february-16",
+    "eventName": "RMPA Contest #1",
+    "venue": "Highlands Ranch High School",
+    "date": "Saturday, February 16, 2019",
+    "round": "",
+    "year": 2019
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Evergreen High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 69,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 35.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 79,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 38.6,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 73.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0.2,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 73.7,
+          "penalty": 0.2,
+          "total": 73.5,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Ponderosa High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 68,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 34.6,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 83,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 41.8,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 76.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 3,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 76.4,
+          "penalty": 3,
+          "total": 73.4,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Heritage High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 65,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 62,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 31.6,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 82,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 40.4,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 72,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0.5,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 72,
+          "penalty": 0.5,
+          "total": 71.5,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Eaglecrest High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 35.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 35.2,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 70.8,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 70.8,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Wheat Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 67,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 34.1,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 39.3,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 73.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 6.9,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 73.4,
+          "penalty": 6.9,
+          "total": 66.5,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Rock Canyon High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 67,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 32.6,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 34.2,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 66.8,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 2.1,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 66.8,
+          "penalty": 2.1,
+          "total": 64.7,
+          "rank": 6
+        },
+        {
+          "ensembleName": "Douglas County High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 69,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 65,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 33.3,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 68,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 69,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 34.3,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 67.6,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 3.8,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 67.6,
+          "penalty": 3.8,
+          "total": 63.8,
+          "rank": 7
+        },
+        {
+          "ensembleName": "Columbine High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 63,
+                      "rank": 10
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 61,
+                      "rank": 10
+                    }
+                  ],
+                  "total": 30.9,
+                  "rank": 10
+                }
+              ],
+              "captionTotal": 57,
+              "captionRank": 10
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 61,
+                      "rank": 10
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 29.7,
+                      "rank": 10
+                    }
+                  ],
+                  "total": 60.6,
+                  "rank": 10
+                }
+              ],
+              "captionTotal": 2,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 60.6,
+          "penalty": 2,
+          "total": 58.6,
+          "rank": 8
+        },
+        {
+          "ensembleName": "Englewood High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 66,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 33.4,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 62,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 64,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 31.6,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 65,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 6.8,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 65,
+          "penalty": 6.8,
+          "total": 58.2,
+          "rank": 9
+        },
+        {
+          "ensembleName": "Palmer High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 63,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 32.1,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 60,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 64,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 31.2,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 63.3,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 9.9,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 63.3,
+          "penalty": 9.9,
+          "total": 53.4,
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Academy School District",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 22,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 23.4,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 70,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 14.1,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 72,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 71,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 14.3,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Nelson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73.8,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 1.2,
+                      "rank": null
+                    }
+                  ],
+                  "total": 72.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 73.8,
+          "penalty": 1.2,
+          "total": 72.6,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 65,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 20,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 70,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 20.4,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 71,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 69,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 14,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 71,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 14.1,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Nelson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68.5,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 68.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 68.5,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Fairview High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 22.9,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 73,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 21.75,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 67,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 66,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 13.3,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 65,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 66,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 13.1,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Nelson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71.05,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 2.9,
+                      "rank": null
+                    }
+                  ],
+                  "total": 68.15,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 71.05,
+          "penalty": 2.9,
+          "total": 68.15,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Thunder Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 65,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 66,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 19.7,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 60,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 61,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 18.15,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 64,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 62,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 12.6,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 69,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 72,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 14.1,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Nelson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 64.55,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 64.55,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 64.55,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Doherty High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 60,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 18.8,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 59,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 55,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 17.1,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 60,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 60,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 12,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 59,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 63,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 12.2,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Nelson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 60.1,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 4.5,
+                      "rank": null
+                    }
+                  ],
+                  "total": 55.6,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 60.1,
+          "penalty": 4.5,
+          "total": 55.6,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 36.8,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 74,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 37.6,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 74.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 74.4,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Arapahoe High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 37.3,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 36.6,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 73.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 3.3,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 73.9,
+          "penalty": 3.3,
+          "total": 70.6,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Lakewood High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 36.3,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 35.2,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 71.5,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 2.6,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 71.5,
+          "penalty": 2.6,
+          "total": 68.9,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Highlands Ranch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 36.3,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 64,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 63,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 31.7,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 68,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 68,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Bear Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 69,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 66,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 33.6,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 62,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 61,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 30.7,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 64.3,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 64.3,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Dakota Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 72,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 36.8,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 59,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 60,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 29.8,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 66.6,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 3.5,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 66.6,
+          "penalty": 3.5,
+          "total": 63.1,
+          "rank": 6
+        },
+        {
+          "ensembleName": "Chaparral High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 69,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 34.7,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 63,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 62,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 31.2,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 65.9,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 3.5,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 65.9,
+          "penalty": 3.5,
+          "total": 62.4,
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-open",
+        "name": "Percussion Scholastic Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Longmont High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 67,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 20.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 75,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 22.05,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 74,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 14.6,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 71,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 14.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Nelson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71.35,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 1.6,
+                      "rank": null
+                    }
+                  ],
+                  "total": 69.75,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 71.35,
+          "penalty": 1.6,
+          "total": 69.75,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-open",
+        "name": "Percussion Independent Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Black Diamond",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 22.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 69,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 21.15,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 70,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 70,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 14,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 72,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 69,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 14.1,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Nelson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71.75,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 0,
+                      "rank": null
+                    }
+                  ],
+                  "total": 71.75,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 71.75,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Blue Knights Percussion Ensemble",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "M. Leitzke",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 22.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 73,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "E. Tannert",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 21.75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 79,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 77,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Bell",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 15.6,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 75,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 14.8,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Nelson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74.75,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 3.8,
+                      "rank": null
+                    }
+                  ],
+                  "total": 70.95,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 74.75,
+          "penalty": 3.8,
+          "total": 70.95,
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}

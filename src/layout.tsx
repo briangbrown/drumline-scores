@@ -1,11 +1,11 @@
 import type { ReactNode } from 'react'
 import { Pill } from './components/pill'
-import { getAvailableYears } from './data'
 import type { SeasonMetadata } from './types'
 import type { ViewType } from './router'
 
 type LayoutProps = {
   year: number
+  years: Array<number>
   season: SeasonMetadata | null
   classId: string
   view: ViewType
@@ -17,6 +17,7 @@ type LayoutProps = {
 
 export function Layout({
   year,
+  years,
   season,
   classId,
   view,
@@ -25,7 +26,6 @@ export function Layout({
   onViewChange,
   children,
 }: LayoutProps) {
-  const years = getAvailableYears()
   const classes = season?.classes ?? []
 
   return (
@@ -38,7 +38,7 @@ export function Layout({
 
         {/* Year selector */}
         {years.length > 1 && (
-          <div className="mt-3 flex gap-2">
+          <div className="mt-3 flex gap-2 overflow-x-auto pb-1 scrollbar-none">
             {years.map((y) => (
               <Pill
                 key={y}
@@ -78,6 +78,13 @@ export function Layout({
               onClick={() => onViewChange('standings')}
             />
           </div>
+        )}
+
+        {/* Incomplete season indicator */}
+        {season?.incomplete && (
+          <p className="mt-2 text-xs text-text-muted italic">
+            {year} season incomplete (cancelled due to COVID)
+          </p>
         )}
       </header>
 

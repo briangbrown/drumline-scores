@@ -1,0 +1,1615 @@
+{
+  "metadata": {
+    "id": "2017-rmpa-competition-february-25-broomfield-high-school",
+    "eventName": "RMPA Competition",
+    "venue": "Broomfield High School",
+    "date": "Saturday, February 25, 2017 - Broomfield High School",
+    "round": "",
+    "year": 2017
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Ponderosa High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 35.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 85,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 42.2,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 77.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0.1,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.1,
+          "penalty": -0.1,
+          "total": 77.5,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Heritage High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 69,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 68,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 34.2,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 39.7,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 73.9,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 73.9,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Englewood High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 66,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 33.4,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 40.2,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 73.6,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0.3,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.3,
+          "penalty": -0.3,
+          "total": 73.3,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Fairview High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 69,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 67,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 33.9,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 38.4,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 72.3,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 72.3,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Wheat Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 35,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 83,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 40.9,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 75.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 4,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 4,
+          "penalty": -4,
+          "total": 71.9,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Highlands Ranch High School - A",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 65,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 32.2,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 79,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 39.2,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 71.4,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 71.4,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 32,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 74,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 72,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 29.1,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 68,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 68,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 13.6,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 74.7,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 1.6,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -1.6,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 1.6,
+          "penalty": -1.6,
+          "total": 73.1,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Longmont High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 32.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 68,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 66,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 26.7,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 71,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 69,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 14,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 72.9,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 72.9,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Centaurus High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 77,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 74,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 30.2,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 67,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 66,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 26.55,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 65,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 63,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 12.8,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 69.55,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 1.2,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -1.2,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 1.2,
+          "penalty": -1.2,
+          "total": 68.35,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Thunder Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 65,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 66,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 26.2,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 71,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 69,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 27.9,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 64,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 62,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 12.6,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 66.7,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 0.1,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -0.1,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.1,
+          "penalty": -0.1,
+          "total": 66.6,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Evergreen High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 64,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 62,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 25.2,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 60,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 60,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 24,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 61,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 61,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 12.2,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 61.4,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 61.4,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Standley Lake High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 63,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 61,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 24.8,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 58,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 58,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 23.2,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 56,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 55,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 11.1,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 59.1,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 7.2,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -7.2,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 7.2,
+          "penalty": -7.2,
+          "total": 51.9,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 37.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 88,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 43.7,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 81.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 81.4,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Highlands Ranch High School - Open",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 37.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 85,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 41.6,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 78.8,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.8,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Bear Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 35.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 39.4,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 74.8,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0.2,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.2,
+          "penalty": -0.2,
+          "total": 74.6,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Lakewood High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 69,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 35.1,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 40.2,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 75.3,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 1,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 1,
+          "penalty": -1,
+          "total": 74.3,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-open",
+        "name": "Percussion Scholastic Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Monarch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 31,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 73,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 71,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 28.7,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 72,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 70.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 14.25,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 73.95,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 73.95,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Silver Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 76,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 73,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 29.8,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 70,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 28.3,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 67,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 66,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 13.3,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 71.4,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 71.4,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-world",
+        "name": "Percussion Scholastic Concert World",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Dakota Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 38.9,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 75,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 36.9,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 75.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 75.8,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-open",
+        "name": "Percussion Independent Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Rise Percussion",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 75,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 73,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 29.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 84,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 33.1,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 75,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 74,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 14.9,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 77.6,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 77.6,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Altitude Percussion",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 73,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 71,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 28.8,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 31.75,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 67,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 65,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 13.2,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 73.75,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 1,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -1,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 1,
+          "penalty": -1,
+          "total": 72.75,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Blue Knights",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "M. McIntosh",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 75,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 74,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 29.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 89,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 34.85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 70,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 69,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 13.9,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78.55,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.55,
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}

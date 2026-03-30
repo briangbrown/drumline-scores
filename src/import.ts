@@ -200,8 +200,13 @@ function updateSeason(
     }
   }
 
-  // Sort shows by date
-  season.shows.sort((a, b) => a.date.localeCompare(b.date))
+  // Sort shows by date (parse the human-readable date for correct ordering)
+  season.shows.sort((a, b) => {
+    const da = new Date(a.date).getTime()
+    const db = new Date(b.date).getTime()
+    if (!isNaN(da) && !isNaN(db)) return da - db
+    return a.date.localeCompare(b.date)
+  })
 }
 
 // Run

@@ -1,0 +1,78 @@
+{
+  "year": 2017,
+  "shows": [
+    {
+      "id": "2017-rmpa-state-championships-april-8-united-states-air-force-academy",
+      "eventName": "RMPA State Championships",
+      "date": "Saturday, April 8, 2017 - United States Air Force Academy",
+      "round": "Finals"
+    },
+    {
+      "id": "2017-rmpa-competition-february-18-harrison-high-school",
+      "eventName": "RMPA Competition",
+      "date": "Saturday, February 18, 2017 - Harrison High School",
+      "round": ""
+    },
+    {
+      "id": "2017-rmpa-competition-february-25-broomfield-high-school",
+      "eventName": "RMPA Competition",
+      "date": "Saturday, February 25, 2017 - Broomfield High School",
+      "round": ""
+    },
+    {
+      "id": "2017-rmpa-competition-march-11-mountain-range-high-school",
+      "eventName": "RMPA Competition",
+      "date": "Saturday, March 11, 2017 - Mountain Range High School",
+      "round": ""
+    },
+    {
+      "id": "2017-rmpa-competition-march-25-longmont-high-school",
+      "eventName": "RMPA Competition",
+      "date": "Saturday, March 25, 2017 - Longmont High School",
+      "round": ""
+    },
+    {
+      "id": "2017-rmpa-competition-march-4-pomona-high-school",
+      "eventName": "RMPA Competition",
+      "date": "Saturday, March 4, 2017 - Pomona High School",
+      "round": ""
+    }
+  ],
+  "classes": [
+    {
+      "id": "percussion-scholastic-concert-a",
+      "name": "Percussion Scholastic Concert A",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-a",
+      "name": "Percussion Scholastic A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-open",
+      "name": "Percussion Scholastic Concert Open",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-concert-world",
+      "name": "Percussion Scholastic Concert World",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-independent-open",
+      "name": "Percussion Independent Open",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-open",
+      "name": "Percussion Scholastic Open",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-independent-world",
+      "name": "Percussion Independent World",
+      "classType": "marching"
+    }
+  ]
+}

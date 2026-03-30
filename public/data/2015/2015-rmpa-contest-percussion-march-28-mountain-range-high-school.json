@@ -1,0 +1,2103 @@
+{
+  "metadata": {
+    "id": "2015-rmpa-contest-percussion-march-28-mountain-range-high-school",
+    "eventName": "RMPA Contest Percussion",
+    "venue": "Mountain Range High School",
+    "date": "Saturday, March 28, 2015 - Mountain Range High School",
+    "round": "",
+    "year": 2015
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "novice",
+        "name": "Novice",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Englewood High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 72,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 36.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 66,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 34.8,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 71,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 71,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Steamboat Springs",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 35.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 67,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 33.2,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 68.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 68.9,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Standley Lake High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 68,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 34.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 64,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 33.2,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 67.6,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 67.6,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Wheat Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 89,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 44.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 79,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 41.6,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 86.3,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 86.3,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 43.2,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 78,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 40.5,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 83.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.7,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Highlands Ranch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 43.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 73,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 38.9,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 82.6,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0.1,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.1,
+          "penalty": -0.1,
+          "total": 82.5,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Ponderosa High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 41.7,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 39.9,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 81.6,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 2.7,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 2.7,
+          "penalty": -2.7,
+          "total": 78.9,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Denver Citywide",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 37.1,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 76,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 37.4,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 74.5,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 74.5,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Longmont High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 32.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 90,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 35.5,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 81,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 79,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 16,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83.7,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.7,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Doherty High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 79,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 32.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 87,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 86,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 34.55,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 75.5,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 75,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 15.05,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 82,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Thunder Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 77,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 31.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 84,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 86,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 34.1,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 74,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 74,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 14.8,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80.3,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80.3,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 73,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 77,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 30,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 85,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 33,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 78,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 77,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 15.5,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78.5,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.5,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Pomona High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 77,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 74,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 30.2,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 31.9,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 76.5,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 76,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 15.25,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 77.35,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 0.1,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -0.1,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.1,
+          "penalty": -0.1,
+          "total": 77.25,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Thompson Valley High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 70,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 75,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 29,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 80,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 77,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 31.25,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 73,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 14.5,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 74.75,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 74.75,
+          "rank": 6
+        },
+        {
+          "ensembleName": "Rampart High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 69,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 67,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 27.2,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 79,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 75,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 30.6,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 71,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 70,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 14.1,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 71.9,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 0.2,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -0.2,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.2,
+          "penalty": -0.2,
+          "total": 71.7,
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Eaglecrest High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 42.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 88,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 43.4,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 85.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 85.6,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Mesa Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 42.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 85,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 42.5,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 85,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 85,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Golden High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 41.3,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 87,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 42.6,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 83.9,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.9,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Air Academy High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 40.2,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 41.1,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 81.3,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 81.3,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Alameda International High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 39.8,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 79,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 39.8,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 79.6,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 0.5,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.5,
+          "penalty": -0.5,
+          "total": 79.1,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Evergreen High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 39.1,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 76,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 38.9,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 78,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-open",
+        "name": "Percussion Scholastic Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Silver Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 34,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 85,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 33.75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 86,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 85,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 17.1,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84.85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 0.9,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -0.9,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.9,
+          "penalty": -0.9,
+          "total": 83.95,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Monarch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 81,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 33.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 31.9,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 84,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 84,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 16.8,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 81.9,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 1.25,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -1.25,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 1.25,
+          "penalty": -1.25,
+          "total": 80.65,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-world",
+        "name": "Percussion Scholastic Concert World",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Chaparral High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 44.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 83,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 42.4,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 86.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 1.8,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 1.8,
+          "penalty": -1.8,
+          "total": 85,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Pine Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 42.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 81,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 40.2,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 82.9,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 82.9,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Bear Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 42.2,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 85,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 41.9,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 84.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 5.45,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 5.45,
+          "penalty": -5.45,
+          "total": 78.65,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Cherry Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 37.9,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 72,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 37.8,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 75.7,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 75.7,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Blue Knights",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 35.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 91,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 35.9,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 85,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 85,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 17,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 88.1,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 0,
+                  "rank": null
+                }
+              ],
+              "captionTotal": 0,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 88.1,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Rise Percussion",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 81,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 32.6,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 85,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 33.5,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 81,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 84,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 16.5,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82.6,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 0.65,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -0.65,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.65,
+          "penalty": -0.65,
+          "total": 81.95,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Altitude Percussion",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "R. Ulibarri",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 76,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 30.8,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 83,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "T. Fox",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 32.95,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 77,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 77,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "P. Butler",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 15.4,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 79.15,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 0.1,
+                  "rank": null
+                }
+              ],
+              "captionTotal": -0.1,
+              "captionRank": null
+            }
+          ],
+          "subTotal": 0.1,
+          "penalty": -0.1,
+          "total": 79.05,
+          "rank": 3
+        }
+      ]
+    }
+  ]
+}

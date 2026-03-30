@@ -1,0 +1,72 @@
+{
+  "year": 2016,
+  "shows": [
+    {
+      "id": "2016-rmpa-championships-april-9-united-states-air-force-academy",
+      "eventName": "RMPA Championships",
+      "date": "Saturday, April 9, 2016 - United States Air Force Academy",
+      "round": "Finals"
+    },
+    {
+      "id": "2016-rmpa-competition-february-27-heritage-high-school",
+      "eventName": "RMPA Competition",
+      "date": "Saturday, February 27, 2016 - Heritage High School",
+      "round": ""
+    },
+    {
+      "id": "2016-rmpa-competition-march-12-pomona-high-school",
+      "eventName": "RMPA Competition",
+      "date": "Saturday, March 12, 2016 - Pomona High School",
+      "round": ""
+    },
+    {
+      "id": "2016-rmpa-competition-march-19-mountain-range",
+      "eventName": "RMPA Competition",
+      "date": "Saturday, March 19, 2016 - Mountain Range",
+      "round": ""
+    },
+    {
+      "id": "2016-rmpa-competition-march-26-longmont-high-school",
+      "eventName": "RMPA Competition",
+      "date": "Saturday, March 26, 2016 - Longmont High School",
+      "round": ""
+    }
+  ],
+  "classes": [
+    {
+      "id": "novice",
+      "name": "Novice",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-a",
+      "name": "Percussion Scholastic Concert A",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-a",
+      "name": "Percussion Scholastic A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-open",
+      "name": "Percussion Scholastic Concert Open",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-open",
+      "name": "Percussion Scholastic Open",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-independent-world",
+      "name": "Percussion Independent World",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-independent-a",
+      "name": "Percussion Independent A",
+      "classType": "marching"
+    }
+  ]
+}

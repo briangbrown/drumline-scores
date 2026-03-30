@@ -12,9 +12,10 @@ For the full design rationale see [`docs/designs/DESIGN.md`](designs/DESIGN.md).
 drumline-scores/
 ├── public/                     # Static assets served by Vite (and Cloudflare Pages)
 │   ├── data/                   # Runtime JSON — import tool output
+│   │   ├── years.json          # Available seasons manifest (list of years)
 │   │   ├── ensembles.json      # Global ensemble registry (canonical names, aliases, locations)
-│   │   └── <year>/
-│   │       ├── season.json     # Season metadata (show list, class list)
+│   │   └── <year>/             # Per-season data (2015–2025)
+│   │       ├── season.json     # Season metadata (show list, class list, incomplete flag)
 │   │       └── <show-id>.json  # Per-show scored data (all classes, all ensembles)
 │   ├── manifest.json           # PWA manifest
 │   └── icon-*.png              # App icons (placeholder)
