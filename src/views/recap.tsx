@@ -35,25 +35,6 @@ export function RecapView({ ensemble, allEnsembles }: RecapViewProps) {
     return ranks
   }, [ensemble, allEnsembles])
 
-  // Find best and worst captions
-  const { bestCaption, worstCaption } = useMemo(() => {
-    if (ensemble.captions.length < 2) return { bestCaption: null, worstCaption: null }
-
-    let best = ensemble.captions[0]
-    let worst = ensemble.captions[0]
-
-    for (const cap of ensemble.captions) {
-      const capRank = captionRanks.get(cap.captionName)?.rank ?? 999
-      const bestRank = captionRanks.get(best.captionName)?.rank ?? 999
-      const worstRank = captionRanks.get(worst.captionName)?.rank ?? 999
-
-      if (capRank < bestRank) best = cap
-      if (capRank > worstRank) worst = cap
-    }
-
-    return { bestCaption: best.captionName, worstCaption: worst.captionName }
-  }, [ensemble, captionRanks])
-
   return (
     <div className="space-y-4">
       {/* Caption Rank Summary */}
@@ -61,15 +42,11 @@ export function RecapView({ ensemble, allEnsembles }: RecapViewProps) {
         {ensemble.captions.map((cap) => {
           const rankInfo = captionRanks.get(cap.captionName)
           const color = CAPTION_COLORS[cap.captionName] ?? DEFAULT_CAPTION_COLOR
-          const isBest = cap.captionName === bestCaption
-          const isWorst = cap.captionName === worstCaption
 
           return (
             <div
               key={cap.captionName}
-              className={`rounded-lg border px-3 py-2 text-center ${
-                isBest ? 'border-accent/50 bg-accent/10' : 'border-border bg-surface'
-              }`}
+              className="rounded-lg border border-border bg-surface px-3 py-2 text-center"
             >
               <p className="text-xs font-medium" style={{ color }}>
                 {cap.captionName}
@@ -77,9 +54,7 @@ export function RecapView({ ensemble, allEnsembles }: RecapViewProps) {
               <p className="text-lg font-bold tabular-nums">{cap.captionTotal.toFixed(2)}</p>
               <p className="text-xs text-text-muted">
                 {rankInfo && (
-                  <span className={isBest ? 'text-accent' : isWorst ? 'text-error' : ''}>
-                    #{rankInfo.rank} of {rankInfo.total}
-                  </span>
+                  <span>#{rankInfo.rank} of {rankInfo.total}</span>
                 )}
               </p>
             </div>
