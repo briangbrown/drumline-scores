@@ -191,9 +191,9 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
                   <Line
                     type="monotone"
                     dataKey="Total"
-                    stroke="#f59e0b"
+                    stroke="var(--color-accent)"
                     strokeWidth={2.5}
-                    dot={{ r: 4, fill: '#f59e0b' }}
+                    dot={{ r: 4, fill: 'var(--color-accent)' }}
                     connectNulls
                   />
                 </LineChart>

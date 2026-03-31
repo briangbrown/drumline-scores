@@ -15,10 +15,10 @@ import { ChartTooltip } from '../components/chart-tooltip'
 import { StarButton } from '../components/star-button'
 import type { ShowMetadata, ClassResult } from '../types'
 
-// 12-color palette from the prototype
+// 12-color chart palette — mid-saturation colors readable on both light and dark backgrounds
 const PALETTE = [
-  '#f59e0b', '#3b82f6', '#10b981', '#ef4444', '#8b5cf6', '#ec4899',
-  '#14b8a6', '#f97316', '#06b6d4', '#84cc16', '#e879f9', '#facc15',
+  '#e09000', '#3b82f6', '#10b981', '#ef4444', '#8b5cf6', '#d946a8',
+  '#14b8a6', '#e06820', '#0891b2', '#65a30d', '#c026d3', '#ca8a04',
 ]
 
 const TOTAL_KEY = 'Total'

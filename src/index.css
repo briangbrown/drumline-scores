@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 
 @theme {
+  /* Dark theme (default) */
   --color-bg: #080812;
   --color-surface: #0e0e1c;
   --color-surface-alt: #14142a;
@@ -20,6 +21,50 @@
   --color-cap-m: #c4985a;
   --color-cap-v: #8a7ab8;
   --font-family-mono: 'JetBrains Mono', 'SF Mono', 'Fira Code', ui-monospace, monospace;
+}
+
+/* Dark theme colors (applied via .dark class on html) */
+.dark {
+  --color-bg: #080812;
+  --color-surface: #0e0e1c;
+  --color-surface-alt: #14142a;
+  --color-accent: #f59e0b;
+  --color-text-primary: #dddde8;
+  --color-text-secondary: #8b8b9b;
+  --color-text-muted: #808096;
+  --color-border: #191930;
+  --color-border-grid: #141428;
+  --color-error: #ef4444;
+  --color-growth-high: #10b981;
+  --color-growth-mid: #22d3ee;
+  --color-growth-low: #f59e0b;
+  --color-growth-neg: #ef4444;
+  --color-cap-em: #cc7a5a;
+  --color-cap-ev: #6aab8e;
+  --color-cap-m: #c4985a;
+  --color-cap-v: #8a7ab8;
+}
+
+/* Light theme colors */
+.light {
+  --color-bg: #f5f5f7;
+  --color-surface: #ffffff;
+  --color-surface-alt: #eeeef2;
+  --color-accent: #d97706;
+  --color-text-primary: #1a1a2e;
+  --color-text-secondary: #4a4a5e;
+  --color-text-muted: #6b6b80;
+  --color-border: #d4d4dc;
+  --color-border-grid: #e0e0e8;
+  --color-error: #dc2626;
+  --color-growth-high: #059669;
+  --color-growth-mid: #0891b2;
+  --color-growth-low: #d97706;
+  --color-growth-neg: #dc2626;
+  --color-cap-em: #b5603e;
+  --color-cap-ev: #4d8c6f;
+  --color-cap-m: #a67d3d;
+  --color-cap-v: #6a5a9e;
 }
 
 body {

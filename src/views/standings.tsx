@@ -16,8 +16,15 @@ import { StarButton } from '../components/star-button'
 import { RecapView } from './recap'
 import type { ShowMetadata, ClassResult, EnsembleScore } from '../types'
 
-// Caption colors from the design system
-const CAPTION_COLORS = ['#cc7a5a', '#6aab8e', '#c4985a', '#8a7ab8', '#14b8a6', '#e879f9']
+// Caption colors from the theme — accessed as CSS variables for theme support
+const CAPTION_COLORS = [
+  'var(--color-cap-em)',
+  'var(--color-cap-ev)',
+  'var(--color-cap-m)',
+  'var(--color-cap-v)',
+  '#14b8a6',
+  '#e879f9',
+]
 
 type ShowWithClass = {
   metadata: ShowMetadata
