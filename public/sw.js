@@ -7,7 +7,7 @@
 //   Images/icons:                     cache-first
 // ---------------------------------------------------------------------------
 
-const CACHE_NAME = 'rmpa-v1'
+const CACHE_NAME = 'rmpa-v2'
 const DATA_CACHE_NAME = 'rmpa-data-v1'
 
 // App shell files to precache (populated at build time via manifest)
@@ -58,7 +58,13 @@ self.addEventListener('fetch', (event) => {
     return
   }
 
-  // App shell and assets — cache-first with network fallback
+  // Navigation requests (HTML pages) — network-first so new deploys are picked up
+  if (event.request.mode === 'navigate') {
+    event.respondWith(networkFirstWithCache(event.request, CACHE_NAME))
+    return
+  }
+
+  // Static assets (JS, CSS, images) — cache-first (filenames are content-hashed)
   event.respondWith(cacheFirstWithNetwork(event.request, CACHE_NAME))
 })
 
