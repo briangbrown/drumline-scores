@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react'
+import type { ReactNode, Ref } from 'react'
 import { Pill } from './components/pill'
 import type { SeasonMetadata } from './types'
 import type { ViewType } from './router'
@@ -15,6 +15,8 @@ type LayoutProps = {
   onViewChange: (view: ViewType) => void
   favorite: FavoriteEnsemble | null
   onShowMyEnsemble: () => void
+  myEnsembleRef?: Ref<HTMLButtonElement>
+  isMyEnsembleFlashing?: boolean
   children: ReactNode
 }
 
@@ -29,6 +31,8 @@ export function Layout({
   onViewChange,
   favorite,
   onShowMyEnsemble,
+  myEnsembleRef,
+  isMyEnsembleFlashing,
   children,
 }: LayoutProps) {
   const classes = season?.classes ?? []
@@ -63,6 +67,8 @@ export function Layout({
                 label={`\u2605 My Ensemble`}
                 isActive={!classId}
                 onClick={onShowMyEnsemble}
+                ref={myEnsembleRef}
+                isFlashing={isMyEnsembleFlashing}
               />
             )}
             {classes.map((cls) => (
