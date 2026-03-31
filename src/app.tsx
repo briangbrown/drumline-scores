@@ -19,9 +19,9 @@ export function App() {
   const myEnsembleRef = useRef<HTMLButtonElement>(null)
   const [isMyEnsembleFlashing, setIsMyEnsembleFlashing] = useState(false)
 
-  // When year changes, reset class and show selection
+  // When year changes, keep current class selection, reset show
   const handleYearChange = useCallback((year: number) => {
-    updateRoute({ year, classId: '', showId: null })
+    updateRoute({ year, showId: null })
   }, [updateRoute])
 
   // Auto-select first class if none selected (and no favorite to show)
