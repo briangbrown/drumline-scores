@@ -41,7 +41,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": null
+              "captionRank": 1
             },
             {
               "captionName": "Effect - Music",
@@ -65,7 +65,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": null
+              "captionRank": 1
             },
             {
               "captionName": "Visual",
@@ -89,7 +89,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": null
+              "captionRank": 1
             },
             {
               "captionName": "Effect - Visual",
@@ -113,7 +113,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": null
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -147,7 +147,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": null
+              "captionRank": 1
             },
             {
               "captionName": "Effect - Music",
@@ -171,7 +171,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": null
+              "captionRank": 1
             },
             {
               "captionName": "Visual",
@@ -195,7 +195,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": null
+              "captionRank": 1
             },
             {
               "captionName": "Effect - Visual",
@@ -219,7 +219,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": null
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -261,8 +261,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 39.1,
+              "captionRank": 1
             },
             {
               "captionName": "Artistry",
@@ -285,8 +285,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 40.4,
+              "captionRank": 1
             }
           ],
           "subTotal": 0.1,
@@ -319,8 +319,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 34.5,
+              "captionRank": 2
             },
             {
               "captionName": "Artistry",
@@ -343,8 +343,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 38.4,
+              "captionRank": 2
             }
           ],
           "subTotal": 0,
@@ -377,8 +377,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 33.4,
+              "captionRank": 3
             },
             {
               "captionName": "Artistry",
@@ -401,8 +401,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 35.9,
+              "captionRank": 3
             }
           ],
           "subTotal": 0.1,
@@ -435,8 +435,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 31.7,
+              "captionRank": 4
             },
             {
               "captionName": "Artistry",
@@ -459,8 +459,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 35.4,
+              "captionRank": 4
             }
           ],
           "subTotal": 0.1,
@@ -494,7 +494,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": null
+              "captionRank": 5
             },
             {
               "captionName": "Artistry",
@@ -518,7 +518,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": null
+              "captionRank": 5
             }
           ],
           "subTotal": 0,
@@ -552,7 +552,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": null
+              "captionRank": 5
             },
             {
               "captionName": "Artistry",
@@ -576,7 +576,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": null
+              "captionRank": 5
             }
           ],
           "subTotal": 0,
@@ -618,8 +618,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 20.9,
+              "captionRank": 3
             },
             {
               "captionName": "Effect - Music",
@@ -642,8 +642,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 24.6,
+              "captionRank": 1
             },
             {
               "captionName": "Visual",
@@ -666,8 +666,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 16.6,
+              "captionRank": 1
             },
             {
               "captionName": "Effect - Visual",
@@ -690,8 +690,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 17,
+              "captionRank": 1
             }
           ],
           "subTotal": 0.2,
@@ -724,8 +724,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 22.2,
+              "captionRank": 1
             },
             {
               "captionName": "Effect - Music",
@@ -748,8 +748,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 22.95,
+              "captionRank": 2
             },
             {
               "captionName": "Visual",
@@ -772,8 +772,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 15.3,
+              "captionRank": 2
             },
             {
               "captionName": "Effect - Visual",
@@ -796,8 +796,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 15.1,
+              "captionRank": 2
             }
           ],
           "subTotal": 0.5,
@@ -830,8 +830,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 20.8,
+              "captionRank": 4
             },
             {
               "captionName": "Effect - Music",
@@ -854,8 +854,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 22.8,
+              "captionRank": 3
             },
             {
               "captionName": "Visual",
@@ -878,8 +878,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 15.2,
+              "captionRank": 3
             },
             {
               "captionName": "Effect - Visual",
@@ -902,8 +902,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 14.6,
+              "captionRank": 3
             }
           ],
           "subTotal": 0,
@@ -936,8 +936,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 21.4,
+              "captionRank": 2
             },
             {
               "captionName": "Effect - Music",
@@ -960,8 +960,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 20.7,
+              "captionRank": 5
             },
             {
               "captionName": "Visual",
@@ -984,8 +984,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 13.4,
+              "captionRank": 6
             },
             {
               "captionName": "Effect - Visual",
@@ -1008,8 +1008,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 14.2,
+              "captionRank": 4
             }
           ],
           "subTotal": 0,
@@ -1042,8 +1042,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 18.6,
+              "captionRank": 6
             },
             {
               "captionName": "Effect - Music",
@@ -1066,8 +1066,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 21.3,
+              "captionRank": 4
             },
             {
               "captionName": "Visual",
@@ -1090,8 +1090,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 14.6,
+              "captionRank": 4
             },
             {
               "captionName": "Effect - Visual",
@@ -1114,8 +1114,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 13.8,
+              "captionRank": 5
             }
           ],
           "subTotal": 0,
@@ -1148,8 +1148,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 19.2,
+              "captionRank": 5
             },
             {
               "captionName": "Effect - Music",
@@ -1172,8 +1172,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 19.05,
+              "captionRank": 7
             },
             {
               "captionName": "Visual",
@@ -1196,8 +1196,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 13.7,
+              "captionRank": 5
             },
             {
               "captionName": "Effect - Visual",
@@ -1220,8 +1220,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 13.6,
+              "captionRank": 6
             }
           ],
           "subTotal": 0.3,
@@ -1254,8 +1254,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 18.2,
+              "captionRank": 7
             },
             {
               "captionName": "Effect - Music",
@@ -1278,8 +1278,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 20.4,
+              "captionRank": 6
             },
             {
               "captionName": "Visual",
@@ -1302,8 +1302,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 13.2,
+              "captionRank": 7
             },
             {
               "captionName": "Effect - Visual",
@@ -1326,8 +1326,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 13.1,
+              "captionRank": 7
             }
           ],
           "subTotal": 7.05,
@@ -1369,8 +1369,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 41.9,
+              "captionRank": 2
             },
             {
               "captionName": "Artistry",
@@ -1393,8 +1393,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 41.4,
+              "captionRank": 2
             }
           ],
           "subTotal": 0,
@@ -1427,8 +1427,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 39.6,
+              "captionRank": 4
             },
             {
               "captionName": "Artistry",
@@ -1451,8 +1451,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 41.9,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -1485,8 +1485,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 40.4,
+              "captionRank": 3
             },
             {
               "captionName": "Artistry",
@@ -1509,8 +1509,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 40.5,
+              "captionRank": 4
             }
           ],
           "subTotal": 0,
@@ -1543,8 +1543,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 43.1,
+              "captionRank": 1
             },
             {
               "captionName": "Artistry",
@@ -1567,8 +1567,8 @@
                   "rank": 8
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 37.4,
+              "captionRank": 8
             }
           ],
           "subTotal": 0.75,
@@ -1601,8 +1601,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 38.1,
+              "captionRank": 5
             },
             {
               "captionName": "Artistry",
@@ -1625,8 +1625,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 40.3,
+              "captionRank": 6
             }
           ],
           "subTotal": 0,
@@ -1659,8 +1659,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 37.4,
+              "captionRank": 6
             },
             {
               "captionName": "Artistry",
@@ -1683,8 +1683,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 40.4,
+              "captionRank": 5
             }
           ],
           "subTotal": 0,
@@ -1717,8 +1717,8 @@
                   "rank": 8
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 36.1,
+              "captionRank": 8
             },
             {
               "captionName": "Artistry",
@@ -1741,8 +1741,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 41.3,
+              "captionRank": 3
             }
           ],
           "subTotal": 0.1,
@@ -1775,8 +1775,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 36.4,
+              "captionRank": 7
             },
             {
               "captionName": "Artistry",
@@ -1799,8 +1799,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 39.4,
+              "captionRank": 7
             }
           ],
           "subTotal": 0,
@@ -1842,8 +1842,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 23.8,
+              "captionRank": 2
             },
             {
               "captionName": "Effect - Music",
@@ -1866,8 +1866,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 23.85,
+              "captionRank": 2
             },
             {
               "captionName": "Visual",
@@ -1890,8 +1890,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 16.6,
+              "captionRank": 1
             },
             {
               "captionName": "Effect - Visual",
@@ -1914,8 +1914,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 16.4,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -1948,8 +1948,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 24.4,
+              "captionRank": 1
             },
             {
               "captionName": "Effect - Music",
@@ -1972,8 +1972,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 24.3,
+              "captionRank": 1
             },
             {
               "captionName": "Visual",
@@ -1996,8 +1996,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 15.9,
+              "captionRank": 2
             },
             {
               "captionName": "Effect - Visual",
@@ -2020,8 +2020,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 15.2,
+              "captionRank": 2
             }
           ],
           "subTotal": 0.2,
@@ -2063,8 +2063,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 24.2,
+              "captionRank": 1
             },
             {
               "captionName": "Effect - Music",
@@ -2087,8 +2087,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 24.75,
+              "captionRank": 1
             },
             {
               "captionName": "Visual",
@@ -2111,8 +2111,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 16.6,
+              "captionRank": 1
             },
             {
               "captionName": "Effect - Visual",
@@ -2135,8 +2135,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 16.3,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -2169,8 +2169,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 23.4,
+              "captionRank": 2
             },
             {
               "captionName": "Effect - Music",
@@ -2193,8 +2193,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 23.25,
+              "captionRank": 2
             },
             {
               "captionName": "Visual",
@@ -2217,8 +2217,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 15.4,
+              "captionRank": 2
             },
             {
               "captionName": "Effect - Visual",
@@ -2241,8 +2241,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 14.4,
+              "captionRank": 2
             }
           ],
           "subTotal": 0,

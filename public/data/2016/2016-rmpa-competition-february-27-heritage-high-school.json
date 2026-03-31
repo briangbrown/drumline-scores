@@ -41,7 +41,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": null
+              "captionRank": 0
             },
             {
               "captionName": "Artistry",
@@ -65,7 +65,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": null
+              "captionRank": 0
             }
           ],
           "subTotal": 0,
@@ -99,7 +99,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": null
+              "captionRank": 0
             },
             {
               "captionName": "Artistry",
@@ -123,7 +123,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": null
+              "captionRank": 0
             }
           ],
           "subTotal": 0,
@@ -165,8 +165,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 37.6,
+              "captionRank": 2
             },
             {
               "captionName": "Artistry",
@@ -189,8 +189,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 38.2,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -223,8 +223,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 39.2,
+              "captionRank": 1
             },
             {
               "captionName": "Artistry",
@@ -247,8 +247,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 36.2,
+              "captionRank": 3
             }
           ],
           "subTotal": 0,
@@ -281,8 +281,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 33.8,
+              "captionRank": 4
             },
             {
               "captionName": "Artistry",
@@ -305,8 +305,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 38,
+              "captionRank": 2
             }
           ],
           "subTotal": 0.75,
@@ -339,8 +339,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 35.5,
+              "captionRank": 3
             },
             {
               "captionName": "Artistry",
@@ -363,8 +363,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 34.1,
+              "captionRank": 5
             }
           ],
           "subTotal": 0.35,
@@ -397,8 +397,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 32.1,
+              "captionRank": 5
             },
             {
               "captionName": "Artistry",
@@ -421,8 +421,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 34.3,
+              "captionRank": 4
             }
           ],
           "subTotal": 0,
@@ -464,8 +464,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 28.4,
+              "captionRank": 1
             },
             {
               "captionName": "Music",
@@ -488,8 +488,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 30.3,
+              "captionRank": 1
             },
             {
               "captionName": "Visual",
@@ -512,8 +512,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 15.9,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -546,8 +546,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 26.4,
+              "captionRank": 2
             },
             {
               "captionName": "Music",
@@ -570,8 +570,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 27.8,
+              "captionRank": 2
             },
             {
               "captionName": "Visual",
@@ -594,8 +594,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 14.3,
+              "captionRank": 2
             }
           ],
           "subTotal": 0,
@@ -628,8 +628,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 22.8,
+              "captionRank": 3
             },
             {
               "captionName": "Music",
@@ -652,8 +652,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 22.35,
+              "captionRank": 3
             },
             {
               "captionName": "Visual",
@@ -676,8 +676,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 14,
+              "captionRank": 3
             }
           ],
           "subTotal": 0.25,
@@ -719,8 +719,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 43.7,
+              "captionRank": 1
             },
             {
               "captionName": "Artistry",
@@ -743,8 +743,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 38.8,
+              "captionRank": 2
             }
           ],
           "subTotal": 0,
@@ -777,8 +777,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 42.2,
+              "captionRank": 2
             },
             {
               "captionName": "Artistry",
@@ -801,8 +801,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 38.8,
+              "captionRank": 2
             }
           ],
           "subTotal": 0,
@@ -835,8 +835,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 41.4,
+              "captionRank": 3
             },
             {
               "captionName": "Artistry",
@@ -859,8 +859,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 39.8,
+              "captionRank": 1
             }
           ],
           "subTotal": 2,
@@ -893,8 +893,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 38.6,
+              "captionRank": 4
             },
             {
               "captionName": "Artistry",
@@ -917,8 +917,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 35.9,
+              "captionRank": 5
             }
           ],
           "subTotal": 0,
@@ -951,8 +951,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 36.4,
+              "captionRank": 5
             },
             {
               "captionName": "Artistry",
@@ -975,8 +975,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 37.2,
+              "captionRank": 4
             }
           ],
           "subTotal": 0,
@@ -1018,8 +1018,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 29.6,
+              "captionRank": 2
             },
             {
               "captionName": "Music",
@@ -1042,8 +1042,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 30.45,
+              "captionRank": 1
             },
             {
               "captionName": "Visual",
@@ -1066,8 +1066,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 16.3,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -1100,8 +1100,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 30.4,
+              "captionRank": 1
             },
             {
               "captionName": "Music",
@@ -1124,8 +1124,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 29.05,
+              "captionRank": 2
             },
             {
               "captionName": "Visual",
@@ -1148,8 +1148,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 15.3,
+              "captionRank": 3
             }
           ],
           "subTotal": 0,
@@ -1182,8 +1182,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 28.4,
+              "captionRank": 3
             },
             {
               "captionName": "Music",
@@ -1206,8 +1206,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 26.85,
+              "captionRank": 3
             },
             {
               "captionName": "Visual",
@@ -1230,8 +1230,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 15.7,
+              "captionRank": 2
             }
           ],
           "subTotal": 0,
@@ -1273,8 +1273,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 30.4,
+              "captionRank": 1
             },
             {
               "captionName": "Music",
@@ -1297,8 +1297,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 33.15,
+              "captionRank": 1
             },
             {
               "captionName": "Visual",
@@ -1321,8 +1321,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 15.2,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -1355,8 +1355,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 28.8,
+              "captionRank": 2
             },
             {
               "captionName": "Music",
@@ -1379,8 +1379,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 32.3,
+              "captionRank": 2
             },
             {
               "captionName": "Visual",
@@ -1403,8 +1403,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 12.1,
+              "captionRank": 2
             }
           ],
           "subTotal": 0,

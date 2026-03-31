@@ -121,6 +121,30 @@ describe('parseRecapHtml — 2025 PSA penalty not misread as subcaption (#16)', 
   })
 })
 
+describe('parseRecapHtml — caption totals inferred across eras', () => {
+  const testCases = [
+    { year: 2015, file: '2015-04-04_RMPA_Championships.html' },
+    { year: 2019, file: '2019-04-06_RMPA_State_Championships.html' },
+    { year: 2024, file: '2024-03-30_RMPA_Championships.html' },
+  ] as const
+
+  for (const { year, file } of testCases) {
+    it(`should have non-zero caption totals for ${year}`, () => {
+      const html = loadHtml(year, file)
+      const result = parseRecapHtml(html, year)
+      for (const cls of result.classes) {
+        for (const ens of cls.ensembles) {
+          for (const cap of ens.captions) {
+            if (cap.judges.length > 0 && cap.judges[0].total > 0) {
+              expect(cap.captionTotal, `${year} ${cls.classDef.name} ${ens.ensembleName} ${cap.captionName}`).toBeGreaterThan(0)
+            }
+          }
+        }
+      }
+    })
+  }
+})
+
 describe('parseRecapHtml — 2025 regional (single-judge caption totals)', () => {
   const html = loadHtml(2025, '2025-02-08_Regular_Season_Show_1.html')
   const result = parseRecapHtml(html, 2025)
@@ -134,6 +158,28 @@ describe('parseRecapHtml — 2025 regional (single-judge caption totals)', () =>
       expect(caption.captionTotal).toBeGreaterThan(0)
       expect(caption.captionTotal).toBe(caption.judges[0].total)
     }
+  })
+})
+
+describe('parseRecapHtml — 2022 virtual (multi-judge caption totals)', () => {
+  const html = loadHtml(2022, '2022-02-26_RMPA_Show_2_-_Virtual.html')
+  const result = parseRecapHtml(html, 2022)
+
+  it('should produce non-zero caption totals for multi-judge panels without a total column', () => {
+    const concert = result.classes.find((c) => c.classDef.name === 'Percussion Scholastic Concert Regional A')
+    expect(concert).toBeDefined()
+    if (!concert) return
+    const englewood = concert.ensembles.find((e) => /englewood/i.test(e.ensembleName))
+    expect(englewood).toBeDefined()
+    if (!englewood) return
+
+    const caption = englewood.captions[0]
+    expect(caption.judges).toHaveLength(2)
+    expect(caption.captionTotal).toBeCloseTo(67, 1)
+    expect(caption.captionTotal).toBeCloseTo(
+      caption.judges[0].total + caption.judges[1].total,
+      2,
+    )
   })
 })
 

@@ -515,6 +515,8 @@ function buildCaptionScore(
   } else if (judges.length === 1) {
     captionTotal = judges[0].total
     captionRank = judges[0].rank
+  } else if (judges.length > 1) {
+    captionTotal = judges.reduce((sum, j) => sum + j.total, 0)
   }
 
   // Remove consumed values from the front
