@@ -7,8 +7,8 @@ type StarButtonProps = {
 }
 
 const SIZE_CLASSES = {
-  sm: 'h-4 w-4 sm:h-5 sm:w-5',
-  md: 'h-6 w-6',
+  sm: 'h-3.5 w-3.5 sm:h-4 sm:w-4',
+  md: 'h-5 w-5',
 }
 
 export function StarButton({ isFavorited, onClick, size = 'sm' }: StarButtonProps) {
