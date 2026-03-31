@@ -25,8 +25,5 @@ function applyTheme(theme: Theme) {
   }
 }
 
-// Apply immediately on load (before React mounts) to prevent flash
-applyTheme(getStoredTheme())
-
 export { getStoredTheme, applyTheme, STORAGE_KEY }
 export type { Theme }
