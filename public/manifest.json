@@ -1,7 +1,7 @@
 {
   "id": "/",
-  "name": "RMPA Score Tracker",
-  "short_name": "ScoreTracker",
+  "name": "Drumline Scores",
+  "short_name": "Drumline",
   "description": "Drumline score visualization and tracking for the RMPA circuit",
   "display": "standalone",
   "start_url": "/",

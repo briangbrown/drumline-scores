@@ -45,9 +45,12 @@ export function Layout({
       {/* Header */}
       <header className="mb-6">
         <div className="flex items-center justify-between">
-          <h1 className="text-lg font-bold text-accent tracking-tight">
-            RMPA Score Tracker
-          </h1>
+          <a
+            href="#/"
+            className="text-lg font-bold text-accent tracking-tight hover:text-accent/80 transition-colors"
+          >
+            Drumline Scores
+          </a>
           <div className="flex items-center gap-1">
             <ShareButton />
             <SettingsButton />
@@ -122,6 +125,19 @@ export function Layout({
 
       {/* Main content */}
       <main>{children}</main>
+
+      {/* Disclaimer */}
+      <footer className="mt-8 pb-6 text-center text-xs text-text-muted">
+        Scores are unofficial. For official scores visit{' '}
+        <a
+          href="https://rmpa.org/scores"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-text-secondary transition-colors"
+        >
+          rmpa.org/scores
+        </a>
+      </footer>
     </div>
   )
 }
