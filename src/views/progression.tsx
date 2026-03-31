@@ -6,11 +6,11 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  ResponsiveContainer,
   Legend,
 } from 'recharts'
 import { Pill } from '../components/pill'
 import { Panel } from '../components/panel'
+import { ChartContainer } from '../components/chart-container'
 import { ChartTooltip } from '../components/chart-tooltip'
 import { StarButton } from '../components/star-button'
 import type { ShowMetadata, ClassResult } from '../types'
@@ -164,9 +164,9 @@ export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavor
 
       {/* Progression Chart */}
       <Panel title={`${activeCaption} Progression`}>
-        <div className="h-[300px] sm:h-[400px]">
-          <ResponsiveContainer width="100%" height="100%" minWidth={0}>
-            <LineChart data={chartData} margin={{ top: 5, right: 5, bottom: 5, left: 0 }}>
+        <ChartContainer className="h-[300px] sm:h-[400px]">
+          {(width, height) => (
+            <LineChart data={chartData} width={width} height={height} margin={{ top: 5, right: 5, bottom: 5, left: 0 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border-grid)" />
               <XAxis
                 dataKey="show"
@@ -197,8 +197,8 @@ export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavor
                 />
               ))}
             </LineChart>
-          </ResponsiveContainer>
-        </div>
+          )}
+        </ChartContainer>
       </Panel>
 
       {/* Season Summary Table */}

@@ -6,10 +6,10 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  ResponsiveContainer,
   ReferenceLine,
 } from 'recharts'
 import { Panel } from '../components/panel'
+import { ChartContainer } from '../components/chart-container'
 import { ChartTooltip } from '../components/chart-tooltip'
 import { useCrossSeason } from '../hooks/use-cross-season'
 import { Loading, ErrorMessage } from '../components/loading'
@@ -164,9 +164,9 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
         <>
           {/* Score Trajectory Chart */}
           <Panel title="Score Trajectory">
-            <div className="h-[300px] sm:h-[350px]">
-              <ResponsiveContainer width="100%" height="100%" minWidth={0}>
-                <LineChart data={chartData} margin={{ top: 5, right: 10, bottom: 5, left: 0 }}>
+            <ChartContainer className="h-[300px] sm:h-[350px]">
+              {(width, height) => (
+                <LineChart data={chartData} width={width} height={height} margin={{ top: 5, right: 10, bottom: 5, left: 0 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border-grid)" />
                   <XAxis
                     dataKey="year"
@@ -197,8 +197,8 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
                     connectNulls
                   />
                 </LineChart>
-              </ResponsiveContainer>
-            </div>
+              )}
+            </ChartContainer>
           </Panel>
 
           {/* Season-over-Season Summary */}

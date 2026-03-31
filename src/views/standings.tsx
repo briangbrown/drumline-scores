@@ -6,11 +6,11 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  ResponsiveContainer,
   Cell,
 } from 'recharts'
 import { Pill } from '../components/pill'
 import { Panel } from '../components/panel'
+import { ChartContainer } from '../components/chart-container'
 import { ChartTooltip } from '../components/chart-tooltip'
 import { StarButton } from '../components/star-button'
 import { RecapView } from './recap'
@@ -139,10 +139,12 @@ export function StandingsView({
 
           {/* Score Comparison Bar Chart */}
           <Panel title="Score Comparison">
-            <div className="h-[250px] sm:h-[300px]">
-              <ResponsiveContainer width="100%" height="100%" minWidth={0}>
+            <ChartContainer className="h-[250px] sm:h-[300px]">
+              {(width, height) => (
                 <BarChart
                   data={comparisonData}
+                  width={width}
+                  height={height}
                   layout="vertical"
                   margin={{ top: 5, right: 10, bottom: 5, left: 0 }}
                 >
@@ -171,17 +173,19 @@ export function StandingsView({
                     ))}
                   </Bar>
                 </BarChart>
-              </ResponsiveContainer>
-            </div>
+              )}
+            </ChartContainer>
           </Panel>
 
           {/* Caption Breakdown Stacked Bar */}
           {captionNames.length > 0 && (
             <Panel title="Caption Breakdown">
-              <div className="h-[250px] sm:h-[300px]">
-                <ResponsiveContainer width="100%" height="100%" minWidth={0}>
+              <ChartContainer className="h-[250px] sm:h-[300px]">
+                {(width, height) => (
                   <BarChart
                     data={captionData}
+                    width={width}
+                    height={height}
                     layout="vertical"
                     margin={{ top: 5, right: 10, bottom: 5, left: 0 }}
                   >
@@ -208,8 +212,8 @@ export function StandingsView({
                       />
                     ))}
                   </BarChart>
-                </ResponsiveContainer>
-              </div>
+                )}
+              </ChartContainer>
 
               {/* Caption legend */}
               <div className="mt-3 flex flex-wrap gap-3">

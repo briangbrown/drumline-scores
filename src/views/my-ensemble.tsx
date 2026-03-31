@@ -164,7 +164,7 @@ export function MyEnsembleView({
 
               return (
                 <div
-                  key={s.showDate}
+                  key={`${s.showDate}-${s.classId}`}
                   className="flex items-center justify-between border-b border-border/50 pb-2 last:border-0"
                 >
                   <div className="min-w-0">
