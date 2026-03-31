@@ -70,7 +70,7 @@ export function Layout({
 
         {/* Class selector */}
         {classes.length > 0 && (
-          <div className="mt-3 flex gap-2 overflow-x-auto pb-1 scrollbar-none">
+          <div className="mt-3 -mx-1 flex gap-2 overflow-x-auto px-1 pt-1 pb-1 scrollbar-none">
             {favorite && (
               <Pill
                 label={<span className="flex items-center gap-1.5"><Star className="h-3 w-3" fill="currentColor" />My Ensemble</span>}
