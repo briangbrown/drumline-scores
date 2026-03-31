@@ -92,7 +92,9 @@ export function App() {
       {/* My Ensemble view */}
       {isShowingMyEnsemble && (
         <MyEnsembleView
+          key={route.year}
           favorite={favorite}
+          year={route.year}
           shows={shows}
           onRemoveFavorite={removeFavorite}
           onViewClass={handleViewClass}

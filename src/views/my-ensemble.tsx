@@ -7,6 +7,7 @@ import type { FavoriteEnsemble } from '../favorites'
 
 type MyEnsembleViewProps = {
   favorite: FavoriteEnsemble
+  year: number
   shows: Array<ShowData>
   onRemoveFavorite: () => void
   onViewClass: (classId: string) => void
@@ -14,6 +15,7 @@ type MyEnsembleViewProps = {
 
 export function MyEnsembleView({
   favorite,
+  year,
   shows,
   onRemoveFavorite,
   onViewClass,
@@ -61,7 +63,11 @@ export function MyEnsembleView({
       className: string
     }> = []
 
-    for (const show of shows) {
+    // Filter to only shows matching the selected year to prevent stale
+    // cross-year data from leaking in during rapid year switching
+    const yearShows = shows.filter((s) => s.metadata.year === year)
+
+    for (const show of yearShows) {
       for (const cls of show.classes) {
         const ensemble = cls.ensembles.find((e) => nameVariants.has(e.ensembleName))
         if (ensemble) {
@@ -83,7 +89,7 @@ export function MyEnsembleView({
     // Find ensembles ranked immediately above and below in latest show
     let nearby: Array<{ name: string; total: number; rank: number }> = []
     if (latest) {
-      const latestShow = shows[shows.length - 1]
+      const latestShow = yearShows[yearShows.length - 1]
       const cls = latestShow?.classes.find((c) => c.classDef.id === latest.classId)
       if (cls) {
         const sorted = [...cls.ensembles].sort((a, b) => a.rank - b.rank)
@@ -106,7 +112,7 @@ export function MyEnsembleView({
       nearbyEnsembles: nearby,
       latestClassId: latest?.classId ?? favorite.classId,
     }
-  }, [shows, favorite.classId, nameVariants])
+  }, [shows, year, favorite.classId, nameVariants])
 
   const growth = seasonScores.length > 1
     ? seasonScores[seasonScores.length - 1].total - seasonScores[0].total
