@@ -121,6 +121,22 @@ describe('parseRecapHtml — 2025 PSA penalty not misread as subcaption (#16)', 
   })
 })
 
+describe('parseRecapHtml — 2025 regional (single-judge caption totals)', () => {
+  const html = loadHtml(2025, '2025-02-08_Regular_Season_Show_1.html')
+  const result = parseRecapHtml(html, 2025)
+
+  it('should produce non-zero caption totals for single-judge regional shows', () => {
+    const firstClass = result.classes[0]
+    expect(firstClass.ensembles.length).toBeGreaterThan(0)
+    const firstEnsemble = firstClass.ensembles[0]
+    for (const caption of firstEnsemble.captions) {
+      expect(caption.judges).toHaveLength(1)
+      expect(caption.captionTotal).toBeGreaterThan(0)
+      expect(caption.captionTotal).toBe(caption.judges[0].total)
+    }
+  })
+})
+
 describe('parseRecapHtml — 2023 (Era 2, header-division-name class)', () => {
   const html = loadHtml(2023, '2023-04-15_RMPA_Championships.html')
   const result = parseRecapHtml(html, 2023)
