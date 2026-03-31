@@ -1,6 +1,7 @@
 import type { ReactNode, Ref } from 'react'
 import { Pill } from './components/pill'
 import { SettingsButton } from './components/settings-dialog'
+import { ShareButton } from './components/share-button'
 import type { SeasonMetadata } from './types'
 import type { ViewType } from './router'
 import type { FavoriteEnsemble } from './favorites'
@@ -46,7 +47,10 @@ export function Layout({
           <h1 className="text-lg font-bold text-accent tracking-tight">
             RMPA Score Tracker
           </h1>
-          <SettingsButton />
+          <div className="flex items-center gap-1">
+            <ShareButton />
+            <SettingsButton />
+          </div>
         </div>
 
         {/* Year selector */}

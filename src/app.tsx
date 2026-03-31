@@ -10,6 +10,7 @@ import { MyEnsembleView } from './views/my-ensemble'
 import { Loading, ErrorMessage } from './components/loading'
 import { InstallBanner } from './components/install-banner'
 import { OfflineIndicator } from './components/offline-indicator'
+import { ToastProvider } from './components/toast'
 
 export function App() {
   const { route, setClassId, setView, setShowId, updateRoute } = useRoute()
@@ -138,6 +139,7 @@ export function App() {
         </div>
       )}
     </Layout>
+    <ToastProvider />
     </>
   )
 }
