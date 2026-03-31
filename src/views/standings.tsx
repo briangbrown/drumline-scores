@@ -140,7 +140,7 @@ export function StandingsView({
           {/* Score Comparison Bar Chart */}
           <Panel title="Score Comparison">
             <div className="h-[250px] sm:h-[300px]">
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer width="100%" height="100%" minWidth={0}>
                 <BarChart
                   data={comparisonData}
                   layout="vertical"
@@ -179,7 +179,7 @@ export function StandingsView({
           {captionNames.length > 0 && (
             <Panel title="Caption Breakdown">
               <div className="h-[250px] sm:h-[300px]">
-                <ResponsiveContainer width="100%" height="100%">
+                <ResponsiveContainer width="100%" height="100%" minWidth={0}>
                   <BarChart
                     data={captionData}
                     layout="vertical"
