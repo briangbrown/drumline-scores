@@ -79,7 +79,7 @@ export function InstallBanner() {
     return (
       <div className="mx-auto max-w-[920px] px-4 mb-4">
         <div className="flex items-center justify-between rounded-lg border border-accent/30 bg-accent/10 px-4 py-3 text-xs">
-          <span>Install RMPA Score Tracker for quick access</span>
+          <span>Install Drumline Scores for quick access</span>
           <div className="flex items-center gap-2 ml-3">
             <button
               onClick={handleInstall}

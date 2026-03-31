@@ -1,5 +1,5 @@
 // ---------------------------------------------------------------------------
-// Service Worker — RMPA Score Tracker
+// Service Worker — Drumline Scores
 //
 // Cache strategies:
 //   App shell (HTML, CSS, JS, fonts): cache-first
