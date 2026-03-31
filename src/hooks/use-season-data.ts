@@ -51,7 +51,7 @@ export function useSeasonData(year: number): SeasonDataState {
   useEffect(() => {
     let cancelled = false
 
-    setState((prev) => ({ ...prev, isLoading: true, error: null }))
+    setState((prev) => ({ ...prev, isLoading: true, error: null, shows: [], season: null }))
 
     Promise.all([
       loadSeasonMetadata(year),
