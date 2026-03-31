@@ -165,7 +165,7 @@ export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavor
       {/* Progression Chart */}
       <Panel title={`${activeCaption} Progression`}>
         <div className="h-[300px] sm:h-[400px]">
-          <ResponsiveContainer width="100%" height="100%">
+          <ResponsiveContainer width="100%" height="100%" minWidth={0}>
             <LineChart data={chartData} margin={{ top: 5, right: 5, bottom: 5, left: 0 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border-grid)" />
               <XAxis
