@@ -73,7 +73,7 @@ export function Layout({
           <div className="mt-3 flex gap-2 overflow-x-auto pb-1 scrollbar-none">
             {favorite && (
               <Pill
-                label={<span className="flex items-center gap-1"><Star className="h-3 w-3" fill="currentColor" />My Ensemble</span>}
+                label={<span className="flex items-center gap-1.5"><Star className="h-3 w-3" fill="currentColor" />My Ensemble</span>}
                 isActive={!classId}
                 onClick={onShowMyEnsemble}
                 ref={myEnsembleRef}
