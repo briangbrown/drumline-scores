@@ -1,5 +1,6 @@
 import type { ReactNode, Ref } from 'react'
 import { Pill } from './components/pill'
+import { SettingsMenu } from './components/settings-menu'
 import type { SeasonMetadata } from './types'
 import type { ViewType } from './router'
 import type { FavoriteEnsemble } from './favorites'
@@ -41,9 +42,12 @@ export function Layout({
     <div className="mx-auto max-w-[920px] px-4 py-4">
       {/* Header */}
       <header className="mb-6">
-        <h1 className="text-lg font-bold text-accent tracking-tight">
-          RMPA Score Tracker
-        </h1>
+        <div className="flex items-center justify-between">
+          <h1 className="text-lg font-bold text-accent tracking-tight">
+            RMPA Score Tracker
+          </h1>
+          <SettingsMenu />
+        </div>
 
         {/* Year selector */}
         {years.length > 1 && (

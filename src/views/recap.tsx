@@ -2,19 +2,19 @@ import { useMemo } from 'react'
 import { Panel } from '../components/panel'
 import type { EnsembleScore, ClassResult } from '../types'
 
-// Caption colors matching the design system
+// Caption colors from the theme — accessed as CSS variables for theme support
 const CAPTION_COLORS: Record<string, string> = {
-  'Effect – Music': '#cc7a5a',
-  'Effect - Music': '#cc7a5a',
-  'Effect – Visual': '#6aab8e',
-  'Effect - Visual': '#6aab8e',
-  'Effect': '#cc7a5a',
-  'Music': '#c4985a',
-  'Visual': '#8a7ab8',
-  'Artistry': '#6aab8e',
+  'Effect – Music': 'var(--color-cap-em)',
+  'Effect - Music': 'var(--color-cap-em)',
+  'Effect – Visual': 'var(--color-cap-ev)',
+  'Effect - Visual': 'var(--color-cap-ev)',
+  'Effect': 'var(--color-cap-em)',
+  'Music': 'var(--color-cap-m)',
+  'Visual': 'var(--color-cap-v)',
+  'Artistry': 'var(--color-cap-ev)',
 }
 
-const DEFAULT_CAPTION_COLOR = '#808096'
+const DEFAULT_CAPTION_COLOR = 'var(--color-text-muted)'
 
 type RecapViewProps = {
   ensemble: EnsembleScore
