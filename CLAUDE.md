@@ -99,6 +99,12 @@ export function ScoreCard() {}
 export const calcCaptionScore = () => {}
 ```
 
+### Icons
+
+- Use **[Lucide React](https://lucide.dev/)** (`lucide-react`) for all icons. Do not use inline SVGs or other icon libraries.
+- Import icons by name: `import { Settings, Share2, X } from 'lucide-react'`
+- Size icons with Tailwind classes: `<Settings className="h-5 w-5" />`
+
 ### CSS & Styling
 
 - Use **Tailwind CSS v4** utility classes for all layout and styling.
