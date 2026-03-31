@@ -47,13 +47,26 @@ export async function loadShowData(year: number, showId: string): Promise<ShowDa
 }
 
 /**
+ * Parse a show date string into a Date for sorting.
+ * Handles formats like "Saturday, February 27, 2016 - Heritage High School"
+ * and "Saturday, April 6, 2019".
+ */
+export function parseShowDate(dateStr: string): Date {
+  const withoutDay = dateStr.replace(/^\w+,\s*/, '')
+  const withoutVenue = withoutDay.replace(/\s*-\s*.*$/, '')
+  return new Date(withoutVenue)
+}
+
+/**
  * Load all shows for a season (for progression view).
+ * Shows are sorted chronologically by date.
  */
 export async function loadAllShowsForSeason(year: number): Promise<Array<ShowData>> {
   const season = await loadSeasonMetadata(year)
   const shows = await Promise.all(
     season.shows.map((show) => loadShowData(year, show.id)),
   )
+  shows.sort((a, b) => parseShowDate(a.metadata.date).getTime() - parseShowDate(b.metadata.date).getTime())
   return shows
 }
 
