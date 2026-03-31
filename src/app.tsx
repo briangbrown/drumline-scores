@@ -1,4 +1,4 @@
-import { useEffect, useCallback } from 'react'
+import { useEffect, useCallback, useRef, useState } from 'react'
 import { Layout } from './layout'
 import { useRoute } from './hooks/use-route'
 import { useSeasonData } from './hooks/use-season-data'
@@ -15,6 +15,8 @@ export function App() {
   const { route, setClassId, setView, setShowId, updateRoute } = useRoute()
   const { years, season, shows, isLoading, error } = useSeasonData(route.year)
   const { favorite, favoriteNames, toggleFavorite, removeFavorite } = useFavorite()
+  const myEnsembleRef = useRef<HTMLButtonElement>(null)
+  const [isMyEnsembleFlashing, setIsMyEnsembleFlashing] = useState(false)
 
   // When year changes, reset class and show selection
   const handleYearChange = useCallback((year: number) => {
@@ -33,10 +35,19 @@ export function App() {
     updateRoute({ classId, view: 'standings' })
   }, [updateRoute])
 
-  // Toggle favorite from standings view
+  // Toggle favorite — flash My Ensemble chip when a new favorite is set
   const handleToggleFavorite = useCallback((ensembleName: string) => {
+    const wasFavorited = favoriteNames.has(ensembleName)
     toggleFavorite(ensembleName, route.classId)
-  }, [toggleFavorite, route.classId])
+    if (!wasFavorited) {
+      // Wait for the pill to render, then scroll + flash
+      requestAnimationFrame(() => {
+        myEnsembleRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' })
+        setIsMyEnsembleFlashing(true)
+        setTimeout(() => setIsMyEnsembleFlashing(false), 1200)
+      })
+    }
+  }, [toggleFavorite, route.classId, favoriteNames])
 
   // Get shows filtered to the selected class
   const classShows = shows
@@ -71,6 +82,8 @@ export function App() {
       onViewChange={setView}
       favorite={favorite}
       onShowMyEnsemble={() => updateRoute({ classId: '' })}
+      myEnsembleRef={myEnsembleRef}
+      isMyEnsembleFlashing={isMyEnsembleFlashing}
     >
       {isLoading && <Loading />}
       {error && <ErrorMessage message={error} />}
