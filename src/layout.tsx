@@ -1,4 +1,5 @@
 import type { ReactNode, Ref } from 'react'
+import { Star } from 'lucide-react'
 import { Pill } from './components/pill'
 import { SettingsButton } from './components/settings-dialog'
 import { ShareButton } from './components/share-button'
@@ -72,7 +73,7 @@ export function Layout({
           <div className="mt-3 flex gap-2 overflow-x-auto pb-1 scrollbar-none">
             {favorite && (
               <Pill
-                label={`\u2605 My Ensemble`}
+                label={<span className="flex items-center gap-1"><Star className="h-3 w-3" fill="currentColor" />My Ensemble</span>}
                 isActive={!classId}
                 onClick={onShowMyEnsemble}
                 ref={myEnsembleRef}

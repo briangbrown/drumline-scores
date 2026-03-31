@@ -1,7 +1,7 @@
-import type { Ref } from 'react'
+import type { ReactNode, Ref } from 'react'
 
 type PillProps = {
-  label: string
+  label: ReactNode
   isActive: boolean
   onClick: () => void
   ref?: Ref<HTMLButtonElement>
