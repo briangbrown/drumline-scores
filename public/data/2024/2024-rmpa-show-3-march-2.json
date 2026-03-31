@@ -40,8 +40,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -50,17 +50,17 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 71,
+                      "key": "Prog",
+                      "rawScore": 76,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36.5,
+                      "key": "Ful",
+                      "rawScore": 71,
                       "rank": 1
                     }
                   ],
-                  "total": 72.1,
+                  "total": 36.5,
                   "rank": 1
                 }
               ],
@@ -98,8 +98,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 68,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -108,17 +108,17 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 70,
-                      "rank": 2
+                      "key": "Prog",
+                      "rawScore": 68,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 34.6,
+                      "key": "Ful",
+                      "rawScore": 70,
                       "rank": 2
                     }
                   ],
-                  "total": 67.7,
+                  "total": 34.6,
                   "rank": 2
                 }
               ],
@@ -156,8 +156,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 67,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -166,18 +166,18 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 67,
-                      "rank": 3
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 33.5,
-                      "rank": 4
+                      "key": "Ful",
+                      "rawScore": 67,
+                      "rank": 3
                     }
                   ],
-                  "total": 67,
-                  "rank": 3
+                  "total": 33.5,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -214,8 +214,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -224,18 +224,18 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 66,
-                      "rank": 4
+                      "key": "Prog",
+                      "rawScore": 71,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 34,
-                      "rank": 3
+                      "key": "Ful",
+                      "rawScore": 66,
+                      "rank": 4
                     }
                   ],
-                  "total": 66.8,
-                  "rank": 4
+                  "total": 34,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -281,8 +281,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -291,21 +291,21 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 73,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36.5,
+                      "key": "Ful",
+                      "rawScore": 73,
                       "rank": 1
                     }
                   ],
-                  "total": 72.1,
+                  "total": 36.5,
                   "rank": 1
                 }
               ],
-              "captionTotal": 2.35,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -339,8 +339,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 67,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -349,17 +349,17 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 70,
+                      "key": "Prog",
+                      "rawScore": 67,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 34.4,
+                      "key": "Ful",
+                      "rawScore": 70,
                       "rank": 2
                     }
                   ],
-                  "total": 65.8,
+                  "total": 34.4,
                   "rank": 2
                 }
               ],
@@ -398,7 +398,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 3
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -407,12 +407,12 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 0,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 0,
                       "rank": 3
                     }
@@ -464,8 +464,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -475,21 +475,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 72,
+                      "rawScore": 73,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 14.5,
+                      "key": "Vis",
+                      "rawScore": 72,
                       "rank": 1
                     }
                   ],
-                  "total": 70,
-                  "rank": 4
+                  "total": 14.5,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 68,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -498,22 +498,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 20.6,
-                      "rank": 3
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 71,
-                      "rank": 1
+                      "key": "Perf",
+                      "rawScore": 68,
+                      "rank": 3
                     }
                   ],
-                  "total": 70,
-                  "rank": 1
+                  "total": 20.6,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 14.1,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -522,17 +522,17 @@
                   "judgeName": "C. Craig",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 72.75,
+                      "key": "Comp",
+                      "rawScore": 71,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0.9,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 1
                     }
                   ],
-                  "total": 71.85,
+                  "total": 14.1,
                   "rank": 1
                 }
               ],
@@ -570,8 +570,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -581,21 +581,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 67,
+                      "rawScore": 70,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 13.7,
+                      "key": "Vis",
+                      "rawScore": 67,
                       "rank": 4
                     }
                   ],
-                  "total": 74,
-                  "rank": 1
+                  "total": 13.7,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -604,22 +604,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 21.4,
+                      "key": "Comp",
+                      "rawScore": 74,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 68,
-                      "rank": 3
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 1
                     }
                   ],
-                  "total": 64,
-                  "rank": 5
+                  "total": 21.4,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 13.2,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -628,18 +628,18 @@
                   "judgeName": "C. Craig",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 70.95,
-                      "rank": 2
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 5
                     }
                   ],
-                  "total": 70.95,
-                  "rank": 2
+                  "total": 13.2,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -676,8 +676,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -687,21 +687,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 68,
+                      "rawScore": 71,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 13.9,
+                      "key": "Vis",
+                      "rawScore": 68,
                       "rank": 3
                     }
                   ],
-                  "total": 71,
+                  "total": 13.9,
                   "rank": 3
                 }
               ],
-              "captionTotal": 69,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -710,22 +710,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 20.9,
-                      "rank": 2
+                      "key": "Comp",
+                      "rawScore": 71,
+                      "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 69,
                       "rank": 2
                     }
                   ],
-                  "total": 68,
+                  "total": 20.9,
                   "rank": 2
                 }
               ],
-              "captionTotal": 13.7,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -734,18 +734,18 @@
                   "judgeName": "C. Craig",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 70.1,
-                      "rank": 3
+                      "key": "Comp",
+                      "rawScore": 69,
+                      "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 68,
+                      "rank": 2
                     }
                   ],
-                  "total": 70.1,
-                  "rank": 3
+                  "total": 13.7,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -782,8 +782,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -793,21 +793,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 70,
+                      "rawScore": 72,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 14.2,
+                      "key": "Vis",
+                      "rawScore": 70,
                       "rank": 2
                     }
                   ],
-                  "total": 72,
+                  "total": 14.2,
                   "rank": 2
                 }
               ],
-              "captionTotal": 64,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -816,22 +816,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 20,
-                      "rank": 5
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 65,
-                      "rank": 5
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 6
                     }
                   ],
-                  "total": 62,
-                  "rank": 6
+                  "total": 20,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 12.7,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -840,18 +840,18 @@
                   "judgeName": "C. Craig",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 69.4,
-                      "rank": 4
+                      "key": "Comp",
+                      "rawScore": 65,
+                      "rank": 5
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 62,
+                      "rank": 6
                     }
                   ],
-                  "total": 69.4,
-                  "rank": 4
+                  "total": 12.7,
+                  "rank": 6
                 }
               ],
               "captionTotal": 0,
@@ -888,8 +888,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 62,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -899,21 +899,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 61,
+                      "rawScore": 62,
                       "rank": 7
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 12.3,
+                      "key": "Vis",
+                      "rawScore": 61,
                       "rank": 7
                     }
                   ],
-                  "total": 68,
-                  "rank": 5
+                  "total": 12.3,
+                  "rank": 7
                 }
               ],
-              "captionTotal": 67,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -922,22 +922,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 20.2,
-                      "rank": 4
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 67,
                       "rank": 4
                     }
                   ],
-                  "total": 67,
-                  "rank": 3
+                  "total": 20.2,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 13.4,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -946,18 +946,18 @@
                   "judgeName": "C. Craig",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 67.65,
-                      "rank": 5
+                      "key": "Comp",
+                      "rawScore": 67,
+                      "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 67,
+                      "rank": 3
                     }
                   ],
-                  "total": 67.65,
-                  "rank": 5
+                  "total": 13.4,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -994,8 +994,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 64,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1009,17 +1009,17 @@
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 12.8,
+                      "key": "Vis",
+                      "rawScore": 64,
                       "rank": 5
                     }
                   ],
-                  "total": 66,
-                  "rank": 6
+                  "total": 12.8,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 66,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1028,22 +1028,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 19.8,
+                      "key": "Comp",
+                      "rawScore": 66,
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 63,
-                      "rank": 6
+                      "key": "Perf",
+                      "rawScore": 66,
+                      "rank": 5
                     }
                   ],
-                  "total": 65,
-                  "rank": 4
+                  "total": 19.8,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 12.8,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1052,18 +1052,18 @@
                   "judgeName": "C. Craig",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 66.1,
+                      "key": "Comp",
+                      "rawScore": 63,
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 65,
+                      "rank": 4
                     }
                   ],
-                  "total": 66.1,
-                  "rank": 6
+                  "total": 12.8,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -1100,8 +1100,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 63,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1111,21 +1111,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 62,
+                      "rawScore": 63,
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 12.5,
+                      "key": "Vis",
+                      "rawScore": 62,
                       "rank": 6
                     }
                   ],
-                  "total": 64,
-                  "rank": 7
+                  "total": 12.5,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 62,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1134,22 +1134,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 18.8,
+                      "key": "Comp",
+                      "rawScore": 64,
                       "rank": 7
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 61,
+                      "key": "Perf",
+                      "rawScore": 62,
                       "rank": 7
                     }
                   ],
-                  "total": 60,
+                  "total": 18.8,
                   "rank": 7
                 }
               ],
-              "captionTotal": 12.1,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1158,17 +1158,17 @@
                   "judgeName": "C. Craig",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 62.45,
+                      "key": "Comp",
+                      "rawScore": 61,
                       "rank": 7
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 1.1,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 60,
+                      "rank": 7
                     }
                   ],
-                  "total": 61.35,
+                  "total": 12.1,
                   "rank": 7
                 }
               ],
@@ -1215,8 +1215,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1225,18 +1225,18 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78,
+                      "key": "Prog",
+                      "rawScore": 80,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 39.4,
+                      "key": "Ful",
+                      "rawScore": 78,
                       "rank": 1
                     }
                   ],
-                  "total": 78.1,
-                  "rank": 2
+                  "total": 39.4,
+                  "rank": 1
                 }
               ],
               "captionTotal": 0,
@@ -1273,8 +1273,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1283,21 +1283,21 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76,
+                      "key": "Prog",
+                      "rawScore": 79,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38.6,
+                      "key": "Ful",
+                      "rawScore": 76,
                       "rank": 2
                     }
                   ],
-                  "total": 78.4,
-                  "rank": 1
+                  "total": 38.6,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 2.2,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1340,8 +1340,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1350,17 +1350,17 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 82,
+                      "key": "Prog",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.4,
+                      "key": "Ful",
+                      "rawScore": 82,
                       "rank": 1
                     }
                   ],
-                  "total": 81.9,
+                  "total": 41.4,
                   "rank": 1
                 }
               ],
@@ -1398,8 +1398,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1408,17 +1408,17 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78,
+                      "key": "Prog",
+                      "rawScore": 79,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 39.2,
+                      "key": "Ful",
+                      "rawScore": 78,
                       "rank": 2
                     }
                   ],
-                  "total": 78.6,
+                  "total": 39.2,
                   "rank": 2
                 }
               ],
@@ -1456,8 +1456,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1466,17 +1466,17 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 77,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38.5,
+                      "key": "Ful",
+                      "rawScore": 77,
                       "rank": 3
                     }
                   ],
-                  "total": 75.1,
+                  "total": 38.5,
                   "rank": 3
                 }
               ],
@@ -1523,8 +1523,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1534,21 +1534,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 82,
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 16.5,
+                      "key": "Vis",
+                      "rawScore": 82,
                       "rank": 1
                     }
                   ],
-                  "total": 84,
+                  "total": 16.5,
                   "rank": 1
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1557,22 +1557,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 24.4,
+                      "key": "Comp",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 82,
-                      "rank": 2
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 1
                     }
                   ],
-                  "total": 84,
-                  "rank": 2
+                  "total": 24.4,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 16.6,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1581,18 +1581,18 @@
                   "judgeName": "C. Craig",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 83,
-                      "rank": 1
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 2
                     }
                   ],
-                  "total": 83,
-                  "rank": 1
+                  "total": 16.6,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -1629,8 +1629,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1640,21 +1640,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 76,
+                      "rawScore": 79,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 15.5,
+                      "key": "Vis",
+                      "rawScore": 76,
                       "rank": 2
                     }
                   ],
-                  "total": 79,
+                  "total": 15.5,
                   "rank": 2
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1663,22 +1663,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 23.7,
+                      "key": "Comp",
+                      "rawScore": 79,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 85,
-                      "rank": 1
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 2
                     }
                   ],
-                  "total": 85,
-                  "rank": 1
+                  "total": 23.7,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 17,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1687,18 +1687,18 @@
                   "judgeName": "C. Craig",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 80.95,
-                      "rank": 2
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 1
                     }
                   ],
-                  "total": 80.95,
-                  "rank": 2
+                  "total": 17,
+                  "rank": 1
                 }
               ],
               "captionTotal": 0,
@@ -1735,8 +1735,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1750,17 +1750,17 @@
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 15,
+                      "key": "Vis",
+                      "rawScore": 75,
                       "rank": 3
                     }
                   ],
-                  "total": 72,
+                  "total": 15,
                   "rank": 3
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1769,22 +1769,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 21.6,
+                      "key": "Comp",
+                      "rawScore": 72,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 72,
                       "rank": 3
                     }
                   ],
-                  "total": 74,
+                  "total": 21.6,
                   "rank": 3
                 }
               ],
-              "captionTotal": 14.6,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1793,17 +1793,17 @@
                   "judgeName": "C. Craig",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 74.75,
+                      "key": "Comp",
+                      "rawScore": 72,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 3
                     }
                   ],
-                  "total": 74.75,
+                  "total": 14.6,
                   "rank": 3
                 }
               ],
@@ -1850,8 +1850,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1860,17 +1860,17 @@
                   "judgeName": "C. Stephen",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78,
+                      "key": "Prog",
+                      "rawScore": 81,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 39.6,
+                      "key": "Ful",
+                      "rawScore": 78,
                       "rank": 1
                     }
                   ],
-                  "total": 78.8,
+                  "total": 39.6,
                   "rank": 1
                 }
               ],
@@ -1917,8 +1917,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1928,21 +1928,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 76,
+                      "rawScore": 78,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 15.4,
+                      "key": "Vis",
+                      "rawScore": 76,
                       "rank": 2
                     }
                   ],
-                  "total": 81,
-                  "rank": 1
+                  "total": 15.4,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1951,22 +1951,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 23.9,
+                      "key": "Comp",
+                      "rawScore": 81,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 81,
+                      "key": "Perf",
+                      "rawScore": 79,
                       "rank": 1
                     }
                   ],
-                  "total": 80,
+                  "total": 23.9,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.1,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1975,17 +1975,17 @@
                   "judgeName": "C. Craig",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 79.7,
+                      "key": "Comp",
+                      "rawScore": 81,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 1
                     }
                   ],
-                  "total": 79.7,
+                  "total": 16.1,
                   "rank": 1
                 }
               ],
@@ -2023,8 +2023,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2034,21 +2034,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 74,
+                      "rawScore": 77,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 15.1,
+                      "key": "Vis",
+                      "rawScore": 74,
                       "rank": 3
                     }
                   ],
-                  "total": 80,
-                  "rank": 2
+                  "total": 15.1,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -2057,22 +2057,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 23.6,
+                      "key": "Comp",
+                      "rawScore": 80,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 79,
+                      "key": "Perf",
+                      "rawScore": 78,
                       "rank": 2
                     }
                   ],
-                  "total": 79,
+                  "total": 23.6,
                   "rank": 2
                 }
               ],
-              "captionTotal": 15.8,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2081,17 +2081,17 @@
                   "judgeName": "C. Craig",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 79.1,
+                      "key": "Comp",
+                      "rawScore": 79,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 2
                     }
                   ],
-                  "total": 79.1,
+                  "total": 15.8,
                   "rank": 2
                 }
               ],
@@ -2129,8 +2129,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2140,21 +2140,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 78,
+                      "rawScore": 79,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 15.7,
+                      "key": "Vis",
+                      "rawScore": 78,
                       "rank": 1
                     }
                   ],
-                  "total": 76,
-                  "rank": 4
+                  "total": 15.7,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -2163,22 +2163,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 22.4,
-                      "rank": 3
-                    },
-                    {
-                      "key": "Mus",
+                      "key": "Comp",
                       "rawScore": 76,
                       "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 3
                     }
                   ],
-                  "total": 74,
-                  "rank": 4
+                  "total": 22.4,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 15,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2187,18 +2187,18 @@
                   "judgeName": "C. Craig",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 76.8,
-                      "rank": 3
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 4
                     }
                   ],
-                  "total": 76.8,
-                  "rank": 3
+                  "total": 15,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -2235,8 +2235,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2246,21 +2246,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 69,
+                      "rawScore": 71,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 14,
+                      "key": "Vis",
+                      "rawScore": 69,
                       "rank": 4
                     }
                   ],
-                  "total": 77,
-                  "rank": 3
+                  "total": 14,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -2269,22 +2269,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 22.3,
-                      "rank": 4
-                    },
-                    {
-                      "key": "Mus",
+                      "key": "Comp",
                       "rawScore": 77,
                       "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 4
                     }
                   ],
-                  "total": 78,
-                  "rank": 3
+                  "total": 22.3,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 15.5,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2293,18 +2293,18 @@
                   "judgeName": "C. Craig",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 74.75,
-                      "rank": 4
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 3
                     }
                   ],
-                  "total": 74.75,
-                  "rank": 4
+                  "total": 15.5,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -2350,8 +2350,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 69,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2361,21 +2361,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 66,
+                      "rawScore": 69,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 13.5,
+                      "key": "Vis",
+                      "rawScore": 66,
                       "rank": 1
                     }
                   ],
-                  "total": 73,
+                  "total": 13.5,
                   "rank": 1
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -2384,22 +2384,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 21.5,
+                      "key": "Comp",
+                      "rawScore": 73,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 75,
+                      "key": "Perf",
+                      "rawScore": 71,
                       "rank": 1
                     }
                   ],
-                  "total": 73,
+                  "total": 21.5,
                   "rank": 1
                 }
               ],
-              "captionTotal": 14.8,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2408,17 +2408,17 @@
                   "judgeName": "C. Craig",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 71.55,
+                      "key": "Comp",
+                      "rawScore": 75,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 1
                     }
                   ],
-                  "total": 71.55,
+                  "total": 14.8,
                   "rank": 1
                 }
               ],

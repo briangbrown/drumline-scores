@@ -40,8 +40,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 90,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -50,17 +50,17 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 90,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 45,
+                      "key": "Ful",
+                      "rawScore": 90,
                       "rank": 1
                     }
                   ],
-                  "total": 88.3,
+                  "total": 45,
                   "rank": 1
                 }
               ],
@@ -98,8 +98,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 88,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -108,17 +108,17 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 87,
+                      "key": "Prog",
+                      "rawScore": 88,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 43.7,
+                      "key": "Ful",
+                      "rawScore": 87,
                       "rank": 2
                     }
                   ],
-                  "total": 84.4,
+                  "total": 43.7,
                   "rank": 2
                 }
               ],
@@ -156,8 +156,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -166,17 +166,17 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 84,
+                      "key": "Prog",
+                      "rawScore": 83,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.8,
+                      "key": "Ful",
+                      "rawScore": 84,
                       "rank": 3
                     }
                   ],
-                  "total": 81.9,
+                  "total": 41.8,
                   "rank": 3
                 }
               ],
@@ -214,8 +214,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -224,17 +224,17 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 82,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41,
+                      "key": "Ful",
+                      "rawScore": 82,
                       "rank": 4
                     }
                   ],
-                  "total": 79.5,
+                  "total": 41,
                   "rank": 4
                 }
               ],
@@ -272,8 +272,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -282,17 +282,17 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 81,
+                      "key": "Prog",
+                      "rawScore": 79,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.1,
+                      "key": "Ful",
+                      "rawScore": 81,
                       "rank": 5
                     }
                   ],
-                  "total": 79.25,
+                  "total": 40.1,
                   "rank": 5
                 }
               ],
@@ -330,8 +330,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -340,18 +340,18 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 77,
-                      "rank": 7
+                      "key": "Prog",
+                      "rawScore": 78,
+                      "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38.7,
+                      "key": "Ful",
+                      "rawScore": 77,
                       "rank": 7
                     }
                   ],
-                  "total": 77.8,
-                  "rank": 6
+                  "total": 38.7,
+                  "rank": 7
                 }
               ],
               "captionTotal": 0,
@@ -388,8 +388,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -398,18 +398,18 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 76,
                       "rank": 8
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38,
+                      "key": "Ful",
+                      "rawScore": 76,
                       "rank": 8
                     }
                   ],
-                  "total": 77.2,
-                  "rank": 7
+                  "total": 38,
+                  "rank": 8
                 }
               ],
               "captionTotal": 0,
@@ -446,8 +446,8 @@
                   "rank": 9
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -456,18 +456,18 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
-                      "rank": 6
+                      "key": "Prog",
+                      "rawScore": 77,
+                      "rank": 7
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 39.4,
+                      "key": "Ful",
+                      "rawScore": 80,
                       "rank": 6
                     }
                   ],
-                  "total": 75.1,
-                  "rank": 8
+                  "total": 39.4,
+                  "rank": 6
                 }
               ],
               "captionTotal": 0,
@@ -504,8 +504,8 @@
                   "rank": 8
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 9
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -514,17 +514,17 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 74,
                       "rank": 9
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37,
+                      "key": "Ful",
+                      "rawScore": 74,
                       "rank": 9
                     }
                   ],
-                  "total": 73.5,
+                  "total": 37,
                   "rank": 9
                 }
               ],
@@ -571,8 +571,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -581,22 +581,22 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 82,
+                      "key": "Ovr",
+                      "rawScore": 80,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 24.3,
+                      "key": "Mus",
+                      "rawScore": 82,
                       "rank": 1
                     }
                   ],
-                  "total": 77,
+                  "total": 24.3,
                   "rank": 1
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -606,21 +606,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.2,
-                      "rank": 3
+                      "rawScore": 77,
+                      "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 85,
-                      "rank": 1
+                      "rawScore": 75,
+                      "rank": 3
                     }
                   ],
-                  "total": 81,
-                  "rank": 1
+                  "total": 15.2,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 16.6,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -629,17 +629,17 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 81.25,
+                      "key": "Ovr",
+                      "rawScore": 85,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 1.15,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 81,
+                      "rank": 1
                     }
                   ],
-                  "total": 80.1,
+                  "total": 16.6,
                   "rank": 1
                 }
               ],
@@ -677,8 +677,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -687,22 +687,22 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79,
+                      "key": "Ovr",
+                      "rawScore": 78,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 23.55,
+                      "key": "Mus",
+                      "rawScore": 79,
                       "rank": 2
                     }
                   ],
-                  "total": 76,
-                  "rank": 3
+                  "total": 23.55,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -712,21 +712,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.3,
-                      "rank": 2
+                      "rawScore": 76,
+                      "rank": 3
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 82,
+                      "rawScore": 77,
                       "rank": 2
                     }
                   ],
-                  "total": 80,
+                  "total": 15.3,
                   "rank": 2
                 }
               ],
-              "captionTotal": 16.2,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -735,17 +735,17 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79.95,
+                      "key": "Ovr",
+                      "rawScore": 82,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 80,
+                      "rank": 2
                     }
                   ],
-                  "total": 79.95,
+                  "total": 16.2,
                   "rank": 2
                 }
               ],
@@ -783,8 +783,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -793,22 +793,22 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 75,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 22.5,
+                      "key": "Mus",
+                      "rawScore": 75,
                       "rank": 3
                     }
                   ],
-                  "total": 73,
-                  "rank": 4
+                  "total": 22.5,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -818,21 +818,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 14.3,
+                      "rawScore": 73,
                       "rank": 4
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 73,
-                      "rank": 3
+                      "rawScore": 70,
+                      "rank": 4
                     }
                   ],
-                  "total": 75,
-                  "rank": 3
+                  "total": 14.3,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 14.8,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -841,17 +841,17 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76.1,
+                      "key": "Ovr",
+                      "rawScore": 73,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0.95,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 75,
+                      "rank": 3
                     }
                   ],
-                  "total": 75.15,
+                  "total": 14.8,
                   "rank": 3
                 }
               ],
@@ -889,8 +889,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -899,22 +899,22 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72,
+                      "key": "Ovr",
+                      "rawScore": 71,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 21.45,
+                      "key": "Mus",
+                      "rawScore": 72,
                       "rank": 5
                     }
                   ],
-                  "total": 76.5,
-                  "rank": 2
+                  "total": 21.45,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -924,21 +924,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.45,
-                      "rank": 1
+                      "rawScore": 76.5,
+                      "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 67,
-                      "rank": 6
+                      "rawScore": 78,
+                      "rank": 1
                     }
                   ],
-                  "total": 66,
-                  "rank": 5
+                  "total": 15.45,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 13.3,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -947,18 +947,18 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73.2,
-                      "rank": 4
+                      "key": "Ovr",
+                      "rawScore": 67,
+                      "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0.75,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 66,
+                      "rank": 5
                     }
                   ],
-                  "total": 72.45,
-                  "rank": 4
+                  "total": 13.3,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -995,8 +995,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1005,22 +1005,22 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 68,
-                      "rank": 7
+                      "key": "Ovr",
+                      "rawScore": 70,
+                      "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 20.7,
+                      "key": "Mus",
+                      "rawScore": 68,
                       "rank": 7
                     }
                   ],
-                  "total": 70,
-                  "rank": 5
+                  "total": 20.7,
+                  "rank": 7
                 }
               ],
-              "captionTotal": 69,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1030,21 +1030,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 13.9,
+                      "rawScore": 70,
                       "rank": 5
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 70,
-                      "rank": 4
+                      "rawScore": 69,
+                      "rank": 5
                     }
                   ],
-                  "total": 68,
-                  "rank": 4
+                  "total": 13.9,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 13.8,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1053,18 +1053,18 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 71.7,
-                      "rank": 5
+                      "key": "Ovr",
+                      "rawScore": 70,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 68,
+                      "rank": 4
                     }
                   ],
-                  "total": 71.7,
-                  "rank": 5
+                  "total": 13.8,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -1101,8 +1101,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 69,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1111,22 +1111,22 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 70,
-                      "rank": 6
+                      "key": "Ovr",
+                      "rawScore": 69,
+                      "rank": 7
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 20.85,
+                      "key": "Mus",
+                      "rawScore": 70,
                       "rank": 6
                     }
                   ],
-                  "total": 65,
-                  "rank": 7
+                  "total": 20.85,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 64,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1136,21 +1136,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 12.9,
+                      "rawScore": 65,
                       "rank": 7
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 65,
+                      "rawScore": 64,
                       "rank": 7
                     }
                   ],
-                  "total": 65,
-                  "rank": 6
+                  "total": 12.9,
+                  "rank": 7
                 }
               ],
-              "captionTotal": 13,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1159,18 +1159,18 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 66.85,
-                      "rank": 6
+                      "key": "Ovr",
+                      "rawScore": 65,
+                      "rank": 7
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 2.4,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 65,
+                      "rank": 6
                     }
                   ],
-                  "total": 64.45,
-                  "rank": 6
+                  "total": 13,
+                  "rank": 7
                 }
               ],
               "captionTotal": 0,
@@ -1207,8 +1207,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1217,22 +1217,22 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73,
+                      "key": "Ovr",
+                      "rawScore": 72,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 21.75,
+                      "key": "Mus",
+                      "rawScore": 73,
                       "rank": 4
                     }
                   ],
-                  "total": 63,
-                  "rank": 8
+                  "total": 21.75,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 62,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1242,21 +1242,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 12.5,
+                      "rawScore": 63,
                       "rank": 8
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 64,
+                      "rawScore": 62,
                       "rank": 8
                     }
                   ],
-                  "total": 63,
+                  "total": 12.5,
                   "rank": 8
                 }
               ],
-              "captionTotal": 12.7,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1265,18 +1265,18 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 66.85,
-                      "rank": 6
+                      "key": "Ovr",
+                      "rawScore": 64,
+                      "rank": 8
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 3.55,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 63,
+                      "rank": 8
                     }
                   ],
-                  "total": 63.3,
-                  "rank": 7
+                  "total": 12.7,
+                  "rank": 8
                 }
               ],
               "captionTotal": 0,
@@ -1313,8 +1313,8 @@
                   "rank": 9
                 }
               ],
-              "captionTotal": 61,
-              "captionRank": 9
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1323,22 +1323,22 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 60,
+                      "key": "Ovr",
+                      "rawScore": 61,
                       "rank": 9
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 18.15,
+                      "key": "Mus",
+                      "rawScore": 60,
                       "rank": 9
                     }
                   ],
-                  "total": 61,
+                  "total": 18.15,
                   "rank": 9
                 }
               ],
-              "captionTotal": 61,
-              "captionRank": 9
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1348,21 +1348,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 12.2,
+                      "rawScore": 61,
                       "rank": 9
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 60,
+                      "rawScore": 61,
                       "rank": 9
                     }
                   ],
-                  "total": 60,
+                  "total": 12.2,
                   "rank": 9
                 }
               ],
-              "captionTotal": 12,
-              "captionRank": 9
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1371,18 +1371,18 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 61.35,
+                      "key": "Ovr",
+                      "rawScore": 60,
                       "rank": 9
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 60,
+                      "rank": 9
                     }
                   ],
-                  "total": 61.35,
-                  "rank": 8
+                  "total": 12,
+                  "rank": 9
                 }
               ],
               "captionTotal": 0,
@@ -1419,8 +1419,8 @@
                   "rank": 8
                 }
               ],
-              "captionTotal": 64,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1429,22 +1429,22 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 66,
+                      "key": "Ovr",
+                      "rawScore": 64,
                       "rank": 8
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 19.5,
+                      "key": "Mus",
+                      "rawScore": 66,
                       "rank": 8
                     }
                   ],
-                  "total": 66,
-                  "rank": 6
+                  "total": 19.5,
+                  "rank": 8
                 }
               ],
-              "captionTotal": 65,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1454,21 +1454,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 13.1,
+                      "rawScore": 66,
                       "rank": 6
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 68,
-                      "rank": 5
+                      "rawScore": 65,
+                      "rank": 6
                     }
                   ],
-                  "total": 64,
-                  "rank": 7
+                  "total": 13.1,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 13.2,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1477,18 +1477,18 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 65.5,
-                      "rank": 8
+                      "key": "Ovr",
+                      "rawScore": 68,
+                      "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 9.35,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 64,
+                      "rank": 7
                     }
                   ],
-                  "total": 56.15,
-                  "rank": 9
+                  "total": 13.2,
+                  "rank": 6
                 }
               ],
               "captionTotal": 0,
@@ -1534,8 +1534,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 86,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1544,22 +1544,22 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 87,
+                      "key": "Ovr",
+                      "rawScore": 86,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 25.95,
+                      "key": "Mus",
+                      "rawScore": 87,
                       "rank": 1
                     }
                   ],
-                  "total": 88,
+                  "total": 25.95,
                   "rank": 1
                 }
               ],
-              "captionTotal": 87,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1569,21 +1569,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 17.5,
+                      "rawScore": 88,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 90,
+                      "rawScore": 87,
                       "rank": 1
                     }
                   ],
-                  "total": 87,
+                  "total": 17.5,
                   "rank": 1
                 }
               ],
-              "captionTotal": 17.7,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1592,17 +1592,17 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 86.75,
+                      "key": "Ovr",
+                      "rawScore": 90,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 87,
+                      "rank": 1
                     }
                   ],
-                  "total": 86.75,
+                  "total": 17.7,
                   "rank": 1
                 }
               ],
@@ -1640,8 +1640,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1650,22 +1650,22 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 86,
+                      "key": "Ovr",
+                      "rawScore": 85,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 25.65,
+                      "key": "Mus",
+                      "rawScore": 86,
                       "rank": 2
                     }
                   ],
-                  "total": 84,
-                  "rank": 3
+                  "total": 25.65,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1675,7 +1675,7 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.7,
+                      "rawScore": 84,
                       "rank": 3
                     },
                     {
@@ -1684,12 +1684,12 @@
                       "rank": 3
                     }
                   ],
-                  "total": 81,
+                  "total": 16.7,
                   "rank": 3
                 }
               ],
-              "captionTotal": 16.4,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1698,18 +1698,18 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83.75,
+                      "key": "Ovr",
+                      "rawScore": 83,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 81,
+                      "rank": 3
                     }
                   ],
-                  "total": 83.75,
-                  "rank": 2
+                  "total": 16.4,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -1746,8 +1746,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1756,22 +1756,22 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 84,
+                      "key": "Ovr",
+                      "rawScore": 83,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 25.05,
+                      "key": "Mus",
+                      "rawScore": 84,
                       "rank": 3
                     }
                   ],
-                  "total": 85,
-                  "rank": 2
+                  "total": 25.05,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1781,21 +1781,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.9,
+                      "rawScore": 85,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 85,
+                      "rawScore": 84,
                       "rank": 2
                     }
                   ],
-                  "total": 85,
+                  "total": 16.9,
                   "rank": 2
                 }
               ],
-              "captionTotal": 17,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1804,18 +1804,18 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83.85,
+                      "key": "Ovr",
+                      "rawScore": 85,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0.6,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 85,
+                      "rank": 2
                     }
                   ],
-                  "total": 83.25,
-                  "rank": 3
+                  "total": 17,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -1861,8 +1861,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1871,18 +1871,18 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 85,
+                      "key": "Prog",
+                      "rawScore": 84,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 42.3,
+                      "key": "Ful",
+                      "rawScore": 85,
                       "rank": 3
                     }
                   ],
-                  "total": 87.7,
-                  "rank": 1
+                  "total": 42.3,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -1919,8 +1919,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1929,17 +1929,17 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 87,
-                      "rank": 1
+                      "key": "Prog",
+                      "rawScore": 85,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 43.1,
-                      "rank": 2
+                      "key": "Ful",
+                      "rawScore": 87,
+                      "rank": 1
                     }
                   ],
-                  "total": 87.2,
+                  "total": 43.1,
                   "rank": 2
                 }
               ],
@@ -1977,8 +1977,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 87,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1987,18 +1987,18 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 86,
-                      "rank": 2
+                      "key": "Prog",
+                      "rawScore": 87,
+                      "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 43.2,
-                      "rank": 1
+                      "key": "Ful",
+                      "rawScore": 86,
+                      "rank": 2
                     }
                   ],
-                  "total": 86.4,
-                  "rank": 3
+                  "total": 43.2,
+                  "rank": 1
                 }
               ],
               "captionTotal": 0,
@@ -2035,8 +2035,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -2045,21 +2045,21 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 81,
-                      "rank": 5
+                      "key": "Prog",
+                      "rawScore": 83,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.9,
-                      "rank": 4
+                      "key": "Ful",
+                      "rawScore": 81,
+                      "rank": 5
                     }
                   ],
-                  "total": 82.8,
+                  "total": 40.9,
                   "rank": 4
                 }
               ],
-              "captionTotal": 0.45,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -2093,8 +2093,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -2103,17 +2103,17 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 82,
-                      "rank": 4
+                      "key": "Prog",
+                      "rawScore": 81,
+                      "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.8,
-                      "rank": 5
+                      "key": "Ful",
+                      "rawScore": 82,
+                      "rank": 4
                     }
                   ],
-                  "total": 82.3,
+                  "total": 40.8,
                   "rank": 5
                 }
               ],
@@ -2160,8 +2160,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -2170,22 +2170,22 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79,
+                      "key": "Ovr",
+                      "rawScore": 78,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 23.55,
+                      "key": "Mus",
+                      "rawScore": 79,
                       "rank": 1
                     }
                   ],
-                  "total": 82,
-                  "rank": 2
+                  "total": 23.55,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 81.5,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2195,21 +2195,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.35,
+                      "rawScore": 82,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 83,
-                      "rank": 1
+                      "rawScore": 81.5,
+                      "rank": 2
                     }
                   ],
-                  "total": 81,
-                  "rank": 1
+                  "total": 16.35,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 16.4,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2218,17 +2218,17 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79.6,
+                      "key": "Ovr",
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 81,
+                      "rank": 1
                     }
                   ],
-                  "total": 79.6,
+                  "total": 16.4,
                   "rank": 1
                 }
               ],
@@ -2266,8 +2266,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -2276,22 +2276,22 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 75,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 22.5,
+                      "key": "Mus",
+                      "rawScore": 75,
                       "rank": 2
                     }
                   ],
-                  "total": 83,
-                  "rank": 1
+                  "total": 22.5,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2301,21 +2301,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.5,
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 74,
-                      "rank": 2
+                      "rawScore": 82,
+                      "rank": 1
                     }
                   ],
-                  "total": 74,
-                  "rank": 2
+                  "total": 16.5,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 14.8,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2324,17 +2324,17 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76.7,
+                      "key": "Ovr",
+                      "rawScore": 74,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 74,
+                      "rank": 2
                     }
                   ],
-                  "total": 76.7,
+                  "total": 14.8,
                   "rank": 2
                 }
               ],
@@ -2381,8 +2381,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 86,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -2391,22 +2391,22 @@
                   "judgeName": "J. Huffman",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 85,
+                      "key": "Ovr",
+                      "rawScore": 86,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 25.65,
+                      "key": "Mus",
+                      "rawScore": 85,
                       "rank": 1
                     }
                   ],
-                  "total": 85,
+                  "total": 25.65,
                   "rank": 1
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2416,21 +2416,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.9,
+                      "rawScore": 85,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 83,
+                      "rawScore": 84,
                       "rank": 1
                     }
                   ],
-                  "total": 82,
+                  "total": 16.9,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.5,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2439,17 +2439,17 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 84.05,
+                      "key": "Ovr",
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 82,
+                      "rank": 1
                     }
                   ],
-                  "total": 84.05,
+                  "total": 16.5,
                   "rank": 1
                 }
               ],

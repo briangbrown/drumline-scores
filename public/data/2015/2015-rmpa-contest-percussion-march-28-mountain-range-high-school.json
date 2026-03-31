@@ -40,8 +40,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 66,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -50,17 +50,17 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72,
-                      "rank": 1
+                      "key": "Prog",
+                      "rawScore": 66,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 34.8,
+                      "key": "Ful",
+                      "rawScore": 72,
                       "rank": 1
                     }
                   ],
-                  "total": 71,
+                  "total": 34.8,
                   "rank": 1
                 }
               ],
@@ -98,8 +98,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 67,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -108,17 +108,17 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 66,
-                      "rank": 3
+                      "key": "Prog",
+                      "rawScore": 67,
+                      "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 33.2,
-                      "rank": 2
+                      "key": "Ful",
+                      "rawScore": 66,
+                      "rank": 3
                     }
                   ],
-                  "total": 68.9,
+                  "total": 33.2,
                   "rank": 2
                 }
               ],
@@ -156,8 +156,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 64,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -166,18 +166,18 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 68,
-                      "rank": 2
+                      "key": "Prog",
+                      "rawScore": 64,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 33.2,
+                      "key": "Ful",
+                      "rawScore": 68,
                       "rank": 2
                     }
                   ],
-                  "total": 67.6,
-                  "rank": 3
+                  "total": 33.2,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -223,8 +223,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -233,17 +233,17 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 86,
-                      "rank": 1
+                      "key": "Prog",
+                      "rawScore": 79,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.6,
+                      "key": "Ful",
+                      "rawScore": 86,
                       "rank": 1
                     }
                   ],
-                  "total": 86.3,
+                  "total": 41.6,
                   "rank": 1
                 }
               ],
@@ -281,8 +281,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -291,17 +291,17 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83,
-                      "rank": 2
+                      "key": "Prog",
+                      "rawScore": 78,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.5,
+                      "key": "Ful",
+                      "rawScore": 83,
                       "rank": 2
                     }
                   ],
-                  "total": 83.7,
+                  "total": 40.5,
                   "rank": 2
                 }
               ],
@@ -339,8 +339,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -349,21 +349,21 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 81,
-                      "rank": 3
+                      "key": "Prog",
+                      "rawScore": 73,
+                      "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38.9,
-                      "rank": 4
+                      "key": "Ful",
+                      "rawScore": 81,
+                      "rank": 3
                     }
                   ],
-                  "total": 82.6,
-                  "rank": 3
+                  "total": 38.9,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 0.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -397,8 +397,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -407,21 +407,21 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79,
-                      "rank": 4
+                      "key": "Prog",
+                      "rawScore": 81,
+                      "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 39.9,
-                      "rank": 3
+                      "key": "Ful",
+                      "rawScore": 79,
+                      "rank": 4
                     }
                   ],
-                  "total": 81.6,
-                  "rank": 4
+                  "total": 39.9,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 2.7,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -455,8 +455,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -465,17 +465,17 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 74,
-                      "rank": 5
+                      "key": "Prog",
+                      "rawScore": 76,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.4,
+                      "key": "Ful",
+                      "rawScore": 74,
                       "rank": 5
                     }
                   ],
-                  "total": 74.5,
+                  "total": 37.4,
                   "rank": 5
                 }
               ],
@@ -522,8 +522,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 90,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -532,22 +532,22 @@
                   "judgeName": "T. Fox",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 88,
+                      "key": "Comp",
+                      "rawScore": 90,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 35.5,
+                      "key": "Perf",
+                      "rawScore": 88,
                       "rank": 1
                     }
                   ],
-                  "total": 81,
+                  "total": 35.5,
                   "rank": 1
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -556,18 +556,18 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 16,
+                      "key": "Comp",
+                      "rawScore": 81,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 83.7,
+                      "key": "Perf",
+                      "rawScore": 79,
                       "rank": 1
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 16,
+                  "rank": 1
                 }
               ],
               "captionTotal": 0,
@@ -604,8 +604,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 87,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -614,22 +614,22 @@
                   "judgeName": "T. Fox",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 86,
+                      "key": "Comp",
+                      "rawScore": 87,
                       "rank": 2
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 34.55,
+                      "key": "Perf",
+                      "rawScore": 86,
                       "rank": 2
                     }
                   ],
-                  "total": 75.5,
-                  "rank": 4
+                  "total": 34.55,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -638,18 +638,18 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 15.05,
+                      "key": "Comp",
+                      "rawScore": 75.5,
                       "rank": 4
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 82,
-                      "rank": 2
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 4
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 15.05,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -686,8 +686,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -696,22 +696,22 @@
                   "judgeName": "T. Fox",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 86,
-                      "rank": 2
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 4
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 34.1,
-                      "rank": 3
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 2
                     }
                   ],
-                  "total": 74,
-                  "rank": 5
+                  "total": 34.1,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -720,18 +720,18 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 14.8,
+                      "key": "Comp",
+                      "rawScore": 74,
                       "rank": 5
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 80.3,
-                      "rank": 3
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 5
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 14.8,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -768,8 +768,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -778,22 +778,22 @@
                   "judgeName": "T. Fox",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 81,
-                      "rank": 4
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 3
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 33,
+                      "key": "Perf",
+                      "rawScore": 81,
                       "rank": 4
                     }
                   ],
-                  "total": 78,
-                  "rank": 2
+                  "total": 33,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -802,18 +802,18 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 15.5,
+                      "key": "Comp",
+                      "rawScore": 78,
                       "rank": 2
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 78.5,
-                      "rank": 4
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 2
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 15.5,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -850,8 +850,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -860,22 +860,22 @@
                   "judgeName": "T. Fox",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 79,
+                      "key": "Comp",
+                      "rawScore": 81,
                       "rank": 5
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 31.9,
+                      "key": "Perf",
+                      "rawScore": 79,
                       "rank": 5
                     }
                   ],
-                  "total": 76.5,
-                  "rank": 3
+                  "total": 31.9,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -884,21 +884,21 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 15.25,
+                      "key": "Comp",
+                      "rawScore": 76.5,
                       "rank": 3
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 77.35,
-                      "rank": 5
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 3
                     }
                   ],
-                  "total": 0.1,
-                  "rank": null
+                  "total": 15.25,
+                  "rank": 3
                 }
               ],
-              "captionTotal": -0.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -932,8 +932,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -942,22 +942,22 @@
                   "judgeName": "T. Fox",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 77,
+                      "key": "Comp",
+                      "rawScore": 80,
                       "rank": 6
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 31.25,
+                      "key": "Perf",
+                      "rawScore": 77,
                       "rank": 6
                     }
                   ],
-                  "total": 73,
+                  "total": 31.25,
                   "rank": 6
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -966,18 +966,18 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 14.5,
+                      "key": "Comp",
+                      "rawScore": 73,
                       "rank": 6
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 74.75,
+                      "key": "Perf",
+                      "rawScore": 72,
                       "rank": 6
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 14.5,
+                  "rank": 6
                 }
               ],
               "captionTotal": 0,
@@ -1014,8 +1014,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1024,22 +1024,22 @@
                   "judgeName": "T. Fox",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 75,
+                      "key": "Comp",
+                      "rawScore": 79,
                       "rank": 7
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 30.6,
+                      "key": "Perf",
+                      "rawScore": 75,
                       "rank": 7
                     }
                   ],
-                  "total": 71,
+                  "total": 30.6,
                   "rank": 7
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1048,21 +1048,21 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 14.1,
+                      "key": "Comp",
+                      "rawScore": 71,
                       "rank": 7
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 71.9,
+                      "key": "Perf",
+                      "rawScore": 70,
                       "rank": 7
                     }
                   ],
-                  "total": 0.2,
-                  "rank": null
+                  "total": 14.1,
+                  "rank": 7
                 }
               ],
-              "captionTotal": -0.2,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1105,8 +1105,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 88,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1115,17 +1115,17 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 86,
+                      "key": "Prog",
+                      "rawScore": 88,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 43.4,
+                      "key": "Ful",
+                      "rawScore": 86,
                       "rank": 1
                     }
                   ],
-                  "total": 85.6,
+                  "total": 43.4,
                   "rank": 1
                 }
               ],
@@ -1163,8 +1163,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1173,18 +1173,18 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 85,
-                      "rank": 2
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 42.5,
-                      "rank": 3
+                      "key": "Ful",
+                      "rawScore": 85,
+                      "rank": 2
                     }
                   ],
-                  "total": 85,
-                  "rank": 2
+                  "total": 42.5,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -1221,8 +1221,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 87,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1231,18 +1231,18 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 84,
-                      "rank": 3
+                      "key": "Prog",
+                      "rawScore": 87,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 42.6,
-                      "rank": 2
+                      "key": "Ful",
+                      "rawScore": 84,
+                      "rank": 3
                     }
                   ],
-                  "total": 83.9,
-                  "rank": 3
+                  "total": 42.6,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -1279,8 +1279,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1289,17 +1289,17 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83,
+                      "key": "Prog",
+                      "rawScore": 81,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.1,
+                      "key": "Ful",
+                      "rawScore": 83,
                       "rank": 4
                     }
                   ],
-                  "total": 81.3,
+                  "total": 41.1,
                   "rank": 4
                 }
               ],
@@ -1337,8 +1337,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1347,21 +1347,21 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
+                      "key": "Prog",
+                      "rawScore": 79,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 39.8,
+                      "key": "Ful",
+                      "rawScore": 80,
                       "rank": 5
                     }
                   ],
-                  "total": 79.6,
+                  "total": 39.8,
                   "rank": 5
                 }
               ],
-              "captionTotal": 0.5,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1395,8 +1395,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1405,17 +1405,17 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79,
+                      "key": "Prog",
+                      "rawScore": 76,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38.9,
+                      "key": "Ful",
+                      "rawScore": 79,
                       "rank": 6
                     }
                   ],
-                  "total": 78,
+                  "total": 38.9,
                   "rank": 6
                 }
               ],
@@ -1462,8 +1462,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1472,22 +1472,22 @@
                   "judgeName": "T. Fox",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 84,
+                      "key": "Comp",
+                      "rawScore": 85,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 33.75,
+                      "key": "Perf",
+                      "rawScore": 84,
                       "rank": 1
                     }
                   ],
-                  "total": 86,
+                  "total": 33.75,
                   "rank": 1
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1496,21 +1496,21 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 17.1,
+                      "key": "Comp",
+                      "rawScore": 86,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 84.85,
+                      "key": "Perf",
+                      "rawScore": 85,
                       "rank": 1
                     }
                   ],
-                  "total": 0.9,
-                  "rank": null
+                  "total": 17.1,
+                  "rank": 1
                 }
               ],
-              "captionTotal": -0.9,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1544,8 +1544,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1554,22 +1554,22 @@
                   "judgeName": "T. Fox",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 79,
+                      "key": "Comp",
+                      "rawScore": 81,
                       "rank": 2
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 31.9,
+                      "key": "Perf",
+                      "rawScore": 79,
                       "rank": 2
                     }
                   ],
-                  "total": 84,
+                  "total": 31.9,
                   "rank": 2
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1578,21 +1578,21 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 16.8,
+                      "key": "Comp",
+                      "rawScore": 84,
                       "rank": 2
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 81.9,
+                      "key": "Perf",
+                      "rawScore": 84,
                       "rank": 2
                     }
                   ],
-                  "total": 1.25,
-                  "rank": null
+                  "total": 16.8,
+                  "rank": 2
                 }
               ],
-              "captionTotal": -1.25,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1635,8 +1635,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1645,21 +1645,21 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 86,
-                      "rank": 1
+                      "key": "Prog",
+                      "rawScore": 83,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 42.4,
+                      "key": "Ful",
+                      "rawScore": 86,
                       "rank": 1
                     }
                   ],
-                  "total": 86.8,
+                  "total": 42.4,
                   "rank": 1
                 }
               ],
-              "captionTotal": 1.8,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1693,8 +1693,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1703,17 +1703,17 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
+                      "key": "Prog",
+                      "rawScore": 81,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.2,
+                      "key": "Ful",
+                      "rawScore": 80,
                       "rank": 3
                     }
                   ],
-                  "total": 82.9,
+                  "total": 40.2,
                   "rank": 3
                 }
               ],
@@ -1751,8 +1751,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1761,21 +1761,21 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83,
-                      "rank": 2
+                      "key": "Prog",
+                      "rawScore": 85,
+                      "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.9,
+                      "key": "Ful",
+                      "rawScore": 83,
                       "rank": 2
                     }
                   ],
-                  "total": 84.1,
+                  "total": 41.9,
                   "rank": 2
                 }
               ],
-              "captionTotal": 5.45,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1809,8 +1809,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1819,17 +1819,17 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78,
+                      "key": "Prog",
+                      "rawScore": 72,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.8,
+                      "key": "Ful",
+                      "rawScore": 78,
                       "rank": 4
                     }
                   ],
-                  "total": 75.7,
+                  "total": 37.8,
                   "rank": 4
                 }
               ],
@@ -1876,8 +1876,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 91,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1886,22 +1886,22 @@
                   "judgeName": "T. Fox",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 89,
+                      "key": "Comp",
+                      "rawScore": 91,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 35.9,
+                      "key": "Perf",
+                      "rawScore": 89,
                       "rank": 1
                     }
                   ],
-                  "total": 85,
+                  "total": 35.9,
                   "rank": 1
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1910,18 +1910,18 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 17,
+                      "key": "Comp",
+                      "rawScore": 85,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 88.1,
+                      "key": "Perf",
+                      "rawScore": 85,
                       "rank": 1
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 17,
+                  "rank": 1
                 }
               ],
               "captionTotal": 0,
@@ -1958,8 +1958,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1968,22 +1968,22 @@
                   "judgeName": "T. Fox",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 83,
+                      "key": "Comp",
+                      "rawScore": 85,
                       "rank": 2
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 33.5,
+                      "key": "Perf",
+                      "rawScore": 83,
                       "rank": 2
                     }
                   ],
-                  "total": 81,
+                  "total": 33.5,
                   "rank": 2
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1992,21 +1992,21 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 16.5,
+                      "key": "Comp",
+                      "rawScore": 81,
                       "rank": 2
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 82.6,
+                      "key": "Perf",
+                      "rawScore": 84,
                       "rank": 2
                     }
                   ],
-                  "total": 0.65,
-                  "rank": null
+                  "total": 16.5,
+                  "rank": 2
                 }
               ],
-              "captionTotal": -0.65,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -2040,8 +2040,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -2050,22 +2050,22 @@
                   "judgeName": "T. Fox",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 82,
+                      "key": "Comp",
+                      "rawScore": 83,
                       "rank": 3
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 32.95,
+                      "key": "Perf",
+                      "rawScore": 82,
                       "rank": 3
                     }
                   ],
-                  "total": 77,
+                  "total": 32.95,
                   "rank": 3
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2074,21 +2074,21 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 15.4,
+                      "key": "Comp",
+                      "rawScore": 77,
                       "rank": 3
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 79.15,
+                      "key": "Perf",
+                      "rawScore": 77,
                       "rank": 3
                     }
                   ],
-                  "total": 0.1,
-                  "rank": null
+                  "total": 15.4,
+                  "rank": 3
                 }
               ],
-              "captionTotal": -0.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],

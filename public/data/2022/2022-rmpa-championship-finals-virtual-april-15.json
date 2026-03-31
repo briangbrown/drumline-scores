@@ -67,12 +67,12 @@
                   "judgeName": "E. Argenziano",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 73,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 71,
                       "rank": 1
                     }
@@ -84,12 +84,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 77,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 74,
                       "rank": 1
                     }

@@ -498,7 +498,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "AN",
+                      "key": "VAN",
                       "rawScore": 76,
                       "rank": 1
                     }
@@ -507,8 +507,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 78.35,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 30.8,
@@ -573,7 +573,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "AN",
+                      "key": "VAN",
                       "rawScore": 60,
                       "rank": 2
                     }
@@ -582,8 +582,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 65.8,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 24.4,
@@ -657,7 +657,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "AN",
+                      "key": "VAN",
                       "rawScore": 70,
                       "rank": 1
                     }
@@ -666,8 +666,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 77.65,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 31,
@@ -903,7 +903,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "AN",
+                      "key": "VAN",
                       "rawScore": 72,
                       "rank": 1
                     }
@@ -912,8 +912,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 76.45,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 29.2,

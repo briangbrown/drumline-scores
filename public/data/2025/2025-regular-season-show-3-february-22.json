@@ -40,7 +40,7 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 62,
+              "captionTotal": 34.9,
               "captionRank": 1
             },
             {
@@ -50,22 +50,22 @@
                   "judgeName": "J. Jadvani",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 58,
-                      "rank": 2
+                      "key": "Comp",
+                      "rawScore": 62,
+                      "rank": 1
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 29.8,
+                      "key": "Perf",
+                      "rawScore": 58,
                       "rank": 2
                     }
                   ],
-                  "total": 64.7,
-                  "rank": 1
+                  "total": 29.8,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 29.8,
+              "captionRank": 2
             }
           ],
           "subTotal": 0,
@@ -98,7 +98,7 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 61,
+              "captionTotal": 31,
               "captionRank": 2
             },
             {
@@ -108,22 +108,22 @@
                   "judgeName": "J. Jadvani",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 64,
-                      "rank": 1
+                      "key": "Comp",
+                      "rawScore": 61,
+                      "rank": 2
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 31.4,
+                      "key": "Perf",
+                      "rawScore": 64,
                       "rank": 1
                     }
                   ],
-                  "total": 62.4,
-                  "rank": 2
+                  "total": 31.4,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 1,
-              "captionRank": null
+              "captionTotal": 31.4,
+              "captionRank": 1
             }
           ],
           "subTotal": 62.4,
@@ -156,7 +156,7 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 56,
+              "captionTotal": 29.5,
               "captionRank": 3
             },
             {
@@ -166,22 +166,22 @@
                   "judgeName": "J. Jadvani",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 57,
+                      "key": "Comp",
+                      "rawScore": 56,
                       "rank": 3
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 28.3,
+                      "key": "Perf",
+                      "rawScore": 57,
                       "rank": 3
                     }
                   ],
-                  "total": 57.8,
+                  "total": 28.3,
                   "rank": 3
                 }
               ],
-              "captionTotal": 1.85,
-              "captionRank": null
+              "captionTotal": 28.3,
+              "captionRank": 3
             }
           ],
           "subTotal": 57.8,
@@ -223,7 +223,7 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 63,
+              "captionTotal": 31.1,
               "captionRank": 1
             },
             {
@@ -233,22 +233,22 @@
                   "judgeName": "J. Jadvani",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 63,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 31.5,
+                      "key": "Perf",
+                      "rawScore": 63,
                       "rank": 1
                     }
                   ],
-                  "total": 62.6,
+                  "total": 31.5,
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 31.5,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -290,7 +290,7 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 70,
+              "captionTotal": 21.3,
               "captionRank": 1
             },
             {
@@ -301,20 +301,20 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 68,
+                      "rawScore": 70,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 13.8,
+                      "key": "Vis",
+                      "rawScore": 68,
                       "rank": 1
                     }
                   ],
-                  "total": 76,
+                  "total": 13.8,
                   "rank": 1
                 }
               ],
-              "captionTotal": 72,
+              "captionTotal": 13.8,
               "captionRank": 1
             },
             {
@@ -324,21 +324,21 @@
                   "judgeName": "J. Jadvani",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 22,
+                      "key": "Comp",
+                      "rawScore": 76,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 66,
+                      "key": "Perf",
+                      "rawScore": 72,
                       "rank": 1
                     }
                   ],
-                  "total": 65,
+                  "total": 22,
                   "rank": 1
                 }
               ],
-              "captionTotal": 13.1,
+              "captionTotal": 22,
               "captionRank": 1
             },
             {
@@ -348,22 +348,22 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 70.2,
+                      "key": "Comp",
+                      "rawScore": 66,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 65,
+                      "rank": 1
                     }
                   ],
-                  "total": 70.2,
+                  "total": 13.1,
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 13.1,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -396,8 +396,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 65,
-              "captionRank": 3
+              "captionTotal": 20.1,
+              "captionRank": 2
             },
             {
               "captionName": "Effect - Visual",
@@ -407,21 +407,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 63,
-                      "rank": 4
+                      "rawScore": 65,
+                      "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 12.8,
+                      "key": "Vis",
+                      "rawScore": 63,
                       "rank": 4
                     }
                   ],
-                  "total": 68,
-                  "rank": 2
+                  "total": 12.8,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 67,
-              "captionRank": 2
+              "captionTotal": 12.8,
+              "captionRank": 4
             },
             {
               "captionName": "Music",
@@ -430,21 +430,21 @@
                   "judgeName": "J. Jadvani",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 20.2,
+                      "key": "Comp",
+                      "rawScore": 68,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 65,
+                      "key": "Perf",
+                      "rawScore": 67,
                       "rank": 2
                     }
                   ],
-                  "total": 64,
+                  "total": 20.2,
                   "rank": 2
                 }
               ],
-              "captionTotal": 12.9,
+              "captionTotal": 20.2,
               "captionRank": 2
             },
             {
@@ -454,22 +454,22 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 66,
+                      "key": "Comp",
+                      "rawScore": 65,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 2
                     }
                   ],
-                  "total": 66,
+                  "total": 12.9,
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 12.9,
+              "captionRank": 2
             }
           ],
           "subTotal": 0,
@@ -502,7 +502,7 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 64,
+              "captionTotal": 19.35,
               "captionRank": 4
             },
             {
@@ -513,20 +513,20 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 65,
-                      "rank": 2
+                      "rawScore": 64,
+                      "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 12.9,
-                      "rank": 3
+                      "key": "Vis",
+                      "rawScore": 65,
+                      "rank": 2
                     }
                   ],
-                  "total": 66,
+                  "total": 12.9,
                   "rank": 3
                 }
               ],
-              "captionTotal": 65,
+              "captionTotal": 12.9,
               "captionRank": 3
             },
             {
@@ -536,21 +536,21 @@
                   "judgeName": "J. Jadvani",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 19.6,
+                      "key": "Comp",
+                      "rawScore": 66,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 64,
+                      "key": "Perf",
+                      "rawScore": 65,
                       "rank": 3
                     }
                   ],
-                  "total": 63,
+                  "total": 19.6,
                   "rank": 3
                 }
               ],
-              "captionTotal": 12.7,
+              "captionTotal": 19.6,
               "captionRank": 3
             },
             {
@@ -560,22 +560,22 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 64.55,
+                      "key": "Comp",
+                      "rawScore": 64,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 63,
+                      "rank": 3
                     }
                   ],
-                  "total": 64.55,
+                  "total": 12.7,
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 12.7,
+              "captionRank": 3
             }
           ],
           "subTotal": 0,
@@ -608,8 +608,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 67,
-              "captionRank": 2
+              "captionTotal": 19.65,
+              "captionRank": 3
             },
             {
               "captionName": "Effect - Visual",
@@ -619,21 +619,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 64,
-                      "rank": 3
+                      "rawScore": 67,
+                      "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 13.1,
-                      "rank": 2
+                      "key": "Vis",
+                      "rawScore": 64,
+                      "rank": 3
                     }
                   ],
-                  "total": 60,
-                  "rank": 4
+                  "total": 13.1,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 60,
-              "captionRank": 4
+              "captionTotal": 13.1,
+              "captionRank": 2
             },
             {
               "captionName": "Music",
@@ -642,21 +642,21 @@
                   "judgeName": "J. Jadvani",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 18,
+                      "key": "Comp",
+                      "rawScore": 60,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 62,
+                      "key": "Perf",
+                      "rawScore": 60,
                       "rank": 4
                     }
                   ],
-                  "total": 62,
+                  "total": 18,
                   "rank": 4
                 }
               ],
-              "captionTotal": 12.4,
+              "captionTotal": 18,
               "captionRank": 4
             },
             {
@@ -666,22 +666,22 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 63.15,
+                      "key": "Comp",
+                      "rawScore": 62,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 62,
+                      "rank": 4
                     }
                   ],
-                  "total": 63.15,
+                  "total": 12.4,
                   "rank": 4
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 12.4,
+              "captionRank": 4
             }
           ],
           "subTotal": 0,
@@ -723,7 +723,7 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 86,
+              "captionTotal": 40.2,
               "captionRank": 1
             },
             {
@@ -733,22 +733,22 @@
                   "judgeName": "J. Jadvani",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 85,
+                      "key": "Comp",
+                      "rawScore": 86,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 42.7,
+                      "key": "Perf",
+                      "rawScore": 85,
                       "rank": 1
                     }
                   ],
-                  "total": 82.9,
+                  "total": 42.7,
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 42.7,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -781,8 +781,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 2
+              "captionTotal": 35.8,
+              "captionRank": 3
             },
             {
               "captionName": "Music",
@@ -791,22 +791,22 @@
                   "judgeName": "J. Jadvani",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 77,
+                      "key": "Comp",
+                      "rawScore": 78,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 38.7,
+                      "key": "Perf",
+                      "rawScore": 77,
                       "rank": 2
                     }
                   ],
-                  "total": 74.5,
+                  "total": 38.7,
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 38.7,
+              "captionRank": 2
             }
           ],
           "subTotal": 0,
@@ -839,8 +839,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 3
+              "captionTotal": 37.9,
+              "captionRank": 2
             },
             {
               "captionName": "Music",
@@ -849,22 +849,22 @@
                   "judgeName": "J. Jadvani",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 70,
+                      "key": "Comp",
+                      "rawScore": 71,
                       "rank": 3
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 35.2,
+                      "key": "Perf",
+                      "rawScore": 70,
                       "rank": 3
                     }
                   ],
-                  "total": 73.1,
+                  "total": 35.2,
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 35.2,
+              "captionRank": 3
             }
           ],
           "subTotal": 0,
@@ -906,7 +906,7 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 78,
+              "captionTotal": 39.7,
               "captionRank": 1
             },
             {
@@ -916,22 +916,22 @@
                   "judgeName": "J. Jadvani",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 77,
+                      "key": "Comp",
+                      "rawScore": 78,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 38.7,
+                      "key": "Perf",
+                      "rawScore": 77,
                       "rank": 1
                     }
                   ],
-                  "total": 78.4,
+                  "total": 38.7,
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 38.7,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -964,7 +964,7 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 73,
+              "captionTotal": 37.8,
               "captionRank": 2
             },
             {
@@ -974,22 +974,22 @@
                   "judgeName": "J. Jadvani",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 73,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 36.5,
+                      "key": "Perf",
+                      "rawScore": 73,
                       "rank": 2
                     }
                   ],
-                  "total": 74.3,
+                  "total": 36.5,
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 36.5,
+              "captionRank": 2
             }
           ],
           "subTotal": 0,
@@ -1031,7 +1031,7 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 80,
+              "captionTotal": 23.85,
               "captionRank": 1
             },
             {
@@ -1042,21 +1042,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 75,
+                      "rawScore": 80,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 15.5,
+                      "key": "Vis",
+                      "rawScore": 75,
                       "rank": 1
                     }
                   ],
-                  "total": 85,
+                  "total": 15.5,
                   "rank": 1
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 2
+              "captionTotal": 15.5,
+              "captionRank": 1
             },
             {
               "captionName": "Music",
@@ -1065,22 +1065,22 @@
                   "judgeName": "J. Jadvani",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 24.7,
-                      "rank": 2
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 82,
-                      "rank": 1
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 2
                     }
                   ],
-                  "total": 80,
-                  "rank": 1
+                  "total": 24.7,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 16.2,
-              "captionRank": 1
+              "captionTotal": 24.7,
+              "captionRank": 2
             },
             {
               "captionName": "Visual",
@@ -1089,22 +1089,22 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 80.25,
+                      "key": "Comp",
+                      "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 1
                     }
                   ],
-                  "total": 80.25,
+                  "total": 16.2,
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 16.2,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -1137,8 +1137,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 3
+              "captionTotal": 22.65,
+              "captionRank": 2
             },
             {
               "captionName": "Effect - Visual",
@@ -1148,20 +1148,20 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 74,
-                      "rank": 2
+                      "rawScore": 72,
+                      "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 14.6,
-                      "rank": 3
+                      "key": "Vis",
+                      "rawScore": 74,
+                      "rank": 2
                     }
                   ],
-                  "total": 77,
+                  "total": 14.6,
                   "rank": 3
                 }
               ],
-              "captionTotal": 74,
+              "captionTotal": 14.6,
               "captionRank": 3
             },
             {
@@ -1171,21 +1171,21 @@
                   "judgeName": "J. Jadvani",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 22.5,
+                      "key": "Comp",
+                      "rawScore": 77,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 74,
                       "rank": 3
                     }
                   ],
-                  "total": 73,
+                  "total": 22.5,
                   "rank": 3
                 }
               ],
-              "captionTotal": 14.7,
+              "captionTotal": 22.5,
               "captionRank": 3
             },
             {
@@ -1195,22 +1195,22 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 74.45,
+                      "key": "Comp",
+                      "rawScore": 74,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 3
                     }
                   ],
-                  "total": 74.45,
-                  "rank": 2
+                  "total": 14.7,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 14.7,
+              "captionRank": 3
             }
           ],
           "subTotal": 0,
@@ -1243,8 +1243,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 2
+              "captionTotal": 22.2,
+              "captionRank": 3
             },
             {
               "captionName": "Effect - Visual",
@@ -1254,21 +1254,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 73,
-                      "rank": 3
+                      "rawScore": 75,
+                      "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 14.8,
-                      "rank": 2
+                      "key": "Vis",
+                      "rawScore": 73,
+                      "rank": 3
                     }
                   ],
-                  "total": 84,
+                  "total": 14.8,
                   "rank": 2
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 1
+              "captionTotal": 14.8,
+              "captionRank": 2
             },
             {
               "captionName": "Music",
@@ -1277,22 +1277,22 @@
                   "judgeName": "J. Jadvani",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 24.8,
-                      "rank": 1
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 75.5,
-                      "rank": 2
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 1
                     }
                   ],
-                  "total": 75,
-                  "rank": 2
+                  "total": 24.8,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 15.05,
-              "captionRank": 2
+              "captionTotal": 24.8,
+              "captionRank": 1
             },
             {
               "captionName": "Visual",
@@ -1301,22 +1301,22 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 76.85,
+                      "key": "Comp",
+                      "rawScore": 75.5,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 3.75,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 2
                     }
                   ],
-                  "total": 73.1,
-                  "rank": 3
+                  "total": 15.05,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 15.05,
+              "captionRank": 2
             }
           ],
           "subTotal": 76.85,
@@ -1349,7 +1349,7 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 70,
+              "captionTotal": 21.6,
               "captionRank": 4
             },
             {
@@ -1360,20 +1360,20 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 72,
+                      "rawScore": 70,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 14.2,
+                      "key": "Vis",
+                      "rawScore": 72,
                       "rank": 4
                     }
                   ],
-                  "total": 75,
+                  "total": 14.2,
                   "rank": 4
                 }
               ],
-              "captionTotal": 73,
+              "captionTotal": 14.2,
               "captionRank": 4
             },
             {
@@ -1383,21 +1383,21 @@
                   "judgeName": "J. Jadvani",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 22.1,
+                      "key": "Comp",
+                      "rawScore": 75,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 73,
                       "rank": 4
                     }
                   ],
-                  "total": 71,
+                  "total": 22.1,
                   "rank": 4
                 }
               ],
-              "captionTotal": 14.4,
+              "captionTotal": 22.1,
               "captionRank": 4
             },
             {
@@ -1407,22 +1407,22 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 72.3,
+                      "key": "Comp",
+                      "rawScore": 73,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 4
                     }
                   ],
-                  "total": 72.3,
+                  "total": 14.4,
                   "rank": 4
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 14.4,
+              "captionRank": 4
             }
           ],
           "subTotal": 0,
@@ -1464,7 +1464,7 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 77,
+              "captionTotal": 23.1,
               "captionRank": 1
             },
             {
@@ -1475,20 +1475,20 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 73,
+                      "rawScore": 77,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 15,
+                      "key": "Vis",
+                      "rawScore": 73,
                       "rank": 1
                     }
                   ],
-                  "total": 84,
+                  "total": 15,
                   "rank": 1
                 }
               ],
-              "captionTotal": 83,
+              "captionTotal": 15,
               "captionRank": 1
             },
             {
@@ -1498,21 +1498,21 @@
                   "judgeName": "J. Jadvani",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 25,
+                      "key": "Comp",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 70,
+                      "key": "Perf",
+                      "rawScore": 83,
                       "rank": 1
                     }
                   ],
-                  "total": 70,
+                  "total": 25,
                   "rank": 1
                 }
               ],
-              "captionTotal": 14,
+              "captionTotal": 25,
               "captionRank": 1
             },
             {
@@ -1522,22 +1522,22 @@
                   "judgeName": "J. Bell",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 77.1,
+                      "key": "Comp",
+                      "rawScore": 70,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 1
                     }
                   ],
-                  "total": 77.1,
+                  "total": 14,
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 14,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,

@@ -67,12 +67,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 82,
                       "rank": 1
                     }
@@ -84,12 +84,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 86,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 82,
                       "rank": 1
                     }
@@ -159,12 +159,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 81,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 80,
                       "rank": 2
                     }
@@ -176,12 +176,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 80,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 78,
                       "rank": 2
                     }
@@ -251,12 +251,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 75,
                       "rank": 3
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 76,
                       "rank": 3
                     }
@@ -268,12 +268,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 78,
                       "rank": 3
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 76,
                       "rank": 3
                     }
@@ -352,12 +352,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 76,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 75,
                       "rank": 1
                     }
@@ -369,12 +369,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 74,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 72,
                       "rank": 1
                     }
@@ -444,12 +444,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 70,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 71,
                       "rank": 2
                     }
@@ -461,12 +461,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 70,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 67,
                       "rank": 2
                     }
@@ -550,7 +550,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 82,
                       "rank": 2
                     }
@@ -567,7 +567,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 91,
                       "rank": 1
                     }
@@ -586,12 +586,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 87,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 88,
                       "rank": 1
                     }
@@ -603,12 +603,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 86,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 84,
                       "rank": 2
                     }
@@ -627,12 +627,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 83,
                       "rank": 1
                     }
@@ -644,12 +644,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 83,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 82,
                       "rank": 1
                     }
@@ -724,7 +724,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 83,
                       "rank": 1
                     }
@@ -741,7 +741,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 83,
                       "rank": 3
                     }
@@ -760,12 +760,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 86,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 86,
                       "rank": 2
                     }
@@ -777,12 +777,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 88,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 85,
                       "rank": 1
                     }
@@ -801,12 +801,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 82,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 82,
                       "rank": 2
                     }
@@ -818,12 +818,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 81,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 81,
                       "rank": 2
                     }
@@ -898,7 +898,7 @@
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 80,
                       "rank": 3
                     }
@@ -915,7 +915,7 @@
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 85,
                       "rank": 2
                     }
@@ -934,12 +934,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 84,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 80,
                       "rank": 4
                     }
@@ -951,12 +951,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 82,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 80,
                       "rank": 4
                     }
@@ -975,12 +975,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 81,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 79,
                       "rank": 3
                     }
@@ -992,12 +992,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 79,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 78,
                       "rank": 3
                     }
@@ -1072,7 +1072,7 @@
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 74,
                       "rank": 6
                     }
@@ -1089,7 +1089,7 @@
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 78,
                       "rank": 5
                     }
@@ -1108,12 +1108,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 83,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 82,
                       "rank": 3
                     }
@@ -1125,12 +1125,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 84,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 83,
                       "rank": 3
                     }
@@ -1149,12 +1149,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 77,
                       "rank": 7
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 75,
                       "rank": 7
                     }
@@ -1166,12 +1166,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 74,
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 73,
                       "rank": 6
                     }
@@ -1246,7 +1246,7 @@
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 79,
                       "rank": 4
                     }
@@ -1263,7 +1263,7 @@
                       "rank": 7
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 76,
                       "rank": 7
                     }
@@ -1282,12 +1282,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 80,
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 77,
                       "rank": 5
                     }
@@ -1299,12 +1299,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 80,
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 79,
                       "rank": 5
                     }
@@ -1323,12 +1323,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 80,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 78,
                       "rank": 4
                     }
@@ -1340,12 +1340,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 73,
                       "rank": 7
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 72,
                       "rank": 7
                     }
@@ -1420,7 +1420,7 @@
                       "rank": 8
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 69,
                       "rank": 9
                     }
@@ -1437,7 +1437,7 @@
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 79,
                       "rank": 4
                     }
@@ -1456,12 +1456,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 75,
                       "rank": 7
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 74,
                       "rank": 7
                     }
@@ -1473,12 +1473,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 73,
                       "rank": 8
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 72,
                       "rank": 8
                     }
@@ -1497,12 +1497,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 79,
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 77,
                       "rank": 5
                     }
@@ -1514,12 +1514,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 77,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 76,
                       "rank": 4
                     }
@@ -1594,7 +1594,7 @@
                       "rank": 7
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 72,
                       "rank": 7
                     }
@@ -1611,7 +1611,7 @@
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 77,
                       "rank": 6
                     }
@@ -1630,12 +1630,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 77,
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 76,
                       "rank": 6
                     }
@@ -1647,12 +1647,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 77,
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 75,
                       "rank": 6
                     }
@@ -1671,12 +1671,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 75,
                       "rank": 9
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 73,
                       "rank": 9
                     }
@@ -1688,12 +1688,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 70,
                       "rank": 9
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 69,
                       "rank": 9
                     }
@@ -1768,7 +1768,7 @@
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 77,
                       "rank": 5
                     }
@@ -1785,7 +1785,7 @@
                       "rank": 9
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 75,
                       "rank": 8
                     }
@@ -1804,12 +1804,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 67,
                       "rank": 9
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 69,
                       "rank": 9
                     }
@@ -1821,12 +1821,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 72,
                       "rank": 9
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 70,
                       "rank": 9
                     }
@@ -1845,12 +1845,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 78,
                       "rank": 6
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 76,
                       "rank": 6
                     }
@@ -1862,12 +1862,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 75,
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 74,
                       "rank": 5
                     }
@@ -1942,7 +1942,7 @@
                       "rank": 9
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 70,
                       "rank": 8
                     }
@@ -1959,7 +1959,7 @@
                       "rank": 8
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 74,
                       "rank": 9
                     }
@@ -1978,12 +1978,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 73,
                       "rank": 8
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 72,
                       "rank": 8
                     }
@@ -1995,12 +1995,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 74,
                       "rank": 7
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 73,
                       "rank": 7
                     }
@@ -2019,12 +2019,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 76,
                       "rank": 8
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 74,
                       "rank": 8
                     }
@@ -2036,12 +2036,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 72,
                       "rank": 8
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 70,
                       "rank": 8
                     }
@@ -2120,12 +2120,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 87,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 85,
                       "rank": 1
                     }
@@ -2137,12 +2137,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 81,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 83,
                       "rank": 1
                     }
@@ -2212,12 +2212,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 80,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 81,
                       "rank": 2
                     }
@@ -2229,12 +2229,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 77,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 81,
                       "rank": 2
                     }
@@ -2313,12 +2313,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 91,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 89,
                       "rank": 2
                     }
@@ -2330,12 +2330,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 92,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 90,
                       "rank": 1
                     }
@@ -2405,12 +2405,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 88,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 90,
                       "rank": 1
                     }
@@ -2422,12 +2422,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 88,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 87,
                       "rank": 2
                     }
@@ -2497,12 +2497,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 85,
                       "rank": 3
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 84,
                       "rank": 3
                     }
@@ -2514,12 +2514,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 85,
                       "rank": 3
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 85,
                       "rank": 3
                     }
@@ -2603,7 +2603,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 89,
                       "rank": 1
                     }
@@ -2620,7 +2620,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 92,
                       "rank": 1
                     }
@@ -2639,12 +2639,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 92,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 90,
                       "rank": 2
                     }
@@ -2656,12 +2656,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 93,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 90,
                       "rank": 2
                     }
@@ -2680,12 +2680,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 88,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 88,
                       "rank": 1
                     }
@@ -2697,12 +2697,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 86,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 85,
                       "rank": 1
                     }
@@ -2777,7 +2777,7 @@
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 88,
                       "rank": 2
                     }
@@ -2794,7 +2794,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 89,
                       "rank": 2
                     }
@@ -2813,12 +2813,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 93,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 92,
                       "rank": 1
                     }
@@ -2830,12 +2830,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 90,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 91,
                       "rank": 1
                     }
@@ -2854,12 +2854,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 85,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 83,
                       "rank": 2
                     }
@@ -2871,12 +2871,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 84,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 82,
                       "rank": 2
                     }
@@ -2951,7 +2951,7 @@
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 83,
                       "rank": 5
                     }
@@ -2968,7 +2968,7 @@
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 81,
                       "rank": 5
                     }
@@ -2987,12 +2987,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 88,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 87,
                       "rank": 3
                     }
@@ -3004,12 +3004,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 88,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 86,
                       "rank": 3
                     }
@@ -3028,12 +3028,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 83,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 82,
                       "rank": 3
                     }
@@ -3045,12 +3045,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 81,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 79,
                       "rank": 3
                     }
@@ -3125,7 +3125,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 87,
                       "rank": 3
                     }
@@ -3142,7 +3142,7 @@
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 86,
                       "rank": 3
                     }
@@ -3161,12 +3161,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 87,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 85,
                       "rank": 4
                     }
@@ -3178,12 +3178,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 86,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 84,
                       "rank": 4
                     }
@@ -3202,12 +3202,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 79,
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 77,
                       "rank": 5
                     }
@@ -3219,12 +3219,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 77,
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 75,
                       "rank": 5
                     }
@@ -3299,7 +3299,7 @@
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 84,
                       "rank": 4
                     }
@@ -3316,7 +3316,7 @@
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 83,
                       "rank": 4
                     }
@@ -3335,12 +3335,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 84,
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 83,
                       "rank": 5
                     }
@@ -3352,12 +3352,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 84,
                       "rank": 5
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 82,
                       "rank": 5
                     }
@@ -3376,12 +3376,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 80,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 78,
                       "rank": 4
                     }
@@ -3393,12 +3393,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 78,
                       "rank": 4
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 77,
                       "rank": 4
                     }
@@ -3477,12 +3477,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 93,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 92,
                       "rank": 1
                     }
@@ -3494,12 +3494,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 93,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 92,
                       "rank": 1
                     }
@@ -3569,12 +3569,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 84,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 85,
                       "rank": 2
                     }
@@ -3586,12 +3586,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 81,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
+                      "key": "Perf",
                       "rawScore": 84,
                       "rank": 2
                     }
@@ -3675,7 +3675,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 90,
                       "rank": 2
                     }
@@ -3692,7 +3692,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 83,
                       "rank": 3
                     }
@@ -3711,12 +3711,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 93,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 92,
                       "rank": 1
                     }
@@ -3728,12 +3728,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 91,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 91,
                       "rank": 1
                     }
@@ -3752,12 +3752,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 83,
                       "rank": 1
                     }
@@ -3769,12 +3769,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 85,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 84,
                       "rank": 1
                     }
@@ -3849,7 +3849,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 91,
                       "rank": 1
                     }
@@ -3866,7 +3866,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 86,
                       "rank": 1
                     }
@@ -3885,12 +3885,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 90,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 89,
                       "rank": 2
                     }
@@ -3902,12 +3902,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 87,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 90,
                       "rank": 2
                     }
@@ -3926,12 +3926,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 83,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 81,
                       "rank": 2
                     }
@@ -3943,12 +3943,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 83,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 81,
                       "rank": 2
                     }
@@ -4023,7 +4023,7 @@
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 88,
                       "rank": 3
                     }
@@ -4040,7 +4040,7 @@
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 84,
                       "rank": 2
                     }
@@ -4059,12 +4059,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 87,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 85,
                       "rank": 3
                     }
@@ -4076,12 +4076,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 88,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 87,
                       "rank": 3
                     }
@@ -4100,12 +4100,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 82,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 80,
                       "rank": 3
                     }
@@ -4117,12 +4117,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 81,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 80,
                       "rank": 3
                     }
@@ -4206,7 +4206,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 80,
                       "rank": 1
                     }
@@ -4223,7 +4223,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 87,
                       "rank": 1
                     }
@@ -4242,12 +4242,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 86,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 83,
                       "rank": 1
                     }
@@ -4259,12 +4259,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 86,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 84,
                       "rank": 1
                     }
@@ -4283,12 +4283,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 81,
                       "rank": 1
                     }
@@ -4300,12 +4300,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 81,
                       "rank": 1
                     }
@@ -4389,7 +4389,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 86,
                       "rank": 1
                     }
@@ -4406,7 +4406,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 86,
                       "rank": 1
                     }
@@ -4425,12 +4425,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 83,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 81,
                       "rank": 1
                     }
@@ -4442,12 +4442,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 83,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 80,
                       "rank": 1
                     }
@@ -4466,12 +4466,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 83,
                       "rank": 1
                     }
@@ -4483,12 +4483,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 85,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 83,
                       "rank": 1
                     }
@@ -4572,7 +4572,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 94,
                       "rank": 1
                     }
@@ -4589,7 +4589,7 @@
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 91,
                       "rank": 1
                     }
@@ -4608,12 +4608,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 87,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 86,
                       "rank": 1
                     }
@@ -4625,12 +4625,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 88,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 87,
                       "rank": 1
                     }
@@ -4649,12 +4649,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 91,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 91,
                       "rank": 1
                     }
@@ -4666,12 +4666,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 90,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 90,
                       "rank": 1
                     }
@@ -4746,7 +4746,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 87,
                       "rank": 2
                     }
@@ -4763,7 +4763,7 @@
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Vis",
                       "rawScore": 84,
                       "rank": 2
                     }
@@ -4782,12 +4782,12 @@
                   "judgeName": "M. Nevin",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 83,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 82,
                       "rank": 2
                     }
@@ -4799,12 +4799,12 @@
                   "judgeName": "S. Stroman",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 84,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 83,
                       "rank": 2
                     }
@@ -4823,12 +4823,12 @@
                   "judgeName": "T. Goddard",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 88,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 87,
                       "rank": 2
                     }
@@ -4840,12 +4840,12 @@
                   "judgeName": "P. Butler",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
+                      "key": "Comp",
                       "rawScore": 87,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 86,
                       "rank": 2
                     }

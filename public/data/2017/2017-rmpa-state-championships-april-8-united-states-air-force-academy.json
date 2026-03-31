@@ -4,7 +4,7 @@
     "eventName": "RMPA State Championships",
     "venue": "United States Air Force Academy",
     "date": "Saturday, April 8, 2017 - United States Air Force Academy",
-    "round": "Finals",
+    "round": "Prelims",
     "year": 2017
   },
   "classes": [
@@ -32,11 +32,11 @@
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 90,
+                      "rawScore": 91,
                       "rank": 1
                     }
                   ],
-                  "total": 45.4,
+                  "total": 45.7,
                   "rank": 1
                 },
                 {
@@ -44,20 +44,20 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 86,
+                      "rawScore": 85,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 86.5,
+                      "rawScore": 85,
                       "rank": 1
                     }
                   ],
-                  "total": 43.15,
+                  "total": 42.5,
                   "rank": 1
                 }
               ],
-              "captionTotal": 44.275,
+              "captionTotal": 44.1,
               "captionRank": 1
             },
             {
@@ -67,34 +67,34 @@
                   "judgeName": "J. Allison",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 90,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 86,
+                      "key": "Ful",
+                      "rawScore": 85,
                       "rank": 1
                     }
                   ],
-                  "total": 43.8,
+                  "total": 43.5,
                   "rank": 1
                 },
                 {
                   "judgeName": "W. Durrett",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 90,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 86,
+                      "key": "Ful",
+                      "rawScore": 87,
                       "rank": 1
                     }
                   ],
-                  "total": 43.8,
+                  "total": 44.1,
                   "rank": 1
                 }
               ],
@@ -104,7 +104,7 @@
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 88.075,
+          "total": 87.9,
           "rank": 1
         },
         {
@@ -119,16 +119,16 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 90,
+                      "rawScore": 89,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 87,
-                      "rank": 2
+                      "rawScore": 86,
+                      "rank": 3
                     }
                   ],
-                  "total": 44.1,
+                  "total": 43.6,
                   "rank": 2
                 },
                 {
@@ -136,20 +136,20 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 85,
+                      "rawScore": 83,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 84,
+                      "rawScore": 82,
                       "rank": 3
                     }
                   ],
-                  "total": 42.2,
-                  "rank": 3
+                  "total": 41.2,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 43.15,
+              "captionTotal": 42.4,
               "captionRank": 2
             },
             {
@@ -159,44 +159,44 @@
                   "judgeName": "J. Allison",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 86,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 83,
+                      "key": "Ful",
+                      "rawScore": 81,
                       "rank": 3
                     }
                   ],
-                  "total": 42.1,
+                  "total": 41.5,
                   "rank": 2
                 },
                 {
                   "judgeName": "W. Durrett",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 87,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 86,
-                      "rank": 1
+                      "key": "Ful",
+                      "rawScore": 85,
+                      "rank": 2
                     }
                   ],
-                  "total": 43.2,
+                  "total": 42.9,
                   "rank": 2
                 }
               ],
-              "captionTotal": 42.65,
+              "captionTotal": 42.2,
               "captionRank": 2
             }
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 85.8,
+          "total": 84.6,
           "rank": 2
         },
         {
@@ -211,16 +211,16 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 86,
+                      "rawScore": 87,
                       "rank": 3
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 83,
-                      "rank": 3
+                      "rawScore": 87,
+                      "rank": 2
                     }
                   ],
-                  "total": 42.1,
+                  "total": 43.5,
                   "rank": 3
                 },
                 {
@@ -228,20 +228,20 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 84,
+                      "rawScore": 81,
                       "rank": 3
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 86,
+                      "rawScore": 82.5,
                       "rank": 2
                     }
                   ],
-                  "total": 42.6,
-                  "rank": 2
+                  "total": 40.95,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 42.35,
+              "captionTotal": 42.225,
               "captionRank": 3
             },
             {
@@ -251,44 +251,44 @@
                   "judgeName": "J. Allison",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
-                      "rank": 4
+                      "key": "Prog",
+                      "rawScore": 75,
+                      "rank": 7
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 84,
-                      "rank": 2
+                      "key": "Ful",
+                      "rawScore": 80,
+                      "rank": 4
                     }
                   ],
-                  "total": 41.2,
-                  "rank": 3
+                  "total": 39,
+                  "rank": 6
                 },
                 {
                   "judgeName": "W. Durrett",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 81,
-                      "rank": 4
+                      "key": "Prog",
+                      "rawScore": 77,
+                      "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 82,
+                      "key": "Ful",
+                      "rawScore": 80,
                       "rank": 4
                     }
                   ],
-                  "total": 40.8,
-                  "rank": 4
+                  "total": 39.4,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 41,
-              "captionRank": 3
+              "captionTotal": 39.2,
+              "captionRank": 5
             }
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 83.35,
+          "total": 81.425,
           "rank": 3
         },
         {
@@ -304,16 +304,108 @@
                     {
                       "key": "Comp",
                       "rawScore": 85,
-                      "rank": 4
+                      "rank": 5
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 82,
+                      "rawScore": 83,
                       "rank": 4
                     }
                   ],
-                  "total": 41.6,
+                  "total": 41.9,
                   "rank": 4
+                },
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 36.7,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 39.3,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 83,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 78,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 40,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 84,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 81,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 41.1,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 40.55,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.85,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Highlands Ranch High School - A",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 39.9,
+                  "rank": 7
                 },
                 {
                   "judgeName": "S. Johnson",
@@ -325,15 +417,15 @@
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 80,
+                      "rawScore": 79,
                       "rank": 4
                     }
                   ],
-                  "total": 39.4,
+                  "total": 39.1,
                   "rank": 4
                 }
               ],
-              "captionTotal": 40.5,
+              "captionTotal": 39.5,
               "captionRank": 4
             },
             {
@@ -343,45 +435,229 @@
                   "judgeName": "J. Allison",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83,
-                      "rank": 3
+                      "key": "Prog",
+                      "rawScore": 78,
+                      "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 76,
-                      "rank": 4
+                      "key": "Ful",
+                      "rawScore": 79,
+                      "rank": 5
                     }
                   ],
-                  "total": 39.4,
-                  "rank": 4
+                  "total": 39.3,
+                  "rank": 5
                 },
                 {
                   "judgeName": "W. Durrett",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83,
-                      "rank": 3
+                      "key": "Prog",
+                      "rawScore": 82,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 83,
-                      "rank": 3
+                      "key": "Ful",
+                      "rawScore": 77,
+                      "rank": 5
                     }
                   ],
-                  "total": 41.5,
-                  "rank": 3
+                  "total": 39.5,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 40.45,
+              "captionTotal": 39.4,
               "captionRank": 4
             }
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 80.95,
-          "rank": 4
+          "total": 78.9,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Heritage High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 41.5,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 72,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 36.2,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 38.85,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 84,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 82,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 41.4,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 75,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 73,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 36.9,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 39.15,
+              "captionRank": 6
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78,
+          "rank": 6
+        },
+        {
+          "ensembleName": "Alameda International High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 41.2,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 35.7,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 38.45,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 77,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 75,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 37.9,
+                  "rank": 7
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 80,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 75,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 38.5,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 38.2,
+              "captionRank": 7
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 76.65,
+          "rank": 7
         }
       ]
     },
@@ -404,16 +680,16 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 93,
+                      "rawScore": 92,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 91,
+                      "rawScore": 89,
                       "rank": 1
                     }
                   ],
-                  "total": 27.5,
+                  "total": 27,
                   "rank": 1
                 },
                 {
@@ -421,20 +697,20 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 86,
+                      "rawScore": 88,
                       "rank": 3
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 87,
+                      "rawScore": 88,
                       "rank": 2
                     }
                   ],
-                  "total": 26,
+                  "total": 26.4,
                   "rank": 2
                 }
               ],
-              "captionTotal": 26.75,
+              "captionTotal": 26.7,
               "captionRank": 2
             },
             {
@@ -444,38 +720,38 @@
                   "judgeName": "W. Durrett",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 94,
+                      "key": "Ovr",
+                      "rawScore": 92,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 89,
+                      "key": "Mus",
+                      "rawScore": 90,
                       "rank": 1
                     }
                   ],
-                  "total": 27.45,
+                  "total": 27.3,
                   "rank": 1
                 },
                 {
                   "judgeName": "M. Reynolds",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 93,
-                      "rank": 2
+                      "key": "Ovr",
+                      "rawScore": 96,
+                      "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 90.5,
-                      "rank": 2
+                      "key": "Mus",
+                      "rawScore": 94.5,
+                      "rank": 1
                     }
                   ],
-                  "total": 27.525,
-                  "rank": 2
+                  "total": 28.575,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 27.488,
+              "captionTotal": 27.938,
               "captionRank": 1
             },
             {
@@ -486,16 +762,16 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 92,
+                      "rawScore": 91,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 92,
+                      "rawScore": 90,
                       "rank": 1
                     }
                   ],
-                  "total": 18.4,
+                  "total": 18.1,
                   "rank": 1
                 },
                 {
@@ -503,20 +779,20 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 94,
-                      "rank": 1
+                      "rawScore": 89.5,
+                      "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 93,
-                      "rank": 1
+                      "rawScore": 89.5,
+                      "rank": 2
                     }
                   ],
-                  "total": 18.7,
-                  "rank": 1
+                  "total": 17.9,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 18.55,
+              "captionTotal": 18,
               "captionRank": 1
             },
             {
@@ -526,44 +802,44 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 95,
+                      "key": "Ovr",
+                      "rawScore": 93,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 93,
+                      "key": "Vis",
+                      "rawScore": 91,
                       "rank": 1
                     }
                   ],
-                  "total": 18.8,
+                  "total": 18.4,
                   "rank": 1
                 },
                 {
                   "judgeName": "F. Miller",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 91,
-                      "rank": 2
+                      "key": "Ovr",
+                      "rawScore": 90,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 92,
-                      "rank": 1
+                      "key": "Vis",
+                      "rawScore": 91,
+                      "rank": 2
                     }
                   ],
-                  "total": 18.3,
+                  "total": 18.1,
                   "rank": 2
                 }
               ],
-              "captionTotal": 18.55,
-              "captionRank": 1
+              "captionTotal": 18.25,
+              "captionRank": 2
             }
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 91.338,
+          "total": 90.888,
           "rank": 1
         },
         {
@@ -578,16 +854,16 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 92,
+                      "rawScore": 91,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 89,
+                      "rawScore": 88,
                       "rank": 2
                     }
                   ],
-                  "total": 27,
+                  "total": 26.7,
                   "rank": 2
                 },
                 {
@@ -600,15 +876,15 @@
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 90,
+                      "rawScore": 89,
                       "rank": 1
                     }
                   ],
-                  "total": 27,
+                  "total": 26.8,
                   "rank": 1
                 }
               ],
-              "captionTotal": 27,
+              "captionTotal": 26.75,
               "captionRank": 1
             },
             {
@@ -618,38 +894,38 @@
                   "judgeName": "W. Durrett",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 91,
+                      "key": "Ovr",
+                      "rawScore": 89,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 88,
+                      "key": "Mus",
+                      "rawScore": 89,
                       "rank": 2
                     }
                   ],
-                  "total": 26.85,
+                  "total": 26.7,
                   "rank": 2
                 },
                 {
                   "judgeName": "M. Reynolds",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 93.5,
-                      "rank": 1
+                      "key": "Ovr",
+                      "rawScore": 92.5,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 91,
-                      "rank": 1
+                      "key": "Mus",
+                      "rawScore": 89,
+                      "rank": 2
                     }
                   ],
-                  "total": 27.675,
-                  "rank": 1
+                  "total": 27.225,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 27.263,
+              "captionTotal": 26.963,
               "captionRank": 2
             },
             {
@@ -660,16 +936,16 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 91,
+                      "rawScore": 90,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 90,
+                      "rawScore": 89,
                       "rank": 2
                     }
                   ],
-                  "total": 18.1,
+                  "total": 17.9,
                   "rank": 2
                 },
                 {
@@ -677,20 +953,20 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 93,
-                      "rank": 2
+                      "rawScore": 90,
+                      "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 92,
-                      "rank": 2
+                      "rawScore": 90.5,
+                      "rank": 1
                     }
                   ],
-                  "total": 18.5,
-                  "rank": 2
+                  "total": 18.05,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 18.3,
+              "captionTotal": 17.975,
               "captionRank": 2
             },
             {
@@ -700,44 +976,44 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 93,
+                      "key": "Ovr",
+                      "rawScore": 92,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 92,
+                      "key": "Vis",
+                      "rawScore": 90,
                       "rank": 2
                     }
                   ],
-                  "total": 18.5,
+                  "total": 18.2,
                   "rank": 2
                 },
                 {
                   "judgeName": "F. Miller",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 94,
+                      "key": "Ovr",
+                      "rawScore": 92,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 91,
-                      "rank": 2
+                      "key": "Vis",
+                      "rawScore": 92,
+                      "rank": 1
                     }
                   ],
-                  "total": 18.5,
+                  "total": 18.4,
                   "rank": 1
                 }
               ],
-              "captionTotal": 18.5,
-              "captionRank": 2
+              "captionTotal": 18.3,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 91.063,
+          "total": 89.988,
           "rank": 2
         },
         {
@@ -757,11 +1033,11 @@
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 84,
+                      "rawScore": 86,
                       "rank": 3
                     }
                   ],
-                  "total": 25.8,
+                  "total": 26.2,
                   "rank": 3
                 },
                 {
@@ -769,20 +1045,20 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 87,
+                      "rawScore": 89,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 85,
+                      "rawScore": 87,
                       "rank": 3
                     }
                   ],
-                  "total": 25.7,
+                  "total": 26.3,
                   "rank": 3
                 }
               ],
-              "captionTotal": 25.75,
+              "captionTotal": 26.25,
               "captionRank": 3
             },
             {
@@ -792,12 +1068,12 @@
                   "judgeName": "W. Durrett",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 88,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 85,
                       "rank": 3
                     }
@@ -809,21 +1085,21 @@
                   "judgeName": "M. Reynolds",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 86,
+                      "key": "Ovr",
+                      "rawScore": 89.5,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 85.5,
-                      "rank": 3
+                      "key": "Mus",
+                      "rawScore": 89,
+                      "rank": 2
                     }
                   ],
-                  "total": 25.725,
+                  "total": 26.775,
                   "rank": 3
                 }
               ],
-              "captionTotal": 25.838,
+              "captionTotal": 26.363,
               "captionRank": 3
             },
             {
@@ -834,7 +1110,7 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 86,
+                      "rawScore": 87,
                       "rank": 3
                     },
                     {
@@ -843,7 +1119,7 @@
                       "rank": 3
                     }
                   ],
-                  "total": 17.2,
+                  "total": 17.3,
                   "rank": 3
                 },
                 {
@@ -851,20 +1127,20 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 90,
-                      "rank": 3
+                      "rawScore": 87,
+                      "rank": 4
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 89,
-                      "rank": 3
+                      "rawScore": 87,
+                      "rank": 4
                     }
                   ],
-                  "total": 17.9,
-                  "rank": 3
+                  "total": 17.4,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 17.55,
+              "captionTotal": 17.35,
               "captionRank": 3
             },
             {
@@ -874,44 +1150,44 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 90,
+                      "key": "Ovr",
+                      "rawScore": 88,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 89,
+                      "key": "Vis",
+                      "rawScore": 86,
                       "rank": 3
                     }
                   ],
-                  "total": 17.9,
+                  "total": 17.4,
                   "rank": 3
                 },
                 {
                   "judgeName": "F. Miller",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 89,
-                      "rank": 3
+                      "key": "Ovr",
+                      "rawScore": 91,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 88,
+                      "key": "Vis",
+                      "rawScore": 89,
                       "rank": 3
                     }
                   ],
-                  "total": 17.7,
+                  "total": 18,
                   "rank": 3
                 }
               ],
-              "captionTotal": 17.8,
+              "captionTotal": 17.7,
               "captionRank": 3
             }
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 86.938,
+          "total": 87.663,
           "rank": 3
         },
         {
@@ -931,11 +1207,11 @@
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 81,
+                      "rawScore": 80,
                       "rank": 4
                     }
                   ],
-                  "total": 24.5,
+                  "total": 24.3,
                   "rank": 4
                 },
                 {
@@ -943,20 +1219,20 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 85,
+                      "rawScore": 87,
                       "rank": 4
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 83,
-                      "rank": 4
+                      "rawScore": 84,
+                      "rank": 5
                     }
                   ],
-                  "total": 25.1,
+                  "total": 25.5,
                   "rank": 4
                 }
               ],
-              "captionTotal": 24.8,
+              "captionTotal": 24.9,
               "captionRank": 4
             },
             {
@@ -966,14 +1242,14 @@
                   "judgeName": "W. Durrett",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83,
+                      "key": "Ovr",
+                      "rawScore": 82,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 83,
-                      "rank": 5
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 4
                     }
                   ],
                   "total": 24.9,
@@ -983,22 +1259,22 @@
                   "judgeName": "M. Reynolds",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 84.5,
-                      "rank": 4
+                      "key": "Ovr",
+                      "rawScore": 77,
+                      "rank": 8
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 83,
-                      "rank": 4
+                      "key": "Mus",
+                      "rawScore": 75,
+                      "rank": 8
                     }
                   ],
-                  "total": 25.125,
-                  "rank": 4
+                  "total": 22.8,
+                  "rank": 8
                 }
               ],
-              "captionTotal": 25.013,
-              "captionRank": 4
+              "captionTotal": 23.85,
+              "captionRank": 6
             },
             {
               "captionName": "Visual",
@@ -1008,17 +1284,17 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 80,
-                      "rank": 6
+                      "rawScore": 82,
+                      "rank": 5
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 78,
-                      "rank": 6
+                      "rawScore": 80,
+                      "rank": 5
                     }
                   ],
-                  "total": 15.8,
-                  "rank": 6
+                  "total": 16.2,
+                  "rank": 5
                 },
                 {
                   "judgeName": "T. Tilley",
@@ -1026,20 +1302,20 @@
                     {
                       "key": "Comp",
                       "rawScore": 88,
-                      "rank": 4
+                      "rank": 3
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 86,
-                      "rank": 5
+                      "rawScore": 88,
+                      "rank": 3
                     }
                   ],
-                  "total": 17.4,
-                  "rank": 4
+                  "total": 17.6,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 16.6,
-              "captionRank": 5
+              "captionTotal": 16.9,
+              "captionRank": 4
             },
             {
               "captionName": "Effect - Visual",
@@ -1048,44 +1324,44 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 84,
+                      "key": "Ovr",
+                      "rawScore": 86,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 82,
+                      "key": "Vis",
+                      "rawScore": 84,
                       "rank": 4
                     }
                   ],
-                  "total": 16.6,
+                  "total": 17,
                   "rank": 4
                 },
                 {
                   "judgeName": "F. Miller",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 82,
+                      "key": "Ovr",
+                      "rawScore": 84,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 81,
-                      "rank": 5
+                      "key": "Vis",
+                      "rawScore": 82,
+                      "rank": 6
                     }
                   ],
-                  "total": 16.3,
-                  "rank": 5
+                  "total": 16.6,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 16.45,
+              "captionTotal": 16.8,
               "captionRank": 4
             }
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 82.863,
+          "total": 82.45,
           "rank": 4
         },
         {
@@ -1100,16 +1376,16 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 78,
+                      "rawScore": 81,
                       "rank": 5
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 78,
+                      "rawScore": 79,
                       "rank": 5
                     }
                   ],
-                  "total": 23.4,
+                  "total": 23.9,
                   "rank": 5
                 },
                 {
@@ -1118,20 +1394,20 @@
                     {
                       "key": "Comp",
                       "rawScore": 84,
-                      "rank": 5
+                      "rank": 6
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 80,
-                      "rank": 5
+                      "rawScore": 81,
+                      "rank": 7
                     }
                   ],
-                  "total": 24.4,
-                  "rank": 5
+                  "total": 24.6,
+                  "rank": 7
                 }
               ],
-              "captionTotal": 23.9,
-              "captionRank": 5
+              "captionTotal": 24.25,
+              "captionRank": 6
             },
             {
               "captionName": "Effect - Music",
@@ -1140,39 +1416,213 @@
                   "judgeName": "W. Durrett",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 81,
-                      "rank": 5
+                      "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 84,
-                      "rank": 4
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 5
                     }
                   ],
-                  "total": 24.75,
+                  "total": 24.6,
                   "rank": 5
                 },
                 {
                   "judgeName": "M. Reynolds",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83.5,
+                      "key": "Ovr",
+                      "rawScore": 83,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 82,
-                      "rank": 5
+                      "key": "Mus",
+                      "rawScore": 83.5,
+                      "rank": 4
                     }
                   ],
-                  "total": 24.825,
+                  "total": 24.975,
                   "rank": 5
                 }
               ],
               "captionTotal": 24.788,
-              "captionRank": 5
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 15.6,
+                  "rank": 7
+                },
+                {
+                  "judgeName": "T. Tilley",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85.5,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 16.95,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 16.275,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Vis",
+                      "rawScore": 78,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 15.8,
+                  "rank": 8
+                },
+                {
+                  "judgeName": "F. Miller",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Vis",
+                      "rawScore": 85,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 16.8,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 16.3,
+              "captionRank": 7
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 81.613,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Sand Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 23.5,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "T. Rarick",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 23.9,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 23.7,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 75,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 75,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 22.5,
+                  "rank": 9
+                },
+                {
+                  "judgeName": "M. Reynolds",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 85,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 25.05,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 23.775,
+              "captionRank": 7
             },
             {
               "captionName": "Visual",
@@ -1199,21 +1649,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 84,
-                      "rank": 6
+                      "rawScore": 84.5,
+                      "rank": 5
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 87,
-                      "rank": 4
+                      "rawScore": 84,
+                      "rank": 6
                     }
                   ],
-                  "total": 17.1,
-                  "rank": 5
+                  "total": 16.85,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 17,
-              "captionRank": 4
+              "captionTotal": 16.875,
+              "captionRank": 5
             },
             {
               "captionName": "Effect - Visual",
@@ -1222,48 +1672,396 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
+                      "key": "Ovr",
+                      "rawScore": 83,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 80,
+                      "key": "Vis",
+                      "rawScore": 81,
                       "rank": 6
                     }
                   ],
-                  "total": 16,
+                  "total": 16.4,
                   "rank": 6
                 },
                 {
                   "judgeName": "F. Miller",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83,
-                      "rank": 4
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 8
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 83,
-                      "rank": 4
+                      "key": "Vis",
+                      "rawScore": 80,
+                      "rank": 7
                     }
                   ],
-                  "total": 16.6,
-                  "rank": 4
+                  "total": 16,
+                  "rank": 8
                 }
               ],
-              "captionTotal": 16.3,
-              "captionRank": 5
+              "captionTotal": 16.2,
+              "captionRank": 8
             }
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 81.988,
-          "rank": 5
+          "total": 80.55,
+          "rank": 6
         },
         {
-          "ensembleName": "Sand Creek High School",
+          "ensembleName": "Doherty High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 23.2,
+                  "rank": 7
+                },
+                {
+                  "judgeName": "T. Rarick",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 25.4,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 24.3,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 24.15,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "M. Reynolds",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 24.15,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 24.15,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 15.4,
+                  "rank": 8
+                },
+                {
+                  "judgeName": "T. Tilley",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 15.5,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 15.45,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Vis",
+                      "rawScore": 80,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 16.2,
+                  "rank": 7
+                },
+                {
+                  "judgeName": "F. Miller",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 87,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Vis",
+                      "rawScore": 84,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 17.1,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 16.65,
+              "captionRank": 5
+            }
+          ],
+          "subTotal": 0.3,
+          "penalty": -0.3,
+          "total": 80.25,
+          "rank": 7
+        },
+        {
+          "ensembleName": "Thunder Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 22.8,
+                  "rank": 8
+                },
+                {
+                  "judgeName": "T. Rarick",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 25.1,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 23.95,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 81,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 75,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 23.4,
+                  "rank": 7
+                },
+                {
+                  "judgeName": "M. Reynolds",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 77,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 23.25,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 23.325,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 15.3,
+                  "rank": 9
+                },
+                {
+                  "judgeName": "T. Tilley",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82.5,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 16.45,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 15.875,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Vis",
+                      "rawScore": 82,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 16.6,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "F. Miller",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Vis",
+                      "rawScore": 79,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 16.1,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 16.35,
+              "captionRank": 6
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.5,
+          "rank": 8
+        },
+        {
+          "ensembleName": "Prairie View High School",
           "location": "",
           "captions": [
             {
@@ -1275,37 +2073,37 @@
                     {
                       "key": "Comp",
                       "rawScore": 75,
-                      "rank": 6
+                      "rank": 9
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 74,
-                      "rank": 6
+                      "rawScore": 72,
+                      "rank": 10
                     }
                   ],
-                  "total": 22.3,
-                  "rank": 6
+                  "total": 21.9,
+                  "rank": 10
                 },
                 {
                   "judgeName": "T. Rarick",
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 82,
-                      "rank": 6
+                      "rawScore": 75,
+                      "rank": 10
                     },
                     {
                       "key": "Perf",
                       "rawScore": 76,
-                      "rank": 6
+                      "rank": 9
                     }
                   ],
-                  "total": 23.4,
-                  "rank": 6
+                  "total": 22.7,
+                  "rank": 9
                 }
               ],
-              "captionTotal": 22.85,
-              "captionRank": 6
+              "captionTotal": 22.3,
+              "captionRank": 9
             },
             {
               "captionName": "Effect - Music",
@@ -1314,39 +2112,39 @@
                   "judgeName": "W. Durrett",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76,
-                      "rank": 6
+                      "key": "Ovr",
+                      "rawScore": 73,
+                      "rank": 10
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 76,
-                      "rank": 6
+                      "key": "Mus",
+                      "rawScore": 78,
+                      "rank": 7
                     }
                   ],
-                  "total": 22.8,
-                  "rank": 6
+                  "total": 22.65,
+                  "rank": 8
                 },
                 {
                   "judgeName": "M. Reynolds",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 82,
-                      "rank": 6
+                      "key": "Ovr",
+                      "rawScore": 72,
+                      "rank": 10
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 80.5,
-                      "rank": 6
+                      "key": "Mus",
+                      "rawScore": 70,
+                      "rank": 10
                     }
                   ],
-                  "total": 24.375,
-                  "rank": 6
+                  "total": 21.3,
+                  "rank": 10
                 }
               ],
-              "captionTotal": 23.588,
-              "captionRank": 6
+              "captionTotal": 21.975,
+              "captionRank": 10
             },
             {
               "captionName": "Visual",
@@ -1356,38 +2154,38 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 82,
-                      "rank": 5
+                      "rawScore": 81,
+                      "rank": 6
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 82,
-                      "rank": 5
+                      "rawScore": 79.5,
+                      "rank": 6
                     }
                   ],
-                  "total": 16.4,
-                  "rank": 5
+                  "total": 16.05,
+                  "rank": 6
                 },
                 {
                   "judgeName": "T. Tilley",
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 86,
-                      "rank": 5
+                      "rawScore": 77.5,
+                      "rank": 9
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 82,
-                      "rank": 6
+                      "rawScore": 78,
+                      "rank": 8
                     }
                   ],
-                  "total": 16.8,
-                  "rank": 6
+                  "total": 15.55,
+                  "rank": 8
                 }
               ],
-              "captionTotal": 16.6,
-              "captionRank": 5
+              "captionTotal": 15.8,
+              "captionRank": 8
             },
             {
               "captionName": "Effect - Visual",
@@ -1396,45 +2194,567 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 82,
-                      "rank": 5
+                      "key": "Ovr",
+                      "rawScore": 68,
+                      "rank": 10
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 81,
-                      "rank": 5
+                      "key": "Vis",
+                      "rawScore": 67,
+                      "rank": 10
                     }
                   ],
-                  "total": 16.3,
-                  "rank": 5
+                  "total": 13.5,
+                  "rank": 10
                 },
                 {
                   "judgeName": "F. Miller",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78,
-                      "rank": 6
+                      "key": "Ovr",
+                      "rawScore": 72,
+                      "rank": 10
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 79,
-                      "rank": 6
+                      "key": "Vis",
+                      "rawScore": 68,
+                      "rank": 10
                     }
                   ],
-                  "total": 15.7,
-                  "rank": 6
+                  "total": 14,
+                  "rank": 10
                 }
               ],
-              "captionTotal": 16,
-              "captionRank": 6
+              "captionTotal": 13.75,
+              "captionRank": 10
             }
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 79.038,
-          "rank": 6
+          "total": 73.825,
+          "rank": 9
+        },
+        {
+          "ensembleName": "Evergreen High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 10
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 22,
+                  "rank": 9
+                },
+                {
+                  "judgeName": "T. Rarick",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 10
+                    }
+                  ],
+                  "total": 21.8,
+                  "rank": 10
+                }
+              ],
+              "captionTotal": 21.9,
+              "captionRank": 10
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 76,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 73,
+                      "rank": 11
+                    }
+                  ],
+                  "total": 22.35,
+                  "rank": 10
+                },
+                {
+                  "judgeName": "M. Reynolds",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 74,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 72,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 21.9,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 22.125,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 10
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 72,
+                      "rank": 10
+                    }
+                  ],
+                  "total": 14.6,
+                  "rank": 10
+                },
+                {
+                  "judgeName": "T. Tilley",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 69.5,
+                      "rank": 10
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 69,
+                      "rank": 10
+                    }
+                  ],
+                  "total": 13.85,
+                  "rank": 10
+                }
+              ],
+              "captionTotal": 14.225,
+              "captionRank": 10
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 74,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Vis",
+                      "rawScore": 72,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 14.6,
+                  "rank": 9
+                },
+                {
+                  "judgeName": "F. Miller",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Vis",
+                      "rawScore": 74,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 15.2,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 14.9,
+              "captionRank": 9
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 73.15,
+          "rank": 10
+        },
+        {
+          "ensembleName": "Douglas County High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 12
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 67,
+                      "rank": 12
+                    }
+                  ],
+                  "total": 20.2,
+                  "rank": 12
+                },
+                {
+                  "judgeName": "T. Rarick",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 12
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 11
+                    }
+                  ],
+                  "total": 21.3,
+                  "rank": 11
+                }
+              ],
+              "captionTotal": 20.75,
+              "captionRank": 12
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 71,
+                      "rank": 11
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 74,
+                      "rank": 10
+                    }
+                  ],
+                  "total": 21.75,
+                  "rank": 11
+                },
+                {
+                  "judgeName": "M. Reynolds",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 70,
+                      "rank": 11
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 69,
+                      "rank": 11
+                    }
+                  ],
+                  "total": 20.85,
+                  "rank": 11
+                }
+              ],
+              "captionTotal": 21.3,
+              "captionRank": 11
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 67,
+                      "rank": 12
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 11
+                    }
+                  ],
+                  "total": 13.7,
+                  "rank": 11
+                },
+                {
+                  "judgeName": "T. Tilley",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 11
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 67,
+                      "rank": 11
+                    }
+                  ],
+                  "total": 13.5,
+                  "rank": 11
+                }
+              ],
+              "captionTotal": 13.6,
+              "captionRank": 11
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 64,
+                      "rank": 12
+                    },
+                    {
+                      "key": "Vis",
+                      "rawScore": 64,
+                      "rank": 12
+                    }
+                  ],
+                  "total": 12.8,
+                  "rank": 12
+                },
+                {
+                  "judgeName": "F. Miller",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 65,
+                      "rank": 12
+                    },
+                    {
+                      "key": "Vis",
+                      "rawScore": 66,
+                      "rank": 11
+                    }
+                  ],
+                  "total": 13.1,
+                  "rank": 11
+                }
+              ],
+              "captionTotal": 12.95,
+              "captionRank": 12
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 68.6,
+          "rank": 11
+        },
+        {
+          "ensembleName": "Standley Lake High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 11
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 11
+                    }
+                  ],
+                  "total": 21,
+                  "rank": 11
+                },
+                {
+                  "judgeName": "T. Rarick",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 11
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 69,
+                      "rank": 12
+                    }
+                  ],
+                  "total": 21.2,
+                  "rank": 12
+                }
+              ],
+              "captionTotal": 21.1,
+              "captionRank": 11
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 71,
+                      "rank": 11
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 72,
+                      "rank": 12
+                    }
+                  ],
+                  "total": 21.45,
+                  "rank": 12
+                },
+                {
+                  "judgeName": "M. Reynolds",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 69,
+                      "rank": 12
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 66,
+                      "rank": 12
+                    }
+                  ],
+                  "total": 20.25,
+                  "rank": 12
+                }
+              ],
+              "captionTotal": 20.85,
+              "captionRank": 12
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 11
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 66,
+                      "rank": 12
+                    }
+                  ],
+                  "total": 13.6,
+                  "rank": 12
+                },
+                {
+                  "judgeName": "T. Tilley",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 12
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 66,
+                      "rank": 12
+                    }
+                  ],
+                  "total": 13.2,
+                  "rank": 12
+                }
+              ],
+              "captionTotal": 13.4,
+              "captionRank": 12
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 66,
+                      "rank": 11
+                    },
+                    {
+                      "key": "Vis",
+                      "rawScore": 65,
+                      "rank": 11
+                    }
+                  ],
+                  "total": 13.1,
+                  "rank": 11
+                },
+                {
+                  "judgeName": "F. Miller",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 66,
+                      "rank": 11
+                    },
+                    {
+                      "key": "Vis",
+                      "rawScore": 64,
+                      "rank": 12
+                    }
+                  ],
+                  "total": 13,
+                  "rank": 12
+                }
+              ],
+              "captionTotal": 13.05,
+              "captionRank": 11
+            }
+          ],
+          "subTotal": 0.3,
+          "penalty": -0.3,
+          "total": 68.1,
+          "rank": 12
         }
       ]
     },
@@ -1445,98 +2765,6 @@
         "classType": "concert"
       },
       "ensembles": [
-        {
-          "ensembleName": "Rampart High School",
-          "location": "",
-          "captions": [
-            {
-              "captionName": "Music",
-              "judges": [
-                {
-                  "judgeName": "J. Davila",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 87,
-                      "rank": 3
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 85,
-                      "rank": 3
-                    }
-                  ],
-                  "total": 42.9,
-                  "rank": 3
-                },
-                {
-                  "judgeName": "T. Rarick",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 91,
-                      "rank": 1
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 90,
-                      "rank": 2
-                    }
-                  ],
-                  "total": 45.2,
-                  "rank": 2
-                }
-              ],
-              "captionTotal": 44.05,
-              "captionRank": 2
-            },
-            {
-              "captionName": "Artistry",
-              "judges": [
-                {
-                  "judgeName": "J. Allison",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 93,
-                      "rank": 1
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 91,
-                      "rank": 1
-                    }
-                  ],
-                  "total": 45.9,
-                  "rank": 1
-                },
-                {
-                  "judgeName": "M. Reynolds",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 92,
-                      "rank": 1
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 91.5,
-                      "rank": 2
-                    }
-                  ],
-                  "total": 45.85,
-                  "rank": 2
-                }
-              ],
-              "captionTotal": 45.875,
-              "captionRank": 1
-            }
-          ],
-          "subTotal": 0,
-          "penalty": 0,
-          "total": 89.925,
-          "rank": 1
-        },
         {
           "ensembleName": "Broomfield High School",
           "location": "",
@@ -1549,38 +2777,38 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 88,
-                      "rank": 2
+                      "rawScore": 85,
+                      "rank": 4
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 86,
-                      "rank": 2
+                      "rawScore": 84.5,
+                      "rank": 3
                     }
                   ],
-                  "total": 43.4,
-                  "rank": 2
+                  "total": 42.35,
+                  "rank": 4
                 },
                 {
                   "judgeName": "T. Rarick",
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 90,
-                      "rank": 2
+                      "rawScore": 86.5,
+                      "rank": 3
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 92,
-                      "rank": 1
+                      "rawScore": 87.5,
+                      "rank": 2
                     }
                   ],
-                  "total": 45.6,
-                  "rank": 1
+                  "total": 43.55,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 44.5,
-              "captionRank": 1
+              "captionTotal": 42.95,
+              "captionRank": 3
             },
             {
               "captionName": "Artistry",
@@ -1589,45 +2817,45 @@
                   "judgeName": "J. Allison",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 90,
+                      "key": "Prog",
+                      "rawScore": 91,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 89,
                       "rank": 2
                     }
                   ],
-                  "total": 44.7,
+                  "total": 44.9,
                   "rank": 2
                 },
                 {
                   "judgeName": "M. Reynolds",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 91.5,
+                      "key": "Prog",
+                      "rawScore": 88,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 92,
-                      "rank": 1
+                      "key": "Ful",
+                      "rawScore": 90.5,
+                      "rank": 3
                     }
                   ],
-                  "total": 45.9,
-                  "rank": 1
+                  "total": 44.75,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 45.3,
+              "captionTotal": 44.825,
               "captionRank": 2
             }
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 89.8,
-          "rank": 2
+          "total": 87.775,
+          "rank": 1
         },
         {
           "ensembleName": "Arapahoe High School",
@@ -1641,7 +2869,7 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 89,
+                      "rawScore": 88,
                       "rank": 1
                     },
                     {
@@ -1650,7 +2878,7 @@
                       "rank": 1
                     }
                   ],
-                  "total": 43.9,
+                  "total": 43.7,
                   "rank": 1
                 },
                 {
@@ -1658,21 +2886,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 89,
-                      "rank": 3
+                      "rawScore": 87,
+                      "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 88,
-                      "rank": 4
+                      "rawScore": 90,
+                      "rank": 1
                     }
                   ],
-                  "total": 44.2,
-                  "rank": 3
+                  "total": 44.4,
+                  "rank": 1
                 }
               ],
               "captionTotal": 44.05,
-              "captionRank": 2
+              "captionRank": 1
             },
             {
               "captionName": "Artistry",
@@ -1681,9 +2909,77 @@
                   "judgeName": "J. Allison",
                   "subCaptions": [
                     {
+                      "key": "Prog",
+                      "rawScore": 87,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 84,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 42.6,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "M. Reynolds",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 87,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 91,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 44.7,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 43.65,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 87.7,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Rampart High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 41.4,
+                  "rank": 6
+                },
+                {
+                  "judgeName": "T. Rarick",
+                  "subCaptions": [
+                    {
                       "key": "Comp",
                       "rawScore": 88,
-                      "rank": 4
+                      "rank": 1
                     },
                     {
                       "key": "Perf",
@@ -1692,33 +2988,57 @@
                     }
                   ],
                   "total": 43.7,
-                  "rank": 3
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 42.55,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 93,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 46.5,
+                  "rank": 1
                 },
                 {
                   "judgeName": "M. Reynolds",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 91,
+                      "key": "Prog",
+                      "rawScore": 87.5,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 90,
-                      "rank": 3
+                      "key": "Ful",
+                      "rawScore": 86,
+                      "rank": 4
                     }
                   ],
-                  "total": 45.2,
-                  "rank": 3
+                  "total": 43.3,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 44.45,
-              "captionRank": 3
+              "captionTotal": 44.9,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 88.5,
+          "total": 87.45,
           "rank": 3
         },
         {
@@ -1733,38 +3053,38 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 86,
-                      "rank": 4
+                      "rawScore": 87,
+                      "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 84,
-                      "rank": 4
+                      "rawScore": 86.5,
+                      "rank": 2
                     }
                   ],
-                  "total": 42.4,
-                  "rank": 4
+                  "total": 43.35,
+                  "rank": 2
                 },
                 {
                   "judgeName": "T. Rarick",
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 87,
-                      "rank": 5
+                      "rawScore": 86,
+                      "rank": 4
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 89,
-                      "rank": 3
+                      "rawScore": 86,
+                      "rank": 4
                     }
                   ],
-                  "total": 44.1,
+                  "total": 43,
                   "rank": 4
                 }
               ],
-              "captionTotal": 43.25,
-              "captionRank": 4
+              "captionTotal": 43.175,
+              "captionRank": 2
             },
             {
               "captionName": "Artistry",
@@ -1773,44 +3093,44 @@
                   "judgeName": "J. Allison",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 86,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 85,
+                      "key": "Ful",
+                      "rawScore": 83,
                       "rank": 5
                     }
                   ],
-                  "total": 42.7,
+                  "total": 42.1,
                   "rank": 5
                 },
                 {
                   "judgeName": "M. Reynolds",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 87.5,
-                      "rank": 4
+                      "key": "Prog",
+                      "rawScore": 88.5,
+                      "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 89,
-                      "rank": 4
+                      "key": "Ful",
+                      "rawScore": 92,
+                      "rank": 1
                     }
                   ],
-                  "total": 44.2,
-                  "rank": 4
+                  "total": 45.3,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 43.45,
-              "captionRank": 4
+              "captionTotal": 43.7,
+              "captionRank": 3
             }
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 86.7,
+          "total": 86.875,
           "rank": 4
         },
         {
@@ -1826,37 +3146,37 @@
                     {
                       "key": "Comp",
                       "rawScore": 81,
-                      "rank": 7
+                      "rank": 8
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 80,
-                      "rank": 7
+                      "rawScore": 79,
+                      "rank": 8
                     }
                   ],
-                  "total": 40.2,
-                  "rank": 7
+                  "total": 39.9,
+                  "rank": 8
                 },
                 {
                   "judgeName": "T. Rarick",
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 88,
-                      "rank": 4
+                      "rawScore": 84.5,
+                      "rank": 6
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 87,
-                      "rank": 5
+                      "rawScore": 83,
+                      "rank": 7
                     }
                   ],
-                  "total": 43.7,
-                  "rank": 5
+                  "total": 41.8,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 41.95,
-              "captionRank": 6
+              "captionTotal": 40.85,
+              "captionRank": 8
             },
             {
               "captionName": "Artistry",
@@ -1865,44 +3185,44 @@
                   "judgeName": "J. Allison",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 89,
+                      "key": "Prog",
+                      "rawScore": 90,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 86,
-                      "rank": 4
+                      "key": "Ful",
+                      "rawScore": 87,
+                      "rank": 3
                     }
                   ],
-                  "total": 43.6,
-                  "rank": 4
+                  "total": 44.1,
+                  "rank": 3
                 },
                 {
                   "judgeName": "M. Reynolds",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 84,
+                      "key": "Prog",
+                      "rawScore": 86,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 82.5,
-                      "rank": 6
+                      "key": "Ful",
+                      "rawScore": 85.5,
+                      "rank": 5
                     }
                   ],
-                  "total": 41.55,
+                  "total": 42.85,
                   "rank": 5
                 }
               ],
-              "captionTotal": 42.575,
+              "captionTotal": 43.475,
               "captionRank": 5
             }
           ],
-          "subTotal": 0,
-          "penalty": 0,
-          "total": 84.525,
+          "subTotal": 0.1,
+          "penalty": -0.1,
+          "total": 84.225,
           "rank": 5
         },
         {
@@ -1917,34 +3237,34 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 84,
-                      "rank": 6
+                      "rawScore": 86,
+                      "rank": 3
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 82,
-                      "rank": 6
+                      "rawScore": 84,
+                      "rank": 4
                     }
                   ],
-                  "total": 41.4,
-                  "rank": 6
+                  "total": 42.4,
+                  "rank": 3
                 },
                 {
                   "judgeName": "T. Rarick",
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 86,
-                      "rank": 6
+                      "rawScore": 81,
+                      "rank": 8
                     },
                     {
                       "key": "Perf",
                       "rawScore": 85,
-                      "rank": 6
+                      "rank": 5
                     }
                   ],
-                  "total": 42.7,
-                  "rank": 6
+                  "total": 41.7,
+                  "rank": 7
                 }
               ],
               "captionTotal": 42.05,
@@ -1957,44 +3277,44 @@
                   "judgeName": "J. Allison",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 85,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 84,
+                      "key": "Ful",
+                      "rawScore": 82,
                       "rank": 6
                     }
                   ],
-                  "total": 42.2,
+                  "total": 41.6,
                   "rank": 6
                 },
                 {
                   "judgeName": "M. Reynolds",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79,
-                      "rank": 7
+                      "key": "Prog",
+                      "rawScore": 82,
+                      "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 81.5,
+                      "key": "Ful",
+                      "rawScore": 80.5,
                       "rank": 7
                     }
                   ],
-                  "total": 40.25,
-                  "rank": 7
+                  "total": 40.55,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 41.225,
-              "captionRank": 7
+              "captionTotal": 41.075,
+              "captionRank": 6
             }
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 83.275,
+          "total": 83.125,
           "rank": 6
         },
         {
@@ -2009,8 +3329,100 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 85.5,
+                      "rawScore": 83,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 40.9,
+                  "rank": 7
+                },
+                {
+                  "judgeName": "T. Rarick",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
                       "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 42.2,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 41.55,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 84,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 80,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 40.8,
+                  "rank": 7
+                },
+                {
+                  "judgeName": "M. Reynolds",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 79,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 81.5,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 40.25,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 40.525,
+              "captionRank": 7
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 82.075,
+          "rank": 7
+        },
+        {
+          "ensembleName": "Pine Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 4
                     },
                     {
                       "key": "Perf",
@@ -2018,7 +3430,7 @@
                       "rank": 5
                     }
                   ],
-                  "total": 42,
+                  "total": 41.9,
                   "rank": 5
                 },
                 {
@@ -2031,16 +3443,16 @@
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 84,
-                      "rank": 7
+                      "rawScore": 82,
+                      "rank": 8
                     }
                   ],
-                  "total": 41.8,
-                  "rank": 7
+                  "total": 41.2,
+                  "rank": 8
                 }
               ],
-              "captionTotal": 41.9,
-              "captionRank": 7
+              "captionTotal": 41.55,
+              "captionRank": 6
             },
             {
               "captionName": "Artistry",
@@ -2049,45 +3461,137 @@
                   "judgeName": "J. Allison",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 84,
-                      "rank": 7
+                      "key": "Prog",
+                      "rawScore": 81,
+                      "rank": 8
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 82,
-                      "rank": 7
+                      "key": "Ful",
+                      "rawScore": 75,
+                      "rank": 8
                     }
                   ],
-                  "total": 41.4,
-                  "rank": 7
+                  "total": 38.7,
+                  "rank": 8
                 },
                 {
                   "judgeName": "M. Reynolds",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 81,
-                      "rank": 6
+                      "key": "Prog",
+                      "rawScore": 76,
+                      "rank": 9
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 83.5,
-                      "rank": 5
+                      "key": "Ful",
+                      "rawScore": 79,
+                      "rank": 8
                     }
                   ],
-                  "total": 41.25,
-                  "rank": 6
+                  "total": 38.9,
+                  "rank": 8
                 }
               ],
-              "captionTotal": 41.325,
-              "captionRank": 6
+              "captionTotal": 38.8,
+              "captionRank": 8
             }
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 83.225,
-          "rank": 7
+          "total": 80.35,
+          "rank": 8
+        },
+        {
+          "ensembleName": "Eaglecrest High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 39.3,
+                  "rank": 9
+                },
+                {
+                  "judgeName": "T. Rarick",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 39.1,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 39.2,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 70,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 65,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 33.5,
+                  "rank": 9
+                },
+                {
+                  "judgeName": "M. Reynolds",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 77,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 75,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 37.9,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 35.7,
+              "captionRank": 9
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 74.9,
+          "rank": 9
         }
       ]
     },
@@ -2110,16 +3614,16 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 86,
+                      "rawScore": 85,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 85,
+                      "rawScore": 84,
                       "rank": 1
                     }
                   ],
-                  "total": 25.6,
+                  "total": 25.3,
                   "rank": 1
                 },
                 {
@@ -2127,20 +3631,20 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 85,
+                      "rawScore": 81,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 85,
+                      "rawScore": 81,
                       "rank": 1
                     }
                   ],
-                  "total": 25.5,
+                  "total": 24.3,
                   "rank": 1
                 }
               ],
-              "captionTotal": 25.55,
+              "captionTotal": 24.8,
               "captionRank": 1
             },
             {
@@ -2150,38 +3654,38 @@
                   "judgeName": "J. Allison",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 83,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 79,
+                      "key": "Mus",
+                      "rawScore": 77,
                       "rank": 1
                     }
                   ],
-                  "total": 24.3,
+                  "total": 24,
                   "rank": 1
                 },
                 {
                   "judgeName": "W. Durrett",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 85,
+                      "key": "Ovr",
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 84,
-                      "rank": 2
+                      "key": "Mus",
+                      "rawScore": 85,
+                      "rank": 1
                     }
                   ],
-                  "total": 25.35,
-                  "rank": 2
+                  "total": 25.2,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 24.825,
+              "captionTotal": 24.6,
               "captionRank": 1
             },
             {
@@ -2192,16 +3696,16 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 83,
+                      "rawScore": 80,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 83,
+                      "rawScore": 82,
                       "rank": 1
                     }
                   ],
-                  "total": 16.6,
+                  "total": 16.2,
                   "rank": 1
                 },
                 {
@@ -2209,12 +3713,12 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 84,
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 83,
+                      "rawScore": 84,
                       "rank": 1
                     }
                   ],
@@ -2222,7 +3726,7 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.65,
+              "captionTotal": 16.45,
               "captionRank": 1
             },
             {
@@ -2232,44 +3736,44 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 85,
+                      "key": "Ovr",
+                      "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 84,
+                      "key": "Vis",
+                      "rawScore": 80,
                       "rank": 1
                     }
                   ],
-                  "total": 16.9,
+                  "total": 16.2,
                   "rank": 1
                 },
                 {
                   "judgeName": "F. Miller",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 83,
+                      "key": "Vis",
+                      "rawScore": 84,
                       "rank": 1
                     }
                   ],
-                  "total": 16.7,
+                  "total": 16.8,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.8,
+              "captionTotal": 16.5,
               "captionRank": 1
             }
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 83.825,
+          "total": 82.35,
           "rank": 1
         },
         {
@@ -2284,16 +3788,16 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 84,
+                      "rawScore": 82,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 81,
+                      "rawScore": 79,
                       "rank": 2
                     }
                   ],
-                  "total": 24.6,
+                  "total": 24,
                   "rank": 2
                 },
                 {
@@ -2301,61 +3805,61 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 81,
+                      "rawScore": 78,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 23.6,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 23.8,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 72,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 22.5,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Mus",
                       "rawScore": 82,
                       "rank": 2
                     }
                   ],
-                  "total": 24.5,
+                  "total": 24.3,
                   "rank": 2
                 }
               ],
-              "captionTotal": 24.55,
-              "captionRank": 2
-            },
-            {
-              "captionName": "Effect - Music",
-              "judges": [
-                {
-                  "judgeName": "J. Allison",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 78,
-                      "rank": 2
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 74,
-                      "rank": 2
-                    }
-                  ],
-                  "total": 22.8,
-                  "rank": 2
-                },
-                {
-                  "judgeName": "W. Durrett",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 84,
-                      "rank": 2
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 87,
-                      "rank": 1
-                    }
-                  ],
-                  "total": 25.65,
-                  "rank": 1
-                }
-              ],
-              "captionTotal": 24.225,
+              "captionTotal": 23.4,
               "captionRank": 2
             },
             {
@@ -2363,221 +3867,6 @@
               "judges": [
                 {
                   "judgeName": "C. Craig",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 79,
-                      "rank": 2
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 79,
-                      "rank": 2
-                    }
-                  ],
-                  "total": 15.8,
-                  "rank": 2
-                },
-                {
-                  "judgeName": "T. Tilley",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 78,
-                      "rank": 3
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 75,
-                      "rank": 3
-                    }
-                  ],
-                  "total": 15.3,
-                  "rank": 3
-                }
-              ],
-              "captionTotal": 15.55,
-              "captionRank": 2
-            },
-            {
-              "captionName": "Effect - Visual",
-              "judges": [
-                {
-                  "judgeName": "J. Dwyer",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 80,
-                      "rank": 2
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 80,
-                      "rank": 2
-                    }
-                  ],
-                  "total": 16,
-                  "rank": 2
-                },
-                {
-                  "judgeName": "F. Miller",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 81,
-                      "rank": 2
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 79,
-                      "rank": 2
-                    }
-                  ],
-                  "total": 16,
-                  "rank": 2
-                }
-              ],
-              "captionTotal": 16,
-              "captionRank": 2
-            }
-          ],
-          "subTotal": 0,
-          "penalty": 0,
-          "total": 80.325,
-          "rank": 2
-        },
-        {
-          "ensembleName": "Liberty High School",
-          "location": "",
-          "captions": [
-            {
-              "captionName": "Music",
-              "judges": [
-                {
-                  "judgeName": "J. Davila",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 78,
-                      "rank": 3
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 76,
-                      "rank": 3
-                    }
-                  ],
-                  "total": 23,
-                  "rank": 3
-                },
-                {
-                  "judgeName": "S. Johnson",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 75,
-                      "rank": 3
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 75,
-                      "rank": 3
-                    }
-                  ],
-                  "total": 22.5,
-                  "rank": 3
-                }
-              ],
-              "captionTotal": 22.75,
-              "captionRank": 3
-            },
-            {
-              "captionName": "Effect - Music",
-              "judges": [
-                {
-                  "judgeName": "J. Allison",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 64,
-                      "rank": 3
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 59,
-                      "rank": 3
-                    }
-                  ],
-                  "total": 18.45,
-                  "rank": 3
-                },
-                {
-                  "judgeName": "W. Durrett",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 83,
-                      "rank": 3
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 80,
-                      "rank": 3
-                    }
-                  ],
-                  "total": 24.45,
-                  "rank": 3
-                }
-              ],
-              "captionTotal": 21.45,
-              "captionRank": 3
-            },
-            {
-              "captionName": "Visual",
-              "judges": [
-                {
-                  "judgeName": "C. Craig",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 77,
-                      "rank": 3
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 78.5,
-                      "rank": 3
-                    }
-                  ],
-                  "total": 15.55,
-                  "rank": 3
-                },
-                {
-                  "judgeName": "T. Tilley",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 79,
-                      "rank": 2
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 76,
-                      "rank": 2
-                    }
-                  ],
-                  "total": 15.5,
-                  "rank": 2
-                }
-              ],
-              "captionTotal": 15.525,
-              "captionRank": 3
-            },
-            {
-              "captionName": "Effect - Visual",
-              "judges": [
-                {
-                  "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
                       "key": "Comp",
@@ -2594,7 +3883,82 @@
                   "rank": 3
                 },
                 {
+                  "judgeName": "T. Tilley",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 14.5,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 14.75,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Vis",
+                      "rawScore": 76,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 15.4,
+                  "rank": 2
+                },
+                {
                   "judgeName": "F. Miller",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Vis",
+                      "rawScore": 80,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 15.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 15.65,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 77.6,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Liberty High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "J. Davila",
                   "subCaptions": [
                     {
                       "key": "Comp",
@@ -2603,21 +3967,161 @@
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 76,
+                      "rawScore": 75,
                       "rank": 3
                     }
                   ],
-                  "total": 15.3,
+                  "total": 22.7,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "S. Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 22.3,
                   "rank": 3
                 }
               ],
-              "captionTotal": 15.15,
+              "captionTotal": 22.5,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Effect - Music",
+              "judges": [
+                {
+                  "judgeName": "J. Allison",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 64,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 56,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 18,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "W. Durrett",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 77,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 23.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 20.7,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "C. Craig",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 15.6,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "T. Tilley",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 15.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 15.35,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 70,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Vis",
+                      "rawScore": 70,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 14,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "F. Miller",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 76,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Vis",
+                      "rawScore": 75,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 15.1,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 14.55,
               "captionRank": 3
             }
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 74.875,
+          "total": 73.1,
           "rank": 3
         }
       ]
@@ -2658,20 +4162,20 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 85,
+                      "rawScore": 86,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 84,
+                      "rawScore": 85,
                       "rank": 1
                     }
                   ],
-                  "total": 42.2,
+                  "total": 42.7,
                   "rank": 1
                 }
               ],
-              "captionTotal": 42.2,
+              "captionTotal": 42.45,
               "captionRank": 1
             },
             {
@@ -2681,44 +4185,44 @@
                   "judgeName": "J. Allison",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 85,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 78,
+                      "key": "Ful",
+                      "rawScore": 75,
                       "rank": 1
                     }
                   ],
-                  "total": 40.4,
+                  "total": 39.5,
                   "rank": 1
                 },
                 {
                   "judgeName": "W. Durrett",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 87,
+                      "key": "Prog",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 87,
                       "rank": 1
                     }
                   ],
-                  "total": 43.5,
+                  "total": 42.9,
                   "rank": 1
                 }
               ],
-              "captionTotal": 41.95,
+              "captionTotal": 41.2,
               "captionRank": 1
             }
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 84.15,
+          "total": 83.65,
           "rank": 1
         }
       ]
@@ -2759,20 +4263,20 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 88,
+                      "rawScore": 87,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 88,
+                      "rawScore": 84,
                       "rank": 1
                     }
                   ],
-                  "total": 26.4,
+                  "total": 25.5,
                   "rank": 1
                 }
               ],
-              "captionTotal": 26.2,
+              "captionTotal": 25.75,
               "captionRank": 1
             },
             {
@@ -2782,30 +4286,30 @@
                   "judgeName": "J. Allison",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 93,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 92,
+                      "key": "Mus",
+                      "rawScore": 91,
                       "rank": 1
                     }
                   ],
-                  "total": 27.75,
+                  "total": 27.6,
                   "rank": 1
                 },
                 {
                   "judgeName": "M. Reynolds",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 94,
+                      "key": "Ovr",
+                      "rawScore": 94.5,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 93,
+                      "key": "Mus",
+                      "rawScore": 92.5,
                       "rank": 1
                     }
                   ],
@@ -2813,7 +4317,7 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 27.9,
+              "captionTotal": 27.825,
               "captionRank": 1
             },
             {
@@ -2824,16 +4328,16 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 89,
+                      "rawScore": 88,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 89,
+                      "rawScore": 87,
                       "rank": 1
                     }
                   ],
-                  "total": 17.8,
+                  "total": 17.5,
                   "rank": 1
                 },
                 {
@@ -2841,20 +4345,20 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 89,
+                      "rawScore": 90,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 88,
+                      "rawScore": 89,
                       "rank": 1
                     }
                   ],
-                  "total": 17.7,
+                  "total": 17.9,
                   "rank": 1
                 }
               ],
-              "captionTotal": 17.75,
+              "captionTotal": 17.7,
               "captionRank": 1
             },
             {
@@ -2864,44 +4368,44 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 89,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 85,
+                      "key": "Vis",
+                      "rawScore": 86,
                       "rank": 1
                     }
                   ],
-                  "total": 17.4,
+                  "total": 17.5,
                   "rank": 1
                 },
                 {
                   "judgeName": "F. Miller",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 93,
+                      "key": "Ovr",
+                      "rawScore": 94,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 92,
                       "rank": 1
                     }
                   ],
-                  "total": 18.5,
+                  "total": 18.6,
                   "rank": 1
                 }
               ],
-              "captionTotal": 17.95,
+              "captionTotal": 18.05,
               "captionRank": 1
             }
           ],
-          "subTotal": 4.05,
-          "penalty": -4.05,
-          "total": 85.75,
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 89.325,
           "rank": 1
         },
         {
@@ -2916,16 +4420,16 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 79,
+                      "rawScore": 78,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 76,
+                      "rawScore": 77,
                       "rank": 2
                     }
                   ],
-                  "total": 23.1,
+                  "total": 23.2,
                   "rank": 2
                 },
                 {
@@ -2933,20 +4437,20 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 81,
+                      "rawScore": 80,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 76,
+                      "rawScore": 77,
                       "rank": 2
                     }
                   ],
-                  "total": 23.3,
+                  "total": 23.4,
                   "rank": 2
                 }
               ],
-              "captionTotal": 23.2,
+              "captionTotal": 23.3,
               "captionRank": 2
             },
             {
@@ -2956,38 +4460,38 @@
                   "judgeName": "J. Allison",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 85,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 77,
+                      "key": "Mus",
+                      "rawScore": 74,
                       "rank": 2
                     }
                   ],
-                  "total": 24.3,
+                  "total": 23.85,
                   "rank": 2
                 },
                 {
                   "judgeName": "M. Reynolds",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 82.5,
+                      "key": "Ovr",
+                      "rawScore": 85.5,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 80.5,
+                      "key": "Mus",
+                      "rawScore": 82,
                       "rank": 2
                     }
                   ],
-                  "total": 24.45,
+                  "total": 25.125,
                   "rank": 2
                 }
               ],
-              "captionTotal": 24.375,
+              "captionTotal": 24.488,
               "captionRank": 2
             },
             {
@@ -2995,47 +4499,6 @@
               "judges": [
                 {
                   "judgeName": "C. Craig",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 85,
-                      "rank": 2
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 84,
-                      "rank": 2
-                    }
-                  ],
-                  "total": 16.9,
-                  "rank": 2
-                },
-                {
-                  "judgeName": "T. Tilley",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 82,
-                      "rank": 2
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 81,
-                      "rank": 2
-                    }
-                  ],
-                  "total": 16.3,
-                  "rank": 2
-                }
-              ],
-              "captionTotal": 16.6,
-              "captionRank": 2
-            },
-            {
-              "captionName": "Effect - Visual",
-              "judges": [
-                {
-                  "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
                       "key": "Comp",
@@ -3052,7 +4515,7 @@
                   "rank": 2
                 },
                 {
-                  "judgeName": "F. Miller",
+                  "judgeName": "T. Tilley",
                   "subCaptions": [
                     {
                       "key": "Comp",
@@ -3061,21 +4524,62 @@
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 84,
+                      "rawScore": 80,
                       "rank": 2
                     }
                   ],
-                  "total": 16.8,
+                  "total": 16.4,
                   "rank": 2
                 }
               ],
-              "captionTotal": 16.7,
+              "captionTotal": 16.5,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Effect - Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Vis",
+                      "rawScore": 78,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 15.8,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "F. Miller",
+                  "subCaptions": [
+                    {
+                      "key": "Ovr",
+                      "rawScore": 85,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Vis",
+                      "rawScore": 86,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 17.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 16.45,
               "captionRank": 2
             }
           ],
           "subTotal": 0,
           "penalty": 0,
-          "total": 80.875,
+          "total": 80.738,
           "rank": 2
         }
       ]
@@ -3099,16 +4603,16 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 77,
+                      "rawScore": 81,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 74,
+                      "rawScore": 78,
                       "rank": 1
                     }
                   ],
-                  "total": 22.5,
+                  "total": 23.7,
                   "rank": 1
                 },
                 {
@@ -3121,15 +4625,15 @@
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 78,
+                      "rawScore": 76,
                       "rank": 1
                     }
                   ],
-                  "total": 23.7,
+                  "total": 23.3,
                   "rank": 1
                 }
               ],
-              "captionTotal": 23.1,
+              "captionTotal": 23.5,
               "captionRank": 1
             },
             {
@@ -3139,38 +4643,38 @@
                   "judgeName": "J. Allison",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83,
+                      "key": "Ovr",
+                      "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 85,
+                      "key": "Mus",
+                      "rawScore": 84,
                       "rank": 1
                     }
                   ],
-                  "total": 25.2,
+                  "total": 24.9,
                   "rank": 1
                 },
                 {
                   "judgeName": "M. Reynolds",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 87.5,
+                      "key": "Ovr",
+                      "rawScore": 89,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 85,
+                      "key": "Mus",
+                      "rawScore": 86,
                       "rank": 1
                     }
                   ],
-                  "total": 25.875,
+                  "total": 26.25,
                   "rank": 1
                 }
               ],
-              "captionTotal": 25.538,
+              "captionTotal": 25.575,
               "captionRank": 1
             },
             {
@@ -3181,16 +4685,16 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 86,
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 84,
+                      "rawScore": 82,
                       "rank": 1
                     }
                   ],
-                  "total": 17,
+                  "total": 16.5,
                   "rank": 1
                 },
                 {
@@ -3198,20 +4702,20 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 84,
+                      "rawScore": 85,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 80,
+                      "rawScore": 82,
                       "rank": 1
                     }
                   ],
-                  "total": 16.4,
+                  "total": 16.7,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.7,
+              "captionTotal": 16.6,
               "captionRank": 1
             },
             {
@@ -3221,44 +4725,44 @@
                   "judgeName": "J. Dwyer",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 84,
+                      "key": "Ovr",
+                      "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 82,
+                      "key": "Vis",
+                      "rawScore": 80,
                       "rank": 1
                     }
                   ],
-                  "total": 16.6,
+                  "total": 16.2,
                   "rank": 1
                 },
                 {
                   "judgeName": "F. Miller",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 83,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 81,
+                      "key": "Vis",
+                      "rawScore": 82,
                       "rank": 1
                     }
                   ],
-                  "total": 16.4,
+                  "total": 16.5,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.5,
+              "captionTotal": 16.35,
               "captionRank": 1
             }
           ],
-          "subTotal": 0.5,
-          "penalty": -0.5,
-          "total": 81.338,
+          "subTotal": 4.05,
+          "penalty": -4.05,
+          "total": 77.975,
           "rank": 1
         }
       ]

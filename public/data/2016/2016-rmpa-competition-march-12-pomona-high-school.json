@@ -40,8 +40,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -50,17 +50,17 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78,
+                      "key": "Prog",
+                      "rawScore": 80,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 39.4,
+                      "key": "Ful",
+                      "rawScore": 78,
                       "rank": 1
                     }
                   ],
-                  "total": 78.8,
+                  "total": 39.4,
                   "rank": 1
                 }
               ],
@@ -98,8 +98,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -108,21 +108,21 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 75,
+                      "key": "Prog",
+                      "rawScore": 77,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.9,
+                      "key": "Ful",
+                      "rawScore": 75,
                       "rank": 2
                     }
                   ],
-                  "total": 74.8,
+                  "total": 37.9,
                   "rank": 2
                 }
               ],
-              "captionTotal": 0.8,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -156,8 +156,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -166,17 +166,17 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 71,
-                      "rank": 4
+                      "key": "Prog",
+                      "rawScore": 74,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36.1,
-                      "rank": 3
+                      "key": "Ful",
+                      "rawScore": 71,
+                      "rank": 4
                     }
                   ],
-                  "total": 73.8,
+                  "total": 36.1,
                   "rank": 3
                 }
               ],
@@ -214,8 +214,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -224,21 +224,21 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 69,
-                      "rank": 6
+                      "key": "Prog",
+                      "rawScore": 71,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 34.9,
-                      "rank": 5
+                      "key": "Ful",
+                      "rawScore": 69,
+                      "rank": 6
                     }
                   ],
-                  "total": 72.1,
-                  "rank": 4
+                  "total": 34.9,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 0.75,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -272,8 +272,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -282,18 +282,18 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72,
-                      "rank": 3
+                      "key": "Prog",
+                      "rawScore": 70,
+                      "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 35.6,
-                      "rank": 4
+                      "key": "Ful",
+                      "rawScore": 72,
+                      "rank": 3
                     }
                   ],
-                  "total": 70.6,
-                  "rank": 5
+                  "total": 35.6,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -330,8 +330,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 69,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -340,21 +340,21 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 70,
-                      "rank": 5
+                      "key": "Prog",
+                      "rawScore": 69,
+                      "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 34.8,
-                      "rank": 6
+                      "key": "Ful",
+                      "rawScore": 70,
+                      "rank": 5
                     }
                   ],
-                  "total": 70.5,
+                  "total": 34.8,
                   "rank": 6
                 }
               ],
-              "captionTotal": 0.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -397,8 +397,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -407,22 +407,22 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76,
+                      "key": "Ovr",
+                      "rawScore": 78,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 23.1,
+                      "key": "Mus",
+                      "rawScore": 76,
                       "rank": 1
                     }
                   ],
-                  "total": 83,
+                  "total": 23.1,
                   "rank": 1
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -432,21 +432,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.6,
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 81,
+                      "rawScore": 83,
                       "rank": 1
                     }
                   ],
-                  "total": 82,
+                  "total": 16.6,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.3,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -455,22 +455,22 @@
                   "judgeName": "W. Whaley",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80.3,
+                      "key": "Ovr",
+                      "rawScore": 81,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 82,
+                      "rank": 1
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 16.3,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 80.3,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -503,8 +503,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -513,22 +513,22 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 71,
-                      "rank": 5
+                      "key": "Ovr",
+                      "rawScore": 72,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 21.45,
-                      "rank": 3
+                      "key": "Mus",
+                      "rawScore": 71,
+                      "rank": 5
                     }
                   ],
-                  "total": 75,
-                  "rank": 2
+                  "total": 21.45,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -538,21 +538,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 14.9,
+                      "rawScore": 75,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 73,
-                      "rank": 3
+                      "rawScore": 74,
+                      "rank": 2
                     }
                   ],
-                  "total": 74,
+                  "total": 14.9,
                   "rank": 2
                 }
               ],
-              "captionTotal": 14.7,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -561,22 +561,22 @@
                   "judgeName": "W. Whaley",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73.45,
+                      "key": "Ovr",
+                      "rawScore": 73,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 74,
+                      "rank": 2
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 14.7,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 73.45,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -609,8 +609,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -619,22 +619,22 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73,
-                      "rank": 2
+                      "key": "Ovr",
+                      "rawScore": 71,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 21.6,
+                      "key": "Mus",
+                      "rawScore": 73,
                       "rank": 2
                     }
                   ],
-                  "total": 74,
-                  "rank": 3
+                  "total": 21.6,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -644,21 +644,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 14.6,
+                      "rawScore": 74,
                       "rank": 3
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 74,
-                      "rank": 2
+                      "rawScore": 72,
+                      "rank": 3
                     }
                   ],
-                  "total": 72,
+                  "total": 14.6,
                   "rank": 3
                 }
               ],
-              "captionTotal": 14.6,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -667,22 +667,22 @@
                   "judgeName": "W. Whaley",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73.6,
+                      "key": "Ovr",
+                      "rawScore": 74,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 2.3,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 72,
+                      "rank": 3
                     }
                   ],
-                  "total": -2.3,
-                  "rank": null
+                  "total": 14.6,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 71.3,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 2.3,
@@ -715,8 +715,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -725,22 +725,22 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 70,
-                      "rank": 6
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 21,
-                      "rank": 5
+                      "key": "Mus",
+                      "rawScore": 70,
+                      "rank": 6
                     }
                   ],
-                  "total": 67,
+                  "total": 21,
                   "rank": 5
                 }
               ],
-              "captionTotal": 65,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -750,21 +750,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 13.2,
+                      "rawScore": 67,
                       "rank": 5
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 69,
+                      "rawScore": 65,
                       "rank": 5
                     }
                   ],
-                  "total": 67,
+                  "total": 13.2,
                   "rank": 5
                 }
               ],
-              "captionTotal": 13.6,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -773,22 +773,22 @@
                   "judgeName": "W. Whaley",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 69.8,
+                      "key": "Ovr",
+                      "rawScore": 69,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0.1,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 67,
+                      "rank": 5
                     }
                   ],
-                  "total": -0.1,
-                  "rank": null
+                  "total": 13.6,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 69.7,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0.1,
@@ -821,8 +821,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 65,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -831,22 +831,22 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72,
-                      "rank": 3
+                      "key": "Ovr",
+                      "rawScore": 65,
+                      "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 20.55,
-                      "rank": 6
+                      "key": "Mus",
+                      "rawScore": 72,
+                      "rank": 3
                     }
                   ],
-                  "total": 69,
-                  "rank": 4
+                  "total": 20.55,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 69,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -856,21 +856,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 13.8,
+                      "rawScore": 69,
                       "rank": 4
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 71,
+                      "rawScore": 69,
                       "rank": 4
                     }
                   ],
-                  "total": 70,
+                  "total": 13.8,
                   "rank": 4
                 }
               ],
-              "captionTotal": 14.1,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -879,22 +879,22 @@
                   "judgeName": "W. Whaley",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 70.15,
+                      "key": "Ovr",
+                      "rawScore": 71,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 3.1,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 70,
+                      "rank": 4
                     }
                   ],
-                  "total": -3.1,
-                  "rank": null
+                  "total": 14.1,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 67.05,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 3.1,
@@ -927,8 +927,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 60,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -937,22 +937,22 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 59,
+                      "key": "Ovr",
+                      "rawScore": 60,
                       "rank": 8
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 17.85,
+                      "key": "Mus",
+                      "rawScore": 59,
                       "rank": 8
                     }
                   ],
-                  "total": 65.5,
-                  "rank": 6
+                  "total": 17.85,
+                  "rank": 8
                 }
               ],
-              "captionTotal": 64,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -962,7 +962,7 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 12.95,
+                      "rawScore": 65.5,
                       "rank": 6
                     },
                     {
@@ -971,12 +971,12 @@
                       "rank": 6
                     }
                   ],
-                  "total": 65,
+                  "total": 12.95,
                   "rank": 6
                 }
               ],
-              "captionTotal": 12.9,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -985,22 +985,22 @@
                   "judgeName": "W. Whaley",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 64.6,
-                      "rank": 7
+                      "key": "Ovr",
+                      "rawScore": 64,
+                      "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0.4,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 65,
+                      "rank": 6
                     }
                   ],
-                  "total": -0.4,
-                  "rank": null
+                  "total": 12.9,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 64.2,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0.4,
@@ -1033,8 +1033,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 69,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1043,22 +1043,22 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72,
-                      "rank": 3
+                      "key": "Ovr",
+                      "rawScore": 69,
+                      "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 21.15,
-                      "rank": 4
+                      "key": "Mus",
+                      "rawScore": 72,
+                      "rank": 3
                     }
                   ],
-                  "total": 62,
-                  "rank": 8
+                  "total": 21.15,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 61,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1068,21 +1068,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 12.3,
+                      "rawScore": 62,
                       "rank": 8
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 62,
-                      "rank": 7
+                      "rawScore": 61,
+                      "rank": 8
                     }
                   ],
-                  "total": 60,
-                  "rank": 7
+                  "total": 12.3,
+                  "rank": 8
                 }
               ],
-              "captionTotal": 12.2,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1091,22 +1091,22 @@
                   "judgeName": "W. Whaley",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 64.65,
-                      "rank": 6
+                      "key": "Ovr",
+                      "rawScore": 62,
+                      "rank": 7
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 1,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 60,
+                      "rank": 7
                     }
                   ],
-                  "total": -1,
-                  "rank": null
+                  "total": 12.2,
+                  "rank": 7
                 }
               ],
-              "captionTotal": 63.65,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 1,
@@ -1139,8 +1139,8 @@
                   "rank": 8
                 }
               ],
-              "captionTotal": 61,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1149,22 +1149,22 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 62,
+                      "key": "Ovr",
+                      "rawScore": 61,
                       "rank": 7
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 18.45,
+                      "key": "Mus",
+                      "rawScore": 62,
                       "rank": 7
                     }
                   ],
-                  "total": 64,
+                  "total": 18.45,
                   "rank": 7
                 }
               ],
-              "captionTotal": 62,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1174,21 +1174,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 12.6,
+                      "rawScore": 64,
                       "rank": 7
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 58,
-                      "rank": 8
+                      "rawScore": 62,
+                      "rank": 7
                     }
                   ],
-                  "total": 58,
-                  "rank": 8
+                  "total": 12.6,
+                  "rank": 7
                 }
               ],
-              "captionTotal": 11.6,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1197,22 +1197,22 @@
                   "judgeName": "W. Whaley",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 60.25,
+                      "key": "Ovr",
+                      "rawScore": 58,
                       "rank": 8
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 58,
+                      "rank": 8
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 11.6,
+                  "rank": 8
                 }
               ],
-              "captionTotal": 60.25,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -1254,8 +1254,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1264,17 +1264,17 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 84,
+                      "key": "Prog",
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.8,
+                      "key": "Ful",
+                      "rawScore": 84,
                       "rank": 1
                     }
                   ],
-                  "total": 82.6,
+                  "total": 41.8,
                   "rank": 1
                 }
               ],
@@ -1312,8 +1312,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1322,18 +1322,18 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78,
+                      "key": "Prog",
+                      "rawScore": 80,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 39.4,
+                      "key": "Ful",
+                      "rawScore": 78,
                       "rank": 4
                     }
                   ],
-                  "total": 81.6,
-                  "rank": 2
+                  "total": 39.4,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -1370,8 +1370,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1380,18 +1380,18 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 77,
+                      "key": "Prog",
+                      "rawScore": 79,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38.9,
+                      "key": "Ful",
+                      "rawScore": 77,
                       "rank": 5
                     }
                   ],
-                  "total": 79.8,
-                  "rank": 3
+                  "total": 38.9,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -1428,8 +1428,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1438,18 +1438,18 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 81,
-                      "rank": 2
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.5,
+                      "key": "Ful",
+                      "rawScore": 81,
                       "rank": 2
                     }
                   ],
-                  "total": 79.2,
-                  "rank": 4
+                  "total": 40.5,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -1486,8 +1486,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1496,18 +1496,18 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
-                      "rank": 3
+                      "key": "Prog",
+                      "rawScore": 82,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.4,
+                      "key": "Ful",
+                      "rawScore": 80,
                       "rank": 3
                     }
                   ],
-                  "total": 77.5,
-                  "rank": 5
+                  "total": 40.4,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -1544,8 +1544,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1554,18 +1554,18 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 71,
-                      "rank": 8
+                      "key": "Prog",
+                      "rawScore": 75,
+                      "rank": 7
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36.3,
+                      "key": "Ful",
+                      "rawScore": 71,
                       "rank": 8
                     }
                   ],
-                  "total": 74.1,
-                  "rank": 6
+                  "total": 36.3,
+                  "rank": 8
                 }
               ],
               "captionTotal": 0,
@@ -1602,8 +1602,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1612,18 +1612,18 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72,
-                      "rank": 7
+                      "key": "Prog",
+                      "rawScore": 74,
+                      "rank": 8
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36.4,
+                      "key": "Ful",
+                      "rawScore": 72,
                       "rank": 7
                     }
                   ],
-                  "total": 73.4,
-                  "rank": 8
+                  "total": 36.4,
+                  "rank": 7
                 }
               ],
               "captionTotal": 0,
@@ -1660,8 +1660,8 @@
                   "rank": 8
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1670,21 +1670,21 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 75,
+                      "key": "Prog",
+                      "rawScore": 77,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.9,
+                      "key": "Ful",
+                      "rawScore": 75,
                       "rank": 6
                     }
                   ],
-                  "total": 73.8,
-                  "rank": 7
+                  "total": 37.9,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 1.75,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1727,8 +1727,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1737,22 +1737,22 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 77,
+                      "key": "Ovr",
+                      "rawScore": 79,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 23.4,
+                      "key": "Mus",
+                      "rawScore": 77,
                       "rank": 2
                     }
                   ],
-                  "total": 75,
+                  "total": 23.4,
                   "rank": 2
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1762,21 +1762,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.1,
+                      "rawScore": 75,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 79,
-                      "rank": 1
+                      "rawScore": 76,
+                      "rank": 2
                     }
                   ],
-                  "total": 78,
-                  "rank": 1
+                  "total": 15.1,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 15.7,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1785,22 +1785,22 @@
                   "judgeName": "W. Whaley",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 77.5,
+                      "key": "Ovr",
+                      "rawScore": 79,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 78,
+                      "rank": 1
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 15.7,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 77.5,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -1833,8 +1833,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1843,22 +1843,22 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76,
+                      "key": "Ovr",
+                      "rawScore": 78,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 23.1,
+                      "key": "Mus",
+                      "rawScore": 76,
                       "rank": 3
                     }
                   ],
-                  "total": 78,
-                  "rank": 1
+                  "total": 23.1,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1868,21 +1868,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.8,
+                      "rawScore": 78,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 76,
-                      "rank": 2
+                      "rawScore": 80,
+                      "rank": 1
                     }
                   ],
-                  "total": 72,
-                  "rank": 2
+                  "total": 15.8,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 14.8,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1891,22 +1891,22 @@
                   "judgeName": "W. Whaley",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 77.4,
+                      "key": "Ovr",
+                      "rawScore": 76,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 72,
+                      "rank": 2
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 14.8,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 77.4,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -1939,8 +1939,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1949,22 +1949,22 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83,
+                      "key": "Ovr",
+                      "rawScore": 80,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 24.45,
+                      "key": "Mus",
+                      "rawScore": 83,
                       "rank": 1
                     }
                   ],
-                  "total": 73,
-                  "rank": 3
+                  "total": 24.45,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1974,21 +1974,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 14.5,
+                      "rawScore": 73,
                       "rank": 3
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 73,
+                      "rawScore": 72,
                       "rank": 3
                     }
                   ],
-                  "total": 71,
+                  "total": 14.5,
                   "rank": 3
                 }
               ],
-              "captionTotal": 14.4,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1997,22 +1997,22 @@
                   "judgeName": "W. Whaley",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 77.05,
+                      "key": "Ovr",
+                      "rawScore": 73,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 71,
+                      "rank": 3
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 14.4,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 77.05,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -2054,8 +2054,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -2064,22 +2064,22 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 86,
+                      "key": "Ovr",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 25.5,
+                      "key": "Mus",
+                      "rawScore": 86,
                       "rank": 1
                     }
                   ],
-                  "total": 80,
+                  "total": 25.5,
                   "rank": 1
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2089,21 +2089,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.6,
+                      "rawScore": 80,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 82,
+                      "rawScore": 76,
                       "rank": 1
                     }
                   ],
-                  "total": 79,
+                  "total": 15.6,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.1,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2112,22 +2112,22 @@
                   "judgeName": "W. Whaley",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 81.6,
+                      "key": "Ovr",
+                      "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 79,
+                      "rank": 1
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 16.1,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 81.6,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -2160,8 +2160,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -2170,22 +2170,22 @@
                   "judgeName": "N. Noble",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 81,
+                      "key": "Ovr",
+                      "rawScore": 80,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 24.15,
+                      "key": "Mus",
+                      "rawScore": 81,
                       "rank": 2
                     }
                   ],
-                  "total": 76,
+                  "total": 24.15,
                   "rank": 2
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2195,21 +2195,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15,
+                      "rawScore": 76,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 79,
+                      "rawScore": 74,
                       "rank": 2
                     }
                   ],
-                  "total": 77,
+                  "total": 15,
                   "rank": 2
                 }
               ],
-              "captionTotal": 15.6,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2218,22 +2218,22 @@
                   "judgeName": "W. Whaley",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78.15,
+                      "key": "Ovr",
+                      "rawScore": 79,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 77,
+                      "rank": 2
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 15.6,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 78.15,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,

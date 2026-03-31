@@ -41,7 +41,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 1
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -50,12 +50,12 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 0,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 0,
                       "rank": 1
                     }
@@ -65,7 +65,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 1
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -89,7 +89,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 1
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -98,22 +98,22 @@
                   "judgeName": "M. Stevens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 0,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 0,
-                      "rank": null
+                      "rank": 1
                     }
                   ],
                   "total": 0,
-                  "rank": null
+                  "rank": 1
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 1
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -155,8 +155,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -165,17 +165,17 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 42,
+                      "key": "Ful",
+                      "rawScore": 84,
                       "rank": 1
                     }
                   ],
-                  "total": 82.7,
+                  "total": 42,
                   "rank": 1
                 }
               ],
@@ -213,8 +213,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -223,21 +223,21 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78,
+                      "key": "Prog",
+                      "rawScore": 79,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 39.2,
+                      "key": "Ful",
+                      "rawScore": 78,
                       "rank": 2
                     }
                   ],
-                  "total": 80.4,
+                  "total": 39.2,
                   "rank": 2
                 }
               ],
-              "captionTotal": 0.3,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -271,8 +271,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -281,17 +281,17 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 74,
-                      "rank": 4
+                      "key": "Prog",
+                      "rawScore": 75,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.2,
-                      "rank": 3
+                      "key": "Ful",
+                      "rawScore": 74,
+                      "rank": 4
                     }
                   ],
-                  "total": 75,
+                  "total": 37.2,
                   "rank": 3
                 }
               ],
@@ -329,8 +329,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -339,21 +339,21 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 75,
-                      "rank": 3
+                      "key": "Prog",
+                      "rawScore": 73,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.1,
-                      "rank": 4
+                      "key": "Ful",
+                      "rawScore": 75,
+                      "rank": 3
                     }
                   ],
-                  "total": 73.7,
+                  "total": 37.1,
                   "rank": 4
                 }
               ],
-              "captionTotal": 0.25,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -396,8 +396,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -406,22 +406,22 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76,
+                      "key": "Ovr",
+                      "rawScore": 81,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 23.55,
+                      "key": "Mus",
+                      "rawScore": 76,
                       "rank": 1
                     }
                   ],
-                  "total": 90,
+                  "total": 23.55,
                   "rank": 1
                 }
               ],
-              "captionTotal": 90,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -431,21 +431,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 18,
+                      "rawScore": 90,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 84,
+                      "rawScore": 90,
                       "rank": 1
                     }
                   ],
-                  "total": 83,
+                  "total": 18,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.7,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -454,22 +454,22 @@
                   "judgeName": "M. Stevens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83.25,
+                      "key": "Ovr",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 83,
+                      "rank": 1
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 16.7,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 83.25,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -502,8 +502,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -512,22 +512,22 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 71,
-                      "rank": 3
+                      "key": "Ovr",
+                      "rawScore": 70,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 21.15,
+                      "key": "Mus",
+                      "rawScore": 71,
                       "rank": 3
                     }
                   ],
-                  "total": 85,
-                  "rank": 2
+                  "total": 21.15,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -537,21 +537,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.5,
+                      "rawScore": 85,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 79,
-                      "rank": 2
+                      "rawScore": 80,
+                      "rank": 3
                     }
                   ],
-                  "total": 79,
+                  "total": 16.5,
                   "rank": 2
                 }
               ],
-              "captionTotal": 15.8,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -560,22 +560,22 @@
                   "judgeName": "M. Stevens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 77.55,
+                      "key": "Ovr",
+                      "rawScore": 79,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 79,
+                      "rank": 2
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 15.8,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 77.55,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -608,8 +608,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -618,22 +618,22 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72,
+                      "key": "Ovr",
+                      "rawScore": 74,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 21.9,
+                      "key": "Mus",
+                      "rawScore": 72,
                       "rank": 2
                     }
                   ],
-                  "total": 80,
-                  "rank": 4
+                  "total": 21.9,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -643,21 +643,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.1,
+                      "rawScore": 80,
                       "rank": 4
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 76,
-                      "rank": 3
+                      "rawScore": 81,
+                      "rank": 2
                     }
                   ],
-                  "total": 74,
-                  "rank": 3
+                  "total": 16.1,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 15,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -666,22 +666,22 @@
                   "judgeName": "M. Stevens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 75.1,
+                      "key": "Ovr",
+                      "rawScore": 76,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 74,
+                      "rank": 3
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 15,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 75.1,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -714,8 +714,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -724,22 +724,22 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 68,
-                      "rank": 5
+                      "key": "Ovr",
+                      "rawScore": 71,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 20.85,
-                      "rank": 4
+                      "key": "Mus",
+                      "rawScore": 68,
+                      "rank": 5
                     }
                   ],
-                  "total": 83,
-                  "rank": 3
+                  "total": 20.85,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -749,21 +749,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.2,
+                      "rawScore": 83,
                       "rank": 3
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 69,
-                      "rank": 5
+                      "rawScore": 79,
+                      "rank": 4
                     }
                   ],
-                  "total": 67,
-                  "rank": 5
+                  "total": 16.2,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 13.6,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -772,22 +772,22 @@
                   "judgeName": "M. Stevens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73.75,
-                      "rank": 4
+                      "key": "Ovr",
+                      "rawScore": 69,
+                      "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 67,
+                      "rank": 5
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 13.6,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 73.75,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -820,8 +820,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 68,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -830,22 +830,22 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 69,
-                      "rank": 4
+                      "key": "Ovr",
+                      "rawScore": 68,
+                      "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 20.55,
-                      "rank": 5
+                      "key": "Mus",
+                      "rawScore": 69,
+                      "rank": 4
                     }
                   ],
-                  "total": 77,
+                  "total": 20.55,
                   "rank": 5
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -855,21 +855,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.3,
+                      "rawScore": 77,
                       "rank": 5
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 70,
-                      "rank": 4
+                      "rawScore": 76,
+                      "rank": 5
                     }
                   ],
-                  "total": 68,
-                  "rank": 4
+                  "total": 15.3,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 13.8,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -878,22 +878,22 @@
                   "judgeName": "M. Stevens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 70.55,
-                      "rank": 5
+                      "key": "Ovr",
+                      "rawScore": 70,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 68,
+                      "rank": 4
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 13.8,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 70.55,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -935,8 +935,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 91,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -945,17 +945,17 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 89,
+                      "key": "Prog",
+                      "rawScore": 91,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 44.9,
+                      "key": "Ful",
+                      "rawScore": 89,
                       "rank": 1
                     }
                   ],
-                  "total": 89.1,
+                  "total": 44.9,
                   "rank": 1
                 }
               ],
@@ -993,8 +993,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 86,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1003,17 +1003,17 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 84,
+                      "key": "Prog",
+                      "rawScore": 86,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 42.4,
+                      "key": "Ful",
+                      "rawScore": 84,
                       "rank": 2
                     }
                   ],
-                  "total": 83.3,
+                  "total": 42.4,
                   "rank": 2
                 }
               ],
@@ -1051,8 +1051,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1061,17 +1061,17 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83,
-                      "rank": 4
+                      "key": "Prog",
+                      "rawScore": 85,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.9,
-                      "rank": 3
+                      "key": "Ful",
+                      "rawScore": 83,
+                      "rank": 4
                     }
                   ],
-                  "total": 82,
+                  "total": 41.9,
                   "rank": 3
                 }
               ],
@@ -1109,8 +1109,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1119,21 +1119,21 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83.5,
-                      "rank": 3
+                      "key": "Prog",
+                      "rawScore": 83,
+                      "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.65,
-                      "rank": 4
+                      "key": "Ful",
+                      "rawScore": 83.5,
+                      "rank": 3
                     }
                   ],
-                  "total": 81.65,
+                  "total": 41.65,
                   "rank": 4
                 }
               ],
-              "captionTotal": 0.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1167,8 +1167,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1177,17 +1177,17 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 81,
-                      "rank": 5
+                      "key": "Prog",
+                      "rawScore": 84,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.1,
+                      "key": "Ful",
+                      "rawScore": 81,
                       "rank": 5
                     }
                   ],
-                  "total": 80,
+                  "total": 41.1,
                   "rank": 5
                 }
               ],
@@ -1234,8 +1234,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1244,22 +1244,22 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 81,
-                      "rank": 1
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 24.15,
+                      "key": "Mus",
+                      "rawScore": 81,
                       "rank": 1
                     }
                   ],
-                  "total": 83,
+                  "total": 24.15,
                   "rank": 1
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1269,7 +1269,7 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.5,
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
@@ -1278,12 +1278,12 @@
                       "rank": 1
                     }
                   ],
-                  "total": 79,
+                  "total": 16.5,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.1,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1292,22 +1292,22 @@
                   "judgeName": "M. Stevens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79.85,
+                      "key": "Ovr",
+                      "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 79,
+                      "rank": 1
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 16.1,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 79.85,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -1340,8 +1340,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1350,22 +1350,22 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79,
-                      "rank": 2
+                      "key": "Ovr",
+                      "rawScore": 81,
+                      "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 24,
+                      "key": "Mus",
+                      "rawScore": 79,
                       "rank": 2
                     }
                   ],
-                  "total": 81,
+                  "total": 24,
                   "rank": 2
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1375,21 +1375,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16,
+                      "rawScore": 81,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 80,
+                      "rawScore": 79,
                       "rank": 2
                     }
                   ],
-                  "total": 77,
+                  "total": 16,
                   "rank": 2
                 }
               ],
-              "captionTotal": 15.7,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1398,22 +1398,22 @@
                   "judgeName": "M. Stevens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79.3,
+                      "key": "Ovr",
+                      "rawScore": 80,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 77,
+                      "rank": 2
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 15.7,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 79.3,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -1455,8 +1455,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1465,22 +1465,22 @@
                   "judgeName": "R. Ulibarri",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 24.6,
+                      "key": "Mus",
+                      "rawScore": 82,
                       "rank": 1
                     }
                   ],
-                  "total": 84,
+                  "total": 24.6,
                   "rank": 1
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1490,21 +1490,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.5,
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 82,
+                      "rawScore": 81,
                       "rank": 1
                     }
                   ],
-                  "total": 83,
+                  "total": 16.5,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.5,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1513,22 +1513,22 @@
                   "judgeName": "M. Stevens",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80.2,
+                      "key": "Ovr",
+                      "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 83,
+                      "rank": 1
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 16.5,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 80.2,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,

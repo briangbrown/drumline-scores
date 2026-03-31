@@ -381,6 +381,7 @@ function parseHeaderLayout(
       judgeIdx++
     }
 
+    colIdx += captionColsUsed
     captions.push(captionLayout)
   }
 
@@ -503,13 +504,17 @@ function buildCaptionScore(
     })
   }
 
-  // Caption total
+  // Caption total — consume from a dedicated total column when present (double-panel),
+  // otherwise infer from the single judge's total (single-panel regional shows)
   let captionTotal = 0
   let captionRank: number | null = null
-  if (scoreIdx < scoreValues.length) {
+  if (captionLayout.totalCol !== null && scoreIdx < scoreValues.length) {
     captionTotal = scoreValues[scoreIdx].score
     captionRank = scoreValues[scoreIdx].rank
     scoreIdx++
+  } else if (judges.length === 1) {
+    captionTotal = judges[0].total
+    captionRank = judges[0].rank
   }
 
   // Remove consumed values from the front

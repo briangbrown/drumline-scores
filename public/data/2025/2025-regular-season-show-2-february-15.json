@@ -40,7 +40,7 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 67,
+              "captionTotal": 33.1,
               "captionRank": 1
             },
             {
@@ -50,22 +50,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 64,
+                      "key": "Comp",
+                      "rawScore": 67,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 32.6,
+                      "key": "Perf",
+                      "rawScore": 64,
                       "rank": 1
                     }
                   ],
-                  "total": 65.7,
+                  "total": 32.6,
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 32.6,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -107,7 +107,7 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 61,
+              "captionTotal": 31.1,
               "captionRank": 1
             },
             {
@@ -117,22 +117,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 59,
+                      "key": "Comp",
+                      "rawScore": 61,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 29.9,
+                      "key": "Perf",
+                      "rawScore": 59,
                       "rank": 1
                     }
                   ],
-                  "total": 61,
+                  "total": 29.9,
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 29.9,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -174,8 +174,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 66,
-              "captionRank": 2
+              "captionTotal": 19.95,
+              "captionRank": 1
             },
             {
               "captionName": "Effect - Visual",
@@ -185,21 +185,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 65,
+                      "rawScore": 66,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 13.1,
+                      "key": "Vis",
+                      "rawScore": 65,
                       "rank": 2
                     }
                   ],
-                  "total": 68,
-                  "rank": 1
+                  "total": 13.1,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 69,
-              "captionRank": 1
+              "captionTotal": 13.1,
+              "captionRank": 2
             },
             {
               "captionName": "Music",
@@ -208,21 +208,21 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 20.6,
+                      "key": "Comp",
+                      "rawScore": 68,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 70,
+                      "key": "Perf",
+                      "rawScore": 69,
                       "rank": 1
                     }
                   ],
-                  "total": 65,
+                  "total": 20.6,
                   "rank": 1
                 }
               ],
-              "captionTotal": 13.5,
+              "captionTotal": 20.6,
               "captionRank": 1
             },
             {
@@ -232,22 +232,22 @@
                   "judgeName": "C. VanDam",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 67.15,
+                      "key": "Comp",
+                      "rawScore": 70,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0.35,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 65,
+                      "rank": 1
                     }
                   ],
-                  "total": 66.8,
+                  "total": 13.5,
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 13.5,
+              "captionRank": 1
             }
           ],
           "subTotal": 67.15,
@@ -280,8 +280,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 68,
-              "captionRank": 1
+              "captionTotal": 19.65,
+              "captionRank": 2
             },
             {
               "captionName": "Effect - Visual",
@@ -291,21 +291,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 67,
+                      "rawScore": 68,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 13.5,
+                      "key": "Vis",
+                      "rawScore": 67,
                       "rank": 1
                     }
                   ],
-                  "total": 63,
-                  "rank": 2
+                  "total": 13.5,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 62,
-              "captionRank": 3
+              "captionTotal": 13.5,
+              "captionRank": 1
             },
             {
               "captionName": "Music",
@@ -314,22 +314,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 18.7,
-                      "rank": 3
+                      "key": "Comp",
+                      "rawScore": 63,
+                      "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 68,
-                      "rank": 2
+                      "key": "Perf",
+                      "rawScore": 62,
+                      "rank": 3
                     }
                   ],
-                  "total": 64,
-                  "rank": 2
+                  "total": 18.7,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 13.2,
-              "captionRank": 2
+              "captionTotal": 18.7,
+              "captionRank": 3
             },
             {
               "captionName": "Visual",
@@ -338,22 +338,22 @@
                   "judgeName": "C. VanDam",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 65.05,
+                      "key": "Comp",
+                      "rawScore": 68,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 2
                     }
                   ],
-                  "total": 65.05,
+                  "total": 13.2,
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 13.2,
+              "captionRank": 2
             }
           ],
           "subTotal": 0,
@@ -386,7 +386,7 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 63,
+              "captionTotal": 18.45,
               "captionRank": 3
             },
             {
@@ -397,21 +397,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 61,
+                      "rawScore": 63,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 12.4,
+                      "key": "Vis",
+                      "rawScore": 61,
                       "rank": 3
                     }
                   ],
-                  "total": 62,
+                  "total": 12.4,
                   "rank": 3
                 }
               ],
-              "captionTotal": 64,
-              "captionRank": 2
+              "captionTotal": 12.4,
+              "captionRank": 3
             },
             {
               "captionName": "Music",
@@ -420,22 +420,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 19,
-                      "rank": 2
+                      "key": "Comp",
+                      "rawScore": 62,
+                      "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 64,
-                      "rank": 3
+                      "rank": 2
                     }
                   ],
-                  "total": 61,
-                  "rank": 3
+                  "total": 19,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 12.5,
-              "captionRank": 3
+              "captionTotal": 19,
+              "captionRank": 2
             },
             {
               "captionName": "Visual",
@@ -444,22 +444,22 @@
                   "judgeName": "C. VanDam",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 62.35,
+                      "key": "Comp",
+                      "rawScore": 64,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 1.15,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 61,
+                      "rank": 3
                     }
                   ],
-                  "total": 61.2,
+                  "total": 12.5,
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 12.5,
+              "captionRank": 3
             }
           ],
           "subTotal": 62.35,
@@ -501,7 +501,7 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 73,
+              "captionTotal": 36.9,
               "captionRank": 1
             },
             {
@@ -511,22 +511,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 70,
+                      "key": "Comp",
+                      "rawScore": 73,
                       "rank": 1
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 35.6,
+                      "key": "Perf",
+                      "rawScore": 70,
                       "rank": 1
                     }
                   ],
-                  "total": 72.5,
+                  "total": 35.6,
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 35.6,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -559,7 +559,7 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 67,
+              "captionTotal": 36.6,
               "captionRank": 2
             },
             {
@@ -569,22 +569,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 65,
+                      "key": "Comp",
+                      "rawScore": 67,
                       "rank": 2
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 32.9,
+                      "key": "Perf",
+                      "rawScore": 65,
                       "rank": 2
                     }
                   ],
-                  "total": 69.5,
+                  "total": 32.9,
                   "rank": 2
                 }
               ],
-              "captionTotal": 2.8,
-              "captionRank": null
+              "captionTotal": 32.9,
+              "captionRank": 2
             }
           ],
           "subTotal": 69.5,
@@ -626,7 +626,7 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 74,
+              "captionTotal": 38.4,
               "captionRank": 1
             },
             {
@@ -636,22 +636,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Prog",
-                      "rawScore": 71,
-                      "rank": 2
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 1
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 36.1,
-                      "rank": 1
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 2
                     }
                   ],
-                  "total": 74.5,
+                  "total": 36.1,
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 36.1,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -684,7 +684,7 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 72,
+              "captionTotal": 36.2,
               "captionRank": 2
             },
             {
@@ -694,22 +694,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Prog",
+                      "key": "Comp",
                       "rawScore": 72,
-                      "rank": 1
+                      "rank": 2
                     },
                     {
-                      "key": "Ful",
-                      "rawScore": 36,
-                      "rank": 2
+                      "key": "Perf",
+                      "rawScore": 72,
+                      "rank": 1
                     }
                   ],
-                  "total": 72.2,
+                  "total": 36,
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 36,
+              "captionRank": 2
             }
           ],
           "subTotal": 0,
@@ -751,8 +751,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 2
+              "captionTotal": 23.7,
+              "captionRank": 1
             },
             {
               "captionName": "Effect - Visual",
@@ -762,21 +762,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 72,
+                      "rawScore": 74,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 14.6,
+                      "key": "Vis",
+                      "rawScore": 72,
                       "rank": 2
                     }
                   ],
-                  "total": 75,
-                  "rank": 1
+                  "total": 14.6,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 1
+              "captionTotal": 14.6,
+              "captionRank": 2
             },
             {
               "captionName": "Music",
@@ -785,21 +785,21 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 22.1,
+                      "key": "Comp",
+                      "rawScore": 75,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 79,
+                      "key": "Perf",
+                      "rawScore": 73,
                       "rank": 1
                     }
                   ],
-                  "total": 74,
-                  "rank": 2
+                  "total": 22.1,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 15.3,
+              "captionTotal": 22.1,
               "captionRank": 1
             },
             {
@@ -809,22 +809,22 @@
                   "judgeName": "C. VanDam",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 75.7,
+                      "key": "Comp",
+                      "rawScore": 79,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0.8,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 2
                     }
                   ],
-                  "total": 74.9,
+                  "total": 15.3,
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 15.3,
+              "captionRank": 1
             }
           ],
           "subTotal": 75.7,
@@ -857,8 +857,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 1
+              "captionTotal": 22.35,
+              "captionRank": 2
             },
             {
               "captionName": "Effect - Visual",
@@ -868,21 +868,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 73,
+                      "rawScore": 76,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 14.9,
+                      "key": "Vis",
+                      "rawScore": 73,
                       "rank": 1
                     }
                   ],
-                  "total": 67,
-                  "rank": 2
+                  "total": 14.9,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 2
+              "captionTotal": 14.9,
+              "captionRank": 1
             },
             {
               "captionName": "Music",
@@ -891,21 +891,21 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 20.7,
+                      "key": "Comp",
+                      "rawScore": 67,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 76,
+                      "key": "Perf",
+                      "rawScore": 70,
                       "rank": 2
                     }
                   ],
-                  "total": 75,
-                  "rank": 1
+                  "total": 20.7,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 15.1,
+              "captionTotal": 20.7,
               "captionRank": 2
             },
             {
@@ -915,22 +915,22 @@
                   "judgeName": "C. VanDam",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 73.05,
+                      "key": "Comp",
+                      "rawScore": 76,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 1
                     }
                   ],
-                  "total": 73.05,
+                  "total": 15.1,
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 15.1,
+              "captionRank": 2
             }
           ],
           "subTotal": 0,
@@ -972,8 +972,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 1
+              "captionTotal": 22.2,
+              "captionRank": 2
             },
             {
               "captionName": "Effect - Visual",
@@ -983,21 +983,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 70,
+                      "rawScore": 73,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 14.3,
+                      "key": "Vis",
+                      "rawScore": 70,
                       "rank": 1
                     }
                   ],
-                  "total": 73,
-                  "rank": 3
+                  "total": 14.3,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 3
+              "captionTotal": 14.3,
+              "captionRank": 1
             },
             {
               "captionName": "Music",
@@ -1006,22 +1006,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 21.3,
+                      "key": "Comp",
+                      "rawScore": 73,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
+                      "key": "Perf",
                       "rawScore": 70,
-                      "rank": 1
+                      "rank": 3
                     }
                   ],
-                  "total": 68,
-                  "rank": 2
+                  "total": 21.3,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 13.8,
-              "captionRank": 1
+              "captionTotal": 21.3,
+              "captionRank": 3
             },
             {
               "captionName": "Visual",
@@ -1030,22 +1030,22 @@
                   "judgeName": "C. VanDam",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 71.6,
+                      "key": "Comp",
+                      "rawScore": 70,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 68,
+                      "rank": 2
                     }
                   ],
-                  "total": 71.6,
+                  "total": 13.8,
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 13.8,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -1078,8 +1078,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 64,
-              "captionRank": 3
+              "captionTotal": 22.65,
+              "captionRank": 1
             },
             {
               "captionName": "Effect - Visual",
@@ -1089,21 +1089,21 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 63,
+                      "rawScore": 64,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 12.7,
+                      "key": "Vis",
+                      "rawScore": 63,
                       "rank": 3
                     }
                   ],
-                  "total": 76,
-                  "rank": 1
+                  "total": 12.7,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 1
+              "captionTotal": 12.7,
+              "captionRank": 3
             },
             {
               "captionName": "Music",
@@ -1112,22 +1112,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 22.4,
+                      "key": "Comp",
+                      "rawScore": 76,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 66,
-                      "rank": 2
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 1
                     }
                   ],
-                  "total": 69,
+                  "total": 22.4,
                   "rank": 1
                 }
               ],
-              "captionTotal": 13.5,
-              "captionRank": 2
+              "captionTotal": 22.4,
+              "captionRank": 1
             },
             {
               "captionName": "Visual",
@@ -1136,22 +1136,22 @@
                   "judgeName": "C. VanDam",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 71.25,
+                      "key": "Comp",
+                      "rawScore": 66,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 69,
+                      "rank": 1
                     }
                   ],
-                  "total": 71.25,
+                  "total": 13.5,
                   "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 13.5,
+              "captionRank": 2
             }
           ],
           "subTotal": 0,
@@ -1184,8 +1184,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 68,
-              "captionRank": 2
+              "captionTotal": 22.05,
+              "captionRank": 3
             },
             {
               "captionName": "Effect - Visual",
@@ -1195,20 +1195,20 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 65,
+                      "rawScore": 68,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 13.3,
+                      "key": "Vis",
+                      "rawScore": 65,
                       "rank": 2
                     }
                   ],
-                  "total": 75,
+                  "total": 13.3,
                   "rank": 2
                 }
               ],
-              "captionTotal": 73,
+              "captionTotal": 13.3,
               "captionRank": 2
             },
             {
@@ -1218,22 +1218,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 22.1,
+                      "key": "Comp",
+                      "rawScore": 75,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 65,
-                      "rank": 3
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 2
                     }
                   ],
-                  "total": 64,
-                  "rank": 3
+                  "total": 22.1,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 12.9,
-              "captionRank": 3
+              "captionTotal": 22.1,
+              "captionRank": 2
             },
             {
               "captionName": "Visual",
@@ -1242,22 +1242,22 @@
                   "judgeName": "C. VanDam",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 70.35,
+                      "key": "Comp",
+                      "rawScore": 65,
                       "rank": 3
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 1.2,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 3
                     }
                   ],
-                  "total": 69.15,
+                  "total": 12.9,
                   "rank": 3
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 12.9,
+              "captionRank": 3
             }
           ],
           "subTotal": 70.35,
@@ -1299,7 +1299,7 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 75,
+              "captionTotal": 22.35,
               "captionRank": 1
             },
             {
@@ -1310,20 +1310,20 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 72,
+                      "rawScore": 75,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 14.7,
+                      "key": "Vis",
+                      "rawScore": 72,
                       "rank": 1
                     }
                   ],
-                  "total": 75,
+                  "total": 14.7,
                   "rank": 1
                 }
               ],
-              "captionTotal": 72,
+              "captionTotal": 14.7,
               "captionRank": 1
             },
             {
@@ -1333,21 +1333,21 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 21.9,
+                      "key": "Comp",
+                      "rawScore": 75,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 69,
+                      "key": "Perf",
+                      "rawScore": 72,
                       "rank": 1
                     }
                   ],
-                  "total": 72,
+                  "total": 21.9,
                   "rank": 1
                 }
               ],
-              "captionTotal": 14.1,
+              "captionTotal": 21.9,
               "captionRank": 1
             },
             {
@@ -1357,22 +1357,22 @@
                   "judgeName": "C. VanDam",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 73.05,
+                      "key": "Comp",
+                      "rawScore": 69,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 72,
+                      "rank": 1
                     }
                   ],
-                  "total": 73.05,
+                  "total": 14.1,
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 14.1,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,
@@ -1414,7 +1414,7 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 72,
+              "captionTotal": 22.2,
               "captionRank": 1
             },
             {
@@ -1425,20 +1425,20 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 70,
+                      "rawScore": 72,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 14.2,
+                      "key": "Vis",
+                      "rawScore": 70,
                       "rank": 1
                     }
                   ],
-                  "total": 71,
+                  "total": 14.2,
                   "rank": 1
                 }
               ],
-              "captionTotal": 66,
+              "captionTotal": 14.2,
               "captionRank": 1
             },
             {
@@ -1448,21 +1448,21 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 20.3,
+                      "key": "Comp",
+                      "rawScore": 71,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 72,
+                      "key": "Perf",
+                      "rawScore": 66,
                       "rank": 1
                     }
                   ],
-                  "total": 70,
+                  "total": 20.3,
                   "rank": 1
                 }
               ],
-              "captionTotal": 14.2,
+              "captionTotal": 20.3,
               "captionRank": 1
             },
             {
@@ -1472,22 +1472,22 @@
                   "judgeName": "C. VanDam",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 70.9,
+                      "key": "Comp",
+                      "rawScore": 72,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 10.35,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 1
                     }
                   ],
-                  "total": 60.55,
+                  "total": 14.2,
                   "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 14.2,
+              "captionRank": 1
             }
           ],
           "subTotal": 70.9,
@@ -1529,7 +1529,7 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 77,
+              "captionTotal": 23.4,
               "captionRank": 1
             },
             {
@@ -1540,20 +1540,20 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 76,
+                      "rawScore": 77,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 15.3,
+                      "key": "Vis",
+                      "rawScore": 76,
                       "rank": 1
                     }
                   ],
-                  "total": 75,
+                  "total": 15.3,
                   "rank": 1
                 }
               ],
-              "captionTotal": 74,
+              "captionTotal": 15.3,
               "captionRank": 1
             },
             {
@@ -1563,22 +1563,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 22.3,
+                      "key": "Comp",
+                      "rawScore": 75,
                       "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 75,
-                      "rank": 2
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 1
                     }
                   ],
-                  "total": 74,
-                  "rank": 2
+                  "total": 22.3,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 14.9,
-              "captionRank": 2
+              "captionTotal": 22.3,
+              "captionRank": 1
             },
             {
               "captionName": "Visual",
@@ -1587,22 +1587,22 @@
                   "judgeName": "C. VanDam",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 75.9,
-                      "rank": 1
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0.3,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 2
                     }
                   ],
-                  "total": 75.6,
-                  "rank": 1
+                  "total": 14.9,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 14.9,
+              "captionRank": 2
             }
           ],
           "subTotal": 75.9,
@@ -1635,7 +1635,7 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 75,
+              "captionTotal": 22.65,
               "captionRank": 2
             },
             {
@@ -1646,20 +1646,20 @@
                   "subCaptions": [
                     {
                       "key": "Ovr",
-                      "rawScore": 74,
+                      "rawScore": 75,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 14.9,
+                      "key": "Vis",
+                      "rawScore": 74,
                       "rank": 2
                     }
                   ],
-                  "total": 73,
+                  "total": 14.9,
                   "rank": 2
                 }
               ],
-              "captionTotal": 69,
+              "captionTotal": 14.9,
               "captionRank": 2
             },
             {
@@ -1669,22 +1669,22 @@
                   "judgeName": "C. Spear",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 21.1,
+                      "key": "Comp",
+                      "rawScore": 73,
                       "rank": 2
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 76,
-                      "rank": 1
+                      "key": "Perf",
+                      "rawScore": 69,
+                      "rank": 2
                     }
                   ],
-                  "total": 75,
-                  "rank": 1
+                  "total": 21.1,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 15.1,
-              "captionRank": 1
+              "captionTotal": 21.1,
+              "captionRank": 2
             },
             {
               "captionName": "Visual",
@@ -1693,22 +1693,22 @@
                   "judgeName": "C. VanDam",
                   "subCaptions": [
                     {
-                      "key": "Ovr",
-                      "rawScore": 73.75,
-                      "rank": 2
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 1
                     },
                     {
-                      "key": "Mus",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 1
                     }
                   ],
-                  "total": 73.75,
-                  "rank": 2
+                  "total": 15.1,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 0,
-              "captionRank": null
+              "captionTotal": 15.1,
+              "captionRank": 1
             }
           ],
           "subTotal": 0,

@@ -41,7 +41,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 1
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -50,12 +50,12 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 0,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 0,
                       "rank": 1
                     }
@@ -65,7 +65,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 1
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -89,7 +89,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 1
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -98,22 +98,22 @@
                   "judgeName": "S. Adamo",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 0,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 0,
-                      "rank": null
+                      "rank": 1
                     }
                   ],
                   "total": 0,
-                  "rank": null
+                  "rank": 1
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 1
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -147,7 +147,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 1
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -156,12 +156,12 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 0,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 0,
                       "rank": 1
                     }
@@ -171,7 +171,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 1
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -195,7 +195,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 1
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -204,22 +204,22 @@
                   "judgeName": "S. Adamo",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 0,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 0,
-                      "rank": null
+                      "rank": 1
                     }
                   ],
                   "total": 0,
-                  "rank": null
+                  "rank": 1
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 1
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -261,8 +261,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -271,21 +271,21 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
+                      "key": "Prog",
+                      "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.4,
+                      "key": "Ful",
+                      "rawScore": 80,
                       "rank": 1
                     }
                   ],
-                  "total": 79.5,
+                  "total": 40.4,
                   "rank": 1
                 }
               ],
-              "captionTotal": 0.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -319,8 +319,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -329,17 +329,17 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76,
+                      "key": "Prog",
+                      "rawScore": 78,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38.4,
+                      "key": "Ful",
+                      "rawScore": 76,
                       "rank": 2
                     }
                   ],
-                  "total": 72.9,
+                  "total": 38.4,
                   "rank": 2
                 }
               ],
@@ -377,8 +377,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -387,21 +387,21 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73,
-                      "rank": 3
+                      "key": "Prog",
+                      "rawScore": 70,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 35.9,
+                      "key": "Ful",
+                      "rawScore": 73,
                       "rank": 3
                     }
                   ],
-                  "total": 69.3,
+                  "total": 35.9,
                   "rank": 3
                 }
               ],
-              "captionTotal": 0.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -435,8 +435,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -445,21 +445,21 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 70,
-                      "rank": 4
+                      "key": "Prog",
+                      "rawScore": 72,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 35.4,
+                      "key": "Ful",
+                      "rawScore": 70,
                       "rank": 4
                     }
                   ],
-                  "total": 67.1,
+                  "total": 35.4,
                   "rank": 4
                 }
               ],
-              "captionTotal": 0.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -494,7 +494,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 5
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -503,12 +503,12 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 0,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 0,
                       "rank": 5
                     }
@@ -552,7 +552,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 5
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -561,12 +561,12 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 0,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
+                      "key": "Ful",
                       "rawScore": 0,
                       "rank": 5
                     }
@@ -618,8 +618,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -628,22 +628,22 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
+                      "key": "Ovr",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 24.6,
+                      "key": "Mus",
+                      "rawScore": 80,
                       "rank": 1
                     }
                   ],
-                  "total": 83,
+                  "total": 24.6,
                   "rank": 1
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -653,21 +653,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.6,
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 86,
+                      "rawScore": 83,
                       "rank": 1
                     }
                   ],
-                  "total": 84,
+                  "total": 16.6,
                   "rank": 1
                 }
               ],
-              "captionTotal": 17,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -676,22 +676,22 @@
                   "judgeName": "S. Adamo",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79.1,
+                      "key": "Ovr",
+                      "rawScore": 86,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0.2,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 84,
+                      "rank": 1
                     }
                   ],
-                  "total": -0.2,
-                  "rank": null
+                  "total": 17,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 78.9,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0.2,
@@ -724,8 +724,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -734,22 +734,22 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78,
-                      "rank": 2
+                      "key": "Ovr",
+                      "rawScore": 75,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 22.95,
+                      "key": "Mus",
+                      "rawScore": 78,
                       "rank": 2
                     }
                   ],
-                  "total": 78,
+                  "total": 22.95,
                   "rank": 2
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -759,21 +759,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.3,
+                      "rawScore": 78,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 77,
-                      "rank": 2
+                      "rawScore": 75,
+                      "rank": 3
                     }
                   ],
-                  "total": 74,
+                  "total": 15.3,
                   "rank": 2
                 }
               ],
-              "captionTotal": 15.1,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -782,22 +782,22 @@
                   "judgeName": "S. Adamo",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 75.55,
+                      "key": "Ovr",
+                      "rawScore": 77,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0.5,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 74,
+                      "rank": 2
                     }
                   ],
-                  "total": -0.5,
-                  "rank": null
+                  "total": 15.1,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 75.05,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0.5,
@@ -830,8 +830,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -840,22 +840,22 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 75,
-                      "rank": 3
+                      "key": "Ovr",
+                      "rawScore": 77,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 22.8,
+                      "key": "Mus",
+                      "rawScore": 75,
                       "rank": 3
                     }
                   ],
-                  "total": 75,
+                  "total": 22.8,
                   "rank": 3
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -865,21 +865,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.2,
+                      "rawScore": 75,
                       "rank": 3
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 75,
-                      "rank": 3
+                      "rawScore": 77,
+                      "rank": 2
                     }
                   ],
-                  "total": 71,
+                  "total": 15.2,
                   "rank": 3
                 }
               ],
-              "captionTotal": 14.6,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -888,22 +888,22 @@
                   "judgeName": "S. Adamo",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73.4,
+                      "key": "Ovr",
+                      "rawScore": 75,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 71,
+                      "rank": 3
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 14.6,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 73.4,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -936,8 +936,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 64,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -946,22 +946,22 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 74,
-                      "rank": 4
+                      "key": "Ovr",
+                      "rawScore": 64,
+                      "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 20.7,
-                      "rank": 5
+                      "key": "Mus",
+                      "rawScore": 74,
+                      "rank": 4
                     }
                   ],
-                  "total": 71,
+                  "total": 20.7,
                   "rank": 5
                 }
               ],
-              "captionTotal": 63,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -971,21 +971,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 13.4,
-                      "rank": 6
+                      "rawScore": 71,
+                      "rank": 5
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 72,
-                      "rank": 4
+                      "rawScore": 63,
+                      "rank": 7
                     }
                   ],
-                  "total": 70,
-                  "rank": 4
+                  "total": 13.4,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 14.2,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -994,22 +994,22 @@
                   "judgeName": "S. Adamo",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 69.7,
+                      "key": "Ovr",
+                      "rawScore": 72,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 70,
+                      "rank": 4
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 14.2,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 69.7,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -1042,8 +1042,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1052,22 +1052,22 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72,
-                      "rank": 6
+                      "key": "Ovr",
+                      "rawScore": 70,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 21.3,
-                      "rank": 4
+                      "key": "Mus",
+                      "rawScore": 72,
+                      "rank": 6
                     }
                   ],
-                  "total": 73,
+                  "total": 21.3,
                   "rank": 4
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1077,21 +1077,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 14.6,
+                      "rawScore": 73,
                       "rank": 4
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 70,
-                      "rank": 5
+                      "rawScore": 73,
+                      "rank": 4
                     }
                   ],
-                  "total": 68,
-                  "rank": 5
+                  "total": 14.6,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 13.8,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1100,22 +1100,22 @@
                   "judgeName": "S. Adamo",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 68.3,
+                      "key": "Ovr",
+                      "rawScore": 70,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 68,
+                      "rank": 5
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 13.8,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 68.3,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -1148,8 +1148,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 65,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1158,22 +1158,22 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 62,
-                      "rank": 7
+                      "key": "Ovr",
+                      "rawScore": 65,
+                      "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 19.05,
+                      "key": "Mus",
+                      "rawScore": 62,
                       "rank": 7
                     }
                   ],
-                  "total": 70,
-                  "rank": 6
+                  "total": 19.05,
+                  "rank": 7
                 }
               ],
-              "captionTotal": 67,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1183,21 +1183,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 13.7,
-                      "rank": 5
+                      "rawScore": 70,
+                      "rank": 6
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 69,
-                      "rank": 6
+                      "rawScore": 67,
+                      "rank": 5
                     }
                   ],
-                  "total": 67,
-                  "rank": 6
+                  "total": 13.7,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 13.6,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1206,22 +1206,22 @@
                   "judgeName": "S. Adamo",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 65.55,
+                      "key": "Ovr",
+                      "rawScore": 69,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0.3,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 67,
+                      "rank": 6
                     }
                   ],
-                  "total": -0.3,
-                  "rank": null
+                  "total": 13.6,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 65.25,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0.3,
@@ -1254,8 +1254,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 63,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1264,22 +1264,22 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73,
-                      "rank": 5
+                      "key": "Ovr",
+                      "rawScore": 63,
+                      "rank": 7
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 20.4,
-                      "rank": 6
+                      "key": "Mus",
+                      "rawScore": 73,
+                      "rank": 5
                     }
                   ],
-                  "total": 67,
-                  "rank": 7
+                  "total": 20.4,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 65,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1289,21 +1289,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 13.2,
+                      "rawScore": 67,
                       "rank": 7
                     },
                     {
                       "key": "Perf",
                       "rawScore": 65,
-                      "rank": 7
+                      "rank": 6
                     }
                   ],
-                  "total": 66,
+                  "total": 13.2,
                   "rank": 7
                 }
               ],
-              "captionTotal": 13.1,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1312,22 +1312,22 @@
                   "judgeName": "S. Adamo",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 64.9,
+                      "key": "Ovr",
+                      "rawScore": 65,
                       "rank": 7
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 7.05,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 66,
+                      "rank": 7
                     }
                   ],
-                  "total": -7.05,
-                  "rank": null
+                  "total": 13.1,
+                  "rank": 7
                 }
               ],
-              "captionTotal": 57.85,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 7.05,
@@ -1369,8 +1369,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1379,18 +1379,18 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 82,
-                      "rank": 3
+                      "key": "Prog",
+                      "rawScore": 84,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.4,
-                      "rank": 2
+                      "key": "Ful",
+                      "rawScore": 82,
+                      "rank": 3
                     }
                   ],
-                  "total": 83.3,
-                  "rank": 1
+                  "total": 41.4,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -1427,8 +1427,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 85,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1437,18 +1437,18 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83,
-                      "rank": 2
+                      "key": "Prog",
+                      "rawScore": 85,
+                      "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.9,
-                      "rank": 1
+                      "key": "Ful",
+                      "rawScore": 83,
+                      "rank": 2
                     }
                   ],
-                  "total": 81.5,
-                  "rank": 2
+                  "total": 41.9,
+                  "rank": 1
                 }
               ],
               "captionTotal": 0,
@@ -1485,8 +1485,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1495,18 +1495,18 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 81,
-                      "rank": 4
+                      "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.5,
+                      "key": "Ful",
+                      "rawScore": 81,
                       "rank": 4
                     }
                   ],
-                  "total": 80.9,
-                  "rank": 3
+                  "total": 40.5,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -1543,8 +1543,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1553,21 +1553,21 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 74,
+                      "key": "Prog",
+                      "rawScore": 76,
                       "rank": 8
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.4,
+                      "key": "Ful",
+                      "rawScore": 74,
                       "rank": 8
                     }
                   ],
-                  "total": 80.5,
-                  "rank": 4
+                  "total": 37.4,
+                  "rank": 8
                 }
               ],
-              "captionTotal": 0.75,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1601,8 +1601,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1611,18 +1611,18 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79,
-                      "rank": 6
+                      "key": "Prog",
+                      "rawScore": 83,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.3,
+                      "key": "Ful",
+                      "rawScore": 79,
                       "rank": 6
                     }
                   ],
-                  "total": 78.4,
-                  "rank": 5
+                  "total": 40.3,
+                  "rank": 6
                 }
               ],
               "captionTotal": 0,
@@ -1659,8 +1659,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1669,18 +1669,18 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
-                      "rank": 5
+                      "key": "Prog",
+                      "rawScore": 82,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.4,
+                      "key": "Ful",
+                      "rawScore": 80,
                       "rank": 5
                     }
                   ],
-                  "total": 77.8,
-                  "rank": 6
+                  "total": 40.4,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -1717,8 +1717,8 @@
                   "rank": 8
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1727,21 +1727,21 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 85,
-                      "rank": 1
+                      "key": "Prog",
+                      "rawScore": 79,
+                      "rank": 7
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.3,
-                      "rank": 3
+                      "key": "Ful",
+                      "rawScore": 85,
+                      "rank": 1
                     }
                   ],
-                  "total": 77.4,
-                  "rank": 7
+                  "total": 41.3,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 0.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1775,8 +1775,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1785,18 +1785,18 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78,
-                      "rank": 7
+                      "key": "Prog",
+                      "rawScore": 80,
+                      "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 39.4,
+                      "key": "Ful",
+                      "rawScore": 78,
                       "rank": 7
                     }
                   ],
-                  "total": 75.8,
-                  "rank": 8
+                  "total": 39.4,
+                  "rank": 7
                 }
               ],
               "captionTotal": 0,
@@ -1842,8 +1842,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 79,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1852,22 +1852,22 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
-                      "rank": 1
+                      "key": "Ovr",
+                      "rawScore": 79,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 23.85,
-                      "rank": 2
+                      "key": "Mus",
+                      "rawScore": 80,
+                      "rank": 1
                     }
                   ],
-                  "total": 84,
-                  "rank": 1
+                  "total": 23.85,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1877,21 +1877,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.6,
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 83,
+                      "rawScore": 82,
                       "rank": 1
                     }
                   ],
-                  "total": 81,
+                  "total": 16.6,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.4,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1900,22 +1900,22 @@
                   "judgeName": "S. Adamo",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80.65,
+                      "key": "Ovr",
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 81,
+                      "rank": 1
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 16.4,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 80.65,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -1948,8 +1948,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1958,22 +1958,22 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79,
-                      "rank": 2
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 24.3,
-                      "rank": 1
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 2
                     }
                   ],
-                  "total": 82,
-                  "rank": 2
+                  "total": 24.3,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1983,7 +1983,7 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.9,
+                      "rawScore": 82,
                       "rank": 2
                     },
                     {
@@ -1992,12 +1992,12 @@
                       "rank": 2
                     }
                   ],
-                  "total": 75,
+                  "total": 15.9,
                   "rank": 2
                 }
               ],
-              "captionTotal": 15.2,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2006,22 +2006,22 @@
                   "judgeName": "S. Adamo",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 79.8,
+                      "key": "Ovr",
+                      "rawScore": 77,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0.2,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 75,
+                      "rank": 2
                     }
                   ],
-                  "total": -0.2,
-                  "rank": null
+                  "total": 15.2,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 79.6,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0.2,
@@ -2063,8 +2063,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -2073,22 +2073,22 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 83,
+                      "key": "Ovr",
+                      "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 24.75,
+                      "key": "Mus",
+                      "rawScore": 83,
                       "rank": 1
                     }
                   ],
-                  "total": 85,
+                  "total": 24.75,
                   "rank": 1
                 }
               ],
-              "captionTotal": 81,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2098,21 +2098,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 16.6,
+                      "rawScore": 85,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 83,
+                      "rawScore": 81,
                       "rank": 1
                     }
                   ],
-                  "total": 80,
+                  "total": 16.6,
                   "rank": 1
                 }
               ],
-              "captionTotal": 16.3,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2121,22 +2121,22 @@
                   "judgeName": "S. Adamo",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 81.85,
+                      "key": "Ovr",
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 80,
+                      "rank": 1
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 16.3,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 81.85,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,
@@ -2169,8 +2169,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -2179,22 +2179,22 @@
                   "judgeName": "S. Yoder",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 77,
+                      "key": "Ovr",
+                      "rawScore": 78,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 23.25,
+                      "key": "Mus",
+                      "rawScore": 77,
                       "rank": 2
                     }
                   ],
-                  "total": 76,
+                  "total": 23.25,
                   "rank": 2
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -2204,21 +2204,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.4,
+                      "rawScore": 76,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 72,
+                      "rawScore": 78,
                       "rank": 2
                     }
                   ],
-                  "total": 72,
+                  "total": 15.4,
                   "rank": 2
                 }
               ],
-              "captionTotal": 14.4,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -2227,22 +2227,22 @@
                   "judgeName": "S. Adamo",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76.45,
+                      "key": "Ovr",
+                      "rawScore": 72,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 72,
+                      "rank": 2
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 14.4,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 76.45,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             }
           ],
           "subTotal": 0,

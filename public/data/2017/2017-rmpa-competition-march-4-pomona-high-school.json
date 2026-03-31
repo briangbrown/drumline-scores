@@ -40,8 +40,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -50,22 +50,22 @@
                   "judgeName": "J. Ausdemore",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 75,
+                      "key": "Comp",
+                      "rawScore": 78,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 30.45,
+                      "key": "Perf",
+                      "rawScore": 75,
                       "rank": 1
                     }
                   ],
-                  "total": 72,
-                  "rank": 2
+                  "total": 30.45,
+                  "rank": 1
                 }
               ],
-              "captionTotal": 65,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -74,18 +74,18 @@
                   "judgeName": "C. Tavano",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 13.7,
+                      "key": "Comp",
+                      "rawScore": 72,
                       "rank": 2
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 76.15,
-                      "rank": 1
+                      "key": "Perf",
+                      "rawScore": 65,
+                      "rank": 3
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 13.7,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -122,8 +122,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -132,22 +132,22 @@
                   "judgeName": "J. Ausdemore",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 66,
-                      "rank": 2
+                      "key": "Comp",
+                      "rawScore": 71,
+                      "rank": 3
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 27.15,
+                      "key": "Perf",
+                      "rawScore": 66,
                       "rank": 2
                     }
                   ],
-                  "total": 69,
-                  "rank": 3
+                  "total": 27.15,
+                  "rank": 2
                 }
               ],
-              "captionTotal": 67,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -156,18 +156,18 @@
                   "judgeName": "C. Tavano",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 13.6,
+                      "key": "Comp",
+                      "rawScore": 69,
                       "rank": 3
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 71.95,
+                      "key": "Perf",
+                      "rawScore": 67,
                       "rank": 2
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 13.6,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -204,8 +204,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -214,22 +214,22 @@
                   "judgeName": "J. Ausdemore",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 65,
-                      "rank": 3
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 2
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 27.05,
+                      "key": "Perf",
+                      "rawScore": 65,
                       "rank": 3
                     }
                   ],
-                  "total": 75,
-                  "rank": 1
+                  "total": 27.05,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 68,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -238,18 +238,18 @@
                   "judgeName": "C. Tavano",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 14.3,
+                      "key": "Comp",
+                      "rawScore": 75,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 70.55,
-                      "rank": 3
+                      "key": "Perf",
+                      "rawScore": 68,
+                      "rank": 1
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 14.3,
+                  "rank": 1
                 }
               ],
               "captionTotal": 0,
@@ -286,8 +286,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 63,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -296,22 +296,22 @@
                   "judgeName": "J. Ausdemore",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 61,
-                      "rank": 5
+                      "key": "Comp",
+                      "rawScore": 63,
+                      "rank": 6
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 24.7,
-                      "rank": 6
+                      "key": "Perf",
+                      "rawScore": 61,
+                      "rank": 5
                     }
                   ],
-                  "total": 61,
-                  "rank": 7
+                  "total": 24.7,
+                  "rank": 6
                 }
               ],
-              "captionTotal": 56,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -320,18 +320,18 @@
                   "judgeName": "C. Tavano",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 11.7,
-                      "rank": 8
+                      "key": "Comp",
+                      "rawScore": 61,
+                      "rank": 7
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 63.4,
-                      "rank": 4
+                      "key": "Perf",
+                      "rawScore": 56,
+                      "rank": 8
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 11.7,
+                  "rank": 8
                 }
               ],
               "captionTotal": 0,
@@ -368,8 +368,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 67,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -378,22 +378,22 @@
                   "judgeName": "J. Ausdemore",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 60,
-                      "rank": 6
+                      "key": "Comp",
+                      "rawScore": 67,
+                      "rank": 4
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 25.05,
-                      "rank": 5
+                      "key": "Perf",
+                      "rawScore": 60,
+                      "rank": 6
                     }
                   ],
-                  "total": 62,
-                  "rank": 6
+                  "total": 25.05,
+                  "rank": 5
                 }
               ],
-              "captionTotal": 60,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -402,18 +402,18 @@
                   "judgeName": "C. Tavano",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 12.2,
-                      "rank": 5
+                      "key": "Comp",
+                      "rawScore": 62,
+                      "rank": 6
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 63.25,
+                      "key": "Perf",
+                      "rawScore": 60,
                       "rank": 5
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 12.2,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -450,8 +450,8 @@
                   "rank": 8
                 }
               ],
-              "captionTotal": 64,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -460,22 +460,22 @@
                   "judgeName": "J. Ausdemore",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 62,
-                      "rank": 4
+                      "key": "Comp",
+                      "rawScore": 64,
+                      "rank": 5
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 25.1,
+                      "key": "Perf",
+                      "rawScore": 62,
                       "rank": 4
                     }
                   ],
-                  "total": 60,
-                  "rank": 8
+                  "total": 25.1,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 59,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -484,18 +484,18 @@
                   "judgeName": "C. Tavano",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 11.9,
-                      "rank": 7
+                      "key": "Comp",
+                      "rawScore": 60,
+                      "rank": 8
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 61.8,
+                      "key": "Perf",
+                      "rawScore": 59,
                       "rank": 6
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 11.9,
+                  "rank": 7
                 }
               ],
               "captionTotal": 0,
@@ -532,8 +532,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 57,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -542,22 +542,22 @@
                   "judgeName": "J. Ausdemore",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 55,
+                      "key": "Comp",
+                      "rawScore": 57,
                       "rank": 7
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 22.3,
+                      "key": "Perf",
+                      "rawScore": 55,
                       "rank": 7
                     }
                   ],
-                  "total": 66,
-                  "rank": 4
+                  "total": 22.3,
+                  "rank": 7
                 }
               ],
-              "captionTotal": 62,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -566,18 +566,18 @@
                   "judgeName": "C. Tavano",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 12.8,
+                      "key": "Comp",
+                      "rawScore": 66,
                       "rank": 4
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 60.3,
-                      "rank": 8
+                      "key": "Perf",
+                      "rawScore": 62,
+                      "rank": 4
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 12.8,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -614,8 +614,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 53,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -624,22 +624,22 @@
                   "judgeName": "J. Ausdemore",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 50,
-                      "rank": 9
+                      "key": "Comp",
+                      "rawScore": 53,
+                      "rank": 8
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 20.45,
+                      "key": "Perf",
+                      "rawScore": 50,
                       "rank": 9
                     }
                   ],
-                  "total": 64,
-                  "rank": 5
+                  "total": 20.45,
+                  "rank": 9
                 }
               ],
-              "captionTotal": 57,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -648,21 +648,21 @@
                   "judgeName": "C. Tavano",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 12.1,
-                      "rank": 6
+                      "key": "Comp",
+                      "rawScore": 64,
+                      "rank": 5
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 60.55,
+                      "key": "Perf",
+                      "rawScore": 57,
                       "rank": 7
                     }
                   ],
-                  "total": 3.2,
-                  "rank": null
+                  "total": 12.1,
+                  "rank": 6
                 }
               ],
-              "captionTotal": -3.2,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -696,8 +696,8 @@
                   "rank": 9
                 }
               ],
-              "captionTotal": 51,
-              "captionRank": 9
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -706,22 +706,22 @@
                   "judgeName": "J. Ausdemore",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 52,
-                      "rank": 8
+                      "key": "Comp",
+                      "rawScore": 51,
+                      "rank": 9
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 20.65,
+                      "key": "Perf",
+                      "rawScore": 52,
                       "rank": 8
                     }
                   ],
-                  "total": 58,
-                  "rank": 9
+                  "total": 20.65,
+                  "rank": 8
                 }
               ],
-              "captionTotal": 55,
-              "captionRank": 9
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -730,21 +730,21 @@
                   "judgeName": "C. Tavano",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 11.3,
+                      "key": "Comp",
+                      "rawScore": 58,
                       "rank": 9
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 55.15,
+                      "key": "Perf",
+                      "rawScore": 55,
                       "rank": 9
                     }
                   ],
-                  "total": 5.15,
-                  "rank": null
+                  "total": 11.3,
+                  "rank": 9
                 }
               ],
-              "captionTotal": -5.15,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -778,8 +778,8 @@
                   "rank": 10
                 }
               ],
-              "captionTotal": 50,
-              "captionRank": 10
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -788,22 +788,22 @@
                   "judgeName": "J. Ausdemore",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 47,
+                      "key": "Comp",
+                      "rawScore": 50,
                       "rank": 10
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 19.25,
+                      "key": "Perf",
+                      "rawScore": 47,
                       "rank": 10
                     }
                   ],
-                  "total": 57,
+                  "total": 19.25,
                   "rank": 10
                 }
               ],
-              "captionTotal": 54,
-              "captionRank": 10
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -812,21 +812,21 @@
                   "judgeName": "C. Tavano",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 11.1,
+                      "key": "Comp",
+                      "rawScore": 57,
                       "rank": 10
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 52.35,
+                      "key": "Perf",
+                      "rawScore": 54,
                       "rank": 10
                     }
                   ],
-                  "total": 6.1,
-                  "rank": null
+                  "total": 11.1,
+                  "rank": 10
                 }
               ],
-              "captionTotal": -6.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -869,8 +869,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -879,21 +879,21 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 84,
+                      "key": "Prog",
+                      "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 41.6,
+                      "key": "Ful",
+                      "rawScore": 84,
                       "rank": 1
                     }
                   ],
-                  "total": 84.85,
+                  "total": 41.6,
                   "rank": 1
                 }
               ],
-              "captionTotal": 0.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -927,8 +927,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -937,17 +937,17 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76,
+                      "key": "Prog",
+                      "rawScore": 78,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38.4,
+                      "key": "Ful",
+                      "rawScore": 76,
                       "rank": 3
                     }
                   ],
-                  "total": 80.8,
+                  "total": 38.4,
                   "rank": 3
                 }
               ],
@@ -985,8 +985,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -995,21 +995,21 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 81,
+                      "key": "Prog",
+                      "rawScore": 80,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.3,
+                      "key": "Ful",
+                      "rawScore": 81,
                       "rank": 2
                     }
                   ],
-                  "total": 81.7,
+                  "total": 40.3,
                   "rank": 2
                 }
               ],
-              "captionTotal": 0.9,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -1043,8 +1043,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1053,18 +1053,18 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 74,
+                      "key": "Prog",
+                      "rawScore": 76,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.4,
+                      "key": "Ful",
+                      "rawScore": 74,
                       "rank": 5
                     }
                   ],
-                  "total": 78.45,
-                  "rank": 4
+                  "total": 37.4,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -1101,8 +1101,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1111,18 +1111,18 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 75,
+                      "key": "Prog",
+                      "rawScore": 77,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.9,
+                      "key": "Ful",
+                      "rawScore": 75,
                       "rank": 4
                     }
                   ],
-                  "total": 78.1,
-                  "rank": 5
+                  "total": 37.9,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -1159,8 +1159,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1169,17 +1169,17 @@
                   "judgeName": "T. Mascari",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 72,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36,
+                      "key": "Ful",
+                      "rawScore": 72,
                       "rank": 6
                     }
                   ],
-                  "total": 76.7,
+                  "total": 36,
                   "rank": 6
                 }
               ],
@@ -1226,8 +1226,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1236,22 +1236,22 @@
                   "judgeName": "J. Ausdemore",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 82,
+                      "key": "Comp",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 33.1,
+                      "key": "Perf",
+                      "rawScore": 82,
                       "rank": 1
                     }
                   ],
-                  "total": 76,
+                  "total": 33.1,
                   "rank": 1
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1260,18 +1260,18 @@
                   "judgeName": "C. Tavano",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 14.7,
+                      "key": "Comp",
+                      "rawScore": 76,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 77,
+                      "key": "Perf",
+                      "rawScore": 71,
                       "rank": 1
                     }
                   ],
-                  "total": 0,
-                  "rank": null
+                  "total": 14.7,
+                  "rank": 1
                 }
               ],
               "captionTotal": 0,
@@ -1317,8 +1317,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 83,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Music",
@@ -1327,22 +1327,22 @@
                   "judgeName": "J. Ausdemore",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 80,
+                      "key": "Comp",
+                      "rawScore": 83,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 32.45,
+                      "key": "Perf",
+                      "rawScore": 80,
                       "rank": 1
                     }
                   ],
-                  "total": 82,
+                  "total": 32.45,
                   "rank": 1
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1351,21 +1351,21 @@
                   "judgeName": "C. Tavano",
                   "subCaptions": [
                     {
-                      "key": "Mus",
-                      "rawScore": 16.2,
+                      "key": "Comp",
+                      "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Ovr",
-                      "rawScore": 77.05,
+                      "key": "Perf",
+                      "rawScore": 80,
                       "rank": 1
                     }
                   ],
-                  "total": 0.1,
-                  "rank": null
+                  "total": 16.2,
+                  "rank": 1
                 }
               ],
-              "captionTotal": -0.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],

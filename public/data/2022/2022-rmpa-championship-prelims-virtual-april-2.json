@@ -40,8 +40,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -50,17 +50,17 @@
                   "judgeName": "M. Davis",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 75,
+                      "key": "Prog",
+                      "rawScore": 78,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38.1,
+                      "key": "Ful",
+                      "rawScore": 75,
                       "rank": 1
                     }
                   ],
-                  "total": 76.2,
+                  "total": 38.1,
                   "rank": 1
                 }
               ],
@@ -107,8 +107,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 82,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -117,17 +117,17 @@
                   "judgeName": "M. Davis",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78,
+                      "key": "Prog",
+                      "rawScore": 82,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 39.8,
+                      "key": "Ful",
+                      "rawScore": 78,
                       "rank": 1
                     }
                   ],
-                  "total": 83.2,
+                  "total": 39.8,
                   "rank": 1
                 }
               ],

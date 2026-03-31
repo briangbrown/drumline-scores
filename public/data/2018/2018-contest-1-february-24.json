@@ -40,8 +40,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -50,17 +50,17 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 75,
+                      "key": "Prog",
+                      "rawScore": 80,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38.5,
+                      "key": "Ful",
+                      "rawScore": 75,
                       "rank": 1
                     }
                   ],
-                  "total": 75.6,
+                  "total": 38.5,
                   "rank": 1
                 }
               ],
@@ -98,8 +98,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 78,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -108,21 +108,21 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 74,
+                      "key": "Prog",
+                      "rawScore": 78,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.8,
+                      "key": "Ful",
+                      "rawScore": 74,
                       "rank": 2
                     }
                   ],
-                  "total": 73.7,
+                  "total": 37.8,
                   "rank": 2
                 }
               ],
-              "captionTotal": 0.25,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -156,8 +156,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -166,18 +166,18 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73,
-                      "rank": 3
+                      "key": "Prog",
+                      "rawScore": 76,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.1,
-                      "rank": 4
+                      "key": "Ful",
+                      "rawScore": 73,
+                      "rank": 3
                     }
                   ],
-                  "total": 72.5,
-                  "rank": 3
+                  "total": 37.1,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -214,8 +214,8 @@
                   "rank": 7
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -224,18 +224,18 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72,
+                      "key": "Prog",
+                      "rawScore": 75,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36.6,
+                      "key": "Ful",
+                      "rawScore": 72,
                       "rank": 5
                     }
                   ],
-                  "total": 67.8,
-                  "rank": 7
+                  "total": 36.6,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -272,8 +272,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 76.5,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -282,21 +282,21 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73,
+                      "key": "Prog",
+                      "rawScore": 76.5,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.2,
+                      "key": "Ful",
+                      "rawScore": 73,
                       "rank": 3
                     }
                   ],
-                  "total": 69.4,
-                  "rank": 4
+                  "total": 37.2,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 2.3,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -330,8 +330,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -340,21 +340,21 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 71,
-                      "rank": 6
+                      "key": "Prog",
+                      "rawScore": 75,
+                      "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36.3,
+                      "key": "Ful",
+                      "rawScore": 71,
                       "rank": 6
                     }
                   ],
-                  "total": 68.1,
+                  "total": 36.3,
                   "rank": 6
                 }
               ],
-              "captionTotal": 2.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -388,8 +388,8 @@
                   "rank": 9
                 }
               ],
-              "captionTotal": 72,
-              "captionRank": 9
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -398,21 +398,21 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 69,
+                      "key": "Prog",
+                      "rawScore": 72,
                       "rank": 9
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 35.1,
+                      "key": "Ful",
+                      "rawScore": 69,
                       "rank": 9
                     }
                   ],
-                  "total": 64.9,
+                  "total": 35.1,
                   "rank": 9
                 }
               ],
-              "captionTotal": 0.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -446,8 +446,8 @@
                   "rank": 8
                 }
               ],
-              "captionTotal": 73,
-              "captionRank": 8
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -456,21 +456,21 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 70,
+                      "key": "Prog",
+                      "rawScore": 73,
                       "rank": 8
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 35.6,
+                      "key": "Ful",
+                      "rawScore": 70,
                       "rank": 8
                     }
                   ],
-                  "total": 66.7,
+                  "total": 35.6,
                   "rank": 8
                 }
               ],
-              "captionTotal": 1.9,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -504,8 +504,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 74,
-              "captionRank": 7
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -514,21 +514,21 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 71,
-                      "rank": 6
+                      "key": "Prog",
+                      "rawScore": 74,
+                      "rank": 7
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 36.1,
-                      "rank": 7
+                      "key": "Ful",
+                      "rawScore": 71,
+                      "rank": 6
                     }
                   ],
-                  "total": 68.8,
-                  "rank": 5
+                  "total": 36.1,
+                  "rank": 7
                 }
               ],
-              "captionTotal": 4.9,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -562,8 +562,8 @@
                   "rank": 10
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 10
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -572,21 +572,21 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 68,
+                      "key": "Prog",
+                      "rawScore": 71,
                       "rank": 10
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 34.6,
+                      "key": "Ful",
+                      "rawScore": 68,
                       "rank": 10
                     }
                   ],
-                  "total": 63.7,
+                  "total": 34.6,
                   "rank": 10
                 }
               ],
-              "captionTotal": 3.1,
+              "captionTotal": 0,
               "captionRank": null
             }
           ],
@@ -629,8 +629,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 80,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -639,22 +639,22 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 78,
+                      "key": "Ovr",
+                      "rawScore": 80,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 23.7,
+                      "key": "Mus",
+                      "rawScore": 78,
                       "rank": 1
                     }
                   ],
-                  "total": 76.5,
+                  "total": 23.7,
                   "rank": 1
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -664,21 +664,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 15.15,
+                      "rawScore": 76.5,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 72,
+                      "rawScore": 75,
                       "rank": 1
                     }
                   ],
-                  "total": 71,
+                  "total": 15.15,
                   "rank": 1
                 }
               ],
-              "captionTotal": 14.3,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -687,17 +687,17 @@
                   "judgeName": "J. Gentry",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 76.25,
+                      "key": "Ovr",
+                      "rawScore": 72,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 2.5,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 71,
+                      "rank": 1
                     }
                   ],
-                  "total": 73.75,
+                  "total": 14.3,
                   "rank": 1
                 }
               ],
@@ -735,8 +735,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 71,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -745,22 +745,22 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 69,
+                      "key": "Ovr",
+                      "rawScore": 71,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 21,
+                      "key": "Mus",
+                      "rawScore": 69,
                       "rank": 2
                     }
                   ],
-                  "total": 71,
+                  "total": 21,
                   "rank": 2
                 }
               ],
-              "captionTotal": 69,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -770,21 +770,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 14,
+                      "rawScore": 71,
                       "rank": 2
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 70,
+                      "rawScore": 69,
                       "rank": 2
                     }
                   ],
-                  "total": 69,
+                  "total": 14,
                   "rank": 2
                 }
               ],
-              "captionTotal": 13.9,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -793,17 +793,17 @@
                   "judgeName": "J. Gentry",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 70.3,
+                      "key": "Ovr",
+                      "rawScore": 70,
                       "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 1.2,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 69,
+                      "rank": 2
                     }
                   ],
-                  "total": 69.1,
+                  "total": 13.9,
                   "rank": 2
                 }
               ],
@@ -841,8 +841,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 67,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -851,22 +851,22 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 66,
+                      "key": "Ovr",
+                      "rawScore": 67,
                       "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 19.95,
+                      "key": "Mus",
+                      "rawScore": 66,
                       "rank": 3
                     }
                   ],
-                  "total": 65,
-                  "rank": 4
+                  "total": 19.95,
+                  "rank": 3
                 }
               ],
-              "captionTotal": 63,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -876,21 +876,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 12.8,
+                      "rawScore": 65,
                       "rank": 4
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 61,
+                      "rawScore": 63,
                       "rank": 4
                     }
                   ],
-                  "total": 60,
+                  "total": 12.8,
                   "rank": 4
                 }
               ],
-              "captionTotal": 12.1,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -899,18 +899,18 @@
                   "judgeName": "J. Gentry",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 65.35,
-                      "rank": 3
+                      "key": "Ovr",
+                      "rawScore": 61,
+                      "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0.15,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 60,
+                      "rank": 4
                     }
                   ],
-                  "total": 65.2,
-                  "rank": 3
+                  "total": 12.1,
+                  "rank": 4
                 }
               ],
               "captionTotal": 0,
@@ -947,8 +947,8 @@
                   "rank": 4
                 }
               ],
-              "captionTotal": 65,
-              "captionRank": 4
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -957,22 +957,22 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 63,
+                      "key": "Ovr",
+                      "rawScore": 65,
                       "rank": 4
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 19.2,
+                      "key": "Mus",
+                      "rawScore": 63,
                       "rank": 4
                     }
                   ],
-                  "total": 67,
-                  "rank": 3
+                  "total": 19.2,
+                  "rank": 4
                 }
               ],
-              "captionTotal": 65,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -982,21 +982,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 13.2,
+                      "rawScore": 67,
                       "rank": 3
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 64,
+                      "rawScore": 65,
                       "rank": 3
                     }
                   ],
-                  "total": 64,
+                  "total": 13.2,
                   "rank": 3
                 }
               ],
-              "captionTotal": 12.8,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1005,18 +1005,18 @@
                   "judgeName": "J. Gentry",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 64.8,
-                      "rank": 4
+                      "key": "Ovr",
+                      "rawScore": 64,
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 2.2,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 64,
+                      "rank": 3
                     }
                   ],
-                  "total": 62.6,
-                  "rank": 4
+                  "total": 12.8,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -1053,8 +1053,8 @@
                   "rank": 5
                 }
               ],
-              "captionTotal": 59,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1063,22 +1063,22 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 57,
+                      "key": "Ovr",
+                      "rawScore": 59,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 17.4,
+                      "key": "Mus",
+                      "rawScore": 57,
                       "rank": 6
                     }
                   ],
-                  "total": 59,
+                  "total": 17.4,
                   "rank": 6
                 }
               ],
-              "captionTotal": 58,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1088,21 +1088,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 11.7,
+                      "rawScore": 59,
                       "rank": 6
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 56,
+                      "rawScore": 58,
                       "rank": 6
                     }
                   ],
-                  "total": 54,
+                  "total": 11.7,
                   "rank": 6
                 }
               ],
-              "captionTotal": 11,
-              "captionRank": 6
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1111,18 +1111,18 @@
                   "judgeName": "J. Gentry",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 58.4,
+                      "key": "Ovr",
+                      "rawScore": 56,
                       "rank": 6
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 2,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 54,
+                      "rank": 6
                     }
                   ],
-                  "total": 56.4,
-                  "rank": 5
+                  "total": 11,
+                  "rank": 6
                 }
               ],
               "captionTotal": 0,
@@ -1159,8 +1159,8 @@
                   "rank": 6
                 }
               ],
-              "captionTotal": 62,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1169,22 +1169,22 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 60,
+                      "key": "Ovr",
+                      "rawScore": 62,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 18.3,
+                      "key": "Mus",
+                      "rawScore": 60,
                       "rank": 5
                     }
                   ],
-                  "total": 60,
+                  "total": 18.3,
                   "rank": 5
                 }
               ],
-              "captionTotal": 60,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1194,7 +1194,7 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 12,
+                      "rawScore": 60,
                       "rank": 5
                     },
                     {
@@ -1203,12 +1203,12 @@
                       "rank": 5
                     }
                   ],
-                  "total": 59,
+                  "total": 12,
                   "rank": 5
                 }
               ],
-              "captionTotal": 11.9,
-              "captionRank": 5
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1217,18 +1217,18 @@
                   "judgeName": "J. Gentry",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 59.9,
+                      "key": "Ovr",
+                      "rawScore": 60,
                       "rank": 5
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 3.6,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 59,
+                      "rank": 5
                     }
                   ],
-                  "total": 56.3,
-                  "rank": 6
+                  "total": 11.9,
+                  "rank": 5
                 }
               ],
               "captionTotal": 0,
@@ -1266,7 +1266,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 7
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1275,12 +1275,12 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 0,
                       "rank": 7
                     },
                     {
-                      "key": "Perf",
+                      "key": "Mus",
                       "rawScore": 0,
                       "rank": 7
                     }
@@ -1290,7 +1290,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 7
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1314,7 +1314,7 @@
                 }
               ],
               "captionTotal": 0,
-              "captionRank": 7
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1323,14 +1323,14 @@
                   "judgeName": "J. Gentry",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Ovr",
                       "rawScore": 0,
                       "rank": 7
                     },
                     {
-                      "key": "Perf",
+                      "key": "Vis",
                       "rawScore": 0,
-                      "rank": null
+                      "rank": 7
                     }
                   ],
                   "total": 0,
@@ -1380,8 +1380,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 84,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1390,17 +1390,17 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 80,
+                      "key": "Prog",
+                      "rawScore": 84,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 40.8,
+                      "key": "Ful",
+                      "rawScore": 80,
                       "rank": 1
                     }
                   ],
-                  "total": 79.6,
+                  "total": 40.8,
                   "rank": 1
                 }
               ],
@@ -1438,8 +1438,8 @@
                   "rank": 2
                 }
               ],
-              "captionTotal": 77,
-              "captionRank": 2
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1448,18 +1448,18 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 75,
-                      "rank": 3
+                      "key": "Prog",
+                      "rawScore": 77,
+                      "rank": 2
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 37.9,
+                      "key": "Ful",
+                      "rawScore": 75,
                       "rank": 3
                     }
                   ],
-                  "total": 75.45,
-                  "rank": 2
+                  "total": 37.9,
+                  "rank": 3
                 }
               ],
               "captionTotal": 0,
@@ -1496,8 +1496,8 @@
                   "rank": 3
                 }
               ],
-              "captionTotal": 76,
-              "captionRank": 3
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Artistry",
@@ -1506,18 +1506,18 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
+                      "key": "Prog",
                       "rawScore": 76,
-                      "rank": 2
+                      "rank": 3
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 38,
+                      "key": "Ful",
+                      "rawScore": 76,
                       "rank": 2
                     }
                   ],
-                  "total": 75.3,
-                  "rank": 3
+                  "total": 38,
+                  "rank": 2
                 }
               ],
               "captionTotal": 0,
@@ -1563,8 +1563,8 @@
                   "rank": 1
                 }
               ],
-              "captionTotal": 75,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Music",
@@ -1573,22 +1573,22 @@
                   "judgeName": "C. Walker",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 73,
+                      "key": "Ovr",
+                      "rawScore": 75,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 22.2,
+                      "key": "Mus",
+                      "rawScore": 73,
                       "rank": 1
                     }
                   ],
-                  "total": 71,
+                  "total": 22.2,
                   "rank": 1
                 }
               ],
-              "captionTotal": 70,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Visual",
@@ -1598,21 +1598,21 @@
                   "subCaptions": [
                     {
                       "key": "Comp",
-                      "rawScore": 14.1,
+                      "rawScore": 71,
                       "rank": 1
                     },
                     {
                       "key": "Perf",
-                      "rawScore": 71,
+                      "rawScore": 70,
                       "rank": 1
                     }
                   ],
-                  "total": 73,
+                  "total": 14.1,
                   "rank": 1
                 }
               ],
-              "captionTotal": 14.4,
-              "captionRank": 1
+              "captionTotal": 0,
+              "captionRank": null
             },
             {
               "captionName": "Effect - Visual",
@@ -1621,17 +1621,17 @@
                   "judgeName": "J. Gentry",
                   "subCaptions": [
                     {
-                      "key": "Comp",
-                      "rawScore": 72.2,
+                      "key": "Ovr",
+                      "rawScore": 71,
                       "rank": 1
                     },
                     {
-                      "key": "Perf",
-                      "rawScore": 0.9,
-                      "rank": null
+                      "key": "Vis",
+                      "rawScore": 73,
+                      "rank": 1
                     }
                   ],
-                  "total": 71.3,
+                  "total": 14.4,
                   "rank": 1
                 }
               ],
