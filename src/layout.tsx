@@ -4,7 +4,7 @@ import { Pill } from './components/pill'
 import { SettingsButton } from './components/settings-dialog'
 import { ShareButton } from './components/share-button'
 import { showToast } from './components/toast'
-import { getClassAbbreviation } from './parser'
+import { getClassAbbreviation, compareClassOrder } from './parser'
 import type { SeasonMetadata } from './types'
 import type { ViewType } from './router'
 import type { FavoriteEnsemble } from './favorites'
@@ -61,7 +61,7 @@ export function Layout({
   isMyEnsembleFlashing,
   children,
 }: LayoutProps) {
-  const classes = season?.classes ?? []
+  const classes = (season?.classes ?? []).toSorted((a, b) => compareClassOrder(a.name, b.name))
   const isCrossSeason = view === 'cross-season'
 
   // Refs for pill row containers (auto-scroll)

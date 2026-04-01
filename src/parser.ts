@@ -610,3 +610,43 @@ const CLASS_ABBREVIATIONS: Record<string, string> = {
 export function getClassAbbreviation(className: string): string {
   return CLASS_ABBREVIATIONS[className] ?? className
 }
+
+/**
+ * WGI finals performance order — lower competitive tiers first, finishing with
+ * Independent World. Classes not in this list sort to the end alphabetically.
+ */
+const CLASS_FINALS_ORDER: Array<string> = [
+  'Novice',
+  'Percussion Scholastic Concert Regional A',
+  'Percussion Scholastic Standstill Regional A',
+  'Percussion Scholastic Regional A',
+  'Percussion Scholastic Concert A',
+  'Percussion Scholastic Standstill A',
+  'Percussion Scholastic National A',
+  'Percussion Scholastic A',
+  'Percussion Independent Standstill A',
+  'Percussion Independent A',
+  'Percussion Scholastic Concert Open',
+  'Percussion Scholastic Standstill Open',
+  'Percussion Scholastic Open',
+  'Percussion Scholastic Concert World',
+  'Percussion Scholastic World',
+  'Small Ensemble - Percussion Independent',
+  'Percussion Independent Open',
+  'Percussion Independent World',
+]
+
+const CLASS_ORDER_MAP = new Map(CLASS_FINALS_ORDER.map((name, i) => [name, i]))
+
+/**
+ * Compare two class names by WGI finals order.
+ * Unknown classes sort after known ones, then alphabetically.
+ */
+export function compareClassOrder(a: string, b: string): number {
+  const ai = CLASS_ORDER_MAP.get(a)
+  const bi = CLASS_ORDER_MAP.get(b)
+  if (ai !== undefined && bi !== undefined) return ai - bi
+  if (ai !== undefined) return -1
+  if (bi !== undefined) return 1
+  return a.localeCompare(b)
+}
