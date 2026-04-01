@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { describe, it, expect } from 'vitest'
-import { parseRecapHtml, getClassAbbreviation } from './parser'
+import { parseRecapHtml, getClassAbbreviation, compareClassOrder } from './parser'
 
 function loadHtml(year: number, filename: string): string {
   return readFileSync(resolve(import.meta.dirname, `../data/scores/${year}/${filename}`), 'utf-8')
@@ -337,5 +337,45 @@ describe('getClassAbbreviation', () => {
 
   it('should return original name for unknown classes', () => {
     expect(getClassAbbreviation('Unknown Class')).toBe('Unknown Class')
+  })
+})
+
+describe('compareClassOrder', () => {
+  it('should sort known classes in WGI finals order', () => {
+    const classes = [
+      'Percussion Independent World',
+      'Percussion Scholastic A',
+      'Percussion Scholastic Concert Regional A',
+      'Percussion Independent Open',
+      'Percussion Scholastic Open',
+    ]
+    const sorted = [...classes].sort(compareClassOrder)
+    expect(sorted).toEqual([
+      'Percussion Scholastic Concert Regional A',
+      'Percussion Scholastic A',
+      'Percussion Scholastic Open',
+      'Percussion Independent Open',
+      'Percussion Independent World',
+    ])
+  })
+
+  it('should place unknown classes after known ones', () => {
+    const classes = [
+      'Unknown Class',
+      'Percussion Scholastic A',
+      'Percussion Independent World',
+    ]
+    const sorted = [...classes].sort(compareClassOrder)
+    expect(sorted).toEqual([
+      'Percussion Scholastic A',
+      'Percussion Independent World',
+      'Unknown Class',
+    ])
+  })
+
+  it('should sort unknown classes alphabetically among themselves', () => {
+    const classes = ['Zebra Class', 'Alpha Class']
+    const sorted = [...classes].sort(compareClassOrder)
+    expect(sorted).toEqual(['Alpha Class', 'Zebra Class'])
   })
 })

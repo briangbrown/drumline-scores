@@ -1,9 +1,10 @@
-import { useRef, useEffect, type ReactNode, type Ref } from 'react'
+import { useRef, useEffect, useMemo, type ReactNode, type Ref } from 'react'
 import { Star } from 'lucide-react'
 import { Pill } from './components/pill'
 import { SettingsButton } from './components/settings-dialog'
 import { ShareButton } from './components/share-button'
 import { showToast } from './components/toast'
+import { getClassAbbreviation, compareClassOrder } from './parser'
 import type { SeasonMetadata } from './types'
 import type { ViewType } from './router'
 import type { FavoriteEnsemble } from './favorites'
@@ -28,7 +29,7 @@ type LayoutProps = {
  * Horizontally scroll the container so the active pill is visible,
  * without affecting vertical page scroll.
  */
-function scrollActiveIntoView(container: HTMLDivElement | null) {
+function scrollActiveIntoView(container: HTMLDivElement | null, behavior: ScrollBehavior = 'smooth') {
   if (!container) return
   const active = container.querySelector<HTMLElement>('[data-active]')
   if (!active) return
@@ -39,9 +40,9 @@ function scrollActiveIntoView(container: HTMLDivElement | null) {
   const pillWidth = active.offsetWidth
 
   if (pillLeft < containerLeft) {
-    container.scrollTo({ left: pillLeft, behavior: 'smooth' })
+    container.scrollTo({ left: pillLeft, behavior })
   } else if (pillLeft + pillWidth > containerLeft + containerWidth) {
-    container.scrollTo({ left: pillLeft + pillWidth - containerWidth, behavior: 'smooth' })
+    container.scrollTo({ left: pillLeft + pillWidth - containerWidth, behavior })
   }
 }
 
@@ -60,20 +61,27 @@ export function Layout({
   isMyEnsembleFlashing,
   children,
 }: LayoutProps) {
-  const classes = season?.classes ?? []
+  const classes = useMemo(
+    () => (season?.classes ?? []).toSorted((a, b) => compareClassOrder(a.name, b.name)),
+    [season?.classes],
+  )
   const isCrossSeason = view === 'cross-season'
 
   // Refs for pill row containers (auto-scroll)
   const yearRowRef = useRef<HTMLDivElement>(null)
   const classRowRef = useRef<HTMLDivElement>(null)
 
+  // When the year changes, jump instantly so the class row doesn't visibly animate
   useEffect(() => {
-    requestAnimationFrame(() => scrollActiveIntoView(yearRowRef.current))
+    requestAnimationFrame(() => {
+      scrollActiveIntoView(yearRowRef.current, 'instant')
+      scrollActiveIntoView(classRowRef.current, 'instant')
+    })
   }, [year])
-  // Re-scroll when classId changes OR when the class list itself changes (e.g. year switch)
+  // When the user picks a different class within the same year, smooth-scroll to it
   useEffect(() => {
     requestAnimationFrame(() => scrollActiveIntoView(classRowRef.current))
-  }, [classId, classes])
+  }, [classId])
 
   const handleDisabledClick = () => {
     showToast('Switch to Progression or Standings first')
@@ -98,7 +106,7 @@ export function Layout({
 
         {/* Year selector */}
         {years.length > 1 && (
-          <div ref={yearRowRef} className="mt-3 flex gap-2 overflow-x-auto pb-1 scrollbar-none">
+          <div ref={yearRowRef} className="mt-3 -mx-1 flex gap-2 overflow-x-auto px-1 py-1 scrollbar-none">
             {years.map((y) => (
               <Pill
                 key={y}
@@ -113,7 +121,7 @@ export function Layout({
 
         {/* Class selector */}
         {classes.length > 0 && (
-          <div ref={classRowRef} className="mt-3 -mx-1 flex gap-2 overflow-x-auto px-1 pt-1 pb-1 scrollbar-none">
+          <div ref={classRowRef} className="mt-3 -mx-1 flex gap-2 overflow-x-auto px-1 py-1 scrollbar-none">
             {favorite && (
               <Pill
                 label={<span className="flex items-center gap-1.5"><Star className="h-3 w-3" fill="currentColor" />My Ensemble</span>}
@@ -127,7 +135,7 @@ export function Layout({
             {classes.map((cls) => (
               <Pill
                 key={cls.id}
-                label={cls.name.replace(/^Percussion\s+/, '')}
+                label={cls.id === classId ? cls.name.replace(/^Percussion\s+/, '') : getClassAbbreviation(cls.name)}
                 isActive={cls.id === classId}
                 disabled={isCrossSeason}
                 onClick={isCrossSeason ? handleDisabledClick : () => onClassChange(cls.id)}
@@ -138,7 +146,7 @@ export function Layout({
 
         {/* View tabs */}
         {classId && (
-          <div className="mt-3 flex gap-2">
+          <div className="mt-3 -mx-1 flex gap-2 overflow-x-auto px-1 py-1 scrollbar-none">
             <Pill
               label="Progression"
               isActive={view === 'progression'}

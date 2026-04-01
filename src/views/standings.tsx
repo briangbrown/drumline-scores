@@ -117,7 +117,7 @@ export function StandingsView({
   return (
     <div className="space-y-6">
       {/* Show selector */}
-      <div ref={showRowRef} className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
+      <div ref={showRowRef} className="-mx-1 flex gap-2 overflow-x-auto px-1 py-1 scrollbar-none">
         {shows.map((show) => (
           <Pill
             key={show.metadata.id}
