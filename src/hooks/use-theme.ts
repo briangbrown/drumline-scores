@@ -1,6 +1,8 @@
 const STORAGE_KEY = 'rmpa-theme'
+const CONTRAST_KEY = 'rmpa-contrast'
 
 type Theme = 'light' | 'dark' | 'system'
+type Contrast = 'regular' | 'high'
 
 function getStoredTheme(): Theme {
   const stored = localStorage.getItem(STORAGE_KEY)
@@ -8,15 +10,25 @@ function getStoredTheme(): Theme {
   return 'system'
 }
 
+function getStoredContrast(): Contrast {
+  const stored = localStorage.getItem(CONTRAST_KEY)
+  if (stored === 'high') return 'high'
+  return 'regular'
+}
+
 function getResolvedTheme(theme: Theme): 'light' | 'dark' {
   if (theme !== 'system') return theme
   return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'
 }
 
-function applyTheme(theme: Theme) {
+function applyTheme(theme: Theme, contrast?: Contrast) {
   const resolved = getResolvedTheme(theme)
-  document.documentElement.classList.remove('light', 'dark')
+  const c = contrast ?? getStoredContrast()
+  document.documentElement.classList.remove('light', 'dark', 'high-contrast')
   document.documentElement.classList.add(resolved)
+  if (c === 'high') {
+    document.documentElement.classList.add('high-contrast')
+  }
 
   // Update meta theme-color for mobile browsers
   const meta = document.querySelector('meta[name="theme-color"]')
@@ -25,5 +37,5 @@ function applyTheme(theme: Theme) {
   }
 }
 
-export { getStoredTheme, applyTheme, STORAGE_KEY }
-export type { Theme }
+export { getStoredTheme, getStoredContrast, applyTheme, STORAGE_KEY, CONTRAST_KEY }
+export type { Theme, Contrast }

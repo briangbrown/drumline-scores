@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Settings, X, Sun, Moon, Monitor } from 'lucide-react'
-import { getStoredTheme, applyTheme, STORAGE_KEY } from '../hooks/use-theme'
-import type { Theme } from '../hooks/use-theme'
+import { getStoredTheme, getStoredContrast, applyTheme, STORAGE_KEY, CONTRAST_KEY } from '../hooks/use-theme'
+import type { Theme, Contrast } from '../hooks/use-theme'
 import type { LucideIcon } from 'lucide-react'
 
 const THEME_OPTIONS: Array<{ value: Theme; label: string; icon: LucideIcon }> = [
@@ -17,6 +17,7 @@ type SettingsDialogProps = {
 
 function SettingsDialog({ isOpen, onClose }: SettingsDialogProps) {
   const [theme, setTheme] = useState<Theme>(getStoredTheme)
+  const [contrast, setContrast] = useState<Contrast>(getStoredContrast)
 
   // Close on Escape
   useEffect(() => {
@@ -39,7 +40,14 @@ function SettingsDialog({ isOpen, onClose }: SettingsDialogProps) {
   const handleThemeChange = (newTheme: Theme) => {
     setTheme(newTheme)
     localStorage.setItem(STORAGE_KEY, newTheme)
-    applyTheme(newTheme)
+    applyTheme(newTheme, contrast)
+  }
+
+  const handleContrastToggle = () => {
+    const newContrast: Contrast = contrast === 'regular' ? 'high' : 'regular'
+    setContrast(newContrast)
+    localStorage.setItem(CONTRAST_KEY, newContrast)
+    applyTheme(theme, newContrast)
   }
 
   if (!isOpen) return null
@@ -67,28 +75,55 @@ function SettingsDialog({ isOpen, onClose }: SettingsDialogProps) {
         </div>
 
         {/* Content */}
-        <div className="px-5 py-5">
-          <p className="text-xs font-medium text-text-muted mb-3 uppercase tracking-wider">
-            Theme
-          </p>
-          <div className="grid grid-cols-3 gap-2">
-            {THEME_OPTIONS.map((opt) => {
-              const Icon = opt.icon
-              return (
-                <button
-                  key={opt.value}
-                  onClick={() => handleThemeChange(opt.value)}
-                  className={`flex flex-col items-center gap-1.5 rounded-lg px-3 py-3 text-xs font-medium transition-colors cursor-pointer border ${
-                    theme === opt.value
-                      ? 'border-accent bg-accent/10 text-accent'
-                      : 'border-border bg-surface-alt text-text-secondary hover:text-text-primary hover:border-text-muted/50'
+        <div className="px-5 py-5 space-y-5">
+          {/* Theme selector */}
+          <div>
+            <p className="text-xs font-medium text-text-muted mb-3 uppercase tracking-wider">
+              Theme
+            </p>
+            <div className="grid grid-cols-3 gap-2">
+              {THEME_OPTIONS.map((opt) => {
+                const Icon = opt.icon
+                return (
+                  <button
+                    key={opt.value}
+                    onClick={() => handleThemeChange(opt.value)}
+                    className={`flex flex-col items-center gap-1.5 rounded-lg px-3 py-3 text-xs font-medium transition-colors cursor-pointer border ${
+                      theme === opt.value
+                        ? 'border-accent bg-accent/10 text-accent'
+                        : 'border-border bg-surface-alt text-text-secondary hover:text-text-primary hover:border-text-muted/50'
+                    }`}
+                  >
+                    <Icon className="h-5 w-5" />
+                    {opt.label}
+                  </button>
+                )
+              })}
+            </div>
+          </div>
+
+          {/* Contrast toggle */}
+          <div>
+            <p className="text-xs font-medium text-text-muted mb-3 uppercase tracking-wider">
+              Contrast
+            </p>
+            <button
+              onClick={handleContrastToggle}
+              className="flex w-full items-center justify-between rounded-lg border border-border bg-surface-alt px-4 py-3 transition-colors cursor-pointer hover:border-text-muted/50"
+            >
+              <span className="text-xs font-medium text-text-secondary">High Contrast</span>
+              <span
+                className={`relative inline-flex h-5 w-9 items-center rounded-full transition-colors ${
+                  contrast === 'high' ? 'bg-accent' : 'bg-border'
+                }`}
+              >
+                <span
+                  className={`inline-block h-3.5 w-3.5 rounded-full bg-white transition-transform ${
+                    contrast === 'high' ? 'translate-x-4' : 'translate-x-0.5'
                   }`}
-                >
-                  <Icon className="h-5 w-5" />
-                  {opt.label}
-                </button>
-              )
-            })}
+                />
+              </span>
+            </button>
           </div>
         </div>
       </div>
