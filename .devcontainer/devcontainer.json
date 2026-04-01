@@ -4,7 +4,6 @@
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
-  "runArgs": ["--sysctl", "net.ipv6.conf.all.disable_ipv6=1"],
   "containerEnv": {
     "ANTHROPIC_API_KEY": "${localEnv:ANTHROPIC_API_KEY}",
     "GH_TOKEN": "${localEnv:GH_TOKEN}"
