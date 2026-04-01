@@ -106,7 +106,7 @@ export function Layout({
 
         {/* Year selector */}
         {years.length > 1 && (
-          <div ref={yearRowRef} className="mt-3 flex gap-2 overflow-x-auto pb-1 scrollbar-none">
+          <div ref={yearRowRef} className="mt-3 -mx-1 flex gap-2 overflow-x-auto px-1 py-1 scrollbar-none">
             {years.map((y) => (
               <Pill
                 key={y}
@@ -121,7 +121,7 @@ export function Layout({
 
         {/* Class selector */}
         {classes.length > 0 && (
-          <div ref={classRowRef} className="mt-3 -mx-1 flex gap-2 overflow-x-auto px-1 pt-1 pb-1 scrollbar-none">
+          <div ref={classRowRef} className="mt-3 -mx-1 flex gap-2 overflow-x-auto px-1 py-1 scrollbar-none">
             {favorite && (
               <Pill
                 label={<span className="flex items-center gap-1.5"><Star className="h-3 w-3" fill="currentColor" />My Ensemble</span>}
@@ -146,7 +146,7 @@ export function Layout({
 
         {/* View tabs */}
         {classId && (
-          <div className="mt-3 flex gap-2">
+          <div className="mt-3 -mx-1 flex gap-2 overflow-x-auto px-1 py-1 scrollbar-none">
             <Pill
               label="Progression"
               isActive={view === 'progression'}
