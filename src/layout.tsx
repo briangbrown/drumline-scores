@@ -1,4 +1,4 @@
-import { useRef, useEffect, type ReactNode, type Ref } from 'react'
+import { useRef, useEffect, useMemo, type ReactNode, type Ref } from 'react'
 import { Star } from 'lucide-react'
 import { Pill } from './components/pill'
 import { SettingsButton } from './components/settings-dialog'
@@ -29,7 +29,7 @@ type LayoutProps = {
  * Horizontally scroll the container so the active pill is visible,
  * without affecting vertical page scroll.
  */
-function scrollActiveIntoView(container: HTMLDivElement | null) {
+function scrollActiveIntoView(container: HTMLDivElement | null, behavior: ScrollBehavior = 'smooth') {
   if (!container) return
   const active = container.querySelector<HTMLElement>('[data-active]')
   if (!active) return
@@ -40,9 +40,9 @@ function scrollActiveIntoView(container: HTMLDivElement | null) {
   const pillWidth = active.offsetWidth
 
   if (pillLeft < containerLeft) {
-    container.scrollTo({ left: pillLeft, behavior: 'smooth' })
+    container.scrollTo({ left: pillLeft, behavior })
   } else if (pillLeft + pillWidth > containerLeft + containerWidth) {
-    container.scrollTo({ left: pillLeft + pillWidth - containerWidth, behavior: 'smooth' })
+    container.scrollTo({ left: pillLeft + pillWidth - containerWidth, behavior })
   }
 }
 
@@ -61,20 +61,27 @@ export function Layout({
   isMyEnsembleFlashing,
   children,
 }: LayoutProps) {
-  const classes = (season?.classes ?? []).toSorted((a, b) => compareClassOrder(a.name, b.name))
+  const classes = useMemo(
+    () => (season?.classes ?? []).toSorted((a, b) => compareClassOrder(a.name, b.name)),
+    [season?.classes],
+  )
   const isCrossSeason = view === 'cross-season'
 
   // Refs for pill row containers (auto-scroll)
   const yearRowRef = useRef<HTMLDivElement>(null)
   const classRowRef = useRef<HTMLDivElement>(null)
 
+  // When the year changes, jump instantly so the class row doesn't visibly animate
   useEffect(() => {
-    requestAnimationFrame(() => scrollActiveIntoView(yearRowRef.current))
+    requestAnimationFrame(() => {
+      scrollActiveIntoView(yearRowRef.current, 'instant')
+      scrollActiveIntoView(classRowRef.current, 'instant')
+    })
   }, [year])
-  // Re-scroll when classId changes OR when the class list itself changes (e.g. year switch)
+  // When the user picks a different class within the same year, smooth-scroll to it
   useEffect(() => {
     requestAnimationFrame(() => scrollActiveIntoView(classRowRef.current))
-  }, [classId, classes])
+  }, [classId])
 
   const handleDisabledClick = () => {
     showToast('Switch to Progression or Standings first')
