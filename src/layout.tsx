@@ -128,7 +128,7 @@ export function Layout({
             {classes.map((cls) => (
               <Pill
                 key={cls.id}
-                label={getClassAbbreviation(cls.name)}
+                label={cls.id === classId ? cls.name.replace(/^Percussion\s+/, '') : getClassAbbreviation(cls.name)}
                 isActive={cls.id === classId}
                 disabled={isCrossSeason}
                 onClick={isCrossSeason ? handleDisabledClick : () => onClassChange(cls.id)}
