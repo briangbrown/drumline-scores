@@ -118,6 +118,7 @@ function parseDivisions($: cheerio.CheerioAPI): Array<ClassResult> {
 
     const classDef = classDefFromName(className)
     const ensembles = parseEnsembleRows($, table)
+      .filter((e) => e.total > 0 && e.captions.some((c) => c.captionTotal > 0))
 
     if (ensembles.length > 0) {
       results.push({ classDef, ensembles })

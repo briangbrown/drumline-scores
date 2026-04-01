@@ -371,64 +371,6 @@
           "penalty": 0,
           "total": 65.8,
           "rank": 2
-        },
-        {
-          "ensembleName": "Prairie View High School Percussion Ensemble",
-          "location": "Henderson, Colorado",
-          "captions": [
-            {
-              "captionName": "Music",
-              "judges": [
-                {
-                  "judgeName": "C. Spear",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 0,
-                      "rank": 3
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": 3
-                    }
-                  ],
-                  "total": 0,
-                  "rank": 3
-                }
-              ],
-              "captionTotal": 0,
-              "captionRank": 3
-            },
-            {
-              "captionName": "Artistry",
-              "judges": [
-                {
-                  "judgeName": "C. Stephen",
-                  "subCaptions": [
-                    {
-                      "key": "Prog",
-                      "rawScore": 0,
-                      "rank": 3
-                    },
-                    {
-                      "key": "Ful",
-                      "rawScore": 0,
-                      "rank": 3
-                    }
-                  ],
-                  "total": 0,
-                  "rank": 3
-                }
-              ],
-              "captionTotal": 0,
-              "captionRank": 3
-            }
-          ],
-          "subTotal": 0,
-          "penalty": 0,
-          "total": 0,
-          "rank": 3
         }
       ]
     },
