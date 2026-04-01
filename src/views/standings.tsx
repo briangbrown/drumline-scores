@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useRef, useEffect } from 'react'
 import {
   BarChart,
   Bar,
@@ -48,7 +48,14 @@ export function StandingsView({
   onToggleFavorite,
 }: StandingsViewProps) {
   const [expandedEnsemble, setExpandedEnsemble] = useState<string | null>(null)
+  const showRowRef = useRef<HTMLDivElement>(null)
   const selectedShow = shows.find((s) => s.metadata.id === selectedShowId)
+
+  // Auto-scroll active show pill into view
+  useEffect(() => {
+    const active = showRowRef.current?.querySelector('[data-active]')
+    active?.scrollIntoView({ block: 'nearest', inline: 'nearest' })
+  }, [selectedShowId])
   const ensembles = selectedShow?.classResult?.ensembles ?? []
 
   // Score comparison chart data
@@ -97,7 +104,7 @@ export function StandingsView({
   return (
     <div className="space-y-6">
       {/* Show selector */}
-      <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
+      <div ref={showRowRef} className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
         {shows.map((show) => (
           <Pill
             key={show.metadata.id}

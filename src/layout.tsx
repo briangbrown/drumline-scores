@@ -1,8 +1,9 @@
-import type { ReactNode, Ref } from 'react'
+import { useRef, useEffect, type ReactNode, type Ref } from 'react'
 import { Star } from 'lucide-react'
 import { Pill } from './components/pill'
 import { SettingsButton } from './components/settings-dialog'
 import { ShareButton } from './components/share-button'
+import { showToast } from './components/toast'
 import type { SeasonMetadata } from './types'
 import type { ViewType } from './router'
 import type { FavoriteEnsemble } from './favorites'
@@ -23,6 +24,14 @@ type LayoutProps = {
   children: ReactNode
 }
 
+/**
+ * Scroll the active pill into view within a horizontally-scrollable container.
+ */
+function scrollActiveIntoView(container: HTMLDivElement | null) {
+  const active = container?.querySelector('[data-active]')
+  active?.scrollIntoView({ block: 'nearest', inline: 'nearest' })
+}
+
 export function Layout({
   year,
   years,
@@ -39,6 +48,18 @@ export function Layout({
   children,
 }: LayoutProps) {
   const classes = season?.classes ?? []
+  const isCrossSeason = view === 'cross-season'
+
+  // Refs for pill row containers (auto-scroll)
+  const yearRowRef = useRef<HTMLDivElement>(null)
+  const classRowRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => { scrollActiveIntoView(yearRowRef.current) }, [year])
+  useEffect(() => { scrollActiveIntoView(classRowRef.current) }, [classId])
+
+  const handleDisabledClick = () => {
+    showToast('Switch to Progression or Standings first')
+  }
 
   return (
     <div className="mx-auto max-w-[920px] px-4 py-4">
@@ -59,13 +80,14 @@ export function Layout({
 
         {/* Year selector */}
         {years.length > 1 && (
-          <div className="mt-3 flex gap-2 overflow-x-auto pb-1 scrollbar-none">
+          <div ref={yearRowRef} className="mt-3 flex gap-2 overflow-x-auto pb-1 scrollbar-none">
             {years.map((y) => (
               <Pill
                 key={y}
                 label={String(y)}
                 isActive={y === year}
-                onClick={() => onYearChange(y)}
+                disabled={isCrossSeason}
+                onClick={isCrossSeason ? handleDisabledClick : () => onYearChange(y)}
               />
             ))}
           </div>
@@ -73,12 +95,13 @@ export function Layout({
 
         {/* Class selector */}
         {classes.length > 0 && (
-          <div className="mt-3 -mx-1 flex gap-2 overflow-x-auto px-1 pt-1 pb-1 scrollbar-none">
+          <div ref={classRowRef} className="mt-3 -mx-1 flex gap-2 overflow-x-auto px-1 pt-1 pb-1 scrollbar-none">
             {favorite && (
               <Pill
                 label={<span className="flex items-center gap-1.5"><Star className="h-3 w-3" fill="currentColor" />My Ensemble</span>}
                 isActive={!classId}
-                onClick={onShowMyEnsemble}
+                disabled={isCrossSeason}
+                onClick={isCrossSeason ? handleDisabledClick : onShowMyEnsemble}
                 ref={myEnsembleRef}
                 isFlashing={isMyEnsembleFlashing}
               />
@@ -88,7 +111,8 @@ export function Layout({
                 key={cls.id}
                 label={cls.name.replace(/^Percussion\s+/, '')}
                 isActive={cls.id === classId}
-                onClick={() => onClassChange(cls.id)}
+                disabled={isCrossSeason}
+                onClick={isCrossSeason ? handleDisabledClick : () => onClassChange(cls.id)}
               />
             ))}
           </div>

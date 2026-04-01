@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useEffect } from 'react'
 import {
   LineChart,
   Line,
@@ -34,10 +34,18 @@ type ProgressionViewProps = {
   highlight: string | null
   favoriteNames: Set<string>
   onToggleFavorite: (ensembleName: string) => void
+  selectedCaption: string
+  onCaptionChange: (caption: string) => void
 }
 
-export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavorite }: ProgressionViewProps) {
-  const [selectedCaption, setSelectedCaption] = useState(TOTAL_KEY)
+export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavorite, selectedCaption, onCaptionChange }: ProgressionViewProps) {
+  const captionRowRef = useRef<HTMLDivElement>(null)
+
+  // Auto-scroll active caption pill into view
+  useEffect(() => {
+    const active = captionRowRef.current?.querySelector('[data-active]')
+    active?.scrollIntoView({ block: 'nearest', inline: 'nearest' })
+  }, [selectedCaption])
 
   // Discover available caption names from the data
   const captionNames = useMemo(() => {
@@ -150,13 +158,13 @@ export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavor
     <div className="space-y-6">
       {/* Caption Toggle Pills */}
       {captionNames.length > 1 && (
-        <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
+        <div ref={captionRowRef} className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
           {captionOptions.map((cap) => (
             <Pill
               key={cap}
               label={cap}
               isActive={cap === activeCaption}
-              onClick={() => setSelectedCaption(cap)}
+              onClick={() => onCaptionChange(cap)}
             />
           ))}
         </div>

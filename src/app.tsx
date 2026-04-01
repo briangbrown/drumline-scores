@@ -19,14 +19,22 @@ export function App() {
   const myEnsembleRef = useRef<HTMLButtonElement>(null)
   const [isMyEnsembleFlashing, setIsMyEnsembleFlashing] = useState(false)
 
+  // Lifted from ProgressionView so it persists across year/class changes
+  const [selectedCaption, setSelectedCaption] = useState('Total')
+
   // When year changes, keep current class selection, reset show
   const handleYearChange = useCallback((year: number) => {
     updateRoute({ year, showId: null })
   }, [updateRoute])
 
-  // Auto-select first class if none selected (and no favorite to show)
+  // Auto-select first class when none selected or current class doesn't exist in new season
   useEffect(() => {
-    if (season && !route.classId && season.classes.length > 0 && !favorite) {
+    if (!season || season.classes.length === 0) return
+    // When favorite is set and no class selected, show My Ensemble view
+    if (!route.classId && favorite) return
+
+    const classExists = route.classId && season.classes.some((c) => c.id === route.classId)
+    if (!classExists) {
       setClassId(season.classes[0].id)
     }
   }, [season, route.classId, setClassId, favorite])
@@ -58,9 +66,11 @@ export function App() {
     }))
     .filter((s) => s.classResult !== undefined)
 
-  // Auto-select latest show for standings view
+  // Auto-select latest show for standings, or fix stale showId
   useEffect(() => {
-    if (route.view === 'standings' && !route.showId && classShows.length > 0) {
+    if (route.view !== 'standings' || classShows.length === 0) return
+    const showExists = classShows.some((s) => s.metadata.id === route.showId)
+    if (!showExists) {
       setShowId(classShows[classShows.length - 1].metadata.id)
     }
   }, [route.view, route.showId, classShows, setShowId])
@@ -111,6 +121,8 @@ export function App() {
               highlight={route.highlight}
               favoriteNames={favoriteNames}
               onToggleFavorite={handleToggleFavorite}
+              selectedCaption={selectedCaption}
+              onCaptionChange={setSelectedCaption}
             />
           )}
           {route.view === 'standings' && (
