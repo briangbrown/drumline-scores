@@ -198,6 +198,7 @@ export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavor
                 tick={{ fill: 'var(--color-text-muted)', fontSize: 10 }}
                 stroke="var(--color-border-grid)"
                 domain={['auto', 'auto']}
+                tickFormatter={(value: number) => Math.round(value).toString()}
               />
               <Tooltip content={<ChartTooltip />} />
               <Legend
