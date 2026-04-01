@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useRef, useEffect } from 'react'
 import {
   BarChart,
   Bar,
@@ -48,7 +48,27 @@ export function StandingsView({
   onToggleFavorite,
 }: StandingsViewProps) {
   const [expandedEnsemble, setExpandedEnsemble] = useState<string | null>(null)
+  const showRowRef = useRef<HTMLDivElement>(null)
   const selectedShow = shows.find((s) => s.metadata.id === selectedShowId)
+
+  // Auto-scroll active show pill into view (horizontal only)
+  useEffect(() => {
+    requestAnimationFrame(() => {
+      const container = showRowRef.current
+      if (!container) return
+      const active = container.querySelector<HTMLElement>('[data-active]')
+      if (!active) return
+      const containerLeft = container.scrollLeft
+      const containerWidth = container.clientWidth
+      const pillLeft = active.offsetLeft
+      const pillWidth = active.offsetWidth
+      if (pillLeft < containerLeft) {
+        container.scrollTo({ left: pillLeft, behavior: 'smooth' })
+      } else if (pillLeft + pillWidth > containerLeft + containerWidth) {
+        container.scrollTo({ left: pillLeft + pillWidth - containerWidth, behavior: 'smooth' })
+      }
+    })
+  }, [selectedShowId, shows])
   const ensembles = selectedShow?.classResult?.ensembles ?? []
 
   // Score comparison chart data
@@ -97,7 +117,7 @@ export function StandingsView({
   return (
     <div className="space-y-6">
       {/* Show selector */}
-      <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
+      <div ref={showRowRef} className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
         {shows.map((show) => (
           <Pill
             key={show.metadata.id}

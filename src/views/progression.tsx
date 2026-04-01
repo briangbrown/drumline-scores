@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useEffect } from 'react'
 import {
   LineChart,
   Line,
@@ -34,10 +34,12 @@ type ProgressionViewProps = {
   highlight: string | null
   favoriteNames: Set<string>
   onToggleFavorite: (ensembleName: string) => void
+  selectedCaption: string
+  onCaptionChange: (caption: string) => void
 }
 
-export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavorite }: ProgressionViewProps) {
-  const [selectedCaption, setSelectedCaption] = useState(TOTAL_KEY)
+export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavorite, selectedCaption, onCaptionChange }: ProgressionViewProps) {
+  const captionRowRef = useRef<HTMLDivElement>(null)
 
   // Discover available caption names from the data
   const captionNames = useMemo(() => {
@@ -53,6 +55,25 @@ export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavor
   }, [shows])
 
   const captionOptions = [TOTAL_KEY, ...captionNames]
+
+  // Auto-scroll active caption pill into view (horizontal only)
+  useEffect(() => {
+    requestAnimationFrame(() => {
+      const container = captionRowRef.current
+      if (!container) return
+      const active = container.querySelector<HTMLElement>('[data-active]')
+      if (!active) return
+      const containerLeft = container.scrollLeft
+      const containerWidth = container.clientWidth
+      const pillLeft = active.offsetLeft
+      const pillWidth = active.offsetWidth
+      if (pillLeft < containerLeft) {
+        container.scrollTo({ left: pillLeft, behavior: 'smooth' })
+      } else if (pillLeft + pillWidth > containerLeft + containerWidth) {
+        container.scrollTo({ left: pillLeft + pillWidth - containerWidth, behavior: 'smooth' })
+      }
+    })
+  }, [selectedCaption, captionNames])
 
   // Reset caption selection if it doesn't exist in the current data
   const activeCaption = captionOptions.includes(selectedCaption) ? selectedCaption : TOTAL_KEY
@@ -150,13 +171,13 @@ export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavor
     <div className="space-y-6">
       {/* Caption Toggle Pills */}
       {captionNames.length > 1 && (
-        <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
+        <div ref={captionRowRef} className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
           {captionOptions.map((cap) => (
             <Pill
               key={cap}
               label={cap}
               isActive={cap === activeCaption}
-              onClick={() => setSelectedCaption(cap)}
+              onClick={() => onCaptionChange(cap)}
             />
           ))}
         </div>
