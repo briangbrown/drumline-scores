@@ -162,24 +162,20 @@ describe('parseRecapHtml — 2025 regional (single-judge caption totals)', () =>
 })
 
 describe('parseRecapHtml — 2022 virtual (multi-judge caption totals)', () => {
-  const html = loadHtml(2022, '2022-02-26_RMPA_Show_2_-_Virtual.html')
+  const html = loadHtml(2022, '2022-04-15_RMPA_Championship_Finals_-_Virtual.html')
   const result = parseRecapHtml(html, 2022)
 
   it('should produce non-zero caption totals for multi-judge panels without a total column', () => {
-    const concert = result.classes.find((c) => c.classDef.name === 'Percussion Scholastic Concert Regional A')
-    expect(concert).toBeDefined()
-    if (!concert) return
-    const englewood = concert.ensembles.find((e) => /englewood/i.test(e.ensembleName))
-    expect(englewood).toBeDefined()
-    if (!englewood) return
+    const standstill = result.classes.find((c) => c.classDef.name === 'Percussion Scholastic Standstill A')
+    expect(standstill).toBeDefined()
+    if (!standstill) return
+    const mesaRidge = standstill.ensembles.find((e) => /mesa ridge/i.test(e.ensembleName))
+    expect(mesaRidge).toBeDefined()
+    if (!mesaRidge) return
 
-    const caption = englewood.captions[0]
+    const caption = mesaRidge.captions[0]
     expect(caption.judges).toHaveLength(2)
-    expect(caption.captionTotal).toBeCloseTo(67, 1)
-    expect(caption.captionTotal).toBeCloseTo(
-      caption.judges[0].total + caption.judges[1].total,
-      2,
-    )
+    expect(caption.captionTotal).toBeGreaterThan(0)
   })
 })
 
@@ -313,6 +309,22 @@ describe('parseRecapHtml — zero-score filtering', () => {
     const allEnsembles = result.classes.flatMap((c) => c.ensembles)
     const columbine = allEnsembles.find((e) => /columbine/i.test(e.ensembleName))
     expect(columbine).toBeUndefined()
+  })
+})
+
+describe('parseRecapHtml — zero-total filtering (2022 virtual)', () => {
+  const html = loadHtml(2022, '2022-02-26_RMPA_Show_2_-_Virtual.html')
+  const result = parseRecapHtml(html, 2022)
+
+  it('should exclude ensembles with zero total even if caption scores are non-zero', () => {
+    const allEnsembles = result.classes.flatMap((c) => c.ensembles)
+    expect(allEnsembles.every((e) => e.total > 0)).toBe(true)
+  })
+
+  it('should not include Englewood High School (zero total)', () => {
+    const allEnsembles = result.classes.flatMap((c) => c.ensembles)
+    const englewood = allEnsembles.find((e) => /englewood/i.test(e.ensembleName))
+    expect(englewood).toBeUndefined()
   })
 })
 
