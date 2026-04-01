@@ -1,4 +1,4 @@
-import { useMemo, useRef, useEffect } from 'react'
+import { useMemo } from 'react'
 import {
   LineChart,
   Line,
@@ -8,7 +8,6 @@ import {
   Tooltip,
   Legend,
 } from 'recharts'
-import { Pill } from '../components/pill'
 import { Panel } from '../components/panel'
 import { ChartContainer } from '../components/chart-container'
 import { ChartTooltip } from '../components/chart-tooltip'
@@ -39,8 +38,6 @@ type ProgressionViewProps = {
 }
 
 export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavorite, selectedCaption, onCaptionChange }: ProgressionViewProps) {
-  const captionRowRef = useRef<HTMLDivElement>(null)
-
   // Discover available caption names from the data
   const captionNames = useMemo(() => {
     for (const show of shows) {
@@ -55,25 +52,6 @@ export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavor
   }, [shows])
 
   const captionOptions = [TOTAL_KEY, ...captionNames]
-
-  // Auto-scroll active caption pill into view (horizontal only)
-  useEffect(() => {
-    requestAnimationFrame(() => {
-      const container = captionRowRef.current
-      if (!container) return
-      const active = container.querySelector<HTMLElement>('[data-active]')
-      if (!active) return
-      const containerLeft = container.scrollLeft
-      const containerWidth = container.clientWidth
-      const pillLeft = active.offsetLeft
-      const pillWidth = active.offsetWidth
-      if (pillLeft < containerLeft) {
-        container.scrollTo({ left: pillLeft, behavior: 'smooth' })
-      } else if (pillLeft + pillWidth > containerLeft + containerWidth) {
-        container.scrollTo({ left: pillLeft + pillWidth - containerWidth, behavior: 'smooth' })
-      }
-    })
-  }, [selectedCaption, captionNames])
 
   // Reset caption selection if it doesn't exist in the current data
   const activeCaption = captionOptions.includes(selectedCaption) ? selectedCaption : TOTAL_KEY
@@ -169,22 +147,8 @@ export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavor
 
   return (
     <div className="space-y-6">
-      {/* Caption Toggle Pills */}
-      {captionNames.length > 1 && (
-        <div ref={captionRowRef} className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
-          {captionOptions.map((cap) => (
-            <Pill
-              key={cap}
-              label={cap}
-              isActive={cap === activeCaption}
-              onClick={() => onCaptionChange(cap)}
-            />
-          ))}
-        </div>
-      )}
-
       {/* Progression Chart */}
-      <Panel title={`${activeCaption} Progression`}>
+      <Panel title="Progression">
         <ChartContainer className="h-[300px] sm:h-[400px]">
           {(width, height) => (
             <LineChart data={chartData} width={width} height={height} margin={{ top: 5, right: 5, bottom: 5, left: -35 }}>
@@ -221,6 +185,26 @@ export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavor
             </LineChart>
           )}
         </ChartContainer>
+
+        {/* Caption tab selector */}
+        {captionNames.length > 1 && (
+          <div className="mt-3 flex border-t border-border pt-3">
+            {captionOptions.map((cap, i) => (
+              <button
+                key={cap}
+                onClick={() => onCaptionChange(cap)}
+                style={i === 1 ? { borderLeftWidth: 1, borderLeftColor: 'var(--color-border)' } : undefined}
+                className={`flex-1 py-1.5 text-xs font-medium transition-colors cursor-pointer border-b-2 ${
+                  cap === activeCaption
+                    ? 'border-accent text-accent'
+                    : 'border-transparent text-text-muted hover:text-text-secondary'
+                }`}
+              >
+                {shortenCaption(cap)}
+              </button>
+            ))}
+          </div>
+        )}
       </Panel>
 
       {/* Season Summary Table */}
@@ -307,6 +291,10 @@ function growthColor(growth: number): string {
   if (growth >= 1) return 'text-growth-mid'
   if (growth >= 0) return 'text-growth-low'
   return 'text-growth-neg'
+}
+
+function shortenCaption(caption: string): string {
+  return caption.replace(/\s*[-–]\s*/g, ' ')
 }
 
 function shortenName(name: string): string {
