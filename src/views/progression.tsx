@@ -166,7 +166,7 @@ export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavor
               />
               <Tooltip content={<ChartTooltip />} />
               <Legend
-                wrapperStyle={{ fontSize: 10, color: 'var(--color-text-secondary)' }}
+                wrapperStyle={{ fontSize: 10, color: 'var(--color-text-secondary)', paddingLeft: 35 }}
                 formatter={(value: string) => shortNameMap.get(value) ?? value}
               />
               {ensembleNames.map((name) => (
