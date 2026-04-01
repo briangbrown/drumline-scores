@@ -300,6 +300,22 @@ describe('parseRecapHtml — 2020 (regular season contest)', () => {
   })
 })
 
+describe('parseRecapHtml — zero-score filtering', () => {
+  const html = loadHtml(2019, '2019-02-23_RMPA_Contest_2.html')
+  const result = parseRecapHtml(html, 2019)
+
+  it('should exclude ensembles with all-zero caption scores', () => {
+    const allEnsembles = result.classes.flatMap((c) => c.ensembles)
+    expect(allEnsembles.every((e) => e.captions.some((c) => c.captionTotal > 0))).toBe(true)
+  })
+
+  it('should not include Columbine High School (all-zero scores)', () => {
+    const allEnsembles = result.classes.flatMap((c) => c.ensembles)
+    const columbine = allEnsembles.find((e) => /columbine/i.test(e.ensembleName))
+    expect(columbine).toBeUndefined()
+  })
+})
+
 describe('getClassAbbreviation', () => {
   it('should return known abbreviations', () => {
     expect(getClassAbbreviation('Percussion Scholastic A')).toBe('PSA')

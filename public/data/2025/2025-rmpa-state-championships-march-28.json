@@ -1459,64 +1459,6 @@
           "penalty": 0,
           "total": 77.4,
           "rank": 2
-        },
-        {
-          "ensembleName": "Dakota Ridge High School \"A\"",
-          "location": "Littleton, CO",
-          "captions": [
-            {
-              "captionName": "Effect",
-              "judges": [
-                {
-                  "judgeName": "B. Cappelluti",
-                  "subCaptions": [
-                    {
-                      "key": "Prog",
-                      "rawScore": 0,
-                      "rank": 3
-                    },
-                    {
-                      "key": "Ful",
-                      "rawScore": 0,
-                      "rank": 3
-                    }
-                  ],
-                  "total": 0,
-                  "rank": 3
-                }
-              ],
-              "captionTotal": 0,
-              "captionRank": 3
-            },
-            {
-              "captionName": "Music",
-              "judges": [
-                {
-                  "judgeName": "M. Nevin",
-                  "subCaptions": [
-                    {
-                      "key": "Comp",
-                      "rawScore": 0,
-                      "rank": 3
-                    },
-                    {
-                      "key": "Perf",
-                      "rawScore": 0,
-                      "rank": 3
-                    }
-                  ],
-                  "total": 0,
-                  "rank": 3
-                }
-              ],
-              "captionTotal": 0,
-              "captionRank": 3
-            }
-          ],
-          "subTotal": 0,
-          "penalty": 0,
-          "total": 0,
-          "rank": 3
         }
       ]
     },
