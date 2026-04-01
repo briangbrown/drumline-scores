@@ -34,11 +34,6 @@
   ],
   "classes": [
     {
-      "id": "novice",
-      "name": "Novice",
-      "classType": "marching"
-    },
-    {
       "id": "percussion-scholastic-concert-a",
       "name": "Percussion Scholastic Concert A",
       "classType": "concert"
