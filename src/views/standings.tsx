@@ -53,9 +53,11 @@ export function StandingsView({
 
   // Auto-scroll active show pill into view
   useEffect(() => {
-    const active = showRowRef.current?.querySelector('[data-active]')
-    active?.scrollIntoView({ block: 'nearest', inline: 'nearest' })
-  }, [selectedShowId])
+    requestAnimationFrame(() => {
+      const active = showRowRef.current?.querySelector('[data-active]')
+      active?.scrollIntoView({ block: 'nearest', inline: 'nearest' })
+    })
+  }, [selectedShowId, shows])
   const ensembles = selectedShow?.classResult?.ensembles ?? []
 
   // Score comparison chart data

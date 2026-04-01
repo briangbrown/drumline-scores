@@ -41,12 +41,6 @@ type ProgressionViewProps = {
 export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavorite, selectedCaption, onCaptionChange }: ProgressionViewProps) {
   const captionRowRef = useRef<HTMLDivElement>(null)
 
-  // Auto-scroll active caption pill into view
-  useEffect(() => {
-    const active = captionRowRef.current?.querySelector('[data-active]')
-    active?.scrollIntoView({ block: 'nearest', inline: 'nearest' })
-  }, [selectedCaption])
-
   // Discover available caption names from the data
   const captionNames = useMemo(() => {
     for (const show of shows) {
@@ -61,6 +55,14 @@ export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavor
   }, [shows])
 
   const captionOptions = [TOTAL_KEY, ...captionNames]
+
+  // Auto-scroll active caption pill into view
+  useEffect(() => {
+    requestAnimationFrame(() => {
+      const active = captionRowRef.current?.querySelector('[data-active]')
+      active?.scrollIntoView({ block: 'nearest', inline: 'nearest' })
+    })
+  }, [selectedCaption, captionNames])
 
   // Reset caption selection if it doesn't exist in the current data
   const activeCaption = captionOptions.includes(selectedCaption) ? selectedCaption : TOTAL_KEY

@@ -54,8 +54,13 @@ export function Layout({
   const yearRowRef = useRef<HTMLDivElement>(null)
   const classRowRef = useRef<HTMLDivElement>(null)
 
-  useEffect(() => { scrollActiveIntoView(yearRowRef.current) }, [year])
-  useEffect(() => { scrollActiveIntoView(classRowRef.current) }, [classId])
+  useEffect(() => {
+    requestAnimationFrame(() => scrollActiveIntoView(yearRowRef.current))
+  }, [year])
+  // Re-scroll when classId changes OR when the class list itself changes (e.g. year switch)
+  useEffect(() => {
+    requestAnimationFrame(() => scrollActiveIntoView(classRowRef.current))
+  }, [classId, classes])
 
   const handleDisabledClick = () => {
     showToast('Switch to Progression or Standings first')
