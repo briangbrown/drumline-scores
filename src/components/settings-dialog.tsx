@@ -113,8 +113,8 @@ function SettingsDialog({ isOpen, onClose }: SettingsDialogProps) {
             >
               <span className="text-xs font-medium text-text-secondary">High Contrast</span>
               <span
-                className={`relative inline-flex h-5 w-9 items-center rounded-full transition-colors ${
-                  contrast === 'high' ? 'bg-accent' : 'bg-border'
+                className={`relative inline-flex h-5 w-9 items-center rounded-full border transition-colors ${
+                  contrast === 'high' ? 'bg-accent border-accent' : 'bg-border border-text-muted/40'
                 }`}
               >
                 <span
