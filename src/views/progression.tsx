@@ -189,10 +189,11 @@ export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavor
         {/* Caption tab selector */}
         {captionNames.length > 1 && (
           <div className="mt-3 flex border-t border-border pt-3">
-            {captionOptions.map((cap) => (
+            {captionOptions.map((cap, i) => (
               <button
                 key={cap}
                 onClick={() => onCaptionChange(cap)}
+                style={i === 1 ? { borderLeftWidth: 1, borderLeftColor: 'var(--color-border)' } : undefined}
                 className={`flex-1 py-1.5 text-xs font-medium transition-colors cursor-pointer border-b-2 ${
                   cap === activeCaption
                     ? 'border-accent text-accent'
