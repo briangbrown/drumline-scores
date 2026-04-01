@@ -4,6 +4,7 @@ import { Pill } from './components/pill'
 import { SettingsButton } from './components/settings-dialog'
 import { ShareButton } from './components/share-button'
 import { showToast } from './components/toast'
+import { getClassAbbreviation } from './parser'
 import type { SeasonMetadata } from './types'
 import type { ViewType } from './router'
 import type { FavoriteEnsemble } from './favorites'
@@ -127,7 +128,7 @@ export function Layout({
             {classes.map((cls) => (
               <Pill
                 key={cls.id}
-                label={cls.name.replace(/^Percussion\s+/, '')}
+                label={getClassAbbreviation(cls.name)}
                 isActive={cls.id === classId}
                 disabled={isCrossSeason}
                 onClick={isCrossSeason ? handleDisabledClick : () => onClassChange(cls.id)}
