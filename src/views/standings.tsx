@@ -51,11 +51,22 @@ export function StandingsView({
   const showRowRef = useRef<HTMLDivElement>(null)
   const selectedShow = shows.find((s) => s.metadata.id === selectedShowId)
 
-  // Auto-scroll active show pill into view
+  // Auto-scroll active show pill into view (horizontal only)
   useEffect(() => {
     requestAnimationFrame(() => {
-      const active = showRowRef.current?.querySelector('[data-active]')
-      active?.scrollIntoView({ block: 'nearest', inline: 'nearest' })
+      const container = showRowRef.current
+      if (!container) return
+      const active = container.querySelector<HTMLElement>('[data-active]')
+      if (!active) return
+      const containerLeft = container.scrollLeft
+      const containerWidth = container.clientWidth
+      const pillLeft = active.offsetLeft
+      const pillWidth = active.offsetWidth
+      if (pillLeft < containerLeft) {
+        container.scrollTo({ left: pillLeft, behavior: 'smooth' })
+      } else if (pillLeft + pillWidth > containerLeft + containerWidth) {
+        container.scrollTo({ left: pillLeft + pillWidth - containerWidth, behavior: 'smooth' })
+      }
     })
   }, [selectedShowId, shows])
   const ensembles = selectedShow?.classResult?.ensembles ?? []

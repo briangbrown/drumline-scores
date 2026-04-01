@@ -56,11 +56,22 @@ export function ProgressionView({ shows, highlight, favoriteNames, onToggleFavor
 
   const captionOptions = [TOTAL_KEY, ...captionNames]
 
-  // Auto-scroll active caption pill into view
+  // Auto-scroll active caption pill into view (horizontal only)
   useEffect(() => {
     requestAnimationFrame(() => {
-      const active = captionRowRef.current?.querySelector('[data-active]')
-      active?.scrollIntoView({ block: 'nearest', inline: 'nearest' })
+      const container = captionRowRef.current
+      if (!container) return
+      const active = container.querySelector<HTMLElement>('[data-active]')
+      if (!active) return
+      const containerLeft = container.scrollLeft
+      const containerWidth = container.clientWidth
+      const pillLeft = active.offsetLeft
+      const pillWidth = active.offsetWidth
+      if (pillLeft < containerLeft) {
+        container.scrollTo({ left: pillLeft, behavior: 'smooth' })
+      } else if (pillLeft + pillWidth > containerLeft + containerWidth) {
+        container.scrollTo({ left: pillLeft + pillWidth - containerWidth, behavior: 'smooth' })
+      }
     })
   }, [selectedCaption, captionNames])
 

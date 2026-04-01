@@ -25,11 +25,24 @@ type LayoutProps = {
 }
 
 /**
- * Scroll the active pill into view within a horizontally-scrollable container.
+ * Horizontally scroll the container so the active pill is visible,
+ * without affecting vertical page scroll.
  */
 function scrollActiveIntoView(container: HTMLDivElement | null) {
-  const active = container?.querySelector('[data-active]')
-  active?.scrollIntoView({ block: 'nearest', inline: 'nearest' })
+  if (!container) return
+  const active = container.querySelector<HTMLElement>('[data-active]')
+  if (!active) return
+
+  const containerLeft = container.scrollLeft
+  const containerWidth = container.clientWidth
+  const pillLeft = active.offsetLeft
+  const pillWidth = active.offsetWidth
+
+  if (pillLeft < containerLeft) {
+    container.scrollTo({ left: pillLeft, behavior: 'smooth' })
+  } else if (pillLeft + pillWidth > containerLeft + containerWidth) {
+    container.scrollTo({ left: pillLeft + pillWidth - containerWidth, behavior: 'smooth' })
+  }
 }
 
 export function Layout({
