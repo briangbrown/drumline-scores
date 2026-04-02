@@ -33,7 +33,7 @@ gh label create new-ensemble --color 1D76DB --description "Unresolved ensemble n
 
 Create the initial state file:
 
-**File:** `public/data/poll-state.json`
+**File:** `data/poll-state.json`
 
 ```json
 {

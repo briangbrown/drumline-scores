@@ -11,7 +11,7 @@ import { readPollState, writePollState, addOrUpdateRetreat, makeRetreatEntry, em
 import { parseCompetitionsPage, parseScheduleRetreats, localTimeToUtc, filterUpcomingEvents } from '../scrapeSchedule'
 import { existsSync } from 'node:fs'
 
-const POLL_STATE_PATH = 'public/data/poll-state.json'
+const POLL_STATE_PATH = 'data/poll-state.json'
 const COMPETITIONS_URL = 'https://rmpa.org/competitions'
 const WINDOW_DAYS = 3
 
