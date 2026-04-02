@@ -103,6 +103,14 @@ async function main(): Promise<void> {
     const comparison = compareHash(currentHash, previousHash)
 
     if (comparison.status === 'unchanged') {
+      // Scores exist but haven't changed — mark any actionable retreats as
+      // imported so they don't time out (covers the case where an earlier
+      // retreat already imported these scores on a previous poller run)
+      for (const retreat of actionable) {
+        if (retreat.status === 'pending') {
+          state = markRetreatImported(state, retreat.retreatUtc, currentHash, now)
+        }
+      }
       continue
     }
 
@@ -165,9 +173,11 @@ async function main(): Promise<void> {
 
     imported = true
 
-    // Mark matching retreat as imported
+    // Mark actionable retreats as imported
     for (const retreat of actionable) {
-      state = markRetreatImported(state, retreat.retreatUtc, currentHash, now)
+      if (retreat.status === 'pending') {
+        state = markRetreatImported(state, retreat.retreatUtc, currentHash, now)
+      }
     }
   }
 
