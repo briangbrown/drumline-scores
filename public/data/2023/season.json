@@ -5,43 +5,57 @@
       "id": "2023-rmpa-show-1-february-18",
       "eventName": "RMPA Show #1",
       "date": "Saturday, February 18, 2023",
-      "round": ""
+      "round": "",
+      "sourceHash": "fe078714ee8dca24b868f35d73117423cd3e6306a0b6a8c3b772785d423dabbe",
+      "lastImportedUtc": "2026-04-02T19:45:04.828Z"
     },
     {
       "id": "2023-rmpa-show-2-march-4",
       "eventName": "RMPA Show #2",
       "date": "Saturday, March 4, 2023",
-      "round": ""
+      "round": "",
+      "sourceHash": "ab5c00e264862ae1c37ceb22fc3c3f8f9159ad78aeff6a1b41085b2ee712ae0a",
+      "lastImportedUtc": "2026-04-02T19:45:04.828Z"
     },
     {
       "id": "2023-virtual-rmpa-show-3-march-17",
       "eventName": "VIRTUAL - RMPA Show #3",
       "date": "Friday, March 17, 2023",
-      "round": ""
+      "round": "",
+      "sourceHash": "84f68a9dae7b230394c035e148edfc53a8353d104f41238fa946a99c70ead161",
+      "lastImportedUtc": "2026-04-02T19:45:04.829Z"
     },
     {
       "id": "2023-rmpa-show-3-march-18",
       "eventName": "RMPA Show #3",
       "date": "Saturday, March 18, 2023",
-      "round": ""
+      "round": "",
+      "sourceHash": "07442bbdd790e4b6b230cba0e606bbd42f8ad69fb46141eb9101e7a4dd84d9dc",
+      "lastImportedUtc": "2026-04-02T19:45:04.829Z"
     },
     {
       "id": "2023-rmpa-show-4-april-1",
       "eventName": "RMPA Show #4",
       "date": "Saturday, April 1, 2023",
-      "round": ""
+      "round": "",
+      "sourceHash": "53dbbd0e87352c2ab0bd1a2e8d1f4f818574e26ac51c3a3c7a03208c021190e1",
+      "lastImportedUtc": "2026-04-02T19:45:04.829Z"
     },
     {
       "id": "2023-rmpa-championships-april-8",
       "eventName": "RMPA Championships",
       "date": "Saturday, April 8, 2023",
-      "round": "Prelims"
+      "round": "Prelims",
+      "sourceHash": "9c27e668f1775dfaf70168b7e240097a6dc02388c33870c4c7da84aaed411845",
+      "lastImportedUtc": "2026-04-02T19:45:04.830Z"
     },
     {
       "id": "2023-rmpa-championships-april-15",
       "eventName": "RMPA Championships",
       "date": "Saturday, April 15, 2023",
-      "round": "Finals"
+      "round": "Finals",
+      "sourceHash": "b0678bbdc393392bb5df883c5611a1138cb13a4e9d6e96d7d348bcd7beebe1c5",
+      "lastImportedUtc": "2026-04-02T19:45:04.830Z"
     }
   ],
   "classes": [

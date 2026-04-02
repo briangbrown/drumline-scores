@@ -11,6 +11,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs'
 import { resolve, basename } from 'node:path'
 import { parseRecapHtml, getClassAbbreviation } from './parser'
 import { matchEnsemble, createEnsembleEntry, addAlias, normalizeLocation } from './ensemble-registry'
+import { hashContent } from './pipeline/contentHash'
 import type { EnsembleRegistry, SeasonMetadata, ClassDef, SeasonShow } from './types'
 
 // ---------------------------------------------------------------------------
@@ -23,6 +24,7 @@ type CliArgs = {
   outputDir: string
   dryRun: boolean
   registryPath: string
+  sourceUrl: string | null
 }
 
 function parseArgs(args: Array<string>): CliArgs {
@@ -31,6 +33,7 @@ function parseArgs(args: Array<string>): CliArgs {
   let outputDir: string | null = null
   let dryRun = false
   let registryPath = 'public/data/ensembles.json'
+  let sourceUrl: string | null = null
 
   for (let i = 0; i < args.length; i++) {
     const arg = args[i]
@@ -40,6 +43,8 @@ function parseArgs(args: Array<string>): CliArgs {
       outputDir = args[++i]
     } else if (arg === '--registry' && i + 1 < args.length) {
       registryPath = args[++i]
+    } else if (arg === '--source-url' && i + 1 < args.length) {
+      sourceUrl = args[++i]
     } else if (arg === '--dry-run') {
       dryRun = true
     } else if (!arg.startsWith('--')) {
@@ -64,7 +69,7 @@ function parseArgs(args: Array<string>): CliArgs {
     outputDir = `public/data/${year}`
   }
 
-  return { htmlFile, year, outputDir, dryRun, registryPath }
+  return { htmlFile, year, outputDir, dryRun, registryPath, sourceUrl }
 }
 
 // ---------------------------------------------------------------------------
@@ -151,7 +156,12 @@ function main(): void {
     // Update or create season.json
     const seasonPath = resolve(args.outputDir, 'season.json')
     const season = loadOrCreateSeason(seasonPath, args.year)
-    updateSeason(season, showData.metadata, showData.classes.map((c) => c.classDef))
+    const sourceHash = hashContent(html)
+    updateSeason(season, showData.metadata, showData.classes.map((c) => c.classDef), {
+      sourceUrl: args.sourceUrl ?? undefined,
+      sourceHash,
+      lastImportedUtc: new Date().toISOString(),
+    })
     writeFileSync(seasonPath, JSON.stringify(season, null, 2))
     console.log(`Wrote: ${seasonPath}`)
 
@@ -173,10 +183,17 @@ function loadOrCreateSeason(path: string, year: number): SeasonMetadata {
   return { year, shows: [], classes: [] }
 }
 
+type SourceTracking = {
+  sourceUrl?: string
+  sourceHash?: string
+  lastImportedUtc?: string
+}
+
 function updateSeason(
   season: SeasonMetadata,
   metadata: { id: string; eventName: string; date: string; round: string },
   classDefs: Array<ClassDef>,
+  source?: SourceTracking,
 ): void {
   // Add or update show entry
   const existingShow = season.shows.find((s) => s.id === metadata.id)
@@ -185,6 +202,9 @@ function updateSeason(
     eventName: metadata.eventName,
     date: metadata.date,
     round: metadata.round,
+    ...(source?.sourceUrl ? { sourceUrl: source.sourceUrl } : {}),
+    ...(source?.sourceHash ? { sourceHash: source.sourceHash } : {}),
+    ...(source?.lastImportedUtc ? { lastImportedUtc: source.lastImportedUtc } : {}),
   }
 
   if (existingShow) {

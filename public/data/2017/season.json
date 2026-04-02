@@ -5,37 +5,49 @@
       "id": "2017-rmpa-state-championships-april-8-united-states-air-force-academy",
       "eventName": "RMPA State Championships",
       "date": "Saturday, April 8, 2017 - United States Air Force Academy",
-      "round": "Prelims"
+      "round": "Prelims",
+      "sourceHash": "03536502b10933dd212d264c84df8ad0ba03c16c4aae478249d8ada7dfb2a670",
+      "lastImportedUtc": "2026-04-02T19:45:04.812Z"
     },
     {
       "id": "2017-rmpa-competition-february-18-harrison-high-school",
       "eventName": "RMPA Competition",
       "date": "Saturday, February 18, 2017 - Harrison High School",
-      "round": ""
+      "round": "",
+      "sourceHash": "343cbee9760a5c4d87f9a25b282860d0c5fab53ae6764e987ef7cf0dd5cf99a3",
+      "lastImportedUtc": "2026-04-02T19:45:04.813Z"
     },
     {
       "id": "2017-rmpa-competition-february-25-broomfield-high-school",
       "eventName": "RMPA Competition",
       "date": "Saturday, February 25, 2017 - Broomfield High School",
-      "round": ""
+      "round": "",
+      "sourceHash": "1eb82aa19962e91ac6bf950e4716d934421e3e3e890cd581af1dc42be6eebe19",
+      "lastImportedUtc": "2026-04-02T19:45:04.813Z"
     },
     {
       "id": "2017-rmpa-competition-march-11-mountain-range-high-school",
       "eventName": "RMPA Competition",
       "date": "Saturday, March 11, 2017 - Mountain Range High School",
-      "round": ""
+      "round": "",
+      "sourceHash": "23c7955b5d6de90964de748f753cb214ed3d8f31f8094caf06a37b865177b7d3",
+      "lastImportedUtc": "2026-04-02T19:45:04.813Z"
     },
     {
       "id": "2017-rmpa-competition-march-25-longmont-high-school",
       "eventName": "RMPA Competition",
       "date": "Saturday, March 25, 2017 - Longmont High School",
-      "round": ""
+      "round": "",
+      "sourceHash": "580a7a5fa1ae5d2ef7f951e21bb95b083cc98c2ca443838c70da957fd99c07bd",
+      "lastImportedUtc": "2026-04-02T19:45:04.814Z"
     },
     {
       "id": "2017-rmpa-competition-march-4-pomona-high-school",
       "eventName": "RMPA Competition",
       "date": "Saturday, March 4, 2017 - Pomona High School",
-      "round": ""
+      "round": "",
+      "sourceHash": "92d40cdcf2fe261582c269eeab450ea0cecfd65a2593c5a99eb47463e816a429",
+      "lastImportedUtc": "2026-04-02T19:45:04.814Z"
     }
   ],
   "classes": [

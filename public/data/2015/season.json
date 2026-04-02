@@ -5,55 +5,73 @@
       "id": "2015-rmpa-championships-april-4-1st-bank-center",
       "eventName": "RMPA Championships",
       "date": "Saturday, April 4, 2015 - 1st Bank Center",
-      "round": "Prelims"
+      "round": "Prelims",
+      "sourceHash": "ca330c72adcb5aabf1b0a12b0040858bc451a02ded1c36d2d1f2c0b13b44a395",
+      "lastImportedUtc": "2026-04-02T19:45:04.805Z"
     },
     {
       "id": "2015-rmpa-competition-february-28-pomona-high-school",
       "eventName": "RMPA Competition",
       "date": "Saturday, February 28, 2015 - Pomona High School",
-      "round": ""
+      "round": "",
+      "sourceHash": "569484d5b9e16f89133c5bcf204c914495e13307e0cfe3ec3e8e9de0266e6bc8",
+      "lastImportedUtc": "2026-04-02T19:45:04.805Z"
     },
     {
       "id": "2015-rmpa-winds-competition-february-28-pomona-hs",
       "eventName": "RMPA Winds Competition",
       "date": "Saturday, February 28, 2015 - Pomona HS",
-      "round": ""
+      "round": "",
+      "sourceHash": "569484d5b9e16f89133c5bcf204c914495e13307e0cfe3ec3e8e9de0266e6bc8",
+      "lastImportedUtc": "2026-04-02T19:45:04.806Z"
     },
     {
       "id": "2015-rmpa-contest-percussion-march-14-northglenn-high-school",
       "eventName": "RMPA Contest Percussion",
       "date": "Saturday, March 14, 2015 - Northglenn High School",
-      "round": ""
+      "round": "",
+      "sourceHash": "70a185a826ae95eef40fc74a1e549aa98d46e799744790a97b5ff0fe3ada7c6a",
+      "lastImportedUtc": "2026-04-02T19:45:04.806Z"
     },
     {
       "id": "2015-rmpa-contest-winds-march-14-northglenn-hs",
       "eventName": "RMPA Contest Winds",
       "date": "Saturday, March 14, 2015 - Northglenn HS",
-      "round": ""
+      "round": "",
+      "sourceHash": "70a185a826ae95eef40fc74a1e549aa98d46e799744790a97b5ff0fe3ada7c6a",
+      "lastImportedUtc": "2026-04-02T19:45:04.806Z"
     },
     {
       "id": "2015-rmpa-competition-percussion-march-21-longmont-high-school",
       "eventName": "RMPA Competition Percussion",
       "date": "Saturday, March 21, 2015 - Longmont High School",
-      "round": ""
+      "round": "",
+      "sourceHash": "f46dcd5999a4432381eed7b5f2edd76f9849109fc06eec16b060092d792031d3",
+      "lastImportedUtc": "2026-04-02T19:45:04.806Z"
     },
     {
       "id": "2015-rmpa-contest-winds-march-21-longont-high-school",
       "eventName": "RMPA Contest Winds",
       "date": "Saturday, March 21, 2015 - Longont High School",
-      "round": ""
+      "round": "",
+      "sourceHash": "f46dcd5999a4432381eed7b5f2edd76f9849109fc06eec16b060092d792031d3",
+      "lastImportedUtc": "2026-04-02T19:45:04.806Z"
     },
     {
       "id": "2015-rmpa-contest-percussion-march-28-mountain-range-high-school",
       "eventName": "RMPA Contest Percussion",
       "date": "Saturday, March 28, 2015 - Mountain Range High School",
-      "round": ""
+      "round": "",
+      "sourceHash": "f65ee58f795b204882233e7ad34a52f04a197e4b3ea9984d0da38d02590a83e9",
+      "lastImportedUtc": "2026-04-02T19:45:04.806Z"
     },
     {
       "id": "2015-rmpa-contest-winds-march-28-mountain-range-high-school",
       "eventName": "RMPA Contest Winds",
       "date": "Saturday, March 28, 2015 - Mountain Range High School",
-      "round": ""
+      "round": "",
+      "sourceHash": "f65ee58f795b204882233e7ad34a52f04a197e4b3ea9984d0da38d02590a83e9",
+      "lastImportedUtc": "2026-04-02T19:45:04.806Z"
     }
   ],
   "classes": [
