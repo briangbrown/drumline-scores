@@ -14,7 +14,7 @@ jobs:
     permissions:
       issues: write
     env:
-      PIPELINE_ISSUE_ASSIGNEE: ${{ vars.PIPELINE_ISSUE_ASSIGNEE }}
+      PIPELINE_ISSUE_ASSIGNEE: ${{ secrets.PIPELINE_ISSUE_ASSIGNEE }}
     steps:
       - uses: actions/checkout@v4
         with:
