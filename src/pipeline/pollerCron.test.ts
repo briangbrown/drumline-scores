@@ -24,15 +24,15 @@ describe('computeCronWindow', () => {
     expect(window!.daysOfWeekUtc).toEqual([0]) // Sunday
   })
 
-  it('should compute window spanning two retreat entries on the same night', () => {
-    // Full Retreat at 02:07 UTC, Retreat Concludes at 02:37 UTC
-    const r1 = makeRetreatEntry('2026-02-14', 'Full Retreat', '2026-02-15T02:07:00.000Z')
-    const r2 = makeRetreatEntry('2026-02-14', 'Retreat Concludes', '2026-02-15T02:37:00.000Z')
+  it('should compute window spanning two shows on the same night', () => {
+    // Show A retreat at 02:07 UTC, Show B retreat at 03:00 UTC
+    const r1 = makeRetreatEntry('2026-02-14', 'Show A Retreat', '2026-02-15T02:07:00.000Z')
+    const r2 = makeRetreatEntry('2026-02-14', 'Show B Retreat', '2026-02-15T03:00:00.000Z')
     const window = computeCronWindow([r1, r2])
 
     expect(window).not.toBeNull()
     expect(window!.startHourUtc).toBe(2)
-    expect(window!.endHourUtc).toBe(4) // 02:37 + 2h = 04:37, hour 4
+    expect(window!.endHourUtc).toBe(5) // 03:00 + 2h = 05:00
     expect(window!.daysOfWeekUtc).toEqual([0])
   })
 

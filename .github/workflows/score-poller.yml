@@ -48,22 +48,16 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.PIPELINE_PAT }}
         run: |
-          # Disable the poller only if no pending retreats AND all windows have closed.
-          # This prevents disabling before a later retreat window has had time to produce scores.
-          SHOULD_DISABLE=$(node -e "
+          # Disable the poller if poll-state shows no pending retreats
+          PENDING=$(node -e "
             const fs = require('fs');
             const state = JSON.parse(fs.readFileSync('data/poll-state.json', 'utf-8'));
-            const now = Date.now();
             const pending = state.retreats.filter(r => r.status === 'pending');
-            const openWindows = state.retreats.filter(r =>
-              now < new Date(r.windowCloseUtc).getTime()
-            );
-            // Only disable if no pending retreats AND no windows are still open
-            console.log(pending.length === 0 && openWindows.length === 0 ? 'yes' : 'no');
+            console.log(pending.length);
           ")
-          if [ "$SHOULD_DISABLE" = "yes" ]; then
-            echo "No pending retreats and all windows closed — disabling poller"
+          if [ "$PENDING" = "0" ]; then
+            echo "No pending retreats — disabling poller"
             gh workflow disable score-poller.yml
           else
-            echo "Poller stays enabled (pending retreats or open windows remain)"
+            echo "$PENDING pending retreat(s) — poller stays enabled"
           fi

@@ -103,18 +103,12 @@ async function main(): Promise<void> {
     const comparison = compareHash(currentHash, previousHash)
 
     if (comparison.status === 'unchanged') {
-      // Scores exist but haven't changed. Only mark actionable retreats as
-      // imported if their window is about to close (last 15 min). This avoids
-      // prematurely marking a later retreat as done before new scores (e.g.
-      // Finals after Regional A) have a chance to appear.
+      // Scores exist but haven't changed — mark any actionable retreats as
+      // imported so they don't time out (covers the case where an earlier
+      // retreat already imported these scores on a previous poller run)
       for (const retreat of actionable) {
         if (retreat.status === 'pending') {
-          const closeMs = new Date(retreat.windowCloseUtc).getTime()
-          const timeRemainingMs = closeMs - now.getTime()
-          const FIFTEEN_MINUTES = 15 * 60_000
-          if (timeRemainingMs <= FIFTEEN_MINUTES) {
-            state = markRetreatImported(state, retreat.retreatUtc, currentHash, now)
-          }
+          state = markRetreatImported(state, retreat.retreatUtc, currentHash, now)
         }
       }
       continue

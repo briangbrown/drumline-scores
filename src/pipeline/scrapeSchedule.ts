@@ -81,7 +81,7 @@ function parseScheduleRetreats(html: string): Array<RetreatInfo> {
 
   $('.schedule-row--custom').each((_i, row) => {
     const label = $(row).find('.schedule-row__custom').text().trim()
-    if (!/retreat/i.test(label)) return
+    if (!/retreat/i.test(label) || /concludes/i.test(label)) return
 
     const timeText = $(row).find('.schedule-row__time').text().trim()
     retreats.push({
