@@ -12,10 +12,11 @@ jobs:
   reconcile:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
       issues: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PIPELINE_PAT }}
 
       - uses: actions/setup-node@v5
         with:
