@@ -14,6 +14,9 @@ export default defineConfig({
         'src/import.ts',
         'src/data.ts',
         'src/hooks/**',
+        'src/pipeline/cli/**',
+        'src/pipeline/commit.ts',
+        'src/pipeline/reportIssue.ts',
       ],
       thresholds: {
         lines: 80,
