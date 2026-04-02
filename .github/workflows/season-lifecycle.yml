@@ -104,10 +104,12 @@ jobs:
         if: steps.action.outputs.type == 'enable'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_ASSIGNEE: ${{ vars.PIPELINE_ISSUE_ASSIGNEE }}
         run: |
           YEAR=$(date +%Y)
           gh issue create \
             --repo "$GITHUB_REPOSITORY" \
+            --assignee "$ISSUE_ASSIGNEE" \
             --title "[Score Pipeline] ${YEAR} season enabled" \
             --label "score-pipeline" \
             --body "## Season ${YEAR} pipeline enabled
@@ -148,10 +150,12 @@ jobs:
         if: steps.action.outputs.type == 'disable'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_ASSIGNEE: ${{ vars.PIPELINE_ISSUE_ASSIGNEE }}
         run: |
           YEAR=$(date +%Y)
           gh issue create \
             --repo "$GITHUB_REPOSITORY" \
+            --assignee "$ISSUE_ASSIGNEE" \
             --title "[Score Pipeline] ${YEAR} season disabled" \
             --label "score-pipeline" \
             --body "## Season ${YEAR} pipeline disabled
