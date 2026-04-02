@@ -29,7 +29,7 @@ import { formatIssueBody } from '../reportIssue'
 import type { IssueFailure } from '../reportIssue'
 import type { SeasonMetadata } from '../../types'
 
-const POLL_STATE_PATH = 'public/data/poll-state.json'
+const POLL_STATE_PATH = 'data/poll-state.json'
 const SCORES_URL = 'https://rmpa.org/scores'
 
 async function fetchText(url: string): Promise<string> {

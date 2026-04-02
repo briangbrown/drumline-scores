@@ -271,7 +271,7 @@ on:
 
 ### State File: `poll-state.json`
 
-A committed file at `public/data/poll-state.json` tracks what the poller is waiting for and what it has already imported. This is the key to making each invocation lightweight — the poller reads this file first and exits immediately if there is nothing to do.
+A committed file at `data/poll-state.json` tracks what the poller is waiting for and what it has already imported. This is the key to making each invocation lightweight — the poller reads this file first and exits immediately if there is nothing to do.
 
 ```json
 {
@@ -647,7 +647,7 @@ Opens GitHub issues via `gh issue create` when failures occur.
 
 ### 7. Poll State Manager (`src/pipeline/pollState.ts`)
 
-Reads and updates `public/data/poll-state.json`. Used by the score poller (Stage 2) to track which retreats are pending, imported, or failed — and whether a cool-down is active.
+Reads and updates `data/poll-state.json`. Used by the score poller (Stage 2) to track which retreats are pending, imported, or failed — and whether a cool-down is active.
 
 ```typescript
 type RetreatStatus = 'pending' | 'imported' | 'failed'
@@ -849,7 +849,7 @@ The lifecycle workflow uses a fine-grained Personal Access Token (stored as the 
 The lifecycle workflow automatically:
 
 1. Creates `public/data/<year>/season.json` if it doesn't exist
-2. Resets `public/data/poll-state.json` for the new season
+2. Resets `data/poll-state.json` for the new season
 3. Commits the changes to `main`
 4. Enables Stages 1–4 workflows via the `PIPELINE_PAT`
 5. Files a summary issue with a verification checklist

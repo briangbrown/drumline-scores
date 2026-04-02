@@ -57,7 +57,7 @@ function commitUpdatedShow(
 }
 
 function commitPollState(message: string): void {
-  git('add public/data/poll-state.json')
+  git('add data/poll-state.json')
   git(`commit -m "chore(data): ${message}\n\nAutomated by: score-ingestion-pipeline"`)
 }
 

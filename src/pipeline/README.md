@@ -14,7 +14,7 @@ For the implementation plan, see [`docs/plans/pipeline-implementation-plan.md`](
 On **January 25**, the `season-lifecycle.yml` workflow automatically:
 
 1. Creates `public/data/<YEAR>/season.json` (if it doesn't exist)
-2. Resets `public/data/poll-state.json` for the new season
+2. Resets `data/poll-state.json` for the new season
 3. Commits the changes to `main`
 4. Enables all 4 season workflows (`schedule-watcher`, `score-poller`, `sunday-reconciliation`, `score-fallback`)
 5. Files a summary issue with a verification checklist
@@ -72,7 +72,7 @@ rmpa.org/scores → Score Poller → parse → validate → commit to main
 
 | File | Purpose |
 |------|---------|
-| `public/data/poll-state.json` | Tracks retreat times, import status, and cool-down windows |
+| `data/poll-state.json` | Tracks retreat times, import status, and cool-down windows |
 | `public/data/<year>/season.json` | Season metadata — show list with `sourceHash` for change detection |
 | `public/data/<year>/<show-id>.json` | Per-show score data (served as static assets) |
 | `data/scores/<year>/*.html` | Archived source HTML from CompetitionSuite |
