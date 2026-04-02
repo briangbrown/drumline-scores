@@ -177,6 +177,16 @@ The import CLI (`npx tsx src/import.ts`) reads from `data/scores/` and writes to
 
 ---
 
+## Secrets & Identity
+
+**Never hardcode usernames, email addresses, or other personally identifiable information in source code, workflow files, or commit messages.** Treat all identity-related values as secrets.
+
+- In GitHub Actions workflows, read identities from `secrets.*` (e.g., `secrets.PIPELINE_ISSUE_ASSIGNEE`), never from literals.
+- In CLI scripts, read identities from environment variables, never from hardcoded strings.
+- If a new feature needs a username or email, add a secret/env-var and document the setup — do not embed the value.
+
+---
+
 ## What Not to Do
 
 - Do not add a backend, API routes, or server-side rendering. This is a static site.
