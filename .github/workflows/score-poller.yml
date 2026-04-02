@@ -2,10 +2,9 @@ name: Score Poller
 
 on:
   schedule:
-    # Every 3 minutes, Fri/Sat evening MST window (6 PM-11 PM MT = 01:00-06:00 UTC next day)
-    - cron: '*/3 1-6 * * 0,6'
-    # Every 3 minutes, Fri/Sat evening MDT window (6 PM-11 PM MT = 00:00-05:00 UTC next day)
-    - cron: '*/3 0-5 * * 0,6'
+    # --- DYNAMIC CRON START ---
+    - cron: '0 0 31 2 *'
+    # --- DYNAMIC CRON END ---
   workflow_dispatch: {}
 
 jobs:
@@ -27,11 +26,8 @@ jobs:
 
       - run: npm ci
 
-      - name: DST guard
-        run: npx tsx src/pipeline/cli/dstGuard.ts --mst-hours 1-6 --mdt-hours 0-5
-        if: github.event_name == 'schedule'
-
       - name: Poll for scores
+        id: poll
         run: npx tsx src/pipeline/cli/pollScores.ts
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -40,9 +36,28 @@ jobs:
         run: |
           git config user.name "score-pipeline[bot]"
           git config user.email "score-pipeline[bot]@users.noreply.github.com"
-          git add -A public/data/ data/scores/
+          git add -A public/data/ data/scores/ data/poll-state.json
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "chore(data): auto-import scores
 
           Automated by: score-ingestion-pipeline"
           git push
+
+      - name: Self-disable if no more work
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT }}
+        run: |
+          # Disable the poller if poll-state shows no pending retreats
+          PENDING=$(node -e "
+            const fs = require('fs');
+            const state = JSON.parse(fs.readFileSync('data/poll-state.json', 'utf-8'));
+            const pending = state.retreats.filter(r => r.status === 'pending');
+            console.log(pending.length);
+          ")
+          if [ "$PENDING" = "0" ]; then
+            echo "No pending retreats — disabling poller"
+            gh workflow disable score-poller.yml
+          else
+            echo "$PENDING pending retreat(s) — poller stays enabled"
+          fi

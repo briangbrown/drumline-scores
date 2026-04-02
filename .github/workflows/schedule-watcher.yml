@@ -29,14 +29,16 @@ jobs:
 
       - name: Watch schedules
         run: npx tsx src/pipeline/cli/watchSchedule.ts
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT }}
 
       - name: Commit and push
         run: |
           git config user.name "score-pipeline[bot]"
           git config user.email "score-pipeline[bot]@users.noreply.github.com"
-          git add data/poll-state.json
+          git add data/poll-state.json .github/workflows/score-poller.yml
           git diff --cached --quiet && echo "No changes to commit" && exit 0
-          git commit -m "chore(data): update poll-state with retreat times
+          git commit -m "chore(data): update poll-state and poller schedule
 
           Automated by: score-ingestion-pipeline"
           git push
