@@ -101,7 +101,7 @@ HTML recap files (data/scores/<year>/)
 
 The import CLI reads from `data/scores/` and writes to `public/data/`. Vite serves everything in `public/` as static assets at the root path. The client fetches JSON from `/data/<year>/season.json`, etc.
 
-**Which directory to use:** If the browser needs to fetch the file at runtime, it goes in `public/data/`. Everything else — source files, build inputs, pipeline state, tooling config — goes in `data/`. When in doubt, keep it out of `public/`; moving a file into `public/` later is easy, but removing a previously-served file is a breaking change.
+**Which directory to use:** If the browser needs to fetch the file at runtime, it goes in `public/data/`. Everything else — raw input data (HTML recaps), reference definitions, pipeline state — goes in `data/`. When in doubt, keep it out of `public/`; moving a file into `public/` later is easy, but removing a previously-served file is a breaking change.
 
 ---
 
