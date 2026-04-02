@@ -56,27 +56,31 @@ Fully automated pipeline that detects when new RMPA scores are posted, downloads
 │ 2. Extract schedule links for next 3 days             │
 │ 3. Fetch each schedule page                           │
 │ 4. Parse "Retreat Concludes" time                     │
-│ 5. Overwrite poll-schedule artifact (latest wins)     │
+│ 5. Update poll-state.json with retreat times           │
 │                                                       │
-│ Runs: Thu 2 PM, Fri 2 PM, Sat 2 PM MT                │
+│ Runs: Thu 2 PM, Fri 2 PM, Sat 2 PM Mountain Time     │
 │ Catches last-minute reschedules & weather delays      │
 └───────────────────────────────────────────────────────┘
                           │
                           ▼
-┌─ Stage 2: Score Poller (competition day) ────────────┐
+┌─ Stage 2: Score Poller (frequent cron, competition   ┐
+│           evenings only)                              │
 │                                                       │
-│ Pass 1 — Mid-day retreat (split shows only)           │
-│  Poll after mid-day retreat time for partial recap    │
-│  (Regional A classes only). Import & commit.          │
+│ Cron fires every 3 min during score-posting window.   │
+│ Each run:                                             │
+│  1. Read poll-state — any retreat due today?           │
+│     No → exit immediately (<5 sec billable).          │
+│  2. Is current time within the polling window?        │
+│     No → exit immediately.                            │
+│  3. Fetch rmpa.org/scores — any new/changed links?   │
+│     No → exit (light fetch, <15 sec billable).        │
+│  4. Download recap HTML, hash, compare, import.       │
+│  5. Update poll-state: mark retreat as imported,      │
+│     set cool-down expiry for corrections.             │
 │                                                       │
-│ Pass 2 — Final retreat                                │
-│  Poll after final retreat time for full recap.        │
-│  Re-download & re-import — overwrites Pass 1 data.   │
-│  Content hash detects changes vs. what's committed.   │
-│                                                       │
-│ Each pass: fetch recap HTML → hash → compare to       │
-│ stored hash → if changed: parse, validate, commit.    │
-│ Timeout after 2 hours per pass → open issue.          │
+│ Window: retreat time → +2 hrs (or +15 min cool-down   │
+│ after last successful import). ~40 cron invocations   │
+│ per retreat, most exit in seconds.                    │
 └───────────────────────────────────────────────────────┘
                           │
                           ▼
@@ -93,6 +97,20 @@ Fully automated pipeline that detects when new RMPA scores are posted, downloads
 │ Hash-compare known recaps for corrections.            │
 │ Catches anything Stages 2–3 missed.                   │
 └───────────────────────────────────────────────────────┘
+
+┌─ Stage 5: Seasonal Lifecycle (2 crons, year-round) ──┐
+│                                                       │
+│ Pre-season (late Jan):                                │
+│  File GitHub issue with instructions to enable        │
+│  Stages 1–4 workflows.                                │
+│                                                       │
+│ Post-season (late Apr):                               │
+│  File GitHub issue with instructions to disable       │
+│  Stages 1–4 workflows.                                │
+│                                                       │
+│ Runs year-round — only these 2 crons stay enabled     │
+│ during the off-season. Each fires once per year.      │
+└───────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -105,9 +123,11 @@ Runs **three times** on competition weekends to catch last-minute reschedules:
 
 | Run | When | Why |
 |-----|------|-----|
-| Thursday | 2:00 PM MT (20:00 UTC) | First look — catches Friday prelims and Saturday shows. Schedules are typically published 1–2 weeks ahead. |
-| Friday | 2:00 PM MT (20:00 UTC) | Refresh — picks up any Friday schedule changes before Saturday shows. Also re-checks Friday prelims retreat time if a show is that evening. |
-| Saturday | 2:00 PM MT (20:00 UTC) | Final refresh — catches day-of delays (weather, etc.). Runs well before any retreat (earliest main retreats are ~5 PM MT). |
+| Thursday | 2:00 PM MT | First look — catches Friday prelims and Saturday shows. Schedules are typically published 1–2 weeks ahead. |
+| Friday | 2:00 PM MT | Refresh — picks up any Friday schedule changes before Saturday shows. Also re-checks Friday prelims retreat time if a show is that evening. |
+| Saturday | 2:00 PM MT | Final refresh — catches day-of delays (weather, etc.). Runs well before any retreat (earliest main retreats are ~5 PM MT). |
+
+> **DST note:** 2:00 PM MT = 21:00 UTC during MST (early season, before mid-March) and 20:00 UTC during MDT (mid-March onward). See [DST Handling](#dst-handling--github-actions-cron) for how this is implemented in cron.
 
 **Retreat time survey (2026 season):**
 
@@ -123,63 +143,24 @@ Runs **three times** on competition weekends to catch last-minute reschedules:
 
 Some shows have early Regional A retreats (12:45–1:45 PM), but scores are posted as a single recap after the final retreat of the day, so the 2:00 PM watcher run is safe. The Score Poller keys off the **last** retreat time.
 
-Each run **overwrites** the previous poll-schedule artifact with the latest retreat times. The Score Poller always reads the most recent version, so a Saturday morning delay that pushes the retreat back 30 minutes is automatically reflected.
+Each run **updates `poll-state.json`** with the latest retreat times and commits the change. The Score Poller reads this file on every invocation, so a Saturday morning delay that pushes the retreat back 30 minutes is automatically reflected.
 
-**Key insight:** Shows are rarely moved _forward_ in time, but sometimes _delayed_ (weather, venue issues). Running the watcher multiple times ensures the `pollAfterUtc` shifts later if the schedule changes, so the poller doesn't start too early and doesn't time out waiting.
+**Key insight:** Shows are rarely moved _forward_ in time, but sometimes _delayed_ (weather, venue issues). Running the watcher multiple times ensures the retreat UTC timestamps shift later if the schedule changes, so the poller doesn't start checking too early and doesn't time out waiting.
 
 ### Steps
 
 1. **Fetch `rmpa.org/competitions`** — extract all event entries with dates and schedule links.
 2. **Identify upcoming events** — filter to events occurring in the next 3 days (covers Thursday→Saturday window).
 3. **Fetch each schedule page** — download from `schedules.competitionsuite.com/<uuid>_standard.htm`.
-4. **Parse retreat time** — scan `schedule-row` entries for "Retreat Concludes" (preferred) or "Full Retreat" (fallback). Extract the time value.
-5. **Compare with previous poll-schedule** — if the retreat time has changed, log the delta (useful for debugging).
-6. **Write poll-schedule artifact** — overwrite with latest data.
+4. **Parse retreat time** — scan `schedule-row` entries for "Retreat Concludes" (preferred) or "Full Retreat" (fallback). Extract the time value, convert to UTC using `America/Denver` timezone.
+5. **Update `poll-state.json`** — add or update retreat entries for the upcoming events. Set `status: "pending"` for new retreats. Compute `windowCloseUtc` as retreat time + 2 hours. If a retreat time has changed from a previous run, update it and log the delta.
+6. **Commit `poll-state.json`** to `main`.
 
-### Output Format
+### How `poll-state.json` Is Populated
 
-```json
-{
-  "upcoming": [
-    {
-      "date": "2026-02-14",
-      "dayOfWeek": "Saturday",
-      "eventName": "Regular Season Show #1",
-      "scheduleUrl": "https://schedules.competitionsuite.com/<uuid>_standard.htm",
-      "retreats": [
-        {
-          "label": "Retreat/Critique",
-          "timeUtc": "2026-02-15T00:28:00Z",
-          "isFinal": true
-        }
-      ],
-      "lastCheckedUtc": "2026-02-14T20:00:00Z"
-    },
-    {
-      "date": "2026-02-28",
-      "dayOfWeek": "Saturday",
-      "eventName": "Regular Season Show #3",
-      "scheduleUrl": "https://schedules.competitionsuite.com/<uuid>_standard.htm",
-      "retreats": [
-        {
-          "label": "Regional A Retreat/Critique",
-          "timeUtc": "2026-02-28T20:45:00Z",
-          "isFinal": false
-        },
-        {
-          "label": "Retreat/Critique",
-          "timeUtc": "2026-03-01T01:55:00Z",
-          "isFinal": true
-        }
-      ],
-      "lastCheckedUtc": "2026-02-28T20:00:00Z"
-    }
-  ]
-}
-```
+The schedule watcher adds retreat entries to `poll-state.json` based on the parsed schedule data. For a single-retreat show, one entry is added. For a split-retreat show (mid-day Regional A + final), two entries are added — one per retreat, each with its own `retreatUtc` and `windowCloseUtc`. The score poller processes them independently.
 
-- **Single-retreat shows:** One entry with `isFinal: true`. Score Poller runs one pass.
-- **Split-retreat shows:** Two entries. Score Poller runs Pass 1 after the mid-day retreat (partial recap), then Pass 2 after the final retreat (full recap, overwrites Pass 1).
+Example after the watcher runs for a weekend with a split-retreat show — see the `poll-state.json` format in [Stage 2: Score Poller](#stage-2-score-poller).
 
 ### Edge Cases
 
@@ -187,7 +168,7 @@ Each run **overwrites** the previous poll-schedule artifact with the latest retr
 - **No retreat entry on schedule:** Use the last performance time + 60 minutes as the estimate.
 - **Friday prelims:** Thursday run detects them. Friday run refreshes the retreat time before the show that evening.
 - **Multiple events in one weekend:** Each gets its own poll window (e.g., prelims Friday evening, finals Saturday evening).
-- **Schedule changes between runs:** Each run overwrites the artifact. The Score Poller uses whatever is latest. If the retreat moves later, polling starts later automatically. If the retreat moves earlier (rare), the worst case is polling starts a bit late — the daily fallback catches it.
+- **Schedule changes between runs:** Each run updates `poll-state.json` and commits it. The Score Poller reads the latest version on every invocation. If the retreat moves later, the polling window shifts automatically. If the retreat moves earlier (rare), the worst case is polling starts a bit late — the daily fallback catches it.
 
 ---
 
@@ -268,53 +249,125 @@ While scores are unpublished (Prelims → Finals week):
 
 ## Stage 2: Score Poller
 
+### Design Goal
+
+Detect new scores as quickly as possible after retreat, without burning GitHub Actions minutes on idle waiting. Each cron invocation should exit in **seconds** when there is nothing to do.
+
 ### Trigger
 
-A single GitHub Actions workflow dispatched on competition days (Saturday, or Friday for prelims). Runs as an internal polling loop — not a cron-per-minute.
+GitHub Actions cron: **every 3 minutes**, Fridays and Saturdays during the score-posting window. This sounds aggressive, but most invocations exit in under 10 seconds after reading `poll-state.json`.
 
-### Multi-Pass Design
+```yaml
+on:
+  schedule:
+    # Every 3 minutes, Fri/Sat only
+    # MST window: 6 PM–11 PM MT = 01:00–06:00 UTC (next day)
+    - cron: '*/3 1-6 * * 0,6'
+    # MDT window: 6 PM–11 PM MT = 00:00–05:00 UTC (next day)
+    - cron: '*/3 0-5 * * 0,6'
+```
 
-For shows with split retreats, the poller runs multiple passes within a single workflow execution:
+> The cron fires on Saturday/Sunday UTC because Friday/Saturday evening MT crosses midnight UTC. The DST date guard (see [DST Handling](#dst-handling--github-actions-cron)) skips the wrong window.
 
-| Pass | Starts after | What it looks for | Commits? |
-|------|-------------|-------------------|----------|
-| Pass 1 (split shows only) | Mid-day retreat time | Partial recap appears (Regional A classes) or existing recap gains new content | Yes — partial data is better than no data |
-| Pass 2 | Final retreat time | Full recap with all classes, or content hash change from Pass 1 | Yes — overwrites Pass 1 show JSON |
+### State File: `poll-state.json`
 
-For single-retreat shows, only Pass 2 runs.
+A committed file at `public/data/poll-state.json` tracks what the poller is waiting for and what it has already imported. This is the key to making each invocation lightweight — the poller reads this file first and exits immediately if there is nothing to do.
 
-### Steps (per pass)
+```json
+{
+  "season": 2026,
+  "retreats": [
+    {
+      "date": "2026-02-14",
+      "eventName": "Regular Season Show #1",
+      "retreatUtc": "2026-02-15T00:28:00Z",
+      "windowCloseUtc": "2026-02-15T02:28:00Z",
+      "status": "imported",
+      "sourceHash": "a3f2c8...",
+      "lastImportedUtc": "2026-02-15T00:52:00Z"
+    },
+    {
+      "date": "2026-02-28",
+      "eventName": "Regular Season Show #3 (Regional A)",
+      "retreatUtc": "2026-02-28T20:45:00Z",
+      "windowCloseUtc": "2026-02-28T22:45:00Z",
+      "status": "imported",
+      "sourceHash": "b7d1e4...",
+      "lastImportedUtc": "2026-02-28T21:10:00Z"
+    },
+    {
+      "date": "2026-02-28",
+      "eventName": "Regular Season Show #3 (Final)",
+      "retreatUtc": "2026-03-01T01:55:00Z",
+      "windowCloseUtc": "2026-03-01T03:55:00Z",
+      "status": "pending",
+      "sourceHash": null,
+      "lastImportedUtc": null
+    }
+  ],
+  "coolDownUntilUtc": null
+}
+```
 
-1. **Check timing** — read the poll-schedule artifact. Wait until the current pass's retreat time.
-2. **Fetch `rmpa.org/scores`** — parse for **all** recap links for the current season year (not just today's date).
-3. **No new or changed recap links?** → sleep 60 seconds, retry. Timeout after 2 hours past retreat time → open GitHub issue.
-4. **For each recap link** (today's show first, then any others that are new or changed):
-   a. Download the HTML from `recaps.competitionsuite.com/<uuid>.htm`.
-   b. Compute content hash — SHA-256 of the HTML body.
-   c. Compare hash against `season.json`:
-      - New URL (first import): proceed to step 5.
-      - Known URL, **hash unchanged**: skip.
-      - Known URL, **hash changed**: proceed to step 5 (re-import with updated content).
-5. **Import:**
-   a. Save HTML to `data/scores/<year>/` (overwrite previous version for this show)
-   b. Run `npx tsx src/import.ts` on the file
-   c. Run validation gates
-   d. All gates pass: commit to `main` with updated show JSON + season.json (including new hash)
-   e. Any gate fails: open GitHub issue, do not commit
-6. **Post-import cool-down:** continue polling for 15 more minutes to catch rapid corrections (hash changes), then proceed to next pass or exit.
+- **`status`:** `"pending"` (awaiting scores), `"imported"` (done), `"failed"` (issue filed)
+- **`windowCloseUtc`:** retreat time + 2 hours. After this, the poller files an issue and marks the retreat `"failed"`.
+- **`coolDownUntilUtc`:** set to now + 15 minutes after each successful import. The poller keeps checking for rapid corrections until this expires.
 
-**Republish handling (e.g., State Finals week):** Step 2 fetches all season links, not just today's. If RMPA republishes the entire season after Finals, the loop in step 4 processes every link: previously imported shows with unchanged hashes are skipped instantly, any corrections are re-imported, and the new Finals show is imported. This may produce multiple commits in a single run — one per changed/new show.
+### Steps (per invocation)
 
-### Post-Import Cool-Down
+Each cron invocation runs through this fast decision tree:
 
-After a successful import, the poller doesn't immediately stop. It continues checking for **15 minutes** after the last successful commit. This catches the common pattern where scores are posted, then a quick correction is made within minutes (e.g., a penalty was entered wrong). After 15 minutes with no hash change, the pass ends.
+1. **Read `poll-state.json`** from the repo.
+2. **Find actionable retreats** — any entry where `status === "pending"` and `now >= retreatUtc` and `now < windowCloseUtc`? Also check if `coolDownUntilUtc` is set and not yet expired (still watching for corrections to a recently imported show).
+   - **No actionable retreats and no active cool-down** → exit immediately. **Billable time: ~5 seconds** (git checkout + file read).
+3. **Fetch `rmpa.org/scores`** — a single lightweight HTTP GET. Parse for recap links for the current season year.
+   - **No new or changed links** → exit. **Billable time: ~10–15 seconds.**
+4. **For each new or changed recap link:**
+   a. Download the recap HTML.
+   b. Compute content hash (SHA-256).
+   c. Compare hash against `poll-state.json` and `season.json`:
+      - **Hash unchanged** → skip.
+      - **Hash changed or new URL** → proceed to import.
+5. **Import** (only runs when new scores are detected):
+   a. Save HTML to `data/scores/<year>/`.
+   b. Run `npx tsx src/import.ts` on the file.
+   c. Run validation gates.
+   d. All gates pass → commit to `main` (show JSON + season.json + updated poll-state).
+   e. Any gate fails → open GitHub issue, mark retreat as `"failed"` in poll-state.
+6. **Update poll-state:**
+   - Mark the retreat as `"imported"`, record `sourceHash` and `lastImportedUtc`.
+   - Set `coolDownUntilUtc` to now + 15 minutes.
+   - Commit the updated poll-state.
+7. **Timeout check:** If `now >= windowCloseUtc` and status is still `"pending"` → file a GitHub issue ("Scores not posted within 2 hours of retreat"), mark as `"failed"`.
 
-### Polling Strategy
+### Split-Retreat Shows
 
-- **Single workflow run** dispatched at the first retreat time, runs through all passes sequentially.
-- Internal loop: sleep 60 seconds between checks.
-- **Max runtime per pass:** 2 hours after retreat time. GitHub Actions allows up to 6 hours per job, which accommodates even a split show (2 passes × 2 hours + gap between retreats).
-- **Cost:** ~3–4 hours of Actions minutes on split-retreat days, ~2 hours on normal days. ~8 shows per season = ~20 hours total. Well within free tier.
+Shows with a mid-day Regional A retreat and a later final retreat have **two entries** in `poll-state.json` (one per retreat). Each is processed independently:
+
+- **Mid-day retreat:** Poller picks up the partial recap (Regional A classes only), imports, marks first entry as `"imported"`.
+- **Final retreat:** Poller picks up the full recap (all classes), re-imports (overwrites the partial data), marks second entry as `"imported"`.
+
+### Billable Minutes Estimate
+
+| Scenario | Invocations | Time per invocation | Total |
+|----------|-------------|--------------------:|------:|
+| Non-competition Friday/Saturday (no pending retreats) | ~200/weekend | ~5 sec | ~17 min |
+| Competition day, before retreat | ~60–80 | ~5 sec | ~5–7 min |
+| Competition day, polling window (no scores yet) | ~40 | ~15 sec | ~10 min |
+| Successful import + 15 min cool-down | ~5 | ~15 sec | ~1.5 min |
+| Import run itself | 1–2 | ~60 sec | ~1–2 min |
+| **Typical competition day total** | | | **~20–25 min** |
+| **Season total (~10 show days)** | | | **~4–5 hours** |
+
+Compare to the previous long-running poller design: **~4–5 hours/season vs ~20–30 hours/season**. The frequent-cron approach is significantly cheaper because most invocations exit in seconds.
+
+### Republish Handling (State Finals Week)
+
+Step 3 fetches all season links, not just today's. If RMPA republishes the entire season after Finals, the loop in step 4 processes every link: previously imported shows with unchanged hashes are skipped instantly, any corrections are re-imported, and the new Finals show is imported. This may produce multiple commits in a single run.
+
+### Cool-Down Period
+
+After a successful import, `coolDownUntilUtc` is set to now + 15 minutes. Subsequent cron invocations during this window still proceed to step 3 (fetch `rmpa.org/scores`) and re-check hashes. This catches the common pattern where scores are posted, then quickly corrected (e.g., a penalty was entered wrong). After the cool-down expires and no pending retreats remain, invocations go back to exiting at step 2.
 
 ---
 
@@ -322,7 +375,7 @@ After a successful import, the poller doesn't immediately stop. It continues che
 
 ### Trigger
 
-GitHub Actions cron: Sunday at 12:00 PM MT (18:00 UTC).
+GitHub Actions cron: Sunday at 12:00 PM MT (19:00 UTC during MST, 18:00 UTC during MDT — see [DST Handling](#dst-handling--github-actions-cron)).
 
 ### Purpose
 
@@ -347,7 +400,7 @@ Catch score corrections made after competition day. It's common for directors to
 
 ### Trigger
 
-GitHub Actions cron: daily at 12:00 PM MT (18:00 UTC), Monday through Friday.
+GitHub Actions cron: daily at 12:00 PM MT (19:00 UTC during MST, 18:00 UTC during MDT — see [DST Handling](#dst-handling--github-actions-cron)), Monday through Friday.
 
 ### Steps
 
@@ -359,7 +412,7 @@ GitHub Actions cron: daily at 12:00 PM MT (18:00 UTC), Monday through Friday.
 
 - Friday prelims that the schedule watcher missed entirely
 - Scores posted late (e.g., Sunday evening, Monday)
-- Schedule watcher failures (no poll-schedule artifact)
+- Schedule watcher failures (no retreat entries in poll-state)
 - Mid-week corrections to recent shows
 - Any competition not on the expected schedule (makeup shows, etc.)
 
@@ -592,22 +645,210 @@ Handles git operations: stage files, commit with formatted message, push to `mai
 
 Opens GitHub issues via `gh issue create` when failures occur.
 
-### 7. GitHub Actions Workflows
+### 7. Poll State Manager (`src/pipeline/pollState.ts`)
 
-- `.github/workflows/schedule-watcher.yml` — Thu/Fri/Sat 2 PM MT cron, runs Stage 1
-- `.github/workflows/score-poller.yml` — Dispatched on competition days, runs Stage 2 (multi-pass)
-- `.github/workflows/sunday-reconciliation.yml` — Sunday noon MT cron, runs Stage 3
-- `.github/workflows/score-fallback.yml` — Mon–Fri noon MT cron, runs Stage 4
+Reads and updates `public/data/poll-state.json`. Used by the score poller (Stage 2) to track which retreats are pending, imported, or failed — and whether a cool-down is active.
+
+```typescript
+type RetreatStatus = 'pending' | 'imported' | 'failed'
+
+type RetreatEntry = {
+  date: string
+  eventName: string
+  retreatUtc: string
+  windowCloseUtc: string
+  status: RetreatStatus
+  sourceHash: string | null
+  lastImportedUtc: string | null
+}
+
+type PollState = {
+  season: number
+  retreats: Array<RetreatEntry>
+  coolDownUntilUtc: string | null
+}
+```
+
+- Read state file at the start of each poller invocation
+- Determine if any retreat is actionable (pending + within window, or cool-down active)
+- Update state after import or timeout
+- Committed to the repo alongside show data so it survives across invocations
+
+### 8. GitHub Actions Workflows
+
+- `.github/workflows/schedule-watcher.yml` — Thu/Fri/Sat 2 PM MT cron, runs Stage 1 (disabled off-season)
+- `.github/workflows/score-poller.yml` — Every 3 min Fri/Sat evenings MT, runs Stage 2 (disabled off-season)
+- `.github/workflows/sunday-reconciliation.yml` — Sunday noon MT cron, runs Stage 3 (disabled off-season)
+- `.github/workflows/score-fallback.yml` — Mon–Fri noon MT cron, runs Stage 4 (disabled off-season)
+- `.github/workflows/season-lifecycle.yml` — Jan 25 + Apr 30, runs Stage 5 (**always enabled**)
+
+---
+
+## Stage 5: Seasonal Enable/Disable
+
+### Purpose
+
+Stages 1–4 should be **disabled during the off-season** (May–January) to avoid unnecessary cron invocations and billable minutes. Two year-round cron jobs file GitHub issues with instructions to enable or disable the season workflows.
+
+### Historical Season Dates
+
+| Year | First Show | Last Show |
+|------|-----------|-----------|
+| 2015 | Feb 28 | Apr 4 |
+| 2016 | Feb 27 | Apr 9 |
+| 2017 | Feb 18 | Apr 8 |
+| 2018 | Feb 24 | Apr 14 |
+| 2019 | Feb 16 | Apr 6 |
+| 2020 | Feb 15 | Feb 29 (COVID) |
+| 2021 | Mar 5 | Apr 9 (COVID) |
+| 2022 | Feb 19 | Apr 16 |
+| 2023 | Feb 18 | Apr 15 |
+| 2024 | Feb 10 | Apr 13 |
+| 2025 | Feb 8 | Mar 29 |
+
+**Pattern:** Seasons start as early as **February 8** and end as late as **April 16**. Two weeks of buffer gives:
+
+- **Enable by:** January 25 (2 weeks before earliest known start)
+- **Disable after:** April 30 (2 weeks after latest known end)
+
+### Workflow: `season-lifecycle.yml`
+
+A single workflow with **two cron entries** that runs year-round. It is the only workflow that stays enabled during the off-season.
+
+```yaml
+name: Season Lifecycle
+on:
+  schedule:
+    # Pre-season: January 25 at noon MT
+    # MST (Jan is always MST): noon = 19:00 UTC
+    - cron: '0 19 25 1 *'
+    # Post-season: April 30 at noon MT
+    # MDT (Apr is always MDT): noon = 18:00 UTC
+    - cron: '0 18 30 4 *'
+
+jobs:
+  lifecycle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Determine action
+        id: action
+        run: |
+          MONTH=$(date +%-m)
+          if [ "$MONTH" = "1" ]; then
+            echo "type=enable" >> "$GITHUB_OUTPUT"
+          elif [ "$MONTH" = "4" ]; then
+            echo "type=disable" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: File enable issue
+        if: steps.action.outputs.type == 'enable'
+        run: |
+          YEAR=$(date +%Y)
+          gh issue create \
+            --title "[Score Pipeline] Enable season workflows for $YEAR" \
+            --label "score-pipeline" \
+            --body "$(cat <<'ISSUE_EOF'
+          ## Action needed
+
+          The RMPA season typically begins in early-to-mid February. Enable the score ingestion workflows so the pipeline is ready before the first competition.
+
+          ### Steps
+
+          1. Go to **Actions** → each workflow listed below → **Enable workflow** (or use the `gh` CLI commands below)
+          2. Create `public/data/$YEAR/season.json` with empty show list if it doesn't exist yet
+          3. Verify `rmpa.org/competitions` has the new season's events listed
+
+          ### Workflows to enable
+
+          | Workflow | File |
+          |----------|------|
+          | Schedule Watcher | `schedule-watcher.yml` |
+          | Score Poller | `score-poller.yml` |
+          | Sunday Reconciliation | `sunday-reconciliation.yml` |
+          | Score Fallback | `score-fallback.yml` |
+
+          ### CLI commands
+
+          ```bash
+          gh workflow enable schedule-watcher.yml
+          gh workflow enable score-poller.yml
+          gh workflow enable sunday-reconciliation.yml
+          gh workflow enable score-fallback.yml
+          ```
+
+          ### Verify
+
+          After enabling, check that the next scheduled runs appear on the Actions tab for each workflow.
+
+          ---
+          *Filed automatically by the season lifecycle workflow.*
+          ISSUE_EOF
+          )"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: File disable issue
+        if: steps.action.outputs.type == 'disable'
+        run: |
+          YEAR=$(date +%Y)
+          gh issue create \
+            --title "[Score Pipeline] Disable season workflows — $YEAR season complete" \
+            --label "score-pipeline" \
+            --body "$(cat <<'ISSUE_EOF'
+          ## Action needed
+
+          The RMPA season has ended (finals typically mid-April). Disable the score ingestion workflows to avoid unnecessary cron invocations during the off-season.
+
+          ### Steps
+
+          1. Go to **Actions** → each workflow listed below → **Disable workflow** (or use the `gh` CLI commands below)
+          2. Confirm no pending score-pipeline issues remain open
+
+          ### Workflows to disable
+
+          | Workflow | File |
+          |----------|------|
+          | Schedule Watcher | `schedule-watcher.yml` |
+          | Score Poller | `score-poller.yml` |
+          | Sunday Reconciliation | `sunday-reconciliation.yml` |
+          | Score Fallback | `score-fallback.yml` |
+
+          ### CLI commands
+
+          ```bash
+          gh workflow disable schedule-watcher.yml
+          gh workflow disable score-poller.yml
+          gh workflow disable sunday-reconciliation.yml
+          gh workflow disable score-fallback.yml
+          ```
+
+          ### What stays enabled
+
+          The **Season Lifecycle** workflow (`season-lifecycle.yml`) stays enabled year-round. It will file another enable issue next January.
+
+          ---
+          *Filed automatically by the season lifecycle workflow.*
+          ISSUE_EOF
+          )"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+### Why Issues Instead of Auto-Enable/Disable?
+
+GitHub Actions does not support enabling/disabling workflows programmatically via the standard `GITHUB_TOKEN`. The [workflow enable/disable API](https://docs.github.com/en/rest/actions/workflows#enable-a-workflow) requires a PAT or GitHub App token with `actions: write` scope. Filing an issue with clear instructions is simpler, avoids storing additional secrets, and gives the maintainer a checkpoint to verify the season setup (e.g., confirming `season.json` exists for the new year).
+
+If a PAT or GitHub App is later configured for the pipeline's auto-commit functionality (see [Auto-Commit to `main`](#auto-commit-to-main)), the lifecycle workflow could be upgraded to enable/disable workflows directly.
 
 ---
 
 ## Season Lifecycle
 
-### Season Start (January–February)
+### Season Start (late January)
 
-1. Create `public/data/<year>/season.json` with empty show list and known class list
-2. Ensure `rmpa.org/competitions` has the new season's events listed
-3. Pipeline begins watching automatically
+1. **Season lifecycle workflow** files a GitHub issue with enable instructions
+2. Maintainer enables Stages 1–4 workflows and creates `public/data/<year>/season.json`
+3. Pipeline begins watching automatically when the first competition weekend arrives
 
 ### During Season (February–April)
 
@@ -620,9 +861,10 @@ Opens GitHub issues via `gh issue create` when failures occur.
 
 ### Off-Season (May–January)
 
-- No competitions = no scores posted = pipeline exits cleanly each day
-- Daily fallback check is essentially a no-op (no new links on `rmpa.org/scores`)
-- Schedule watcher finds no upcoming events
+- **Season lifecycle workflow** files a GitHub issue with disable instructions (April 30)
+- Maintainer disables Stages 1–4 workflows
+- Only the season lifecycle workflow remains enabled (2 cron entries, fires once each in January and April)
+- **Zero billable minutes** from Stages 1–4 during the off-season
 
 ---
 
@@ -632,11 +874,89 @@ Historical HTML files are already downloaded in `data/scores/2015–2025`. These
 
 ---
 
+## DST Handling & GitHub Actions Cron
+
+### The Problem
+
+The RMPA season runs February through April. Daylight Saving Time begins the **second Sunday of March**, shifting Mountain Time from MST (UTC−7) to MDT (UTC−6). A target of "2:00 PM Mountain Time" is two different UTC times depending on the date:
+
+| Period | Offset | 12:00 PM MT → UTC | 2:00 PM MT → UTC |
+|--------|--------|-------------------|-------------------|
+| Early season (Feb – mid-Mar) | MST (UTC−7) | 19:00 UTC | 21:00 UTC |
+| Late season (mid-Mar – Apr) | MDT (UTC−6) | 18:00 UTC | 20:00 UTC |
+
+GitHub Actions cron expressions are **always evaluated in UTC** — there is no timezone parameter.
+
+### Solution: Dual Cron Entries + Date Guard
+
+Each workflow uses **two cron entries** (one for MST, one for MDT) and a **date guard step** that checks whether DST is currently active. The wrong entry exits immediately, so the job only runs once at the correct local time.
+
+```yaml
+# Example: schedule-watcher.yml — target 2:00 PM Mountain Time on Thu/Fri/Sat
+on:
+  schedule:
+    # 21:00 UTC = 2:00 PM MST (used early season, before DST)
+    - cron: '0 21 * * 4,5,6'
+    # 20:00 UTC = 2:00 PM MDT (used mid-season onward, after DST)
+    - cron: '0 20 * * 4,5,6'
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check DST and skip if wrong cron fired
+        run: |
+          # Get current Mountain Time UTC offset using IANA zone
+          MT_OFFSET=$(TZ='America/Denver' date +%z)   # -0700 (MST) or -0600 (MDT)
+          IS_MDT=false
+          if [ "$MT_OFFSET" = "-0600" ]; then IS_MDT=true; fi
+
+          TRIGGER_HOUR=$(date -u +%H)  # UTC hour that triggered this run
+
+          # 21:00 UTC entry is for MST only; 20:00 UTC entry is for MDT only
+          if [ "$TRIGGER_HOUR" = "21" ] && [ "$IS_MDT" = "true" ]; then
+            echo "Skipping: 21:00 UTC cron fired but we are in MDT"
+            exit 0
+          fi
+          if [ "$TRIGGER_HOUR" = "20" ] && [ "$IS_MDT" = "false" ]; then
+            echo "Skipping: 20:00 UTC cron fired but we are in MST"
+            exit 0
+          fi
+
+          echo "DST_ACTIVE=$IS_MDT" >> "$GITHUB_ENV"
+          echo "Proceeding: correct cron for current timezone offset ($MT_OFFSET)"
+      # ... remaining steps
+```
+
+### Cron Summary
+
+| Workflow | Target (MT) | MST cron (UTC) | MDT cron (UTC) |
+|----------|------------|----------------|----------------|
+| `schedule-watcher.yml` | Thu/Fri/Sat 2:00 PM | `0 21 * * 4,5,6` | `0 20 * * 4,5,6` |
+| `score-poller.yml` | Fri/Sat 6–11 PM, every 3 min | `*/3 1-6 * * 0,6` | `*/3 0-5 * * 0,6` |
+| `sunday-reconciliation.yml` | Sun 12:00 PM | `0 19 * * 0` | `0 18 * * 0` |
+| `score-fallback.yml` | Mon–Fri 12:00 PM | `0 19 * * 1-5` | `0 18 * * 1-5` |
+| `season-lifecycle.yml` | Jan 25 + Apr 30, noon | `0 19 25 1 *` | `0 18 30 4 *` |
+
+> **Note on the score poller cron:** The Fri/Sat evening MT window crosses midnight UTC, so the cron days are Sat/Sun in UTC. The MST window (1:00–6:00 UTC) and MDT window (0:00–5:00 UTC) overlap at 1:00–5:00 UTC — the DST date guard ensures only the correct window's invocations proceed past step 1.
+
+The retreat times in `poll-state.json` are stored as **UTC timestamps** (ISO 8601), so they are inherently DST-safe. The schedule scraper must convert local times from the CompetitionSuite schedule page to UTC using the `America/Denver` timezone at parse time, which correctly accounts for whichever offset is in effect on the event date.
+
+### Why Not a Single "Early" Cron?
+
+An alternative is to schedule at the earlier UTC time (e.g., 20:00 UTC year-round for the 2 PM target) and accept that during MST the job runs at 1:00 PM MT — one hour early. This is simpler but problematic:
+
+- **Schedule watcher:** Running at 1 PM instead of 2 PM is mostly harmless but wastes one hour of lead time for catching day-of delays.
+- **Score poller:** The poller's cron window would shift by an hour, causing invocations to fire before the actual score-posting window begins — each one still exits quickly, but it's unnecessary churn.
+- **Sunday reconciliation & daily fallback:** Running at 11 AM instead of noon is fine functionally, but makes logs confusing when debugging timing issues.
+
+The dual-cron approach keeps times exact and predictable at the cost of a few extra lines of YAML. Given that each workflow is a distinct file with its own schedule block, the overhead is minimal.
+
+---
+
 ## Open Questions
 
 | Question | Status |
 |----------|--------|
-| Exact cron schedule for GitHub Actions (timezone handling) | To be determined during implementation — MT offset changes with DST |
-| Whether to store poll-schedule as a committed file or workflow artifact | Committed file is simpler and debuggable; artifact avoids repo noise |
-| Rate limiting on rmpa.org — is polling every 1–2 min acceptable? | Likely fine for a single requester; add polite User-Agent header |
+| Rate limiting on rmpa.org — is polling every ~3 min acceptable? | Likely fine for a single requester; add polite User-Agent header |
 | How to handle mid-season class changes or new classes appearing | Existing parser handles dynamically; validation should not hardcode class lists |
