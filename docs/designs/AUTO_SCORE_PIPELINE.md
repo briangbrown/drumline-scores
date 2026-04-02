@@ -57,30 +57,33 @@ Fully automated pipeline that detects when new RMPA scores are posted, downloads
 │ 3. Fetch each schedule page                           │
 │ 4. Parse "Retreat Concludes" time                     │
 │ 5. Update poll-state.json with retreat times           │
+│ 6. Rewrite score-poller.yml cron to match retreat     │
+│    window (exact UTC hours + day of week)             │
+│ 7. Enable score-poller workflow                        │
 │                                                       │
 │ Runs: Thu 2 PM, Fri 2 PM, Sat 2 PM Mountain Time     │
 │ Catches last-minute reschedules & weather delays      │
 └───────────────────────────────────────────────────────┘
                           │
                           ▼
-┌─ Stage 2: Score Poller (frequent cron, competition   ┐
-│           evenings only)                              │
+┌─ Stage 2: Score Poller (dynamic cron, set by watcher)┐
 │                                                       │
-│ Cron fires every 3 min during score-posting window.   │
+│ Cron is rewritten weekly by the schedule watcher to   │
+│ cover only the retreat window (retreat → +2 hrs) on   │
+│ the correct UTC night. No DST dual-cron needed.       │
+│                                                       │
 │ Each run:                                             │
-│  1. Read poll-state — any retreat due today?           │
-│     No → exit immediately (<5 sec billable).          │
-│  2. Is current time within the polling window?        │
+│  1. Read poll-state — any actionable retreats?        │
 │     No → exit immediately.                            │
-│  3. Fetch rmpa.org/scores — any new/changed links?   │
+│  2. Fetch rmpa.org/scores — any new/changed links?   │
 │     No → exit (light fetch, <15 sec billable).        │
-│  4. Download recap HTML, hash, compare, import.       │
-│  5. Update poll-state: mark retreat as imported,      │
+│  3. Download recap HTML, hash, compare, import.       │
+│  4. Update poll-state: mark retreat as imported,      │
 │     set cool-down expiry for corrections.             │
+│  5. Self-disable when no pending retreats remain.     │
 │                                                       │
-│ Window: retreat time → +2 hrs (or +15 min cool-down   │
-│ after last successful import). ~40 cron invocations   │
-│ per retreat, most exit in seconds.                    │
+│ On off-weeks the poller stays disabled and never      │
+│ fires. ~20 invocations per show night.                │
 └───────────────────────────────────────────────────────┘
                           │
                           ▼
@@ -143,9 +146,9 @@ Runs **three times** on competition weekends to catch last-minute reschedules:
 
 Some shows have early Regional A retreats (12:45–1:45 PM), but scores are posted as a single recap after the final retreat of the day, so the 2:00 PM watcher run is safe. The Score Poller keys off the **last** retreat time.
 
-Each run **updates `poll-state.json`** with the latest retreat times and commits the change. The Score Poller reads this file on every invocation, so a Saturday morning delay that pushes the retreat back 30 minutes is automatically reflected.
+Each run **updates `poll-state.json`** with the latest retreat times, **rewrites `score-poller.yml`** with the exact UTC polling window, **enables the poller workflow**, and commits all changes. The Score Poller reads poll-state on every invocation, and its cron only fires during the computed retreat window.
 
-**Key insight:** Shows are rarely moved _forward_ in time, but sometimes _delayed_ (weather, venue issues). Running the watcher multiple times ensures the retreat UTC timestamps shift later if the schedule changes, so the poller doesn't start checking too early and doesn't time out waiting.
+**Key insight:** Shows are rarely moved _forward_ in time, but sometimes _delayed_ (weather, venue issues). Running the watcher multiple times ensures the retreat UTC timestamps shift later if the schedule changes, and the poller cron is updated to match.
 
 ### Steps
 
@@ -154,7 +157,9 @@ Each run **updates `poll-state.json`** with the latest retreat times and commits
 3. **Fetch each schedule page** — download from `schedules.competitionsuite.com/<uuid>_standard.htm`.
 4. **Parse retreat time** — scan `schedule-row` entries for "Retreat Concludes" (preferred) or "Full Retreat" (fallback). Extract the time value, convert to UTC using `America/Denver` timezone.
 5. **Update `poll-state.json`** — add or update retreat entries for the upcoming events. Set `status: "pending"` for new retreats. Compute `windowCloseUtc` as retreat time + 2 hours. If a retreat time has changed from a previous run, update it and log the delta.
-6. **Commit `poll-state.json`** to `main`.
+6. **Rewrite `score-poller.yml` cron** — compute the UTC hours and day-of-week from pending retreats and write a single cron entry covering the polling window. If no retreats are pending, set the cron to a never-firing value.
+7. **Enable the score poller workflow** if there are pending retreats.
+8. **Commit `poll-state.json` and `score-poller.yml`** to `main`.
 
 ### How `poll-state.json` Is Populated
 
@@ -255,19 +260,19 @@ Detect new scores as quickly as possible after retreat, without burning GitHub A
 
 ### Trigger
 
-GitHub Actions cron: **every 3 minutes**, Fridays and Saturdays during the score-posting window. This sounds aggressive, but most invocations exit in under 10 seconds after reading `poll-state.json`.
+The score poller uses a **dynamic cron** that is rewritten weekly by the schedule watcher. The watcher computes the exact UTC polling window from retreat times and writes a single cron entry to `score-poller.yml`. No DST dual-cron is needed — the watcher handles the UTC conversion.
 
 ```yaml
 on:
   schedule:
-    # Every 3 minutes, Fri/Sat only
-    # MST window: 6 PM–11 PM MT = 01:00–06:00 UTC (next day)
-    - cron: '*/3 1-6 * * 0,6'
-    # MDT window: 6 PM–11 PM MT = 00:00–05:00 UTC (next day)
-    - cron: '*/3 0-5 * * 0,6'
+    # --- DYNAMIC CRON START ---
+    # Rewritten by the schedule watcher each week.
+    # Example: retreat at 8:07 PM MDT Sat = 02:07 UTC Sun
+    - cron: '*/3 2-4 * * 0'
+    # --- DYNAMIC CRON END ---
 ```
 
-> The cron fires on Saturday/Sunday UTC because Friday/Saturday evening MT crosses midnight UTC. The DST date guard (see [DST Handling](#dst-handling--github-actions-cron)) skips the wrong window.
+When no show is upcoming, the cron is set to `0 0 31 2 *` (February 31, which never fires) and the workflow is disabled. The schedule watcher re-enables it when it finds pending retreats. After a successful import (or when all retreats are resolved), the poller **self-disables**.
 
 ### State File: `poll-state.json`
 
@@ -349,17 +354,18 @@ Shows with a mid-day Regional A retreat and a later final retreat have **two ent
 
 ### Billable Minutes Estimate
 
-| Scenario | Invocations | Time per invocation | Total |
-|----------|-------------|--------------------:|------:|
-| Non-competition Friday/Saturday (no pending retreats) | ~200/weekend | ~5 sec | ~17 min |
-| Competition day, before retreat | ~60–80 | ~5 sec | ~5–7 min |
-| Competition day, polling window (no scores yet) | ~40 | ~15 sec | ~10 min |
-| Successful import + 15 min cool-down | ~5 | ~15 sec | ~1.5 min |
-| Import run itself | 1–2 | ~60 sec | ~1–2 min |
-| **Typical competition day total** | | | **~20–25 min** |
-| **Season total (~10 show days)** | | | **~4–5 hours** |
+With dynamic cron, the poller only fires on actual show nights during the retreat window. Each run bills a minimum of 1 minute.
 
-Compare to the previous long-running poller design: **~4–5 hours/season vs ~20–30 hours/season**. The frequent-cron approach is significantly cheaper because most invocations exit in seconds.
+| Workflow | Runs/season | Billed minutes |
+|----------|------------|----------------|
+| Score Poller (dynamic cron) | ~200 | ~200 |
+| Schedule Watcher (dual cron, Thu/Fri/Sat) | ~84 | ~84 |
+| Score Fallback (dual cron, Mon–Fri) | ~140 | ~140 |
+| Sunday Reconciliation (dual cron) | ~28 | ~28 |
+| Season Lifecycle | ~2 | ~2 |
+| **Total** | | **~454** |
+
+On off-weeks (no show), the poller is disabled and contributes zero runs.
 
 ### Republish Handling (State Finals Week)
 
@@ -676,8 +682,8 @@ type PollState = {
 
 ### 8. GitHub Actions Workflows
 
-- `.github/workflows/schedule-watcher.yml` — Thu/Fri/Sat 2 PM MT cron, runs Stage 1 (disabled off-season)
-- `.github/workflows/score-poller.yml` — Every 3 min Fri/Sat evenings MT, runs Stage 2 (disabled off-season)
+- `.github/workflows/schedule-watcher.yml` — Thu/Fri/Sat 2 PM MT cron, runs Stage 1; also rewrites poller cron and enables poller (disabled off-season)
+- `.github/workflows/score-poller.yml` — Dynamic cron (rewritten weekly by schedule watcher), runs Stage 2; self-disables after import (disabled off-season and between shows)
 - `.github/workflows/sunday-reconciliation.yml` — Sunday noon MT cron, runs Stage 3 (disabled off-season)
 - `.github/workflows/score-fallback.yml` — Mon–Fri noon MT cron, runs Stage 4 (disabled off-season)
 - `.github/workflows/season-lifecycle.yml` — Jan 25 + Apr 30, runs Stage 5 (**always enabled**)
@@ -937,12 +943,12 @@ jobs:
 | Workflow | Target (MT) | MST cron (UTC) | MDT cron (UTC) |
 |----------|------------|----------------|----------------|
 | `schedule-watcher.yml` | Thu/Fri/Sat 2:00 PM | `0 21 * * 4,5,6` | `0 20 * * 4,5,6` |
-| `score-poller.yml` | Fri/Sat 6–11 PM, every 3 min | `*/3 1-6 * * 0,6` | `*/3 0-5 * * 0,6` |
+| `score-poller.yml` | Dynamic (set by watcher) | *Single cron, rewritten weekly* | — |
 | `sunday-reconciliation.yml` | Sun 12:00 PM | `0 19 * * 0` | `0 18 * * 0` |
 | `score-fallback.yml` | Mon–Fri 12:00 PM | `0 19 * * 1-5` | `0 18 * * 1-5` |
 | `season-lifecycle.yml` | Jan 25 + Apr 30, noon | `0 19 25 1 *` | `0 18 30 4 *` |
 
-> **Note on the score poller cron:** The Fri/Sat evening MT window crosses midnight UTC, so the cron days are Sat/Sun in UTC. The MST window (1:00–6:00 UTC) and MDT window (0:00–5:00 UTC) overlap at 1:00–5:00 UTC — the DST date guard ensures only the correct window's invocations proceed past step 1.
+> **Note on the score poller cron:** The poller's cron is dynamically written by the schedule watcher each week. The watcher computes the exact UTC hours and day-of-week from the retreat time, so no DST dual-cron or guard is needed for the poller. Example: retreat at 8:07 PM MDT Saturday → cron `*/3 2-4 * * 0` (every 3 min, hours 2–4 UTC, Sunday). The poller self-disables after import.
 
 The retreat times in `poll-state.json` are stored as **UTC timestamps** (ISO 8601), so they are inherently DST-safe. The schedule scraper must convert local times from the CompetitionSuite schedule page to UTC using the `America/Denver` timezone at parse time, which correctly accounts for whichever offset is in effect on the event date.
 
