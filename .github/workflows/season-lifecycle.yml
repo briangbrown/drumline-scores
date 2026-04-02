@@ -126,7 +126,7 @@ jobs:
           ### Verify
 
           - [ ] Check that \`rmpa.org/competitions\` has the ${YEAR} season events listed
-          - [ ] Confirm the next scheduled runs appear on the [Actions tab](../../actions)
+          - [ ] Confirm the next scheduled runs appear on the [Actions tab](https://github.com/${GITHUB_REPOSITORY}/actions)
 
           ---
           *Filed automatically by the season lifecycle workflow.*"
