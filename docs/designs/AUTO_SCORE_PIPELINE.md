@@ -688,7 +688,7 @@ type PollState = {
 
 ### Purpose
 
-Stages 1–4 should be **disabled during the off-season** (May–January) to avoid unnecessary cron invocations and billable minutes. Two year-round cron jobs file GitHub issues with instructions to enable or disable the season workflows.
+Stages 1–4 should be **disabled during the off-season** (May–January) to avoid unnecessary cron invocations and billable minutes. A year-round lifecycle workflow automatically enables and disables the season workflows using a PAT with `actions: write` scope (stored as the `PIPELINE_PAT` repository secret).
 
 ### Historical Season Dates
 
@@ -834,21 +834,26 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-### Why Issues Instead of Auto-Enable/Disable?
+### Required Secret: `PIPELINE_PAT`
 
-GitHub Actions does not support enabling/disabling workflows programmatically via the standard `GITHUB_TOKEN`. The [workflow enable/disable API](https://docs.github.com/en/rest/actions/workflows#enable-a-workflow) requires a PAT or GitHub App token with `actions: write` scope. Filing an issue with clear instructions is simpler, avoids storing additional secrets, and gives the maintainer a checkpoint to verify the season setup (e.g., confirming `season.json` exists for the new year).
+The lifecycle workflow uses a fine-grained Personal Access Token (stored as the `PIPELINE_PAT` repository secret) to call the GitHub workflow enable/disable API. The default `GITHUB_TOKEN` does not have `actions: write` scope.
 
-If a PAT or GitHub App is later configured for the pipeline's auto-commit functionality (see [Auto-Commit to `main`](#auto-commit-to-main)), the lifecycle workflow could be upgraded to enable/disable workflows directly.
+**Setup:** Create a fine-grained PAT at [github.com/settings/tokens](https://github.com/settings/tokens) with `actions: write` permission scoped to this repository. Add it as a repository secret named `PIPELINE_PAT`.
 
 ---
 
 ## Season Lifecycle
 
-### Season Start (late January)
+### Season Start (late January) — Automatic
 
-1. **Season lifecycle workflow** files a GitHub issue with enable instructions
-2. Maintainer enables Stages 1–4 workflows and creates `public/data/<year>/season.json`
-3. Pipeline begins watching automatically when the first competition weekend arrives
+The lifecycle workflow automatically:
+
+1. Creates `public/data/<year>/season.json` if it doesn't exist
+2. Resets `public/data/poll-state.json` for the new season
+3. Commits the changes to `main`
+4. Enables Stages 1–4 workflows via the `PIPELINE_PAT`
+5. Files a summary issue with a verification checklist
+6. Pipeline begins watching automatically when the first competition weekend arrives
 
 ### During Season (February–April)
 
@@ -859,10 +864,9 @@ If a PAT or GitHub App is later configured for the pipeline's auto-commit functi
 - Daily fallback catches anything else
 - GitHub issues surface any problems requiring manual attention
 
-### Off-Season (May–January)
+### Off-Season (May–January) — Automatic
 
-- **Season lifecycle workflow** files a GitHub issue with disable instructions (April 30)
-- Maintainer disables Stages 1–4 workflows
+- **Season lifecycle workflow** disables Stages 1–4 workflows and files a summary issue (April 30)
 - Only the season lifecycle workflow remains enabled (2 cron entries, fires once each in January and April)
 - **Zero billable minutes** from Stages 1–4 during the off-season
 

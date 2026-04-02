@@ -9,65 +9,40 @@ For the implementation plan, see [`docs/plans/pipeline-implementation-plan.md`](
 
 ## Season Checklist
 
-### Pre-Season Setup (late January)
+### Pre-Season Setup (late January) — Automatic
 
-The `season-lifecycle.yml` workflow automatically files a GitHub issue on **January 25** with these instructions. You can also run it manually via `workflow_dispatch` with the `enable` action.
+On **January 25**, the `season-lifecycle.yml` workflow automatically:
 
-1. **Create the season data directory** (if it doesn't exist):
+1. Creates `public/data/<YEAR>/season.json` (if it doesn't exist)
+2. Resets `public/data/poll-state.json` for the new season
+3. Commits the changes to `main`
+4. Enables all 4 season workflows (`schedule-watcher`, `score-poller`, `sunday-reconciliation`, `score-fallback`)
+5. Files a summary issue with a verification checklist
 
-   ```bash
-   mkdir -p public/data/<YEAR>
-   ```
+**Your only task:** check the summary issue and verify `rmpa.org/competitions` has the new season's events listed.
 
-2. **Create `season.json`** for the new year:
+You can also trigger this manually: Actions → Season Lifecycle → Run workflow → select `enable`.
 
-   ```json
-   {
-     "year": <YEAR>,
-     "shows": [],
-     "classes": []
-   }
-   ```
+### Post-Season Teardown (late April) — Automatic
 
-3. **Reset `poll-state.json`** for the new season:
+On **April 30**, the `season-lifecycle.yml` workflow automatically:
 
-   ```json
-   {
-     "season": <YEAR>,
-     "retreats": [],
-     "coolDownUntilUtc": null
-   }
-   ```
+1. Disables all 4 season workflows
+2. Files a summary issue
 
-4. **Verify `rmpa.org/competitions`** has the new season's events and schedule links published.
+**Your only task:** review and close any remaining open `score-pipeline` issues.
 
-5. **Enable the season workflows:**
+`season-lifecycle.yml` stays enabled year-round and will re-enable the pipeline next January.
 
-   ```bash
-   gh workflow enable schedule-watcher.yml
-   gh workflow enable score-poller.yml
-   gh workflow enable sunday-reconciliation.yml
-   gh workflow enable score-fallback.yml
-   ```
+You can also trigger this manually: Actions → Season Lifecycle → Run workflow → select `disable`.
 
-6. **Verify** the workflows appear as enabled on the Actions tab with their next scheduled run times.
+### Required Secret: `PIPELINE_PAT`
 
-### Post-Season Teardown (late April)
+The lifecycle workflow uses a Personal Access Token to enable/disable other workflows (the default `GITHUB_TOKEN` can't do this). The PAT needs the **`actions: write`** scope.
 
-The `season-lifecycle.yml` workflow automatically files a GitHub issue on **April 30** with these instructions. You can also run it manually via `workflow_dispatch` with the `disable` action.
-
-1. **Disable the season workflows:**
-
-   ```bash
-   gh workflow disable schedule-watcher.yml
-   gh workflow disable score-poller.yml
-   gh workflow disable sunday-reconciliation.yml
-   gh workflow disable score-fallback.yml
-   ```
-
-2. **Review open `score-pipeline` issues** — close any that are no longer relevant.
-
-3. **`season-lifecycle.yml` stays enabled year-round.** It will file the next enable issue on January 25.
+To set it up:
+1. Create a fine-grained PAT at [github.com/settings/tokens](https://github.com/settings/tokens) with `actions: write` permission scoped to this repository
+2. Add it as a repository secret named `PIPELINE_PAT` at Settings → Secrets and variables → Actions
 
 ---
 
