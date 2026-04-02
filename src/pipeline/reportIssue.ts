@@ -48,8 +48,11 @@ function reportFailure(failure: IssueFailure): void {
   if (failure.failureType.includes('not posted')) labels.push('missing-scores')
   if (failure.failureType.includes('ensemble')) labels.push('new-ensemble')
 
+  const assignee = process.env['PIPELINE_ISSUE_ASSIGNEE'] ?? ''
+  const assigneeFlag = assignee ? ` --assignee "${assignee}"` : ''
+
   execSync(
-    `gh issue create --title "${title.replace(/"/g, '\\"')}" --label "${labels.join(',')}" --body "${body.replace(/"/g, '\\"').replace(/\n/g, '\\n')}"`,
+    `gh issue create --title "${title.replace(/"/g, '\\"')}" --label "${labels.join(',')}"${assigneeFlag} --body "${body.replace(/"/g, '\\"').replace(/\n/g, '\\n')}"`,
     { stdio: 'inherit' },
   )
 }

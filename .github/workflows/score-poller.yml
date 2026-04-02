@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       issues: write
+    env:
+      PIPELINE_ISSUE_ASSIGNEE: ${{ secrets.PIPELINE_ISSUE_ASSIGNEE }}
     steps:
       - uses: actions/checkout@v4
         with:
