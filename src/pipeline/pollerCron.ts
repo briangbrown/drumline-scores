@@ -60,16 +60,26 @@ function computeCronWindow(retreats: Array<RetreatEntry>): CronWindow | null {
 }
 
 /**
- * Format a CronWindow as a cron expression.
- * e.g., "* /3 2-4 * * 0" (every 3 min, hours 2-4 UTC, Sunday)
+ * Format a CronWindow as one or two cron expressions.
+ *
+ * If the hour range wraps around midnight (e.g. start=20, end=4), two
+ * cron lines are needed since cron hour ranges don't wrap.
  */
-function formatCron(window: CronWindow): string {
+function formatCron(window: CronWindow): Array<string> {
   const days = window.daysOfWeekUtc.join(',')
-  // Ensure end hour covers the full hour (cron hour ranges are inclusive)
-  const endHour = window.endHourUtc
-  const startHour = window.startHourUtc
-  const hourRange = startHour === endHour ? `${startHour}` : `${startHour}-${endHour}`
-  return `*/3 ${hourRange} * * ${days}`
+  const { startHourUtc: start, endHourUtc: end } = window
+
+  if (start <= end) {
+    // Simple range (e.g. 2-4)
+    const hourRange = start === end ? `${start}` : `${start}-${end}`
+    return [`*/3 ${hourRange} * * ${days}`]
+  }
+
+  // Wraparound (e.g. 20-4 → two entries: 20-23 and 0-4)
+  return [
+    `*/3 ${start}-23 * * ${days}`,
+    `*/3 0-${end} * * ${days}`,
+  ]
 }
 
 /**
@@ -80,13 +90,13 @@ function writePollerCron(retreats: Array<RetreatEntry>): boolean {
   const yaml = readFileSync(POLLER_WORKFLOW_PATH, 'utf-8')
   const window = computeCronWindow(retreats)
 
-  let newCronLine: string
+  let newCronLines: string
   if (window) {
-    const cron = formatCron(window)
-    newCronLine = `    - cron: '${cron}'`
+    const crons = formatCron(window)
+    newCronLines = crons.map((c) => `    - cron: '${c}'`).join('\n')
   } else {
     // No pending retreats — set a cron that never fires (Feb 31 doesn't exist)
-    newCronLine = `    - cron: '0 0 31 2 *'`
+    newCronLines = `    - cron: '0 0 31 2 *'`
   }
 
   const startIdx = yaml.indexOf(CRON_START_MARKER)
@@ -98,7 +108,7 @@ function writePollerCron(retreats: Array<RetreatEntry>): boolean {
 
   const before = yaml.slice(0, startIdx + CRON_START_MARKER.length)
   const after = yaml.slice(endIdx)
-  const updated = `${before}\n${newCronLine}\n    ${after}`
+  const updated = `${before}\n${newCronLines}\n    ${after}`
 
   if (updated === yaml) return false
 
