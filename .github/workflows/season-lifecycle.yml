@@ -20,8 +20,11 @@ jobs:
   lifecycle:
     runs-on: ubuntu-latest
     permissions:
+      contents: write
       issues: write
     steps:
+      - uses: actions/checkout@v4
+
       - name: Determine action
         id: action
         run: |
@@ -38,7 +41,65 @@ jobs:
             fi
           fi
 
-      - name: File enable issue
+      # ---------------------------------------------------------------
+      # ENABLE — create season data, reset poll-state, enable workflows
+      # ---------------------------------------------------------------
+
+      - name: Create season data
+        if: steps.action.outputs.type == 'enable'
+        run: |
+          YEAR=$(date +%Y)
+          SEASON_DIR="public/data/${YEAR}"
+          SEASON_FILE="${SEASON_DIR}/season.json"
+          POLL_STATE="public/data/poll-state.json"
+
+          mkdir -p "$SEASON_DIR"
+
+          # Create season.json if it doesn't exist
+          if [ ! -f "$SEASON_FILE" ]; then
+            echo "{
+            \"year\": ${YEAR},
+            \"shows\": [],
+            \"classes\": []
+          }" > "$SEASON_FILE"
+            echo "Created ${SEASON_FILE}"
+          else
+            echo "${SEASON_FILE} already exists — skipping"
+          fi
+
+          # Reset poll-state.json for the new season
+          echo "{
+            \"season\": ${YEAR},
+            \"retreats\": [],
+            \"coolDownUntilUtc\": null
+          }" > "$POLL_STATE"
+          echo "Reset ${POLL_STATE} for ${YEAR}"
+
+      - name: Commit season data
+        if: steps.action.outputs.type == 'enable'
+        run: |
+          git config user.name "score-pipeline[bot]"
+          git config user.email "score-pipeline[bot]@users.noreply.github.com"
+          git add public/data/
+          git diff --cached --quiet && echo "No data changes to commit" && exit 0
+          YEAR=$(date +%Y)
+          git commit -m "chore(data): initialize ${YEAR} season
+
+          Automated by: season-lifecycle"
+          git push
+
+      - name: Enable season workflows
+        if: steps.action.outputs.type == 'enable'
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT }}
+        run: |
+          WORKFLOWS="schedule-watcher.yml score-poller.yml sunday-reconciliation.yml score-fallback.yml"
+          for wf in $WORKFLOWS; do
+            gh workflow enable "$wf"
+            echo "Enabled $wf"
+          done
+
+      - name: File enable summary issue
         if: steps.action.outputs.type == 'enable'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -46,45 +107,43 @@ jobs:
           YEAR=$(date +%Y)
           gh issue create \
             --repo "$GITHUB_REPOSITORY" \
-            --title "[Score Pipeline] Enable season workflows for $YEAR" \
+            --title "[Score Pipeline] ${YEAR} season enabled" \
             --label "score-pipeline" \
-            --body "## Action needed
+            --body "## Season ${YEAR} pipeline enabled
 
-          The RMPA season typically begins in early-to-mid February. Enable the score ingestion workflows so the pipeline is ready before the first competition.
+          The following actions were taken automatically:
 
-          ### Steps
-
-          1. Go to **Actions** → each workflow listed below → **Enable workflow**
-          2. Create \`public/data/$YEAR/season.json\` with empty show list if it doesn't exist yet
-          3. Initialize \`public/data/poll-state.json\` with \`{ \"season\": $YEAR, \"retreats\": [], \"coolDownUntilUtc\": null }\`
-          4. Verify \`rmpa.org/competitions\` has the new season's events listed
-
-          ### Workflows to enable
-
-          | Workflow | File |
-          |----------|------|
-          | Schedule Watcher | \`schedule-watcher.yml\` |
-          | Score Poller | \`score-poller.yml\` |
-          | Sunday Reconciliation | \`sunday-reconciliation.yml\` |
-          | Score Fallback | \`score-fallback.yml\` |
-
-          ### CLI commands
-
-          \`\`\`bash
-          gh workflow enable schedule-watcher.yml
-          gh workflow enable score-poller.yml
-          gh workflow enable sunday-reconciliation.yml
-          gh workflow enable score-fallback.yml
-          \`\`\`
+          - [x] Created \`public/data/${YEAR}/season.json\` (if missing)
+          - [x] Reset \`public/data/poll-state.json\` for ${YEAR}
+          - [x] Enabled \`schedule-watcher.yml\`
+          - [x] Enabled \`score-poller.yml\`
+          - [x] Enabled \`sunday-reconciliation.yml\`
+          - [x] Enabled \`score-fallback.yml\`
 
           ### Verify
 
-          After enabling, check that the next scheduled runs appear on the Actions tab for each workflow.
+          - [ ] Check that \`rmpa.org/competitions\` has the ${YEAR} season events listed
+          - [ ] Confirm the next scheduled runs appear on the [Actions tab](../../actions)
 
           ---
           *Filed automatically by the season lifecycle workflow.*"
 
-      - name: File disable issue
+      # ---------------------------------------------------------------
+      # DISABLE — disable workflows
+      # ---------------------------------------------------------------
+
+      - name: Disable season workflows
+        if: steps.action.outputs.type == 'disable'
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT }}
+        run: |
+          WORKFLOWS="schedule-watcher.yml score-poller.yml sunday-reconciliation.yml score-fallback.yml"
+          for wf in $WORKFLOWS; do
+            gh workflow disable "$wf"
+            echo "Disabled $wf"
+          done
+
+      - name: File disable summary issue
         if: steps.action.outputs.type == 'disable'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -92,38 +151,22 @@ jobs:
           YEAR=$(date +%Y)
           gh issue create \
             --repo "$GITHUB_REPOSITORY" \
-            --title "[Score Pipeline] Disable season workflows — $YEAR season complete" \
+            --title "[Score Pipeline] ${YEAR} season disabled" \
             --label "score-pipeline" \
-            --body "## Action needed
+            --body "## Season ${YEAR} pipeline disabled
 
-          The RMPA season has ended (finals typically mid-April). Disable the score ingestion workflows to avoid unnecessary cron invocations during the off-season.
+          The following actions were taken automatically:
 
-          ### Steps
+          - [x] Disabled \`schedule-watcher.yml\`
+          - [x] Disabled \`score-poller.yml\`
+          - [x] Disabled \`sunday-reconciliation.yml\`
+          - [x] Disabled \`score-fallback.yml\`
 
-          1. Go to **Actions** → each workflow listed below → **Disable workflow**
-          2. Confirm no pending \`score-pipeline\` issues remain open
+          The \`season-lifecycle.yml\` workflow remains enabled and will re-enable the pipeline next January.
 
-          ### Workflows to disable
+          ### Review
 
-          | Workflow | File |
-          |----------|------|
-          | Schedule Watcher | \`schedule-watcher.yml\` |
-          | Score Poller | \`score-poller.yml\` |
-          | Sunday Reconciliation | \`sunday-reconciliation.yml\` |
-          | Score Fallback | \`score-fallback.yml\` |
-
-          ### CLI commands
-
-          \`\`\`bash
-          gh workflow disable schedule-watcher.yml
-          gh workflow disable score-poller.yml
-          gh workflow disable sunday-reconciliation.yml
-          gh workflow disable score-fallback.yml
-          \`\`\`
-
-          ### What stays enabled
-
-          The **Season Lifecycle** workflow (\`season-lifecycle.yml\`) stays enabled year-round. It will file another enable issue next January.
+          - [ ] Close any remaining open \`score-pipeline\` issues
 
           ---
           *Filed automatically by the season lifecycle workflow.*"
