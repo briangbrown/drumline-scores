@@ -20,10 +20,11 @@ jobs:
   lifecycle:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
       issues: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PIPELINE_PAT }}
 
       - name: Determine action
         id: action
@@ -75,7 +76,7 @@ jobs:
           }" > "$POLL_STATE"
           echo "Reset ${POLL_STATE} for ${YEAR}"
 
-      - name: Commit season data
+      - name: Commit and push season data
         if: steps.action.outputs.type == 'enable'
         run: |
           git config user.name "score-pipeline[bot]"
