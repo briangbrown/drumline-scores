@@ -1,0 +1,129 @@
+name: Season Lifecycle
+
+on:
+  schedule:
+    # Pre-season: January 25 at noon MST = 19:00 UTC
+    - cron: '0 19 25 1 *'
+    # Post-season: April 30 at noon MDT = 18:00 UTC
+    - cron: '0 18 30 4 *'
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Force action type'
+        required: true
+        type: choice
+        options:
+          - enable
+          - disable
+
+jobs:
+  lifecycle:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Determine action
+        id: action
+        run: |
+          if [ -n "${{ inputs.action }}" ]; then
+            echo "type=${{ inputs.action }}" >> "$GITHUB_OUTPUT"
+          else
+            MONTH=$(date +%-m)
+            if [ "$MONTH" = "1" ]; then
+              echo "type=enable" >> "$GITHUB_OUTPUT"
+            elif [ "$MONTH" = "4" ]; then
+              echo "type=disable" >> "$GITHUB_OUTPUT"
+            else
+              echo "type=none" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: File enable issue
+        if: steps.action.outputs.type == 'enable'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          YEAR=$(date +%Y)
+          gh issue create \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "[Score Pipeline] Enable season workflows for $YEAR" \
+            --label "score-pipeline" \
+            --body "## Action needed
+
+          The RMPA season typically begins in early-to-mid February. Enable the score ingestion workflows so the pipeline is ready before the first competition.
+
+          ### Steps
+
+          1. Go to **Actions** → each workflow listed below → **Enable workflow**
+          2. Create \`public/data/$YEAR/season.json\` with empty show list if it doesn't exist yet
+          3. Initialize \`public/data/poll-state.json\` with \`{ \"season\": $YEAR, \"retreats\": [], \"coolDownUntilUtc\": null }\`
+          4. Verify \`rmpa.org/competitions\` has the new season's events listed
+
+          ### Workflows to enable
+
+          | Workflow | File |
+          |----------|------|
+          | Schedule Watcher | \`schedule-watcher.yml\` |
+          | Score Poller | \`score-poller.yml\` |
+          | Sunday Reconciliation | \`sunday-reconciliation.yml\` |
+          | Score Fallback | \`score-fallback.yml\` |
+
+          ### CLI commands
+
+          \`\`\`bash
+          gh workflow enable schedule-watcher.yml
+          gh workflow enable score-poller.yml
+          gh workflow enable sunday-reconciliation.yml
+          gh workflow enable score-fallback.yml
+          \`\`\`
+
+          ### Verify
+
+          After enabling, check that the next scheduled runs appear on the Actions tab for each workflow.
+
+          ---
+          *Filed automatically by the season lifecycle workflow.*"
+
+      - name: File disable issue
+        if: steps.action.outputs.type == 'disable'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          YEAR=$(date +%Y)
+          gh issue create \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "[Score Pipeline] Disable season workflows — $YEAR season complete" \
+            --label "score-pipeline" \
+            --body "## Action needed
+
+          The RMPA season has ended (finals typically mid-April). Disable the score ingestion workflows to avoid unnecessary cron invocations during the off-season.
+
+          ### Steps
+
+          1. Go to **Actions** → each workflow listed below → **Disable workflow**
+          2. Confirm no pending \`score-pipeline\` issues remain open
+
+          ### Workflows to disable
+
+          | Workflow | File |
+          |----------|------|
+          | Schedule Watcher | \`schedule-watcher.yml\` |
+          | Score Poller | \`score-poller.yml\` |
+          | Sunday Reconciliation | \`sunday-reconciliation.yml\` |
+          | Score Fallback | \`score-fallback.yml\` |
+
+          ### CLI commands
+
+          \`\`\`bash
+          gh workflow disable schedule-watcher.yml
+          gh workflow disable score-poller.yml
+          gh workflow disable sunday-reconciliation.yml
+          gh workflow disable score-fallback.yml
+          \`\`\`
+
+          ### What stays enabled
+
+          The **Season Lifecycle** workflow (\`season-lifecycle.yml\`) stays enabled year-round. It will file another enable issue next January.
+
+          ---
+          *Filed automatically by the season lifecycle workflow.*"
