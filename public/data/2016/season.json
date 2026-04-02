@@ -5,31 +5,41 @@
       "id": "2016-rmpa-championships-april-9-united-states-air-force-academy",
       "eventName": "RMPA Championships",
       "date": "Saturday, April 9, 2016 - United States Air Force Academy",
-      "round": "Prelims"
+      "round": "Prelims",
+      "sourceHash": "8212f65b4e095134e430488915cd333e179bafe55edd891248d5b13215b4d86f",
+      "lastImportedUtc": "2026-04-02T19:45:04.810Z"
     },
     {
       "id": "2016-rmpa-competition-february-27-heritage-high-school",
       "eventName": "RMPA Competition",
       "date": "Saturday, February 27, 2016 - Heritage High School",
-      "round": ""
+      "round": "",
+      "sourceHash": "e5055d220354dbe7def47a96f41784e65e4a67e87db4a6150bd11d9eb16f7a97",
+      "lastImportedUtc": "2026-04-02T19:45:04.810Z"
     },
     {
       "id": "2016-rmpa-competition-march-12-pomona-high-school",
       "eventName": "RMPA Competition",
       "date": "Saturday, March 12, 2016 - Pomona High School",
-      "round": ""
+      "round": "",
+      "sourceHash": "44e831dad9e389b89331fa019480f209cdbc75116346b6ef9338d78f22e27bdf",
+      "lastImportedUtc": "2026-04-02T19:45:04.810Z"
     },
     {
       "id": "2016-rmpa-competition-march-19-mountain-range",
       "eventName": "RMPA Competition",
       "date": "Saturday, March 19, 2016 - Mountain Range",
-      "round": ""
+      "round": "",
+      "sourceHash": "9134abfb5018a445b5898b79161076fbe67843531c34a8915c08c28f8e96ebaf",
+      "lastImportedUtc": "2026-04-02T19:45:04.811Z"
     },
     {
       "id": "2016-rmpa-competition-march-26-longmont-high-school",
       "eventName": "RMPA Competition",
       "date": "Saturday, March 26, 2016 - Longmont High School",
-      "round": ""
+      "round": "",
+      "sourceHash": "f466bd0df0321a5ae9b6cf5658e9036b316a0f5facefab8cbdf2ab97e096cfdf",
+      "lastImportedUtc": "2026-04-02T19:45:04.811Z"
     }
   ],
   "classes": [

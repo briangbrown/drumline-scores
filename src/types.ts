@@ -157,6 +157,9 @@ export type SeasonShow = {
   eventName: string
   date: string
   round: string
+  sourceUrl?: string
+  sourceHash?: string
+  lastImportedUtc?: string
 }
 
 export type SeasonMetadata = {

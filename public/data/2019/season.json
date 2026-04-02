@@ -11,31 +11,41 @@
       "id": "2019-rmpa-contest-2-february-23",
       "eventName": "RMPA Contest #2",
       "date": "Saturday, February 23, 2019",
-      "round": ""
+      "round": "",
+      "sourceHash": "2a58596041706a8558c7222d860edfc580cbb8862e83807bed625d72e009e727",
+      "lastImportedUtc": "2026-04-02T19:45:04.818Z"
     },
     {
       "id": "2019-rmpa-contest-4-march-16",
       "eventName": "RMPA Contest #4",
       "date": "Saturday, March 16, 2019",
-      "round": ""
+      "round": "",
+      "sourceHash": "4ff4279982a0775d984f892ac97ccbc9ed6b80ffd7dc60f94ac7dae2ca5b6237",
+      "lastImportedUtc": "2026-04-02T19:45:04.819Z"
     },
     {
       "id": "2019-rmpa-contest-5-march-23",
       "eventName": "RMPA Contest #5",
       "date": "Saturday, March 23, 2019",
-      "round": ""
+      "round": "",
+      "sourceHash": "fb57cf23da65a17e4ec0d1608376229fd550b95625dadfa5a4d0bce670b57387",
+      "lastImportedUtc": "2026-04-02T19:45:04.819Z"
     },
     {
       "id": "2019-rmpa-state-championships-prelims-april-6",
       "eventName": "RMPA State Championships Prelims",
       "date": "Saturday, April 6, 2019",
-      "round": "Prelims"
+      "round": "Prelims",
+      "sourceHash": "1d32bfa9479d71b51481efc2c112a46b82e58a61775e847e8eb10f372f919766",
+      "lastImportedUtc": "2026-04-02T19:45:04.820Z"
     },
     {
       "id": "2019-rmpa-state-championships-april-6",
       "eventName": "RMPA State Championships",
       "date": "Saturday, April 6, 2019",
-      "round": "Finals"
+      "round": "Finals",
+      "sourceHash": "1d32bfa9479d71b51481efc2c112a46b82e58a61775e847e8eb10f372f919766",
+      "lastImportedUtc": "2026-04-02T19:45:04.820Z"
     }
   ],
   "classes": [

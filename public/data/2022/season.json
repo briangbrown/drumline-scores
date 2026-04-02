@@ -5,61 +5,81 @@
       "id": "2022-rmpa-show-1-february-19",
       "eventName": "RMPA Show #1",
       "date": "Saturday, February 19, 2022",
-      "round": ""
+      "round": "",
+      "sourceHash": "2671965bbaefc5e7ce343e658b796149bbffc94f0d00e696de7e1dde8127b882",
+      "lastImportedUtc": "2026-04-02T19:45:04.824Z"
     },
     {
       "id": "2022-rmpa-show-2-february-26",
       "eventName": "RMPA Show #2",
       "date": "Saturday, February 26, 2022",
-      "round": ""
+      "round": "",
+      "sourceHash": "e4ac3c00dd660c2c462b532491197dac57c7f83b396986a46a2bb182a43e6b66",
+      "lastImportedUtc": "2026-04-02T19:45:04.824Z"
     },
     {
       "id": "2022-rmpa-show-2-virtual-february-26",
       "eventName": "RMPA Show #2 - Virtual",
       "date": "Saturday, February 26, 2022",
-      "round": ""
+      "round": "",
+      "sourceHash": "e4ac3c00dd660c2c462b532491197dac57c7f83b396986a46a2bb182a43e6b66",
+      "lastImportedUtc": "2026-04-02T19:45:04.825Z"
     },
     {
       "id": "2022-rmpa-show-3-march-5",
       "eventName": "RMPA Show #3",
       "date": "Saturday, March 5, 2022",
-      "round": ""
+      "round": "",
+      "sourceHash": "d171247f3ba4248eb4aff6ef65c61441e792a364ad1e0959ac4b19b414b3dcbe",
+      "lastImportedUtc": "2026-04-02T19:45:04.825Z"
     },
     {
       "id": "2022-rmpa-show-4-march-19",
       "eventName": "RMPA Show #4",
       "date": "Saturday, March 19, 2022",
-      "round": ""
+      "round": "",
+      "sourceHash": "4d9d9daaab49c552cdcd27becd0ecfd1e79908d1f0983508a9837c7aba01da3c",
+      "lastImportedUtc": "2026-04-02T19:45:04.825Z"
     },
     {
       "id": "2022-rmpa-show-4-virtual-march-19",
       "eventName": "RMPA Show #4 - Virtual",
       "date": "Saturday, March 19, 2022",
-      "round": ""
+      "round": "",
+      "sourceHash": "4d9d9daaab49c552cdcd27becd0ecfd1e79908d1f0983508a9837c7aba01da3c",
+      "lastImportedUtc": "2026-04-02T19:45:04.825Z"
     },
     {
       "id": "2022-rmpa-championship-prelims-virtual-april-2",
       "eventName": "RMPA Championship Prelims - Virtual",
       "date": "Saturday, April 2, 2022",
-      "round": ""
+      "round": "",
+      "sourceHash": "a3070a86681520a7dc223e0691f7d26e3ca141f2932552474869dabab77e9f46",
+      "lastImportedUtc": "2026-04-02T19:45:04.826Z"
     },
     {
       "id": "2022-rmpa-championships-april-2",
       "eventName": "RMPA Championships",
       "date": "Saturday, April 2, 2022",
-      "round": "Prelims"
+      "round": "Prelims",
+      "sourceHash": "a3070a86681520a7dc223e0691f7d26e3ca141f2932552474869dabab77e9f46",
+      "lastImportedUtc": "2026-04-02T19:45:04.826Z"
     },
     {
       "id": "2022-rmpa-championship-finals-virtual-april-15",
       "eventName": "RMPA Championship Finals - Virtual",
       "date": "Friday, April 15, 2022",
-      "round": ""
+      "round": "",
+      "sourceHash": "b98c7e3c7d7ff4adedbc77a416279d3ce3ccb392be66632bf35fb216b97510d6",
+      "lastImportedUtc": "2026-04-02T19:45:04.826Z"
     },
     {
       "id": "2022-rmpa-championships-april-16",
       "eventName": "RMPA Championships",
       "date": "Saturday, April 16, 2022",
-      "round": "Finals"
+      "round": "Finals",
+      "sourceHash": "2d327d766ce7ed1c01bf2d685424faed537f87206e284e67dca761a59aed8623",
+      "lastImportedUtc": "2026-04-02T19:45:04.827Z"
     }
   ],
   "classes": [

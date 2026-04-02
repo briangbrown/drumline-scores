@@ -5,13 +5,17 @@
       "id": "2021-rmpa-regular-season-show-1-march-5",
       "eventName": "RMPA Regular Season Show #1",
       "date": "Friday, March 5, 2021",
-      "round": ""
+      "round": "",
+      "sourceHash": "2db3e02ac9d2fd8a2d2bcbee29e97bb42c295b8de18181a1d9cba53315e1f155",
+      "lastImportedUtc": "2026-04-02T19:45:04.822Z"
     },
     {
       "id": "2021-rmpa-regular-season-show-2-march-13",
       "eventName": "RMPA Regular Season Show #2",
       "date": "Saturday, March 13, 2021",
-      "round": ""
+      "round": "",
+      "sourceHash": "a259c6e22dd5a747e411381aa448fd2fe40bd4cda6e03ecad625d24182fd7205",
+      "lastImportedUtc": "2026-04-02T19:45:04.823Z"
     },
     {
       "id": "2021-rmpa-regular-season-show-3-march-20",
@@ -23,13 +27,17 @@
       "id": "2021-rmpa-championships-april-2",
       "eventName": "RMPA Championships",
       "date": "Friday, April 2, 2021",
-      "round": "Prelims"
+      "round": "Prelims",
+      "sourceHash": "6199b427f9e910a1e82cf9a96b534ca6c742228729d3c3071044e58e6c9eb9fb",
+      "lastImportedUtc": "2026-04-02T19:45:04.823Z"
     },
     {
       "id": "2021-rmpa-championships-april-9",
       "eventName": "RMPA Championships",
       "date": "Friday, April 9, 2021",
-      "round": "Finals"
+      "round": "Finals",
+      "sourceHash": "3489d5b5e9bc47ff424fbb186dd17d8a2db44cf91f45730df6b8a7184fd203b5",
+      "lastImportedUtc": "2026-04-02T19:45:04.823Z"
     }
   ],
   "classes": [

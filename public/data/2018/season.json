@@ -5,37 +5,49 @@
       "id": "2018-contest-1-february-24",
       "eventName": "Contest #1",
       "date": "Saturday, February 24, 2018",
-      "round": ""
+      "round": "",
+      "sourceHash": "9a81120a32542b082b1fa1f3099a0b533d276cd0b0f68e373ddab432615090b5",
+      "lastImportedUtc": "2026-04-02T19:45:04.815Z"
     },
     {
       "id": "2018-contest-2-march-3",
       "eventName": "Contest #2",
       "date": "Saturday, March 3, 2018",
-      "round": ""
+      "round": "",
+      "sourceHash": "4afe18436795cdf4c153a7a39d7200a25da35460e268e4dfcb7cbdee926b4769",
+      "lastImportedUtc": "2026-04-02T19:45:04.815Z"
     },
     {
       "id": "2018-contest-3-march-10",
       "eventName": "Contest #3",
       "date": "Saturday, March 10, 2018",
-      "round": ""
+      "round": "",
+      "sourceHash": "922a1c78844765bf83ce9640986504427710735a611c444f1670128e9a0c401a",
+      "lastImportedUtc": "2026-04-02T19:45:04.815Z"
     },
     {
       "id": "2018-contest-4-march-24",
       "eventName": "Contest #4",
       "date": "Saturday, March 24, 2018",
-      "round": ""
+      "round": "",
+      "sourceHash": "d54a08c6f324a9569fd032912f94782c977e52878460c00849f771b6dfc30835",
+      "lastImportedUtc": "2026-04-02T19:45:04.816Z"
     },
     {
       "id": "2018-contest-5-march-31",
       "eventName": "Contest #5",
       "date": "Saturday, March 31, 2018",
-      "round": ""
+      "round": "",
+      "sourceHash": "1145e4e3becae9e7daf5bddd47bf8857970675354f5209c50cd6cccc714574b1",
+      "lastImportedUtc": "2026-04-02T19:45:04.816Z"
     },
     {
       "id": "2018-rmpa-state-championships-april-14",
       "eventName": "RMPA State Championships",
       "date": "Saturday, April 14, 2018",
-      "round": "Prelims"
+      "round": "Prelims",
+      "sourceHash": "dc91e34a791d626f88445e380961237abce114aa3e57ca73cc0a34d5bfda9f43",
+      "lastImportedUtc": "2026-04-02T19:45:04.817Z"
     }
   ],
   "classes": [

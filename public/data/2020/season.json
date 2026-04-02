@@ -5,19 +5,25 @@
       "id": "2020-rmpa-contest-1-february-15",
       "eventName": "RMPA Contest #1",
       "date": "Saturday, February 15, 2020",
-      "round": ""
+      "round": "",
+      "sourceHash": "8fedc75d7a9e0532dbd2a89e743c251a63c31d2f54030d456e2ff9267d961792",
+      "lastImportedUtc": "2026-04-02T19:45:04.821Z"
     },
     {
       "id": "2020-rmpa-contest-2-february-22",
       "eventName": "RMPA Contest #2",
       "date": "Saturday, February 22, 2020",
-      "round": ""
+      "round": "",
+      "sourceHash": "8e48ea5cb96483d4fcab72d858716f2cbdd2467269f223705148d266a1603468",
+      "lastImportedUtc": "2026-04-02T19:45:04.821Z"
     },
     {
       "id": "2020-rmpa-contest-3-february-29",
       "eventName": "RMPA contest #3",
       "date": "Saturday, February 29, 2020",
-      "round": ""
+      "round": "",
+      "sourceHash": "fab74b1798d6cd68303efb7ad7cd406b5179a8ff66d34951b52102a5ff34a812",
+      "lastImportedUtc": "2026-04-02T19:45:04.822Z"
     }
   ],
   "classes": [

@@ -5,43 +5,57 @@
       "id": "2024-rmpa-show-1-february-10",
       "eventName": "RMPA Show #1",
       "date": "Saturday, February 10, 2024",
-      "round": ""
+      "round": "",
+      "sourceHash": "a3af0b5cc62d33b1a908ea8c9fe2ced74632fc3d8fdff4f70ded38c400e1b164",
+      "lastImportedUtc": "2026-04-02T19:45:04.831Z"
     },
     {
       "id": "2024-rmpa-show-2-february-17",
       "eventName": "RMPA Show #2",
       "date": "Saturday, February 17, 2024",
-      "round": ""
+      "round": "",
+      "sourceHash": "6de9ea5791d1096a2cf56cb4e1246f9636e1b1b67f6aeb934b35636989fa7944",
+      "lastImportedUtc": "2026-04-02T19:45:04.832Z"
     },
     {
       "id": "2024-rmpa-show-3-march-2",
       "eventName": "RMPA Show #3",
       "date": "Saturday, March 2, 2024",
-      "round": ""
+      "round": "",
+      "sourceHash": "e111c1859b07e12fc24411a920be43a19cd59f54e9c4192aaf3e3b934ce85376",
+      "lastImportedUtc": "2026-04-02T19:45:04.832Z"
     },
     {
       "id": "2024-rmpa-show-4-march-16",
       "eventName": "RMPA Show #4",
       "date": "Saturday, March 16, 2024",
-      "round": ""
+      "round": "",
+      "sourceHash": "ba2e5ac10d0854e5682ed756c8f347c1b0525a329fa38f979b83f8cad2f86e31",
+      "lastImportedUtc": "2026-04-02T19:45:04.833Z"
     },
     {
       "id": "2024-rmpa-show-5-march-23",
       "eventName": "RMPA Show #5",
       "date": "Saturday, March 23, 2024",
-      "round": ""
+      "round": "",
+      "sourceHash": "3ffe34223f782e36094f35478435a01c004b169f76b27c4743a6d1fbbb07a0da",
+      "lastImportedUtc": "2026-04-02T19:45:04.834Z"
     },
     {
       "id": "2024-rmpa-championships-march-30",
       "eventName": "RMPA Championships",
       "date": "Saturday, March 30, 2024",
-      "round": "Prelims"
+      "round": "Prelims",
+      "sourceHash": "e8780c65bdb94aa5e81b92e8f527c302098f275dd9096025ccd38439d9a5ff10",
+      "lastImportedUtc": "2026-04-02T19:45:04.834Z"
     },
     {
       "id": "2024-rmpa-championships-april-13",
       "eventName": "RMPA Championships",
       "date": "Saturday, April 13, 2024",
-      "round": "Finals"
+      "round": "Finals",
+      "sourceHash": "725d22950a49779c7176674ccfb07f2ed0acdeae495f219ea66ce12721d268c6",
+      "lastImportedUtc": "2026-04-02T19:45:04.835Z"
     }
   ],
   "classes": [
