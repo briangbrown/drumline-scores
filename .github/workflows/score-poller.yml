@@ -1,4 +1,4 @@
-name: Score Poller
+name: "Pipeline: Score Poller"
 
 on:
   schedule:

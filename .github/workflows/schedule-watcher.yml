@@ -1,4 +1,4 @@
-name: Schedule Watcher
+name: "Pipeline: Schedule Watcher"
 
 on:
   schedule:

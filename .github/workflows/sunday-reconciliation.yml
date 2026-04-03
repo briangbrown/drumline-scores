@@ -1,4 +1,4 @@
-name: Sunday Reconciliation
+name: "Pipeline: Sunday Reconciliation"
 
 on:
   schedule:
