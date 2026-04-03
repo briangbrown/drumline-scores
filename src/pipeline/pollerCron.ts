@@ -21,8 +21,10 @@ const CRON_END_MARKER = '# --- DYNAMIC CRON END ---'
 type CronWindow = {
   startHourUtc: number
   endHourUtc: number
-  dayOfWeekUtc: number
+  dayOfMonthUtc: number
+  monthUtc: number
   retreatUtc: string
+  retreatMt: string
   isFinal: boolean
 }
 
@@ -41,8 +43,10 @@ function computeCronWindows(retreats: Array<RetreatEntry>): Array<CronWindow> {
       return {
         startHourUtc: retreatDate.getUTCHours(),
         endHourUtc: closeDate.getUTCHours(),
-        dayOfWeekUtc: retreatDate.getUTCDay(),
+        dayOfMonthUtc: retreatDate.getUTCDate(),
+        monthUtc: retreatDate.getUTCMonth() + 1,
         retreatUtc: r.retreatUtc,
+        retreatMt: formatMountainTime(retreatDate),
         isFinal: r.isFinal ?? true,
       }
     })
@@ -50,9 +54,33 @@ function computeCronWindows(retreats: Array<RetreatEntry>): Array<CronWindow> {
 }
 
 /**
+ * Format a UTC Date as a short Mountain Time string for cron comments.
+ * e.g. "Sat 8:07 PM MDT" or "Sat 5:28 PM MST"
+ */
+function formatMountainTime(date: Date): string {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/Denver',
+    weekday: 'short',
+    hour: 'numeric',
+    minute: '2-digit',
+    hour12: true,
+    timeZoneName: 'short',
+  }).formatToParts(date)
+
+  const weekday = parts.find((p) => p.type === 'weekday')?.value ?? ''
+  const hour = parts.find((p) => p.type === 'hour')?.value ?? ''
+  const minute = parts.find((p) => p.type === 'minute')?.value ?? ''
+  const dayPeriod = parts.find((p) => p.type === 'dayPeriod')?.value ?? ''
+  const tz = parts.find((p) => p.type === 'timeZoneName')?.value ?? ''
+
+  return `${weekday} ${hour}:${minute} ${dayPeriod} ${tz}`
+}
+
+/**
  * Format CronWindows as YAML lines with metadata comments.
  *
  * Each window produces two lines: a metadata comment and a cron entry.
+ * Cron uses day-of-month + month (not day-of-week) for date specificity.
  * Returns a never-fire cron if windows is empty.
  */
 function formatCronEntries(windows: Array<CronWindow>): Array<string> {
@@ -63,8 +91,8 @@ function formatCronEntries(windows: Array<CronWindow>): Array<string> {
     const hourRange = w.startHourUtc === w.endHourUtc
       ? `${w.startHourUtc}`
       : `${w.startHourUtc}-${w.endHourUtc}`
-    lines.push(`# retreat:${w.retreatUtc} final:${w.isFinal}`)
-    lines.push(`- cron: '*/3 ${hourRange} * * ${w.dayOfWeekUtc}'`)
+    lines.push(`# retreat:${w.retreatUtc} mt:${w.retreatMt} final:${w.isFinal}`)
+    lines.push(`- cron: '*/3 ${hourRange} ${w.dayOfMonthUtc} ${w.monthUtc} *'`)
   }
   return lines
 }
@@ -100,5 +128,5 @@ function writePollerCron(retreats: Array<RetreatEntry>): boolean {
 // Exports
 // ---------------------------------------------------------------------------
 
-export { computeCronWindows, formatCronEntries, writePollerCron, POLLER_WORKFLOW_PATH }
+export { computeCronWindows, formatCronEntries, formatMountainTime, writePollerCron, POLLER_WORKFLOW_PATH }
 export type { CronWindow }
