@@ -5,8 +5,6 @@ on:
     # --- DYNAMIC CRON START ---
     # retreat:2026-04-05T02:07:00.000Z final:true
     - cron: '*/3 2-4 * * 0'
-    # retreat:2026-04-05T02:37:00.000Z final:true
-    - cron: '*/3 2-4 * * 0'
     # --- DYNAMIC CRON END ---
   workflow_dispatch: {}
 
