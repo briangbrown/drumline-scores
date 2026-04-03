@@ -846,9 +846,9 @@ jobs:
 
 ### Required Secret: `PIPELINE_PAT`
 
-The lifecycle workflow uses a fine-grained Personal Access Token (stored as the `PIPELINE_PAT` repository secret) to call the GitHub workflow enable/disable API. The default `GITHUB_TOKEN` does not have `actions: write` scope.
+The pipeline uses a fine-grained Personal Access Token (stored as the `PIPELINE_PAT` repository secret) to enable/disable workflows and push changes to workflow files (`.github/workflows/`). The default `GITHUB_TOKEN` cannot do either.
 
-**Setup:** Create a fine-grained PAT at [github.com/settings/tokens](https://github.com/settings/tokens) with `actions: write` permission scoped to this repository. Add it as a repository secret named `PIPELINE_PAT`.
+**Setup:** Create a fine-grained PAT at [github.com/settings/tokens](https://github.com/settings/tokens) with `actions: write`, `contents: write`, and `workflows: write` permissions scoped to this repository. Add it as a repository secret named `PIPELINE_PAT`.
 
 ---
 
