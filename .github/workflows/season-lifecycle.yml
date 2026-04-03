@@ -2,10 +2,12 @@ name: Season Lifecycle
 
 on:
   schedule:
-    # Pre-season: January 25 at noon MST = 19:00 UTC
-    - cron: '0 19 25 1 *'
-    # Post-season: April 30 at noon MDT = 18:00 UTC
-    - cron: '0 18 30 4 *'
+    # Pre-season: January 25 at noon Mountain time
+    - cron: '0 12 25 1 *'
+      timezone: America/Denver
+    # Post-season: April 30 at noon Mountain time
+    - cron: '0 12 30 4 *'
+      timezone: America/Denver
   workflow_dispatch:
     inputs:
       action:

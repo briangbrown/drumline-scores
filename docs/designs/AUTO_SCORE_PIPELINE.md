@@ -130,7 +130,7 @@ Runs **three times** on competition weekends to catch last-minute reschedules:
 | Friday | 2:00 PM MT | Refresh — picks up any Friday schedule changes before Saturday shows. Also re-checks Friday prelims retreat time if a show is that evening. |
 | Saturday | 2:00 PM MT | Final refresh — catches day-of delays (weather, etc.). Runs well before any retreat (earliest main retreats are ~5 PM MT). |
 
-> **DST note:** The cron uses MDT (20:00 UTC). During MST early season this fires at ~1 PM MT instead of 2 PM — acceptable since the watcher just needs to run before evening retreats.
+> **Timezone:** The cron uses `timezone: America/Denver`, so it fires at exactly 2 PM Mountain time year-round regardless of DST.
 
 **Retreat time survey (2026 season):**
 
@@ -382,7 +382,7 @@ After a successful import, `coolDownUntilUtc` is set to now + 15 minutes. Subseq
 
 ### Trigger
 
-GitHub Actions cron: Sunday at ~12:00 PM MT (18:00 UTC — exact at MDT, 1 hour early during MST).
+GitHub Actions cron: Sunday at 12:00 PM Mountain time (`timezone: America/Denver`).
 
 ### Purpose
 
@@ -407,7 +407,7 @@ Catch score corrections made after competition day. It's common for directors to
 
 ### Trigger
 
-GitHub Actions cron: daily at ~12:00 PM MT (18:00 UTC — exact at MDT, 1 hour early during MST), Monday through Friday.
+GitHub Actions cron: daily at 12:00 PM Mountain time (`timezone: America/Denver`), Monday through Friday.
 
 ### Steps
 
@@ -686,11 +686,11 @@ type PollState = {
 
 ### 8. GitHub Actions Workflows
 
-- `.github/workflows/schedule-watcher.yml` — Thu/Fri/Sat ~2 PM MT (single MDT cron), runs Stage 1; rewrites poller with per-retreat cron windows and enables poller (disabled off-season)
-- `.github/workflows/score-poller.yml` — Per-retreat dynamic cron (rewritten by schedule watcher), runs Stage 2; removes completed windows and self-disables after all imports (disabled off-season and between shows)
-- `.github/workflows/sunday-reconciliation.yml` — Sunday ~noon MT (single MDT cron), runs Stage 3 (disabled off-season)
-- `.github/workflows/score-fallback.yml` — Mon–Fri ~noon MT (single MDT cron), runs Stage 4 (disabled off-season)
-- `.github/workflows/season-lifecycle.yml` — Jan 25 + Apr 30, runs Stage 5 (**always enabled**)
+- `.github/workflows/schedule-watcher.yml` — Thu/Fri/Sat 2 PM MT (`timezone: America/Denver`), runs Stage 1; rewrites poller with per-retreat cron windows and enables poller (disabled off-season)
+- `.github/workflows/score-poller.yml` — Per-retreat dynamic cron in UTC (rewritten by schedule watcher), runs Stage 2; removes completed windows and self-disables after all imports (disabled off-season and between shows)
+- `.github/workflows/sunday-reconciliation.yml` — Sunday noon MT (`timezone: America/Denver`), runs Stage 3 (disabled off-season)
+- `.github/workflows/score-fallback.yml` — Mon–Fri noon MT (`timezone: America/Denver`), runs Stage 4 (disabled off-season)
+- `.github/workflows/season-lifecycle.yml` — Jan 25 + Apr 30 noon MT (`timezone: America/Denver`), runs Stage 5 (**always enabled**)
 
 ---
 
@@ -729,12 +729,12 @@ A single workflow with **two cron entries** that runs year-round. It is the only
 name: Season Lifecycle
 on:
   schedule:
-    # Pre-season: January 25 at noon MT
-    # MST (Jan is always MST): noon = 19:00 UTC
-    - cron: '0 19 25 1 *'
-    # Post-season: April 30 at noon MT
-    # MDT (Apr is always MDT): noon = 18:00 UTC
-    - cron: '0 18 30 4 *'
+    # Pre-season: January 25 at noon Mountain time
+    - cron: '0 12 25 1 *'
+      timezone: America/Denver
+    # Post-season: April 30 at noon Mountain time
+    - cron: '0 12 30 4 *'
+      timezone: America/Denver
 
 jobs:
   lifecycle:
@@ -892,33 +892,25 @@ Historical HTML files are already downloaded in `data/scores/2015–2025`. These
 
 ### Background
 
-The RMPA season runs February through April. Daylight Saving Time begins the **second Sunday of March**, shifting Mountain Time from MST (UTC−7) to MDT (UTC−6). GitHub Actions cron expressions are **always evaluated in UTC**.
+The RMPA season runs February through April. Daylight Saving Time begins the **second Sunday of March**, shifting Mountain Time from MST (UTC−7) to MDT (UTC−6).
 
-### Approach: Single MDT Cron
+### Approach: Native Timezone Support
 
-All static-schedule workflows use a **single cron entry** based on MDT (UTC−6). During the early season (MST, UTC−7) they run approximately 1 hour earlier in Mountain Time. This is acceptable because:
-
-- **Schedule watcher:** Running at 1 PM instead of 2 PM is harmless — it just checks for schedule updates earlier.
-- **Sunday reconciliation & daily fallback:** Running at 11 AM instead of noon has no functional impact.
-- **Score poller:** Uses per-retreat dynamic cron written in exact UTC, so DST is irrelevant.
-
-This eliminates the need for dual cron entries and DST guard scripts, halving the number of workflow invocations for static-schedule workflows.
+All static-schedule workflows use GitHub Actions' native `timezone` field on their cron entries, specifying `America/Denver`. Times are written in Mountain time and automatically adjust for DST — no manual conversion or guard scripts needed.
 
 ### Cron Summary
 
-| Workflow | Target (MT) | Cron (UTC) |
-|----------|------------|------------|
-| `schedule-watcher.yml` | Thu/Fri/Sat ~2 PM | `0 20 * * 4,5,6` |
-| `score-poller.yml` | Dynamic (per-retreat) | *Rewritten by watcher* |
-| `sunday-reconciliation.yml` | Sun ~noon | `0 18 * * 0` |
-| `score-fallback.yml` | Mon–Fri ~noon | `0 18 * * 1-5` |
-| `season-lifecycle.yml` | Jan 25 + Apr 30, noon | `0 19 25 1 *` / `0 18 30 4 *` |
+| Workflow | Time (MT) | Cron | Timezone |
+|----------|-----------|------|----------|
+| `schedule-watcher.yml` | Thu/Fri/Sat 2 PM | `0 14 * * 4,5,6` | `America/Denver` |
+| `score-poller.yml` | Dynamic (per-retreat) | *Rewritten by watcher* | UTC (exact) |
+| `sunday-reconciliation.yml` | Sun noon | `0 12 * * 0` | `America/Denver` |
+| `score-fallback.yml` | Mon–Fri noon | `0 12 * * 1-5` | `America/Denver` |
+| `season-lifecycle.yml` | Jan 25 + Apr 30, noon | `0 12 25 1 *` / `0 12 30 4 *` | `America/Denver` |
 
 > **Note on the score poller cron:** The poller's cron is dynamically written by the schedule watcher using exact UTC from retreat times. Each pending retreat gets its own cron entry with metadata comments for targeted removal. Example: retreat at 8:07 PM MDT Saturday → cron `*/3 2-4 * * 0` (every 3 min, hours 2–4 UTC, Sunday). The poller removes completed windows after each import and self-disables when done.
 
 The retreat times in `poll-state.json` are stored as **UTC timestamps** (ISO 8601), so they are inherently DST-safe. The schedule scraper converts local times from the CompetitionSuite schedule page to UTC using the `America/Denver` timezone at parse time, which correctly accounts for whichever offset is in effect on the event date.
-
-The dual-cron approach keeps times exact and predictable at the cost of a few extra lines of YAML. Given that each workflow is a distinct file with its own schedule block, the overhead is minimal.
 
 ---
 
