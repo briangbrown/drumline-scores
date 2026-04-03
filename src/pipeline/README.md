@@ -38,10 +38,10 @@ You can also trigger this manually: Actions → Season Lifecycle → Run workflo
 
 ### Required Secret: `PIPELINE_PAT`
 
-The lifecycle workflow uses a Personal Access Token to enable/disable other workflows (the default `GITHUB_TOKEN` can't do this). The PAT needs the **`actions: write`** and **`contents: write`** scopes.
+The lifecycle workflow uses a Personal Access Token to enable/disable other workflows and push workflow file changes (the default `GITHUB_TOKEN` can't do this). The PAT needs the **`actions: write`**, **`contents: write`**, and **`workflows: write`** scopes.
 
 To set it up:
-1. Create a fine-grained PAT at [github.com/settings/tokens](https://github.com/settings/tokens) with `actions: write` and `contents: write` permissions scoped to this repository
+1. Create a fine-grained PAT at [github.com/settings/tokens](https://github.com/settings/tokens) with `actions: write`, `contents: write`, and `workflows: write` permissions scoped to this repository
 2. Add it as a repository secret named `PIPELINE_PAT` at Settings → Secrets and variables → Actions
 
 ---
