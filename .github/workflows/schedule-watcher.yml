@@ -2,8 +2,9 @@ name: Schedule Watcher
 
 on:
   schedule:
-    # Thu/Fri/Sat ~2 PM Mountain (MDT=2PM, MST=1PM — off by 1h early season is fine)
-    - cron: '0 20 * * 4,5,6'
+    # Thu/Fri/Sat at 2 PM Mountain time
+    - cron: '0 14 * * 4,5,6'
+      timezone: America/Denver
   workflow_dispatch: {}
 
 jobs:

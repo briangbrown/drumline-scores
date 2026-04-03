@@ -2,8 +2,9 @@ name: Score Fallback
 
 on:
   schedule:
-    # Mon-Fri ~noon Mountain (MDT=noon, MST=11AM — off by 1h early season is fine)
-    - cron: '0 18 * * 1-5'
+    # Mon–Fri at noon Mountain time
+    - cron: '0 12 * * 1-5'
+      timezone: America/Denver
   workflow_dispatch: {}
 
 jobs:

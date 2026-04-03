@@ -2,8 +2,9 @@ name: Sunday Reconciliation
 
 on:
   schedule:
-    # Sunday ~noon Mountain (MDT=noon, MST=11AM — off by 1h early season is fine)
-    - cron: '0 18 * * 0'
+    # Sunday at noon Mountain time
+    - cron: '0 12 * * 0'
+      timezone: America/Denver
   workflow_dispatch: {}
 
 jobs:

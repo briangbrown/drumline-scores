@@ -52,11 +52,11 @@ To set it up:
 
 | Stage | Workflow | Schedule | Purpose |
 |-------|----------|----------|---------|
-| 1 | `schedule-watcher.yml` | Thu/Fri/Sat ~2 PM MT | Fetch schedules, parse retreat times, write poller cron, enable poller |
-| 2 | `score-poller.yml` | Dynamic cron (per-retreat windows set by watcher) | Poll for new/changed scores during retreat window, self-disables after import |
-| 3 | `sunday-reconciliation.yml` | Sunday ~noon MT | Re-check weekend recaps for score corrections |
-| 4 | `score-fallback.yml` | Mon–Fri ~noon MT | Catch anything the other stages missed |
-| 5 | `season-lifecycle.yml` | Jan 25 + Apr 30 | Enable/disable season workflows (always enabled) |
+| 1 | `schedule-watcher.yml` | Thu/Fri/Sat 2 PM MT | Fetch schedules, parse retreat times, write poller cron, enable poller |
+| 2 | `score-poller.yml` | Dynamic cron (per-retreat UTC windows set by watcher) | Poll for new/changed scores during retreat window, self-disables after import |
+| 3 | `sunday-reconciliation.yml` | Sunday noon MT | Re-check weekend recaps for score corrections |
+| 4 | `score-fallback.yml` | Mon–Fri noon MT | Catch anything the other stages missed |
+| 5 | `season-lifecycle.yml` | Jan 25 + Apr 30 noon MT | Enable/disable season workflows (always enabled) |
 
 ### Dynamic Poller Scheduling
 
@@ -99,11 +99,9 @@ rmpa.org/scores → download → parse → validate → commit to main → self-
 
 ## DST Handling
 
-All workflows use a **single cron entry** based on MDT (UTC−6). During the early season (MST, UTC−7) they run approximately 1 hour earlier in Mountain Time — this is acceptable since none of these jobs are time-critical to the minute.
+All static-schedule workflows use GitHub Actions' native `timezone: America/Denver` on their cron entries. Times are specified in Mountain time and automatically adjust for DST — no manual action required.
 
 The **score poller** cron is dynamically written in exact UTC by the schedule watcher, so it is always correct regardless of DST.
-
-No DST guard scripts are needed — no manual action required at the DST boundary.
 
 ---
 
