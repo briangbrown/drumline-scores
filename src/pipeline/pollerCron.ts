@@ -19,6 +19,7 @@ const CRON_START_MARKER = '# --- DYNAMIC CRON START ---'
 const CRON_END_MARKER = '# --- DYNAMIC CRON END ---'
 
 type CronWindow = {
+  startMinuteUtc: number
   startHourUtc: number
   endHourUtc: number
   dayOfMonthUtc: number
@@ -41,6 +42,7 @@ function computeCronWindows(retreats: Array<RetreatEntry>): Array<CronWindow> {
       const retreatDate = new Date(r.retreatUtc)
       const closeDate = new Date(r.windowCloseUtc)
       return {
+        startMinuteUtc: retreatDate.getUTCMinutes(),
         startHourUtc: retreatDate.getUTCHours(),
         endHourUtc: closeDate.getUTCHours(),
         dayOfMonthUtc: retreatDate.getUTCDate(),
@@ -88,11 +90,12 @@ function formatCronEntries(windows: Array<CronWindow>): Array<string> {
 
   const lines: Array<string> = []
   for (const w of windows) {
+    const minuteExpr = w.startMinuteUtc === 0 ? '*/5' : `${w.startMinuteUtc}/5`
     const hourRange = w.startHourUtc === w.endHourUtc
       ? `${w.startHourUtc}`
       : `${w.startHourUtc}-${w.endHourUtc}`
     lines.push(`# retreat:${w.retreatUtc} mt:${w.retreatMt} final:${w.isFinal}`)
-    lines.push(`- cron: '*/3 ${hourRange} ${w.dayOfMonthUtc} ${w.monthUtc} *'`)
+    lines.push(`- cron: '${minuteExpr} ${hourRange} ${w.dayOfMonthUtc} ${w.monthUtc} *'`)
   }
   return lines
 }
