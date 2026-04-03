@@ -114,14 +114,24 @@ describe('markRetreatImported', () => {
     expect(updated.coolDownUntilUtc).toBe(expectedCoolDown)
   })
 
-  it('should not modify other retreats', () => {
-    const entry1 = makeRetreatEntry('2026-03-01', 'Show #1 (Regional A)', '2026-03-01T20:00:00Z')
+  it('should not modify other retreats when importing a non-final retreat', () => {
+    const entry1 = makeRetreatEntry('2026-03-01', 'Show #1 (Regional A)', '2026-03-01T20:00:00Z', false)
     const entry2 = makeRetreatEntry('2026-03-01', 'Show #1 (Final)', '2026-03-02T01:00:00Z')
     const state = makeState({ retreats: [entry1, entry2] })
     const updated = markRetreatImported(state, '2026-03-01T20:00:00Z', 'abc', new Date())
 
     expect(updated.retreats[0].status).toBe('imported')
     expect(updated.retreats[1].status).toBe('pending')
+  })
+
+  it('should resolve same-day pending retreats when importing a final retreat', () => {
+    const entry1 = makeRetreatEntry('2026-03-01', 'Show #1 (Regional A)', '2026-03-01T20:00:00Z', false)
+    const entry2 = makeRetreatEntry('2026-03-01', 'Show #1 (Final)', '2026-03-02T01:00:00Z')
+    const state = makeState({ retreats: [entry1, entry2] })
+    const updated = markRetreatImported(state, '2026-03-02T01:00:00Z', 'abc', new Date())
+
+    expect(updated.retreats[0].status).toBe('imported') // auto-resolved
+    expect(updated.retreats[1].status).toBe('imported')
   })
 })
 
@@ -145,18 +155,18 @@ describe('addOrUpdateRetreat', () => {
     expect(updated.retreats[0].eventName).toBe('Show #1')
   })
 
-  it('should update a pending retreat with the same date and retreatUtc', () => {
-    const entry = makeRetreatEntry('2026-03-01', 'Show #1', '2026-03-01T23:00:00Z')
+  it('should update a pending retreat with the same date and eventName', () => {
+    const entry = makeRetreatEntry('2026-03-01', 'Show #1 — Retreat', '2026-03-01T23:00:00Z')
     const state = makeState({ retreats: [entry] })
+    // Same eventName, different time (rescheduled later)
     const updated = addOrUpdateRetreat(state, {
       ...entry,
-      eventName: 'Show #1 (Delayed)',
-      retreatUtc: '2026-03-01T23:00:00Z',
+      retreatUtc: '2026-03-01T23:30:00Z',
       windowCloseUtc: '2026-03-02T01:30:00Z',
     })
 
     expect(updated.retreats).toHaveLength(1)
-    expect(updated.retreats[0].eventName).toBe('Show #1 (Delayed)')
+    expect(updated.retreats[0].retreatUtc).toBe('2026-03-01T23:30:00Z')
   })
 
   it('should not overwrite an imported retreat', () => {
@@ -167,7 +177,7 @@ describe('addOrUpdateRetreat', () => {
       lastImportedUtc: '2026-03-01T23:30:00Z',
     }
     const state = makeState({ retreats: [entry] })
-    const updated = addOrUpdateRetreat(state, makeRetreatEntry('2026-03-01', 'Show #1 NEW', '2026-03-01T23:00:00Z'))
+    const updated = addOrUpdateRetreat(state, makeRetreatEntry('2026-03-01', 'Show #1', '2026-03-01T23:30:00Z'))
 
     expect(updated.retreats[0].eventName).toBe('Show #1')
     expect(updated.retreats[0].status).toBe('imported')

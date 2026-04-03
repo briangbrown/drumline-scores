@@ -26,6 +26,7 @@ import { hashContent, compareHash } from './contentHash'
 import { parseScorePage, filterByYear } from './scrapeScores'
 import { parseScheduleRetreats, localTimeToUtc } from './scrapeSchedule'
 import { validateShowData } from './validate'
+import { computeCronWindows } from './pollerCron'
 import { parseRecapHtml } from '../parser'
 
 // ---------------------------------------------------------------------------
@@ -138,16 +139,15 @@ describe('Season Simulation — 2025 model', () => {
 
     it('should update retreat time when schedule changes (delay)', () => {
       let state = emptyPollState(2025)
-      const original = makeRetreatEntry('2026-02-14', 'Show', '2026-02-15T00:28:00.000Z')
+      const original = makeRetreatEntry('2026-02-14', 'Show — Retreat', '2026-02-15T00:28:00.000Z')
       state = addOrUpdateRetreat(state, original)
 
-      // Schedule delayed by 30 minutes
-      const delayed = makeRetreatEntry('2026-02-14', 'Show (Delayed)', '2026-02-15T00:28:00.000Z')
-      delayed.windowCloseUtc = '2026-02-15T02:58:00.000Z' // extended window
+      // Schedule delayed by 30 minutes — same event name, later time
+      const delayed = makeRetreatEntry('2026-02-14', 'Show — Retreat', '2026-02-15T00:58:00.000Z')
       state = addOrUpdateRetreat(state, delayed)
 
       expect(state.retreats).toHaveLength(1)
-      expect(state.retreats[0].eventName).toBe('Show (Delayed)')
+      expect(state.retreats[0].retreatUtc).toBe('2026-02-15T00:58:00.000Z')
     })
   })
 
@@ -408,6 +408,213 @@ describe('Season Simulation — 2025 model', () => {
       const may = new Date('2025-05-01T18:00:00Z')
       expect(hasWork(state, may)).toBe(false)
       expect(findActionableRetreats(state, may)).toHaveLength(0)
+    })
+  })
+
+  // -------------------------------------------------------------------------
+  // Multi-retreat scenarios
+  // -------------------------------------------------------------------------
+
+  describe('Scenario 2a: double retreat, scores posted mid-day', () => {
+    it('should import mid-day scores, then updated scores after evening retreat', () => {
+      let state = emptyPollState(2026)
+
+      // Schedule watcher adds two retreats for the same show day
+      const midDay = makeRetreatEntry(
+        '2026-02-28', 'Show — Regional A Retreat', '2026-02-28T19:45:00.000Z', false,
+      )
+      const evening = makeRetreatEntry(
+        '2026-02-28', 'Show — Retreat', '2026-03-01T01:55:00.000Z',
+      )
+      state = addOrUpdateRetreat(state, midDay)
+      state = addOrUpdateRetreat(state, evening)
+      expect(state.retreats).toHaveLength(2)
+
+      // Two distinct cron windows
+      let windows = computeCronWindows(state.retreats)
+      expect(windows).toHaveLength(2)
+
+      // Mid-day: scores posted after Regional A retreat (~20:15 UTC)
+      const midDayTime = new Date('2026-02-28T20:15:00Z')
+      let actionable = findActionableRetreats(state, midDayTime)
+      expect(actionable).toHaveLength(1)
+      expect(actionable[0].eventName).toContain('Regional A')
+      expect(actionable[0].isFinal).toBe(false)
+
+      // Import mid-day scores (non-final — does NOT resolve same-day)
+      const hash1 = hashContent(loadRecap(RECAP_FILES[0]))
+      state = markRetreatImported(state, midDay.retreatUtc, hash1, midDayTime)
+      expect(state.retreats[0].status).toBe('imported')
+      expect(state.retreats[1].status).toBe('pending')
+
+      // Only evening cron window remains
+      windows = computeCronWindows(state.retreats)
+      expect(windows).toHaveLength(1)
+      expect(windows[0].isFinal).toBe(true)
+
+      // Evening: updated scores posted after final retreat
+      const eveningTime = new Date('2026-03-01T02:30:00Z')
+      actionable = findActionableRetreats(state, eveningTime)
+      expect(actionable).toHaveLength(1)
+
+      const hash2 = hashContent(loadRecap(RECAP_FILES[1]))
+      state = markRetreatImported(state, evening.retreatUtc, hash2, eveningTime)
+
+      // Both imported, no more cron windows
+      expect(state.retreats.every((r) => r.status === 'imported')).toBe(true)
+      expect(computeCronWindows(state.retreats)).toHaveLength(0)
+    })
+  })
+
+  describe('Scenario 2b: double retreat, no scores posted mid-day', () => {
+    it('should resolve orphaned mid-day retreat when final retreat is imported', () => {
+      let state = emptyPollState(2026)
+
+      const midDay = makeRetreatEntry(
+        '2026-02-28', 'Show — Regional A Retreat', '2026-02-28T19:45:00.000Z', false,
+      )
+      const evening = makeRetreatEntry(
+        '2026-02-28', 'Show — Retreat', '2026-03-01T01:55:00.000Z',
+      )
+      state = addOrUpdateRetreat(state, midDay)
+      state = addOrUpdateRetreat(state, evening)
+
+      // Mid-day window passes with no scores posted
+      const afterMidDay = new Date('2026-02-28T22:00:00Z')
+      expect(findActionableRetreats(state, afterMidDay)).toHaveLength(0)
+      expect(state.retreats[0].status).toBe('pending') // still pending, window closed
+
+      // Gap between mid-day close (21:45) and evening start (01:55)
+      const betweenWindows = new Date('2026-02-28T23:30:00Z')
+      expect(findActionableRetreats(state, betweenWindows)).toHaveLength(0)
+
+      // Evening: all scores posted after final retreat
+      const eveningTime = new Date('2026-03-01T02:30:00Z')
+      const actionable = findActionableRetreats(state, eveningTime)
+      expect(actionable).toHaveLength(1)
+      expect(actionable[0].isFinal).toBe(true)
+
+      // Final retreat import resolves all same-day pending retreats
+      const hash = hashContent(loadRecap(RECAP_FILES[0]))
+      state = markRetreatImported(state, evening.retreatUtc, hash, eveningTime)
+
+      expect(state.retreats[0].status).toBe('imported') // mid-day auto-resolved
+      expect(state.retreats[1].status).toBe('imported') // evening imported
+      expect(computeCronWindows(state.retreats)).toHaveLength(0)
+    })
+  })
+
+  describe('Scenario 3: back-to-back Fri+Sat, double retreats each', () => {
+    it('should progressively resolve retreats across both days', () => {
+      let state = emptyPollState(2026)
+
+      const friMid = makeRetreatEntry('2026-03-27', 'Fri — Regional A', '2026-03-27T19:45:00.000Z', false)
+      const friEve = makeRetreatEntry('2026-03-27', 'Fri — Retreat', '2026-03-28T01:55:00.000Z')
+      const satMid = makeRetreatEntry('2026-03-28', 'Sat — Regional A', '2026-03-28T19:45:00.000Z', false)
+      const satEve = makeRetreatEntry('2026-03-28', 'Sat — Retreat', '2026-03-29T01:55:00.000Z')
+      state = addOrUpdateRetreat(state, friMid)
+      state = addOrUpdateRetreat(state, friEve)
+      state = addOrUpdateRetreat(state, satMid)
+      state = addOrUpdateRetreat(state, satEve)
+
+      expect(state.retreats).toHaveLength(4)
+      expect(computeCronWindows(state.retreats)).toHaveLength(4)
+
+      // Friday evening import (final) resolves Friday mid-day too
+      const hash1 = hashContent(loadRecap(RECAP_FILES[0]))
+      state = markRetreatImported(state, friEve.retreatUtc, hash1, new Date('2026-03-28T02:30:00Z'))
+
+      const imported = state.retreats.filter((r) => r.status === 'imported')
+      expect(imported).toHaveLength(2) // both Friday retreats
+      expect(computeCronWindows(state.retreats)).toHaveLength(2) // only Saturday windows
+
+      // Saturday evening import (final) resolves Saturday mid-day too
+      const hash2 = hashContent(loadRecap(RECAP_FILES[1]))
+      state = markRetreatImported(state, satEve.retreatUtc, hash2, new Date('2026-03-29T02:30:00Z'))
+
+      expect(state.retreats.every((r) => r.status === 'imported')).toBe(true)
+      expect(computeCronWindows(state.retreats)).toHaveLength(0)
+    })
+  })
+
+  describe('Scenario 4: back-to-back Fri+Sat, single retreats', () => {
+    it('should handle consecutive nights with separate cron windows', () => {
+      let state = emptyPollState(2026)
+
+      const fri = makeRetreatEntry('2026-03-27', 'Fri Show — Retreat', '2026-03-28T02:07:00.000Z')
+      const sat = makeRetreatEntry('2026-03-28', 'Sat Show — Retreat', '2026-03-29T02:07:00.000Z')
+      state = addOrUpdateRetreat(state, fri)
+      state = addOrUpdateRetreat(state, sat)
+
+      let windows = computeCronWindows(state.retreats)
+      expect(windows).toHaveLength(2)
+
+      // Import Friday scores
+      const hash1 = hashContent(loadRecap(RECAP_FILES[0]))
+      state = markRetreatImported(state, fri.retreatUtc, hash1, new Date('2026-03-28T02:30:00Z'))
+      windows = computeCronWindows(state.retreats)
+      expect(windows).toHaveLength(1)
+      expect(windows[0].retreatUtc).toBe(sat.retreatUtc)
+
+      // Import Saturday scores
+      const hash2 = hashContent(loadRecap(RECAP_FILES[1]))
+      state = markRetreatImported(state, sat.retreatUtc, hash2, new Date('2026-03-29T02:30:00Z'))
+      expect(state.retreats.every((r) => r.status === 'imported')).toBe(true)
+      expect(computeCronWindows(state.retreats)).toHaveLength(0)
+    })
+  })
+
+  describe('Reschedule: retreat moved later on show day', () => {
+    it('should update retreat time and cron window when rescheduled', () => {
+      let state = emptyPollState(2026)
+
+      // Thursday watcher: retreat at 8:07 PM MST = 02:07 UTC
+      const original = makeRetreatEntry('2026-02-14', 'Monarch HS — Retreat', '2026-02-15T02:07:00.000Z')
+      state = addOrUpdateRetreat(state, original)
+
+      let windows = computeCronWindows(state.retreats)
+      expect(windows[0].startHourUtc).toBe(2)
+
+      // Saturday watcher: retreat delayed to 9:07 PM MST = 03:07 UTC (same eventName)
+      const delayed = makeRetreatEntry('2026-02-14', 'Monarch HS — Retreat', '2026-02-15T03:07:00.000Z')
+      state = addOrUpdateRetreat(state, delayed)
+
+      // Should update existing entry, not add a duplicate
+      expect(state.retreats).toHaveLength(1)
+      expect(state.retreats[0].retreatUtc).toBe('2026-02-15T03:07:00.000Z')
+
+      // Cron window reflects the delayed time
+      windows = computeCronWindows(state.retreats)
+      expect(windows[0].startHourUtc).toBe(3)
+      expect(windows[0].endHourUtc).toBe(5)
+    })
+  })
+
+  describe('Two shows a week apart', () => {
+    it('should not union cron windows from different weeks', () => {
+      let state = emptyPollState(2026)
+
+      // This Saturday
+      const thisWeek = makeRetreatEntry('2026-02-14', 'Show A — Retreat', '2026-02-15T02:07:00.000Z')
+      // Next Saturday
+      const nextWeek = makeRetreatEntry('2026-02-21', 'Show B — Retreat', '2026-02-22T02:07:00.000Z')
+      state = addOrUpdateRetreat(state, thisWeek)
+      state = addOrUpdateRetreat(state, nextWeek)
+
+      const windows = computeCronWindows(state.retreats)
+      expect(windows).toHaveLength(2)
+
+      // Each gets its own distinct window — no merged week-long cron
+      expect(windows[0].retreatUtc).toBe('2026-02-15T02:07:00.000Z')
+      expect(windows[1].retreatUtc).toBe('2026-02-22T02:07:00.000Z')
+
+      // Import this week — next week unaffected
+      const hash = hashContent(loadRecap(RECAP_FILES[0]))
+      state = markRetreatImported(state, thisWeek.retreatUtc, hash, new Date('2026-02-15T02:30:00Z'))
+
+      const remaining = computeCronWindows(state.retreats)
+      expect(remaining).toHaveLength(1)
+      expect(remaining[0].retreatUtc).toBe('2026-02-22T02:07:00.000Z')
     })
   })
 })

@@ -52,10 +52,10 @@ To set it up:
 
 | Stage | Workflow | Schedule | Purpose |
 |-------|----------|----------|---------|
-| 1 | `schedule-watcher.yml` | Thu/Fri/Sat 2 PM MT (dual cron for DST) | Fetch schedules, parse retreat times, write poller cron, enable poller |
-| 2 | `score-poller.yml` | Dynamic cron (set by schedule watcher) | Poll for new/changed scores during retreat window, self-disables after import |
-| 3 | `sunday-reconciliation.yml` | Sunday noon MT (dual cron for DST) | Re-check weekend recaps for score corrections |
-| 4 | `score-fallback.yml` | Mon–Fri noon MT (dual cron for DST) | Catch anything the other stages missed |
+| 1 | `schedule-watcher.yml` | Thu/Fri/Sat ~2 PM MT | Fetch schedules, parse retreat times, write poller cron, enable poller |
+| 2 | `score-poller.yml` | Dynamic cron (per-retreat windows set by watcher) | Poll for new/changed scores during retreat window, self-disables after import |
+| 3 | `sunday-reconciliation.yml` | Sunday ~noon MT | Re-check weekend recaps for score corrections |
+| 4 | `score-fallback.yml` | Mon–Fri ~noon MT | Catch anything the other stages missed |
 | 5 | `season-lifecycle.yml` | Jan 25 + Apr 30 | Enable/disable season workflows (always enabled) |
 
 ### Dynamic Poller Scheduling
@@ -63,13 +63,15 @@ To set it up:
 The score poller does **not** use a static cron. Instead:
 
 1. The **schedule watcher** parses retreat times from `rmpa.org/competitions`
-2. It computes the exact UTC polling window (retreat time to +2 hours)
-3. It rewrites `score-poller.yml`'s cron entry to cover only that window on the correct night
+2. It computes one polling window per pending retreat (retreat time to +2 hours)
+3. It rewrites `score-poller.yml` with distinct cron entries per retreat, each tagged with metadata comments (`# retreat:<utc> final:<bool>`)
 4. It enables the poller workflow and commits both `poll-state.json` and `score-poller.yml`
 
-After a successful import (or when all retreats are resolved), the **poller self-disables**. On weeks with no show, the poller never fires.
+Each retreat entry in `poll-state.json` has an `isFinal` flag. When a final retreat is imported, all same-day pending retreats (e.g., a mid-day Regional A retreat) are automatically resolved.
 
-This keeps billing low — the poller only runs ~200 times per season instead of ~6,700.
+After a successful import, the poller rewrites the cron to remove completed windows. When no pending retreats remain, it self-disables. On weeks with no show, the poller never fires.
+
+**Double-retreat shows:** Some shows have a mid-day Regional A retreat and a later evening retreat. Both get their own cron window. Scores may be posted after the mid-day retreat (partial results) and updated after the evening retreat (final results). The poller handles both cases.
 
 ### Data Flow
 
@@ -97,11 +99,11 @@ rmpa.org/scores → download → parse → validate → commit to main → self-
 
 ## DST Handling
 
-The **schedule watcher**, **Sunday reconciliation**, and **score fallback** use **dual cron entries** — one for MST (UTC−7, early season) and one for MDT (UTC−6, mid-March onward). A DST guard script runs first and skips the invocation if the wrong cron fired.
+All workflows use a **single cron entry** based on MDT (UTC−6). During the early season (MST, UTC−7) they run approximately 1 hour earlier in Mountain Time — this is acceptable since none of these jobs are time-critical to the minute.
 
-The **score poller** does not need DST handling — its cron is dynamically written in UTC by the schedule watcher each week.
+The **score poller** cron is dynamically written in exact UTC by the schedule watcher, so it is always correct regardless of DST.
 
-This is automatic — no manual action needed at the DST boundary.
+No DST guard scripts are needed — no manual action required at the DST boundary.
 
 ---
 
@@ -171,7 +173,6 @@ src/pipeline/
 ├── integration.test.ts   # Full season simulation tests
 ├── pollerCron.test.ts    # Cron computation tests
 └── cli/
-    ├── dstGuard.ts       # DST-aware cron guard (used by watcher, reconciler, fallback)
     ├── watchSchedule.ts  # Stage 1 — parse schedules, write poller cron, enable poller
     ├── pollScores.ts     # Stage 2 — poll for scores, self-disable when done
     ├── reconcile.ts      # Stage 3 entry point
