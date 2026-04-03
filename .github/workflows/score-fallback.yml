@@ -2,9 +2,7 @@ name: Score Fallback
 
 on:
   schedule:
-    # Mon-Fri noon MST = 19:00 UTC
-    - cron: '0 19 * * 1-5'
-    # Mon-Fri noon MDT = 18:00 UTC
+    # Mon-Fri ~noon Mountain (MDT=noon, MST=11AM — off by 1h early season is fine)
     - cron: '0 18 * * 1-5'
   workflow_dispatch: {}
 
@@ -26,10 +24,6 @@ jobs:
           cache: npm
 
       - run: npm ci
-
-      - name: DST guard
-        run: npx tsx src/pipeline/cli/dstGuard.ts --mst-hour 19 --mdt-hour 18
-        if: github.event_name == 'schedule'
 
       - name: Check for new or updated scores
         run: npx tsx src/pipeline/cli/fallback.ts

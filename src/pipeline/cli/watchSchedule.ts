@@ -70,7 +70,7 @@ async function main(): Promise<void> {
 
     for (const retreat of retreats) {
       const utc = localTimeToUtc(event.date, retreat.localTime)
-      const entry = makeRetreatEntry(event.date, `${event.eventName} — ${retreat.label}`, utc)
+      const entry = makeRetreatEntry(event.date, `${event.eventName} — ${retreat.label}`, utc, retreat.isFinal)
 
       const oldRetreat = state.retreats.find(
         (r) => r.date === entry.date && r.retreatUtc === entry.retreatUtc,

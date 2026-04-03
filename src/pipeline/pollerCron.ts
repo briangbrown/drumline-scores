@@ -1,11 +1,12 @@
 /**
  * Compute and write the score-poller cron schedule based on retreat times.
  *
- * The schedule watcher calls this after parsing retreat times. It rewrites
- * the score-poller.yml cron entry to cover only the actual polling window
- * (retreat time to +2 hours), on the correct UTC day of week.
+ * Each pending retreat gets its own cron window (retreat time to +2 hours)
+ * on the correct UTC day of week. Metadata comments in the YAML tie each
+ * cron entry to a specific retreat for targeted removal after import.
  *
- * This eliminates DST dual-cron and avoids polling on off-nights.
+ * The schedule watcher calls writePollerCron after parsing retreat times.
+ * The poller also calls it after each import to remove completed windows.
  */
 
 import { readFileSync, writeFileSync } from 'node:fs'
@@ -13,73 +14,59 @@ import type { RetreatEntry } from './pollState'
 
 const POLLER_WORKFLOW_PATH = '.github/workflows/score-poller.yml'
 
-// Marker comments in the YAML that bracket the dynamic cron line
+// Marker comments in the YAML that bracket the dynamic cron lines
 const CRON_START_MARKER = '# --- DYNAMIC CRON START ---'
 const CRON_END_MARKER = '# --- DYNAMIC CRON END ---'
 
 type CronWindow = {
   startHourUtc: number
   endHourUtc: number
-  daysOfWeekUtc: Array<number>
+  dayOfWeekUtc: number
+  retreatUtc: string
+  isFinal: boolean
 }
 
 /**
- * Compute the polling window from pending retreat entries.
- * Returns null if there are no pending retreats.
+ * Compute one polling window per pending retreat.
+ * Returns windows sorted chronologically by retreat time.
  */
-function computeCronWindow(retreats: Array<RetreatEntry>): CronWindow | null {
+function computeCronWindows(retreats: Array<RetreatEntry>): Array<CronWindow> {
   const pending = retreats.filter((r) => r.status === 'pending')
-  if (pending.length === 0) return null
+  if (pending.length === 0) return []
 
-  // Find the earliest retreat start and latest window close
-  let earliestUtcMs = Infinity
-  let latestUtcMs = -Infinity
-  const daysSet = new Set<number>()
-
-  for (const retreat of pending) {
-    const retreatMs = new Date(retreat.retreatUtc).getTime()
-    const closeMs = new Date(retreat.windowCloseUtc).getTime()
-    earliestUtcMs = Math.min(earliestUtcMs, retreatMs)
-    latestUtcMs = Math.max(latestUtcMs, closeMs)
-
-    // Collect all UTC days the window spans
-    const retreatDate = new Date(retreat.retreatUtc)
-    const closeDate = new Date(retreat.windowCloseUtc)
-    daysSet.add(retreatDate.getUTCDay())
-    daysSet.add(closeDate.getUTCDay())
-  }
-
-  const startHourUtc = new Date(earliestUtcMs).getUTCHours()
-  const endHourUtc = new Date(latestUtcMs).getUTCHours()
-
-  return {
-    startHourUtc,
-    endHourUtc,
-    daysOfWeekUtc: Array.from(daysSet).sort(),
-  }
+  return pending
+    .map((r) => {
+      const retreatDate = new Date(r.retreatUtc)
+      const closeDate = new Date(r.windowCloseUtc)
+      return {
+        startHourUtc: retreatDate.getUTCHours(),
+        endHourUtc: closeDate.getUTCHours(),
+        dayOfWeekUtc: retreatDate.getUTCDay(),
+        retreatUtc: r.retreatUtc,
+        isFinal: r.isFinal ?? true,
+      }
+    })
+    .sort((a, b) => new Date(a.retreatUtc).getTime() - new Date(b.retreatUtc).getTime())
 }
 
 /**
- * Format a CronWindow as one or two cron expressions.
+ * Format CronWindows as YAML lines with metadata comments.
  *
- * If the hour range wraps around midnight (e.g. start=20, end=4), two
- * cron lines are needed since cron hour ranges don't wrap.
+ * Each window produces two lines: a metadata comment and a cron entry.
+ * Returns a never-fire cron if windows is empty.
  */
-function formatCron(window: CronWindow): Array<string> {
-  const days = window.daysOfWeekUtc.join(',')
-  const { startHourUtc: start, endHourUtc: end } = window
+function formatCronEntries(windows: Array<CronWindow>): Array<string> {
+  if (windows.length === 0) return ["- cron: '0 0 31 2 *'"]
 
-  if (start <= end) {
-    // Simple range (e.g. 2-4)
-    const hourRange = start === end ? `${start}` : `${start}-${end}`
-    return [`*/3 ${hourRange} * * ${days}`]
+  const lines: Array<string> = []
+  for (const w of windows) {
+    const hourRange = w.startHourUtc === w.endHourUtc
+      ? `${w.startHourUtc}`
+      : `${w.startHourUtc}-${w.endHourUtc}`
+    lines.push(`# retreat:${w.retreatUtc} final:${w.isFinal}`)
+    lines.push(`- cron: '*/3 ${hourRange} * * ${w.dayOfWeekUtc}'`)
   }
-
-  // Wraparound (e.g. 20-4 → two entries: 20-23 and 0-4)
-  return [
-    `*/3 ${start}-23 * * ${days}`,
-    `*/3 0-${end} * * ${days}`,
-  ]
+  return lines
 }
 
 /**
@@ -88,16 +75,9 @@ function formatCron(window: CronWindow): Array<string> {
  */
 function writePollerCron(retreats: Array<RetreatEntry>): boolean {
   const yaml = readFileSync(POLLER_WORKFLOW_PATH, 'utf-8')
-  const window = computeCronWindow(retreats)
-
-  let newCronLines: string
-  if (window) {
-    const crons = formatCron(window)
-    newCronLines = crons.map((c) => `    - cron: '${c}'`).join('\n')
-  } else {
-    // No pending retreats — set a cron that never fires (Feb 31 doesn't exist)
-    newCronLines = `    - cron: '0 0 31 2 *'`
-  }
+  const windows = computeCronWindows(retreats)
+  const entryLines = formatCronEntries(windows)
+  const newCronBlock = entryLines.map((line) => `    ${line}`).join('\n')
 
   const startIdx = yaml.indexOf(CRON_START_MARKER)
   const endIdx = yaml.indexOf(CRON_END_MARKER)
@@ -108,7 +88,7 @@ function writePollerCron(retreats: Array<RetreatEntry>): boolean {
 
   const before = yaml.slice(0, startIdx + CRON_START_MARKER.length)
   const after = yaml.slice(endIdx)
-  const updated = `${before}\n${newCronLines}\n    ${after}`
+  const updated = `${before}\n${newCronBlock}\n    ${after}`
 
   if (updated === yaml) return false
 
@@ -120,5 +100,5 @@ function writePollerCron(retreats: Array<RetreatEntry>): boolean {
 // Exports
 // ---------------------------------------------------------------------------
 
-export { computeCronWindow, formatCron, writePollerCron, POLLER_WORKFLOW_PATH }
+export { computeCronWindows, formatCronEntries, writePollerCron, POLLER_WORKFLOW_PATH }
 export type { CronWindow }

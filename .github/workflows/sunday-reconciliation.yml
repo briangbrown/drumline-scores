@@ -2,9 +2,7 @@ name: Sunday Reconciliation
 
 on:
   schedule:
-    # Sunday noon MST = 19:00 UTC
-    - cron: '0 19 * * 0'
-    # Sunday noon MDT = 18:00 UTC
+    # Sunday ~noon Mountain (MDT=noon, MST=11AM — off by 1h early season is fine)
     - cron: '0 18 * * 0'
   workflow_dispatch: {}
 
@@ -26,10 +24,6 @@ jobs:
           cache: npm
 
       - run: npm ci
-
-      - name: DST guard
-        run: npx tsx src/pipeline/cli/dstGuard.ts --mst-hour 19 --mdt-hour 18
-        if: github.event_name == 'schedule'
 
       - name: Reconcile weekend scores
         run: npx tsx src/pipeline/cli/reconcile.ts
