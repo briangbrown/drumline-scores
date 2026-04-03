@@ -2,14 +2,18 @@
  * Schedule Watcher CLI — Stage 1
  *
  * Fetches rmpa.org/competitions, parses schedule pages for retreat times,
- * and updates poll-state.json with pending retreat entries.
+ * and updates poll-state.json with pending retreat entries. Also rewrites
+ * the score-poller cron schedule to match the retreat window and enables
+ * the poller workflow.
  *
  * Usage: npx tsx src/pipeline/cli/watchSchedule.ts [--dry-run]
  */
 
 import { readPollState, writePollState, addOrUpdateRetreat, makeRetreatEntry, emptyPollState } from '../pollState'
 import { parseCompetitionsPage, parseScheduleRetreats, localTimeToUtc, filterUpcomingEvents } from '../scrapeSchedule'
+import { writePollerCron, POLLER_WORKFLOW_PATH } from '../pollerCron'
 import { existsSync } from 'node:fs'
+import { execSync } from 'node:child_process'
 
 const POLL_STATE_PATH = 'data/poll-state.json'
 const COMPETITIONS_URL = 'https://rmpa.org/competitions'
@@ -79,13 +83,32 @@ async function main(): Promise<void> {
     }
   }
 
-  // Write updated state
+  // Write updated state and poller cron
   if (isDryRun) {
     console.log('\n[Dry run] Would write poll-state.json:')
     console.log(JSON.stringify(state, null, 2))
   } else {
     writePollState(POLL_STATE_PATH, state)
     console.log('\nUpdated poll-state.json')
+
+    // Rewrite poller cron to match retreat window
+    const cronChanged = writePollerCron(state.retreats)
+    if (cronChanged) {
+      console.log(`Updated ${POLLER_WORKFLOW_PATH} with new cron schedule`)
+    } else {
+      console.log('Poller cron unchanged')
+    }
+
+    // Enable the poller if there are pending retreats
+    const hasPending = state.retreats.some((r) => r.status === 'pending')
+    if (hasPending) {
+      try {
+        execSync('gh workflow enable score-poller.yml', { stdio: 'inherit' })
+        console.log('Enabled score-poller workflow')
+      } catch {
+        console.log('⚠ Could not enable score-poller (may already be enabled)')
+      }
+    }
   }
 }
 

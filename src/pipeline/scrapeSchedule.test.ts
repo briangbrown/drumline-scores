@@ -94,6 +94,24 @@ describe('parseScheduleRetreats — split retreat', () => {
   })
 })
 
+describe('parseScheduleRetreats — excludes non-retreat entries', () => {
+  it('should exclude "Retreat Concludes" labels', () => {
+    const html = `
+      <div class="schedule-row schedule-row--custom">
+        <div class="schedule-row__custom">Full Retreat</div>
+        <div class="schedule-row__time">8:07 PM</div>
+      </div>
+      <div class="schedule-row schedule-row--custom">
+        <div class="schedule-row__custom">Retreat Concludes</div>
+        <div class="schedule-row__time">8:37 PM</div>
+      </div>
+    `
+    const retreats = parseScheduleRetreats(html)
+    expect(retreats).toHaveLength(1)
+    expect(retreats[0].label).toBe('Full Retreat')
+  })
+})
+
 describe('localTimeToUtc', () => {
   it('should convert MST time correctly (February — UTC-7)', () => {
     const utc = localTimeToUtc('2026-02-14', '5:28 PM')

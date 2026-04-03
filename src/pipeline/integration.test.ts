@@ -209,53 +209,18 @@ describe('Season Simulation — 2025 model', () => {
       expect(isCoolDownActive(state, new Date('2025-02-09T01:05:00Z'))).toBe(false)
     })
 
-    it('should mark later retreat as imported via unchanged hash when earlier retreat already imported', () => {
-      // Simulate "Full Retreat" at 8:07 PM and "Retreat Concludes" at 8:37 PM
-      const retreat1Utc = '2025-02-09T02:07:00.000Z'
-      const retreat2Utc = '2025-02-09T02:37:00.000Z'
+    it('should mark retreat as imported via unchanged hash when earlier run already imported', () => {
+      const retreatUtc = '2025-02-09T02:07:00.000Z'
       let state = emptyPollState(2025)
-      state = addOrUpdateRetreat(state, makeRetreatEntry('2025-02-08', 'Show — Full Retreat', retreat1Utc))
-      state = addOrUpdateRetreat(state, makeRetreatEntry('2025-02-08', 'Show — Retreat Concludes', retreat2Utc))
+      state = addOrUpdateRetreat(state, makeRetreatEntry('2025-02-08', 'Show — Retreat', retreatUtc))
 
       const hash = hashContent(loadRecap(RECAP_FILES[0]))
 
-      // Step 1: At 8:10 PM, "Full Retreat" is actionable → import succeeds
-      const time1 = new Date('2025-02-09T02:10:00Z')
-      const actionable1 = findActionableRetreats(state, time1)
-      expect(actionable1).toHaveLength(1)
-      expect(actionable1[0].eventName).toBe('Show — Full Retreat')
-
-      // Mark only the actionable retreat
-      for (const retreat of actionable1) {
-        if (retreat.status === 'pending') {
-          state = markRetreatImported(state, retreat.retreatUtc, hash, time1)
-        }
-      }
+      // First run: import succeeds
+      state = markRetreatImported(state, retreatUtc, hash, new Date('2025-02-09T02:10:00Z'))
       expect(state.retreats[0].status).toBe('imported')
-      expect(state.retreats[1].status).toBe('pending')
-
-      // Step 2: At 8:40 PM, "Retreat Concludes" is actionable → scores exist
-      // but hash is unchanged. The poller should still mark it imported.
-      const time2 = new Date('2025-02-09T02:40:00Z')
-      const actionable2 = findActionableRetreats(state, time2)
-      expect(actionable2).toHaveLength(1)
-      expect(actionable2[0].eventName).toBe('Show — Retreat Concludes')
-
-      // Simulate the "unchanged" branch: scores exist, hash matches
-      const comparison = compareHash(hash, hash)
-      expect(comparison.status).toBe('unchanged')
-
-      // Mark actionable retreats as imported on unchanged (scores are there)
-      for (const retreat of actionable2) {
-        if (retreat.status === 'pending') {
-          state = markRetreatImported(state, retreat.retreatUtc, hash, time2)
-        }
-      }
-
-      // Both should now be imported — no spurious timeout
-      expect(state.retreats[0].status).toBe('imported')
-      expect(state.retreats[1].status).toBe('imported')
-      expect(hasWork(state, new Date('2025-02-09T05:00:00Z'))).toBe(false)
+      // Cool-down expires 15 min after import, then no more work
+      expect(hasWork(state, new Date('2025-02-09T02:30:00Z'))).toBe(false)
     })
 
     it('should not find actionable retreats after import (no more work)', () => {

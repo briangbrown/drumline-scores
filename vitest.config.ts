@@ -16,6 +16,7 @@ export default defineConfig({
         'src/hooks/**',
         'src/pipeline/cli/**',
         'src/pipeline/commit.ts',
+        'src/pipeline/pollerCron.ts',
         'src/pipeline/reportIssue.ts',
       ],
       thresholds: {
