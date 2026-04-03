@@ -21,6 +21,7 @@ import {
   markRetreatImported,
   markRetreatFailed,
 } from '../pollState'
+import { writePollerCron } from '../pollerCron'
 import { parseScorePage, filterByYear } from '../scrapeScores'
 import { hashContent, compareHash } from '../contentHash'
 import { validateShowData } from '../validate'
@@ -203,9 +204,15 @@ async function main(): Promise<void> {
     }
   }
 
-  // Write updated state
+  // Write updated state and rewrite poller cron to remove completed windows
   if (!isDryRun) {
     writePollState(POLL_STATE_PATH, state)
+
+    const cronChanged = writePollerCron(state.retreats)
+    if (cronChanged) {
+      console.log('Updated poller cron (removed completed window)')
+    }
+
     if (imported) {
       console.log('Updated poll-state.json (import successful)')
     }

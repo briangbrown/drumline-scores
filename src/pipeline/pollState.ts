@@ -14,6 +14,7 @@ type RetreatEntry = {
   status: RetreatStatus
   sourceHash: string | null
   lastImportedUtc: string | null
+  isFinal: boolean
 }
 
 type PollState = {
@@ -76,14 +77,24 @@ function markRetreatImported(
   now: Date,
 ): PollState {
   const coolDown = new Date(now.getTime() + COOL_DOWN_MINUTES * 60_000).toISOString()
+  const target = state.retreats.find((r) => r.retreatUtc === retreatUtc)
+  const isFinal = target?.isFinal ?? true
+  const targetDate = target?.date
+
   return {
     ...state,
     coolDownUntilUtc: coolDown,
-    retreats: state.retreats.map((r) =>
-      r.retreatUtc === retreatUtc
-        ? { ...r, status: 'imported' as const, sourceHash: hash, lastImportedUtc: now.toISOString() }
-        : r,
-    ),
+    retreats: state.retreats.map((r) => {
+      // Mark the target retreat as imported
+      if (r.retreatUtc === retreatUtc) {
+        return { ...r, status: 'imported' as const, sourceHash: hash, lastImportedUtc: now.toISOString() }
+      }
+      // When importing the final retreat of the day, resolve all same-day pending retreats
+      if (isFinal && targetDate && r.date === targetDate && r.status === 'pending') {
+        return { ...r, status: 'imported' as const, sourceHash: hash, lastImportedUtc: now.toISOString() }
+      }
+      return r
+    }),
   }
 }
 
@@ -98,7 +109,7 @@ function markRetreatFailed(state: PollState, retreatUtc: string): PollState {
 
 function addOrUpdateRetreat(state: PollState, entry: RetreatEntry): PollState {
   const idx = state.retreats.findIndex(
-    (r) => r.date === entry.date && r.retreatUtc === entry.retreatUtc,
+    (r) => r.date === entry.date && r.eventName === entry.eventName,
   )
   if (idx === -1) {
     return { ...state, retreats: [...state.retreats, entry] }
@@ -116,6 +127,7 @@ function makeRetreatEntry(
   date: string,
   eventName: string,
   retreatUtc: string,
+  isFinal = true,
 ): RetreatEntry {
   const closeMs = new Date(retreatUtc).getTime() + WINDOW_HOURS * 3_600_000
   return {
@@ -126,6 +138,7 @@ function makeRetreatEntry(
     status: 'pending',
     sourceHash: null,
     lastImportedUtc: null,
+    isFinal,
   }
 }
 

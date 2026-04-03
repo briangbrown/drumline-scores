@@ -6,6 +6,12 @@ For the full design document (personas, scoring model, data architecture, parsin
 
 For the system overview (directory structure, data flow, module responsibilities) see **[`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)**. **Update ARCHITECTURE.md when adding modules, changing data flow, or restructuring directories.**
 
+**Documentation check:** After any code change, review whether the following docs need updates before committing:
+- **[`docs/designs/AUTO_SCORE_PIPELINE.md`](docs/designs/AUTO_SCORE_PIPELINE.md)** — pipeline design, workflow descriptions, cron schedules, billing estimates, state file schemas
+- **[`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)** — module list, data flow, directory structure
+- **[`src/pipeline/README.md`](src/pipeline/README.md)** — operator guide, workflow table, troubleshooting, DST handling
+- **This file (`CLAUDE.md`)** — development commands, code style, domain guidance
+
 ---
 
 ## Branch Protection

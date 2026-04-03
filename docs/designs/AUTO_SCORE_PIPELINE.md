@@ -130,7 +130,7 @@ Runs **three times** on competition weekends to catch last-minute reschedules:
 | Friday | 2:00 PM MT | Refresh — picks up any Friday schedule changes before Saturday shows. Also re-checks Friday prelims retreat time if a show is that evening. |
 | Saturday | 2:00 PM MT | Final refresh — catches day-of delays (weather, etc.). Runs well before any retreat (earliest main retreats are ~5 PM MT). |
 
-> **DST note:** 2:00 PM MT = 21:00 UTC during MST (early season, before mid-March) and 20:00 UTC during MDT (mid-March onward). See [DST Handling](#dst-handling--github-actions-cron) for how this is implemented in cron.
+> **DST note:** The cron uses MDT (20:00 UTC). During MST early season this fires at ~1 PM MT instead of 2 PM — acceptable since the watcher just needs to run before evening retreats.
 
 **Retreat time survey (2026 season):**
 
@@ -144,7 +144,7 @@ Runs **three times** on competition weekends to catch last-minute reschedules:
 | Prelims (Mountain Range) | 12:45 PM (Regional A) | 7:16 PM |
 | Finals (Denver Coliseum) | — | 8:07 PM |
 
-Some shows have early Regional A retreats (12:45–1:45 PM), but scores are posted as a single recap after the final retreat of the day, so the 2:00 PM watcher run is safe. The Score Poller keys off the **last** retreat time.
+Some shows have early Regional A retreats (12:45–1:45 PM). Scores may be posted after the mid-day retreat (partial results) and updated after the final retreat (final results). The watcher adds all retreats to `poll-state.json` with an `isFinal` flag — the last retreat of the day is marked `isFinal: true`. Each retreat gets its own polling window in the cron schedule.
 
 Each run **updates `poll-state.json`** with the latest retreat times, **rewrites `score-poller.yml`** with the exact UTC polling window, **enables the poller workflow**, and commits all changes. The Score Poller reads poll-state on every invocation, and its cron only fires during the computed retreat window.
 
@@ -155,15 +155,15 @@ Each run **updates `poll-state.json`** with the latest retreat times, **rewrites
 1. **Fetch `rmpa.org/competitions`** — extract all event entries with dates and schedule links.
 2. **Identify upcoming events** — filter to events occurring in the next 3 days (covers Thursday→Saturday window).
 3. **Fetch each schedule page** — download from `schedules.competitionsuite.com/<uuid>_standard.htm`.
-4. **Parse retreat time** — scan `schedule-row` entries for "Retreat Concludes" (preferred) or "Full Retreat" (fallback). Extract the time value, convert to UTC using `America/Denver` timezone.
-5. **Update `poll-state.json`** — add or update retreat entries for the upcoming events. Set `status: "pending"` for new retreats. Compute `windowCloseUtc` as retreat time + 2 hours. If a retreat time has changed from a previous run, update it and log the delta.
-6. **Rewrite `score-poller.yml` cron** — compute the UTC hours and day-of-week from pending retreats and write a single cron entry covering the polling window. If no retreats are pending, set the cron to a never-firing value.
+4. **Parse retreat times** — scan `schedule-row` entries for "Full Retreat" or similar labels (excluding "Retreat Concludes"). Extract time values, convert to UTC using `America/Denver` timezone. Mark the last retreat of the day as `isFinal: true`.
+5. **Update `poll-state.json`** — add or update retreat entries for the upcoming events. Set `status: "pending"` for new retreats. Compute `windowCloseUtc` as retreat time + 2 hours. Entries are matched on `date + eventName` — if a retreat is rescheduled (same event, different time), the existing entry is updated rather than duplicated.
+6. **Rewrite `score-poller.yml` cron** — compute one cron entry per pending retreat (each with its own UTC hours and day-of-week). Each cron entry is tagged with a metadata comment (`# retreat:<utc> final:<bool>`) so the poller can identify which window to remove after import. If no retreats are pending, set the cron to a never-firing value.
 7. **Enable the score poller workflow** if there are pending retreats.
 8. **Commit `poll-state.json` and `score-poller.yml`** to `main`.
 
 ### How `poll-state.json` Is Populated
 
-The schedule watcher adds retreat entries to `poll-state.json` based on the parsed schedule data. For a single-retreat show, one entry is added. For a split-retreat show (mid-day Regional A + final), two entries are added — one per retreat, each with its own `retreatUtc` and `windowCloseUtc`. The score poller processes them independently.
+The schedule watcher adds retreat entries to `poll-state.json` based on the parsed schedule data. For a single-retreat show, one entry is added with `isFinal: true`. For a split-retreat show (mid-day Regional A + final), two entries are added — one per retreat, each with its own `retreatUtc`, `windowCloseUtc`, and `isFinal` flag. The poller processes them independently, and when the final retreat is imported, all same-day pending retreats are automatically resolved.
 
 Example after the watcher runs for a weekend with a split-retreat show — see the `poll-state.json` format in [Stage 2: Score Poller](#stage-2-score-poller).
 
@@ -260,19 +260,20 @@ Detect new scores as quickly as possible after retreat, without burning GitHub A
 
 ### Trigger
 
-The score poller uses a **dynamic cron** that is rewritten weekly by the schedule watcher. The watcher computes the exact UTC polling window from retreat times and writes a single cron entry to `score-poller.yml`. No DST dual-cron is needed — the watcher handles the UTC conversion.
+The score poller uses **dynamic per-retreat cron entries** written by the schedule watcher. Each pending retreat gets its own cron window (retreat time to +2 hours) on its specific UTC day. Metadata comments tag each entry so the poller can identify and remove individual windows after import.
 
 ```yaml
 on:
   schedule:
     # --- DYNAMIC CRON START ---
-    # Rewritten by the schedule watcher each week.
-    # Example: retreat at 8:07 PM MDT Sat = 02:07 UTC Sun
-    - cron: '*/3 2-4 * * 0'
+    # retreat:2026-02-28T19:45:00.000Z final:false
+    - cron: '*/3 19-21 * * 6'
+    # retreat:2026-03-01T01:55:00.000Z final:true
+    - cron: '*/3 1-3 * * 0'
     # --- DYNAMIC CRON END ---
 ```
 
-When no show is upcoming, the cron is set to `0 0 31 2 *` (February 31, which never fires) and the workflow is disabled. The schedule watcher re-enables it when it finds pending retreats. After a successful import (or when all retreats are resolved), the poller **self-disables**.
+When no show is upcoming, the cron is set to `0 0 31 2 *` (February 31, which never fires) and the workflow is disabled. The schedule watcher re-enables it when it finds pending retreats. After each import, the poller rewrites the cron to remove the completed window. When no pending retreats remain, it **self-disables**.
 
 ### State File: `poll-state.json`
 
@@ -358,12 +359,12 @@ With dynamic cron, the poller only fires on actual show nights during the retrea
 
 | Workflow | Runs/season | Billed minutes |
 |----------|------------|----------------|
-| Score Poller (dynamic cron) | ~200 | ~200 |
-| Schedule Watcher (dual cron, Thu/Fri/Sat) | ~84 | ~84 |
-| Score Fallback (dual cron, Mon–Fri) | ~140 | ~140 |
-| Sunday Reconciliation (dual cron) | ~28 | ~28 |
+| Score Poller (per-retreat dynamic cron) | ~200 | ~200 |
+| Schedule Watcher (single cron, Thu/Fri/Sat) | ~42 | ~42 |
+| Score Fallback (single cron, Mon–Fri) | ~70 | ~70 |
+| Sunday Reconciliation (single cron) | ~14 | ~14 |
 | Season Lifecycle | ~2 | ~2 |
-| **Total** | | **~454** |
+| **Total** | | **~328** |
 
 On off-weeks (no show), the poller is disabled and contributes zero runs.
 
@@ -381,7 +382,7 @@ After a successful import, `coolDownUntilUtc` is set to now + 15 minutes. Subseq
 
 ### Trigger
 
-GitHub Actions cron: Sunday at 12:00 PM MT (19:00 UTC during MST, 18:00 UTC during MDT — see [DST Handling](#dst-handling--github-actions-cron)).
+GitHub Actions cron: Sunday at ~12:00 PM MT (18:00 UTC — exact at MDT, 1 hour early during MST).
 
 ### Purpose
 
@@ -406,7 +407,7 @@ Catch score corrections made after competition day. It's common for directors to
 
 ### Trigger
 
-GitHub Actions cron: daily at 12:00 PM MT (19:00 UTC during MST, 18:00 UTC during MDT — see [DST Handling](#dst-handling--github-actions-cron)), Monday through Friday.
+GitHub Actions cron: daily at ~12:00 PM MT (18:00 UTC — exact at MDT, 1 hour early during MST), Monday through Friday.
 
 ### Steps
 
@@ -666,6 +667,7 @@ type RetreatEntry = {
   status: RetreatStatus
   sourceHash: string | null
   lastImportedUtc: string | null
+  isFinal: boolean    // true for the last retreat of the day
 }
 
 type PollState = {
@@ -678,14 +680,16 @@ type PollState = {
 - Read state file at the start of each poller invocation
 - Determine if any retreat is actionable (pending + within window, or cool-down active)
 - Update state after import or timeout
+- When a final retreat is imported, auto-resolve all same-day pending retreats
+- Entries are matched on `date + eventName` — rescheduled retreats update in place
 - Committed to the repo alongside show data so it survives across invocations
 
 ### 8. GitHub Actions Workflows
 
-- `.github/workflows/schedule-watcher.yml` — Thu/Fri/Sat 2 PM MT cron, runs Stage 1; also rewrites poller cron and enables poller (disabled off-season)
-- `.github/workflows/score-poller.yml` — Dynamic cron (rewritten weekly by schedule watcher), runs Stage 2; self-disables after import (disabled off-season and between shows)
-- `.github/workflows/sunday-reconciliation.yml` — Sunday noon MT cron, runs Stage 3 (disabled off-season)
-- `.github/workflows/score-fallback.yml` — Mon–Fri noon MT cron, runs Stage 4 (disabled off-season)
+- `.github/workflows/schedule-watcher.yml` — Thu/Fri/Sat ~2 PM MT (single MDT cron), runs Stage 1; rewrites poller with per-retreat cron windows and enables poller (disabled off-season)
+- `.github/workflows/score-poller.yml` — Per-retreat dynamic cron (rewritten by schedule watcher), runs Stage 2; removes completed windows and self-disables after all imports (disabled off-season and between shows)
+- `.github/workflows/sunday-reconciliation.yml` — Sunday ~noon MT (single MDT cron), runs Stage 3 (disabled off-season)
+- `.github/workflows/score-fallback.yml` — Mon–Fri ~noon MT (single MDT cron), runs Stage 4 (disabled off-season)
 - `.github/workflows/season-lifecycle.yml` — Jan 25 + Apr 30, runs Stage 5 (**always enabled**)
 
 ---
@@ -886,79 +890,33 @@ Historical HTML files are already downloaded in `data/scores/2015–2025`. These
 
 ## DST Handling & GitHub Actions Cron
 
-### The Problem
+### Background
 
-The RMPA season runs February through April. Daylight Saving Time begins the **second Sunday of March**, shifting Mountain Time from MST (UTC−7) to MDT (UTC−6). A target of "2:00 PM Mountain Time" is two different UTC times depending on the date:
+The RMPA season runs February through April. Daylight Saving Time begins the **second Sunday of March**, shifting Mountain Time from MST (UTC−7) to MDT (UTC−6). GitHub Actions cron expressions are **always evaluated in UTC**.
 
-| Period | Offset | 12:00 PM MT → UTC | 2:00 PM MT → UTC |
-|--------|--------|-------------------|-------------------|
-| Early season (Feb – mid-Mar) | MST (UTC−7) | 19:00 UTC | 21:00 UTC |
-| Late season (mid-Mar – Apr) | MDT (UTC−6) | 18:00 UTC | 20:00 UTC |
+### Approach: Single MDT Cron
 
-GitHub Actions cron expressions are **always evaluated in UTC** — there is no timezone parameter.
+All static-schedule workflows use a **single cron entry** based on MDT (UTC−6). During the early season (MST, UTC−7) they run approximately 1 hour earlier in Mountain Time. This is acceptable because:
 
-### Solution: Dual Cron Entries + Date Guard
+- **Schedule watcher:** Running at 1 PM instead of 2 PM is harmless — it just checks for schedule updates earlier.
+- **Sunday reconciliation & daily fallback:** Running at 11 AM instead of noon has no functional impact.
+- **Score poller:** Uses per-retreat dynamic cron written in exact UTC, so DST is irrelevant.
 
-Each workflow uses **two cron entries** (one for MST, one for MDT) and a **date guard step** that checks whether DST is currently active. The wrong entry exits immediately, so the job only runs once at the correct local time.
-
-```yaml
-# Example: schedule-watcher.yml — target 2:00 PM Mountain Time on Thu/Fri/Sat
-on:
-  schedule:
-    # 21:00 UTC = 2:00 PM MST (used early season, before DST)
-    - cron: '0 21 * * 4,5,6'
-    # 20:00 UTC = 2:00 PM MDT (used mid-season onward, after DST)
-    - cron: '0 20 * * 4,5,6'
-
-jobs:
-  watch:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check DST and skip if wrong cron fired
-        run: |
-          # Get current Mountain Time UTC offset using IANA zone
-          MT_OFFSET=$(TZ='America/Denver' date +%z)   # -0700 (MST) or -0600 (MDT)
-          IS_MDT=false
-          if [ "$MT_OFFSET" = "-0600" ]; then IS_MDT=true; fi
-
-          TRIGGER_HOUR=$(date -u +%H)  # UTC hour that triggered this run
-
-          # 21:00 UTC entry is for MST only; 20:00 UTC entry is for MDT only
-          if [ "$TRIGGER_HOUR" = "21" ] && [ "$IS_MDT" = "true" ]; then
-            echo "Skipping: 21:00 UTC cron fired but we are in MDT"
-            exit 0
-          fi
-          if [ "$TRIGGER_HOUR" = "20" ] && [ "$IS_MDT" = "false" ]; then
-            echo "Skipping: 20:00 UTC cron fired but we are in MST"
-            exit 0
-          fi
-
-          echo "DST_ACTIVE=$IS_MDT" >> "$GITHUB_ENV"
-          echo "Proceeding: correct cron for current timezone offset ($MT_OFFSET)"
-      # ... remaining steps
-```
+This eliminates the need for dual cron entries and DST guard scripts, halving the number of workflow invocations for static-schedule workflows.
 
 ### Cron Summary
 
-| Workflow | Target (MT) | MST cron (UTC) | MDT cron (UTC) |
-|----------|------------|----------------|----------------|
-| `schedule-watcher.yml` | Thu/Fri/Sat 2:00 PM | `0 21 * * 4,5,6` | `0 20 * * 4,5,6` |
-| `score-poller.yml` | Dynamic (set by watcher) | *Single cron, rewritten weekly* | — |
-| `sunday-reconciliation.yml` | Sun 12:00 PM | `0 19 * * 0` | `0 18 * * 0` |
-| `score-fallback.yml` | Mon–Fri 12:00 PM | `0 19 * * 1-5` | `0 18 * * 1-5` |
-| `season-lifecycle.yml` | Jan 25 + Apr 30, noon | `0 19 25 1 *` | `0 18 30 4 *` |
+| Workflow | Target (MT) | Cron (UTC) |
+|----------|------------|------------|
+| `schedule-watcher.yml` | Thu/Fri/Sat ~2 PM | `0 20 * * 4,5,6` |
+| `score-poller.yml` | Dynamic (per-retreat) | *Rewritten by watcher* |
+| `sunday-reconciliation.yml` | Sun ~noon | `0 18 * * 0` |
+| `score-fallback.yml` | Mon–Fri ~noon | `0 18 * * 1-5` |
+| `season-lifecycle.yml` | Jan 25 + Apr 30, noon | `0 19 25 1 *` / `0 18 30 4 *` |
 
-> **Note on the score poller cron:** The poller's cron is dynamically written by the schedule watcher each week. The watcher computes the exact UTC hours and day-of-week from the retreat time, so no DST dual-cron or guard is needed for the poller. Example: retreat at 8:07 PM MDT Saturday → cron `*/3 2-4 * * 0` (every 3 min, hours 2–4 UTC, Sunday). The poller self-disables after import.
+> **Note on the score poller cron:** The poller's cron is dynamically written by the schedule watcher using exact UTC from retreat times. Each pending retreat gets its own cron entry with metadata comments for targeted removal. Example: retreat at 8:07 PM MDT Saturday → cron `*/3 2-4 * * 0` (every 3 min, hours 2–4 UTC, Sunday). The poller removes completed windows after each import and self-disables when done.
 
-The retreat times in `poll-state.json` are stored as **UTC timestamps** (ISO 8601), so they are inherently DST-safe. The schedule scraper must convert local times from the CompetitionSuite schedule page to UTC using the `America/Denver` timezone at parse time, which correctly accounts for whichever offset is in effect on the event date.
-
-### Why Not a Single "Early" Cron?
-
-An alternative is to schedule at the earlier UTC time (e.g., 20:00 UTC year-round for the 2 PM target) and accept that during MST the job runs at 1:00 PM MT — one hour early. This is simpler but problematic:
-
-- **Schedule watcher:** Running at 1 PM instead of 2 PM is mostly harmless but wastes one hour of lead time for catching day-of delays.
-- **Score poller:** The poller's cron window would shift by an hour, causing invocations to fire before the actual score-posting window begins — each one still exits quickly, but it's unnecessary churn.
-- **Sunday reconciliation & daily fallback:** Running at 11 AM instead of noon is fine functionally, but makes logs confusing when debugging timing issues.
+The retreat times in `poll-state.json` are stored as **UTC timestamps** (ISO 8601), so they are inherently DST-safe. The schedule scraper converts local times from the CompetitionSuite schedule page to UTC using the `America/Denver` timezone at parse time, which correctly accounts for whichever offset is in effect on the event date.
 
 The dual-cron approach keeps times exact and predictable at the cost of a few extra lines of YAML. Given that each workflow is a distinct file with its own schedule block, the overhead is minimal.
 
