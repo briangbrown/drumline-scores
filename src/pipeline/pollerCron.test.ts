@@ -34,7 +34,9 @@ describe('computeCronWindows', () => {
 
       expect(windows).toHaveLength(1)
       expect(windows[0]).toMatchObject({
+        startMinuteUtc: 7,
         startHourUtc: 2,
+        endMinuteUtc: 7,
         endHourUtc: 4,
         dayOfMonthUtc: 5,
         monthUtc: 4,
@@ -51,7 +53,9 @@ describe('computeCronWindows', () => {
 
       expect(windows).toHaveLength(1)
       expect(windows[0]).toMatchObject({
+        startMinuteUtc: 28,
         startHourUtc: 0,
+        endMinuteUtc: 28,
         endHourUtc: 2,
         dayOfMonthUtc: 15,
         monthUtc: 2,
@@ -272,9 +276,16 @@ describe('formatCronEntries', () => {
     expect(formatCronEntries([])).toEqual(["- cron: '0 0 31 2 *'"])
   })
 
-  it('should format a single window with metadata comment including MT', () => {
+  it('should produce three entries for mid-hour start (first partial, middle, last partial)', () => {
+    // Retreat at 2:07, close at 4:07
+    // carry = 7 % 5 = 2
+    // First: 7/5 2 → :07,:12,...,:57
+    // Middle: 2/5 3 → :02,:07,...,:57
+    // Last: 2,7 4 → :02,:07
     const windows: Array<CronWindow> = [{
+      startMinuteUtc: 7,
       startHourUtc: 2,
+      endMinuteUtc: 7,
       endHourUtc: 4,
       dayOfMonthUtc: 5,
       monthUtc: 4,
@@ -284,14 +295,18 @@ describe('formatCronEntries', () => {
     }]
     expect(formatCronEntries(windows)).toEqual([
       '# retreat:2026-04-05T02:07:00.000Z mt:Sat 8:07 PM MDT final:true',
-      "- cron: '*/3 2-4 5 4 *'",
+      "- cron: '7/5 2 5 4 *'",
+      "- cron: '2/5 3 5 4 *'",
+      "- cron: '2,7 4 5 4 *'",
     ])
   })
 
-  it('should format two windows for a double-retreat day', () => {
+  it('should produce three entries per window for a double-retreat day', () => {
     const windows: Array<CronWindow> = [
       {
+        startMinuteUtc: 45,
         startHourUtc: 19,
+        endMinuteUtc: 45,
         endHourUtc: 21,
         dayOfMonthUtc: 28,
         monthUtc: 2,
@@ -300,7 +315,9 @@ describe('formatCronEntries', () => {
         isFinal: false,
       },
       {
+        startMinuteUtc: 55,
         startHourUtc: 1,
+        endMinuteUtc: 55,
         endHourUtc: 3,
         dayOfMonthUtc: 1,
         monthUtc: 3,
@@ -309,33 +326,43 @@ describe('formatCronEntries', () => {
         isFinal: true,
       },
     ]
+    // carry for :45 = 0, carry for :55 = 0
     expect(formatCronEntries(windows)).toEqual([
       '# retreat:2026-02-28T19:45:00.000Z mt:Sat 12:45 PM MST final:false',
-      "- cron: '*/3 19-21 28 2 *'",
+      "- cron: '45/5 19 28 2 *'",
+      "- cron: '*/5 20 28 2 *'",
+      "- cron: '0,5,10,15,20,25,30,35,40,45 21 28 2 *'",
       '# retreat:2026-03-01T01:55:00.000Z mt:Sat 6:55 PM MST final:true',
-      "- cron: '*/3 1-3 1 3 *'",
+      "- cron: '55/5 1 1 3 *'",
+      "- cron: '*/5 2 1 3 *'",
+      "- cron: '0,5,10,15,20,25,30,35,40,45,50,55 3 1 3 *'",
     ])
   })
 
-  it('should format four windows for back-to-back double-retreat days', () => {
+  it('should produce three entries per window for back-to-back double-retreat days', () => {
     const windows: Array<CronWindow> = [
-      { startHourUtc: 19, endHourUtc: 21, dayOfMonthUtc: 27, monthUtc: 3, retreatUtc: '2026-03-27T19:45:00.000Z', retreatMt: 'Fri 12:45 PM MDT', isFinal: false },
-      { startHourUtc: 1, endHourUtc: 3, dayOfMonthUtc: 28, monthUtc: 3, retreatUtc: '2026-03-28T01:55:00.000Z', retreatMt: 'Fri 7:55 PM MDT', isFinal: true },
-      { startHourUtc: 19, endHourUtc: 21, dayOfMonthUtc: 28, monthUtc: 3, retreatUtc: '2026-03-28T19:45:00.000Z', retreatMt: 'Sat 12:45 PM MDT', isFinal: false },
-      { startHourUtc: 1, endHourUtc: 3, dayOfMonthUtc: 29, monthUtc: 3, retreatUtc: '2026-03-29T01:55:00.000Z', retreatMt: 'Sat 7:55 PM MDT', isFinal: true },
+      { startMinuteUtc: 45, startHourUtc: 19, endMinuteUtc: 45, endHourUtc: 21, dayOfMonthUtc: 27, monthUtc: 3, retreatUtc: '2026-03-27T19:45:00.000Z', retreatMt: 'Fri 12:45 PM MDT', isFinal: false },
+      { startMinuteUtc: 55, startHourUtc: 1, endMinuteUtc: 55, endHourUtc: 3, dayOfMonthUtc: 28, monthUtc: 3, retreatUtc: '2026-03-28T01:55:00.000Z', retreatMt: 'Fri 7:55 PM MDT', isFinal: true },
+      { startMinuteUtc: 45, startHourUtc: 19, endMinuteUtc: 45, endHourUtc: 21, dayOfMonthUtc: 28, monthUtc: 3, retreatUtc: '2026-03-28T19:45:00.000Z', retreatMt: 'Sat 12:45 PM MDT', isFinal: false },
+      { startMinuteUtc: 55, startHourUtc: 1, endMinuteUtc: 55, endHourUtc: 3, dayOfMonthUtc: 29, monthUtc: 3, retreatUtc: '2026-03-29T01:55:00.000Z', retreatMt: 'Sat 7:55 PM MDT', isFinal: true },
     ]
     const lines = formatCronEntries(windows)
-    expect(lines).toHaveLength(8) // 4 metadata + 4 cron
+    // 4 comments + 12 cron entries (3 per window)
+    expect(lines).toHaveLength(16)
     expect(lines[0]).toBe('# retreat:2026-03-27T19:45:00.000Z mt:Fri 12:45 PM MDT final:false')
-    expect(lines[1]).toBe("- cron: '*/3 19-21 27 3 *'")
-    expect(lines[6]).toBe('# retreat:2026-03-29T01:55:00.000Z mt:Sat 7:55 PM MDT final:true')
-    expect(lines[7]).toBe("- cron: '*/3 1-3 29 3 *'")
+    expect(lines[1]).toBe("- cron: '45/5 19 27 3 *'")
+    expect(lines[2]).toBe("- cron: '*/5 20 27 3 *'")
+    expect(lines[3]).toBe("- cron: '0,5,10,15,20,25,30,35,40,45 21 27 3 *'")
   })
 
-  it('should format single-hour window without dash range', () => {
+  it('should use single entry for full hours when retreat starts on the hour', () => {
+    // Retreat at 3:00, close at 5:00
+    // No partial hours needed — just full hours 3-4
     const windows: Array<CronWindow> = [{
+      startMinuteUtc: 0,
       startHourUtc: 3,
-      endHourUtc: 3,
+      endMinuteUtc: 0,
+      endHourUtc: 5,
       dayOfMonthUtc: 15,
       monthUtc: 2,
       retreatUtc: '2026-02-15T03:00:00.000Z',
@@ -343,18 +370,26 @@ describe('formatCronEntries', () => {
       isFinal: true,
     }]
     const lines = formatCronEntries(windows)
-    expect(lines).toContain("- cron: '*/3 3 15 2 *'")
+    expect(lines).toHaveLength(2) // 1 comment + 1 cron
+    expect(lines[1]).toBe("- cron: '*/5 3-4 15 2 *'")
   })
 
-  it('should format two distinct windows for back-to-back single retreats', () => {
+  it('should produce three entries per retreat for back-to-back single retreats', () => {
+    // Both at :07, carry = 2
     const windows: Array<CronWindow> = [
-      { startHourUtc: 2, endHourUtc: 4, dayOfMonthUtc: 28, monthUtc: 3, retreatUtc: '2026-03-28T02:07:00.000Z', retreatMt: 'Fri 8:07 PM MDT', isFinal: true },
-      { startHourUtc: 2, endHourUtc: 4, dayOfMonthUtc: 29, monthUtc: 3, retreatUtc: '2026-03-29T02:07:00.000Z', retreatMt: 'Sat 8:07 PM MDT', isFinal: true },
+      { startMinuteUtc: 7, startHourUtc: 2, endMinuteUtc: 7, endHourUtc: 4, dayOfMonthUtc: 28, monthUtc: 3, retreatUtc: '2026-03-28T02:07:00.000Z', retreatMt: 'Fri 8:07 PM MDT', isFinal: true },
+      { startMinuteUtc: 7, startHourUtc: 2, endMinuteUtc: 7, endHourUtc: 4, dayOfMonthUtc: 29, monthUtc: 3, retreatUtc: '2026-03-29T02:07:00.000Z', retreatMt: 'Sat 8:07 PM MDT', isFinal: true },
     ]
     const lines = formatCronEntries(windows)
-    expect(lines).toHaveLength(4)
-    // Each window gets its own date-specific cron entry
-    expect(lines[1]).toBe("- cron: '*/3 2-4 28 3 *'")
-    expect(lines[3]).toBe("- cron: '*/3 2-4 29 3 *'")
+    // 2 comments + 6 cron entries (3 per window)
+    expect(lines).toHaveLength(8)
+    // First retreat window
+    expect(lines[1]).toBe("- cron: '7/5 2 28 3 *'")
+    expect(lines[2]).toBe("- cron: '2/5 3 28 3 *'")
+    expect(lines[3]).toBe("- cron: '2,7 4 28 3 *'")
+    // Second retreat window
+    expect(lines[5]).toBe("- cron: '7/5 2 29 3 *'")
+    expect(lines[6]).toBe("- cron: '2/5 3 29 3 *'")
+    expect(lines[7]).toBe("- cron: '2,7 4 29 3 *'")
   })
 })

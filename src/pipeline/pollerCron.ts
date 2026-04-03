@@ -19,7 +19,9 @@ const CRON_START_MARKER = '# --- DYNAMIC CRON START ---'
 const CRON_END_MARKER = '# --- DYNAMIC CRON END ---'
 
 type CronWindow = {
+  startMinuteUtc: number
   startHourUtc: number
+  endMinuteUtc: number
   endHourUtc: number
   dayOfMonthUtc: number
   monthUtc: number
@@ -41,7 +43,9 @@ function computeCronWindows(retreats: Array<RetreatEntry>): Array<CronWindow> {
       const retreatDate = new Date(r.retreatUtc)
       const closeDate = new Date(r.windowCloseUtc)
       return {
+        startMinuteUtc: retreatDate.getUTCMinutes(),
         startHourUtc: retreatDate.getUTCHours(),
+        endMinuteUtc: closeDate.getUTCMinutes(),
         endHourUtc: closeDate.getUTCHours(),
         dayOfMonthUtc: retreatDate.getUTCDate(),
         monthUtc: retreatDate.getUTCMonth() + 1,
@@ -76,23 +80,60 @@ function formatMountainTime(date: Date): string {
   return `${weekday} ${hour}:${minute} ${dayPeriod} ${tz}`
 }
 
-/**
- * Format CronWindows as YAML lines with metadata comments.
- *
- * Each window produces two lines: a metadata comment and a cron entry.
- * Cron uses day-of-month + month (not day-of-week) for date specificity.
- * Returns a never-fire cron if windows is empty.
- */
+// Format CronWindows as YAML lines with metadata comments.
+//
+// Cron step values (e.g. 7/5) reset at each hour boundary, so a window
+// spanning multiple hours is split into up to three cron entries:
+//   1. First partial hour: startMinute/5 startHour (7/5 2 = :07,:12,...,:57)
+//   2. Full middle hours: carryMinute/5 middleHours (2/5 3 = :02,:07,...,:57)
+//   3. Last partial hour: explicit minutes (2,7 4 = :02,:07)
+//
+// carryMinute = startMinute % 5 — the offset that continues the 5-min
+// cadence into subsequent hours without gaps.
+//
+// When the retreat starts on the hour, only full hours are needed (no
+// first/last partial) and the range stops before the close hour.
 function formatCronEntries(windows: Array<CronWindow>): Array<string> {
   if (windows.length === 0) return ["- cron: '0 0 31 2 *'"]
 
   const lines: Array<string> = []
   for (const w of windows) {
-    const hourRange = w.startHourUtc === w.endHourUtc
-      ? `${w.startHourUtc}`
-      : `${w.startHourUtc}-${w.endHourUtc}`
+    const datePart = `${w.dayOfMonthUtc} ${w.monthUtc} *`
     lines.push(`# retreat:${w.retreatUtc} mt:${w.retreatMt} final:${w.isFinal}`)
-    lines.push(`- cron: '*/3 ${hourRange} ${w.dayOfMonthUtc} ${w.monthUtc} *'`)
+
+    if (w.startMinuteUtc === 0) {
+      // Starts on the hour — full hours from start to end-1 (close hour not needed)
+      const lastHour = w.endHourUtc - 1
+      const hourRange = w.startHourUtc === lastHour
+        ? `${w.startHourUtc}`
+        : `${w.startHourUtc}-${lastHour}`
+      lines.push(`- cron: '*/5 ${hourRange} ${datePart}'`)
+    } else {
+      const carryMinute = w.startMinuteUtc % 5
+      const middleMinuteExpr = carryMinute === 0 ? '*/5' : `${carryMinute}/5`
+
+      // 1. First partial hour
+      lines.push(`- cron: '${w.startMinuteUtc}/5 ${w.startHourUtc} ${datePart}'`)
+
+      // 2. Full middle hours (startHour+1 to endHour-1)
+      const middleStart = w.startHourUtc + 1
+      const middleEnd = w.endHourUtc - 1
+      if (middleStart <= middleEnd) {
+        const middleHours = middleStart === middleEnd
+          ? `${middleStart}`
+          : `${middleStart}-${middleEnd}`
+        lines.push(`- cron: '${middleMinuteExpr} ${middleHours} ${datePart}'`)
+      }
+
+      // 3. Last partial hour — enumerate minutes from carry to endMinute
+      if (w.endMinuteUtc >= carryMinute) {
+        const minuteList: Array<number> = []
+        for (let m = carryMinute; m <= w.endMinuteUtc; m += 5) {
+          minuteList.push(m)
+        }
+        lines.push(`- cron: '${minuteList.join(',')} ${w.endHourUtc} ${datePart}'`)
+      }
+    }
   }
   return lines
 }
