@@ -78,24 +78,38 @@ function formatMountainTime(date: Date): string {
   return `${weekday} ${hour}:${minute} ${dayPeriod} ${tz}`
 }
 
-/**
- * Format CronWindows as YAML lines with metadata comments.
- *
- * Each window produces two lines: a metadata comment and a cron entry.
- * Cron uses day-of-month + month (not day-of-week) for date specificity.
- * Returns a never-fire cron if windows is empty.
- */
+// Format CronWindows as YAML lines with metadata comments.
+//
+// When the retreat starts mid-hour, two cron entries are needed because
+// step values (e.g. 7/5) reset at each hour boundary:
+//   1. First partial hour: startMinute/5 startHour (7/5 2 = :07,:12,...,:57)
+//   2. Remaining hours: */5 nextHour-endHour (*/5 3-4 = :00,:05,...,:55)
+//
+// When the retreat starts on the hour, a single entry suffices.
+// The poller exits early for runs past the window close time.
 function formatCronEntries(windows: Array<CronWindow>): Array<string> {
   if (windows.length === 0) return ["- cron: '0 0 31 2 *'"]
 
   const lines: Array<string> = []
   for (const w of windows) {
-    const minuteExpr = w.startMinuteUtc === 0 ? '*/5' : `${w.startMinuteUtc}/5`
-    const hourRange = w.startHourUtc === w.endHourUtc
-      ? `${w.startHourUtc}`
-      : `${w.startHourUtc}-${w.endHourUtc}`
+    const datePart = `${w.dayOfMonthUtc} ${w.monthUtc} *`
     lines.push(`# retreat:${w.retreatUtc} mt:${w.retreatMt} final:${w.isFinal}`)
-    lines.push(`- cron: '${minuteExpr} ${hourRange} ${w.dayOfMonthUtc} ${w.monthUtc} *'`)
+
+    if (w.startMinuteUtc === 0) {
+      // Starts on the hour — single entry covers the full window
+      const hourRange = w.startHourUtc === w.endHourUtc
+        ? `${w.startHourUtc}`
+        : `${w.startHourUtc}-${w.endHourUtc}`
+      lines.push(`- cron: '*/5 ${hourRange} ${datePart}'`)
+    } else {
+      // Starts mid-hour — split into first partial hour + remaining hours
+      lines.push(`- cron: '${w.startMinuteUtc}/5 ${w.startHourUtc} ${datePart}'`)
+      const nextHour = w.startHourUtc + 1
+      const remainingHours = nextHour === w.endHourUtc
+        ? `${nextHour}`
+        : `${nextHour}-${w.endHourUtc}`
+      lines.push(`- cron: '*/5 ${remainingHours} ${datePart}'`)
+    }
   }
   return lines
 }
