@@ -1,4 +1,4 @@
-name: Season Lifecycle
+name: "Pipeline: Season Lifecycle"
 
 on:
   schedule:

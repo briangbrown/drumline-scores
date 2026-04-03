@@ -1,4 +1,4 @@
-name: Score Fallback
+name: "Pipeline: Score Fallback"
 
 on:
   schedule:
