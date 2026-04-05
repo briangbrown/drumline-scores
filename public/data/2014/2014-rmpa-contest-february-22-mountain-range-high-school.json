@@ -1,0 +1,1466 @@
+{
+  "metadata": {
+    "id": "2014-rmpa-contest-february-22-mountain-range-high-school",
+    "eventName": "RMPA Contest",
+    "venue": "Mountain Range High School",
+    "date": "Saturday, February 22, 2014 - Mountain Range High School",
+    "round": "",
+    "year": 2014
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Alameda International High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 67,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 67,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 33.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 33.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 73,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 71,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 35.9,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 35.9,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 69.4,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 67,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 66,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 33.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 33.2,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 70,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 67,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 34.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 34.1,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 67.3,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Highlands Ranch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 65,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 32.7,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 32.7,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 62,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 60,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 30.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 30.4,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 63.1,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Denver Citywide",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 65,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 63,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 31.9,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 31.9,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 59,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 56,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 28.6,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 28.6,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 5.5,
+          "penalty": 0,
+          "total": 55,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Thunder Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 69,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 63,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 26.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 26.4,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 28.9,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 28.9,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Hunt",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 71,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 14.2,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 14.2,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 69.5,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Longmont High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 70,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 64,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 26.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 26.8,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 65,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 26.15,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 26.15,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Hunt",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 72,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 14.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 14.4,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 67.35,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Ponderosa High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 62,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 60,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 24.4,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 24.4,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 67,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 67,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 26.8,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 26.8,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Hunt",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 14,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 14,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 65.2,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Heritage High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 61,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 59,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 24,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 24,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 65,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 67,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 26.5,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 26.5,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Hunt",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 63,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 12.9,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 12.9,
+              "captionRank": 5
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 63.4,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 65,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 61,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 25.2,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 25.2,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 63,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 25.65,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 25.65,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Hunt",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 14.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 14.7,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 3.5,
+          "penalty": 0,
+          "total": 62.05,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Pomona High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 63,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 60,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 24.6,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 24.6,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 65,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 62,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 25.25,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 25.25,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Hunt",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 60,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 59,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 11.9,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 11.9,
+              "captionRank": 6
+            }
+          ],
+          "subTotal": 0.75,
+          "penalty": 0,
+          "total": 61,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Dakota Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 39.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 39.2,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 78,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 78,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 39,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 39,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.2,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Golden High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 38.6,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 38.6,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 78,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 39.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 39.4,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-open",
+        "name": "Percussion Scholastic Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Monarch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 78,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 31.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 31.6,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 32.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 32.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Hunt",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 15,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 15,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.1,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Centaurus High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 76,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 76,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 30.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 30.4,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 31.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 31.2,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Hunt",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 15.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 15.7,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 77.3,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-world",
+        "name": "Percussion Scholastic Concert World",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Pine Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 38.6,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 38.6,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 84,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 42.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 42.2,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80.8,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Cherry Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 40.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 40.2,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 82,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 80,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 40.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 40.4,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80.6,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Bear Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 39.1,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 39.1,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 84,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 82,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 41.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 41.4,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80.5,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Chaparral High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 39.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 39.9,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 81,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 80,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 40.2,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 40.2,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 2.5,
+          "penalty": 0,
+          "total": 77.6,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Rise Percussion",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 31.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 31.4,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 31.05,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 31.05,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Hunt",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 14.3,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 14.3,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 76.75,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Blue Knights",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "S. Sybilski",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 79,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 32.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 32.2,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "R. Hardimon",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 31,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 31,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Hunt",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 16.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.2,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 3.25,
+          "penalty": 0,
+          "total": 76.15,
+          "rank": 2
+        }
+      ]
+    }
+  ]
+}

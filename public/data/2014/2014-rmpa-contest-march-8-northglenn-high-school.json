@@ -1,0 +1,1910 @@
+{
+  "metadata": {
+    "id": "2014-rmpa-contest-march-8-northglenn-high-school",
+    "eventName": "RMPA Contest",
+    "venue": "Northglenn High School",
+    "date": "Saturday, March 8, 2014 - Northglenn High School",
+    "round": "",
+    "year": 2014
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Mesa Ridge High School \"A\"",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 70,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 68,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 34.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 34.4,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 77,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 74,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 37.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 37.6,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 72,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Glenwood Springs High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 69,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 66,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 33.6,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 33.6,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 75,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 37.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 37.5,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 71.1,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 65,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 33.1,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 33.1,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 69,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 72,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 35.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 35.4,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 68.5,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Highlands Ranch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 67,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 32.6,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 32.6,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 67,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 69,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 34.1,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 34.1,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0.25,
+          "penalty": 0,
+          "total": 66.45,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Longmont High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 32.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 32.2,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 30.45,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 30.45,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Harvey",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 15.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 15.7,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.35,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 77,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 75,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 30.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 30.4,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 72,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 28.3,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 28.3,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Harvey",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 15.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 15.8,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 74.5,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Wheat Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 74,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 74,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 29.6,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 29.6,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 72,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 28.95,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 28.95,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Harvey",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 14.7,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 14.7,
+              "captionRank": 5
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 73.25,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Thunder Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 69,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 74,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 28.6,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 28.6,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 29.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 29.5,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Harvey",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 14.6,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 14.6,
+              "captionRank": 6
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 72.7,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Thompson Valley High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 68,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 71,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 27.8,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 27.8,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 26.2,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 26.2,
+              "captionRank": 7
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Harvey",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 15,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 15,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 69,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Evergreen High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 65,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 62,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 25.4,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 25.4,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 66,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 26.7,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 26.7,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Harvey",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 14.8,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 14.8,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 66.9,
+          "rank": 6
+        },
+        {
+          "ensembleName": "Rampart High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 64,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 63,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 25.4,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 25.4,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 67,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 65,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 26.3,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 26.3,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Harvey",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 68,
+                      "rank": 7
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 67,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 13.5,
+                  "rank": 7
+                }
+              ],
+              "captionTotal": 13.5,
+              "captionRank": 7
+            }
+          ],
+          "subTotal": 2.25,
+          "penalty": 0,
+          "total": 62.95,
+          "rank": 7
+        },
+        {
+          "ensembleName": "Sand Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 63,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 61,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 24.8,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 24.8,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 65,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 62,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 25.25,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 25.25,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Harvey",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 64,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 61,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 12.5,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 12.5,
+              "captionRank": 8
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 62.55,
+          "rank": 8
+        },
+        {
+          "ensembleName": "Heritage High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 60,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 60,
+                      "rank": 9
+                    }
+                  ],
+                  "total": 24,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 24,
+              "captionRank": 9
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 66,
+                      "rank": 8
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 64,
+                      "rank": 7
+                    }
+                  ],
+                  "total": 25.9,
+                  "rank": 8
+                }
+              ],
+              "captionTotal": 25.9,
+              "captionRank": 8
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Harvey",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 62,
+                      "rank": 9
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 62,
+                      "rank": 8
+                    }
+                  ],
+                  "total": 12.4,
+                  "rank": 9
+                }
+              ],
+              "captionTotal": 12.4,
+              "captionRank": 9
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 62.3,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Dakota Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 39.3,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 39.3,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 83,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 84,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 41.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 41.8,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 81.1,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Golden High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 40,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 40,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 81,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 80.5,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 40.35,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 40.35,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80.35,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Mesa Ridge High School \"Open\"",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 38.8,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 38.8,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 82,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 82,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 41,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 41,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.8,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Eaglecrest High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 37.6,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 37.6,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 80,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 80,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 40,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 40,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 77.6,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Douglas County High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 37.7,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 37.7,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 73,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 70,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 35.6,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 35.6,
+              "captionRank": 5
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 73.3,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-open",
+        "name": "Percussion Scholastic Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Monarch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 34.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 34.2,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 33.9,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 33.9,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Harvey",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 16,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 84.1,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Silver Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 81,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 82,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 32.6,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 32.6,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 32.3,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 32.3,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Harvey",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 15.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 15.9,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80.8,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Centaurus High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 85,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 33.6,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 33.6,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 31.5,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 31.5,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Harvey",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 15.5,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 15.5,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80.6,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-world",
+        "name": "Percussion Scholastic Concert World",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Chaparral High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 39.7,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 39.7,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 87,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 87,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 43.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 43.5,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.2,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Pine Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 40.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 40.2,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 85,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 83,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 41.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 41.9,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 82.1,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Bear Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 40.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 40.7,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 79,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 73,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 37.7,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 37.7,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.4,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Blue Knights",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 82,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 79,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 32.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 32.2,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 31.1,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 31.1,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Harvey",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 16,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.3,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Rise Percussion",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "T. Nunez",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 76,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 31,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 31,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Music",
+              "judges": [
+                {
+                  "judgeName": "S. Stroman",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 29.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 29.9,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "J. Harvey",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 14.8,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 14.8,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 75.7,
+          "rank": 2
+        }
+      ]
+    }
+  ]
+}

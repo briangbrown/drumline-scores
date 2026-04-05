@@ -29,7 +29,8 @@
       "canonicalName": "Alameda International High School",
       "shortName": "Alameda",
       "aliases": [
-        "Alameda International Indoor Percussion"
+        "Alameda International Indoor Percussion",
+        "Alameda High School"
       ],
       "city": "Lakewood",
       "state": "CO"
@@ -309,6 +310,14 @@
       "state": "CO"
     },
     {
+      "id": "fountain-ft-carson-high-school",
+      "canonicalName": "Fountain-Ft. Carson High School",
+      "shortName": "Fountain-Ft. Carson",
+      "aliases": [],
+      "city": "",
+      "state": ""
+    },
+    {
       "id": "frederick-high-school",
       "canonicalName": "Frederick High School",
       "shortName": "Frederick",
@@ -320,6 +329,14 @@
       "id": "gateway-high-school",
       "canonicalName": "Gateway High School",
       "shortName": "Gateway",
+      "aliases": [],
+      "city": "",
+      "state": ""
+    },
+    {
+      "id": "glenwood-springs-high-school",
+      "canonicalName": "Glenwood Springs High School",
+      "shortName": "Glenwood Springs",
       "aliases": [],
       "city": "",
       "state": ""
@@ -402,7 +419,8 @@
       "canonicalName": "Legacy Winter Percussion",
       "shortName": "Legacy",
       "aliases": [
-        "Legacy High School Winter Percussion"
+        "Legacy High School Winter Percussion",
+        "Legacy High School"
       ],
       "city": "Broomfield",
       "state": ""
@@ -411,6 +429,14 @@
       "id": "legend-high-school",
       "canonicalName": "Legend High School",
       "shortName": "Legend",
+      "aliases": [],
+      "city": "",
+      "state": ""
+    },
+    {
+      "id": "lehi-high-school",
+      "canonicalName": "Lehi HIgh School",
+      "shortName": "Lehi",
       "aliases": [],
       "city": "",
       "state": ""
@@ -446,7 +472,9 @@
       "canonicalName": "Mesa Ridge High School",
       "shortName": "Mesa Ridge",
       "aliases": [
-        "Mesa Ridge Percussion Ensemble"
+        "Mesa Ridge Percussion Ensemble",
+        "Mesa Ridge High School \"A\"",
+        "Mesa Ridge High School \"Open\""
       ],
       "city": "Colorado Springs",
       "state": "CO"
@@ -481,6 +509,14 @@
       "id": "new-mexico-adrena-line",
       "canonicalName": "New Mexico Adrena-line",
       "shortName": "New Mexico Adrena-line",
+      "aliases": [],
+      "city": "",
+      "state": ""
+    },
+    {
+      "id": "northglenn-high-school",
+      "canonicalName": "Northglenn High School",
+      "shortName": "Northglenn",
       "aliases": [],
       "city": "",
       "state": ""
@@ -610,6 +646,14 @@
       "state": ""
     },
     {
+      "id": "skyline-high-school",
+      "canonicalName": "Skyline High School",
+      "shortName": "Skyline",
+      "aliases": [],
+      "city": "",
+      "state": ""
+    },
+    {
       "id": "standley-lake-high-school",
       "canonicalName": "Standley Lake High School",
       "shortName": "Standley Lake",
@@ -702,6 +746,14 @@
       ],
       "city": "Windsor",
       "state": "CO"
+    },
+    {
+      "id": "woodland-park-high-school",
+      "canonicalName": "Woodland Park High School",
+      "shortName": "Woodland Park",
+      "aliases": [],
+      "city": "",
+      "state": ""
     }
   ]
 }

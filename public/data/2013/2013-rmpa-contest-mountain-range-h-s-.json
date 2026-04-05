@@ -1,0 +1,1986 @@
+{
+  "metadata": {
+    "id": "2013-rmpa-contest-mountain-range-h-s-",
+    "eventName": "RMPA Contest - Mountain Range H.S.",
+    "venue": "",
+    "date": "",
+    "round": "Finals",
+    "year": 2013
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 41.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 41.8,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 86,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 83,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 42.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 42.1,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.9,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Mesa Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 37.6,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 37.6,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 84,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 42.8,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 42.8,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80.4,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Glenwood Springs High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 41.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 41.1,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 83,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 75,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 39.1,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 39.1,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80.2,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Denver Citywide",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 73,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 37.4,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 37.4,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 85,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 82,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 41.6,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 41.6,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Wheat Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 73,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 29.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 29.6,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 33.15,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 33.15,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 16.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 16.4,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 79.15,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Rampart High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 71,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 68,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 27.8,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 27.8,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 33.85,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 33.85,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.1,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 17.1,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.75,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Thunder Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 70,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 73,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 28.6,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 28.6,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 32.1,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 32.1,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 16.2,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 16.2,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 76.9,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 72,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 70,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 28.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 28.4,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 30.9,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 30.9,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 16.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 16.5,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 75.8,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-national-a",
+        "name": "Percussion Scholastic National A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Longmont High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 81,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 33,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 33,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 33.45,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 33.45,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 17,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 17,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.45,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Centaurus High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 77,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 79,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 31.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 31.2,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 32.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 32.4,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 17.2,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 80.8,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Doherty High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 74,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 76,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 30,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 30,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 31.75,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 31.75,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 16.3,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 16.3,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.05,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Lehi HIgh School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 70,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 71,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 28.2,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 28.2,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 34,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 34,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 15.8,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 15.8,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Golden High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 82,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 40.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 40.6,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 84,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 42.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 42.2,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 82.8,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Douglas County High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 38.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 38.1,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 82,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 81,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 40.7,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 40.7,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.8,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Arvada High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 71,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 36.7,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 36.7,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 84,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 82,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 41.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 41.4,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.1,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Eaglecrest High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 37.6,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 37.6,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 79,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 80,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 39.8,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 39.8,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 77.4,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Alameda High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 73,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 37.7,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 37.7,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 76,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 72,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 36.8,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 36.8,
+              "captionRank": 6
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 74.5,
+          "rank": 5
+        },
+        {
+          "ensembleName": "Heritage High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 6
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 70,
+                      "rank": 6
+                    }
+                  ],
+                  "total": 36.2,
+                  "rank": 6
+                }
+              ],
+              "captionTotal": 36.2,
+              "captionRank": 6
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 78,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 73,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 37.5,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 37.5,
+              "captionRank": 5
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 73.7,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-open",
+        "name": "Percussion Scholastic Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Monarch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 34,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 34,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 35.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 35.2,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 17.2,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 86.4,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Silver Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 33.6,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 33.6,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 33.3,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 33.3,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 16.4,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 16.4,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.3,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Arapahoe High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 71,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 69,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 28,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 28,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 31.7,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 31.7,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 15.6,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 15.6,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 75.3,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-world",
+        "name": "Percussion Scholastic Concert World",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Cherry Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 75,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 37.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 37.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 68,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 35.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 35.6,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 73.1,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Dakota Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 74,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 74,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 37,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 37,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 72,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 69,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 35.1,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 35.1,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 72.1,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Bear Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 62,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 62,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 31,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 31,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 69,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 65,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 33.3,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 33.3,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 64.3,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-world",
+        "name": "Percussion Scholastic World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Northglenn High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 33.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 33.4,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 33.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 33.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 16.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.4,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 83.3,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Blue Knights",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 87,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 34.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 34.6,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 33.35,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 33.35,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 16.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 16.6,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 84.55,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Rise Percussion",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Argenziano",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 74,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 67,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 28.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 28.2,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Johnson",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 31.2,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 31.2,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Dwyer",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 15.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 15.5,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 74.9,
+          "rank": 2
+        }
+      ]
+    }
+  ]
+}
