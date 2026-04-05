@@ -199,7 +199,10 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
 
   const handleChartClick = useCallback(
     (state: { activeLabel?: string | number; activeCoordinate?: { x: number; y: number } } | null) => {
-      if (!state || state.activeLabel === undefined) return
+      if (!state || state.activeLabel === undefined) {
+        setPinnedState(null)
+        return
+      }
       const label = String(state.activeLabel)
       setPinnedState((prev) =>
         prev?.year === label
@@ -243,67 +246,75 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
           <Panel title="Score Trajectory">
             <ChartContainer className="h-[300px] sm:h-[350px]">
               {(width, height) => (
-                <ComposedChart
-                  data={chartData}
-                  width={width}
-                  height={height}
-                  margin={{ top: 10, right: 10, bottom: 5, left: 0 }}
-                  onClick={handleChartClick}
-                >
-                  <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border-grid)" />
-                  <XAxis
-                    dataKey="year"
-                    tick={{ fill: 'var(--color-text-muted)', fontSize: 11 }}
-                    stroke="var(--color-border-grid)"
-                  />
-                  <YAxis
-                    tick={{ fill: 'var(--color-text-muted)', fontSize: 10 }}
-                    stroke="var(--color-border-grid)"
-                    domain={[
-                      (dataMin: number) => {
-                        const minWithBox = chartData.reduce((min, d) => {
-                          const boxMin = d.boxStats?.min ?? d.Final
-                          return Math.min(min, boxMin)
-                        }, dataMin)
-                        return Math.floor(minWithBox - 2)
-                      },
-                      (dataMax: number) => {
-                        const maxWithBox = chartData.reduce((max, d) => {
-                          const boxMax = d.boxStats?.max ?? d.Final
-                          return Math.max(max, boxMax)
-                        }, dataMax)
-                        return Math.ceil(maxWithBox + 2)
-                      },
-                    ]}
-                  />
-                  <Tooltip
-                    content={<BoxPlotTooltip pinnedDatum={pinnedDatum} />}
-                    {...(pinnedState
-                      ? { active: true, position: pinnedState.coord }
-                      : {})}
-                  />
-                  {/* 2020 gap indicator — no season */}
-                  {chartData.some((d) => d.year === '2019') && !chartData.some((d) => d.year === '2020') && (
-                    <ReferenceLine
-                      x="2019"
-                      stroke="var(--color-text-muted)"
-                      strokeDasharray="3 3"
-                      label={{ value: 'COVID', position: 'top', fill: 'var(--color-text-muted)', fontSize: 9 }}
+                <div className="relative" style={{ width, height }}>
+                  <ComposedChart
+                    data={chartData}
+                    width={width}
+                    height={height}
+                    margin={{ top: 10, right: 25, bottom: 5, left: -35 }}
+                    onClick={handleChartClick}
+                  >
+                    <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border-grid)" />
+                    <XAxis
+                      dataKey="year"
+                      tick={{ fill: 'var(--color-text-muted)', fontSize: 11 }}
+                      stroke="var(--color-border-grid)"
                     />
+                    <YAxis
+                      tick={{ fill: 'var(--color-text-muted)', fontSize: 10 }}
+                      stroke="var(--color-border-grid)"
+                      domain={[
+                        (dataMin: number) => {
+                          const minWithBox = chartData.reduce((min, d) => {
+                            const boxMin = d.boxStats?.min ?? d.Final
+                            return Math.min(min, boxMin)
+                          }, dataMin)
+                          return Math.floor(minWithBox - 2)
+                        },
+                        (dataMax: number) => {
+                          const maxWithBox = chartData.reduce((max, d) => {
+                            const boxMax = d.boxStats?.max ?? d.Final
+                            return Math.max(max, boxMax)
+                          }, dataMax)
+                          return Math.ceil(maxWithBox + 2)
+                        },
+                      ]}
+                    />
+                    <Tooltip
+                      content={pinnedState ? () => null : <BoxPlotTooltip />}
+                    />
+                    {/* 2020 gap indicator — no season */}
+                    {chartData.some((d) => d.year === '2019') && !chartData.some((d) => d.year === '2020') && (
+                      <ReferenceLine
+                        x="2019"
+                        stroke="var(--color-text-muted)"
+                        strokeDasharray="3 3"
+                        label={{ value: 'COVID', position: 'top', fill: 'var(--color-text-muted)', fontSize: 9 }}
+                      />
+                    )}
+                    {/* Box plots + dots rendered via axis scale hooks */}
+                    <Customized component={<BoxPlotLayer data={chartData} activeBoxYear={activeBoxYear} chartWidth={width} />} />
+                    {/* Trajectory line connecting final scores */}
+                    <Line
+                      type="monotone"
+                      dataKey="Final"
+                      stroke="var(--color-accent)"
+                      strokeWidth={2}
+                      dot={false}
+                      connectNulls
+                      isAnimationActive={false}
+                    />
+                  </ComposedChart>
+                  {/* Pinned tooltip rendered outside Recharts to persist on mouse move */}
+                  {pinnedState && pinnedDatum && (
+                    <div
+                      className="pointer-events-none absolute top-0 left-0 z-10"
+                      style={{ transform: `translate(${pinnedState.coord.x + 10}px, ${pinnedState.coord.y - 60}px)` }}
+                    >
+                      <BoxPlotTooltipContent datum={pinnedDatum} />
+                    </div>
                   )}
-                  {/* Box plots + dots rendered via axis scale hooks */}
-                  <Customized component={<BoxPlotLayer data={chartData} activeBoxYear={activeBoxYear} />} />
-                  {/* Trajectory line connecting final scores */}
-                  <Line
-                    type="monotone"
-                    dataKey="Final"
-                    stroke="var(--color-accent)"
-                    strokeWidth={2}
-                    dot={false}
-                    connectNulls
-                    isAnimationActive={false}
-                  />
-                </ComposedChart>
+                </div>
               )}
             </ChartContainer>
             <p className="mt-2 text-center text-[10px] text-text-muted">
@@ -398,16 +409,19 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
 type BoxPlotLayerProps = {
   data: Array<ChartDatum>
   activeBoxYear: string | null
+  chartWidth: number
 }
 
-function BoxPlotLayer({ data, activeBoxYear }: BoxPlotLayerProps) {
+function BoxPlotLayer({ data, activeBoxYear, chartWidth }: BoxPlotLayerProps) {
   const xScale = useXAxisScale()
   const yScale = useYAxisScale()
 
   if (!xScale || !yScale) return null
 
-  const boxWidth = 24
-  const whiskerWidth = 12
+  // Scale box width based on available space per data point (max 24px, min 6px)
+  const spacePerPoint = chartWidth / Math.max(data.length, 1)
+  const boxWidth = Math.min(24, Math.max(6, Math.floor(spacePerPoint * 0.5)))
+  const whiskerWidth = Math.max(4, Math.floor(boxWidth / 2))
 
   return (
     <g className="recharts-box-plot-layer">
@@ -495,36 +509,16 @@ function BoxPlotLayer({ data, activeBoxYear }: BoxPlotLayerProps) {
 // Box Plot Tooltip
 // ---------------------------------------------------------------------------
 
-type BoxPlotTooltipPayloadEntry = {
-  dataKey?: string | number
-  name?: string
-  value?: number | string
-  payload?: ChartDatum
-}
-
-type BoxPlotTooltipProps = {
-  active?: boolean
-  payload?: Array<BoxPlotTooltipPayloadEntry>
-  label?: string
-  pinnedDatum?: ChartDatum | null
-}
-
-function BoxPlotTooltip({ active, payload, label, pinnedDatum }: BoxPlotTooltipProps) {
-  const entry = pinnedDatum ?? payload?.[0]?.payload
-  const displayLabel = pinnedDatum ? pinnedDatum.year : label
-
-  if (!pinnedDatum && (!active || !entry)) return null
-  if (!entry) return null
-
-  const stats = entry.boxStats
-
+// Shared tooltip content for both hover and pinned states
+function BoxPlotTooltipContent({ datum }: { datum: ChartDatum }) {
+  const stats = datum.boxStats
   return (
     <div className="rounded-lg border border-border bg-surface p-3 shadow-lg">
-      <p className="mb-2 text-xs font-medium text-text-secondary">{displayLabel}</p>
+      <p className="mb-2 text-xs font-medium text-text-secondary">{datum.year}</p>
       <div className="flex items-center gap-2 text-xs mb-1">
         <span className="inline-block h-2 w-2 rounded-full" style={{ backgroundColor: 'var(--color-accent)' }} />
         <span className="text-text-secondary">Final:</span>
-        <span className="font-medium text-text-primary">{entry.Final.toFixed(2)}</span>
+        <span className="font-medium text-text-primary">{datum.Final.toFixed(2)}</span>
       </div>
       {stats && (
         <div className="border-t border-border/50 mt-1.5 pt-1.5 space-y-0.5">
@@ -538,6 +532,25 @@ function BoxPlotTooltip({ active, payload, label, pinnedDatum }: BoxPlotTooltipP
       )}
     </div>
   )
+}
+
+type BoxPlotTooltipPayloadEntry = {
+  dataKey?: string | number
+  name?: string
+  value?: number | string
+  payload?: ChartDatum
+}
+
+type BoxPlotTooltipProps = {
+  active?: boolean
+  payload?: Array<BoxPlotTooltipPayloadEntry>
+  label?: string
+}
+
+function BoxPlotTooltip({ active, payload }: BoxPlotTooltipProps) {
+  const entry = payload?.[0]?.payload
+  if (!active || !entry) return null
+  return <BoxPlotTooltipContent datum={entry} />
 }
 
 function StatRow({ label, value }: { label: string; value: number }) {
