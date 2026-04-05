@@ -1,6 +1,7 @@
 import { useEffect, useCallback, useRef, useState } from 'react'
 import { Layout } from './layout'
 import { useRoute } from './hooks/use-route'
+import { hashHasYear } from './router'
 import { useSeasonData } from './hooks/use-season-data'
 import { useFavorite } from './hooks/use-favorite'
 import { ProgressionView } from './views/progression'
@@ -26,6 +27,17 @@ export function App() {
   const handleYearChange = useCallback((year: number) => {
     updateRoute({ year, showId: null })
   }, [updateRoute])
+
+  // Redirect to latest available year when URL has no explicit year
+  const didRedirect = useRef(false)
+  useEffect(() => {
+    if (didRedirect.current || years.length === 0) return
+    if (!hashHasYear(window.location.hash)) {
+      didRedirect.current = true
+      const latestYear = Math.max(...years)
+      updateRoute({ year: latestYear })
+    }
+  }, [years, updateRoute])
 
   // Auto-select first class when none selected or current class doesn't exist in new season
   useEffect(() => {

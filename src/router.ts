@@ -17,6 +17,17 @@ const DEFAULT_YEAR = 2025
 const DEFAULT_VIEW: ViewType = 'progression'
 
 /**
+ * Check whether a hash string contains an explicit year segment.
+ */
+export function hashHasYear(hash: string): boolean {
+  const path = hash.replace(/^#\/?/, '').split('?')[0]
+  const first = path.split('/').filter(Boolean)[0]
+  if (!first) return false
+  const n = parseInt(first, 10)
+  return !isNaN(n) && n >= 2000 && n <= 2100
+}
+
+/**
  * Parse the current hash into a RouteState.
  */
 export function parseRoute(hash: string): RouteState {

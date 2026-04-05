@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { parseRoute, buildRoute } from './router'
+import { parseRoute, buildRoute, hashHasYear } from './router'
 
 describe('parseRoute', () => {
   it('should parse empty hash to defaults', () => {
@@ -51,6 +51,31 @@ describe('parseRoute', () => {
   it('should handle invalid view gracefully', () => {
     const state = parseRoute('#/2025/psa/badview')
     expect(state.view).toBe('progression') // default
+  })
+})
+
+describe('hashHasYear', () => {
+  it('should return false for empty hash', () => {
+    expect(hashHasYear('')).toBe(false)
+  })
+
+  it('should return false for bare hash', () => {
+    expect(hashHasYear('#')).toBe(false)
+    expect(hashHasYear('#/')).toBe(false)
+  })
+
+  it('should return true when year is present', () => {
+    expect(hashHasYear('#/2025')).toBe(true)
+    expect(hashHasYear('#/2025/psa/standings')).toBe(true)
+  })
+
+  it('should return false for non-year first segment', () => {
+    expect(hashHasYear('#/notayear')).toBe(false)
+  })
+
+  it('should return false for out-of-range year', () => {
+    expect(hashHasYear('#/1999')).toBe(false)
+    expect(hashHasYear('#/2101')).toBe(false)
   })
 })
 
