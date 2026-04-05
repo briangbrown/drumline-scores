@@ -7,6 +7,7 @@ import {
   CartesianGrid,
   Tooltip,
   ReferenceLine,
+  Customized,
   useXAxisScale,
   useYAxisScale,
 } from 'recharts'
@@ -46,7 +47,8 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
   const { showsByYear, isLoading, error } = useAllSeasonShows()
   const [registry, setRegistry] = useState<EnsembleRegistry | null>(null)
   const [selectedEnsembleId, setSelectedEnsembleId] = useState<string>('')
-  const [activeBoxYear, setActiveBoxYear] = useState<string | null>(null)
+  const [pinnedState, setPinnedState] = useState<{ year: string; coord: { x: number; y: number } } | null>(null)
+  const activeBoxYear = pinnedState?.year ?? null
 
   // Load ensemble registry
   useEffect(() => {
@@ -190,17 +192,25 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
     }
   }, [seasonData])
 
-  const pinnedIndex = useMemo(() => {
-    if (activeBoxYear === null) return undefined
-    const idx = chartData.findIndex((d) => d.year === activeBoxYear)
-    return idx >= 0 ? idx : undefined
-  }, [activeBoxYear, chartData])
+  const pinnedDatum = useMemo(() => {
+    if (!pinnedState) return null
+    return chartData.find((d) => d.year === pinnedState.year) ?? null
+  }, [pinnedState, chartData])
 
-  const handleChartClick = useCallback((state: { activeLabel?: string | number } | null) => {
-    if (!state || state.activeLabel === undefined) return
-    const label = String(state.activeLabel)
-    setActiveBoxYear((prev) => prev === label ? null : label)
-  }, [])
+  const handleChartClick = useCallback(
+    (state: { activeLabel?: string | number; activeCoordinate?: { x: number; y: number } } | null) => {
+      if (!state || state.activeLabel === undefined) return
+      const label = String(state.activeLabel)
+      setPinnedState((prev) =>
+        prev?.year === label
+          ? null
+          : state.activeCoordinate
+            ? { year: label, coord: state.activeCoordinate }
+            : null,
+      )
+    },
+    [],
+  )
 
   if (isLoading || !registry) return <Loading />
   if (error) return <ErrorMessage message={error} />
@@ -267,8 +277,10 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
                     ]}
                   />
                   <Tooltip
-                    content={<BoxPlotTooltip />}
-                    defaultIndex={pinnedIndex}
+                    content={<BoxPlotTooltip pinnedDatum={pinnedDatum} />}
+                    {...(pinnedState
+                      ? { active: true, position: pinnedState.coord }
+                      : {})}
                   />
                   {/* 2020 gap indicator — no season */}
                   {chartData.some((d) => d.year === '2019') && !chartData.some((d) => d.year === '2020') && (
@@ -280,7 +292,7 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
                     />
                   )}
                   {/* Box plots + dots rendered via axis scale hooks */}
-                  <BoxPlotLayer data={chartData} activeBoxYear={activeBoxYear} />
+                  <Customized component={<BoxPlotLayer data={chartData} activeBoxYear={activeBoxYear} />} />
                   {/* Trajectory line connecting final scores */}
                   <Line
                     type="monotone"
@@ -494,18 +506,21 @@ type BoxPlotTooltipProps = {
   active?: boolean
   payload?: Array<BoxPlotTooltipPayloadEntry>
   label?: string
+  pinnedDatum?: ChartDatum | null
 }
 
-function BoxPlotTooltip({ active, payload, label }: BoxPlotTooltipProps) {
-  const entry = payload?.[0]?.payload
+function BoxPlotTooltip({ active, payload, label, pinnedDatum }: BoxPlotTooltipProps) {
+  const entry = pinnedDatum ?? payload?.[0]?.payload
+  const displayLabel = pinnedDatum ? pinnedDatum.year : label
 
-  if (!active || !entry) return null
+  if (!pinnedDatum && (!active || !entry)) return null
+  if (!entry) return null
 
   const stats = entry.boxStats
 
   return (
     <div className="rounded-lg border border-border bg-surface p-3 shadow-lg">
-      <p className="mb-2 text-xs font-medium text-text-secondary">{label}</p>
+      <p className="mb-2 text-xs font-medium text-text-secondary">{displayLabel}</p>
       <div className="flex items-center gap-2 text-xs mb-1">
         <span className="inline-block h-2 w-2 rounded-full" style={{ backgroundColor: 'var(--color-accent)' }} />
         <span className="text-text-secondary">Final:</span>
