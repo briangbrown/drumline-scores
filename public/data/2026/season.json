@@ -1,5 +1,65 @@
 {
   "year": 2026,
-  "shows": [],
-  "classes": []
+  "shows": [
+    {
+      "id": "2026-rmpa-championships-april-4",
+      "eventName": "RMPA Championships",
+      "date": "Saturday, April 4, 2026",
+      "round": "Finals",
+      "sourceHash": "47c00afae31c0503557e5f3d0a5d77c54186993b3627320f4b8179beb3fd3018",
+      "lastImportedUtc": "2026-04-05T02:26:33.708Z"
+    }
+  ],
+  "classes": [
+    {
+      "id": "percussion-scholastic-concert-regional-a",
+      "name": "Percussion Scholastic Concert Regional A",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-standstill-regional-a",
+      "name": "Percussion Scholastic Standstill Regional A",
+      "classType": "standstill"
+    },
+    {
+      "id": "percussion-scholastic-regional-a",
+      "name": "Percussion Scholastic Regional A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-a",
+      "name": "Percussion Scholastic Concert A",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-standstill-a",
+      "name": "Percussion Scholastic Standstill A",
+      "classType": "standstill"
+    },
+    {
+      "id": "percussion-scholastic-a",
+      "name": "Percussion Scholastic A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-open",
+      "name": "Percussion Scholastic Concert Open",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-open",
+      "name": "Percussion Scholastic Open",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-independent-open",
+      "name": "Percussion Independent Open",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-independent-world",
+      "name": "Percussion Independent World",
+      "classType": "marching"
+    }
+  ]
 }

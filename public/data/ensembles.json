@@ -1,6 +1,14 @@
 {
   "ensembles": [
     {
+      "id": "27j-indoor-percussion",
+      "canonicalName": "27J Indoor Percussion",
+      "shortName": "27J",
+      "aliases": [],
+      "city": "Henderson",
+      "state": "CO"
+    },
+    {
       "id": "academy-school-district",
       "canonicalName": "Academy School District",
       "shortName": "Academy School District",
@@ -259,7 +267,8 @@
       "canonicalName": "Englewood High School Percussion Ensemble",
       "shortName": "Englewood",
       "aliases": [
-        "Englewood High School"
+        "Englewood High School",
+        "Englewood High School Zero Hour Percussion Ensemble"
       ],
       "city": "Englewood",
       "state": "CO"
@@ -578,7 +587,8 @@
       "canonicalName": "Sand Creek Winter Percussions",
       "shortName": "Sand Creek Winter Percussions",
       "aliases": [
-        "Sand Creek High School"
+        "Sand Creek High School",
+        "Sand Creek Winter Percussion"
       ],
       "city": "Colorado Springs",
       "state": "CO"
@@ -613,6 +623,22 @@
       "shortName": "Steamboat Springs",
       "aliases": [],
       "city": "",
+      "state": ""
+    },
+    {
+      "id": "tca-winter-percussion-ensemble",
+      "canonicalName": "TCA Winter Percussion Ensemble",
+      "shortName": "TCA Ensemble",
+      "aliases": [],
+      "city": "COlorado Springs",
+      "state": ""
+    },
+    {
+      "id": "the-district-11-indoor-percussion-ensemble",
+      "canonicalName": "The District 11 Indoor Percussion Ensemble",
+      "shortName": "The Ensemble",
+      "aliases": [],
+      "city": "301 N Nevada Ave",
       "state": ""
     },
     {

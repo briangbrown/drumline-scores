@@ -6,11 +6,11 @@
       "eventName": "Championships Finals @ Denver Coliseum — Full Retreat",
       "retreatUtc": "2026-04-05T02:07:00.000Z",
       "windowCloseUtc": "2026-04-05T04:07:00.000Z",
-      "status": "pending",
-      "sourceHash": null,
-      "lastImportedUtc": null,
+      "status": "imported",
+      "sourceHash": "47c00afae31c0503557e5f3d0a5d77c54186993b3627320f4b8179beb3fd3018",
+      "lastImportedUtc": "2026-04-05T02:26:29.527Z",
       "isFinal": true
     }
   ],
-  "coolDownUntilUtc": null
+  "coolDownUntilUtc": "2026-04-05T02:41:29.527Z"
 }
