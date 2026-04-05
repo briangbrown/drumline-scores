@@ -7,8 +7,8 @@ import {
   CartesianGrid,
   Tooltip,
   ReferenceLine,
-  Scatter,
-  Cell,
+  useXAxisScale,
+  useYAxisScale,
 } from 'recharts'
 import { Panel } from '../components/panel'
 import { ChartContainer } from '../components/chart-container'
@@ -190,11 +190,16 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
     }
   }, [seasonData])
 
-  const handleChartClick = useCallback((state: { activeLabel?: string | number }) => {
-    if (state.activeLabel !== undefined) {
-      const label = String(state.activeLabel)
-      setActiveBoxYear((prev) => prev === label ? null : label)
-    }
+  const pinnedIndex = useMemo(() => {
+    if (activeBoxYear === null) return undefined
+    const idx = chartData.findIndex((d) => d.year === activeBoxYear)
+    return idx >= 0 ? idx : undefined
+  }, [activeBoxYear, chartData])
+
+  const handleChartClick = useCallback((state: { activeLabel?: string | number } | null) => {
+    if (!state || state.activeLabel === undefined) return
+    const label = String(state.activeLabel)
+    setActiveBoxYear((prev) => prev === label ? null : label)
   }, [])
 
   if (isLoading || !registry) return <Loading />
@@ -261,7 +266,10 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
                       },
                     ]}
                   />
-                  <Tooltip content={<BoxPlotTooltip activeBoxYear={activeBoxYear} />} />
+                  <Tooltip
+                    content={<BoxPlotTooltip />}
+                    defaultIndex={pinnedIndex}
+                  />
                   {/* 2020 gap indicator — no season */}
                   {chartData.some((d) => d.year === '2019') && !chartData.some((d) => d.year === '2020') && (
                     <ReferenceLine
@@ -271,16 +279,8 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
                       label={{ value: 'COVID', position: 'top', fill: 'var(--color-text-muted)', fontSize: 9 }}
                     />
                   )}
-                  {/* Box plots rendered via custom bar shapes */}
-                  <Scatter
-                    dataKey="Final"
-                    shape={(props: ScatterDotProps) => <BoxPlotShape {...props} activeBoxYear={activeBoxYear} />}
-                    isAnimationActive={false}
-                  >
-                    {chartData.map((entry) => (
-                      <Cell key={entry.year} fill="var(--color-accent)" />
-                    ))}
-                  </Scatter>
+                  {/* Box plots + dots rendered via axis scale hooks */}
+                  <BoxPlotLayer data={chartData} activeBoxYear={activeBoxYear} />
                   {/* Trajectory line connecting final scores */}
                   <Line
                     type="monotone"
@@ -380,95 +380,101 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
 }
 
 // ---------------------------------------------------------------------------
-// Box Plot SVG Shape (rendered per scatter point)
+// Box Plot Layer (rendered inside ComposedChart using Recharts axis hooks)
 // ---------------------------------------------------------------------------
 
-type ScatterDotProps = {
-  cx?: number
-  cy?: number
-  payload?: ChartDatum
-  yAxis?: { scale: (value: number) => number }
-  activeBoxYear?: string | null
+type BoxPlotLayerProps = {
+  data: Array<ChartDatum>
+  activeBoxYear: string | null
 }
 
-function BoxPlotShape({ cx, cy, payload, yAxis, activeBoxYear }: ScatterDotProps) {
-  if (!cx || !cy || !payload?.boxStats || !yAxis?.scale) {
-    // No box stats — just render the dot
-    return <circle cx={cx} cy={cy} r={5} fill="var(--color-accent)" stroke="var(--color-surface)" strokeWidth={2} />
-  }
+function BoxPlotLayer({ data, activeBoxYear }: BoxPlotLayerProps) {
+  const xScale = useXAxisScale()
+  const yScale = useYAxisScale()
 
-  const { min, q1, q3, max } = payload.boxStats
-  const scale = yAxis.scale
-
-  const yMin = scale(min)
-  const yQ1 = scale(q1)
-  const yQ3 = scale(q3)
-  const yMax = scale(max)
+  if (!xScale || !yScale) return null
 
   const boxWidth = 24
   const whiskerWidth = 12
-  const isActive = activeBoxYear === payload.year
 
   return (
-    <g>
-      {/* Whisker line (min to max) */}
-      <line
-        x1={cx}
-        y1={yMin}
-        x2={cx}
-        y2={yMax}
-        stroke="var(--color-text-secondary)"
-        strokeWidth={1.5}
-      />
-      {/* Min whisker cap */}
-      <line
-        x1={cx - whiskerWidth / 2}
-        y1={yMin}
-        x2={cx + whiskerWidth / 2}
-        y2={yMin}
-        stroke="var(--color-text-secondary)"
-        strokeWidth={1.5}
-      />
-      {/* Max whisker cap */}
-      <line
-        x1={cx - whiskerWidth / 2}
-        y1={yMax}
-        x2={cx + whiskerWidth / 2}
-        y2={yMax}
-        stroke="var(--color-text-secondary)"
-        strokeWidth={1.5}
-      />
-      {/* Box (Q1 to Q3) */}
-      <rect
-        x={cx - boxWidth / 2}
-        y={yQ3}
-        width={boxWidth}
-        height={yQ1 - yQ3}
-        fill={isActive ? 'var(--color-accent)' : 'var(--color-accent)'}
-        fillOpacity={isActive ? 0.3 : 0.15}
-        stroke="var(--color-accent)"
-        strokeWidth={1.5}
-        rx={2}
-      />
-      {/* Median line */}
-      <line
-        x1={cx - boxWidth / 2}
-        y1={scale(payload.boxStats.median)}
-        x2={cx + boxWidth / 2}
-        y2={scale(payload.boxStats.median)}
-        stroke="var(--color-accent)"
-        strokeWidth={1.5}
-        strokeDasharray="3 2"
-      />
-      {/* Final score dot (on top) */}
-      <circle
-        cx={cx}
-        cy={cy}
-        r={5}
-        fill="var(--color-accent)"
-        stroke="var(--color-surface)"
-        strokeWidth={2}
-      />
+    <g className="recharts-box-plot-layer">
+      {data.map((d) => {
+        const cx = xScale(d.year)
+        if (cx === undefined) return null
+
+        const cyFinal = yScale(d.Final)
+        if (cyFinal === undefined) return null
+
+        const stats = d.boxStats
+        const isActive = activeBoxYear === d.year
+
+        if (!stats) {
+          // No box stats — just render the dot
+          return (
+            <circle
+              key={d.year}
+              cx={cx}
+              cy={cyFinal}
+              r={5}
+              fill="var(--color-accent)"
+              stroke="var(--color-surface)"
+              strokeWidth={2}
+            />
+          )
+        }
+
+        const yMin = yScale(stats.min)
+        const yQ1 = yScale(stats.q1)
+        const yQ3 = yScale(stats.q3)
+        const yMax = yScale(stats.max)
+        const yMedian = yScale(stats.median)
+
+        if (yMin === undefined || yQ1 === undefined || yQ3 === undefined || yMax === undefined || yMedian === undefined) {
+          return null
+        }
+
+        return (
+          <g key={d.year}>
+            {/* Whisker line (min to max) */}
+            <line
+              x1={cx} y1={yMin} x2={cx} y2={yMax}
+              stroke="var(--color-text-secondary)" strokeWidth={1.5}
+            />
+            {/* Min whisker cap */}
+            <line
+              x1={cx - whiskerWidth / 2} y1={yMin}
+              x2={cx + whiskerWidth / 2} y2={yMin}
+              stroke="var(--color-text-secondary)" strokeWidth={1.5}
+            />
+            {/* Max whisker cap */}
+            <line
+              x1={cx - whiskerWidth / 2} y1={yMax}
+              x2={cx + whiskerWidth / 2} y2={yMax}
+              stroke="var(--color-text-secondary)" strokeWidth={1.5}
+            />
+            {/* Box (Q1 to Q3) */}
+            <rect
+              x={cx - boxWidth / 2} y={yQ3}
+              width={boxWidth} height={yQ1 - yQ3}
+              fill="var(--color-accent)"
+              fillOpacity={isActive ? 0.3 : 0.15}
+              stroke="var(--color-accent)" strokeWidth={1.5} rx={2}
+            />
+            {/* Median line */}
+            <line
+              x1={cx - boxWidth / 2} y1={yMedian}
+              x2={cx + boxWidth / 2} y2={yMedian}
+              stroke="var(--color-accent)" strokeWidth={1.5} strokeDasharray="3 2"
+            />
+            {/* Final score dot (on top) */}
+            <circle
+              cx={cx} cy={cyFinal} r={5}
+              fill="var(--color-accent)" stroke="var(--color-surface)" strokeWidth={2}
+            />
+          </g>
+        )
+      })}
     </g>
   )
 }
@@ -488,15 +494,12 @@ type BoxPlotTooltipProps = {
   active?: boolean
   payload?: Array<BoxPlotTooltipPayloadEntry>
   label?: string
-  activeBoxYear?: string | null
 }
 
-function BoxPlotTooltip({ active, payload, label, activeBoxYear }: BoxPlotTooltipProps) {
-  // Show tooltip if hovered or if this year is pinned
+function BoxPlotTooltip({ active, payload, label }: BoxPlotTooltipProps) {
   const entry = payload?.[0]?.payload
-  const isActive = active || (activeBoxYear !== null && entry?.year === activeBoxYear)
 
-  if (!isActive || !entry) return null
+  if (!active || !entry) return null
 
   const stats = entry.boxStats
 
