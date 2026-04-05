@@ -1,7 +1,13 @@
 import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { describe, it, expect } from 'vitest'
-import { parseRecapHtml, getClassAbbreviation, compareClassOrder } from './parser'
+import {
+  parseRecapHtml,
+  getClassAbbreviation,
+  resolveClassIdAlias,
+  getClassIdAbbreviation,
+  compareClassOrder,
+} from './parser'
 
 function loadHtml(year: number, filename: string): string {
   return readFileSync(resolve(import.meta.dirname, `../data/scores/${year}/${filename}`), 'utf-8')
@@ -337,6 +343,38 @@ describe('getClassAbbreviation', () => {
 
   it('should return original name for unknown classes', () => {
     expect(getClassAbbreviation('Unknown Class')).toBe('Unknown Class')
+  })
+})
+
+describe('resolveClassIdAlias', () => {
+  it('should resolve abbreviated slugs to full kebab-case ids', () => {
+    expect(resolveClassIdAlias('psa')).toBe('percussion-scholastic-a')
+    expect(resolveClassIdAlias('piw')).toBe('percussion-independent-world')
+    expect(resolveClassIdAlias('psco')).toBe('percussion-scholastic-concert-open')
+  })
+
+  it('should be case-insensitive', () => {
+    expect(resolveClassIdAlias('PSA')).toBe('percussion-scholastic-a')
+    expect(resolveClassIdAlias('Psa')).toBe('percussion-scholastic-a')
+  })
+
+  it('should pass through full class ids unchanged', () => {
+    expect(resolveClassIdAlias('percussion-scholastic-a')).toBe('percussion-scholastic-a')
+  })
+
+  it('should pass through unknown values unchanged', () => {
+    expect(resolveClassIdAlias('unknown-class')).toBe('unknown-class')
+  })
+})
+
+describe('getClassIdAbbreviation', () => {
+  it('should convert full kebab-case ids to abbreviated slugs', () => {
+    expect(getClassIdAbbreviation('percussion-scholastic-a')).toBe('psa')
+    expect(getClassIdAbbreviation('percussion-independent-world')).toBe('piw')
+  })
+
+  it('should return original id for unknown classes', () => {
+    expect(getClassIdAbbreviation('unknown-class')).toBe('unknown-class')
   })
 })
 

@@ -3,6 +3,8 @@
 // URL shape: #/<year>/<classId>/<view>?show=<showId>&highlight=<ensemble>
 // ---------------------------------------------------------------------------
 
+import { getClassIdAbbreviation, resolveClassIdAlias } from './parser'
+
 export type ViewType = 'progression' | 'standings' | 'cross-season'
 
 export type RouteState = {
@@ -50,7 +52,7 @@ export function parseRoute(hash: string): RouteState {
   }
 
   if (segments.length >= 2) {
-    state.classId = decodeURIComponent(segments[1])
+    state.classId = resolveClassIdAlias(decodeURIComponent(segments[1]))
   }
 
   if (segments.length >= 3) {
@@ -75,7 +77,7 @@ export function buildRoute(state: RouteState): string {
   let hash = `#/${state.year}`
 
   if (state.classId) {
-    hash += `/${encodeURIComponent(state.classId)}`
+    hash += `/${encodeURIComponent(getClassIdAbbreviation(state.classId))}`
     hash += `/${state.view}`
   }
 

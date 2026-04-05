@@ -611,6 +611,39 @@ export function getClassAbbreviation(className: string): string {
   return CLASS_ABBREVIATIONS[className] ?? className
 }
 
+// Build bidirectional maps between abbreviated slugs and full kebab-case IDs.
+// abbreviation slug (lowercase) → full kebab-case ID
+// full kebab-case ID → abbreviation slug (lowercase)
+const ABBREV_TO_ID: Record<string, string> = {}
+const ID_TO_ABBREV: Record<string, string> = {}
+
+for (const [name, abbrev] of Object.entries(CLASS_ABBREVIATIONS)) {
+  const kebabId = name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '')
+  const abbrevSlug = abbrev.toLowerCase()
+  ABBREV_TO_ID[abbrevSlug] = kebabId
+  ID_TO_ABBREV[kebabId] = abbrevSlug
+}
+
+/**
+ * Resolve a URL class segment to its full kebab-case ID.
+ * Accepts both abbreviated slugs (e.g. "psa") and full IDs (e.g. "percussion-scholastic-a").
+ */
+export function resolveClassIdAlias(segment: string): string {
+  const lower = segment.toLowerCase()
+  return ABBREV_TO_ID[lower] ?? segment
+}
+
+/**
+ * Convert a full kebab-case class ID to its short abbreviation slug for URLs.
+ * Returns the original ID if no abbreviation exists.
+ */
+export function getClassIdAbbreviation(classId: string): string {
+  return ID_TO_ABBREV[classId] ?? classId
+}
+
 /**
  * WGI finals performance order — lower competitive tiers first, finishing with
  * Independent World. Classes not in this list sort to the end alphabetically.
