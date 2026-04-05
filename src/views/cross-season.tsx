@@ -1,34 +1,70 @@
-import { useMemo, useState, useEffect } from 'react'
+import { useMemo, useState, useEffect, useCallback } from 'react'
 import {
-  LineChart,
+  ComposedChart,
   Line,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
   ReferenceLine,
+  Customized,
+  useXAxisScale,
+  useYAxisScale,
 } from 'recharts'
 import { Panel } from '../components/panel'
 import { ChartContainer } from '../components/chart-container'
-import { ChartTooltip } from '../components/chart-tooltip'
-import { useCrossSeason } from '../hooks/use-cross-season'
+import { useAllSeasonShows } from '../hooks/use-all-season-shows'
 import { Loading, ErrorMessage } from '../components/loading'
 import { loadEnsembleRegistry } from '../data'
+import { computeBoxPlotStats } from '../box-plot-stats'
+import type { BoxPlotStats } from '../box-plot-stats'
 import type { ShowData, EnsembleScore, EnsembleRegistry, EnsembleEntry } from '../types'
 
 type CrossSeasonViewProps = {
   initialEnsemble?: string | null
 }
 
+type SeasonDatum = {
+  year: number
+  showName: string
+  nameUsed: string
+  className: string
+  classType: string
+  total: number
+  rank: number
+  classSize: number
+  captions: EnsembleScore['captions']
+  penalty: number
+}
+
+type ChartDatum = {
+  year: string
+  Final: number
+  boxStats: BoxPlotStats | null
+}
+
 export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
-  const { shows, isLoading, error } = useCrossSeason()
+  const { showsByYear, isLoading, error } = useAllSeasonShows()
   const [registry, setRegistry] = useState<EnsembleRegistry | null>(null)
   const [selectedEnsembleId, setSelectedEnsembleId] = useState<string>('')
+  const [pinnedState, setPinnedState] = useState<{ year: string; coord: { x: number; y: number } } | null>(null)
+  const activeBoxYear = pinnedState?.year ?? null
 
   // Load ensemble registry
   useEffect(() => {
     loadEnsembleRegistry().then(setRegistry)
   }, [])
+
+  // Derive the final show per year from all shows
+  const finalShows = useMemo(() => {
+    const result: Array<ShowData> = []
+    for (const [, shows] of showsByYear) {
+      if (shows.length > 0) {
+        result.push(shows[shows.length - 1])
+      }
+    }
+    return result
+  }, [showsByYear])
 
   // Build a lookup: any name variant → registry entry
   const nameLookup = useMemo(() => {
@@ -46,7 +82,7 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
   // Collect all unique ensembles (by registry ID) that appear in finals data
   const ensembleList = useMemo(() => {
     const seen = new Map<string, EnsembleEntry>()
-    for (const show of shows) {
+    for (const show of finalShows) {
       for (const cls of show.classes) {
         for (const e of cls.ensembles) {
           const entry = nameLookup.get(e.ensembleName)
@@ -59,7 +95,7 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
     return Array.from(seen.values()).sort((a, b) =>
       a.canonicalName.localeCompare(b.canonicalName),
     )
-  }, [shows, nameLookup])
+  }, [finalShows, nameLookup])
 
   // Auto-select initial ensemble
   useEffect(() => {
@@ -76,13 +112,13 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
 
   const selectedEntry = ensembleList.find((e) => e.id === selectedEnsembleId)
 
-  // Find the ensemble's data across all seasons (matching by registry entry)
+  // Find the ensemble's final-show data across all seasons
   const seasonData = useMemo(() => {
     if (!selectedEntry) return []
 
     const allNames = new Set([selectedEntry.canonicalName, ...selectedEntry.aliases])
 
-    return shows
+    return finalShows
       .map((show) => {
         const result = findEnsembleInShow(show, allNames)
         if (!result) return null
@@ -100,17 +136,38 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
           penalty: result.ensemble.penalty,
         }
       })
-      .filter((d): d is NonNullable<typeof d> => d !== null)
+      .filter((d): d is SeasonDatum => d !== null)
       .sort((a, b) => a.year - b.year)
-  }, [shows, selectedEntry])
+  }, [finalShows, selectedEntry])
+
+  // Compute box plot stats per season from all shows
+  const boxStatsByYear = useMemo(() => {
+    if (!selectedEntry) return new Map<number, BoxPlotStats>()
+
+    const allNames = new Set([selectedEntry.canonicalName, ...selectedEntry.aliases])
+    const result = new Map<number, BoxPlotStats>()
+
+    for (const [year, shows] of showsByYear) {
+      const scores: Array<number> = []
+      for (const show of shows) {
+        const found = findEnsembleInShow(show, allNames)
+        if (found) scores.push(found.ensemble.total)
+      }
+      const stats = computeBoxPlotStats(scores)
+      if (stats) result.set(year, stats)
+    }
+
+    return result
+  }, [showsByYear, selectedEntry])
 
   // Build chart data
   const chartData = useMemo(() => {
     return seasonData.map((d) => ({
       year: String(d.year),
-      Total: d.total,
+      Final: d.total,
+      boxStats: boxStatsByYear.get(d.year) ?? null,
     }))
-  }, [seasonData])
+  }, [seasonData, boxStatsByYear])
 
   // Season-over-season growth
   const growthSummary = useMemo(() => {
@@ -134,6 +191,29 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
       highScore: highYear.total,
     }
   }, [seasonData])
+
+  const pinnedDatum = useMemo(() => {
+    if (!pinnedState) return null
+    return chartData.find((d) => d.year === pinnedState.year) ?? null
+  }, [pinnedState, chartData])
+
+  const handleChartClick = useCallback(
+    (state: { activeLabel?: string | number; activeCoordinate?: { x: number; y: number } } | null) => {
+      if (!state || state.activeLabel === undefined) {
+        setPinnedState(null)
+        return
+      }
+      const label = String(state.activeLabel)
+      setPinnedState((prev) =>
+        prev?.year === label
+          ? null
+          : state.activeCoordinate
+            ? { year: label, coord: state.activeCoordinate }
+            : null,
+      )
+    },
+    [],
+  )
 
   if (isLoading || !registry) return <Loading />
   if (error) return <ErrorMessage message={error} />
@@ -162,43 +242,84 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
 
       {seasonData.length > 0 && (
         <>
-          {/* Score Trajectory Chart */}
+          {/* Score Trajectory Chart with Box Plots */}
           <Panel title="Score Trajectory">
             <ChartContainer className="h-[300px] sm:h-[350px]">
               {(width, height) => (
-                <LineChart data={chartData} width={width} height={height} margin={{ top: 5, right: 10, bottom: 5, left: 0 }}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border-grid)" />
-                  <XAxis
-                    dataKey="year"
-                    tick={{ fill: 'var(--color-text-muted)', fontSize: 11 }}
-                    stroke="var(--color-border-grid)"
-                  />
-                  <YAxis
-                    tick={{ fill: 'var(--color-text-muted)', fontSize: 10 }}
-                    stroke="var(--color-border-grid)"
-                    domain={['auto', 'auto']}
-                  />
-                  <Tooltip content={<ChartTooltip />} />
-                  {/* 2020 gap indicator — no season */}
-                  {chartData.some((d) => d.year === '2019') && !chartData.some((d) => d.year === '2020') && (
-                    <ReferenceLine
-                      x="2019"
-                      stroke="var(--color-text-muted)"
-                      strokeDasharray="3 3"
-                      label={{ value: 'COVID', position: 'top', fill: 'var(--color-text-muted)', fontSize: 9 }}
+                <div className="relative" style={{ width, height }}>
+                  <ComposedChart
+                    data={chartData}
+                    width={width}
+                    height={height}
+                    margin={{ top: 10, right: 25, bottom: 5, left: -35 }}
+                    onClick={handleChartClick}
+                  >
+                    <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border-grid)" />
+                    <XAxis
+                      dataKey="year"
+                      tick={{ fill: 'var(--color-text-muted)', fontSize: 11 }}
+                      stroke="var(--color-border-grid)"
                     />
+                    <YAxis
+                      tick={{ fill: 'var(--color-text-muted)', fontSize: 10 }}
+                      stroke="var(--color-border-grid)"
+                      domain={[
+                        (dataMin: number) => {
+                          const minWithBox = chartData.reduce((min, d) => {
+                            const boxMin = d.boxStats?.min ?? d.Final
+                            return Math.min(min, boxMin)
+                          }, dataMin)
+                          return Math.floor(minWithBox - 2)
+                        },
+                        (dataMax: number) => {
+                          const maxWithBox = chartData.reduce((max, d) => {
+                            const boxMax = d.boxStats?.max ?? d.Final
+                            return Math.max(max, boxMax)
+                          }, dataMax)
+                          return Math.ceil(maxWithBox + 2)
+                        },
+                      ]}
+                    />
+                    <Tooltip
+                      content={pinnedState ? () => null : <BoxPlotTooltip />}
+                    />
+                    {/* 2020 gap indicator — no season */}
+                    {chartData.some((d) => d.year === '2019') && !chartData.some((d) => d.year === '2020') && (
+                      <ReferenceLine
+                        x="2019"
+                        stroke="var(--color-text-muted)"
+                        strokeDasharray="3 3"
+                        label={{ value: 'COVID', position: 'top', fill: 'var(--color-text-muted)', fontSize: 9 }}
+                      />
+                    )}
+                    {/* Box plots + dots rendered via axis scale hooks */}
+                    <Customized component={<BoxPlotLayer data={chartData} activeBoxYear={activeBoxYear} chartWidth={width} />} />
+                    {/* Trajectory line connecting final scores */}
+                    <Line
+                      type="monotone"
+                      dataKey="Final"
+                      stroke="var(--color-accent)"
+                      strokeWidth={2}
+                      dot={false}
+                      connectNulls
+                      isAnimationActive={false}
+                    />
+                  </ComposedChart>
+                  {/* Pinned tooltip rendered outside Recharts to persist on mouse move */}
+                  {pinnedState && pinnedDatum && (
+                    <div
+                      className="pointer-events-none absolute top-0 left-0 z-10"
+                      style={{ transform: `translate(${pinnedState.coord.x + 10}px, ${pinnedState.coord.y - 60}px)` }}
+                    >
+                      <BoxPlotTooltipContent datum={pinnedDatum} />
+                    </div>
                   )}
-                  <Line
-                    type="monotone"
-                    dataKey="Total"
-                    stroke="var(--color-accent)"
-                    strokeWidth={2.5}
-                    dot={{ r: 4, fill: 'var(--color-accent)' }}
-                    connectNulls
-                  />
-                </LineChart>
+                </div>
               )}
             </ChartContainer>
+            <p className="mt-2 text-center text-[10px] text-text-muted">
+              Box: Q1–Q3 &middot; Whiskers: Min–Max &middot; Dot: Final/Latest score &middot; Click a year to pin tooltip
+            </p>
           </Panel>
 
           {/* Season-over-Season Summary */}
@@ -281,6 +402,170 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
   )
 }
 
+// ---------------------------------------------------------------------------
+// Box Plot Layer (rendered inside ComposedChart using Recharts axis hooks)
+// ---------------------------------------------------------------------------
+
+type BoxPlotLayerProps = {
+  data: Array<ChartDatum>
+  activeBoxYear: string | null
+  chartWidth: number
+}
+
+function BoxPlotLayer({ data, activeBoxYear, chartWidth }: BoxPlotLayerProps) {
+  const xScale = useXAxisScale()
+  const yScale = useYAxisScale()
+
+  if (!xScale || !yScale) return null
+
+  // Scale box width based on available space per data point (max 24px, min 6px)
+  const spacePerPoint = chartWidth / Math.max(data.length, 1)
+  const boxWidth = Math.min(24, Math.max(6, Math.floor(spacePerPoint * 0.5)))
+  const whiskerWidth = Math.max(4, Math.floor(boxWidth / 2))
+
+  return (
+    <g className="recharts-box-plot-layer">
+      {data.map((d) => {
+        const cx = xScale(d.year)
+        if (cx === undefined) return null
+
+        const cyFinal = yScale(d.Final)
+        if (cyFinal === undefined) return null
+
+        const stats = d.boxStats
+        const isActive = activeBoxYear === d.year
+
+        if (!stats) {
+          // No box stats — just render the dot
+          return (
+            <circle
+              key={d.year}
+              cx={cx}
+              cy={cyFinal}
+              r={5}
+              fill="var(--color-accent)"
+              stroke="var(--color-surface)"
+              strokeWidth={2}
+            />
+          )
+        }
+
+        const yMin = yScale(stats.min)
+        const yQ1 = yScale(stats.q1)
+        const yQ3 = yScale(stats.q3)
+        const yMax = yScale(stats.max)
+        const yMedian = yScale(stats.median)
+
+        if (yMin === undefined || yQ1 === undefined || yQ3 === undefined || yMax === undefined || yMedian === undefined) {
+          return null
+        }
+
+        return (
+          <g key={d.year}>
+            {/* Whisker line (min to max) */}
+            <line
+              x1={cx} y1={yMin} x2={cx} y2={yMax}
+              stroke="var(--color-text-secondary)" strokeWidth={1.5}
+            />
+            {/* Min whisker cap */}
+            <line
+              x1={cx - whiskerWidth / 2} y1={yMin}
+              x2={cx + whiskerWidth / 2} y2={yMin}
+              stroke="var(--color-text-secondary)" strokeWidth={1.5}
+            />
+            {/* Max whisker cap */}
+            <line
+              x1={cx - whiskerWidth / 2} y1={yMax}
+              x2={cx + whiskerWidth / 2} y2={yMax}
+              stroke="var(--color-text-secondary)" strokeWidth={1.5}
+            />
+            {/* Box (Q1 to Q3) */}
+            <rect
+              x={cx - boxWidth / 2} y={yQ3}
+              width={boxWidth} height={yQ1 - yQ3}
+              fill="var(--color-accent)"
+              fillOpacity={isActive ? 0.3 : 0.15}
+              stroke="var(--color-accent)" strokeWidth={1.5} rx={2}
+            />
+            {/* Median line */}
+            <line
+              x1={cx - boxWidth / 2} y1={yMedian}
+              x2={cx + boxWidth / 2} y2={yMedian}
+              stroke="var(--color-accent)" strokeWidth={1.5} strokeDasharray="3 2"
+            />
+            {/* Final score dot (on top) */}
+            <circle
+              cx={cx} cy={cyFinal} r={5}
+              fill="var(--color-accent)" stroke="var(--color-surface)" strokeWidth={2}
+            />
+          </g>
+        )
+      })}
+    </g>
+  )
+}
+
+// ---------------------------------------------------------------------------
+// Box Plot Tooltip
+// ---------------------------------------------------------------------------
+
+// Shared tooltip content for both hover and pinned states
+function BoxPlotTooltipContent({ datum }: { datum: ChartDatum }) {
+  const stats = datum.boxStats
+  return (
+    <div className="rounded-lg border border-border bg-surface p-3 shadow-lg">
+      <p className="mb-2 text-xs font-medium text-text-secondary">{datum.year}</p>
+      <div className="flex items-center gap-2 text-xs mb-1">
+        <span className="inline-block h-2 w-2 rounded-full" style={{ backgroundColor: 'var(--color-accent)' }} />
+        <span className="text-text-secondary">Final:</span>
+        <span className="font-medium text-text-primary">{datum.Final.toFixed(2)}</span>
+      </div>
+      {stats && (
+        <div className="border-t border-border/50 mt-1.5 pt-1.5 space-y-0.5">
+          <StatRow label="Max" value={stats.max} />
+          <StatRow label="Q3" value={stats.q3} />
+          <StatRow label="Median" value={stats.median} />
+          <StatRow label="Average" value={stats.avg} />
+          <StatRow label="Q1" value={stats.q1} />
+          <StatRow label="Min" value={stats.min} />
+        </div>
+      )}
+    </div>
+  )
+}
+
+type BoxPlotTooltipPayloadEntry = {
+  dataKey?: string | number
+  name?: string
+  value?: number | string
+  payload?: ChartDatum
+}
+
+type BoxPlotTooltipProps = {
+  active?: boolean
+  payload?: Array<BoxPlotTooltipPayloadEntry>
+  label?: string
+}
+
+function BoxPlotTooltip({ active, payload }: BoxPlotTooltipProps) {
+  const entry = payload?.[0]?.payload
+  if (!active || !entry) return null
+  return <BoxPlotTooltipContent datum={entry} />
+}
+
+function StatRow({ label, value }: { label: string; value: number }) {
+  return (
+    <div className="flex items-center justify-between gap-4 text-xs">
+      <span className="text-text-muted">{label}</span>
+      <span className="font-medium tabular-nums text-text-primary">{value.toFixed(2)}</span>
+    </div>
+  )
+}
+
+// ---------------------------------------------------------------------------
+// Summary Card
+// ---------------------------------------------------------------------------
+
 function SummaryCard({
   label,
   value,
@@ -297,6 +582,10 @@ function SummaryCard({
     </div>
   )
 }
+
+// ---------------------------------------------------------------------------
+// Helpers
+// ---------------------------------------------------------------------------
 
 function findEnsembleInShow(
   show: ShowData,
