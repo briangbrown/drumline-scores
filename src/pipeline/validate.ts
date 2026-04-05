@@ -75,11 +75,29 @@ function validateScoreRanges(showData: ShowData): GateResult {
       }
     }
 
-    // Check ranks are sequential within class
+    // Check ranks follow competition tie rules:
+    // Tied ensembles share the same rank, and the next rank skips ahead
+    // e.g. [1, 1, 3, 4] is valid (two-way tie for 1st, next is 3rd)
     const ranks = cls.ensembles.map((e) => e.rank).sort((a, b) => a - b)
-    for (let i = 0; i < ranks.length; i++) {
-      if (ranks[i] !== i + 1) {
-        errors.push(`${cls.classDef.name}: ranks not sequential — expected ${i + 1}, got ${ranks[i]}`)
+    if (ranks.length > 0 && ranks[0] !== 1) {
+      errors.push(`${cls.classDef.name}: first rank should be 1, got ${ranks[0]}`)
+    }
+    const lastRank = ranks[ranks.length - 1]
+    if (ranks.length > 0 && lastRank !== undefined && lastRank > ranks.length) {
+      errors.push(`${cls.classDef.name}: highest rank ${lastRank} exceeds ensemble count ${ranks.length}`)
+    }
+    for (let i = 1; i < ranks.length; i++) {
+      const prev = ranks[i - 1]
+      const curr = ranks[i]
+      if (prev === undefined || curr === undefined) continue
+      // Each rank must be equal to the previous (tie) or greater
+      if (curr < prev) {
+        errors.push(`${cls.classDef.name}: rank ${curr} appears after ${prev} — out of order`)
+        break
+      }
+      // A non-tied rank must equal its 1-based position (i + 1)
+      if (curr !== prev && curr !== i + 1) {
+        errors.push(`${cls.classDef.name}: rank ${curr} at position ${i + 1} — tie gap mismatch`)
         break
       }
     }

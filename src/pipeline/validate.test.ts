@@ -95,16 +95,44 @@ describe('validateScoreRanges', () => {
     expect(validateScoreRanges(bad).passed).toBe(false)
   })
 
-  it('should fail when ranks are not sequential', () => {
+  it('should fail when ranks are invalid', () => {
     const ensembles = show2025.classes[0].ensembles.map((e, i) => ({
       ...e,
-      rank: i === 0 ? 5 : e.rank, // break sequential order
+      rank: i === 0 ? 5 : e.rank, // break rank order
     }))
     const bad: ShowData = {
       ...show2025,
       classes: [{ classDef: show2025.classes[0].classDef, ensembles }],
     }
     expect(validateScoreRanges(bad).passed).toBe(false)
+  })
+
+  it('should pass when ranks have ties with correct gaps', () => {
+    // Two-way tie for 1st: [1, 1, 3, 4]
+    const cls = show2025.classes[0]
+    const ensembles = cls.ensembles.slice(0, 4).map((e, i) => ({
+      ...e,
+      rank: i < 2 ? 1 : i + 1,
+    }))
+    const show: ShowData = {
+      ...show2025,
+      classes: [{ classDef: cls.classDef, ensembles }],
+    }
+    expect(validateScoreRanges(show).passed).toBe(true)
+  })
+
+  it('should fail when tie gap is wrong', () => {
+    // Tie for 1st but next rank is 2 instead of 3: [1, 1, 2, 4]
+    const cls = show2025.classes[0]
+    const ensembles = cls.ensembles.slice(0, 4).map((e, i) => ({
+      ...e,
+      rank: i < 2 ? 1 : i,
+    }))
+    const show: ShowData = {
+      ...show2025,
+      classes: [{ classDef: cls.classDef, ensembles }],
+    }
+    expect(validateScoreRanges(show).passed).toBe(false)
   })
 })
 
