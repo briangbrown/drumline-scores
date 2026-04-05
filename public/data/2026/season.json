@@ -2,12 +2,52 @@
   "year": 2026,
   "shows": [
     {
+      "id": "2026-rmpa-show-1-february-14",
+      "eventName": "RMPA Show #1",
+      "date": "Saturday, February 14, 2026",
+      "round": "",
+      "sourceHash": "b660d84fcbd1a123bfbc040f9904aa983e17b52d0d7da97a7b102c94e819b295",
+      "lastImportedUtc": "2026-04-05T04:29:05.037Z"
+    },
+    {
+      "id": "2026-rmpa-show-2-february-21",
+      "eventName": "RMPA Show #2",
+      "date": "Saturday, February 21, 2026",
+      "round": "",
+      "sourceHash": "8391a3a0d582942cb1db2eaae758774a79168e9d3d9407b5fc8880873cfb6429",
+      "lastImportedUtc": "2026-04-05T04:29:03.889Z"
+    },
+    {
+      "id": "2026-rmpa-show-3-february-28",
+      "eventName": "RMPA Show #3",
+      "date": "Saturday, February 28, 2026",
+      "round": "",
+      "sourceHash": "aa155e6d6c8f96aeece5faf980a0d4bfdafcf9dbcb966c96e0841b3973b94254",
+      "lastImportedUtc": "2026-04-05T04:29:02.649Z"
+    },
+    {
+      "id": "2026-rmpa-show-5-march-21",
+      "eventName": "RMPA Show #5",
+      "date": "Saturday, March 21, 2026",
+      "round": "",
+      "sourceHash": "27526c291a8eee0ba46f7dfec7d1fbd3a9ebb9ae25aec833f01296ab5e85bf95",
+      "lastImportedUtc": "2026-04-05T04:29:01.360Z"
+    },
+    {
+      "id": "2026-rmpa-championships-march-28",
+      "eventName": "RMPA Championships",
+      "date": "Saturday, March 28, 2026",
+      "round": "Prelims",
+      "sourceHash": "14d3606f98859bdba39b09d8faebe9f5af19346d682fd0043ccfb0640292c3a4",
+      "lastImportedUtc": "2026-04-05T04:29:00.254Z"
+    },
+    {
       "id": "2026-rmpa-championships-april-4",
       "eventName": "RMPA Championships",
       "date": "Saturday, April 4, 2026",
       "round": "Finals",
       "sourceHash": "47c00afae31c0503557e5f3d0a5d77c54186993b3627320f4b8179beb3fd3018",
-      "lastImportedUtc": "2026-04-05T02:26:33.708Z"
+      "lastImportedUtc": "2026-04-05T04:28:58.873Z"
     }
   ],
   "classes": [
