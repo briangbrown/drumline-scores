@@ -74,7 +74,12 @@ export function RecapView({ ensemble, allEnsembles }: RecapViewProps) {
               <h4 className="text-sm font-semibold" style={{ color }}>
                 {cap.captionName}
               </h4>
-              <span className="text-sm font-bold tabular-nums">{cap.captionTotal.toFixed(2)}</span>
+              <span className="text-sm font-bold tabular-nums">
+                {cap.captionTotal.toFixed(2)}
+                {cap.captionRank !== null && (
+                  <span className="ml-1 text-text-muted text-[10px] font-normal">({cap.captionRank})</span>
+                )}
+              </span>
             </div>
 
             <div className="overflow-x-auto">
