@@ -109,6 +109,26 @@ export async function loadFinalShowPerSeason(): Promise<Array<ShowData>> {
 }
 
 /**
+ * Load all shows for every available season.
+ * Used for cross-season box plot stats.
+ */
+export async function loadAllShowsAllSeasons(): Promise<Map<number, Array<ShowData>>> {
+  const years = await loadAvailableYears()
+  const result = new Map<number, Array<ShowData>>()
+
+  for (const year of years) {
+    try {
+      const shows = await loadAllShowsForSeason(year)
+      result.set(year, shows)
+    } catch {
+      // Skip years that fail to load
+    }
+  }
+
+  return result
+}
+
+/**
  * Clear all in-memory caches. Call when coming back online to force refetch.
  */
 export function clearCache(): void {

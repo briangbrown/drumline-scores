@@ -1,34 +1,68 @@
-import { useMemo, useState, useEffect } from 'react'
+import { useMemo, useState, useEffect, useCallback } from 'react'
 import {
-  LineChart,
+  ComposedChart,
   Line,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
   ReferenceLine,
+  Scatter,
+  Cell,
 } from 'recharts'
 import { Panel } from '../components/panel'
 import { ChartContainer } from '../components/chart-container'
-import { ChartTooltip } from '../components/chart-tooltip'
-import { useCrossSeason } from '../hooks/use-cross-season'
+import { useAllSeasonShows } from '../hooks/use-all-season-shows'
 import { Loading, ErrorMessage } from '../components/loading'
 import { loadEnsembleRegistry } from '../data'
+import { computeBoxPlotStats } from '../box-plot-stats'
+import type { BoxPlotStats } from '../box-plot-stats'
 import type { ShowData, EnsembleScore, EnsembleRegistry, EnsembleEntry } from '../types'
 
 type CrossSeasonViewProps = {
   initialEnsemble?: string | null
 }
 
+type SeasonDatum = {
+  year: number
+  showName: string
+  nameUsed: string
+  className: string
+  classType: string
+  total: number
+  rank: number
+  classSize: number
+  captions: EnsembleScore['captions']
+  penalty: number
+}
+
+type ChartDatum = {
+  year: string
+  Final: number
+  boxStats: BoxPlotStats | null
+}
+
 export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
-  const { shows, isLoading, error } = useCrossSeason()
+  const { showsByYear, isLoading, error } = useAllSeasonShows()
   const [registry, setRegistry] = useState<EnsembleRegistry | null>(null)
   const [selectedEnsembleId, setSelectedEnsembleId] = useState<string>('')
+  const [activeBoxYear, setActiveBoxYear] = useState<string | null>(null)
 
   // Load ensemble registry
   useEffect(() => {
     loadEnsembleRegistry().then(setRegistry)
   }, [])
+
+  // Derive the final show per year from all shows
+  const finalShows = useMemo(() => {
+    const result: Array<ShowData> = []
+    for (const [, shows] of showsByYear) {
+      if (shows.length > 0) {
+        result.push(shows[shows.length - 1])
+      }
+    }
+    return result
+  }, [showsByYear])
 
   // Build a lookup: any name variant → registry entry
   const nameLookup = useMemo(() => {
@@ -46,7 +80,7 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
   // Collect all unique ensembles (by registry ID) that appear in finals data
   const ensembleList = useMemo(() => {
     const seen = new Map<string, EnsembleEntry>()
-    for (const show of shows) {
+    for (const show of finalShows) {
       for (const cls of show.classes) {
         for (const e of cls.ensembles) {
           const entry = nameLookup.get(e.ensembleName)
@@ -59,7 +93,7 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
     return Array.from(seen.values()).sort((a, b) =>
       a.canonicalName.localeCompare(b.canonicalName),
     )
-  }, [shows, nameLookup])
+  }, [finalShows, nameLookup])
 
   // Auto-select initial ensemble
   useEffect(() => {
@@ -76,13 +110,13 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
 
   const selectedEntry = ensembleList.find((e) => e.id === selectedEnsembleId)
 
-  // Find the ensemble's data across all seasons (matching by registry entry)
+  // Find the ensemble's final-show data across all seasons
   const seasonData = useMemo(() => {
     if (!selectedEntry) return []
 
     const allNames = new Set([selectedEntry.canonicalName, ...selectedEntry.aliases])
 
-    return shows
+    return finalShows
       .map((show) => {
         const result = findEnsembleInShow(show, allNames)
         if (!result) return null
@@ -100,17 +134,38 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
           penalty: result.ensemble.penalty,
         }
       })
-      .filter((d): d is NonNullable<typeof d> => d !== null)
+      .filter((d): d is SeasonDatum => d !== null)
       .sort((a, b) => a.year - b.year)
-  }, [shows, selectedEntry])
+  }, [finalShows, selectedEntry])
+
+  // Compute box plot stats per season from all shows
+  const boxStatsByYear = useMemo(() => {
+    if (!selectedEntry) return new Map<number, BoxPlotStats>()
+
+    const allNames = new Set([selectedEntry.canonicalName, ...selectedEntry.aliases])
+    const result = new Map<number, BoxPlotStats>()
+
+    for (const [year, shows] of showsByYear) {
+      const scores: Array<number> = []
+      for (const show of shows) {
+        const found = findEnsembleInShow(show, allNames)
+        if (found) scores.push(found.ensemble.total)
+      }
+      const stats = computeBoxPlotStats(scores)
+      if (stats) result.set(year, stats)
+    }
+
+    return result
+  }, [showsByYear, selectedEntry])
 
   // Build chart data
   const chartData = useMemo(() => {
     return seasonData.map((d) => ({
       year: String(d.year),
-      Total: d.total,
+      Final: d.total,
+      boxStats: boxStatsByYear.get(d.year) ?? null,
     }))
-  }, [seasonData])
+  }, [seasonData, boxStatsByYear])
 
   // Season-over-season growth
   const growthSummary = useMemo(() => {
@@ -134,6 +189,13 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
       highScore: highYear.total,
     }
   }, [seasonData])
+
+  const handleChartClick = useCallback((state: { activeLabel?: string | number }) => {
+    if (state.activeLabel !== undefined) {
+      const label = String(state.activeLabel)
+      setActiveBoxYear((prev) => prev === label ? null : label)
+    }
+  }, [])
 
   if (isLoading || !registry) return <Loading />
   if (error) return <ErrorMessage message={error} />
@@ -162,11 +224,17 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
 
       {seasonData.length > 0 && (
         <>
-          {/* Score Trajectory Chart */}
+          {/* Score Trajectory Chart with Box Plots */}
           <Panel title="Score Trajectory">
             <ChartContainer className="h-[300px] sm:h-[350px]">
               {(width, height) => (
-                <LineChart data={chartData} width={width} height={height} margin={{ top: 5, right: 10, bottom: 5, left: 0 }}>
+                <ComposedChart
+                  data={chartData}
+                  width={width}
+                  height={height}
+                  margin={{ top: 10, right: 10, bottom: 5, left: 0 }}
+                  onClick={handleChartClick}
+                >
                   <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border-grid)" />
                   <XAxis
                     dataKey="year"
@@ -176,9 +244,24 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
                   <YAxis
                     tick={{ fill: 'var(--color-text-muted)', fontSize: 10 }}
                     stroke="var(--color-border-grid)"
-                    domain={['auto', 'auto']}
+                    domain={[
+                      (dataMin: number) => {
+                        const minWithBox = chartData.reduce((min, d) => {
+                          const boxMin = d.boxStats?.min ?? d.Final
+                          return Math.min(min, boxMin)
+                        }, dataMin)
+                        return Math.floor(minWithBox - 2)
+                      },
+                      (dataMax: number) => {
+                        const maxWithBox = chartData.reduce((max, d) => {
+                          const boxMax = d.boxStats?.max ?? d.Final
+                          return Math.max(max, boxMax)
+                        }, dataMax)
+                        return Math.ceil(maxWithBox + 2)
+                      },
+                    ]}
                   />
-                  <Tooltip content={<ChartTooltip />} />
+                  <Tooltip content={<BoxPlotTooltip activeBoxYear={activeBoxYear} />} />
                   {/* 2020 gap indicator — no season */}
                   {chartData.some((d) => d.year === '2019') && !chartData.some((d) => d.year === '2020') && (
                     <ReferenceLine
@@ -188,17 +271,32 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
                       label={{ value: 'COVID', position: 'top', fill: 'var(--color-text-muted)', fontSize: 9 }}
                     />
                   )}
+                  {/* Box plots rendered via custom bar shapes */}
+                  <Scatter
+                    dataKey="Final"
+                    shape={(props: ScatterDotProps) => <BoxPlotShape {...props} activeBoxYear={activeBoxYear} />}
+                    isAnimationActive={false}
+                  >
+                    {chartData.map((entry) => (
+                      <Cell key={entry.year} fill="var(--color-accent)" />
+                    ))}
+                  </Scatter>
+                  {/* Trajectory line connecting final scores */}
                   <Line
                     type="monotone"
-                    dataKey="Total"
+                    dataKey="Final"
                     stroke="var(--color-accent)"
-                    strokeWidth={2.5}
-                    dot={{ r: 4, fill: 'var(--color-accent)' }}
+                    strokeWidth={2}
+                    dot={false}
                     connectNulls
+                    isAnimationActive={false}
                   />
-                </LineChart>
+                </ComposedChart>
               )}
             </ChartContainer>
+            <p className="mt-2 text-center text-[10px] text-text-muted">
+              Box: Q1–Q3 &middot; Whiskers: Min–Max &middot; Dot: Final/Latest score &middot; Click a year to pin tooltip
+            </p>
           </Panel>
 
           {/* Season-over-Season Summary */}
@@ -281,6 +379,162 @@ export function CrossSeasonView({ initialEnsemble }: CrossSeasonViewProps) {
   )
 }
 
+// ---------------------------------------------------------------------------
+// Box Plot SVG Shape (rendered per scatter point)
+// ---------------------------------------------------------------------------
+
+type ScatterDotProps = {
+  cx?: number
+  cy?: number
+  payload?: ChartDatum
+  yAxis?: { scale: (value: number) => number }
+  activeBoxYear?: string | null
+}
+
+function BoxPlotShape({ cx, cy, payload, yAxis, activeBoxYear }: ScatterDotProps) {
+  if (!cx || !cy || !payload?.boxStats || !yAxis?.scale) {
+    // No box stats — just render the dot
+    return <circle cx={cx} cy={cy} r={5} fill="var(--color-accent)" stroke="var(--color-surface)" strokeWidth={2} />
+  }
+
+  const { min, q1, q3, max } = payload.boxStats
+  const scale = yAxis.scale
+
+  const yMin = scale(min)
+  const yQ1 = scale(q1)
+  const yQ3 = scale(q3)
+  const yMax = scale(max)
+
+  const boxWidth = 24
+  const whiskerWidth = 12
+  const isActive = activeBoxYear === payload.year
+
+  return (
+    <g>
+      {/* Whisker line (min to max) */}
+      <line
+        x1={cx}
+        y1={yMin}
+        x2={cx}
+        y2={yMax}
+        stroke="var(--color-text-secondary)"
+        strokeWidth={1.5}
+      />
+      {/* Min whisker cap */}
+      <line
+        x1={cx - whiskerWidth / 2}
+        y1={yMin}
+        x2={cx + whiskerWidth / 2}
+        y2={yMin}
+        stroke="var(--color-text-secondary)"
+        strokeWidth={1.5}
+      />
+      {/* Max whisker cap */}
+      <line
+        x1={cx - whiskerWidth / 2}
+        y1={yMax}
+        x2={cx + whiskerWidth / 2}
+        y2={yMax}
+        stroke="var(--color-text-secondary)"
+        strokeWidth={1.5}
+      />
+      {/* Box (Q1 to Q3) */}
+      <rect
+        x={cx - boxWidth / 2}
+        y={yQ3}
+        width={boxWidth}
+        height={yQ1 - yQ3}
+        fill={isActive ? 'var(--color-accent)' : 'var(--color-accent)'}
+        fillOpacity={isActive ? 0.3 : 0.15}
+        stroke="var(--color-accent)"
+        strokeWidth={1.5}
+        rx={2}
+      />
+      {/* Median line */}
+      <line
+        x1={cx - boxWidth / 2}
+        y1={scale(payload.boxStats.median)}
+        x2={cx + boxWidth / 2}
+        y2={scale(payload.boxStats.median)}
+        stroke="var(--color-accent)"
+        strokeWidth={1.5}
+        strokeDasharray="3 2"
+      />
+      {/* Final score dot (on top) */}
+      <circle
+        cx={cx}
+        cy={cy}
+        r={5}
+        fill="var(--color-accent)"
+        stroke="var(--color-surface)"
+        strokeWidth={2}
+      />
+    </g>
+  )
+}
+
+// ---------------------------------------------------------------------------
+// Box Plot Tooltip
+// ---------------------------------------------------------------------------
+
+type BoxPlotTooltipPayloadEntry = {
+  dataKey?: string | number
+  name?: string
+  value?: number | string
+  payload?: ChartDatum
+}
+
+type BoxPlotTooltipProps = {
+  active?: boolean
+  payload?: Array<BoxPlotTooltipPayloadEntry>
+  label?: string
+  activeBoxYear?: string | null
+}
+
+function BoxPlotTooltip({ active, payload, label, activeBoxYear }: BoxPlotTooltipProps) {
+  // Show tooltip if hovered or if this year is pinned
+  const entry = payload?.[0]?.payload
+  const isActive = active || (activeBoxYear !== null && entry?.year === activeBoxYear)
+
+  if (!isActive || !entry) return null
+
+  const stats = entry.boxStats
+
+  return (
+    <div className="rounded-lg border border-border bg-surface p-3 shadow-lg">
+      <p className="mb-2 text-xs font-medium text-text-secondary">{label}</p>
+      <div className="flex items-center gap-2 text-xs mb-1">
+        <span className="inline-block h-2 w-2 rounded-full" style={{ backgroundColor: 'var(--color-accent)' }} />
+        <span className="text-text-secondary">Final:</span>
+        <span className="font-medium text-text-primary">{entry.Final.toFixed(2)}</span>
+      </div>
+      {stats && (
+        <div className="border-t border-border/50 mt-1.5 pt-1.5 space-y-0.5">
+          <StatRow label="Max" value={stats.max} />
+          <StatRow label="Q3" value={stats.q3} />
+          <StatRow label="Median" value={stats.median} />
+          <StatRow label="Average" value={stats.avg} />
+          <StatRow label="Q1" value={stats.q1} />
+          <StatRow label="Min" value={stats.min} />
+        </div>
+      )}
+    </div>
+  )
+}
+
+function StatRow({ label, value }: { label: string; value: number }) {
+  return (
+    <div className="flex items-center justify-between gap-4 text-xs">
+      <span className="text-text-muted">{label}</span>
+      <span className="font-medium tabular-nums text-text-primary">{value.toFixed(2)}</span>
+    </div>
+  )
+}
+
+// ---------------------------------------------------------------------------
+// Summary Card
+// ---------------------------------------------------------------------------
+
 function SummaryCard({
   label,
   value,
@@ -297,6 +551,10 @@ function SummaryCard({
     </div>
   )
 }
+
+// ---------------------------------------------------------------------------
+// Helpers
+// ---------------------------------------------------------------------------
 
 function findEnsembleInShow(
   show: ShowData,
