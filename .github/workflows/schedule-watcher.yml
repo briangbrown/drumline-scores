@@ -27,13 +27,21 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.PIPELINE_PAT }}
 
-      - name: Commit and push
+      - name: Open and merge data PR
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT }}
         run: |
           git config user.name "score-pipeline[bot]"
           git config user.email "score-pipeline[bot]@users.noreply.github.com"
           git add data/poll-state.json .github/workflows/score-poller.yml
           git diff --cached --quiet && echo "No changes to commit" && exit 0
+          BRANCH="chore/update-poll-state-$(date +%Y%m%d-%H%M%S)"
+          git checkout -b "$BRANCH"
           git commit -m "chore(data): update poll-state and poller schedule
 
           Automated by: score-ingestion-pipeline"
-          git push
+          git push -u origin "$BRANCH"
+          PR_URL=$(gh pr create \
+            --title "chore(data): update poll-state and poller schedule" \
+            --body "Automated by: score-ingestion-pipeline")
+          gh pr merge "$PR_URL" --squash --delete-branch

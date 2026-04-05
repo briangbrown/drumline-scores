@@ -1,6 +1,6 @@
 # Automated Score Pipeline — Operator Guide
 
-Automated pipeline that detects new RMPA scores, downloads and parses them, validates the data, and commits to `main` for automatic deployment via Cloudflare Pages.
+Automated pipeline that detects new RMPA scores, downloads and parses them, validates the data, and merges to `main` via auto-merged PRs for deployment via Cloudflare Pages.
 
 For the full design rationale, see [`docs/designs/AUTO_SCORE_PIPELINE.md`](../../docs/designs/AUTO_SCORE_PIPELINE.md).
 For the implementation plan, see [`docs/plans/pipeline-implementation-plan.md`](../../docs/plans/pipeline-implementation-plan.md).
@@ -15,7 +15,7 @@ On **January 25**, the `season-lifecycle.yml` workflow automatically:
 
 1. Creates `public/data/<YEAR>/season.json` (if it doesn't exist)
 2. Resets `data/poll-state.json` for the new season
-3. Commits the changes to `main`
+3. Opens and squash-merges a PR to `main`
 4. Enables all 4 season workflows (`schedule-watcher`, `score-poller`, `sunday-reconciliation`, `score-fallback`)
 5. Files a summary issue with a verification checklist
 
@@ -38,10 +38,10 @@ You can also trigger this manually: Actions → Season Lifecycle → Run workflo
 
 ### Required Secret: `PIPELINE_PAT`
 
-The lifecycle workflow uses a Personal Access Token to enable/disable other workflows and push workflow file changes (the default `GITHUB_TOKEN` can't do this). The PAT needs the **`actions: write`**, **`contents: write`**, and **`workflows: write`** scopes.
+The pipeline workflows use a Personal Access Token to enable/disable workflows, push workflow file changes, and create/merge PRs (the default `GITHUB_TOKEN` can't do this). The PAT needs the **`actions: write`**, **`contents: write`**, **`pull_requests: write`**, and **`workflows: write`** scopes.
 
 To set it up:
-1. Create a fine-grained PAT at [github.com/settings/tokens](https://github.com/settings/tokens) with `actions: write`, `contents: write`, and `workflows: write` permissions scoped to this repository
+1. Create a fine-grained PAT at [github.com/settings/tokens](https://github.com/settings/tokens) with `actions: write`, `contents: write`, `pull_requests: write`, and `workflows: write` permissions scoped to this repository
 2. Add it as a repository secret named `PIPELINE_PAT` at Settings → Secrets and variables → Actions
 
 ---
