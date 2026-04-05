@@ -28,7 +28,7 @@ export function ChartContainer({ children, className = '' }: ChartContainerProps
   }, [])
 
   return (
-    <div ref={ref} className={className}>
+    <div ref={ref} className={`select-none [&_*]:outline-none [-webkit-tap-highlight-color:transparent] [&_*]:[-webkit-tap-highlight-color:transparent] ${className}`}>
       {size && children(size.width, size.height)}
     </div>
   )
