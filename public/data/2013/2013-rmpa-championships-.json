@@ -1,0 +1,3059 @@
+{
+  "metadata": {
+    "id": "2013-rmpa-championships-",
+    "eventName": "RMPA Championships",
+    "venue": "",
+    "date": "",
+    "round": "Finals",
+    "year": 2013
+  },
+  "classes": [
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-a",
+        "name": "Percussion Scholastic Concert A",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Broomfield High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Oddis",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 44.6,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Yoder",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 91,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 45.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 44.9,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Sanders",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 93,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 95,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 47.1,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "Whaley",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 85,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 85,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 42.5,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 44.8,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 89.7,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Glenwood Springs High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Oddis",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 81,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 41.1,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "Yoder",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 43.2,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 42.15,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Sanders",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 95,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 97,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 48.1,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Whaley",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 88,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 93,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 45.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 46.8,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 88.95,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Mesa Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Oddis",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 42.1,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "Yoder",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 43.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 43,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Sanders",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 87,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 88,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 43.8,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "Whaley",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 90,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 44.8,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 44.3,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 87.3,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-a",
+        "name": "Percussion Scholastic A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Wheat Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Sanders",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 36.6,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Whaley",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 90,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 36.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 36.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Oddis",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 34.3,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "Yoder",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 36.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 35.5,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Sabach",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Sybilsky",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 18,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 17.5,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 89.5,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Rampart High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Sanders",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 87,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 88,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 35,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "Whaley",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 86,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 86,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 34.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 34.7,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Oddis",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 91,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 35.65,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Yoder",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 91,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 36.15,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 35.9,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Sabach",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 15.6,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "Sybilsky",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 16.8,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 16.2,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 86.8,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Thunder Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Sanders",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 85,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 87,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 34.4,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "Whaley",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 87,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 88,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 35,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 34.7,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Oddis",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 32.25,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "Yoder",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 89,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 35.45,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 33.85,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Sabach",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 77,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 15.7,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "Sybilsky",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 82,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 79,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 16.1,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 15.9,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 84.45,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Mountain Range High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Sanders",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 85,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 33.8,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "Whaley",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 83,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 33.2,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 33.5,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Oddis",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 34.25,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "Yoder",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 34.4,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 34.325,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Sabach",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 78,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 15.3,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "Sybilsky",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 17.6,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 16.45,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": -0.4,
+          "penalty": -0.4,
+          "total": 83.875,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-national-a",
+        "name": "Percussion Scholastic National A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Centaurus High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Whaley",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 87,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 35.8,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 94,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 94,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 37.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 36.7,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 91,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 35.15,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Oddis",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 35.85,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 35.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Sabach",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 91,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 18.1,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "Sybilsky",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 95,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 94,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 18.9,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 18.5,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 90.7,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Longmont High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Whaley",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 91,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 36,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 88,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 90,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 35.6,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 35.8,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 33.9,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "Oddis",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 35,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 34.45,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Sabach",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 18.3,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Sybilsky",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 93,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 92,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 18.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 18.4,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 88.65,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Doherty High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Whaley",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 84,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 33.6,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 87,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 85,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 34.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 34,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 80,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 80,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 32,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "Oddis",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 34.8,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 33.4,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Sabach",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 16.4,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "Sybilsky",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 16.9,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 16.65,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 84.05,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-a",
+        "name": "Percussion Independent A",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "New Mexico Adrena-line",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Whaley",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 80,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 31.8,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 79,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 78,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 31.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 31.6,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 76,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 76,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 30.4,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Oddis",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 83,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 81,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 32.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 31.55,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Sabach",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 77,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 75,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 15.2,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Sybilsky",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 79,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 15.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 15.45,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 78.6,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-open",
+        "name": "Percussion Scholastic Concert Open",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Douglas County High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 89,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 45.1,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "Oddis",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 94,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 94,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 47,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 46.05,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Whaley",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 89,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 91,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 45.1,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 91.5,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 94,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 46.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 45.8,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 91.85,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Golden High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 93,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 45.9,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Oddis",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 88,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 43.8,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 44.85,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Whaley",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 93,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 46.3,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 91,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 93.5,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 46.25,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 46.275,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 91.125,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Heritage High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 42.1,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "Oddis",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 43.1,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 42.6,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Whaley",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 88,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 87,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 43.7,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 92,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 91,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 45.7,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 44.7,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 87.3,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Pine Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 94,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 44.6,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "Oddis",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 86,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 42.4,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 43.5,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Whaley",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 85,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 86,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 42.8,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 89,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 87,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 43.9,
+                  "rank": 5
+                }
+              ],
+              "captionTotal": 43.35,
+              "captionRank": 5
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 86.85,
+          "rank": 4
+        },
+        {
+          "ensembleName": "Arvada High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 84,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 78,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 40.2,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "Oddis",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 44.6,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 42.4,
+              "captionRank": 5
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Whaley",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 83,
+                      "rank": 5
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 85,
+                      "rank": 5
+                    }
+                  ],
+                  "total": 42.1,
+                  "rank": 5
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 93,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 46.5,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 44.3,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 86.7,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-open",
+        "name": "Percussion Scholastic Open",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Monarch High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Sanders",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 87,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 87,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 34.8,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 92,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 92,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 36.8,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 35.8,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Yoder",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 95,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 94,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 37.75,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 95,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 37.55,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 37.65,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Sabach",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 17.7,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Sybilsky",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 95,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 95,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 19,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 18.35,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 91.8,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Silver Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Sanders",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 88,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 88,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 35.2,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 95,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 93,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 37.6,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 36.4,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Yoder",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 96,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 92,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 37.4,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 83,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 34.7,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 36.05,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Sabach",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 17.3,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "Sybilsky",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 91,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 18.3,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 17.8,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 90.25,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Arapahoe High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Sanders",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 85,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 86,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 34.2,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 90,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 88,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 35.6,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 34.9,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Yoder",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 36.3,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 88,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 35.5,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 35.9,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Sabach",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 84,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 16.9,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "Sybilsky",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 88,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 86,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 17.4,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 17.15,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 87.95,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-concert-world",
+        "name": "Percussion Scholastic Concert World",
+        "classType": "concert"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Chaparral High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Yoder",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 88,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 44.8,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 44.1,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 44.45,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Sanders",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 96,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 96,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 48,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 94,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 93,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 46.7,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 47.35,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 91.8,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Bear Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Yoder",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 91,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 43.7,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 45.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 44.55,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Sanders",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 95,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 94,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 47.2,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 92,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 92,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 46,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 46.6,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 91.15,
+          "rank": 2
+        },
+        {
+          "ensembleName": "Cherry Creek High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Yoder",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 89,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 44.7,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 43.9,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 44.3,
+              "captionRank": 3
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Sanders",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 94,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 93,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 46.7,
+                  "rank": 3
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 86,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 90,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 44.2,
+                  "rank": 4
+                }
+              ],
+              "captionTotal": 45.45,
+              "captionRank": 3
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 89.75,
+          "rank": 3
+        },
+        {
+          "ensembleName": "Dakota Ridge High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "Performance",
+              "judges": [
+                {
+                  "judgeName": "Yoder",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 87,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 87,
+                      "rank": 3
+                    }
+                  ],
+                  "total": 43.5,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 89,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 44.7,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 44.1,
+              "captionRank": 4
+            },
+            {
+              "captionName": "Artistry",
+              "judges": [
+                {
+                  "judgeName": "Sanders",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 90,
+                      "rank": 4
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 91,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 45.3,
+                  "rank": 4
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Prog",
+                      "rawScore": 90,
+                      "rank": 3
+                    },
+                    {
+                      "key": "Ful",
+                      "rawScore": 89,
+                      "rank": 4
+                    }
+                  ],
+                  "total": 44.7,
+                  "rank": 3
+                }
+              ],
+              "captionTotal": 45,
+              "captionRank": 4
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 89.1,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-scholastic-world",
+        "name": "Percussion Scholastic World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Northglenn High School",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Sanders",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 93,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 36.6,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 91,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 36.4,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 36.5,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Yoder",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 36.7,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 89,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 36.05,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 36.375,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Sabach",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 91,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 18.1,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Sybilsky",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 92,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 18.2,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 18.15,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 91.025,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "classDef": {
+        "id": "percussion-independent-world",
+        "name": "Percussion Independent World",
+        "classType": "marching"
+      },
+      "ensembles": [
+        {
+          "ensembleName": "Blue Knights",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Sanders",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 90,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 91,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 36.2,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 37,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 36.6,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Yoder",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 93,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 92,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 36.95,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 96,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 95,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 38.15,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 37.55,
+              "captionRank": 1
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Sabach",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 94,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 93,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 18.7,
+                  "rank": 1
+                },
+                {
+                  "judgeName": "Sybilsky",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 95,
+                      "rank": 1
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 94,
+                      "rank": 1
+                    }
+                  ],
+                  "total": 18.9,
+                  "rank": 1
+                }
+              ],
+              "captionTotal": 18.8,
+              "captionRank": 1
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 92.95,
+          "rank": 1
+        },
+        {
+          "ensembleName": "Rise Percussion",
+          "location": "",
+          "captions": [
+            {
+              "captionName": "General Effect",
+              "judges": [
+                {
+                  "judgeName": "Sanders",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 83,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 84,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 33.4,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "Kennedy",
+                  "subCaptions": [
+                    {
+                      "key": "Mus",
+                      "rawScore": 91,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Ovr",
+                      "rawScore": 89,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 36,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 34.7,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Performance Analysis",
+              "judges": [
+                {
+                  "judgeName": "Yoder",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 90,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 91,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 36.25,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "Dubinski",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 93,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 36.45,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 36.35,
+              "captionRank": 2
+            },
+            {
+              "captionName": "Visual",
+              "judges": [
+                {
+                  "judgeName": "Sabach",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 85,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 85,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 17,
+                  "rank": 2
+                },
+                {
+                  "judgeName": "Sybilsky",
+                  "subCaptions": [
+                    {
+                      "key": "Comp",
+                      "rawScore": 89,
+                      "rank": 2
+                    },
+                    {
+                      "key": "Perf",
+                      "rawScore": 90,
+                      "rank": 2
+                    }
+                  ],
+                  "total": 17.9,
+                  "rank": 2
+                }
+              ],
+              "captionTotal": 17.45,
+              "captionRank": 2
+            }
+          ],
+          "subTotal": 0,
+          "penalty": 0,
+          "total": 88.5,
+          "rank": 2
+        }
+      ]
+    }
+  ]
+}

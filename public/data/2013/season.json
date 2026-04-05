@@ -1,0 +1,92 @@
+{
+  "year": 2013,
+  "shows": [
+    {
+      "id": "2013-rmpa-contest-wheat-ridge-h-s-",
+      "eventName": "RMPA Contest - Wheat Ridge H.S.",
+      "date": "",
+      "round": "Finals",
+      "sourceHash": "9ba0fafdadf9376ebf2afd221f35fd56867ed25f2ebffc169709721e288f76e2",
+      "lastImportedUtc": "2026-04-05T05:23:59.673Z"
+    },
+    {
+      "id": "2013-rmpa-contest-northglenn-h-s-",
+      "eventName": "RMPA Contest - Northglenn H.S.",
+      "date": "",
+      "round": "Finals",
+      "sourceHash": "16252d4ff81efa4d539a0fb44aa46d84545994645007b71706426113542a5ffe",
+      "lastImportedUtc": "2026-04-05T05:24:00.777Z"
+    },
+    {
+      "id": "2013-rmpa-contest-mountain-range-h-s-",
+      "eventName": "RMPA Contest - Mountain Range H.S.",
+      "date": "",
+      "round": "Finals",
+      "sourceHash": "6b56f76c113c58b31b59651703b87e5fcbba4a28caa0726e1f26d1d4db8276ab",
+      "lastImportedUtc": "2026-04-05T05:24:01.873Z"
+    },
+    {
+      "id": "2013-rmpa-contest-longmont-h-s-",
+      "eventName": "RMPA Contest - Longmont H.S.",
+      "date": "",
+      "round": "Finals",
+      "sourceHash": "134265a94eed0d167fd07b8bfd6c0efb8b84400770c467d2e7e8e704b21e5186",
+      "lastImportedUtc": "2026-04-05T05:24:02.938Z"
+    },
+    {
+      "id": "2013-rmpa-championships-",
+      "eventName": "RMPA Championships",
+      "date": "",
+      "round": "Finals",
+      "sourceHash": "5669981614160e951afe95971ca52f3ee24c9226a2fe15e76f58f8cd2961644a",
+      "lastImportedUtc": "2026-04-05T05:24:05.272Z"
+    }
+  ],
+  "classes": [
+    {
+      "id": "percussion-scholastic-concert-a",
+      "name": "Percussion Scholastic Concert A",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-a",
+      "name": "Percussion Scholastic A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-national-a",
+      "name": "Percussion Scholastic National A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-open",
+      "name": "Percussion Scholastic Concert Open",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-open",
+      "name": "Percussion Scholastic Open",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-world",
+      "name": "Percussion Scholastic Concert World",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-world",
+      "name": "Percussion Scholastic World",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-independent-world",
+      "name": "Percussion Independent World",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-independent-a",
+      "name": "Percussion Independent A",
+      "classType": "marching"
+    }
+  ]
+}

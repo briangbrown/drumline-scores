@@ -1,0 +1,46 @@
+{
+  "year": 2012,
+  "shows": [
+    {
+      "id": "2012-rmpa-contest-legacy-high-school-",
+      "eventName": "RMPA Contest - Legacy High School",
+      "date": "",
+      "round": "Legacy Show - Finals",
+      "sourceUrl": "http://recaps.competitionsuite.com/4f3d490c-4b5c-4c47-938d-8f10a4631d8b.htm",
+      "sourceHash": "e4eefc85ba96336d4a110a9c4e8bc12119c049fb94cbf81380cbe28049960eee",
+      "lastImportedUtc": "2026-04-05T05:23:53.482Z"
+    }
+  ],
+  "classes": [
+    {
+      "id": "percussion-scholastic-a",
+      "name": "Percussion Scholastic A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-national-a",
+      "name": "Percussion Scholastic National A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-open",
+      "name": "Percussion Scholastic Open",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-a",
+      "name": "Percussion Scholastic Concert A",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-concert-open",
+      "name": "Percussion Scholastic Concert Open",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-concert-world",
+      "name": "Percussion Scholastic Concert World",
+      "classType": "concert"
+    }
+  ]
+}

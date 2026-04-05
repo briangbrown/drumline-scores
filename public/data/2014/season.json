@@ -1,0 +1,82 @@
+{
+  "year": 2014,
+  "shows": [
+    {
+      "id": "2014-rmpa-contest-february-22-mountain-range-high-school",
+      "eventName": "RMPA Contest",
+      "date": "Saturday, February 22, 2014 - Mountain Range High School",
+      "round": "",
+      "sourceHash": "cbe6c2ae6bca45b07b1b2864d2a9e60d9f0b604bfe51863216e548a912a74b23",
+      "lastImportedUtc": "2026-04-05T05:24:06.614Z"
+    },
+    {
+      "id": "2014-rmpa-contest-march-1-mountain-range-high-school",
+      "eventName": "RMPA Contest",
+      "date": "Saturday, March 1, 2014 - Mountain Range High School",
+      "round": "",
+      "sourceHash": "a031e135f92fb3a3a558b65b52cf774f72fe0bf97bf7dc773c4988772d00c7e8",
+      "lastImportedUtc": "2026-04-05T05:24:07.681Z"
+    },
+    {
+      "id": "2014-rmpa-contest-march-22-longmont-high-school",
+      "eventName": "RMPA Contest",
+      "date": "Saturday, March 22, 2014 - Longmont High School",
+      "round": "",
+      "sourceHash": "7742ccff97274760ea1444f8a8597949b30c27d9c494589528b70ec8d1cb9b73",
+      "lastImportedUtc": "2026-04-05T05:24:09.793Z"
+    },
+    {
+      "id": "2014-rmpa-championships-march-29-coors-events-center",
+      "eventName": "RMPA Championships",
+      "date": "Saturday, March 29, 2014 - Coors Events Center",
+      "round": "Finals",
+      "sourceHash": "33d9b5d57109a256a498650f2d7b8dab6014ed64231cd2ed34e06fa1d1a92da9",
+      "lastImportedUtc": "2026-04-05T05:24:12.069Z"
+    },
+    {
+      "id": "2014-rmpa-contest-march-8-northglenn-high-school",
+      "eventName": "RMPA Contest",
+      "date": "Saturday, March 8, 2014 - Northglenn High School",
+      "round": "",
+      "sourceHash": "020a6603a293384416daf0b9c70f469ac040b33d8f91e60639b8e147f75103af",
+      "lastImportedUtc": "2026-04-05T05:24:08.726Z"
+    }
+  ],
+  "classes": [
+    {
+      "id": "percussion-scholastic-concert-a",
+      "name": "Percussion Scholastic Concert A",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-a",
+      "name": "Percussion Scholastic A",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-open",
+      "name": "Percussion Scholastic Concert Open",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-scholastic-open",
+      "name": "Percussion Scholastic Open",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-scholastic-concert-world",
+      "name": "Percussion Scholastic Concert World",
+      "classType": "concert"
+    },
+    {
+      "id": "percussion-independent-world",
+      "name": "Percussion Independent World",
+      "classType": "marching"
+    },
+    {
+      "id": "percussion-independent-a",
+      "name": "Percussion Independent A",
+      "classType": "marching"
+    }
+  ]
+}
