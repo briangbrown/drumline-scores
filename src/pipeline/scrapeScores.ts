@@ -1,4 +1,5 @@
 import { load } from 'cheerio'
+import { isCompetitionSuiteUrl } from './urlValidation'
 
 // ---------------------------------------------------------------------------
 // Types
@@ -37,7 +38,7 @@ function parseScorePage(html: string): Array<RecapEntry> {
       if (anchor.length === 0) return
 
       const href = anchor.attr('href')
-      if (!href || !href.includes('competitionsuite.com')) return
+      if (!href || !isCompetitionSuiteUrl(href)) return
 
       const dateText = anchor.text().trim()
       // Event name is the text content of the <li> after the <a>

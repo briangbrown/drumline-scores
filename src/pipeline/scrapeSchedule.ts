@@ -1,4 +1,5 @@
 import { load } from 'cheerio'
+import { isCompetitionSuiteUrl } from './urlValidation'
 
 // ---------------------------------------------------------------------------
 // Types
@@ -47,8 +48,9 @@ function parseCompetitionsPage(html: string): Array<CompetitionEvent> {
     // Find the schedule link — it's in a sibling row after this one
     const eventRow = parentP.closest('.row')
     const nextRow = eventRow.next('.row')
-    const scheduleLink = nextRow.find('a[href*="competitionsuite.com"][href*="_standard"]')
-    const scheduleUrl = scheduleLink.attr('href') || null
+    const scheduleLink = nextRow.find('a[href*="_standard"]')
+    const rawScheduleUrl = scheduleLink.attr('href') || null
+    const scheduleUrl = rawScheduleUrl && isCompetitionSuiteUrl(rawScheduleUrl) ? rawScheduleUrl : null
 
     events.push({ date, eventName, scheduleUrl })
   })
