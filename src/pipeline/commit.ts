@@ -1,12 +1,12 @@
-import { execSync } from 'node:child_process'
+import { execFileSync } from 'node:child_process'
 import type { ShowData } from '../types'
 
 // ---------------------------------------------------------------------------
 // Functions
 // ---------------------------------------------------------------------------
 
-function git(command: string): string {
-  return execSync(`git ${command}`, { encoding: 'utf-8' }).trim()
+function git(...args: Array<string>): string {
+  return execFileSync('git', args, { encoding: 'utf-8' }).trim()
 }
 
 function commitNewShow(showData: ShowData, files: Array<string>): void {
@@ -16,7 +16,7 @@ function commitNewShow(showData: ShowData, files: Array<string>): void {
   const classNames = showData.classes.map((c) => c.classDef.name).join(', ')
 
   for (const file of files) {
-    git(`add "${file}"`)
+    git('add', file)
   }
 
   const message = [
@@ -28,7 +28,7 @@ function commitNewShow(showData: ShowData, files: Array<string>): void {
     'Automated by: score-ingestion-pipeline',
   ].join('\n')
 
-  git(`commit -m "${message.replace(/"/g, '\\"')}"`)
+  git('commit', '-m', message)
 }
 
 function commitUpdatedShow(
@@ -41,7 +41,7 @@ function commitUpdatedShow(
   const { metadata } = showData
 
   for (const file of files) {
-    git(`add "${file}"`)
+    git('add', file)
   }
 
   const message = [
@@ -53,12 +53,12 @@ function commitUpdatedShow(
     'Automated by: score-ingestion-pipeline',
   ].join('\n')
 
-  git(`commit -m "${message.replace(/"/g, '\\"')}"`)
+  git('commit', '-m', message)
 }
 
 function commitPollState(message: string): void {
-  git('add data/poll-state.json')
-  git(`commit -m "chore(data): ${message}\n\nAutomated by: score-ingestion-pipeline"`)
+  git('add', 'data/poll-state.json')
+  git('commit', '-m', `chore(data): ${message}\n\nAutomated by: score-ingestion-pipeline`)
 }
 
 // ---------------------------------------------------------------------------

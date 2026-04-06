@@ -1,4 +1,4 @@
-import { execSync } from 'node:child_process'
+import { execFileSync } from 'node:child_process'
 
 // ---------------------------------------------------------------------------
 // Types
@@ -49,12 +49,16 @@ function reportFailure(failure: IssueFailure): void {
   if (failure.failureType.includes('ensemble')) labels.push('new-ensemble')
 
   const assignee = process.env['PIPELINE_ISSUE_ASSIGNEE'] ?? ''
-  const assigneeFlag = assignee ? ` --assignee "${assignee}"` : ''
 
-  execSync(
-    `gh issue create --title "${title.replace(/"/g, '\\"')}" --label "${labels.join(',')}"${assigneeFlag} --body "${body.replace(/"/g, '\\"').replace(/\n/g, '\\n')}"`,
-    { stdio: 'inherit' },
-  )
+  const args = [
+    'issue', 'create',
+    '--title', title,
+    '--label', labels.join(','),
+    '--body', body,
+  ]
+  if (assignee) args.push('--assignee', assignee)
+
+  execFileSync('gh', args, { stdio: 'inherit' })
 }
 
 // ---------------------------------------------------------------------------
