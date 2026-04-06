@@ -13,7 +13,7 @@ import { readPollState, writePollState, addOrUpdateRetreat, makeRetreatEntry, em
 import { parseCompetitionsPage, parseScheduleRetreats, localTimeToUtc, filterUpcomingEvents } from '../scrapeSchedule'
 import { writePollerCron, POLLER_WORKFLOW_PATH } from '../pollerCron'
 import { existsSync } from 'node:fs'
-import { execSync } from 'node:child_process'
+import { execFileSync } from 'node:child_process'
 
 const POLL_STATE_PATH = 'data/poll-state.json'
 const COMPETITIONS_URL = 'https://rmpa.org/competitions'
@@ -103,7 +103,7 @@ async function main(): Promise<void> {
     const hasPending = state.retreats.some((r) => r.status === 'pending')
     if (hasPending) {
       try {
-        execSync('gh workflow enable score-poller.yml', { stdio: 'inherit' })
+        execFileSync('gh', ['workflow', 'enable', 'score-poller.yml'], { stdio: 'inherit' })
         console.log('Enabled score-poller workflow')
       } catch {
         console.log('⚠ Could not enable score-poller (may already be enabled)')

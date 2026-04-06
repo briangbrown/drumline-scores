@@ -9,7 +9,7 @@
 
 import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { resolve, basename } from 'node:path'
-import { execSync } from 'node:child_process'
+import { execFileSync } from 'node:child_process'
 import { parseScorePage, filterByYear } from '../scrapeScores'
 import { hashContent, compareHash } from '../contentHash'
 import { validateShowData } from '../validate'
@@ -114,7 +114,7 @@ async function main(): Promise<void> {
 
       console.log(`  Importing ${basename(htmlPath)}...`)
       try {
-        execSync(`npx tsx src/import.ts "${htmlPath}" --year ${year}`, {
+        execFileSync('npx', ['tsx', 'src/import.ts', htmlPath, '--year', String(year)], {
           stdio: 'inherit',
         })
       } catch (err) {

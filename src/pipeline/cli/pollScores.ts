@@ -11,7 +11,7 @@
 
 import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { resolve, basename } from 'node:path'
-import { execSync } from 'node:child_process'
+import { execFileSync } from 'node:child_process'
 import {
   readPollState,
   writePollState,
@@ -163,7 +163,7 @@ async function main(): Promise<void> {
       // Run import
       console.log(`  Importing ${basename(htmlPath)}...`)
       try {
-        execSync(`npx tsx src/import.ts "${htmlPath}" --year ${state.season}`, {
+        execFileSync('npx', ['tsx', 'src/import.ts', htmlPath, '--year', String(state.season)], {
           stdio: 'inherit',
         })
       } catch (err) {
