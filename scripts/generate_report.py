@@ -269,9 +269,8 @@ def collect_codespaces_billing() -> dict | None:
         )
         if resp.status_code != 200:
             log.warning(
-                "  → Codespaces unavailable (HTTP %d): %s",
+                "  → Codespaces unavailable (HTTP %d)",
                 resp.status_code,
-                resp.text[:120],
             )
             return None
 
@@ -339,9 +338,8 @@ def collect_anthropic_usage(since: datetime, until: datetime) -> dict | None:
 
     if not admin_key.startswith("sk-ant-admin"):
         log.warning(
-            "  → ANTHROPIC_ADMIN_KEY looks like a standard API key (prefix: %s…). "
-            "Usage endpoints require an admin key.",
-            admin_key[:20],
+            "  → ANTHROPIC_ADMIN_KEY looks like a standard API key. "
+            "Usage endpoints require an admin key."
         )
         return {
             "available": False,
@@ -398,11 +396,10 @@ def collect_anthropic_usage(since: datetime, until: datetime) -> dict | None:
             log.info("  → Token usage collected (%d model(s))", len(totals))
         else:
             log.warning(
-                "  → usage_report/messages HTTP %d: %s",
+                "  → usage_report/messages HTTP %d",
                 resp.status_code,
-                resp.text[:120],
             )
-            result["token_usage_error"] = f"HTTP {resp.status_code}: {resp.text[:120]}"
+            result["token_usage_error"] = f"HTTP {resp.status_code}"
     except Exception as exc:
         log.warning("  → Token usage error: %s", exc)
         result["token_usage_error"] = str(exc)
@@ -435,11 +432,10 @@ def collect_anthropic_usage(since: datetime, until: datetime) -> dict | None:
             log.info("  → Cost report collected ($%.4f USD)", result["total_cost_usd"])
         else:
             log.warning(
-                "  → cost_report HTTP %d: %s",
+                "  → cost_report HTTP %d",
                 resp.status_code,
-                resp.text[:120],
             )
-            result["cost_error"] = f"HTTP {resp.status_code}: {resp.text[:120]}"
+            result["cost_error"] = f"HTTP {resp.status_code}"
     except Exception as exc:
         log.warning("  → Cost report error: %s", exc)
         result["cost_error"] = str(exc)
