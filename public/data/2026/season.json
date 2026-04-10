@@ -7,7 +7,7 @@
       "date": "Saturday, February 14, 2026",
       "round": "",
       "sourceHash": "b660d84fcbd1a123bfbc040f9904aa983e17b52d0d7da97a7b102c94e819b295",
-      "lastImportedUtc": "2026-04-09T19:17:26.545Z"
+      "lastImportedUtc": "2026-04-10T19:02:51.549Z"
     },
     {
       "id": "2026-rmpa-show-2-february-21",
@@ -15,7 +15,7 @@
       "date": "Saturday, February 21, 2026",
       "round": "",
       "sourceHash": "8391a3a0d582942cb1db2eaae758774a79168e9d3d9407b5fc8880873cfb6429",
-      "lastImportedUtc": "2026-04-09T19:17:25.339Z"
+      "lastImportedUtc": "2026-04-10T19:02:50.267Z"
     },
     {
       "id": "2026-rmpa-show-3-february-28",
@@ -23,7 +23,7 @@
       "date": "Saturday, February 28, 2026",
       "round": "",
       "sourceHash": "aa155e6d6c8f96aeece5faf980a0d4bfdafcf9dbcb966c96e0841b3973b94254",
-      "lastImportedUtc": "2026-04-09T19:17:24.075Z"
+      "lastImportedUtc": "2026-04-10T19:02:49.038Z"
     },
     {
       "id": "2026-rmpa-show-4-march-7",
@@ -31,7 +31,7 @@
       "date": "Saturday, March 7, 2026",
       "round": "",
       "sourceHash": "c23f778e40abf98cb62e1d5a6dabf51a44e5986f723197d64963e17d9302da8f",
-      "lastImportedUtc": "2026-04-09T19:17:22.816Z"
+      "lastImportedUtc": "2026-04-10T19:02:47.752Z"
     },
     {
       "id": "2026-rmpa-show-5-march-21",
@@ -39,7 +39,7 @@
       "date": "Saturday, March 21, 2026",
       "round": "",
       "sourceHash": "27526c291a8eee0ba46f7dfec7d1fbd3a9ebb9ae25aec833f01296ab5e85bf95",
-      "lastImportedUtc": "2026-04-09T19:17:21.525Z"
+      "lastImportedUtc": "2026-04-10T19:02:46.464Z"
     },
     {
       "id": "2026-rmpa-championships-march-28",
@@ -47,7 +47,7 @@
       "date": "Saturday, March 28, 2026",
       "round": "Prelims",
       "sourceHash": "14d3606f98859bdba39b09d8faebe9f5af19346d682fd0043ccfb0640292c3a4",
-      "lastImportedUtc": "2026-04-09T19:17:20.284Z"
+      "lastImportedUtc": "2026-04-10T19:02:45.290Z"
     },
     {
       "id": "2026-rmpa-championships-april-4",
@@ -55,7 +55,7 @@
       "date": "Saturday, April 4, 2026",
       "round": "Finals",
       "sourceHash": "47c00afae31c0503557e5f3d0a5d77c54186993b3627320f4b8179beb3fd3018",
-      "lastImportedUtc": "2026-04-09T19:17:18.796Z"
+      "lastImportedUtc": "2026-04-10T19:02:43.793Z"
     }
   ],
   "classes": [
