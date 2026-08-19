@@ -193,12 +193,88 @@ function validateDataConsistency(showData: ShowData): GateResult {
 }
 
 // ---------------------------------------------------------------------------
+// Gate 8: String Content
+// ---------------------------------------------------------------------------
+
+const MAX_STRING_LENGTH = 500
+
+// Identifiers are interpolated into filesystem paths — import.ts writes
+// `<outputDir>/<metadata.id>.json` — so they are restricted to a slug charset.
+// Excluding `.` and both slash characters rules out traversal outright.
+const SAFE_ID = /^[A-Za-z0-9_-]+$/
+
+// Free-text fields are never handed to a shell: commit.ts and reportIssue.ts
+// spawn via execFileSync with an argument array, so shell metacharacters carry
+// no meaning downstream and real recaps contain them ("Bobby & Ben", 'Dakota
+// Ridge High School "A"'). Control characters have no legitimate place in a
+// name and do corrupt commit messages, logs, and issue bodies.
+const CONTROL_CHARS = /[\u0000-\u001F\u007F]/
+
+/** Keep untrusted values short where they are echoed back into error output. */
+function preview(value: string): string {
+  return value.length > 60 ? `${value.slice(0, 60)}…` : value
+}
+
+function checkText(value: string, fieldName: string, errors: Array<string>): void {
+  if (value.length > MAX_STRING_LENGTH) {
+    errors.push(`${fieldName} exceeds max length ${MAX_STRING_LENGTH} (${value.length} chars)`)
+  }
+  if (CONTROL_CHARS.test(value)) {
+    errors.push(`${fieldName} contains control characters`)
+  }
+}
+
+function checkIdentifier(value: string, fieldName: string, errors: Array<string>): void {
+  checkText(value, fieldName, errors)
+  // An empty identifier is Gate 1's error to report, not this gate's.
+  if (value && !SAFE_ID.test(value)) {
+    errors.push(`${fieldName} "${preview(value)}" is not a safe identifier (expected letters, digits, - or _)`)
+  }
+}
+
+function validateStringContent(showData: ShowData): GateResult {
+  const errors: Array<string> = []
+  const { metadata, classes } = showData
+
+  checkIdentifier(metadata.id, 'metadata.id', errors)
+  checkText(metadata.eventName, 'metadata.eventName', errors)
+  checkText(metadata.venue, 'metadata.venue', errors)
+  checkText(metadata.date, 'metadata.date', errors)
+  checkText(metadata.round, 'metadata.round', errors)
+
+  for (const cls of classes) {
+    const label = preview(cls.classDef.name)
+    checkIdentifier(cls.classDef.id, `${label}: classDef.id`, errors)
+    checkText(cls.classDef.name, 'classDef.name', errors)
+
+    for (const ens of cls.ensembles) {
+      const ensLabel = preview(ens.ensembleName)
+      checkText(ens.ensembleName, 'ensembleName', errors)
+      checkText(ens.location, `${ensLabel}: location`, errors)
+
+      for (const cap of ens.captions) {
+        checkText(cap.captionName, `${ensLabel}: captionName`, errors)
+        for (const judge of cap.judges) {
+          checkText(judge.judgeName, `${ensLabel}/${preview(cap.captionName)}: judgeName`, errors)
+          for (const sub of judge.subCaptions) {
+            checkIdentifier(sub.key, `${ensLabel}/${preview(cap.captionName)}: subCaption key`, errors)
+          }
+        }
+      }
+    }
+  }
+
+  return { name: 'String Content', passed: errors.length === 0, errors, warnings: [] }
+}
+
+// ---------------------------------------------------------------------------
 // Main validation function
 // ---------------------------------------------------------------------------
 
 function validateShowData(showData: ShowData, year: number, season?: SeasonMetadata): ValidationResult {
   const gates: Array<GateResult> = [
     validateSchema(showData),
+    validateStringContent(showData),
     validateScoreRanges(showData),
     validateCaptionStructure(showData, year),
     validateDataConsistency(showData),
@@ -221,6 +297,7 @@ function validateShowData(showData: ShowData, year: number, season?: SeasonMetad
 export {
   validateShowData,
   validateSchema,
+  validateStringContent,
   validateScoreRanges,
   validateCaptionStructure,
   validateDeduplication,

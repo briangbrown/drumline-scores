@@ -475,6 +475,15 @@ These gates replace human review. All must pass before auto-committing.
 - Caption totals sum to the parsed sub-total (within ±0.05)
 - Sub-total minus penalty equals the parsed final total
 
+### Gate 8: String Content
+
+Recap HTML is third-party input, so parsed strings are checked for content as well as presence:
+
+- **Identifiers** (`metadata.id`, `classDef.id`, sub-caption keys) must match `[A-Za-z0-9_-]+`. These are interpolated into filesystem paths (`import.ts` writes `<outputDir>/<metadata.id>.json`), and excluding `.` and slashes rules out path traversal outright.
+- **All strings** are capped at 500 characters, so a malformed recap cannot flood logs, commit messages, or issue bodies.
+- **Control characters** (`U+0000`–`U+001F`, `U+007F`) are rejected in every field — they have no place in a name and corrupt commit messages and issue bodies.
+- **Shell metacharacters are deliberately allowed.** Nothing downstream runs a shell: `commit.ts` and `reportIssue.ts` spawn via `execFileSync` with argument arrays. Real recaps contain these characters (`Bobby & Ben`, `Dakota Ridge High School "A"`), so rejecting them would fail valid shows.
+
 ---
 
 ## Auto-Commit to `main`

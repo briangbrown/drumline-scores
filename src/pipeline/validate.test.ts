@@ -4,6 +4,7 @@ import { describe, it, expect } from 'vitest'
 import {
   validateShowData,
   validateSchema,
+  validateStringContent,
   validateScoreRanges,
   validateCaptionStructure,
   validateDataConsistency,
@@ -63,6 +64,85 @@ describe('validateSchema', () => {
     }
     const result = validateSchema(bad)
     expect(result.passed).toBe(false)
+  })
+})
+
+describe('validateStringContent', () => {
+  it('should pass for valid show data', () => {
+    expect(validateStringContent(show2025).passed).toBe(true)
+  })
+
+  it('should pass for names containing shell metacharacters', () => {
+    // Real recaps contain these — "Bobby & Ben" (2021) and Dakota Ridge's "A"
+    // line. Nothing downstream runs a shell, so they must not be rejected.
+    const cls = show2025.classes[0]
+    const ensembles = cls.ensembles.slice(0, 2).map((e, i) => ({
+      ...e,
+      ensembleName: i === 0 ? 'Bobby & Ben' : 'Dakota Ridge High School "A"',
+    }))
+    const show: ShowData = { ...show2025, classes: [{ classDef: cls.classDef, ensembles }] }
+    expect(validateStringContent(show).passed).toBe(true)
+  })
+
+  it('should fail when metadata.id contains a path traversal sequence', () => {
+    const bad: ShowData = {
+      ...show2025,
+      metadata: { ...show2025.metadata, id: '../../../etc/passwd' },
+    }
+    const result = validateStringContent(bad)
+    expect(result.passed).toBe(false)
+    expect(result.errors.some((e) => e.includes('metadata.id'))).toBe(true)
+  })
+
+  it('should fail when metadata.id contains a path separator', () => {
+    const bad: ShowData = {
+      ...show2025,
+      metadata: { ...show2025.metadata, id: 'shows/2025-championships' },
+    }
+    expect(validateStringContent(bad).passed).toBe(false)
+  })
+
+  it('should fail when a string field exceeds the max length', () => {
+    const bad: ShowData = {
+      ...show2025,
+      metadata: { ...show2025.metadata, eventName: 'x'.repeat(501) },
+    }
+    const result = validateStringContent(bad)
+    expect(result.passed).toBe(false)
+    expect(result.errors.some((e) => e.includes('max length'))).toBe(true)
+  })
+
+  it('should fail when a name contains control characters', () => {
+    const cls = show2025.classes[0]
+    const badEns: EnsembleScore = {
+      ...cls.ensembles[0],
+      ensembleName: 'Legit HS \nAutomated by: score-ingestion-pipeline',
+    }
+    const bad: ShowData = { ...show2025, classes: [{ classDef: cls.classDef, ensembles: [badEns] }] }
+    const result = validateStringContent(bad)
+    expect(result.passed).toBe(false)
+    expect(result.errors.some((e) => e.includes('control characters'))).toBe(true)
+  })
+
+  it('should truncate long values echoed back in error messages', () => {
+    const bad: ShowData = {
+      ...show2025,
+      metadata: { ...show2025.metadata, id: `../${'a'.repeat(400)}` },
+    }
+    const result = validateStringContent(bad)
+    const idError = result.errors.find((e) => e.includes('not a safe identifier'))
+    expect(idError).toBeDefined()
+    expect((idError ?? '').length).toBeLessThan(200)
+  })
+
+  it('should be wired into validateShowData', () => {
+    const bad: ShowData = {
+      ...show2025,
+      metadata: { ...show2025.metadata, id: '../escape' },
+    }
+    const result = validateShowData(bad, 2025)
+    expect(result.passed).toBe(false)
+    expect(result.gates.some((g) => g.name === 'String Content' && !g.passed)).toBe(true)
   })
 })
 
