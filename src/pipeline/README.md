@@ -165,7 +165,7 @@ src/pipeline/
 ├── contentHash.ts        # SHA-256 hashing for change detection
 ├── scrapeScores.ts       # Parse rmpa.org/scores HTML
 ├── scrapeSchedule.ts     # Parse competition schedules for retreat times
-├── validate.ts           # 5 validation gates
+├── validate.ts           # 6 validation gates
 ├── reportIssue.ts        # GitHub issue filing
 ├── commit.ts             # Git commit wrappers
 ├── integration.test.ts   # Full season simulation tests
